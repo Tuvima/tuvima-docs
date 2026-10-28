@@ -627,6 +627,54 @@
       "slug": "reference/ui-supported-devices",
       "group": "Reference",
       "section": "Project"
+    },
+    {
+      "source": "policies/license.md",
+      "slug": "policies/license",
+      "group": "Reference",
+      "section": "Legal and policies"
+    },
+    {
+      "source": "policies/privacy.md",
+      "slug": "policies/privacy",
+      "group": "Reference",
+      "section": "Legal and policies"
+    },
+    {
+      "source": "policies/security.md",
+      "slug": "policies/security",
+      "group": "Reference",
+      "section": "Legal and policies",
+      "fetch": {
+        "repo": "Tuvima/tuvima-library",
+        "path": "SECURITY.md"
+      }
+    },
+    {
+      "source": "policies/code-of-conduct.md",
+      "slug": "policies/code-of-conduct",
+      "group": "Reference",
+      "section": "Legal and policies",
+      "fetch": {
+        "repo": "Tuvima/tuvima-library",
+        "path": "CODE_OF_CONDUCT.md"
+      }
+    },
+    {
+      "source": "policies/attributions.md",
+      "slug": "policies/attributions",
+      "group": "Reference",
+      "section": "Legal and policies"
+    },
+    {
+      "source": "policies/third-party-notices.md",
+      "slug": "policies/third-party-notices",
+      "group": "Reference",
+      "section": "Legal and policies",
+      "fetch": {
+        "repo": "Tuvima/tuvima-library",
+        "path": "THIRD-PARTY-NOTICES.md"
+      }
     }
   ]
 }

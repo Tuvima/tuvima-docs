@@ -43,6 +43,7 @@ export default defineConfig({
       ThemeProvider: './src/components/ThemeProvider.astro',
       ThemeSelect: './src/components/ThemeSelect.astro',
       Header: './src/components/Header.astro',
+      Hero: './src/components/Hero.astro',
       SiteTitle: './src/components/SiteTitle.astro',
       Search: './src/components/HubSearch.astro',
       PageTitle: './src/components/PageTitle.astro',

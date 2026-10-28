@@ -2,13 +2,13 @@
 // (CONTRIBUTING.md, SECURITY.md, ...). The site rebuilds weekly, so these are fetched
 // when the site is built; the committed copy is the fallback when GitHub cannot be reached.
 const blob = 'https://github.com/Tuvima/tuvima-library/blob/main';
-const legacyMoves = { 'reference/attributions/': 'legal/attributions/', 'product/license/': 'legal/license/', 'product/security/': 'legal/security/' };
+const legacyMoves = { 'reference/attributions/': 'products/library/policies/attributions/', 'product/license/': 'products/library/policies/license/', 'product/security/': 'products/library/policies/security/' };
 
 /** Point links in a root file at their pages on the hub. Safe to run on already-converted text. */
 export function transformRootFile(text) {
   return text.replace(/\r\n/g, '\n')
-    .replace(/\]\((?:\.\.\/)*CODE_OF_CONDUCT\.md\)/g, '](/legal/code-of-conduct.md)')
-    .replace(/\]\((?:\.\.\/)*SECURITY\.md\)/g, '](/legal/security.md)')
+    .replace(/\]\((?:\.\.\/)*CODE_OF_CONDUCT\.md\)/g, '](/products/library/policies/code-of-conduct.md)')
+    .replace(/\]\((?:\.\.\/)*SECURITY\.md\)/g, '](/products/library/policies/security.md)')
     .replace(/\]\((?:\.\.\/)*(LICENSE|AGENTS\.md|CLAUDE\.md)\)/g, `](${blob}/$1)`)
     .replace(/https:\/\/tuvima\.github\.io\/tuvima-library\/([^\s)"']*)/g, (_, rest) => `/${legacyMoves[rest.split('#')[0]] ? legacyMoves[rest.split('#')[0]] + (rest.includes('#') ? '#' + rest.split('#')[1] : '') : `products/library/${rest}`}`);
 }

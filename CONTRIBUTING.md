@@ -37,7 +37,7 @@ To move a page, change its `slug` and fix links to it. The site keeps only the l
 
 ## Add a product, library or policy page
 
-A product is an app people use (`/products/`), a library is a developer package (`/libraries/`), and a policy page belongs to no single product (`/legal/`). Adding one is a checklist:
+A product is an app people use (`/products/`), a library is a developer package (`/libraries/`), and a policy that applies to every product goes under `/legal/` (a product's own policies live in that product's folder). Adding one is a checklist:
 
 1. **Copy the template.** Copy `templates/product/` to `content/<area>/<id>/`, for example `content/products/id/`. Rename and rewrite the three sample pages, and replace `product-name` in each page's `product_area`.
 2. **Add the item to the catalog.** Copy `templates/product/catalog-entry.json` into the `items` list of `catalog.json` and fill in the area, id, name, one-line description, path, status, start page, the product's repository and its docs folder. The home page card, the area page, the item switcher and the menu all come from this row.
@@ -45,7 +45,7 @@ A product is an app people use (`/products/`), a library is a developer package 
 4. **Catch documentation gaps at the source.** Add a "docs needed" tick box to the product repository's pull request template, for example: `- [ ] Documentation updated in tuvima-docs (link the proposed change)`.
 5. **Check.** Run `npm test`, `npm run check` and `npm run build` in `site/`.
 
-A new policy page goes in `content/legal/` and is listed in `content/legal/manifest.json`. A new area (for example `/company/`) is a new entry in `catalog.json`'s `areas`; existing pages do not move.
+A policy for one product goes in that product's folder (Library's are in `content/products/library/policies/`); a policy for every product goes in `content/legal/` and is listed in `content/legal/manifest.json`. A new area (for example `/company/`) is a new entry in `catalog.json`'s `areas`; existing pages do not move.
 
 If a page mirrors a file that must stay at the root of a product repository (a licence, security policy or contributing guide), add `"fetch": { "repo": "Tuvima/<repository>", "path": "<file>" }` to its manifest entry. The site fetches the file whenever it builds and rebuilds every week; run `node scripts/update-root-snapshots.mjs` to refresh the committed fallback copy.
 
