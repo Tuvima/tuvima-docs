@@ -7,6 +7,10 @@ product_area: wikidata
 status: current
 ---
 
+## v3.10.1
+
+Documentation release. The guides, reference, migration guides and this changelog moved to docs.tuvima.com; the README and package links point there. No code changes.
+
 ## v3.10.0
 
 Matching quality, OpenRefine data extension, and packaging release. Backward compatible; validated against the 3.9.1 package baseline.
