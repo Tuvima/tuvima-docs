@@ -25,6 +25,10 @@ Source of `docs.tuvima.com`. Loaded into every Claude session in this repository
 7. Plain-English style and the product vocabulary in `CONTRIBUTING.md`: Library, Universe, Series, Work, Edition, Media Asset, Needs Review, Engine, Dashboard, Vault, Bookmarks. Never "Registry".
 8. The product owner (Shy) is not a developer: explain trade-offs in product terms (Maintenance, Extensibility, Privacy, Reliability, Performance) and end plans and finished work with a Plain English Summary.
 
+## Pages the Library app checks
+
+Library's own tests (`PublicDocsDriftTests` in `tuvima-library`) read four pages from this repository on every Library CI run and nightly, so they cannot drift from the app: `architecture/backup-and-restore.md` (lists every backup-classified table in backticks), `guides/configuring-providers.md`, `architecture/ingestion-identity-enrichment-pipeline.md` and `reference/media-types.md` (music identity wording), `product/presentation-rules.md` (Devices under Settings > Security), and `policies/attributions.md` (ExifTool credit). Renaming or rewording those lines means updating that test in the same pair of changes.
+
 ## Adding a product
 
 Follow `CONTRIBUTING.md` (copy `templates/product/`, add a row to `catalog.json`, list the pages in `manifest.json`, add the "docs needed" box to the product repository's PR template). `scripts/template.test.mjs` keeps the template valid.
