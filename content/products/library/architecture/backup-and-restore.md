@@ -415,9 +415,12 @@ The Vault keeps its settings and each person's own state in a backup, and never 
 |---|---|---|
 | `profile_nsfw_settings` | Configuration | How each profile's Vault mode is protected and when it turns off. |
 | `vault_libraries` | Configuration | Which libraries are Vault libraries and how they look things up. |
+| `vault_section_grants` | Configuration | Which Vault sections each profile may open. |
 | `bookmark_packs` | Personal state | Bookmark packs a person imported for a title. |
 | `bookmark_pack_items` | Personal state | The bookmarks inside a pack (owned through the pack's profile). |
 | `nsfw_session_unlocks` | Transient | Temporary Vault mode sessions. |
+| `vault_moves` | Transient | Move to Vault jobs; a job in flight is not worth restoring, the files are the record. |
+| `vault_move_items` | Transient | The items of a Move to Vault job. |
 | `vault_activity` | Catalogue | Quiet list of Vault ingestion activity. |
 | `vault_artwork` | Catalogue | Vault artwork. |
 | `vault_asset_performers` | Catalogue | Vault performers per video. |
