@@ -9,7 +9,7 @@ status: current
 
 <link rel="preload" href="/font/TuvimaSans-Variable.woff2" as="font" type="font/woff2" crossorigin />
 
-**Tuvima Sans** is the typeface we use for the <span class="tuvima-word">Tuvima</span> wordmark and the top navigation of this site. It is free to use, share and modify under the SIL Open Font License.
+**Tuvima Sans** is the typeface we use for the TUVIMA wordmark, the top navigation and the headings of this site. We keep it to those places: body text stays in a plain, easy-to-read font. It is free to use, share and modify under the SIL Open Font License.
 
 ## Specimen
 

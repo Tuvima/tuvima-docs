@@ -12,7 +12,7 @@ test('aggregate preserves complete browser dependency notices and actual font co
   try {
     const coverage = await generateNotices(website, output);
     assert.equal(coverage.packages, 25);
-    assert.equal(coverage.fonts, 2);
+    assert.equal(coverage.fonts, 3);
     const notice = await fs.readFile(path.join(output, 'THIRD-PARTY.txt'), 'utf8');
     for (const source of ['node_modules/@astrojs/starlight/LICENSE', 'node_modules/pagefind/LICENSE/LICENSE', 'node_modules/pagefind/LICENSE/LICENSE-vscode-ripgrep', 'node_modules/expressive-code/LICENSE', 'node_modules/shiki/LICENSE', 'scripts/licenses/Svelte-MIT.txt', 'src/fonts/Montserrat-OFL.txt', 'src/fonts/JetBrainsMono-OFL.txt']) {
       assert.ok(notice.includes(await fs.readFile(path.join(website, source), 'utf8')), `${source}: notice must be preserved verbatim`);

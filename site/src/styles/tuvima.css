@@ -34,8 +34,9 @@
   --sl-color-bg-nav: #ffffff;
   --sl-color-bg-sidebar: #f1f3f8;
 }
-h1, h2, h3, h4, .hero .tagline { font-family: Montserrat, var(--sl-font); }
-/* The word TUVIMA, wherever it is set as text, uses Tuvima Sans (Montserrat with the crossbar removed from the A). */
+h1, h2, h3, h4 { font-family: 'Tuvima Sans', Montserrat, var(--sl-font); }
+.hero .tagline { font-family: Montserrat, var(--sl-font); }
+/* Tuvima Sans (Montserrat with the crossbar removed from the A) is for headings, navigation and brand names only, never body text. */
 .tuvima-word { font-family: 'Tuvima Sans', Montserrat, var(--sl-font); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
 .sl-markdown-content :is(table, pre) { max-width: 100%; overflow-x: auto; }
 .sl-markdown-content table { display: block; }
