@@ -28,6 +28,7 @@
       "id": "library",
       "name": "Library",
       "icon": "open-book",
+      "logo": "/brand/library.svg",
       "description": "A local-first home for your books, films, shows, music and personal media.",
       "path": "products/library",
       "status": "early-access",

@@ -6,7 +6,7 @@ export const itemStart = item => `/${item.path}/${item.startPage ? `${item.start
 const searchButton = '<button type="button" class="hub-search" data-hub-search><span>Search all of Tuvima documentation</span><kbd>Ctrl K</kbd></button>\n';
 
 function card(item) {
-  return `<div class="hub-card"><h3><a href="/${esc(item.path)}/">${esc(item.name)}</a></h3><p>${esc(item.description)}</p><p class="hub-card-meta"><span class="hub-status">${esc(statusLabels[item.status] ?? item.status)}</span><a href="${esc(itemStart(item))}">Get started</a></p></div>`;
+  return `<div class="hub-card"><h3><a href="/${esc(item.path)}/"><img class="hub-card-logo" src="${esc(item.logo ?? '/favicon.svg')}" alt="" width="28" height="28" />${esc(item.name)}</a></h3><p>${esc(item.description)}</p><p class="hub-card-meta"><span class="hub-status">${esc(statusLabels[item.status] ?? item.status)}</span><a href="${esc(itemStart(item))}">Get started</a></p></div>`;
 }
 const cardGrid = items => `<div class="hub-cards">\n${items.map(card).join('\n')}\n</div>\n`;
 const areaItems = (catalog, area) => catalog.items.filter(i => i.area === area.id && i.bar !== false);

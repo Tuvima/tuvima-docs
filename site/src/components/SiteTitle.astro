@@ -1,5 +1,5 @@
 ---
-import iconUrl from '../assets/tuvima-icon.svg?url';
+import logo from '../assets/tuvima-logo.svg?raw';
 import { hubContext } from '../hub';
 
 // The Tuvima logo is the "back to the hub" button on every page, including the not-found page.
@@ -7,12 +7,10 @@ const hub = hubContext(Astro.url.pathname);
 ---
 
 <a href={hub.home} class="site-title" aria-label="Tuvima documentation home">
-	<img src={iconUrl} alt="" width="37" height="36" style="height:2.25rem;width:auto;max-width:none" />
-	<span>Tuvima</span>
+	<Fragment set:html={logo} />
 </a>
 
 <style>
-	.site-title { display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--sl-color-white); }
-	img { height: 2.25rem; width: auto; }
-	span { font-family: Montserrat, var(--sl-font); font-weight: 600; font-size: 1.35rem; letter-spacing: 0.04em; }
+	.site-title { display: inline-flex; align-items: center; text-decoration: none; color: var(--sl-color-white); }
+	.site-title :global(svg) { height: 1.75rem; width: auto; max-width: none; display: block; }
 </style>
