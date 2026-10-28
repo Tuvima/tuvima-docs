@@ -1,0 +1,31 @@
+---
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+import { hubContext } from '../hub';
+
+// Breadcrumb above the title (every part a link) plus search metadata: which item a page belongs
+// to (for the "search all Tuvima" switch) and the item name in the result title.
+const hub = hubContext(Astro.url.pathname);
+const itemName = hub.item?.name;
+const title = Astro.locals.starlightRoute.entry.data.title;
+---
+
+{itemName && <meta data-pagefind-filter="item[content]" content={itemName} />}
+{itemName && <meta data-pagefind-meta="title[content]" content={`${title} · ${itemName}`} />}
+{hub.crumbs.length > 1 && (
+	<nav class="crumbs" aria-label="Breadcrumb">
+		<ol>
+			{hub.crumbs.map((crumb, index) => (
+				<li>{crumb.href && index < hub.crumbs.length - 1 ? <a href={crumb.href}>{crumb.label}</a> : <span aria-current={index === hub.crumbs.length - 1 ? 'page' : undefined}>{crumb.label}</span>}</li>
+			))}
+		</ol>
+	</nav>
+)}
+<Default><slot /></Default>
+
+<style>
+	.crumbs { margin-bottom: 0.75rem; font-size: var(--sl-text-xs); }
+	ol { display: flex; flex-wrap: wrap; gap: 0.35rem; list-style: none; margin: 0; padding: 0; color: var(--sl-color-gray-3); }
+	li + li::before { content: '\203A'; margin-inline-end: 0.35rem; }
+	a { color: var(--sl-color-gray-2); text-decoration: none; }
+	a:hover { color: var(--sl-color-white); text-decoration: underline; }
+</style>

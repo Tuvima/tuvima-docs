@@ -1,0 +1,99 @@
+name: Docs
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Weekly: refreshes the pages fetched from product repositories and audits outside links.
+    - cron: '17 8 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: docs-build-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    name: Build and validate docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Each page's "last updated" date comes from its history.
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Install
+        run: npm ci
+        working-directory: site
+      - name: Test
+        run: npm test
+        working-directory: site
+      - name: Check
+        run: npm run check
+        working-directory: site
+      - name: Build and validate
+        run: npm run build
+        working-directory: site
+      - name: Upload checked site
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-site
+          path: site/dist
+          retention-days: 7
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+  links:
+    name: Audit external links
+    needs: build
+    runs-on: ubuntu-latest
+    # Advisory on pull requests, main pushes and manual builds; blocking on the weekly audit.
+    continue-on-error: ${{ github.event_name != 'schedule' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci --ignore-scripts
+        working-directory: site
+      - uses: actions/download-artifact@v4
+        with:
+          name: docs-site
+          path: site/dist
+      - name: Check outside links with bounded retries
+        run: node scripts/check-external-links.mjs
+        working-directory: site
+      - name: Keep the results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-external-links
+          path: site/external-links-report.json
+          retention-days: 7
+  deploy:
+    name: Deploy docs
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: docs-pages-deployment
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

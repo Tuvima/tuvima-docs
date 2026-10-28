@@ -1,0 +1,45 @@
+---
+import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
+import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
+import MobileMenuFooter from 'virtual:starlight/components/MobileMenuFooter';
+import { hubContext } from '../hub';
+
+const { sidebar } = Astro.locals.starlightRoute;
+const hub = hubContext(Astro.url.pathname);
+---
+
+<nav class="drawer-layers md:sl-hidden" aria-label="Tuvima">
+	<a class="home" href={hub.home}>Tuvima home</a>
+	<ul>
+		{hub.areas.map(area => <li><a href={area.href} aria-current={area.current ? 'true' : undefined}>{area.name}</a></li>)}
+	</ul>
+	{hub.item && (
+		<>
+			<p class="label">Switch product or library</p>
+			<ul>
+				{hub.switcher.map(s => <li><a href={s.href} aria-current={s.current ? 'true' : undefined}>{s.name}</a></li>)}
+			</ul>
+			<p class="label">{hub.item.name}</p>
+			<ul>
+				{hub.groups.map(group => <li><a href={group.href} aria-current={group.current ? 'page' : undefined}>{group.name}</a></li>)}
+			</ul>
+		</>
+	)}
+</nav>
+
+<SidebarPersister>
+	<SidebarSublist sublist={sidebar} />
+</SidebarPersister>
+
+<div class="md:sl-hidden">
+	<MobileMenuFooter />
+</div>
+
+<style>
+	.drawer-layers { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--sl-color-gray-5); }
+	.home { display: block; font-weight: 700; color: var(--sl-color-white); text-decoration: none; margin-bottom: 0.5rem; }
+	ul { list-style: none; margin: 0 0 0.75rem; padding: 0; }
+	li a { display: block; padding: 0.4rem 0.25rem; color: var(--sl-color-gray-2); text-decoration: none; }
+	a[aria-current] { color: var(--sl-color-white); font-weight: 600; }
+	.label { margin: 0.75rem 0 0.25rem; font-size: var(--sl-text-xs); text-transform: uppercase; letter-spacing: 0.06em; color: var(--sl-color-gray-3); }
+</style>

@@ -1,0 +1,71 @@
+{
+  "areas": [
+    {
+      "id": "products",
+      "name": "Products",
+      "path": "products",
+      "icon": "open-book",
+      "description": "Help for the apps people use. Each product has guides for using and running it, pages for developers who extend it, and reference material."
+    },
+    {
+      "id": "libraries",
+      "name": "Libraries",
+      "path": "libraries",
+      "icon": "puzzle",
+      "description": "Developer libraries (NuGet packages) that other developers build with. Each has its own guides, reference and version history."
+    },
+    {
+      "id": "legal",
+      "name": "Legal and policies",
+      "path": "legal",
+      "icon": "document",
+      "description": "Company-wide pages that belong to no single product: licence, security reporting, privacy, code of conduct and third-party notices."
+    }
+  ],
+  "items": [
+    {
+      "area": "products",
+      "id": "library",
+      "name": "Library",
+      "icon": "open-book",
+      "description": "A local-first home for your books, films, shows, music and personal media.",
+      "path": "products/library",
+      "status": "early-access",
+      "startPage": "tutorials/getting-started",
+      "repo": "https://github.com/Tuvima/tuvima-library",
+      "docsDir": "docs",
+      "groups": ["Guides", "Develop", "Reference"]
+    },
+    {
+      "area": "libraries",
+      "id": "wikidata",
+      "name": "Tuvima.Wikidata",
+      "icon": "puzzle",
+      "description": "A .NET library that matches names and titles to Wikidata, fetches entity data and Wikipedia content, and walks entity graphs.",
+      "path": "libraries/wikidata",
+      "status": "current",
+      "startPage": "reconciliation",
+      "repo": "https://github.com/Tuvima/tuvima-wikidata",
+      "docsDir": "docs",
+      "groups": ["Guides", "Develop", "Reference"]
+    },
+    {
+      "area": "legal",
+      "id": "legal",
+      "name": "Legal and policies",
+      "icon": "document",
+      "description": "Licence, security reporting, privacy, code of conduct and third-party notices.",
+      "path": "legal",
+      "status": "current",
+      "bar": false,
+      "repo": "https://github.com/Tuvima/tuvima-library",
+      "docsDir": "",
+      "groups": ["Policies"]
+    }
+  ],
+  "popular": [
+    { "label": "Install Library", "path": "products/library/tutorials/getting-started", "description": "Get Library running on your computer or server." },
+    { "label": "Your first library", "path": "products/library/tutorials/first-library", "description": "Add folders and see your media appear." },
+    { "label": "Report a security issue", "path": "legal/security", "description": "How to report a vulnerability privately." }
+  ]
+}

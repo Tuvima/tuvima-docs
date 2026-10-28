@@ -1,0 +1,92 @@
+---
+import { Icon } from '@astrojs/starlight/components';
+import Search from 'virtual:starlight/components/Search';
+import SiteTitle from 'virtual:starlight/components/SiteTitle';
+import SocialIcons from 'virtual:starlight/components/SocialIcons';
+import ThemeSelect from 'virtual:starlight/components/ThemeSelect';
+import { hubContext } from '../hub';
+
+// Three layers, always in the same place: the hub bar (logo home, areas, search, theme),
+// the item bar (inside a product or library only) and the page with its breadcrumb.
+const hub = hubContext(Astro.url.pathname);
+const showItemBar = Boolean(hub.item) && hub.record?.slug !== '404';
+const itemHome = hub.switcher.find(s => s.current)?.href;
+---
+
+{showItemBar && <style is:inline set:html=":root{--sl-nav-height:6.75rem}@media (max-width:49.99rem){:root{--sl-nav-height:3.5rem}}" />}
+
+<div class="hub-header">
+	<div class="hub-bar">
+		<div class="title-wrapper sl-flex">
+			<SiteTitle />
+		</div>
+		<nav class="hub-areas sl-hidden md:sl-flex" aria-label="Areas">
+			{hub.areas.map(area => <a href={area.href} aria-current={area.current ? 'true' : undefined}>{area.name === 'Legal and policies' ? 'Legal' : area.name}</a>)}
+		</nav>
+		<div class="sl-flex print:hidden hub-search-slot"><Search /></div>
+		<div class="sl-hidden md:sl-flex print:hidden right-group">
+			<div class="sl-flex social-icons"><SocialIcons /></div>
+			<ThemeSelect />
+		</div>
+	</div>
+	{showItemBar && (
+		<div class="item-bar sl-hidden md:sl-flex" role="navigation" aria-label={`${hub.item!.name} sections`}>
+			<a class="item-name" href={itemHome}>
+				<Icon name={(hub.item!.icon ?? 'open-book') as never} size="1.1rem" />{hub.item!.name}
+			</a>
+			<details class="item-switcher">
+				<summary>Switch product or library</summary>
+				<ul>
+					{hub.switcher.map(s => <li><a href={s.href} aria-current={s.current ? 'true' : undefined}><span>{s.name}</span><small>{s.areaName}</small></a></li>)}
+				</ul>
+			</details>
+			<div class="item-groups">
+				{hub.groups.map(group => <a href={group.href} aria-current={group.current ? 'page' : undefined}>{group.name}</a>)}
+			</div>
+		</div>
+	)}
+</div>
+
+<script>
+	// The home and 404 pages have a large search box that opens the same search dialog.
+	document.addEventListener('click', (event) => {
+		if (event.target instanceof Element && event.target.closest('[data-hub-search]')) {
+			// Stop the click reaching the dialog's click-outside handler, which would close it again.
+			event.stopPropagation();
+			document.querySelector<HTMLButtonElement>('button[data-open-modal]')?.click();
+		}
+		// Close the item switcher after a choice or a click elsewhere.
+		document.querySelectorAll<HTMLDetailsElement>('.item-switcher[open]').forEach((details) => {
+			if (!(event.target instanceof Node) || !details.contains(event.target) || event.target instanceof HTMLAnchorElement) details.open = false;
+		});
+	});
+</script>
+
+<style>
+	.hub-header { display: flex; flex-direction: column; height: 100%; }
+	.hub-bar { display: flex; align-items: center; gap: var(--sl-nav-gap); flex: 1; min-height: 3.5rem; }
+	.title-wrapper { overflow: clip; padding: 0.25rem; margin: -0.25rem; min-width: 0; }
+	.right-group, .social-icons { gap: 1rem; align-items: center; }
+	.social-icons::after { content: ''; height: 2rem; border-inline-end: 1px solid var(--sl-color-gray-5); }
+	.hub-areas { gap: 1.25rem; align-items: center; margin-inline-start: 1rem; }
+	.hub-areas a { color: var(--sl-color-gray-2); text-decoration: none; font-weight: 600; font-size: var(--sl-text-sm); padding: 0.4rem 0.1rem; border-bottom: 2px solid transparent; }
+	.hub-areas a:hover, .hub-areas a[aria-current] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-accent); }
+	.hub-search-slot { margin-inline-start: auto; flex: 0 1 22rem; justify-content: flex-end; }
+	.item-bar { align-items: center; gap: 1.25rem; border-top: 1px solid var(--sl-color-gray-5); min-height: 3rem; }
+	.item-name { display: inline-flex; align-items: center; gap: 0.5rem; font-family: Montserrat, var(--sl-font); font-weight: 700; color: var(--sl-color-white); text-decoration: none; }
+	.item-switcher { position: relative; }
+	.item-switcher summary { cursor: pointer; list-style: none; color: var(--sl-color-gray-3); font-size: var(--sl-text-xs); padding: 0.3rem 0.6rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.35rem; }
+	.item-switcher summary::-webkit-details-marker { display: none; }
+	.item-switcher summary::after { content: ' \25BE'; }
+	.item-switcher ul { position: absolute; z-index: 10; margin: 0.35rem 0 0; padding: 0.35rem; list-style: none; min-width: 15rem; background: var(--sl-color-bg-nav); border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; box-shadow: var(--sl-shadow-md); }
+	.item-switcher li a { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 0.65rem; border-radius: 0.35rem; color: var(--sl-color-gray-1); text-decoration: none; }
+	.item-switcher li a small { color: var(--sl-color-gray-3); }
+	.item-switcher li a:hover, .item-switcher li a[aria-current] { background: var(--sl-color-accent-low); }
+	.item-groups { display: flex; gap: 0.25rem; margin-inline-start: auto; }
+	.item-groups a { color: var(--sl-color-gray-2); text-decoration: none; font-weight: 600; font-size: var(--sl-text-sm); padding: 0.75rem; border-bottom: 2px solid transparent; }
+	.item-groups a:hover, .item-groups a[aria-current] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-accent); }
+	@media (max-width: 49.99rem) {
+		.title-wrapper { flex: 1 1 auto; overflow: visible; }
+		.hub-search-slot { flex: 0 0 auto; }
+	}
+</style>

@@ -1,0 +1,87 @@
+---
+title: "Third-party notices"
+description: "Licence notices for third-party artwork and build tools that ship with Tuvima Library."
+audience: user
+category: policy
+product_area: project
+status: current
+---
+
+# Third-party artwork and build tools
+
+## Google Material Icons
+
+The first-party Material icon catalog contains the used, unmodified SVG path data from Google Material Icons, distributed under the Apache License 2.0. Copyright Google LLC.
+
+Original artwork and license: <https://github.com/google/material-design-icons/blob/master/LICENSE>.
+
+The icon snapshot in `scripts/icons/material-icon-paths.json` supports deterministic generation of the catalog. The SVG artwork is not modified.
+
+## Font Awesome Free
+
+Font Awesome Free SVG artwork under `src/MediaEngine.Web/wwwroot/icons/fontawesome` remains governed by the Creative Commons Attribution 4.0 International license for icons. Copyright Fonticons, Inc. Attribution: <https://fontawesome.com/>. License: <https://creativecommons.org/licenses/by/4.0/>.
+
+## NUglify (build only)
+
+NUglify 1.23.3 is used only for Release CSS compilation and is excluded from Dashboard runtime assets. Copyright 2016 Alexandre Mutel. Its BSD 2-clause license and original Microsoft Ajax Minifier Apache 2.0 notice are preserved in `licenses/NUglify.txt`.
+
+## Wasmtime (sandboxed plugins)
+
+Wasmtime 48.0.2 (Bytecode Alliance, Apache License 2.0 with LLVM exception, <https://github.com/bytecodealliance/wasmtime>) runs sandboxed WebAssembly plugins inside the Engine, with limits on time, memory and steps, and with no access to files or the network except through the Library's own plugin services. It is used through the Wasmtime .NET package (same licence). The licence is kept in `licenses/Wasmtime-Apache-2.0-with-LLVM-exception.txt`. Plugin code never leaves the computer.
+
+## QRCoder (invitation QR codes)
+
+QRCoder 1.6.0 draws the QR code that Users & Access shows with an invitation link. It runs inside the Dashboard, so the link never leaves the computer. Copyright Raffael Herrmann, MIT License.
+
+## PdfPig and Open XML SDK (document text search)
+
+PdfPig 0.1.16 (Apache License 2.0) reads the embedded text layer of PDFs, and DocumentFormat.OpenXml 3.5.1 (Microsoft, MIT License) reads text from .docx, .xlsx and .pptx files, so View documents are searchable. Both run inside the Engine on the user's computer; document text is never sent anywhere.
+
+## hls.js (adaptive video playback)
+
+hls.js 1.7.3 (Dailymotion and the hls.js contributors, Apache License 2.0) plays adaptive HLS video in browsers that cannot play it natively, in the Dashboard player and in the TV web client. Its file is bundled unmodified under `src/MediaEngine.Web/wwwroot/vendor/hls/` and `clients/tv-web/vendor/` together with its license, and is always loaded from the app itself, never from a CDN. Project: <https://github.com/video-dev/hls.js>.
+
+## PDF.js (Documents viewer)
+
+PDF.js (pdfjs-dist 5.4.149, Mozilla, Apache License 2.0) draws PDFs and finds words inside them in the View Documents viewer. Its files are bundled unmodified under `src/MediaEngine.Web/wwwroot/vendor/pdfjs/` together with its license, and are always loaded from the Dashboard itself, never from a CDN. The document is read in the browser on the user's computer; nothing is sent to any other service.
+
+## FFmpeg and FFprobe (video and audio inspection, thumbnails and streaming)
+
+Video and audio files are inspected, thumbnailed and prepared for streaming with FFmpeg and FFprobe (version 9.0.2, GNU General Public License v3, <https://ffmpeg.org>), run as separate programs on the user's computer and never linked into Tuvima Library. The Windows build is the GPLv3 "essentials" build from gyan.dev, release `9.0.2` (<https://github.com/GyanD/codexffmpeg>), pinned by SHA-256 in `tools/Download-FFmpeg.ps1`, `tools/ffmpeg/README.md` and `config/tool_downloads.json`. The Windows installer bundles it unmodified with its licence under `licenses/ffmpeg`; the container image installs the matching Linux build. When a person presses **Install for me** or **Download again** in Settings, the same build is fetched from GitHub, checked against those values and placed in the Library's data folder, and the licence file from the download is kept beside the programs as `LICENSE.txt`. GPLv3 is compatible with this project's AGPLv3 licence.
+
+## Tesseract OCR, tessdata_fast, PDFtoImage and PDFium (scanned document search)
+
+Scanned PDF pages and photos of paper are read with Tesseract OCR (Apache License 2.0, <https://github.com/tesseract-ocr/tesseract>), run as a separate program on the user's computer. The Windows installer bundles the UB Mannheim build (v5.4.0.20240606) with the libraries it needs (Leptonica, libpng, libjpeg-turbo, libtiff, libwebp and others), each under its own permissive or LGPL licence and shipped unmodified as separate files; the Apache 2.0 licence is installed under `licenses/tesseract`. English and orientation language data come from tessdata_fast (Apache License 2.0, <https://github.com/tesseract-ocr/tessdata_fast>), pinned to commit `923915d4`. PDF pages are drawn with PDFtoImage 5.4.0 (MIT License, <https://github.com/sungaila/PDFtoImage>), which uses PDFium (BSD 3-Clause License, copyright The PDFium Authors) through the bblanchon.PDFium packages. Everything runs on the user's computer; nothing is uploaded, and the only network use is an optional language download or an optional Tesseract and language data download the user starts in Settings (the setup program and data are fetched from GitHub, checked against the SHA-256 values in `config/tool_downloads.json`). Copies fetched this way keep the upstream licence files that come with them, and the licences named here apply to them as they do to the bundled copies.
+
+## ExifTool and Strawberry Perl (writing the profile name into View files)
+
+When the Library adds a photo, phone video or PDF to View, ExifTool (version 13.59, <https://exiftool.org>, source <https://github.com/exiftool/exiftool>) writes the name of the profile that added it into the file's embedded XMP metadata, under the Library's own `tuvima` namespace (`https://tuvima.github.io/tuvima-library/ns/xmp/1.0/`, defined in `config/exiftool/tuvima.config`). It runs as a separate program on the user's computer and is never linked into Tuvima Library; nothing is uploaded.
+
+Copyright 2003-2026, Phil Harvey. "This is free software; you can redistribute it and/or modify it under the same terms as Perl itself" (the Perl Artistic License or the GNU General Public License). Tuvima Library uses it under the GNU General Public License, which is compatible with this project's AGPLv3 licence. The licence text and readme travel with every copy: the Windows build holds `exiftool_files/LICENSE` (GNU GPL v3 text) and `windows_exiftool.txt`; the Perl distribution holds `README` (copyright and licence terms) and `Changes`.
+
+The official Windows build bundles Strawberry Perl (perl.exe, perl532.dll and libraries) so ExifTool runs without a Perl install. Perl is under the Perl Artistic License or the GNU GPL, and the other libraries inside Strawberry Perl keep their own licences, which ship in `Licenses_Strawberry_Perl.zip` beside the program. Nothing inside the build is changed.
+
+Copies fetched by the Engine are unmodified copies of the official files, kept as the Library's own GitHub release `exiftool-13.59` (<https://github.com/Tuvima/tuvima-library/releases/tag/exiftool-13.59>) and checked against the SHA-256 values in `config/tool_downloads.json` before use:
+
+| File | SHA-256 |
+|---|---|
+| `exiftool-13.59_64.zip` (Windows, 64-bit) | `44b512b25af500724ba579d0a53c8fc5851628b692dd5e5d94ae4a15c2cba9ec` |
+| `Image-ExifTool-13.59.tar.gz` (Perl distribution, Linux; needs Perl) | `668ea3acececb7235fbd0f4900e72d5f12c9b07e5c778fd36cb1e9b5828fd65a` |
+
+Inside them, `exiftool_files/perl.exe` is `4d61ebe19311dbf7b9710ac2c6c402e3cba3e23b63e8b82be88e471343bed52d`, `exiftool_files/exiftool.pl` is `9e8e817fab9fdc2e37f7cd023aa34e76d1ef561834dfd791a48a7e327cc8f4b1`, and the Perl script `exiftool` is `a6b8018093845ac93011307bac4ab630d6604b2365fc7f66bb88c88d7dedb5ed`. The official list is <https://exiftool.org/checksums.txt>. The container image does not download these: it clones the official tag `13.59` from <https://github.com/exiftool/exiftool>, checks the commit (`2200871d9cef988051d2a99d67df3bda6cbb30a8`) and uses the system Perl.
+
+## foliate-js (book and comic reader)
+
+The in-browser book reader uses a pinned copy of foliate-js (commit `78914aef`, with one documented one-line safety patch per frame file; see its `PINNED.md`) under `src/MediaEngine.Web/wwwroot/lib/foliate-js/`, to open EPUB and comic (CBZ) files and keep standard reading positions. Copyright (c) 2022 John Factotum, MIT License (`src/MediaEngine.Web/wwwroot/lib/foliate-js/LICENSE`). It bundles zip.js (@zip.js/zip.js), copyright (c) 2022 Gildas Lormeau, BSD 3-Clause License, retained in `licenses/zip.js-BSD-3-Clause.txt`. Project: <https://github.com/johnfactotum/foliate-js>.
+
+## SecLists common-password list (password rules)
+
+Tuvima Library refuses known common passwords when an account password is set or changed. The list is the NCSC "100k most used passwords" file from SecLists (`Passwords/Common-Credentials/100k-most-used-passwords-NCSC.txt`), filtered to entries of 12 or more characters, lower-cased and deduplicated into `src/MediaEngine.Identity/Resources/common-passwords.txt`. SecLists is distributed under the MIT License, copyright Daniel Miessler. The licence text is in `licenses/SecLists-MIT.txt`.
+
+## Documentation platform
+
+The documentation site uses Astro 7.3.8, Starlight 0.42.6, Astro Markdown Remark 7.3.2 and Starlight Sidebar Topics 0.9.0 under MIT licenses. Browser assets include Pagefind 1.5.2, Expressive Code 0.44.2 and Shiki 4.5.0, also MIT licensed. Versions and transitive dependencies are locked in `website/package-lock.json`; installed packages retain their license notices.
+
+Documentation checks use TypeScript 6.0.3 (Apache-2.0), Astro Check 0.9.10 (MIT), YAML 2.9.1 (ISC) and Cheerio 1.2.0 (MIT). The exact PostCSS Selector Parser 7.1.6 override is MIT licensed and addresses the audited nested dependency.
+
+Documentation fonts are self-hosted Montserrat and JetBrains Mono under SIL Open Font License 1.1. Their original notices are retained in `website/src/fonts/Montserrat-OFL.txt` and `website/src/fonts/JetBrainsMono-OFL.txt`, and are included in the built site's `licenses/` directory. Montserrat is credited to its authors in its OFL notice; JetBrains Mono is copyright JetBrains s.r.o.

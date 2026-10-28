@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "source": "license.md",
+      "slug": "license",
+      "group": "Policies",
+      "section": "Licence"
+    },
+    {
+      "source": "privacy.md",
+      "slug": "privacy",
+      "group": "Policies",
+      "section": "Privacy and security"
+    },
+    {
+      "source": "security.md",
+      "slug": "security",
+      "group": "Policies",
+      "section": "Privacy and security",
+      "fetch": {
+        "repo": "Tuvima/tuvima-library",
+        "path": "SECURITY.md"
+      }
+    },
+    {
+      "source": "code-of-conduct.md",
+      "slug": "code-of-conduct",
+      "group": "Policies",
+      "section": "Community",
+      "fetch": {
+        "repo": "Tuvima/tuvima-library",
+        "path": "CODE_OF_CONDUCT.md"
+      }
+    },
+    {
+      "source": "attributions.md",
+      "slug": "attributions",
+      "group": "Policies",
+      "section": "Notices"
+    },
+    {
+      "source": "third-party-notices.md",
+      "slug": "third-party-notices",
+      "group": "Policies",
+      "section": "Notices",
+      "fetch": {
+        "repo": "Tuvima/tuvima-library",
+        "path": "THIRD-PARTY-NOTICES.md"
+      }
+    }
+  ]
+}

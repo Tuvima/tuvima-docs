@@ -1,0 +1,7 @@
+{
+  "pages": [
+    { "source": "index.mdx", "slug": "" },
+    { "source": "getting-started.md", "slug": "getting-started", "group": "Guides", "section": "Start here" },
+    { "source": "reference.md", "slug": "reference", "group": "Reference", "section": "Look something up" }
+  ]
+}
