@@ -64,3 +64,5 @@ h1, h2, h3, h4, .hero .tagline { font-family: Montserrat, var(--sl-font); }
 .sl-markdown-content h2 > a:hover { text-decoration: underline; }
 .hub-card h3 a { color: var(--sl-color-white); text-decoration: none; }
 .hub-card h3 a:hover { text-decoration: underline; }
+
+.hub-card-logo { height: 1.75rem; width: auto; max-width: 2.2rem; vertical-align: middle; margin-inline-end: 0.5rem; }

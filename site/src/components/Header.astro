@@ -32,7 +32,7 @@ const itemHome = hub.switcher.find(s => s.current)?.href;
 	{showItemBar && (
 		<div class="item-bar sl-hidden md:sl-flex" role="navigation" aria-label={`${hub.item!.name} sections`}>
 			<a class="item-name" href={itemHome}>
-				<Icon name={(hub.item!.icon ?? 'open-book') as never} size="1.1rem" />{hub.item!.name}
+				<img class="item-logo" src={hub.item!.logo ?? '/favicon.svg'} alt="" width="22" height="22" />{hub.item!.name}
 			</a>
 			<details class="item-switcher">
 				<summary>Switch product or library</summary>
@@ -66,6 +66,7 @@ const itemHome = hub.switcher.find(s => s.current)?.href;
 	.hub-header { display: flex; flex-direction: column; height: 100%; }
 	.hub-bar { display: flex; align-items: center; gap: var(--sl-nav-gap); flex: 1; min-height: 3.5rem; }
 	.title-wrapper { overflow: clip; padding: 0.25rem; margin: -0.25rem; min-width: 0; }
+	.item-logo { height: 1.4rem; width: auto; max-width: 1.8rem; flex: none; }
 	.right-group, .social-icons { gap: 1rem; align-items: center; }
 	.social-icons::after { content: ''; height: 2rem; border-inline-end: 1px solid var(--sl-color-gray-5); }
 	.hub-areas { gap: 1.25rem; align-items: center; margin-inline-start: 1rem; }
