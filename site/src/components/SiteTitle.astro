@@ -1,16 +1,17 @@
 ---
-import logo from '../assets/tuvima-logo.svg?raw';
 import { hubContext } from '../hub';
 
-// The Tuvima logo is the "back to the hub" button on every page, including the not-found page.
+// The TUVIMA wordmark (set in Tuvima Sans, like the Library app) is the "back to the hub" button on every page, including the not-found page.
 const hub = hubContext(Astro.url.pathname);
 ---
 
 <a href={hub.home} class="site-title" aria-label="Tuvima documentation home">
-	<Fragment set:html={logo} />
+	<img class="site-icon" src="/favicon.svg" alt="" width="28" height="28" />
+	<span class="tuvima-word" aria-hidden="true">Tuvima</span>
 </a>
 
 <style>
-	.site-title { display: inline-flex; align-items: center; text-decoration: none; color: var(--sl-color-white); }
-	.site-title :global(svg) { height: 1.75rem; width: auto; max-width: none; display: block; }
+	.site-title { display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--sl-color-white); }
+	.site-icon { height: 1.75rem; width: auto; max-width: none; display: block; flex: none; }
+	.site-title .tuvima-word { font-size: 1.5rem; line-height: 1; color: var(--sl-color-white); }
 </style>
