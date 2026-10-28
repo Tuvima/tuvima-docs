@@ -22,6 +22,7 @@ const itemHome = hub.switcher.find(s => s.current)?.href;
 		</div>
 		<nav class="hub-areas sl-hidden md:sl-flex" aria-label="Areas">
 			{hub.areas.map(area => <a href={area.href} aria-current={area.current ? 'true' : undefined}>{area.name === 'Legal and policies' ? 'Legal' : area.name}</a>)}
+			<a href="/legal/typography/" aria-current={Astro.url.pathname.startsWith('/legal/typography') ? 'page' : undefined}>Typography</a>
 		</nav>
 		<div class="sl-flex print:hidden hub-search-slot"><Search /></div>
 		<div class="sl-hidden md:sl-flex print:hidden right-group">
