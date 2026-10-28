@@ -1,0 +1,13 @@
+{
+  "area": "products",
+  "id": "product-id",
+  "name": "Product name",
+  "icon": "open-book",
+  "description": "One line for the home page card.",
+  "path": "products/product-id",
+  "status": "early-access",
+  "startPage": "getting-started",
+  "repo": "https://github.com/Tuvima/product-repository",
+  "docsDir": "docs",
+  "groups": ["Guides", "Develop", "Reference"]
+}

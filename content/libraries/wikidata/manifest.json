@@ -1,0 +1,74 @@
+{
+  "pages": [
+    {
+      "source": "index.mdx",
+      "slug": ""
+    },
+    {
+      "source": "reconciliation.md",
+      "slug": "reconciliation",
+      "group": "Guides",
+      "section": "Use the library"
+    },
+    {
+      "source": "entity-data.md",
+      "slug": "entity-data",
+      "group": "Guides",
+      "section": "Use the library"
+    },
+    {
+      "source": "series-manifest.md",
+      "slug": "series-manifest",
+      "group": "Guides",
+      "section": "Use the library"
+    },
+    {
+      "source": "graph.md",
+      "slug": "graph",
+      "group": "Guides",
+      "section": "Use the library"
+    },
+    {
+      "source": "aspnetcore.md",
+      "slug": "aspnetcore",
+      "group": "Guides",
+      "section": "Use the library"
+    },
+    {
+      "source": "architecture.md",
+      "slug": "architecture",
+      "group": "Develop",
+      "section": "Under the hood"
+    },
+    {
+      "source": "performance.md",
+      "slug": "performance",
+      "group": "Develop",
+      "section": "Under the hood"
+    },
+    {
+      "source": "configuration.md",
+      "slug": "configuration",
+      "group": "Reference",
+      "section": "Reference"
+    },
+    {
+      "source": "changelog.md",
+      "slug": "changelog",
+      "group": "Reference",
+      "section": "Reference"
+    },
+    {
+      "source": "migrating-to-v2.md",
+      "slug": "migrating-to-v2",
+      "group": "Reference",
+      "section": "Upgrade guides"
+    },
+    {
+      "source": "migrating-to-v3.md",
+      "slug": "migrating-to-v3",
+      "group": "Reference",
+      "section": "Upgrade guides"
+    }
+  ]
+}

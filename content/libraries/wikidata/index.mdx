@@ -1,0 +1,48 @@
+---
+title: Tuvima.Wikidata
+description: A .NET library that matches names and titles to Wikidata, fetches entity data and Wikipedia content, and walks entity graphs.
+audience: developer
+category: landing
+product_area: wikidata
+status: current
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+You have author names, book titles or company names. Tuvima.Wikidata works out which Wikidata item each one refers to, gives you a confidence score, and lets you enrich your data with everything Wikidata and Wikipedia know about it. It can also map relationships between entities, such as family trees and cross-media appearances, without a graph database.
+
+It is a .NET library with no dependencies beyond `System.Text.Json`, and it is AOT compatible. It targets .NET 8 and .NET 10.
+
+```sh
+dotnet add package Tuvima.Wikidata
+```
+
+```csharp
+using Tuvima.Wikidata;
+
+using var reconciler = new WikidataReconciler();
+var results = await reconciler.Reconcile.ReconcileAsync("Douglas Adams");
+
+Console.WriteLine(results[0].Id);    // "Q42"
+Console.WriteLine(results[0].Match); // true (confident auto-match)
+```
+
+## Choose your path
+
+<CardGrid>
+  <LinkCard title="Match text to Wikidata" description="Type filters, property constraints, batches, streaming and scoring." href="/libraries/wikidata/reconciliation/" />
+  <LinkCard title="Fetch entity data" description="Entities, Wikipedia summaries, images, editions and staleness checks." href="/libraries/wikidata/entity-data/" />
+  <LinkCard title="Series manifests" description="Ordered works in a series with provenance and warnings." href="/libraries/wikidata/series-manifest/" />
+  <LinkCard title="Graph module" description="Pathfinding, family trees and cross-media entities." href="/libraries/wikidata/graph/" />
+  <LinkCard title="ASP.NET Core" description="Host a W3C Reconciliation Service for OpenRefine and Google Sheets." href="/libraries/wikidata/aspnetcore/" />
+  <LinkCard title="Configuration" description="Every option, with caching, limits and custom Wikibase endpoints." href="/libraries/wikidata/configuration/" />
+</CardGrid>
+
+## Packages
+
+| Package | Purpose |
+|---|---|
+| [`Tuvima.Wikidata`](https://www.nuget.org/packages/Tuvima.Wikidata) | Core library: reconciliation, entity data, Wikipedia content and graph traversal |
+| [`Tuvima.Wikidata.AspNetCore`](https://www.nuget.org/packages/Tuvima.Wikidata.AspNetCore) | ASP.NET Core middleware for hosting a W3C Reconciliation Service API |
+
+Source code and issues are on [GitHub](https://github.com/Tuvima/tuvima-wikidata). See the [changelog](/libraries/wikidata/changelog/) for release history.
