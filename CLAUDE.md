@@ -4,7 +4,7 @@ Source of `docs.tuvima.com`. Loaded into every Claude session in this repository
 
 ## Shape
 
-- One site, organised by kind of thing: `/products/<id>/`, `/libraries/<id>/`, `/legal/`. `catalog.json` lists the areas and items; each item folder under `content/` has a `manifest.json` (pages, slugs relative to the item, group and section). Slug `""` is the item's landing page.
+- One site, organised by kind of thing: `/products/<id>/`, `/libraries/<id>/`, `/legal/` (only for policies shared by every product; Library's own policies live under it). `catalog.json` lists the areas and items; each item folder under `content/` has a `manifest.json` (pages, slugs relative to the item, group and section). Slug `""` is the item's landing page.
 - Three-layer navigation on every page: hub bar (Tuvima logo always links home, area links, search, theme), item bar (name, switcher, Guides/Develop/Reference), then the page with a breadcrumb. Legal pages have no item bar.
 - Search is one Pagefind index, scoped to the current item with a "search all of Tuvima" tick.
 - Latest version only. No redirects and no date-keeping while products are in Early Access.

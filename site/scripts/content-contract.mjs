@@ -53,7 +53,8 @@ export function validateCatalog(catalog) {
 }
 /** Validate one item's manifest. Slugs are relative to the item's folder; '' is the item's landing page. */
 export function validateManifest(manifest, item = { id: 'item', groups: ['Guides', 'Develop', 'Reference'] }) {
-  if (!Array.isArray(manifest.pages) || !manifest.pages.length) throw new Error(`${item.id}: manifest must list pages`);
+  // An item without a navigation bar (the shared legal area) may have no pages yet.
+  if (!Array.isArray(manifest.pages) || (!manifest.pages.length && item.bar !== false)) throw new Error(`${item.id}: manifest must list pages`);
   const sources = new Set();
   const slugs = new Set();
   for (const page of manifest.pages) {

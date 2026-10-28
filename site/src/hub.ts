@@ -1,6 +1,6 @@
 import routes from '../.generated/routes.json';
 
-export type Item = { area: string; id: string; name: string; icon?: string; logo?: string; description: string; path: string; status: string; startPage?: string; bar?: boolean; groups: string[] };
+export type Item = { area: string; id: string; name: string; icon?: string; logo?: string; wordmark?: string; description: string; path: string; status: string; startPage?: string; bar?: boolean; groups: string[] };
 export type PageRecord = { slug: string; route: string; title: string; item?: string; group?: string; section?: string; generated?: boolean; area?: string };
 const catalog = routes.catalog as { areas: { id: string; name: string; path: string }[]; items: Item[] };
 const pages = routes.pages as PageRecord[];

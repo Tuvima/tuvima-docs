@@ -31,10 +31,10 @@ test('the legal area lists its pages instead of cards, and the 404 page offers s
 });
 test('root files point at the hub and survive being converted twice', () => {
   const once = transformRootFile('See [conduct](CODE_OF_CONDUCT.md), [licence](../../LICENSE) and https://tuvima.github.io/tuvima-library/guides/remote-access/ or https://tuvima.github.io/tuvima-library/reference/attributions/#x.');
-  assert.match(once, /\]\(\/legal\/code-of-conduct\.md\)/);
+  assert.match(once, /\]\(\/products\/library\/policies\/code-of-conduct\.md\)/);
   assert.match(once, /blob\/main\/LICENSE/);
   assert.match(once, /\(?\/products\/library\/guides\/remote-access\//);
-  assert.match(once, /\/legal\/attributions\/#x/);
+  assert.match(once, /\/products\/library\/policies\/attributions\/#x/);
   assert.equal(transformRootFile(once), once);
 });
 test('front matter splits from the body, and retired addresses are found', () => {
