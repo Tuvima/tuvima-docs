@@ -19,6 +19,9 @@ await fs.mkdir(path.join(generatedRoot, 'public/licenses'), { recursive: true })
 await generateNotices(siteRoot, path.join(generatedRoot, 'public/licenses'));
 for (const fontLicense of ['Montserrat-OFL.txt', 'JetBrainsMono-OFL.txt']) await fs.copyFile(path.join(siteRoot, 'src/fonts', fontLicense), path.join(generatedRoot, 'public/licenses', fontLicense));
 
+// Tuvima Sans: the canonical files live in /font; the site serves them from /font/ for the web font and the download.
+await fs.cp(path.join(repoRoot, 'font'), path.join(generatedRoot, 'public/font'), { recursive: true });
+
 function gitDate(file) {
   try { return execFileSync('git', ['log', '-1', '--format=%cI', '--', file], { cwd: repoRoot, encoding: 'utf8' }).trim() || false; } catch { return false; }
 }

@@ -1,1 +1,10 @@
-{ "pages": [] }
+{
+  "pages": [
+    {
+      "source": "typography.md",
+      "slug": "typography",
+      "group": "Policies",
+      "section": "Brand"
+    }
+  ]
+}

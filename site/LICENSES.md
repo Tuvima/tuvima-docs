@@ -16,6 +16,7 @@ The documentation is part of Tuvima and published under the repository's AGPLv3 
 | Expressive Code | 0.44.2 | MIT | Rendered code blocks and copy controls |
 | Shiki | 4.5.0 | MIT | Code syntax highlighting |
 | Montserrat | Repository font | SIL Open Font License 1.1 | Self-hosted headings |
+| Tuvima Sans | Repository font (`font/`) | SIL Open Font License 1.1 | Self-hosted navigation and the TUVIMA wordmark; a Montserrat derivative |
 | JetBrains Mono | Repository font | SIL Open Font License 1.1 | Self-hosted code font |
 
 The font notices are retained verbatim beside the files in `src/fonts/Montserrat-OFL.txt` and `src/fonts/JetBrainsMono-OFL.txt`. The SVG logo/icon assets come from this repository's `assets/images/` directory. Starlight's built-in icons and syntax resources keep their upstream package notices. No screenshot-zoom library, hosted search service, or remote font service ships with this site.

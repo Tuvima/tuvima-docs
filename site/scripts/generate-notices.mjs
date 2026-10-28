@@ -65,12 +65,12 @@ export async function generateNotices(websiteRoot, outputDirectory) {
   notices.push('\n===== Svelte runtime bundled in Pagefind Default UI (MIT) =====',
     'Source: original npm svelte@4.2.1 package LICENSE.md, retained because default-ui bundles Svelte 4 runtime code.',
     await fs.readFile(path.join(websiteRoot, 'scripts/licenses/Svelte-MIT.txt'), 'utf8'));
-  for (const [font, license] of [['Montserrat-VariableFont_wght.ttf', 'Montserrat-OFL.txt'], ['JetBrainsMono-Regular.ttf', 'JetBrainsMono-OFL.txt']]) {
+  for (const [font, license, dir = 'src/fonts'] of [['Montserrat-VariableFont_wght.ttf', 'Montserrat-OFL.txt'], ['JetBrainsMono-Regular.ttf', 'JetBrainsMono-OFL.txt'], ['TuvimaSans-Variable.ttf', 'OFL.txt', '../font']]) {
     notices.push(`\n===== ${font} (SIL OFL 1.1) =====`,
-      `Copyright embedded in the actual bundled font:\n${fontCopyright(await fs.readFile(path.join(websiteRoot, 'src/fonts', font)))}`,
-      await fs.readFile(path.join(websiteRoot, 'src/fonts', license), 'utf8'));
+      `Copyright embedded in the actual bundled font:\n${fontCopyright(await fs.readFile(path.join(websiteRoot, dir, font)))}`,
+      await fs.readFile(path.join(websiteRoot, dir, license), 'utf8'));
   }
   await fs.mkdir(outputDirectory, { recursive: true });
   await fs.writeFile(path.join(outputDirectory, 'THIRD-PARTY.txt'), `${notices.join('\n\n')}\n`);
-  return { packages: packages.length, fonts: 2 };
+  return { packages: packages.length, fonts: 3 };
 }

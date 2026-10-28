@@ -5,20 +5,20 @@ import { hubContext } from '../hub';
 // A product with a wordmark in the catalog shows it instead of the title text on its landing page.
 // The title stays in the page for search engines and screen readers.
 const hub = hubContext(Astro.url.pathname);
-const files = import.meta.glob('../assets/*.svg', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
-const wordmark = hub.record && hub.record.slug === hub.item?.path && hub.item?.wordmark ? files[`../assets/${hub.item.wordmark}`] : undefined;
+const wordmark = hub.record && hub.record.slug === hub.item?.path && hub.item?.wordmark ? hub.item : undefined;
 ---
 
 {wordmark ? (
 	<div class="has-wordmark">
-		<div class="wordmark" set:html={wordmark} />
+		<div class="wordmark"><img src={wordmark.logo ?? '/favicon.svg'} alt="" /><span class="tuvima-word">{wordmark.name}</span></div>
 		<Default><slot /></Default>
 	</div>
 ) : <Default><slot /></Default>}
 
 <style>
 	.has-wordmark { display: flex; flex-direction: column; }
-	.wordmark { color: var(--sl-color-white); margin-bottom: -1.5rem; }
-	.wordmark :global(svg) { height: clamp(3.5rem, 9vw, 5.5rem); width: auto; display: block; }
+	.wordmark { display: flex; align-items: center; gap: 1rem; color: var(--sl-color-white); margin-bottom: 0.5rem; }
+	.wordmark img { height: clamp(3rem, 8vw, 4.5rem); width: auto; display: block; }
+	.wordmark .tuvima-word { font-size: clamp(2.25rem, 6vw, 3.5rem); line-height: 1; }
 	.has-wordmark :global(h1) { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 </style>

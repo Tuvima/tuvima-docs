@@ -1,4 +1,3 @@
-import { readFileSync } from 'node:fs';
 // Pages generated from catalog.json: the hub home, one landing page per area, and the not-found page.
 // Every card list is built from the catalog, so adding a product is one new row there.
 const statusLabels = { 'early-access': 'Early Access', current: 'Current', 'target-state': 'Planned' };
@@ -6,11 +5,10 @@ const esc = text => String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').re
 export const itemStart = item => `/${item.path}/${item.startPage ? `${item.startPage}/` : ''}`;
 const searchButton = '<button type="button" class="hub-search" data-hub-search><span>Search all of Tuvima documentation</span><kbd>Ctrl K</kbd></button>\n';
 
-const wordmark = file => readFileSync(new URL(`../src/assets/${file}`, import.meta.url), 'utf8').replace(/\s*\n\s*/g, '');
 
 function card(item) {
   const title = item.wordmark
-    ? `<a href="/${esc(item.path)}/" class="hub-card-wordmark" aria-label="${esc(item.name)}">${wordmark(item.wordmark)}</a>`
+    ? `<a href="/${esc(item.path)}/" class="hub-card-wordmark" aria-label="${esc(item.name)}"><img src="${esc(item.logo ?? '/favicon.svg')}" alt="" width="32" height="32" /><span class="tuvima-word">${esc(item.name)}</span></a>`
     : `<a href="/${esc(item.path)}/"><img class="hub-card-logo" src="${esc(item.logo ?? '/favicon.svg')}" alt="" width="28" height="28" />${esc(item.name)}</a>`;
   return `<div class="hub-card"><h3>${title}</h3><p>${esc(item.description)}</p><p class="hub-card-meta"><span class="hub-status">${esc(statusLabels[item.status] ?? item.status)}</span><a href="${esc(itemStart(item))}">Get started</a></p></div>`;
 }

@@ -22,6 +22,7 @@ const itemHome = hub.switcher.find(s => s.current)?.href;
 		</div>
 		<nav class="hub-areas sl-hidden md:sl-flex" aria-label="Areas">
 			{hub.areas.map(area => <a href={area.href} aria-current={area.current ? 'true' : undefined}>{area.name === 'Legal and policies' ? 'Legal' : area.name}</a>)}
+			<a href="/legal/typography/" aria-current={Astro.url.pathname.startsWith('/legal/typography') ? 'page' : undefined}>Typography</a>
 		</nav>
 		<div class="sl-flex print:hidden hub-search-slot"><Search /></div>
 		<div class="sl-hidden md:sl-flex print:hidden right-group">
@@ -65,16 +66,16 @@ const itemHome = hub.switcher.find(s => s.current)?.href;
 <style>
 	.hub-header { display: flex; flex-direction: column; height: calc(100% + 2 * var(--sl-nav-pad-y)); margin-block: calc(-1 * var(--sl-nav-pad-y)); }
 	.hub-bar { display: flex; align-items: center; gap: var(--sl-nav-gap); flex: none; height: 4rem; }
-	.title-wrapper { overflow: clip; padding: 0.25rem; margin: -0.25rem; min-width: 0; }
+	.title-wrapper { flex: none; overflow: clip; padding: 0.25rem; margin: -0.25rem; min-width: 0; }
 	.item-logo { height: 1.4rem; width: auto; max-width: 1.8rem; flex: none; }
 	.right-group, .social-icons { gap: 1rem; align-items: center; }
 	.social-icons::after { content: ''; height: 2rem; border-inline-end: 1px solid var(--sl-color-gray-5); }
-	.hub-areas { gap: 1.25rem; align-items: center; margin-inline-start: 1rem; }
-	.hub-areas a { color: var(--sl-color-gray-2); text-decoration: none; font-family: Montserrat, var(--sl-font); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; padding: 0.9rem 0.1rem; border-bottom: 2px solid transparent; }
+	.hub-areas { gap: 1.75rem; align-items: center; justify-content: center; flex: 1 1 auto; min-width: 0; white-space: nowrap; }
+	.hub-areas a { color: var(--sl-color-gray-2); text-decoration: none; font-family: 'Tuvima Sans', Montserrat, var(--sl-font); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; padding: 0.9rem 0.1rem; border-bottom: 2px solid transparent; }
 	.hub-areas a:hover, .hub-areas a[aria-current] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-accent); }
-	.hub-search-slot { margin-inline-start: auto; flex: 0 1 22rem; justify-content: flex-end; }
+	.hub-search-slot { flex: 0 1 16rem; justify-content: flex-end; }
 	.item-bar { align-items: center; gap: 1.25rem; border-top: 1px solid var(--sl-color-gray-5); height: 3rem; }
-	.item-name { display: inline-flex; align-items: center; gap: 0.5rem; font-family: Montserrat, var(--sl-font); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--sl-color-white); text-decoration: none; }
+	.item-name { display: inline-flex; align-items: center; gap: 0.5rem; font-family: 'Tuvima Sans', Montserrat, var(--sl-font); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--sl-color-white); text-decoration: none; }
 	.item-switcher { position: relative; }
 	.item-switcher summary { cursor: pointer; list-style: none; color: var(--sl-color-gray-3); font-size: var(--sl-text-xs); padding: 0.3rem 0.6rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.35rem; }
 	.item-switcher summary::-webkit-details-marker { display: none; }
@@ -84,7 +85,7 @@ const itemHome = hub.switcher.find(s => s.current)?.href;
 	.item-switcher li a small { color: var(--sl-color-gray-3); }
 	.item-switcher li a:hover, .item-switcher li a[aria-current] { background: var(--sl-color-accent-low); }
 	.item-groups { display: flex; gap: 0.25rem; margin-inline-start: auto; }
-	.item-groups a { color: var(--sl-color-gray-2); text-decoration: none; font-family: Montserrat, var(--sl-font); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; padding: 0.9rem 0.6rem; border-bottom: 2px solid transparent; }
+	.item-groups a { color: var(--sl-color-gray-2); text-decoration: none; font-family: 'Tuvima Sans', Montserrat, var(--sl-font); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; padding: 0.9rem 0.6rem; border-bottom: 2px solid transparent; }
 	.item-groups a:hover, .item-groups a[aria-current] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-accent); }
 	@media (max-width: 49.99rem) {
 		.title-wrapper { flex: 1 1 auto; overflow: visible; }
