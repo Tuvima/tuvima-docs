@@ -76,7 +76,7 @@ is a *list*, and a franchise rollup opened by its identifier is a *universe*.
 A Universe in the collections list carries its `universe_qid`, which an app uses to
 open the Universe; other entries have none, and an app is never handed an
 identifier its profile cannot open.
-The content limit (Kids and maturity) of the paired profile applies to every
+The household's Kid levels (when the paired profile is a Kid's profile) apply to every
 item, count and preview, so a Kids phone never shows, or counts, an item over its
 limit; a collection that is unknown, someone else's, or empty for that profile
 looks the same to the app. Apps cannot create, edit, reorder or share
@@ -111,9 +111,9 @@ re-pairing. The app lists the people its account may use
 `POST /api/v1/devices/current/switch-profile`. The device keeps its identity and
 approved scopes; each device has exactly one active profile, so a switch issues
 a new token pair for the chosen person and revokes the old one at once. The
-person's PIN is checked at every switch, including when moving out of a Kids
+person's PIN is checked at every switch, including when moving out of a Kid's
 profile, with the same lockout as the Dashboard. Only people the account is
-granted can be listed or chosen, and a Kids profile keeps its content limit
+granted can be listed or chosen, and a Kid's profile keeps its Kid levels
 after the switch. Choosing the profile already in use is refused (`409`), and
 each device may list or switch at most 30 times a minute.
 

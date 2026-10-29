@@ -19,7 +19,7 @@ A household is the group of people who live together and the sign-ins that open 
 ## Add a person to the household
 
 1. Open **Settings → Profiles** and choose **Add profile** in the household's list (a server administrator picks the household by using the row in its group).
-2. Enter a name. Switch on **Kids profile** for a restricted profile. A kids profile never has administrator access.
+2. Enter a name. Switch on **Kid's profile** if this person is a child. A Kid's profile never has administrator access or Vault access, and a new profile starts with nothing hidden.
 3. Optionally set a **PIN**. Anyone who switches into that profile is asked for it. Use 4 to 12 digits. You can change it later from the person's **Profile details**.
 4. Save. The person appears in the list. They can use the profile straight away by switching to it, and they do not need a sign-in of their own. A household holds up to eight people; at eight, Tuvima shows the Engine's sentence instead of adding a ninth.
 
@@ -35,11 +35,21 @@ Signing in opens the person's own profile, and from there they can switch to any
 
 ## Change what someone can open
 
-A person's access belongs to their profile. On their page, **Access → Libraries and lanes** opens a sheet where you choose which of Read, Watch, Listen and View they get and which Libraries they can open. Every library in an area a person has is visible to them, including libraries added later, until an administrator unticks it in that area's **Libraries** list (it saves at once and says "Hidden from {name}"; the list shows only when the area has more than one library, and phones show it read-only). A household administrator can give only what their own profile has, and only to people in their own household; they can hide more libraries from their household's people, but cannot show a library that is hidden from their own profile. A server administrator's profile can open everything.
+A person's access belongs to their profile, and it is set in one place: their page. Under **Access**, each area (Watch, Listen, Read and View) is a switch. Under an area that is on, its libraries are listed with a tick each and an **All libraries** tick; untick a library to take it away from that person. An area with one library shows no list. Press **Save changes** to apply everything at once, or **Discard** to put it back (the list is read-only on phones). A library the household cannot use is greyed with "Not available to {household}". Every library in an area a person has is visible to them, including libraries added later, until you untick it. The Vault is a separate area with its own access and is never in this list.
+
+A household administrator can change only people in their own household, only within what the household can use, and never above what their own profile holds. A server administrator's profile can open everything. See [Who sees a library](library-settings.md#who-sees-a-library).
+
+## Choose which libraries a household can use
+
+Only the server administrator sees this. On **Settings → Users and Sign-in → Households**, each household has **Libraries this household can use**: every library is ticked by default, and you press **Save changes** after unticking. A household can restrict its people only from the libraries it already has: a household administrator can untick more for the household's profiles but can never show a library the household lacks. A new library appears for every household, and the Vault is never listed here.
+
+## Set what Kids can see
+
+A Kid's profile is simply a switch on the person's page. What every Kid's profile can see is one setting on the household, under **What Kids can see** in the household's group on **Settings → Profiles** (administrators only). Choose a maximum level for each of **Watch**, **Read** and **Listen**: G, PG, PG-13 or R, each described by what it shows (the default is PG for all three). One **Show unrated items** switch, on by default, decides whether items with no rating (home videos, most books and music) are shown to Kids. Changing these updates every Kid's profile in the household at once. Explicit and adult content counts as adult-rated. The levels guide what Kids see on the home page and in lists; parents still supervise, and a profile PIN stops a child switching into an adult profile.
 
 ## Roles on a profile
 
-The **Roles** group on a profile page has a **Household administrator** switch. A household administrator looks after the people of their household and what those people can open. The switch is greyed out, with the reason beside it, when the person has no sign-in (a household administrator always has one), is a Kids profile, or is the household's last household administrator (a household always keeps one). A server administrator also sees a **Server administrator** switch for people in the Library's own household. A household administrator cannot change a server administrator's profile.
+The **Roles** group on a profile page has a **Household administrator** switch. A household administrator looks after the people of their household and what those people can open. The switch is greyed out, with the reason beside it, when the person has no sign-in (a household administrator always has one), is a Kid's profile, or is the household's last household administrator (a household always keeps one). A server administrator also sees a **Server administrator** switch for people in the Library's own household. A household administrator cannot change a server administrator's profile.
 
 ## The administrator PIN
 

@@ -16,7 +16,7 @@ An account signs in. A profile holds personal history, preferences, and View Per
 ## Give someone access
 
 1. Open **Settings → Users and Sign-in → Users** (server administrators only).
-2. Choose **Add a sign-in**. Pick **A profile without a sign-in** to give an existing profile its own sign-in, or **A new person** to make their profile as well (a name, their household or **A new household**, and **Kids profile** if it should be one).
+2. Choose **Add a sign-in**. Pick **A profile without a sign-in** to give an existing profile its own sign-in, or **A new person** to make their profile as well (a name, their household or **A new household**, and **Kid's profile** if it should be one).
 3. Enter the person's email, then pick how they will sign in for the first time: **Send an invitation** (the default) or **Set a temporary password**.
 4. Hand over what Tuvima shows you, through a trusted private channel. It is shown once.
 5. Set what that person may see and do on their profile, under **Settings → Profiles**: the administrator roles, Read, Watch, Listen and View, and the libraries. A sign-in only opens a profile; the profile holds the access.
@@ -51,9 +51,9 @@ A person is looked after from their own page under **Settings → Profiles**, wh
 
 On a person's page:
 
-1. **Add profile** (on the Profiles list) adds someone to the household. Enter a name, switch on **Kids profile** for a restricted profile, and set an optional PIN that is asked before anyone switches into them. The household's sign-in can open them straight away; they do not have a sign-in of their own yet.
+1. **Add profile** (on the Profiles list) adds someone to the household. Enter a name, switch on **Kid's profile** if it is for a child, and set an optional PIN that is asked before anyone switches into them. The household's sign-in can open them straight away; they do not have a sign-in of their own yet.
 2. **Sign-in** shows the person's sign-in email, or *No sign-in*. It is read only on the profile page: a server administrator adds, changes and removes sign-ins in **Settings → Users and Sign-in**. A sign-in opens its own profile, and the person can switch to others in their household.
-3. **Roles** and **Access** are set on the profile: **Household administrator** (and, for a server administrator, **Server administrator**) switches, and **Libraries and lanes** for Read, Watch, Listen and View and the Libraries they can open (all of them unless unticked). A household administrator can give only what their own profile has, and cannot show a library that is hidden from their own profile.
+3. **Roles** and **Access** are set on the profile: **Household administrator** (and, for a server administrator, **Server administrator**) switches, and **Access** for Read, Watch, Listen and View and the libraries they can open (all of them unless unticked, saved together with **Save changes**). A household administrator can give only what their own profile has, and cannot show a library the household lacks.
 4. **Profile details** sets the PIN asked before anyone switches into that person (4 to 12 digits). A new PIN replaces the old one.
 5. **Delete profile** removes the person and everything personal in it, and their sign-in too. You choose whether their photos **Move to Shared** (the default) or are deleted.
 
@@ -77,7 +77,7 @@ The PIN lock protects settings after sign-in. It is separate from the sign-in pa
 
 Signing in shows your household's profiles with your own already selected; press **Continue** (or Enter) or click another person, with their PIN when they have one. Everyone signs in with their own email, so people never need to share a password.
 
-Open **Settings → Security**. **Password** changes your password. Only the server administrator sees **Export my data** there; exporting is for the server administrator alone. Once you have a password, **Extra protection** opens one sheet for passkeys, two-step codes, linked sign-ins and recovery codes. Everyone sees **Sign out everywhere else** under *Access*, which signs out your other sessions (for example a lost phone) and keeps the one you are using; administrators also see **Devices** there. Under *Your photos*, **Who viewed your photos** lists, read-only and newest first, each time a server administrator opened your photos (the household's own administrator also sees views of the household's Shared Library); the times are shown in UTC and nothing there can be deleted.
+Open **Settings → Security**. **Password** changes your password. Once you have a password, **Extra protection** opens one sheet for passkeys, two-step codes, linked sign-ins and recovery codes. Everyone sees **Sign out everywhere else** under *Access*, which signs out your other sessions (for example a lost phone) and keeps the one you are using; administrators also see **Devices** there. Under *Your photos*, **Who viewed your photos** lists, read-only and newest first, each time a server administrator opened your photos (the household's own administrator also sees views of the household's Shared Library); the times are shown in UTC and nothing there can be deleted.
 
 Password resets revoke existing sessions. Tuvima prevents removal of the final usable authenticator.
 
