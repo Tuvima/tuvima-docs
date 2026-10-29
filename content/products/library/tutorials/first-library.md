@@ -21,10 +21,10 @@ Use [View Personal Space](../guides/view-personal-space.md) for private photos, 
 
 ## Add a structured library
 
-1. Open **Settings → Libraries**. The overview has a tab for Watch, Listen, Read and View; open the one that fits and choose **Add library** (or open a library that is already there). A library is created when its first folder is added.
-2. Choose **+ Add folder** and say what it is (Watch, Listen, Read or View, then the kind, such as Movies or Music); this step is skipped when you start from the kind's own page. Then click a folder to open it, or type the path in the bar. You browse the server's drives (inside a container, whatever the container can see). Only administrators can browse, and Tuvima's own folders are never listed.
+1. Open **Settings → Libraries**. The overview has a button for Watch, Listen, Read and View; pick the one that fits and choose **Add library** (or open a library that is already there). A library is created when its first folder is added.
+2. Say what it is (the kind, such as Movies or Music) and press **Next**; this step is skipped when you start from the kind's own page. On the second screen press **Browse**, then click a folder to open it, or type the path in the bar. You browse the server's drives (inside a container, whatever the container can see). Only administrators can browse, and Tuvima's own folders are never listed.
 3. If the folder already has files, Tuvima asks whether to use it read-only, merge it into a managed folder, or let Tuvima manage it. Use it read-only for originals that must stay unchanged.
-4. Choose **Add folder** on the last step. It saves at once.
+4. Press **Choose folder**, then **Add library**. It saves at once.
 
 The path belongs to the server running the Engine. For Docker, use the path inside the container, such as `/library`, rather than its host path.
 

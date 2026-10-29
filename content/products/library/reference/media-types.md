@@ -31,10 +31,10 @@ Provider stages are strict: Stage 1 provider metadata uses active configured pro
 
 ## Videos (home videos, clips and courses)
 
-**Library kind:** Videos, in Watch. It is the plain Watch kind for files that are not films, TV shows or YouTube downloads:
+**Library kind:** Videos, in Watch (the Add library dialog calls it **Other**). It is the plain Watch kind for files that are not films, TV shows or YouTube downloads:
 lectures, courses and talks, with nothing looked up. A kind can hold several named libraries (up to five). You add it by
-choosing Watch and then Videos in the Add library dialog; saved YouTube channels are the YouTube kind, and phone and home
-footage belongs under View (Personal videos), where a folder of untouched phone footage is offered **Add to View instead**.
+choosing Watch and then Other in the Add library dialog; saved YouTube channels are the YouTube kind, and phone and home
+footage belongs under View (Personal videos).
 
 ### Supported formats
 
