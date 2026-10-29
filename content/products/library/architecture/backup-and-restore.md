@@ -129,6 +129,7 @@ See "What a backup file holds" above. The restore screens come in the next step.
 | `grant_admin_protections` | Optional extra lock (PIN hash and lock settings) on an administrator grant. | none | none | all rows |
 | `profile_feature_grants` | Which features a profile may use. | none | none | all rows |
 | `profile_library_hidden` | Which libraries an administrator hid from a profile. | none | none | all rows |
+| `library_profile_grants` | Which profiles can see a Selected-profiles library. | none | none | all rows |
 | `household_library_hidden` | Which libraries a household may use at all. | none | none | all rows |
 | `profile_admin_protections` | Optional extra lock (lock settings) on a profile's administrator rights. | none | none | all rows |
 | `households` | Households that group accounts and profiles. | none | none | all rows |
