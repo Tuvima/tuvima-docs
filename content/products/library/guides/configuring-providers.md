@@ -57,7 +57,7 @@ An invalid key, quota limit, or outage does not remove stored subtitles.
 
 ## Understand the matching flow
 
-Open **Settings → Providers → Ingestion Flow** for the active, read-only media-specific order.
+Open **Settings → Library & Ingestion → Ingestion Flow** to see which providers run for each kind of media, in what order. Administrators on a computer can change it (see below).
 
 Retail lookup establishes a likely work and gathers artwork and bridge identifiers. Wikidata uses those identifiers for canonical identity and relationships. Later enrichment can add people, universe links, lyrics, subtitles, and artwork variants.
 
@@ -145,7 +145,15 @@ When a bridge ID resolves, Wikidata supplies canonical identity, relationship fa
 
 ## Reviewing provider order and roles
 
-Open **Settings → Metadata Providers → Ingestion Flow** to see the active order for each media type. The page labels providers as Primary, Secondary, Fallback, Required, or Optional and shows the outputs contributed at each stage. It is intentionally read-only so inspecting the flow cannot accidentally change ingestion behavior.
+Open **Settings → Library & Ingestion → Ingestion Flow** to see the active order for each media type. Each provider shows a role: **Primary** identifies the item, **Fallback** identifies it when the Primary cannot, **Adds details** only supplies extra information after the item is identified, and **Off** leaves the provider out of that media type.
+
+### Change the order and roles
+
+1. Choose **Edit** (administrators, on a computer only).
+2. Change a role, move a provider up or down, or use **Add provider** to include an installed provider that can handle that media type.
+3. Choose **Save changes** and read **Review changes**, which lists every change in plain sentences. Nothing is saved until you confirm.
+
+Every media type must keep at least one Primary or Fallback provider, so the Dashboard blocks saving a media type with none. A change applies to new items only: what is already in your Library keeps its match, and the 90-day refresh does not rematch items because the flow changed. A source added by a plugin joins the available providers as soon as the plugin is switched on, with no restart. Each provider's own page, opened from its name, has Overview, Settings and Activity tabs.
 
 Provider execution order remains media-scoped in `config/pipelines.json`. Sequential chains run in listed order, passing bridge IDs forward. For music, the default configuration assigns MusicBrainz the `identity` role and Apple the `enrichment` role with `requires_identity: true` plus `use_as_identity_fallback: true`. Apple's `accepted_transition` points back to MusicBrainz for one reconciliation attempt only when Apple supplied the fallback identity. `max_provider_attempts` is an absolute safety budget. Query clauses, candidate paths, nested release constraints, creator-list behavior, transition hint fields, and retry counts all live in validated JSON configuration rather than provider-name branches in the worker.
 
@@ -154,7 +162,7 @@ Wikidata appears in the same provider inventory as every other provider. Ingesti
 ---
 
 
-The default refresh interval is 30 days in `config/hydration.json`; it is configurable. A refresh depends on the relevant provider and job being available.
+The default refresh interval is 90 days in `config/hydration.json`; it is configurable. A refresh depends on the relevant provider and job being available.
 
 OpenSubtitles and Fanart.tv are no longer active providers. Keep previously downloaded subtitles and artwork. After replacing an old connection, revoke its credential with that provider and remove unused ignored `config/secrets/opensubtitles.json` or `config/secrets/fanart_tv.json` files. Generic `fanart.jpg` sidecars are unrelated and can remain.
 
