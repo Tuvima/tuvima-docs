@@ -30,7 +30,7 @@ People, dates, language, runtime, and source ratings come from the file or provi
 
 ## Mark a video Explicit
 
-On a video or a series of videos, Editing Mode on the Overview has an **Explicit** switch. It saves straight away and hides the item from every profile that has a content limit, whatever the library setting says; profiles set to Everything still see it. Nothing is shown for other kinds of item.
+On a video or a series of videos, Editing Mode on the Overview has an **Explicit** switch. It saves straight away and hides the item from every Kid's profile, whatever the household's Show unrated items setting says; every other profile still sees it. Nothing is shown for other kinds of item.
 
 ## Videos: series, order, names and identifying
 

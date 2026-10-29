@@ -284,10 +284,6 @@ modified/summarized status attached to text shown in the Dashboard.
 
 The safe on-disk and database holding state between file discovery and final organization. Staging is not the same as browse visibility.
 
-### Suitable for limited profiles
-
-A switch on a library folder. Unrated items from a ticked folder are shown to profiles with a rating limit, whatever their "allow unrated" setting says; rated items always follow each profile's limit. Only a blank rating, NR, Not Rated or Unrated counts as unrated. Off by default, and not offered for a Vault folder.
-
 ## T
 
 ### Tag

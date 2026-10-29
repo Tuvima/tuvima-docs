@@ -13,13 +13,13 @@ tags:
 
 # The Vault and why it has its own folders
 
-The Vault is a private area of Tuvima Library for material you do not want mixed in with the rest of your collection, such as adult videos. It is switched off by default. While it is off, nothing about it appears anywhere: no row or choice in Settings > Libraries, no search result and no hint that it exists.
+The Vault is a private area of Tuvima Library for material you do not want mixed in with the rest of your collection, such as adult videos. It is switched off by default. While it is off, nothing about it appears anywhere: no Vault area, no library in Settings, no search result and no hint that it exists.
 
-This page explains how the Vault is kept apart, and why its folders must never be shared with a normal library. To create a Vault library, see [Vault-protected libraries](../guides/library-settings.md#vault-protected-libraries).
+This page explains how the Vault is kept apart, and why its folders must never be shared with a normal library. To create a Vault library, see [Vault libraries](../guides/library-settings.md#vault-libraries).
 
 ## Turning the Vault on
 
-Only an adult profile that an administrator has given Vault mode can open the Vault, and only an administrator can create or change Vault libraries. Vault mode is turned on from Settings and ends on its own after a time you choose, when you sign out, or when you switch profile. If the profile has a PIN, turning it on asks for that PIN. The **Vault-protected** choice in Settings > Libraries appears only while Vault mode is unlocked for an administrator; with it locked, or for anyone else, it is not drawn at all.
+Only an adult profile that an administrator has given Vault mode can open the Vault, and only an administrator can create or change Vault libraries. Vault mode is turned on from Settings and ends on its own after a time you choose, when you sign out, or when you switch profile. If the profile has a PIN, turning it on asks for that PIN. The Vault area appears only while Vault mode is unlocked for an administrator; with it locked, or for anyone else, it is not drawn at all. A Kid's profile can never be given Vault access.
 
 ## Why Vault folders are separate on disk
 
@@ -43,7 +43,7 @@ A Vault folder is added as-is: Library reads the files and never moves, renames 
 
 ## How a Vault library is made
 
-There is no separate Vault section in Settings. A Vault library is a library whose Access is **Vault-protected**, chosen when it is created and never switched on or off later. Each content type has at most one ordinary library and one Vault library, and a Vault library is never listed to a profile that cannot open the Vault. Its folders are added as they are: Library reads them and does not rename, move or tag them.
+The Vault is a fifth area, beside Watch, Listen, Read and View. A Vault library is created inside it with its own **Add library**, which offers every content type including Adult content (Adult content exists nowhere else), and it is never converted to or from an ordinary library. Each content type has at most one ordinary library and one Vault library, and a Vault library is never listed to a profile that cannot open the Vault. Its folders are added as they are: Library reads them and does not rename, move or tag them.
 
 An administrator can also use **Move to Vault** in a folder's menu. For now it only shows a preview of where items would go and moves nothing; moving items into the Vault arrives with a later update.
 
