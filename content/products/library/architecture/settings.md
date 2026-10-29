@@ -45,7 +45,7 @@ Use SQLite for records created or changed by product workflows:
 
 ## Library Admin Pages
 
-The Settings/Admin navigation exposes **Libraries**, **Ingestion**, **Providers**, and **Activity** directly under **Admin Settings**. These are first-class pages in the left navigation instead of tabs inside a shared operations page. The Ingestion page is a read-heavy operational dashboard, not a configuration editor and not a raw background-job log. Its Engine views (`GET /ingestion/queue-progress` and `GET /ingestion/presentation`) combine JSON-owned configuration with SQLite-owned state:
+The Settings menu is flat: **Library & Ingestion** is one row in the Server group, and its tabs (Overview, Libraries, Ingestion Flow) sit under its title, each at its own address (`/settings/ingestion`, `/settings/libraries`, `/settings/metadata/ingestion-flow`). A page's tabs may belong to different sections of the Dashboard; the menu model (`SettingsNav.MenuGroups`) names which section and sub-page each tab opens, and the row stays lit on every one of them. Needs Review and Recently Added open beneath this page without being tabs. The shared tab style is the same one every other page uses. The Ingestion page is a read-heavy operational dashboard, not a configuration editor and not a raw background-job log. Its Engine views (`GET /ingestion/queue-progress` and `GET /ingestion/presentation`) combine JSON-owned configuration with SQLite-owned state:
 
 - JSON supplies configured source folders, provider definitions, and organization templates.
 - SQLite supplies lifecycle counts, the groups in flight and recently added, review reasons, provider health records, and pipeline progress.
