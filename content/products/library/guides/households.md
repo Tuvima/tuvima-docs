@@ -51,7 +51,7 @@ A server administrator can add someone who is not part of an existing household.
 
 ## The profile picker
 
-Signing in shows your household's profiles with your own already selected, and nothing opens until you click a person or press **Continue** (or Enter). Open the picker again from the account menu's **Who's watching?** to switch to another profile of your household, or use the menu's quick list. Choose a person to open their profile; any profile can switch to any other unless it has a PIN. A profile with a PIN opens a number pad: tap the digits (or type them on a keyboard or remote), then choose **Continue**. The dots shake if the PIN is wrong, and too many wrong tries pause further attempts for a minute.
+Signing in shows your household's profiles as a row of large round pictures with the name underneath (many people wrap onto further centred rows), and nothing opens until you click a person. Your own profile only gets keyboard focus, so Enter opens it. The people appear in the order the household set. Open the picker again from the account menu's **Who's watching?** to switch to another profile of your household, or use the menu's list, which shows the other people first. Choose a person to open their profile; any profile can switch to any other unless it has a PIN. A profile with a PIN opens a number pad: tap the digits (or type them on a keyboard or remote), then choose **Continue** on the pad. The dots shake if the PIN is wrong, and too many wrong tries pause further attempts for a minute.
 
 
 ## Phone backup
