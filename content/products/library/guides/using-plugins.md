@@ -19,9 +19,9 @@ You can list built-in and dynamic plugins, enable or disable them, edit settings
 
 ## Open plugin settings
 
-Open **Settings > Developer > Plugins**. It is one page: a title with the **Upload plugin** button, a summary strip (how many plugins are installed, switched on and need attention), a search box with **Status**, **Media** and **Sort** filters and an **Official Tuvima** switch, category tabs with counts (All, Metadata, Media processing, Services, Utilities), and a grid of plugin cards. Under the grid it says "Showing 11 of 11 plugins", with page buttons when there are more than 12. **Available plugins** and the details for one plugin (health and jobs, capabilities, and the danger zone) follow below. On a phone the page is read-only.
+Open **Settings > Plugins**. It is one page: a title with the **Upload plugin** button, a summary strip (how many plugins are installed, switched on and need attention), a search box with **Status**, **Media** and **Sort** filters and an **Official Tuvima** switch, category tabs with counts (All, Metadata, Media processing, Services, Utilities), and a grid of plugin and source cards. A **Cards / List** switch beside the filters changes the layout; the Library remembers your choice on this browser. Under the grid it says "Showing 11 of 11 plugins", with page buttons when there are more than 12. **Available plugins** and the details for one plugin (health and jobs, capabilities, and the danger zone) follow below. On a phone the page is read-only.
 
-Each card has the plugin's switch, **Configure** (it opens the plugin's settings with a breadcrumb and a back link) and a "..." menu with **Check health**, **View what it can access** and, where allowed, **Remove**. A plugin that needs a tool the Library cannot find shows a warning strip ("Requires Comskip or FFmpeg. Install it for full functionality."); press it to open Tools and requirements.
+Each card has the plugin's switch, **Manage** (it opens the plugin's own page with a breadcrumb and a back link, and tabs for Overview, Settings, Access and Activity) and a "..." menu with **Check health**, **View what it can access** and, where allowed, **Remove**. A plugin that needs a tool the Library cannot find shows a warning strip ("Requires Comskip or FFmpeg. Install it for full functionality."); press it to open Tools and requirements.
 
 ## Upload a plugin
 

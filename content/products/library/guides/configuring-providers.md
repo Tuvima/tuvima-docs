@@ -30,8 +30,8 @@ Enabled configuration and provider availability still determine what runs. Tuvim
 
 ## Connect a provider
 
-1. Open **Settings → Metadata Providers → Providers** (`/settings/metadata/providers`).
-2. Find the provider, open its configuration, and choose **Connect provider**.
+1. Open **Settings → Plugins** (`/settings/plugins`). Metadata sources such as TMDB, TheTVDB and Comic Vine are tiles beside the plugins, under the **Metadata** tab; **Official** ones carry the Tuvima mark.
+2. Open the source's tile (its page is `/settings/plugins/<source>`), go to **Settings**, and choose **Connect provider**.
 3. Follow its account and credential instructions.
 4. Enter the required values.
 5. Choose **Verify & connect**.
@@ -48,7 +48,7 @@ Provider-specific help is available from [TMDB](https://www.themoviedb.org/setti
 Embedded and local subtitle files work without SubDL.
 
 1. Generate an API key in your SubDL account.
-2. Connect SubDL from the Providers page.
+2. Connect SubDL from its page under **Settings → Plugins**.
 3. Verify the key and check a matched movie or owned TV episode.
 
 Tuvima uses TMDB identity for movie searches. TV searches require a verified TheTVDB-to-TMDB episode crosswalk. Missing or conflicting links leave automatic downloads pending rather than guessing.
@@ -57,7 +57,7 @@ An invalid key, quota limit, or outage does not remove stored subtitles.
 
 ## Understand the matching flow
 
-Open **Settings → Library & Ingestion → Ingestion Flow** to see which providers run for each kind of media, in what order. Administrators on a computer can change it (see below).
+Open **Settings → Metadata → Ingestion Flow** (`/settings/metadata/ingestion-flow`) to see which providers run for each kind of media, in what order. Administrators on a computer can change it (see below).
 
 Retail lookup establishes a likely work and gathers artwork and bridge identifiers. Wikidata uses those identifiers for canonical identity and relationships. Later enrichment can add people, universe links, lyrics, subtitles, and artwork variants.
 
@@ -77,7 +77,7 @@ A service that answers in JSON over HTTPS can be added without any code. The fiv
 2. Give it its own `name`, a new `provider_id` (a GUID that never changes afterwards), `display_name`, `media_types` under `can_handle`, and the address under `endpoints.api`.
 3. Describe what it does in the sections the file needs: search strategies and field mappings for lookups, `follow_ups` for extra requests, `candidate_ranking` for choosing between near-identical results, or `text_track` for subtitles and lyrics. The fields are listed in [Provider file sections](../reference/configuration.md#provider-file-sections).
 4. Restart the Engine. A file with a mistake is rejected with the place in the file, for example `api.allowed_hosts must list at least one host.`
-5. Open **Settings → Metadata Providers → Providers**, connect the provider, and use **Test connection**.
+5. Open **Settings → Plugins**, open the new source's tile, connect it, and use **Test connection**.
 
 A provider that is not described this way, or that needs behaviour a file cannot express, is a [plugin](building-a-plugin.md) instead.
 
@@ -145,7 +145,7 @@ When a bridge ID resolves, Wikidata supplies canonical identity, relationship fa
 
 ## Reviewing provider order and roles
 
-Open **Settings → Library & Ingestion → Ingestion Flow** to see the active order for each media type. Each provider shows a role: **Primary** identifies the item, **Fallback** identifies it when the Primary cannot, **Adds details** only supplies extra information after the item is identified, and **Off** leaves the provider out of that media type.
+Open **Settings → Metadata → Ingestion Flow** (`/settings/metadata/ingestion-flow`) to see the active order for each media type. Each provider shows a role: **Primary** identifies the item, **Fallback** identifies it when the Primary cannot, **Adds details** only supplies extra information after the item is identified, and **Off** leaves the provider out of that media type.
 
 ### Change the order and roles
 
