@@ -26,7 +26,7 @@ Start with one media type and a few files. Large imports are easier to check aft
 ## Configure a catalogue folder
 
 1. Open **Settings → Libraries** and choose **Add library**. (To add a folder to a library you already have, open it and choose **Add folder**.)
-2. Pick the content type and press **Next**, then press **Browse** and pick the folder on the server. Click a folder to open it, or type the path. The name is filled in for you.
+2. Pick the content type and press **Next**. The next step is the folder pop-up: click a folder to open it, or type the path. The name is filled in for you in the footer.
 3. Choose **Add library**. It saves at once, starts a scan and opens the new library. See [Manage library settings and operations](library-settings.md) for the overview and library pages and what happens to a new folder first.
 5. Open **Settings → Operations** and choose **Check folders for changes** (in the Ingestion page "⋯" menu) for an existing batch.
 
