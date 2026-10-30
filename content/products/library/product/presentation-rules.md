@@ -147,6 +147,8 @@ Administrators see every item with who deleted it, when, and how many days it ha
 
 The bin empties itself after 90 days (the number of days is `recycle_bin_retention_days` in `maintenance.json`; 0 means never). Administrators are told when items are within 7 days of leaving, with a card on Overview, and can **Review** or **Keep them**.
 
+People's progress, bookmarks and listening history on a deleted file are kept, by the file's fingerprint, while it waits in the bin. Put the file back and let the library find it, and each person picks up where they left off; once the file leaves the bin for good, so does the kept progress. The delete confirmation says how many people have progress.
+
 ## Universe page
 
 A Universe has its own page, `/universe/{qid}`: a page to read, not a management screen. It is not a menu item and the phone dock does not change.
