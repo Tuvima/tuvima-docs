@@ -47,18 +47,20 @@ On desktop, **Close player** saves a checked, paused position and ends the audio
 
 1. Open **Watch** and select a movie or TV show.
 2. Choose **Watch** or **Resume**. A show starts an in-progress episode or the first owned episode.
-3. Use the controls to seek, choose available subtitles, or open **Up Next**.
+3. Use the bar at the bottom: Play, back and forward 10 seconds and Mute on the left; the episode name in the middle (for example "From E4 · Episode name"); and Next episode, Episodes, Bookmarks, Subtitles & Audio, Speed and Full screen on the right. A control turns purple when you point at it, and keeps a purple underline while it is on (subtitles showing, speed not 1×, muted). Panels open when you point at their icon and close when you move away; click an icon to keep its panel open. When you pause, the picture dims a little and the show, episode and name appear in the middle until you play again.
 4. Choose **Close** to return to the movie or the episode's show details.
 
-Episode lists and Up Next use episodes you own. A provider listing alone is not playable. Audio tracks, subtitles, and quality depend on the file and server.
+Episode lists and Up Next use episodes you own. A provider listing alone is not playable. Audio tracks, subtitles, and quality depend on the file and server. **Subtitles & Audio** shows every audio language in the file next to the subtitles. If your browser cannot switch audio on a file it plays directly, Library asks the Engine for the same video with every audio track and carries on from the same second after a short "Switching audio…". Subtitle size and background are in your profile's playback settings.
 
 Video can play directly when the client supports the source. Other files may need browser-ready delivery first. That can delay playback.
 
 ## Bookmarks in videos and audiobooks
 
-Choose **Bookmarks** in the video player (or the audiobook player) to open one panel with **Add** and **Saved**. Add captures the moment the panel opens, so it is not lost while you type. It shows the chapter name when there is one, lets you preview the captured spot, and takes a short note (up to 200 characters) and, in a video, an optional longer description (up to 4,000). Saved lists the title's bookmarks, newest first, with jump-to and delete.
+In the video player, choose **Bookmarks** and click **Add bookmark here** (it shows the time) to save a personal bookmark in one click; type a note first if you like, and press Enter to save it with the note. While watching, press **B** to add a bookmark without opening anything (a line on the progress bar says "Bookmark added" for two seconds), or **Shift+B** to open the list. Under the add row the panel lists the title's bookmarks in time order, earliest first, with who made each one (Mine, Everyone or a pack), **Play** and, for ones you may change, **Delete** (it asks "Delete?" in place). **More…** opens the full panel for the longer description, scene end time and packs.
 
-Each bookmark is a tick on the progress rail beside the file's own chapters. Point at a tick (or tap it on a touch screen) to see its short note; if it has a longer description, choose **More**. Bookmarks are personal to the profile that made them. A server administrator can switch on **Share with everyone** when adding, which makes a shared bookmark with a different tick shade and a small "Everyone" label; everyone who can see the title sees it, and only administrators can delete it. Adding a bookmark works on a phone or tablet and does not need Editing Mode.
+The audiobook player keeps its panel with **Add** and **Saved**. Add captures the moment the panel opens, so it is not lost while you type. It shows the chapter name when there is one, lets you preview the captured spot, and takes a short note (up to 200 characters) and, in a video, an optional longer description (up to 4,000). Saved lists the title's bookmarks, newest first, with jump-to and delete.
+
+In a video each bookmark is a small round bubble on the progress rail (purple for yours, white for Everyone, blue for a pack), while the file's own chapters stay thin lines. Point at a bubble (or tap it on a touch screen) to see its time and short note, with Play and Delete; if it has a longer description, choose **More**. Bookmarks are personal to the profile that made them. A server administrator can switch on **Share with everyone** when adding, which makes a shared bookmark with a different tick shade and a small "Everyone" label; everyone who can see the title sees it, and only administrators can delete it. Adding a bookmark works on a phone or tablet and does not need Editing Mode.
 
 ### Bookmark packs
 
