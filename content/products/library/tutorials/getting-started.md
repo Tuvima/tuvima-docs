@@ -71,7 +71,7 @@ Setup has six steps. A side list shows where you are, and you can go back at any
 
 1. **Name your server.** Pick a friendly name that phones, TVs and other computers can find. A quick server check runs silently after this; if it fails you see one plain message and a **Retry** button. **Restore a backup** is offered on this first screen if you are moving from another server.
 2. **Your account.** Create the administrator (see below).
-3. **Libraries.** Choose a media type and add the folders it lives in, or **Skip for now**. You can also set an Import folder here. Nothing is required.
+3. **Libraries.** Choose Watch, Listen, Read or View and add the folders it lives in, or **Skip for now**. Under View, **Photos**, **Personal videos** and **Documents** each take a folder with **Add folder**. You can also set an Import folder here. Nothing is required. When you carry on, the first administrator is offered the Vault once; see [Turning the Vault on in setup](../explanation/vault.md#turning-the-vault-on-in-setup).
 4. **Language.** Display language, metadata language and country.
 5. **Enhance your library.** Optional providers. The one button reads **Skip for now** until you enter something, then **Continue**.
 6. **All set.**

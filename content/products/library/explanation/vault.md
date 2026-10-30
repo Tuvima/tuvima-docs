@@ -21,6 +21,16 @@ This page explains how the Vault is kept apart, and why its folders must never b
 
 Only an adult profile that an administrator has given Vault mode can open the Vault, and only an administrator can create or change Vault libraries. Vault mode is turned on from Settings and ends on its own after a time you choose, when you sign out, or when you switch profile. If the profile has a PIN, turning it on asks for that PIN. The Vault area appears only while Vault mode is unlocked for an administrator; with it locked, or for anyone else, it is not drawn at all. A Kid's profile can never be given Vault access.
 
+## Turning the Vault on in setup
+
+When the first administrator finishes the Libraries step on a computer or tablet, first-run setup asks **Turn on the Vault?** once. **Not now** carries on, and the Vault stays off.
+
+If you choose **Set up the Vault**, the next screen asks you to protect it with a PIN, typed twice. A PIN is strongly suggested but never required: **Skip PIN** turns the Vault on without one. The PIN is the same one that protects your profile, so it is asked for before Vault mode opens. An administrator can add or reset it later.
+
+Setup then shows **Your Vault is on**, where you can add a first private library or carry on. The Vault locks when setup ends and stays out of the main menu. Until you turn on **Show Vault in the menu** in Settings, Home and Settings show a short reminder with a **Turn on** button and a close button.
+
+Nobody gets Vault access by default. A new profile starts with the Vault off even when the main profile has it, and a Kid's profile can never have it.
+
 ## Why Vault folders are separate on disk
 
 A Vault folder holds Vault files and nothing else. Tuvima Library does not allow a Vault folder to share space with a normal library, for four reasons.
