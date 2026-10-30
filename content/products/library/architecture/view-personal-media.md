@@ -120,6 +120,12 @@ runs from a computer, and removes everything in the owner's Trash after a fresh
 confirmation of the exact summary. The safety rules are under Filesystem and
 lifecycle safety below.
 
+## Files deleted outside Library
+
+`local_file_sources.missing_since` marks a place (a path) whose file was not found. An item is Missing when every viewable file (roles primary, original, raw, jpeg) has only missing places; `local_items.missing_since` then holds the earlier time, and `part_missing` means only a companion (Live Photo video, sidecar, audio companion, derivative) has gone. A moved file keeps its item because the scan indexes the new path (same hash) as a live place. `view_sources.folder_reachable` is 0 for a folder that cannot be read; nothing in it is marked and the purge skips it.
+
+A sweep runs after every scan, about a minute after a delete or rename event, and hourly. It sets and clears the marks; it never deletes a file. All list, count, search, discovery, Gallery and document queries add `li.missing_since IS NULL`; `GET /view/assets?missing=true` with a search term is the one way to list missing items, still through the normal visibility rules. After `missing_file_retention_days` (default 90, 0 = never) the purge removes the record and its metadata in batches and writes one count-only `PersonalMissingPurged` activity line. Empty Trash treats an item whose file is already gone as removed and reports it as already missing. Cleanup of originals after a Shared Library contribution, and the removal of a deleted profile's files, go through the same source-mutation policy gate as every other delete.
+
 ## Timeline and search
 
 The main Photos timeline is date grouped and uses captured time when available,
