@@ -106,11 +106,12 @@ A curated collection (a manually built Custom collection) can never be empty. Th
 
 Delete from library is the one way to remove a title from the library. It is for administrators on a desktop with a fine, hover-capable pointer (`EditorDeviceRule.CanEdit`), and the Engine checks every call. It appears in three places and nowhere else:
 
-- **Detail page.** **Delete from library…** is the last entry in the page's **...** menu, in red below a divider, whether or not Editing Mode is on. When Editing Mode is on it is also in the editing bar's **...** menu. Both open the same dialog. It is offered only for single titles such as a movie, an episode, a book, an audiobook or a comic issue.
+- **Detail page.** **Delete from library…** is the last entry in the page's **...** menu, in red below a divider, whether or not Editing Mode is on. When Editing Mode is on it is also in the editing bar's **...** menu. Both open the same dialog. It is offered for single titles such as a movie, an episode, a book, an audiobook or a comic issue. Whole groups have their own entries, described under "Delete a show, season, album or Series" below.
 
 If someone else removes a title while you have it open, the page stays open with a notice that the title is no longer in the library, and Editing Mode ends. Anything you had typed in a field is kept on the notice with a **Copy** button, so it is not lost.
 - **Listen song table.** Each song row has a Delete icon, and selecting songs shows "N selected", **Delete…** and **Clear**. Phones, touch-only devices and anyone who is not an administrator see neither.
 - **Settings > Libraries > Excluded files.** The files that stayed on disk, each with **Add back**.
+- **Settings > Libraries > a library's Unidentified tab.** A file the Engine could not identify has **Remove from library** in red; it opens the same dialog for that file.
 
 The dialog first checks what will happen ("Checking what will be deleted…") and then shows:
 
@@ -121,7 +122,32 @@ The dialog first checks what will happen ("Checking what will be deleted…") an
 
 The red button reads **Delete from library and disk** when at least one file will be deleted, and **Delete from library** when every file stays. Cancel has the focus when the dialog opens, and Escape cancels. Collections are sorted A to Z, and after five the list ends with "and N more". The dialog warns when processing for the title will be stopped. If the plan has changed since the dialog opened, the dialog shows the updated list and nothing is deleted.
 
-Library media has no recycle bin. Films, TV, books, audiobooks, comics and music can be downloaded again, so deletion is immediate after the confirmation. Only titles and songs can be deleted this way. A whole show, season, album or series, a single edition or file, and personal items in View cannot be deleted this way yet.
+Library media has no recycle bin. Films, TV, books, audiobooks, comics and music can be downloaded again, so deletion is immediate after the confirmation. A single edition or file, and personal items in View, cannot be deleted this way.
+
+### Delete a show, season, album or Series
+
+An administrator on a desktop can remove a whole group in one go. The entries sit last, in red, in the "..." menu of the group's own page:
+
+- **Delete show…** on a TV show page, which deletes every owned season and episode.
+- **Delete Season 2…** on the same page while that season is selected (a season has no page of its own). It sits above Delete show….
+- **Delete album…** on an album page, which deletes every owned track.
+- **Delete Series…** on a book or comic Series page, which deletes the Series and every owned book or comic in it.
+
+It is the same dialog, preview, safety rules and clean-up as one title, applied to every owned title in the group. Titles the library does not own are never counted or deleted ("Season 3: 6 of 10 episodes owned"). The heading names the group ("Delete "The Expanse", Season 2 from your library?"). Up to twelve titles are listed by name; above that the dialog shows totals by kind ("2 seasons · 38 episodes", "14 books"). The red button counts what goes: **Delete 10 episodes and 10 files**, or **Delete 14 books** when every file stays on disk. Deleting the last season of a show also removes the show, and the dialog says so first.
+
+The biggest deletes also ask for the group's name. When files will be removed for good (not with the Recycle bin on, not when every file stays on disk) and the delete is a whole show, a whole Series, more than 25 titles or more than 50 GB, the dialog shows "Type **The Expanse** to confirm" and the red button stays off until the typed name matches (capitals and extra spaces are ignored). A season asks for "Season 2". The 25 titles and 50 GB limits are settings in the Engine's `maintenance.json`.
+
+The Engine deletes the whole group as one action under one preview fingerprint. If anything changed since the dialog opened, nothing is deleted and the dialog refreshes. A file that cannot be removed stays on disk while the rest is deleted, and one activity entry names the group, the number of titles and files, and the space freed. Other open windows drop the group without a reload.
+
+## Recycle bin
+
+Library types with the Recycle bin switched on keep deleted files in the bin until they are put back or removed for good. A small **Recycle bin · 38 items · 24 GB** entry sits at the foot of a library page when the bin holds something for that type, and **Recycle bin** is in the profile menu for everyone except Kids profiles. The bin opens narrowed to the page you came from, with **Show all** one tap away.
+
+Administrators see every item with who deleted it, when, and how many days it has left, and can **Put back**, **Delete now** or **Empty recycle bin** (always after a confirmation with the size). Other adult profiles see the items and can **Ask to keep**, which tells the administrators. Anything a profile may not see is one line, "Other media: 12 items, 9.1 GB", with no names or kinds, and a Kids profile sees only the totals.
+
+The bin empties itself after 90 days (the number of days is `recycle_bin_retention_days` in `maintenance.json`; 0 means never). Administrators are told when items are within 7 days of leaving, with a card on Overview, and can **Review** or **Keep them**.
+
+People's progress, bookmarks and listening history on a deleted file are kept, by the file's fingerprint, while it waits in the bin. Put the file back and let the library find it, and each person picks up where they left off; once the file leaves the bin for good, so does the kept progress. The delete confirmation says how many people have progress.
 
 ## Universe page
 
