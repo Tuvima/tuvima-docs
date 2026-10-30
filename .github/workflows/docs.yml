@@ -18,7 +18,7 @@ jobs:
     name: Build and validate docs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           # Each page's "last updated" date comes from its history.
           fetch-depth: 0
@@ -57,7 +57,7 @@ jobs:
     # Advisory on pull requests, main pushes and manual builds; blocking on the weekly audit.
     continue-on-error: ${{ github.event_name != 'schedule' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
           node-version: '24'
