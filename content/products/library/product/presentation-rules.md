@@ -139,6 +139,14 @@ The biggest deletes also ask for the group's name. When files will be removed fo
 
 The Engine deletes the whole group as one action under one preview fingerprint. If anything changed since the dialog opened, nothing is deleted and the dialog refreshes. A file that cannot be removed stays on disk while the rest is deleted, and one activity entry names the group, the number of titles and files, and the space freed. Other open windows drop the group without a reload.
 
+## Recycle bin
+
+Library types with the Recycle bin switched on keep deleted files in the bin until they are put back or removed for good. A small **Recycle bin · 38 items · 24 GB** entry sits at the foot of a library page when the bin holds something for that type, and **Recycle bin** is in the profile menu for everyone except Kids profiles. The bin opens narrowed to the page you came from, with **Show all** one tap away.
+
+Administrators see every item with who deleted it, when, and how many days it has left, and can **Put back**, **Delete now** or **Empty recycle bin** (always after a confirmation with the size). Other adult profiles see the items and can **Ask to keep**, which tells the administrators. Anything a profile may not see is one line, "Other media: 12 items, 9.1 GB", with no names or kinds, and a Kids profile sees only the totals.
+
+The bin empties itself after 90 days (the number of days is `recycle_bin_retention_days` in `maintenance.json`; 0 means never). Administrators are told when items are within 7 days of leaving, with a card on Overview, and can **Review** or **Keep them**.
+
 ## Universe page
 
 A Universe has its own page, `/universe/{qid}`: a page to read, not a management screen. It is not a menu item and the phone dock does not change.
