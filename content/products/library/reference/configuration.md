@@ -289,6 +289,7 @@ How photos and personal videos that arrive in Library's Import area are filed. R
 | `duplicate_scan_enabled` | true | Whether the duplicates cleanup runs every night. It only writes a report. |
 | `duplicate_scan_hour` | 3 | Local hour of the nightly duplicates check. |
 | `tidy_hour` | 2 | Local hour at which folders scheduled for Tidy this folder are tidied. |
+| `missing_file_retention_days` | 90 | How many days Library keeps the notes, tags and Gallery spots of a photo, video or document whose file was deleted outside Library before removing that record. 0 means never remove. A file is never deleted because it went missing. |
 
 ---
 

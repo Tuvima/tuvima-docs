@@ -423,7 +423,10 @@ kind, favorites, and active discovery.
 - `local_files` stores one exact content hash, size, MIME type, extension, and
   creation time. Hash equality does not imply shared logical ownership.
 - `local_file_sources` retains every observed library/source/device path and
-  timestamps. Its unique key is library plus case-insensitive path.
+  timestamps, plus `missing_since` (set when the file was not found there). Its
+  unique key is library plus case-insensitive path. `local_items` carries
+  `missing_since` and `part_missing`; `view_sources.folder_reachable` is 0 while a
+  folder cannot be read.
 - `local_item_files` relates logical items to physical files with roles such as
   primary, original, Live Photo video, RAW, JPEG, sidecar, audio companion, or
   derivative. Only one primary is allowed per item.
