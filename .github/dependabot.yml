@@ -4,6 +4,11 @@ updates:
     directory: /site
     schedule:
       interval: weekly
+    ignore:
+      # @astrojs/check (0.9.12, the latest) only accepts TypeScript 5 or 6, so TypeScript 7 breaks `npm ci`.
+      # Remove this once @astrojs/check lists TypeScript 7 as a supported version.
+      - dependency-name: typescript
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
