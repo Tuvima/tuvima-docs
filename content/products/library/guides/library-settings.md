@@ -297,7 +297,7 @@ Items are listed under the day they first became Ready. There are no batches to 
 
 [Review Queue](resolving-reviews.md) holds items that need a human decision. Work still waiting or retrying belongs in Operations. Review reasons include weak matches, duplicates, failed lookups, naming issues, and conflicting details.
 
-**Metadata Providers** shows setup, key state, health, tests, and source priorities where supported. Healthy, Degraded, Offline, Disabled, Missing Configuration, and Unknown mean different things. No health result does not mean a provider is healthy.
+**Plugins** lists metadata sources beside plugins and shows setup, key state, health and tests on each source's page; **Metadata** keeps the Ingestion Flow, where source priorities are set. Healthy, Degraded, Offline, Disabled, Missing Configuration, and Unknown mean different things. No health result does not mean a provider is healthy.
 
 These pages do not show secret values. [Set up providers](configuring-providers.md) before retrying a lookup that failed because of setup.
 
