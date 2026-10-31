@@ -47,6 +47,7 @@ For Tuvima and Tuvima ID, documentation is part of every feature. A change in th
 - Keep warnings and required commands beside the step that needs them.
 - Describe current behaviour directly; label what is partial or planned.
 - Use the product vocabulary: Library, Universe, Series, Work, Edition, Media Asset, Needs Review, Engine, Dashboard, Vault, Bookmarks. Never "Registry".
+- For Tuvima and Tuvima ID, the person others see is a **persona** (a **global persona** or a **private persona**), never a "profile". A **profile** is only the settings page where someone edits a persona.
 - No screenshots until replacements are commissioned. Logos, icons and diagrams are fine if local, licensed and accessible.
 
 ## Add a product, library or policy page
