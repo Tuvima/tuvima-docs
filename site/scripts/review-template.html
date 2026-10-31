@@ -120,6 +120,24 @@ main { min-width: 0; }
     setTimeout(function () { window.scrollTo(0, 0); }, 0);
   }
   if (narrow.matches) fold.open = false;
+  // A link to a heading: on this page it scrolls; on another page it opens that page, then scrolls.
+  document.addEventListener('click', function (event) {
+    var a = event.target.closest && event.target.closest('a[href^="#"]');
+    if (!a) return;
+    var target = a.getAttribute('href').slice(1);
+    var section = a.getAttribute('data-section');
+    if (!document.getElementById(target) || !/^p-/.test(target)) {
+      var current = pages.find(function (p) { return !p.hidden; });
+      var heading = current && current.querySelector('[id="' + target.replace(/"/g, '') + '"]');
+      if (heading) { event.preventDefault(); heading.scrollIntoView(); }
+      return;
+    }
+    if (section) {
+      event.preventDefault();
+      location.hash = target;
+      setTimeout(function () { var h = document.getElementById(target).querySelector('[id="' + section.replace(/"/g, '') + '"]'); if (h) h.scrollIntoView(); }, 30);
+    }
+  });
   window.addEventListener('hashchange', show);
   show();
 })();

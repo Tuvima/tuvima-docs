@@ -20,7 +20,7 @@ status: early-access
 | **Moderation record** | The permanent list of moderation actions in a community. |
 | **New and rising** | A changing selection of young, active communities in the directory. |
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
-| **Private profile** | A profile used in one community only, which nobody can connect to your other profiles. |
+| **Private profile** | A profile used in one community only, which no other member, moderator or owner can connect to your other profiles. It hides who you are, not what you post. |
 | **Profile** | How you appear to others: handle, display name and picture. |
 | **Rank** | What someone can do in a community: Member, Moderator, Admin or Owner. |
 | **Tag** | A short label added to a front page post, such as `board-games`. |

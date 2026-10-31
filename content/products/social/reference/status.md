@@ -17,7 +17,7 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 | Front page | Trending and New feeds, 16 categories with subtopics, tags, voting, posting links and discussions, search. |
 | Communities | Directory with New and rising, joining and leaving, community search, unlisted communities. |
 | Conversations | Formatting, link previews with click-to-play, content warnings, quotes, mentions, edit history, flat and nested views. |
-| Coming back | Bell notices, watch, save, the You page, profile editing, optional reply and mention emails. |
+| Coming back | Bell notices, watch, save, the You page and profile editing. Reply and mention emails are being switched on. |
 | Safety | Reports, hiding and removing posts, suspensions and bans, moderation records, newcomer limits, spam protection. |
 | Owner tools | Setup steps, ranks, members page, numbers, launch checklist, themes, banners and page blocks. |
 | Help | A help centre and draft rules and policies. |
@@ -26,7 +26,7 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 
 | Feature | What it will do |
 | --- | --- |
-| Reputation | A way for helpful, trusted members to be recognised from the way the community responds to them. |
+| Reputation and levels | Recognition earned from how others value your posts, and a level ladder each community shapes. See [Reputation and levels](../guides/reputation.md). |
 | A feed made for you | A front page shaped by the communities and subjects you follow. |
 | Connect your website | Bring articles from a website you already run into your community and the front page. |
 | Your own web address | Move your community to a web address you own, with old Tuvima links forwarding to it. |

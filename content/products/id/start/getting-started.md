@@ -22,7 +22,7 @@ You need an email address you can open now. It stays private: nobody on Tuvima w
 Until your email is confirmed you can look around, but you cannot create a profile or take part in communities.
 
 :::note
-If you see "Lots of people are joining right now", new sign-ups are paused for a short while to keep out automated accounts. Try again in about an hour. If you already have a Tuvima ID, you can still sign in.
+If you see "Lots of people are joining right now", new sign-ups are paused for a short while when lots of people are joining at once. Try again in about an hour. If you already have a Tuvima ID, you can still sign in.
 :::
 
 ## Choose your handle

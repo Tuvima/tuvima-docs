@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-You can read a public community without joining. Join to post, reply and get notices.
+Every community can be read without joining, by anyone. Join to post, reply and get notices.
 
 ## Find a community
 
@@ -29,7 +29,7 @@ Some communities are **unlisted**: their owner has chosen to leave them out of t
    - **Join as** your Tuvima profile, `handle @ tuvimaid.com`.
    - **Create a private profile for this community**, with its own handle, name and picture. Members and moderators cannot see that it is connected to your Tuvima profile.
 
-Think about the choice. Your Tuvima profile lets people recognise you across Tuvima. A private profile suits a community where you would rather keep that part of your life separate, such as a health support group.
+Think about the choice. Your Tuvima profile lets people recognise you across Tuvima. A private profile suits a community where you would rather keep that part of your life separate, such as a health support group. Remember that it hides who you are, not what you post: anyone can still read the community.
 
 Some communities ask new members to take part for a while before everything is switched on. See [being new to a community](newcomers.md).
 

@@ -21,7 +21,7 @@ A few rules apply everywhere on Tuvima. Each community adds its own rules on top
 
 Community moderators handle their own community. Tuvima staff handle serious harm, illegal content and abuse that spreads across communities. See [reporting and moderation](reporting-and-moderation.md).
 
-Tuvima also has some automatic protections:
+Tuvima also has some automatic protections. These are the current settings, and Tuvima staff may adjust them:
 
 - New profiles, less than a week old, have a few extra limits. For example, they can start one community and need 3 visible posts before sharing links on the front page.
 - Links to sites that Tuvima staff have blocked, for example for spreading scams, are refused.

@@ -45,7 +45,7 @@ Choose **Edit your profile** from **You**:
 
 - **Display name**: up to 50 characters, does not need to be unique.
 - **About you**: up to 500 characters.
-- **Picture**: a JPEG, PNG or WebP still image up to 2 MB.
+- **Picture**: a still photo or picture file (JPEG, PNG or WebP) up to 2 MB.
 - **Handle**: you can change it once every 30 days. Your old handle stays reserved for you for a while, your profile shows "formerly" with the old handle, and mentions of the old handle still reach you.
 
 Your profile page shows your handle, name, picture, about text and earlier names. It never lists the communities you are in.

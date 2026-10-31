@@ -30,7 +30,7 @@ Some addresses are reserved, for example ones that look like Tuvima staff or sup
 
 ## Should you limit newcomers?
 
-Newcomer limits slow down new members for their first few posts, which keeps spam out of a growing community. When you turn them on, the starting values are 5 posts and 2 new conversations an hour, and 10 posts to become a full member. You can also ask for a **sign of value from regulars**. [Being new to a community](../guides/newcomers.md) explains how it feels to members. You can change all of this later in settings.
+Newcomer limits slow down new members for their first few posts, which keeps spam out of a growing community. When you turn them on, the starting values are 5 posts and 2 new conversations an hour, and 10 posts to become a full member. Members also need a **sign of value from regulars**, which you can switch off. [Being new to a community](../guides/newcomers.md) explains how it feels to members. You can change all of this later in settings.
 
 ## Check the result
 

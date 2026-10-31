@@ -13,7 +13,7 @@ The front page is Tuvima's shared space: a feed of discussions and links from ev
 
 At the top of the feed, choose how to sort it:
 
-- **Trending** (the default) shows what people are taking part in right now. It counts votes and how many different people replied, and gently lets older posts fade. Votes from profiles less than a week old count for less, so a burst of new accounts cannot push a post to the top. It covers the last 14 days.
+- **Trending** (the default) shows what people are taking part in right now. It counts votes and how many different people replied, and gently lets older posts fade. Votes from profiles less than a week old count for less, so a burst of new accounts cannot push a post to the top. Votes and replies count towards it for a post's first 14 days.
 - **New** shows the newest posts first.
 
 Next to the sort are **categories**. Pick one to see only that subject. Each category has subtopics, for example Gaming has PC, Console, Mobile, Tabletop and Esports. A category page also shows its popular tags and some communities about that subject.

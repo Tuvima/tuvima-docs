@@ -30,7 +30,7 @@ The **Formatting** bar offers **Bold**, **Italic**, **Link**, **Bulleted list**,
 
 ## Share links
 
-Put a web address on its own line and it becomes a small **preview card**, with a title and picture. Tuvima fetches the preview once, when you post, so readers' browsers do not contact the other site just by reading.
+Put a web address on its own line and it becomes a small **preview card**, with a title and picture. Tuvima's own servers fetch the preview, so readers' browsers do not contact the other site just by reading.
 
 Cards for video, music and social posts show a **Play** or **Load post** button. Nothing loads from the other site until a reader presses it. From then, that site's cookies and terms apply. A post can have up to 10 cards.
 

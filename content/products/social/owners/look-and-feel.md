@@ -16,7 +16,7 @@ Every community can have its own colours and banner, while fonts and layout stay
 
 ## Banner
 
-Upload a JPEG, PNG or WebP picture up to 2 MB. It is cropped from the middle to a wide strip. Without a banner, a band in your theme's colours is shown.
+Upload a photo or picture file (JPEG, PNG or WebP) up to 2 MB. It is cropped from the middle to a wide strip. Without a banner, a band in your theme's colours is shown.
 
 ## Page blocks
 

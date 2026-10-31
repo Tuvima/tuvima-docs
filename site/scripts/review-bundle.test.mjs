@@ -16,3 +16,10 @@ test('links to bundled pages stay inside the review; other links open the publis
   assert.match(html, /href="https:\/\/example\.org\/" target="_blank" rel="noopener"/);
   assert.doesNotMatch(html, /sl-anchor-link/);
 });
+
+test('script links are dropped and image paths cannot leave the built site', () => {
+  const $ = cheerio.load('<div class="c"><a href="javascript:alert(1)">x</a><img src="/../../etc/passwd"></div>');
+  const html = rewriteContent($, $('.c'), new Set());
+  assert.doesNotMatch(html, /javascript:/);
+  assert.match(html, /src="\/..\/..\/etc\/passwd"/);
+});

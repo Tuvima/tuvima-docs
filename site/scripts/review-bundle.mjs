@@ -22,7 +22,7 @@ export function pageId(route) {
 /** Which manifest sources are new or changed since a git ref: Map(source -> 'New' | 'Changed'). */
 export function changedSources(itemPath, since) {
   if (!since) return new Map();
-  const out = execFileSync('git', ['diff', '--name-status', since, '--', `content/${itemPath}`], { cwd: repoRoot, encoding: 'utf8' });
+  const out = execFileSync('git', ['diff', '--name-status', '--no-renames', since, '--', `content/${itemPath}`], { cwd: repoRoot, encoding: 'utf8' });
   const result = new Map();
   for (const line of out.split('\n').filter(Boolean)) {
     const [status, file] = line.split('\t');
@@ -39,20 +39,24 @@ export function rewriteContent($, root, routes) {
   root.find('.sl-anchor-link, .sr-only').remove();
   root.find('a[href]').each((_, el) => {
     const href = $(el).attr('href');
+    if (/^[a-z][a-z0-9+.-]*:/i.test(href) && !/^(https?:|mailto:)/i.test(href)) {
+      $(el).removeAttr('href');
+      return;
+    }
     if (/^(https?:|mailto:)/.test(href)) {
       $(el).attr({ target: '_blank', rel: 'noopener' });
       return;
     }
     if (href.startsWith('#')) return;
-    const [route] = href.split('#');
-    if (routes.has(route)) $(el).attr('href', `#${pageId(route)}`);
+    const [route, section] = href.split('#');
+    if (routes.has(route)) $(el).attr('href', `#${pageId(route)}`).attr('data-section', section ?? null);
     else $(el).attr({ href: new URL(href, origin).toString(), target: '_blank', rel: 'noopener' });
   });
   root.find('img[src]').each((_, el) => {
     const src = $(el).attr('src');
     if (!src.startsWith('/')) return;
     const file = path.join(distRoot, decodeURIComponent(src));
-    if (!fs.existsSync(file)) return;
+    if (!file.startsWith(distRoot + path.sep) || !fs.existsSync(file)) return;
     const type = file.endsWith('.svg') ? 'image/svg+xml' : `image/${path.extname(file).slice(1).replace('jpg', 'jpeg')}`;
     $(el).attr('src', `data:${type};base64,${fs.readFileSync(file).toString('base64')}`);
   });
@@ -83,6 +87,7 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 
 export function render(itemPaths, { since } = {}) {
   const pages = collect(itemPaths, since);
+  if (!pages.length) throw new Error('No pages to review in those items.');
   const routes = new Set(pages.map(p => p.route));
   const articles = [];
   for (const p of pages) {

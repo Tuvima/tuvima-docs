@@ -16,7 +16,7 @@ Most sites keep your email address, your password and your posts in one place. T
 - **Tuvima ID** keeps your sign-in email, your security settings and the private list of which profiles are yours.
 - **Tuvima**, where communities live, keeps profiles, communities and posts. It never receives your email address.
 
-Because the two are separate, a community owner, a moderator or another member cannot find your email or see your other profiles, even if they look at everything Tuvima shows them.
+Because the two are separate, a community owner, a moderator or another member cannot find your email or see your other profiles, even if they look at everything Tuvima shows them. The people who run Tuvima can, when there is a real reason; [your privacy](../explanation/privacy.md) explains when.
 
 ## Your profiles
 
@@ -32,7 +32,7 @@ You choose which profile to use each time you join a community. See [one account
 - Signs you in, and signs you out of everything at once.
 - Shows the communities you have joined and which profile you used in each.
 - Lets you turn on two-step sign-in with an authenticator app.
-- Sends you reply and mention emails, only if you ask, from a separate address for each community.
+- Sends you reply and mention emails, only if you ask, so communities never learn your address. This is being switched on soon.
 - Gives you a private way to contact the Tuvima team.
 
 ## Next steps

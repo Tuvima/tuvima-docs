@@ -9,6 +9,10 @@ status: early-access
 
 Tuvima ID can email you when someone replies to you or mentions you. It is off until you turn it on, and you decide how often and from which communities.
 
+:::note
+Email is being switched on during Early Access. You can set your choices now, and they apply once sending starts.
+:::
+
 ## What the emails contain
 
 Each email names who replied and where, never what they wrote, and links back to the conversation. Tuvima ID sends it, so communities never learn your address.
@@ -26,11 +30,11 @@ Each email names who replied and where, never what they wrote, and links back to
 
 Under **Each community**, every community you are in is listed with its own setting. Leave it as **Same as every community**, or pick something different for that one.
 
-## A different address for each community
+## A separate address for each community
 
-Each community gets its own email address for you, shown as **Your address here**. That way you can always tell which community a message came from.
+Each community has its own address for you, shown as **Your address here** on this page and at the bottom of every email about that community. It tells you at a glance where a message came from. Your real address stays private.
 
-If one address starts getting spam, choose **Swap address**. The old address stops for good and a new one takes its place. When you leave a community, its address stops too.
+Choose **Swap address** to replace one with a new one. The old address stops for good. When you leave a community, its address stops too.
 
 ## Pause everything
 

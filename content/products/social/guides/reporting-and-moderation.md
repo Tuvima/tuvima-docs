@@ -43,4 +43,4 @@ If you think a decision about a community was wrong, a moderator or owner of tha
 
 ## When Tuvima steps in
 
-Tuvima staff can pause a community while they review it. Reading continues, but posting, editing, voting and joining stop for everyone, usually for a day or two. Staff can also suspend a profile across all of Tuvima for breaking [the rules everyone follows](community-rules.md).
+Tuvima staff can pause a community while they review it. Reading continues, but posting, editing, voting and joining stop for members, usually for a day or two. The community's moderators can still tidy up. Staff can also suspend a profile across all of Tuvima for breaking [the rules everyone follows](community-rules.md).
