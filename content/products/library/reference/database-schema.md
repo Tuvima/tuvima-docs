@@ -259,6 +259,28 @@ The media files that stayed on disk when their title was deleted from the librar
 Index: `idx_excluded_source_files_library (library_id)`. Deleting a title also removes every row tied to its Work, editions and media assets (chosen values, metadata claims, jobs, Needs Review rows, artwork links and the artwork only it used, search entries, saved items and ratings, every profile's progress and bookmarks, and its own activity history). `personal_activity` is the one exception: it keeps its own snapshot of the title.
 
 
+### item_extras
+
+The files that sit beside a title but are not its own episodes, films, tracks, books or issues: a PDF guidebook, a folder of pictures, a behind-the-scenes clip. They are stored here as Extras of the title's folder, apart from the Work, Edition and Media Asset records and apart from View's index, so they never change an episode count, next-up or progress. A row belongs to a folder (`item_folder`), not to a Work, so it stays with the title when the title is matched or re-matched. A re-scan rebuilds the rule's rows. Titles in a Vault library have no Extras.
+
+| Column | Type | Notes |
+|---|---|---|
+| `id` | BLOB | Primary key |
+| `library_id` | TEXT | The configured library the file sits in |
+| `item_folder` | TEXT | The title's folder: the show or course folder, or the folder that holds the film, album, book or comic series. Compared without regard to case |
+| `file_path` | TEXT | The file's full path. Unique, compared without regard to case |
+| `kind` | TEXT | `document`, `picture` or `clip`: what opens it (the reader, the photo viewer or the video player) |
+| `origin` | TEXT | `rule` (the Extras rule decided), `user_extra` (a person moved the file to Extras in the editor) or `user_episode` (a person moved it from Extras to an episode; it is not shown as an Extra and the rule never makes it one again) |
+| `title` | TEXT | The name on the card, from the file name |
+| `group_key` | TEXT | For pictures, the folder they sit in relative to `item_folder` (empty at the top); pictures with the same key show as one card (nullable) |
+| `sort_order` | INTEGER | Position in natural file-name order |
+| `size_bytes` | INTEGER | File size |
+| `duration_seconds` | REAL | Length of a clip (nullable) |
+| `page_count` | INTEGER | Pages in a PDF (nullable) |
+| `found_at` | TEXT | When the file was first found, ISO 8601 UTC |
+
+Index: `ix_item_extras_folder (item_folder)`. Deleting a title removes the rows of its folder; the files themselves are not touched.
+
 ### unmatched_assets
 
 The media files the Engine could not match (Library setup spec D34). A file with no retail match, or a file in a YouTube library with no YouTube ID, stays exactly where it is, plays and browses with its file name and tags, and is looked up again later (weekly by default, after a provider or plugin is switched on or updated, or on **Retry now**). One row per media asset; the row is removed when a lookup matches the file (the identity job leaves the no-match state, or a person picks the match) and when the file's asset is deleted. A file the Engine found a match for but is unsure about is not here: it is a Needs Review item.
