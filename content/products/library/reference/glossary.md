@@ -101,6 +101,10 @@ Follow-up metadata work after basic identity is known, such as artwork, people, 
 
 A media file that stayed on disk when its title was deleted from the library: a file in a Read-only folder, the original of a merged file, or a file that could not be removed. Scans skip it so the title does not come back. **Settings > Libraries > Excluded files** lists it, and **Add back** scans it again. See [Manage library settings and operations](../guides/library-settings.md#excluded-files).
 
+### Extras
+
+The guidebooks, picture folders and clips found beside a show, film, album, book, comic or course. They show in an Extras row on the title's page and are never counted as episodes, tracks or issues. See [Extras beside a title](../guides/adding-media.md#extras-beside-a-title).
+
 ### Extra protection
 
 The **Extra protection** row under **Settings → Security**, which opens one sheet for optional sign-in protection: passkeys, two-step codes, linked sign-ins (when an external provider is set up) and recovery codes. The row appears once the account has a password and shows *Off*, *Passkey added*, *Two-step codes on*, or both.

@@ -391,6 +391,18 @@ unauthorized identifiers return the same not-found shape as missing resources.
 
 ---
 
+## Extras
+
+The guidebooks, picture folders and clips found beside a show, film, album, book, comic or course. A title's page lists them in `extras` on its detail answer (`GET /library/items/{entityId}/detail` and the unified detail answer): one card per guidebook, one per picture folder and one per clip, each `{ id, kind (document, pictures or clip), title, subtitle, item_count, preview_ids, is_missing }`. Titles in a Vault library have none. These actions open a card; each follows the access of the title it belongs to (an Extra is allowed when the caller may open at least one file of its title, so a Kids profile never reaches a title it cannot see).
+
+| Method | Path | Description | Auth |
+|---|---|---|---|
+| GET | `/api/v1/extras/{id}` | What the viewer needs to open one card: `{ id, kind, title, subtitle, items: [{ id, title, file_name, mime_type, is_missing }] }`. A picture folder lists all its pictures in order. `404` when the Extra is gone or the caller may not see its title | Signed in, with access to the title |
+| GET, HEAD | `/api/v1/extras/{id}/file` | The file itself, with range requests so clips seek. Guidebooks open in the browser's own reader (PDF and plain text) and EPUB guidebooks are download-only | Signed in, with access to the title; `PlaybackRead` for apps |
+| GET | `/api/v1/extras/{id}/thumbnail` | A small picture for a card (a picture, a clip's frame or the first page of a PDF), made in the background and cached | Signed in, with access to the title; `ArtworkRead` for apps |
+
+Moving a file between a show's Extras and its episodes is the `extra_move` kind of `POST /library/edit-session`: `entity_id` is the show, `target_id` the Extra and `token` is `episode:{season}:{episode}` (season 0 is Specials), or `entity_id` is the episode and `token` is `extras`. It is checked and saved with the rest of the session, runs after the changes that can be undone, and cannot itself be undone. Nothing is renamed or moved on disk.
+
 ## Library Item
 
 | Method | Path | Description | Auth |

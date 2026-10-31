@@ -209,7 +209,7 @@ See "What a backup file holds" above. The restore screens come in the next step.
 | `profile_work_preferences` | A person's own tags and preferences for a title. | `profile_id` | `work_id` (work) | none |
 | `profile_person_preferences` | A person's own tags and preferences for a creator or performer. | `profile_id` | `person_id` (person) | none |
 
-## Catalogue tables (72)
+## Catalogue tables (73)
 
 The rows a rescan rebuilds are not kept; the tables below say where a person's own choices or corrections on them are. The search indexes (`search_index`, `local_item_search`, `artwork_asset_search`) are listed; their hidden storage tables are not.
 
@@ -273,6 +273,7 @@ The rows a rescan rebuilds are not kept; the tables below say where a person's o
 | `subtitle_name_tags` | Characters found in subtitle text. |
 | `text_tracks` | Subtitle and lyric tracks found for files. |
 | `text_track_rejections` | Lyrics and subtitle results a person marked wrong for a file, so they are not picked again. |
+| `item_extras` | Guidebooks, pictures and clips found beside a title (its Extras); rebuilt by a rescan. Files a person moved between Extras and episodes in the editor are kept as corrections: rows where `origin` is not `rule`. |
 | `local_items` | Photos, documents and other View items found on disk; a person's own choices on them (favourite, hidden, archived, trashed, capture date they set) are kept: choice columns `favorite`, `hidden`, `archived_at`, `trashed_at`, `captured_at_user_override`, `captured_at` (the date only while the person set it). |
 | `local_files` | Files behind View items. |
 | `local_file_sources` | Where View files were found. |
