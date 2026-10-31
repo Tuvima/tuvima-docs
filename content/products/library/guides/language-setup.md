@@ -17,6 +17,25 @@ In the setup wizard's **Language and region** stage, choose the display language
 
 These choices do not restrict the languages of your media. Translated interface coverage varies; missing strings fall back to English. A language appearing in the selector does not mean every screen is translated.
 
+## Choose language and spelling for the whole household
+
+Open **Settings → General → Language and region**. **Language** sets the words used across Library for everyone who shares the server, and **Region** appears when the language has spelling variants. For example, a US English server says "Favorites" and a UK English server says "Favourites". Changes apply straight away, with no reload.
+
+The first time Library is set up, it suggests a language from your browser. English with no region becomes US English, and the administrator can change it.
+
+Each idea has one name on every screen, so "Favorites", "Series" and "Universe" never switch between synonyms. Translations are added in batches: French, German and Spanish cover the most visible words and are drafts that still need a native-speaker review. Any word without a translation shows in English, never a blank or a code.
+
+## Choose languages for subtitles, lyrics and audio
+
+Language of the app is shared; media languages are personal. Open **Profile → Settings → Subtitles and audio** to choose, for your own profile:
+
+- **Audio language**: the audio track to start with.
+- **Subtitle language** and **Second subtitle language**: your first and second choice, in order.
+- **Lyrics language**: the lyrics version to prefer when a song has several.
+- **Show subtitles**: Auto, Always, Never, or Only when the audio is another language.
+
+For example, choose Japanese audio, English subtitles and **Only when the audio is another language** to watch anime with subtitles but English shows without them. **Not right? Find another** still lets anyone pick a different language for one item.
+
 ## Understand the four preferences
 
 | Preference | What it changes |

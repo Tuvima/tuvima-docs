@@ -582,3 +582,12 @@ After a restore, items that were in your backup but whose files are not back yet
 - **Keyboard and remote.** Arrow keys, Page Up/Down and Space turn pages while the page has focus; while a toolbar, panel or card has focus, the arrow keys are left to it so a remote can move between controls. Enter or OK on the page shows or hides the bars. Escape closes the card, then the panel, then leaves the book.
 - **Phones and TVs.** Bars respect safe areas, panels become bottom sheets under 600px, and controls grow on screens 1600px and wider.
 - **Nothing spills past the page.** On reflowable books every element is held to its page column: wide tables and fixed-width blocks shrink to fit, long unbroken words and dotted leaders wrap, and `white-space: nowrap` is set back to normal, so a printed contents list on a front page never leaves a clipped continuation on the next page. Fixed-layout books are left exactly as published. `scripts/visual-qa/book-reader/run-checks.mjs` measures this at 390, 820, 1280 and 1920 px.
+
+## Wording and language
+
+- Every word shown in the Dashboard comes from the string table (`SharedStrings.resx`) through `IStringLocalizer`, never typed into a component. English (US) is the master copy; `en-GB`, `en-AU` and `en-CA` override only spelling, and `fr`, `de` and `es` are translations. A missing translation falls back to English.
+- Product words live once in the glossary (`Glossary_*` keys) and every screen reuses them, so a word such as Favorites has one name everywhere. Text shared by several files uses `Common_*` keys.
+- Language and spelling are household settings (**Settings → General → Language and region**); sign-in and first-run follow the server language. Profiles choose only media languages: ordered subtitle languages, lyrics language, audio language and when to show subtitles.
+- Use whole sentences with placeholders, never joined fragments, and give plural forms separate keys. Layouts must flex because text can grow 30 to 40 percent in other languages.
+- Plugins ship their own `strings/<tag>.json` files, list `supported_languages` in the manifest and follow the server display language, with English as the fallback.
+- `TypedWordingGuardrailTests` keeps a count of typed-in wording that may only go down, and fails on missing keys, unused keys and translation placeholder mismatches.
