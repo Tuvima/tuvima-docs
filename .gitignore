@@ -3,3 +3,4 @@ dist/
 .astro/
 .generated/
 external-links-report.json
+review/

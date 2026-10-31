@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
+  <title id="t">What stays in Tuvima ID and what Tuvima sees</title>
+  <desc id="d">Tuvima ID keeps your sign-in email, your security settings and the private list of which profiles are yours. Tuvima keeps profiles, communities and posts. When you sign in, Tuvima ID gives Tuvima a short-lived pass that says only which profile is acting. When someone replies to you, Tuvima asks Tuvima ID to email you, and Tuvima ID sends it, so communities never get your address.</desc>
+  <rect width="760" height="380" rx="16" fill="#F5F7FB"/>
+  <rect x="24" y="24" width="300" height="250" rx="12" fill="#14213D"/>
+  <text x="48" y="60" fill="#fff" font-size="18" font-weight="700">Tuvima ID</text>
+  <g fill="#C9D3EA" font-size="14">
+    <text x="48" y="96">• Your sign-in email</text>
+    <text x="48" y="122">• Two-step sign-in settings</text>
+    <text x="48" y="148">• Which profiles are yours</text>
+    <text x="48" y="174">• Your email choices</text>
+    <text x="48" y="200">• Each community's email label</text>
+    <text x="48" y="226">  for you</text>
+  </g>
+  <rect x="436" y="24" width="300" height="250" rx="12" fill="#fff" stroke="#2A52BE" stroke-width="2"/>
+  <text x="460" y="60" fill="#14213D" font-size="18" font-weight="700">Tuvima</text>
+  <g fill="#47536B" font-size="14">
+    <text x="460" y="96">• Profiles: handle, name, picture</text>
+    <text x="460" y="122">• Communities and their rules</text>
+    <text x="460" y="148">• Posts, replies and votes</text>
+    <text x="460" y="174">• Notifications on the site</text>
+    <text x="460" y="200">• No email, no link between</text>
+    <text x="460" y="226">  your profiles</text>
+  </g>
+  <g stroke="#2A52BE" stroke-width="2.5" fill="#2A52BE">
+    <path d="M324 104 H428" fill="none"/><path d="M428 104 l-10 -6 v12 z"/>
+    <path d="M436 196 H332" fill="none"/><path d="M332 196 l10 -6 v12 z"/>
+  </g>
+  <g font-size="12" fill="#14213D" text-anchor="middle">
+    <text x="380" y="92">Short pass:</text>
+    <text x="380" y="124">"profile X"</text>
+    <text x="380" y="184">"Reply for</text>
+    <text x="380" y="216">profile X"</text>
+  </g>
+  <rect x="24" y="292" width="712" height="64" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="48" y="320" fill="#14213D" font-size="14" font-weight="700">Your inbox</text>
+  <text x="48" y="342" fill="#47536B" font-size="13">Tuvima ID sends reply and mention emails only if you turn them on. Communities never get your address.</text>
+</svg>

@@ -26,6 +26,20 @@ Link to other pages with source-relative paths such as `../guides/adding-media.m
 
 To move a page, change its `slug` and fix links to it. The site keeps only the latest version and has no redirects, so search the content for the old address.
 
+## Review a change before it is published
+
+Merging to `main` publishes straight to docs.tuvima.com, so new and changed pages are reviewed first. After `npm run build`, run from `site/`:
+
+```sh
+npm run review -- --since origin/main products/social products/id
+```
+
+It writes `site/review/review.html`: one self-contained page with a menu of every page in the named items, each marked **New** or **Changed** since `main`. Share it as a private preview, collect comments, then merge. Name whichever items the change touches.
+
+## Keep the docs in step with the product
+
+For Tuvima and Tuvima ID, documentation is part of every feature. A change in the product repository that alters what members, community owners or developers see comes with a matching change here, in its own pull request. Describe what works today, label anything planned, and keep internal decisions and architecture out of this public repository. Explain Tuvima's own features in plain words, without naming other platforms.
+
 ## Style
 
 - Address the reader as "you", use active voice and lead with the outcome.

@@ -25,6 +25,40 @@
   "items": [
     {
       "area": "products",
+      "id": "social",
+      "name": "Tuvima",
+      "icon": "comment",
+      "logo": "/brand/tuvima.svg",
+      "description": "A home for communities: find people who share your interests, join the conversation, or start a community of your own.",
+      "path": "products/social",
+      "status": "early-access",
+      "startPage": "start/getting-started",
+      "repo": "https://github.com/Tuvima/tuvima-docs",
+      "docsDir": "content/products/social",
+      "groups": [
+        "Guides",
+        "Reference"
+      ]
+    },
+    {
+      "area": "products",
+      "id": "id",
+      "name": "Tuvima ID",
+      "icon": "seti:lock",
+      "logo": "/brand/tuvima-id.svg",
+      "description": "One private sign-in for Tuvima. Your email stays here; the communities you join see only the profile you choose.",
+      "path": "products/id",
+      "status": "early-access",
+      "startPage": "start/getting-started",
+      "repo": "https://github.com/Tuvima/tuvima-docs",
+      "docsDir": "content/products/id",
+      "groups": [
+        "Guides",
+        "Reference"
+      ]
+    },
+    {
+      "area": "products",
       "id": "library",
       "name": "Library",
       "icon": "open-book",
@@ -36,7 +70,11 @@
       "startPage": "tutorials/getting-started",
       "repo": "https://github.com/Tuvima/tuvima-library",
       "docsDir": "docs",
-      "groups": ["Guides", "Develop", "Reference"]
+      "groups": [
+        "Guides",
+        "Develop",
+        "Reference"
+      ]
     },
     {
       "area": "libraries",
@@ -50,7 +88,11 @@
       "startPage": "reconciliation",
       "repo": "https://github.com/Tuvima/tuvima-wikidata",
       "docsDir": "docs",
-      "groups": ["Guides", "Develop", "Reference"]
+      "groups": [
+        "Guides",
+        "Develop",
+        "Reference"
+      ]
     },
     {
       "area": "legal",
@@ -63,12 +105,36 @@
       "bar": false,
       "repo": "https://github.com/Tuvima/tuvima-library",
       "docsDir": "",
-      "groups": ["Policies"]
+      "groups": [
+        "Policies"
+      ]
     }
   ],
   "popular": [
-    { "label": "Install Library", "path": "products/library/tutorials/getting-started", "description": "Get Library running on your computer or server." },
-    { "label": "Your first library", "path": "products/library/tutorials/first-library", "description": "Add folders and see your media appear." },
-    { "label": "Report a security issue", "path": "products/library/policies/security", "description": "How to report a vulnerability privately." }
+    {
+      "label": "Get started with Tuvima",
+      "path": "products/social/start/getting-started",
+      "description": "Sign in, choose a handle and find your first community."
+    },
+    {
+      "label": "How Tuvima ID protects your privacy",
+      "path": "products/id/explanation/privacy",
+      "description": "What we keep, and what communities never see."
+    },
+    {
+      "label": "Install Library",
+      "path": "products/library/tutorials/getting-started",
+      "description": "Get Library running on your computer or server."
+    },
+    {
+      "label": "Your first library",
+      "path": "products/library/tutorials/first-library",
+      "description": "Add folders and see your media appear."
+    },
+    {
+      "label": "Report a security issue",
+      "path": "products/library/policies/security",
+      "description": "How to report a vulnerability privately."
+    }
   ]
 }

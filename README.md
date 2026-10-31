@@ -2,7 +2,7 @@
 
 The source of [docs.tuvima.com](https://docs.tuvima.com): one place, one look and one search box for help with every Tuvima product.
 
-- **Products** (`/products/…`): the apps people use. Library today; ID and Social later.
+- **Products** (`/products/…`): the apps people use: Tuvima (the community platform), Tuvima ID and Library.
 - **Libraries** (`/libraries/…`): developer libraries, starting with Tuvima.Wikidata.
 - **Legal and policies** (`/legal/`): a placeholder for policies that apply to every product. Library's licence, privacy, security, code of conduct and notices live under Library (`/products/library/policies/`).
 

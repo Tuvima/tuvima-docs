@@ -1,0 +1,12 @@
+{
+  "pages": [
+    { "source": "index.mdx", "slug": "" },
+    { "source": "start/what-is-tuvima-id.md", "slug": "start/what-is-tuvima-id", "group": "Guides", "section": "Start here" },
+    { "source": "start/getting-started.md", "slug": "start/getting-started", "group": "Guides", "section": "Start here" },
+    { "source": "explanation/privacy.md", "slug": "explanation/privacy", "group": "Guides", "section": "Start here" },
+    { "source": "guides/your-account.md", "slug": "guides/your-account", "group": "Guides", "section": "Your account" },
+    { "source": "guides/two-step-sign-in.md", "slug": "guides/two-step-sign-in", "group": "Guides", "section": "Your account" },
+    { "source": "guides/email.md", "slug": "guides/email", "group": "Guides", "section": "Your account" },
+    { "source": "reference/whats-coming.md", "slug": "reference/whats-coming", "group": "Reference", "section": "Look something up" }
+  ]
+}
