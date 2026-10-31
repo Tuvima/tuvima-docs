@@ -24,5 +24,5 @@ An owner or admin can also make you a full member straight away. Progress counts
 
 ## Good to know
 
-- If you leave and rejoin with the same profile, your progress is kept.
+- If you leave and rejoin with the same persona, your progress is kept.
 - A suspension starts your progress again.

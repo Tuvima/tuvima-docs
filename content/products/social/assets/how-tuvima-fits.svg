@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
   <title id="t">How Tuvima fits together</title>
-  <desc id="d">The Tuvima front page shows posts from everyone, sorted into categories and tags. Below it sit many communities, each with its own members, rules and look. You sign in once with Tuvima ID and choose which profile each community sees.</desc>
+  <desc id="d">The Tuvima front page shows posts from everyone, sorted into categories and tags. Below it sit many communities, each with its own members, rules and look. You sign in once with Tuvima ID and choose which persona each community sees.</desc>
   <rect width="760" height="420" rx="16" fill="#F5F7FB"/>
   <rect x="24" y="24" width="712" height="112" rx="12" fill="#2A52BE"/>
   <text x="48" y="58" fill="#fff" font-size="20" font-weight="700">The Tuvima front page</text>
@@ -33,5 +33,5 @@
   </g>
   <rect x="24" y="320" width="712" height="76" rx="12" fill="#fff" stroke="#2A52BE" stroke-width="2"/>
   <text x="48" y="352" fill="#14213D" font-size="16" font-weight="700">You: one Tuvima ID sign-in</text>
-  <text x="48" y="376" fill="#47536B" font-size="14">In each community you choose: your Tuvima profile, or a private profile just for that community.</text>
+  <text x="48" y="376" fill="#47536B" font-size="14">In each community you choose: your global persona, or a private persona just for that community.</text>
 </svg>

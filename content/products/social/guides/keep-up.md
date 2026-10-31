@@ -1,6 +1,6 @@
 ---
 title: Keep up with conversations
-description: Use the bell, watch and save conversations, find everything on your You page, and edit your profile.
+description: Use the bell, watch and save conversations, find everything on your You page, and edit your persona.
 audience: user
 category: guide
 product_area: tuvima
@@ -11,7 +11,7 @@ Tuvima helps you come back to the conversations you care about, without flooding
 
 ## The bell
 
-The bell in the menu collects notices addressed to you. Filter by **All**, **Replies**, **Mentions**, **Quotes** and **Your posts**. Each profile has its own bell, so a private profile's notices stay in that community.
+The bell in the menu collects notices addressed to you. Filter by **All**, **Replies**, **Mentions**, **Quotes** and **Your posts**. Each persona has its own bell, so a private persona's notices stay in that community.
 
 A post tells you one thing only: a reply beats a quote, a quote beats a mention. Several replies in a row are bundled together.
 
@@ -46,6 +46,6 @@ Choose **Edit your profile** from **You**:
 - **Display name**: up to 50 characters, does not need to be unique.
 - **About you**: up to 500 characters.
 - **Picture**: a still photo or picture file (JPEG, PNG or WebP) up to 2 MB.
-- **Handle**: you can change it once every 30 days. Your old handle stays reserved for you for a while, your profile shows "formerly" with the old handle, and mentions of the old handle still reach you.
+- **Handle**: you can change it once every 30 days. Your old handle stays reserved for you for a while, your persona shows "formerly" with the old handle, and mentions of the old handle still reach you.
 
-Your profile page shows your handle, name, picture, about text and earlier names. It never lists the communities you are in.
+Each persona has a public page that shows your handle, name, picture, about text and earlier names. It never lists the communities you are in.

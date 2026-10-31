@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-By the end of this page you will have a profile and be a member of your first community. It takes about five minutes.
+By the end of this page you will have a persona and be a member of your first community. It takes about five minutes.
 
 You can read the front page and public communities without an account. You need one only to post, reply, vote or join.
 
@@ -26,7 +26,7 @@ When you see **You're all set**, the getting-started page asks **What are you in
 
 1. Choose **Find a community** on the front page.
 2. Open a community that looks right and read its rules.
-3. Choose **Join**, then choose how to appear: as your Tuvima profile, or with a private profile just for this community.
+3. Choose **Join**, then choose how to appear: as your global persona, or with a private persona just for this community.
 
 [Joining a community](../guides/join-a-community.md) explains the choice in more detail.
 

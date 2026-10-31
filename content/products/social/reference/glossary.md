@@ -15,16 +15,17 @@ status: early-access
 | **Content warning** | A label that blurs a post until the reader chooses to see it. |
 | **Front page** | The shared feed at tuvima.com, where everyone's posts appear by category. |
 | **Full member** | A member who is no longer limited as a newcomer. |
-| **Handle** | Your public name, made of letters, numbers and underscores. On your Tuvima profile it is shown as `handle @ tuvimaid.com`. |
+| **Global persona** | Your one public persona, shown as `handle @ tuvimaid.com`, used on the front page and wherever you choose. |
+| **Handle** | Your public name, made of letters, numbers and underscores. On your global persona it is shown as `handle @ tuvimaid.com`. |
 | **Held community** | A community Tuvima staff have paused while they review it. People can read but not post. |
 | **Moderation record** | The permanent list of moderation actions in a community. |
 | **New and rising** | A changing selection of young, active communities in the directory. |
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
-| **Private profile** | A profile used in one community only, which no other member, moderator or owner can connect to your other profiles. It hides who you are, not what you post. |
-| **Profile** | How you appear to others: handle, display name and picture. |
+| **Persona** | Who you are to others on Tuvima: a handle, display name and picture. Your account stays hidden behind it. |
+| **Private persona** | A persona used in one community only, which no other member, moderator or owner can connect to your other personas. It hides who you are, not what you post. |
+| **Profile** | The settings page where you edit a persona's name, picture and handle. |
 | **Rank** | What someone can do in a community: Member, Moderator, Admin or Owner. |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
-| **Tuvima profile** | Your one public profile, used on the front page and wherever you choose. |
 | **Unlisted** | A community left out of the directory and search, reachable by link. |
 | **Watch** | Follow a conversation to be told about new posts in it. |

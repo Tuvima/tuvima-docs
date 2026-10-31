@@ -21,7 +21,7 @@ A community is only as good as the people who look after it. Tuvima gives owners
 
 ## A sensible expectation of privacy
 
-You should be able to have a conversation without handing over your whole identity. On Tuvima you can use one public profile everywhere, or a separate private profile in a community, and your email address is never shown to anyone.
+You should be able to have a conversation without handing over your whole identity. On Tuvima you can use one global persona everywhere, or a separate private persona in a community, and your email address is never shown to anyone.
 
 That privacy has limits, and we say so plainly. Tuvima is a place for conversations, not a secret messaging service. Read [your privacy on Tuvima](../guides/privacy.md) to see exactly what is and is not protected.
 

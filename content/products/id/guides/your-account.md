@@ -1,6 +1,6 @@
 ---
 title: Your account page
-description: See your sign-in email, your communities and the profile you used in each, and reach security and email settings.
+description: See your sign-in email, your communities and the persona you used in each, and reach security and email settings.
 audience: user
 category: guide
 product_area: tuvima-id
@@ -19,7 +19,7 @@ These settings apply to your whole Tuvima ID, not to any one community.
 
 - **Sign-in email**: the address you sign in with. Communities never see it.
 - **Account created**: the day you joined.
-- **Tuvima profile**: whether your public profile has been created yet.
+- **global persona**: whether your global persona has been created yet.
 - **Email about replies and mentions**: opens [your email choices](email.md).
 - **Two-step sign-in**: whether it is on, with a link to [turn it on or manage it](two-step-sign-in.md).
 
@@ -27,12 +27,12 @@ These settings apply to your whole Tuvima ID, not to any one community.
 
 Every community you have joined is listed with:
 
-- **Profile used**: your Tuvima profile, or a private profile for that community.
+- **Persona used**: your global persona, or a private persona for that community.
 - **Status**: member, or the day you left.
 - **Joined**: the day you joined.
 - **Your posts in this community**: a link to a page on Tuvima where you can see, and delete, what you posted there. It works after you leave, too.
 
-Each community's details are kept and shown separately, even if you used the same profile in several.
+Each community's details are kept and shown separately, even if you used the same persona in several.
 
 ## Sign out
 
