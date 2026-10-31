@@ -15,6 +15,6 @@ Tuvima ID is in Early Access. Changing your handle, display name and picture alr
 | Passkeys | Sign in with your phone or computer's own lock, without typing a code. |
 | More than one account on a device | Switch between, for example, a personal and a work account without signing out. |
 | Work accounts | Separate accounts that an organisation sets up and controls for its staff. |
-| Sign in with Tuvima ID elsewhere | Use your Tuvima ID to sign in to other websites, with a separate profile and email address for each, so sites cannot connect you. |
+| Sign in with Tuvima ID elsewhere | Use your Tuvima ID to sign in to other websites, with a separate persona and email address for each, so sites cannot connect you. |
 
 [Back to Tuvima ID](../index.mdx)

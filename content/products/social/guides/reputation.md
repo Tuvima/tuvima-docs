@@ -33,7 +33,7 @@ A few rules keep it fair:
 
 ## It stays in each community
 
-Your Reputation belongs to one profile in one community. It never travels to another community or another profile. That way, points earned in one place cannot be carried somewhere else, and nobody can connect a private profile to you by comparing scores.
+Your Reputation belongs to one persona in one community. It never travels to another community or another persona. That way, points earned in one place cannot be carried somewhere else, and nobody can connect a private persona to you by comparing scores.
 
 Every community uses the same reactions and the same rules, so a score means the same thing everywhere. On the front page, Reputation is kept per category, so you can see that someone knows their stuff in Science without them being an expert on everything. Each category page will show who has been **Helpful this month**.
 

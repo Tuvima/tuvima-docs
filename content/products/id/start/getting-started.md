@@ -19,7 +19,7 @@ You need an email address you can open now. It stays private: nobody on Tuvima w
 2. Enter your email address and follow the steps to create your account.
 3. If you see **Check your email to finish signing up**, open the message we sent and follow its link, then choose **Sign in again**.
 
-Until your email is confirmed you can look around, but you cannot create a profile or take part in communities.
+Until your email is confirmed you can look around, but you cannot create a persona or take part in communities.
 
 :::note
 If you see "Lots of people are joining right now", new sign-ups are paused for a short while when lots of people are joining at once. Try again in about an hour. If you already have a Tuvima ID, you can still sign in.
@@ -35,7 +35,7 @@ After signing in you return to Tuvima, which asks you to **Choose your handle**.
 
 ## Check the result
 
-You see **You're all set**. Your handle now shows in the menu at the top of Tuvima, and your [account page](../guides/your-account.md) on Tuvima ID lists your Tuvima profile as created.
+You see **You're all set**. Your handle now shows in the menu at the top of Tuvima, and your [account page](../guides/your-account.md) on Tuvima ID lists your global persona as created.
 
 ## Next steps
 

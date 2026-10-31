@@ -16,7 +16,7 @@ Each community looks after itself: its moderators deal with reports and keep the
 3. Add a short note if it helps. It is required for **Something else**.
 4. Send it.
 
-The community's moderators see your report and which profile sent it. The person you reported, and other readers, do not.
+The community's moderators see your report and which persona sent it. The person you reported, and other readers, do not.
 
 You can follow your reports under **Your reports**, which shows whether each is open or has been reviewed. To protect everyone's privacy, it does not say what action was taken.
 
@@ -31,7 +31,7 @@ To stop misuse, you can report each post once, and up to 10 posts an hour.
 | **Suspend** | The member cannot post, reply, vote or join for a set time: 1 hour, 1 day, 3 days, 1 week, 30 days or a custom period. |
 | **Ban** | The member cannot take part in that community until the ban is lifted. They can still read public conversations. |
 
-Bans and suspensions apply to the person, not just one profile, so starting a new private profile does not get around them.
+Bans and suspensions apply to the person, not just one persona, so starting a new private persona does not get around them.
 
 Every action is written to the community's moderation record, so decisions can be checked.
 
@@ -43,4 +43,4 @@ If you think a decision about a community was wrong, a moderator or owner of tha
 
 ## When Tuvima steps in
 
-Tuvima staff can pause a community while they review it. Reading continues, but posting, editing, voting and joining stop for members, usually for a day or two. The community's moderators can still tidy up. Staff can also suspend a profile across all of Tuvima for breaking [the rules everyone follows](community-rules.md).
+Tuvima staff can pause a community while they review it. Reading continues, but posting, editing, voting and joining stop for members, usually for a day or two. The community's moderators can still tidy up. Staff can also suspend a persona across all of Tuvima for breaking [the rules everyone follows](community-rules.md).
