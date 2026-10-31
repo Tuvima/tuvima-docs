@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
+  <title id="t">How Tuvima fits together</title>
+  <desc id="d">The Tuvima front page shows posts from everyone, sorted into categories and tags. Below it sit many communities, each with its own members, rules and look. You sign in once with Tuvima ID and choose which profile each community sees.</desc>
+  <rect width="760" height="420" rx="16" fill="#F5F7FB"/>
+  <rect x="24" y="24" width="712" height="112" rx="12" fill="#2A52BE"/>
+  <text x="48" y="58" fill="#fff" font-size="20" font-weight="700">The Tuvima front page</text>
+  <text x="48" y="84" fill="#E6ECFA" font-size="15">Posts and links from everyone, sorted into categories and tags.</text>
+  <g font-size="13" fill="#2A52BE" font-weight="600">
+    <rect x="48" y="98" width="88" height="26" rx="13" fill="#fff"/><text x="92" y="116" text-anchor="middle">Trending</text>
+    <rect x="144" y="98" width="64" height="26" rx="13" fill="#fff"/><text x="176" y="116" text-anchor="middle">New</text>
+    <rect x="216" y="98" width="96" height="26" rx="13" fill="#fff"/><text x="264" y="116" text-anchor="middle">Categories</text>
+    <rect x="320" y="98" width="64" height="26" rx="13" fill="#fff"/><text x="352" y="116" text-anchor="middle">Tags</text>
+  </g>
+  <g stroke="#8A9BC4" stroke-width="2" fill="none" stroke-dasharray="5 5">
+    <path d="M150 136v40"/><path d="M380 136v40"/><path d="M610 136v40"/>
+  </g>
+  <g font-size="15">
+    <rect x="40" y="176" width="220" height="120" rx="12" fill="#fff" stroke="#C9D3EA"/>
+    <text x="60" y="206" font-weight="700" fill="#14213D">Board game players</text>
+    <text x="60" y="232" fill="#47536B" font-size="13">Own members and rules</text>
+    <text x="60" y="252" fill="#47536B" font-size="13">Own look and colours</text>
+    <text x="60" y="272" fill="#47536B" font-size="13">Own moderators</text>
+    <rect x="270" y="176" width="220" height="120" rx="12" fill="#fff" stroke="#C9D3EA"/>
+    <text x="290" y="206" font-weight="700" fill="#14213D">Gardeners in Leeds</text>
+    <text x="290" y="232" fill="#47536B" font-size="13">Own members and rules</text>
+    <text x="290" y="252" fill="#47536B" font-size="13">Own look and colours</text>
+    <text x="290" y="272" fill="#47536B" font-size="13">Own moderators</text>
+    <rect x="500" y="176" width="220" height="120" rx="12" fill="#fff" stroke="#C9D3EA"/>
+    <text x="520" y="206" font-weight="700" fill="#14213D">Your community</text>
+    <text x="520" y="232" fill="#47536B" font-size="13">You set it up in minutes</text>
+    <text x="520" y="252" fill="#47536B" font-size="13">You decide the rules</text>
+    <text x="520" y="272" fill="#47536B" font-size="13">Tuvima does the hosting</text>
+  </g>
+  <rect x="24" y="320" width="712" height="76" rx="12" fill="#fff" stroke="#2A52BE" stroke-width="2"/>
+  <text x="48" y="352" fill="#14213D" font-size="16" font-weight="700">You: one Tuvima ID sign-in</text>
+  <text x="48" y="376" fill="#47536B" font-size="14">In each community you choose: your Tuvima profile, or a private profile just for that community.</text>
+</svg>

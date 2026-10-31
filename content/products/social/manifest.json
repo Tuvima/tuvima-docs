@@ -1,0 +1,21 @@
+{
+  "pages": [
+    { "source": "index.mdx", "slug": "" },
+    { "source": "start/what-is-tuvima.md", "slug": "start/what-is-tuvima", "group": "Guides", "section": "Start here" },
+    { "source": "start/why-tuvima.md", "slug": "start/why-tuvima", "group": "Guides", "section": "Start here" },
+    { "source": "start/getting-started.md", "slug": "start/getting-started", "group": "Guides", "section": "Start here" },
+    { "source": "guides/front-page.md", "slug": "guides/front-page", "group": "Guides", "section": "Take part" },
+    { "source": "guides/join-a-community.md", "slug": "guides/join-a-community", "group": "Guides", "section": "Take part" },
+    { "source": "guides/posting.md", "slug": "guides/posting", "group": "Guides", "section": "Take part" },
+    { "source": "guides/newcomers.md", "slug": "guides/newcomers", "group": "Guides", "section": "Take part" },
+    { "source": "guides/keep-up.md", "slug": "guides/keep-up", "group": "Guides", "section": "Take part" },
+    { "source": "guides/privacy.md", "slug": "guides/privacy", "group": "Guides", "section": "Privacy and safety" },
+    { "source": "guides/reporting-and-moderation.md", "slug": "guides/reporting-and-moderation", "group": "Guides", "section": "Privacy and safety" },
+    { "source": "guides/community-rules.md", "slug": "guides/community-rules", "group": "Guides", "section": "Privacy and safety" },
+    { "source": "owners/start-a-community.md", "slug": "owners/start-a-community", "group": "Guides", "section": "Run a community" },
+    { "source": "owners/run-your-community.md", "slug": "owners/run-your-community", "group": "Guides", "section": "Run a community" },
+    { "source": "owners/look-and-feel.md", "slug": "owners/look-and-feel", "group": "Guides", "section": "Run a community" },
+    { "source": "reference/status.md", "slug": "reference/status", "group": "Reference", "section": "Look something up" },
+    { "source": "reference/glossary.md", "slug": "reference/glossary", "group": "Reference", "section": "Look something up" }
+  ]
+}

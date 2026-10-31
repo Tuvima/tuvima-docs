@@ -1,0 +1,41 @@
+---
+title: Tuvima
+description: Help for Tuvima, the home for focused communities. Find your people, join the conversation or start a community of your own.
+audience: user
+category: landing
+product_area: tuvima
+status: early-access
+template: splash
+hero:
+  title: Tuvima
+  tagline: Find your people. Help your community thrive.
+  actions:
+    - text: Get started
+      link: /products/social/start/getting-started/
+      icon: right-arrow
+      variant: primary
+    - text: What is Tuvima?
+      link: /products/social/start/what-is-tuvima/
+      variant: secondary
+---
+
+import { Aside, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+Tuvima is a home for communities built around something specific: a hobby, a place, a shared experience. Read and join the conversation on the Tuvima front page, find a community that fits you, or start your own and let Tuvima do the hosting.
+
+## Choose your path
+
+<CardGrid>
+  <LinkCard title="Join in" description="Sign in, find a community, post and reply." href="/products/social/start/getting-started/" />
+  <LinkCard title="Run a community" description="Start one, set its rules and look, and grow it." href="/products/social/owners/start-a-community/" />
+  <LinkCard title="Stay safe" description="Report a post, understand moderation and the rules everyone follows." href="/products/social/guides/reporting-and-moderation/" />
+  <LinkCard title="Know your privacy" description="What others see, what they never see, and what privacy you do not have." href="/products/social/guides/privacy/" />
+</CardGrid>
+
+## How it fits together
+
+![The Tuvima front page shows posts from everyone, sorted into categories and tags. Below it sit many communities, each with its own members, rules and look. You sign in once with Tuvima ID and choose which profile each community sees.](assets/how-tuvima-fits.svg)
+
+<Aside type="note" title="Early Access">
+  Tuvima is being built now and is not open to everyone yet. Pages describe what works today and say clearly when something is planned. See [what's ready and what's coming](reference/status.md).
+</Aside>

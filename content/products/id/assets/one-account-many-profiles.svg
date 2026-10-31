@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
+  <title id="t">One account, the profiles you choose</title>
+  <desc id="d">Your Tuvima ID account holds your sign-in email, which only you see. From it you use one public Tuvima profile, which you can show on the front page and in any community, and private profiles, each used in one community only. Communities see only the profile you use there.</desc>
+  <rect width="760" height="400" rx="16" fill="#F5F7FB"/>
+  <rect x="230" y="24" width="300" height="92" rx="12" fill="#14213D"/>
+  <text x="380" y="56" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">Your Tuvima ID account</text>
+  <text x="380" y="80" fill="#C9D3EA" font-size="13" text-anchor="middle">Sign-in email, two-step sign-in</text>
+  <text x="380" y="100" fill="#C9D3EA" font-size="13" text-anchor="middle">Seen only by you, on Tuvima ID</text>
+  <g stroke="#8A9BC4" stroke-width="2" fill="none">
+    <path d="M330 116 L200 170"/><path d="M430 116 L560 170"/>
+  </g>
+  <rect x="60" y="170" width="280" height="80" rx="12" fill="#2A52BE"/>
+  <text x="200" y="202" fill="#fff" font-size="16" font-weight="700" text-anchor="middle">Your Tuvima profile</text>
+  <text x="200" y="226" fill="#E6ECFA" font-size="13" text-anchor="middle">Public: sam @ tuvimaid.com</text>
+  <rect x="420" y="170" width="280" height="80" rx="12" fill="#fff" stroke="#2A52BE" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="560" y="202" fill="#14213D" font-size="16" font-weight="700" text-anchor="middle">Private profiles</text>
+  <text x="560" y="226" fill="#47536B" font-size="13" text-anchor="middle">One per community, not linked to you</text>
+  <g stroke="#8A9BC4" stroke-width="2" fill="none">
+    <path d="M140 250 L110 300"/><path d="M200 250 L270 300"/><path d="M560 250 L560 300"/>
+  </g>
+  <g font-size="14" text-anchor="middle">
+    <rect x="30" y="300" width="160" height="70" rx="10" fill="#fff" stroke="#C9D3EA"/>
+    <text x="110" y="330" font-weight="700" fill="#14213D">Front page</text>
+    <text x="110" y="352" fill="#47536B" font-size="12">sees sam</text>
+    <rect x="200" y="300" width="160" height="70" rx="10" fill="#fff" stroke="#C9D3EA"/>
+    <text x="280" y="330" font-weight="700" fill="#14213D">Book club</text>
+    <text x="280" y="352" fill="#47536B" font-size="12">sees sam</text>
+    <rect x="480" y="300" width="160" height="70" rx="10" fill="#fff" stroke="#C9D3EA"/>
+    <text x="560" y="330" font-weight="700" fill="#14213D">Health support group</text>
+    <text x="560" y="352" fill="#47536B" font-size="12">sees only quiet_reader</text>
+  </g>
+</svg>
