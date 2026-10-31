@@ -42,6 +42,10 @@ These tools appear in Editing Mode on the Overview of a video, on a computer onl
 - **Identify.** In the "..." menu of a video that has not been matched, **Identify** opens Editing Mode with Match and Identity. Paste a YouTube link or the 11-character video ID and Library looks it up. Only the ID is sent to YouTube, never your file, and only for a library of the YouTube kind. Once a video is matched the entry no longer appears.
 - **Change thumbnail.** In the same "..." menu, opens Editing Mode with Manage Artwork on the cover.
 
+## Move a file between Extras and episodes
+
+A bonus clip that is really an episode, or an episode that is really a bonus, can be moved. Open the show, choose Edit, then Match. Under Extras, each video clip has **Move to episode**: pick the season (0 is Specials) and the episode number. Open an episode in the editor and Match offers **Move to Extras**. Neither is final until you choose **Save changes** after **Review changes**. Library renames and moves nothing on disk: the file stays where it is. Moving to Extras removes the episode from your Library, so its watched mark and progress are lost; moving to an episode adds it as that episode and the episode count goes up. Editing is on a desktop only.
+
 ## Choose artwork
 
 Open **Artwork** to choose or add images. The top of the editor shows the item's main image. [Artwork types](../reference/artwork-types.md) explains covers, backgrounds, logos, and other image roles.

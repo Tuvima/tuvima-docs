@@ -49,6 +49,10 @@ See [media types](../reference/media-types.md) for the full format contract. Con
 
 MP3, M4A, and video containers can have several meanings. Clear folder context and good embedded metadata help Tuvima choose safely. Uncertain catalogue classification goes to Review Queue.
 
+## Extras beside a title
+
+A guidebook (PDF), a folder of pictures or a bonus clip that sits in a show, film, album, book, comic or course folder is shown as an **Extra** of that title, in an Extras row on its page, and is never counted as an episode, track or issue. Keep them in the title's folder (or in a folder called Extras, Featurettes or Behind the scenes) and Library finds them on its own, without a setting. Numbered files in a show or course folder stay episodes, and a PDF stays a book or comic issue unless its name or folder says it is an extra. A wrong call can be fixed in the editor ([Move a file between Extras and episodes](editing-items.md)).
+
 ## Add private media
 
 Configure View's storage root and enable the owning profile. Use **Import folder** to copy into managed storage, or **Link existing folder** for read-only indexing. Browser upload depends on the profile and server policy.

@@ -277,9 +277,11 @@ The files that sit beside a title but are not its own episodes, films, tracks, b
 | `size_bytes` | INTEGER | File size |
 | `duration_seconds` | REAL | Length of a clip (nullable) |
 | `page_count` | INTEGER | Pages in a PDF (nullable) |
+| `target_season` | INTEGER | On a `user_episode` row only: the season the person chose when they moved the file to an episode, 0 for Specials (nullable) |
+| `target_episode` | INTEGER | On a `user_episode` row only: the episode number they chose (nullable) |
 | `found_at` | TEXT | When the file was first found, ISO 8601 UTC |
 
-Index: `ix_item_extras_folder (item_folder)`. Deleting a title removes the rows of its folder; the files themselves are not touched.
+Index: `ix_item_extras_folder (item_folder)`. When a title's folder holds none of the library's own files any more (the show was deleted), its rows are removed on the next check; the files themselves are never touched. A `user_episode` row's season and episode are read when the file is ingested, so it is identified as that episode.
 
 ### unmatched_assets
 
