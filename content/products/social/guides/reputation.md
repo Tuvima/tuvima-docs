@@ -8,7 +8,7 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** the five reactions, Reputation points and levels being counted behind the scenes, reactions weighted by level on the front page, and points taken back when Tuvima staff remove a post.
+**Working today:** the five reactions, Reputation points and levels being counted behind the scenes, reactions weighted by level on the front page, and points taken back when a post is removed for breaking the rules.
 
 **Coming next:** seeing your level and Reputation next to your name and on your persona page, badges, credit for good conversations, Helpful this month, and owners naming their own levels. After that come the private safety check and folding serious abuse. Names and numbers may change after testing.
 :::
@@ -58,9 +58,11 @@ A member's card in a community shows their **Role**, their **Level** and their R
 
 On the front page, levels are the same across every category.
 
-## When Tuvima staff remove a post
+## When a post is removed
 
-If Tuvima staff remove a post for breaking the rules, the points it earned are taken back, its author moves down one level in that community (never below the first), and the author gets a notice saying which rule it broke and what changed. If staff later restore the post, its points and the author's earlier level come back, and the author is told. Removals by a community's own moderators also take the post's points back, but do not change anyone's level.
+The front page has no moderators, so Tuvima staff step in there, but only for abuse. If staff remove a front-page post for breaking the rules, the points it earned are taken back and its author moves down one front-page level (never below the first). The author gets a notice saying which rule was broken and what changed. The level stays down for 90 days before it can climb again. If staff later restore the post, its points and the author's earlier level come back, and the author is told.
+
+Tuvima staff never step into a community's own moderation. When a community's moderators remove a post, its points are taken back, and levels stay in the owner's hands.
 
 ## What money can and cannot do
 

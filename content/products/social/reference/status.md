@@ -18,7 +18,7 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 | Communities | Directory with New and rising, joining and leaving, community search, unlisted communities. |
 | Conversations | Formatting, link previews with click-to-play, content warnings, quotes, mentions, edit history, flat and nested views. |
 | Coming back | Bell notices, watch, save, the You page and persona editing. Reply and mention emails are being switched on. |
-| Reactions and points | Five reactions on every post. Reputation points and levels are already being counted, and Tuvima staff removals take a post's points back and tell the author. |
+| Reactions and points | Five reactions on every post. Reputation points and levels are already being counted, and a post removed for breaking the rules loses its points. |
 | Safety | Reports, hiding and removing posts, suspensions and bans, moderation records, newcomer limits, spam protection. |
 | Owner tools | Setup steps, ranks, members page, numbers, launch checklist, themes, banners, page blocks, categories and forums, and labels on Tuvima. |
 | Help | A help centre and draft rules and policies. |
