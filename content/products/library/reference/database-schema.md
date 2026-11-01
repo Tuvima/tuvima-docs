@@ -72,6 +72,10 @@ Represents a Series (user-facing) or Universe (ParentCollection). Both are store
 | `created_at` | TEXT | Timestamp |
 | `updated_at` | TEXT | Timestamp |
 | `last_enriched_at` | TEXT | Timestamp of last Wikidata enrichment |
+| `max_items` | INTEGER | "At most N" for a person-built collection: the most titles shown. NULL means no limit; otherwise at least 1. Random order is a `sort_field` value and needs no column. Added by upgrade step `0073_collection_options`. |
+| `season_from`, `season_to` | TEXT | The optional seasonal window as `MM-dd` (for example `10-01` and `11-01`). Both are set or both are NULL; outside the window the collection is hidden from lanes and the Collections page. Added by upgrade step `0073_collection_options`. |
+
+Person-built collections also use the existing `min_items` column ("Minimum items"), which the Engine started reading with step `0073`.
 
 **Indices:** `wikidata_qid`, `parent_collection_id`, `collection_type`, `wikidata_qid + media_type` (Series identity), `universe_qid`, and a unique index `idx_collections_one_universe_shelf` on `universe_qid` for Universe shelves (`collection_type = 'Universe'`), so one Universe record is presented by at most one Universe shelf.
 
@@ -183,6 +187,61 @@ Links works to collections (Series to Universe relationships).
 
 **Indices:** `collection_id + sort_order` for ordered paging and
 `work_id` for reverse lookup and cascade enforcement.
+
+`collection_items` also has `added_by` (`TEXT NOT NULL DEFAULT 'hand'`, either `'hand'` or `'list'`): who put the title in a person-built collection. A list refresh only ever adds or removes `'list'` rows, so it never touches a title added by hand. Added by upgrade step `0075_collection_list_sources`.
+
+### collection_placements
+
+Where a person-built collection appears as a lane ("Show on").
+
+| Column | Type | Notes |
+|---|---|---|
+| `id` | BLOB | Primary key |
+| `collection_id` | BLOB | FK -> `collections.id` (`ON DELETE CASCADE`) |
+| `location` | TEXT | `home`, `area:watch`, `area:read` or `area:listen` |
+| `position` | INTEGER | Order among the lanes of that location |
+| `display_limit` | INTEGER | Most titles in the lane; 0 uses the default of 20 |
+| `display_mode` | TEXT | `swimlane` by default |
+| `is_visible` | INTEGER | 0 hides the lane |
+| `profile_id` | BLOB | FK -> `profiles.id` (`ON DELETE CASCADE`). NULL is the shared "Show on" choice; a profile id is that one profile's own choice for the same collection and location, where `is_visible = 0` is "Hide this lane". Added by upgrade step `0074_collection_lane_profile_hides`. |
+
+**Indices:** `profile_id` (where not NULL).
+
+### collection_list_sources
+
+Where an imported list collection came from. One row per collection (`collection_id` is the primary key, `ON DELETE CASCADE`). Added by upgrade step `0075_collection_list_sources`.
+
+| Column | Type | Notes |
+|---|---|---|
+| `source_kind` | TEXT | The kind of source (a file kind or a web source). No `CHECK`, so new web sources add their own kinds. |
+| `source_label`, `source_name` | TEXT | The words shown in the source line, and the file or list name |
+| `source_address` | TEXT | The web address for a web list; NULL for a file |
+| `shelf` | TEXT | The Goodreads or StoryGraph shelf this collection came from, if any |
+| `order_by` | TEXT | `list` (default), `release` or `title` |
+| `refresh` | TEXT | `never` (default), `daily` or `weekly` |
+| `sync_mode` | TEXT | `follow` (default; titles that leave the list leave the collection) or `keep` |
+| `last_refreshed_at`, `next_refresh_at` | TEXT | Timestamps; `next_refresh_at` is indexed for lists that refresh |
+| `entry_count`, `matched_count`, `unmatched_count` | INTEGER | Counts shown as "You own X of Y" and "Couldn't match N" |
+| `created_at`, `updated_at` | TEXT | Timestamps |
+
+### collection_list_entries
+
+Every entry of an imported list and which title in the library it matched. `collection_id` is a FK to `collections.id` (`ON DELETE CASCADE`). Added by upgrade step `0075_collection_list_sources`.
+
+| Column | Type | Notes |
+|---|---|---|
+| `id` | BLOB | Primary key |
+| `position` | INTEGER | Position in the list, from 1 |
+| `title`, `year`, `creator`, `shelf` | TEXT / INTEGER | The entry as the list gave it |
+| `ids_json` | TEXT | Valid JSON object of identifiers the list carried (IMDb, TMDb, TVDB, ISBN, ASIN, MusicBrainz, ComicVine) |
+| `media_types` | TEXT | Media types the entry may match |
+| `entry_key` | TEXT | Stable key used to recognise the same entry on refresh |
+| `status` | TEXT | `matched`, `unmatched`, `ignored` or `hand_fixed` |
+| `matched_work_id` | BLOB | FK -> `works.id` (`ON DELETE SET NULL`) |
+| `match_basis` | TEXT | Whether an identifier or the title and year matched |
+| `on_list` | INTEGER | 1 while the entry is still on the list; 0 after it left (kept under "Keep everything ever added") |
+
+**Indices:** `collection_id + position`.
 
 Path lookups use case-insensitive indexes that match Windows filesystem semantics:
 `media_assets.file_path_root`, `file_hash_cache.absolute_path`, and `persons.name`

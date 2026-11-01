@@ -28,6 +28,10 @@ Providers can receive identifiers and search hints from catalogue media. View pe
 
 Enabled configuration and provider availability still determine what runs. Tuvima does not ship a TMDB or TheTVDB key or proxy.
 
+### List sources
+
+Some sources only read lists for [collections](collections-and-lists.md#web-addresses) and take no part in identifying your files: **MDBList** (a free key), **Open Library** (no key) and **Trakt** (the Client ID of a free Trakt app you create yourself; public lists and watchlists only). They ship switched off. Switch one on in **Settings → Plugins**, open its tile, and add its key if it needs one. TMDB and MusicBrainz also read lists, using the same connection they already have. When a list source is off, the New collection builder says so and links to Plugins; list files still import.
+
 ## Connect a provider
 
 1. Open **Settings → Plugins** (`/settings/plugins`). Metadata sources such as TMDB, TheTVDB and Comic Vine are tiles beside the plugins, under the **Metadata** tab; **Official** ones carry the Tuvima mark.

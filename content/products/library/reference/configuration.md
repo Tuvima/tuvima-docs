@@ -419,6 +419,9 @@ One JSON file per metadata provider. All provider files are self-contained - add
 |---|---|---|---|
 | `apple_api.json` | Apple API (books, audiobooks, music enrichment) | Stage 1 provider metadata and primary artwork; for music, configured after MusicBrainz as enrichment | `localized` |
 | `comicvine.json` | Comic Vine (comics) | Stage 1 provider metadata and primary artwork | `source` |
+| `mdblist.json` | MDBList (list source only) | None of the pipeline stages; used only by New collection → From a list. `provider_capabilities` is `["lists"]`; ships switched off and needs a free MDBList key | `source` |
+| `openlibrary.json` | Open Library (list source only) | None of the pipeline stages; used only by From a list. `provider_capabilities` is `["lists"]`; ships switched off, no key | `source` |
+| `trakt.json` | Trakt (list source only) | None of the pipeline stages; used only by From a list, for public lists and public watchlists. Ships switched off and needs the Client ID of your own Trakt app as `http_client.api_key` (sent in the `trakt-api-key` header) | `source` |
 | `musicbrainz.json` | MusicBrainz | Stage 1 music identity; also available to slower enrichment where configured | `source` |
 | `tmdb.json` | TMDB (movies, TV) | Stage 1 provider metadata and primary artwork; Stage 8 ranked movie/TV artwork refresh | `localized` |
 | `wikidata_reconciliation.json` | Wikidata | Stage 2 Wikidata | `both` |

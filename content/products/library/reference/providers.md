@@ -54,6 +54,13 @@ Retail providers are a **rich data source for matching** - descriptions, narrato
 | Comic Vine | Comics | API key | 500ms, max 1 concurrent | Source (English only) | Active (requires key) |
 | LRCLIB | Music | None | Configured provider throttle | Source | Text-track provider |
 | SubDL | Movies, TV | Personal API key | Configured provider throttle | Source | Optional text-track provider |
+| MDBList | Movies, TV (lists) | Free MDBList key | Configured provider throttle | Source | List source only; off until switched on |
+| Open Library | Books (lists) | None | Configured provider throttle | Source | List source only; off until switched on |
+| Trakt | Movies, TV (lists) | Your own Trakt app Client ID (`trakt-api-key` header) | 2 requests/sec, max 1 concurrent | Source | List source only (public lists and watchlists); off until switched on |
+
+### List sources
+
+TMDB and MusicBrainz also carry the `lists` capability, and MDBList, Open Library and Trakt have it alone. A `lists` source reads a list from a web address a person pastes into **New collection → From a list** and returns its entries (title, year and identifiers) for matching against the library. It takes no part in identity, metadata or artwork. Addresses read: `themoviedb.org/list/…` and `themoviedb.org/collection/…`, `musicbrainz.org/collection/…`, `mdblist.com/lists/<user>/<list>`, `openlibrary.org/people/<user>/lists/<list>`, and on `trakt.tv` public lists, official lists and public watchlists. MusicBrainz keeps its limit of 1 request/sec for list reads. See [Collections and lists](../guides/collections-and-lists.md).
 
 ---
 
