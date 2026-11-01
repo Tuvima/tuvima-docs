@@ -24,7 +24,13 @@ Give moderation only to people you trust. Every rank change needs a reason, is r
 
 ## Members
 
-The **Members** page lists everyone who has joined. Search it, filter by rank, newcomers, suspended or banned, and sort by when people joined, how active they are or name. Open a member to change their rank, make a newcomer a full member, or take a moderation step.
+The **Members** page lists everyone who has joined. Search it, filter by rank, newcomers, suspended or banned, and sort by when people joined, how active they are or name. Open a member to change their rank, make a newcomer a full member, or take a moderation step. The owner can also set a member's level by hand from here (see below).
+
+## Levels
+
+Members climb a ladder of levels as others value what they write: Newcomer, Member, Regular and Trusted to begin with. On **Settings > Levels** you can rename the levels, set what each one needs, choose whether the top level needs keeping up, turn the two community badges on or off, and hide Reputation numbers so only levels show. Raising a number never moves anyone down.
+
+As the owner you can also set a member's level by hand from their page in **Members**. It stays until you choose **Return to automatic**. The member is told their new level but not who changed it, and the change is kept in the moderation record. [Reputation and levels](../guides/reputation.md) explains the whole system.
 
 ## Reports and the moderation record
 
