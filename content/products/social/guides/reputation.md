@@ -1,17 +1,23 @@
 ---
 title: Reputation and levels
-description: How members will earn Reputation from the way others value their words, how levels work, and why money and popularity can never buy influence.
+description: How members earn Reputation from the way others value their words, how levels work, and why money and popularity can never buy influence.
 audience: user
 category: explanation
 product_area: tuvima
-status: target-state
+status: early-access
 ---
 
-:::caution[Coming later]
-Reputation and levels are decided but not built yet. This page explains how they will work so you know what to expect. Details, names and numbers may change after testing.
+:::note[Being built in steps]
+**Working today:** the five reactions, Reputation points and levels being counted behind the scenes, reactions weighted by level on the front page, and points taken back when Tuvima staff remove a post.
+
+**Coming next:** seeing your level and Reputation next to your name and on your persona page, badges, credit for good conversations, Helpful this month, and owners naming their own levels. After that come the private safety check and folding serious abuse. Names and numbers may change after testing.
 :::
 
 Tuvima wants helpful people to be recognised for being helpful, without turning conversations into a contest. Reputation is how a community says "thank you, that was useful".
+
+## Reactions
+
+Every post, on the front page and in communities, has the same five reactions: **Like**, **Dislike**, **Insightful**, **Funny** and **Thanks**. Choose **+** to see them all with their names. You can give one reaction per post, and change or take it back at any time. Others see how many of each a post has, never who gave them.
 
 ## Reputation: earned from other people
 
@@ -52,13 +58,17 @@ A member's card in a community shows their **Role**, their **Level** and their R
 
 On the front page, levels are the same across every category.
 
+## When Tuvima staff remove a post
+
+If Tuvima staff remove a post for breaking the rules, the points it earned are taken back, its author moves down one level in that community (never below the first), and the author gets a notice saying which rule it broke and what changed. If staff later restore the post, its points and the author's earlier level come back, and the author is told. Removals by a community's own moderators also take the post's points back, but do not change anyone's level.
+
 ## What money can and cannot do
 
 Some communities will offer a paid **Supporter** membership. An owner may let supporters skip the newcomer stage. Paying never raises your level beyond that, and never changes your Reputation, your votes or how far your posts reach.
 
 ## Votes on the front page
 
-Votes from members with a higher front-page level will count for more, from a quarter of a vote for someone brand new up to three votes at the top. How much a single vote counts varies at random each time, within the member's limit, so nobody can plan a "power vote". It evens out over many votes.
+On the front page, Like and Dislike are the up and down votes, and the other three reactions count as a vote up. Reactions from members with a higher front-page level count for more, from a quarter of a vote for someone brand new up to three votes at the top. How much a single vote counts varies at random each time, within the member's limit, so nobody can plan a "power vote". It evens out over many votes.
 
 ## Keeping the front page safe
 

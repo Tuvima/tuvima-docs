@@ -9,7 +9,7 @@ status: early-access
 
 By the end of this page you will have a persona and be a member of your first community. It takes about five minutes.
 
-You can read the front page and public communities without an account. You need one only to post, reply, vote or join.
+You can read the front page and public communities without an account. You need one only to post, reply, react or join.
 
 ## Sign in
 

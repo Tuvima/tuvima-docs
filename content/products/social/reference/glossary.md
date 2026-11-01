@@ -19,6 +19,7 @@ status: early-access
 | **Global persona** | Your one public persona, shown as `handle @ tuvimaid.com`, used on the front page and wherever you choose. |
 | **Handle** | Your public name, made of letters, numbers and underscores. On your global persona it is shown as `handle @ tuvimaid.com`. |
 | **Held community** | A community Tuvima staff have paused while they review it. People can read but not post. |
+| **Level** | A member's step on a community's ladder, starting at Newcomer. On the front page the levels are New, Member, Regular and Trusted. |
 | **Labels** | The front-page category, subtopic and tags a community conversation carries, set by the community's owner and admins. |
 | **Moderation record** | The permanent list of moderation actions in a community. |
 | **New and rising** | A changing selection of young, active communities in the directory. |
@@ -27,6 +28,8 @@ status: early-access
 | **Private persona** | A persona used in one community only, which no other member, moderator or owner can connect to your other personas. It hides who you are, not what you post. |
 | **Profile** | The settings page where you edit a persona's name, picture and handle. |
 | **Rank** | What someone can do in a community: Member, Moderator, Admin or Owner. |
+| **Reaction** | One of five ways to respond to a post: Like, Dislike, Insightful, Funny or Thanks. |
+| **Reputation** | Points a member earns in one community when other people value what they wrote. |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
 | **Unlisted** | A community left out of the directory and search, reachable by link. |
