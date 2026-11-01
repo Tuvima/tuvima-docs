@@ -44,7 +44,7 @@ A post's place on Home is made of three parts:
 
 A few more rules shape each page of 20 posts:
 
-- **Discover** keeps room for new voices and good posts outside your interests. The default is 15%, so about 3 posts in every 20. You can set it anywhere from 0% to 40% on your Your feed page. A "new voice" is someone whose persona is under 30 days old.
+- **Discover** keeps room for new voices and good posts outside your interests. The default is 15%, so about 3 posts in every 20. You can set it anywhere from 0% to 40%, in steps of 5, on your Your feed page. A "new voice" is someone whose persona is under 30 days old.
 - **Variety.** You never see more than 2 posts in a row from the same category or community, and no more than 3 posts from the same persona on one page.
 - **Caught up.** Posts that are new since your last visit come first. When they run out, Home says "You're caught up". Opening Home again within 30 minutes counts as the same visit.
 
@@ -66,10 +66,10 @@ Home learns from what you do, as points added to your interests. An interest is 
 
 Some things to know:
 
-- **Disagreeing never costs a topic.** A down vote only lowers that one author a little (1 point). It never lowers a category or tag. No reaction ever means "show me less", not even Angry or Sad: it just means the post moved you. Only Less like this, Mute and Snooze do.
+- **Disagreeing never costs a topic.** A down vote only lowers that one author a little (1 point). It never lowers a category or tag. No reaction ever means "show me less", not even Angry or Sad: it just means the post moved you. Only Less like this, Mute, Snooze and Lower on your Your feed page do.
 - **Interests fade.** After 30 days without new signals, an interest is worth half as much. It is removed once it has faded to almost nothing.
-- **There is a daily limit.** One interest can gain only so much in a day, so a burst of activity cannot swamp everything else. In any 24 hours, one interest can gain up to 6 points from reactions, 9 from replies and 18 from your own choices (follows, More and Less).
-- **Sensitive subjects are handled with care.** Health, religion, sexuality and politics, and any tag Tuvima staff mark as sensitive, grow only when you follow them or tap More like this. Reacting to or replying to such posts never builds them.
+- **There is a daily limit.** One interest can gain only so much in a day, so a burst of activity cannot swamp everything else. In any 24 hours, one interest can change by up to 6 points from reactions and votes, 9 from replies, and 18 from More and Less like this (and Boost and Lower on your Your feed page). Follows have no daily limit.
+- **Sensitive subjects are handled with care.** Health, religion, sexuality and politics, and any tag Tuvima staff mark as sensitive, grow only when you follow them or tap More like this. Reacting to, voting on or replying to such posts never builds them.
 
 ## How a post's value is worked out
 
@@ -84,7 +84,7 @@ The result is smoothed so one huge pile of votes cannot bury everything else.
 
 ## Your feed page
 
-Your Tuvima ID account has a **Your feed** page. Only you can see it. It shows:
+Your Tuvima ID account has a **Your feed** page. Other members never see it. It shows:
 
 - every interest Home has learned, strongest first, with whether it is rising, fading or steady, and buttons to **Boost**, **Lower** or **Remove** it,
 - your mutes and snoozes, each with a **Lift** button,
@@ -92,9 +92,9 @@ Your Tuvima ID account has a **Your feed** page. Only you can see it. It shows:
 
 It also has these switches:
 
-- **Pause learning** stops Home learning anything new. Your interests stay as they are.
-- **Use my reactions** lets your reactions teach Home. Turn it off and Home stops learning from them straight away, and removes what they taught.
-- **Show my private communities on my Tuvima Home** is on by default. Home can then include communities you joined with any persona, including a private one. Tuvima ID gives Home the list each time it loads and Tuvima never stores it next to your global persona. Only you see these posts, and Tuvima never shows which persona you used.
+- **Pause learning** stops Home learning anything new from what you do. Your interests stay as they are, and you can still Boost, Lower or Remove them yourself.
+- **Use my reactions and votes** lets your reactions and up and down votes teach Home. Turn it off and Home stops learning from them straight away, and removes what they taught.
+- **Show my private communities on my Tuvima Home** is on by default. Home can then include communities you joined with any persona, including a private one. Tuvima ID gives Home the list each time it loads and Tuvima never stores it next to your global persona. Other members never see these posts on your Home, and Tuvima never shows which persona you used.
 - **Discover** sets how much room new voices get, from 0% to 40%.
 
 Changes show on Home within a minute.
