@@ -121,9 +121,9 @@ A source built on a provider file in `config/providers/` (not a plugin package) 
 | MusicBrainz | `musicbrainz.json` | identity, metadata, artwork, relationships, people, lists | None | `musicbrainz.org/collection/…` |
 | MDBList | `mdblist.json` | lists | Free MDBList key | `mdblist.com/lists/<user>/<list>` |
 | Open Library | `openlibrary.json` | lists | None | `openlibrary.org/people/<user>/lists/<list>` |
-| Trakt | `trakt.json` | lists | Your own Trakt app Client ID | Public lists, official lists and public watchlists on `trakt.tv` |
+| Trakt | plugin `tuvima.trakt` | lists, personal sign-in | Your own Trakt app Client ID and Client secret (entered by an administrator) | Public lists, official lists and watchlists on `trakt.tv`; with a personal sign-in, your private lists and your own watchlist |
 
-MDBList, Open Library and Trakt are off until you switch them on in **Settings → Plugins**. A source that is off, or missing its key, is reported to the builder as unavailable for lists, with a link to Plugins; file import keeps working. Trakt reads public lists only; signing in for your own private lists is not available yet.
+MDBList, Open Library and Trakt are off until you switch them on in **Settings → Plugins**. A source that is off, or missing its key, is reported to the builder as unavailable for lists, with a link to Plugins; file import keeps working. Trakt can also be signed in per profile: on **Settings → Profile → Accounts** you approve a code on another device, and that profile can then import its private lists and watchlist. The sign-in is stored encrypted for that profile only and can be signed out at any time.
 
 ## Blocklist
 
