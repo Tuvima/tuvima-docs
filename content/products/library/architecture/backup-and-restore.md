@@ -114,7 +114,7 @@ A run looks at every waiting row once, in batches of 200, however many there are
 
 See "What a backup file holds" above. The restore screens come in the next step.
 
-## Configuration tables (64)
+## Configuration tables (66)
 
 | Table | Why | Points at the catalogue | Left out | Only rows where |
 |---|---|---|---|---|
@@ -179,6 +179,8 @@ See "What a backup file holds" above. The restore screens come in the next step.
 | `excluded_source_files` | Files a person removed from the library and chose to keep out, so a rescan does not add them back. | none | `title`, `excluded_by_name` | all rows |
 | `collections` | Collections and playlists a person built; collections built from providers (universes and series) are rebuilt, but a person's switches on them are kept: choice columns `is_enabled`, `is_featured`, `display_overrides_json`, for the rows not kept here. | `universe_id` (other), `parent_collection_id` (collection) | `cover_artwork_path`, `background_artwork_path`, `banner_artwork_path`, `logo_artwork_path` | `collection_type IN ('Custom', 'Playlist', 'PlaylistFolder', 'Smart')` |
 | `collection_items` | The titles in a person-built collection. | `work_id` (work) | none | `collection_id IN (SELECT id FROM collections WHERE collection_type IN ('Custom', 'Playlist', 'PlaylistFolder', 'Smart'))` |
+| `collection_list_sources` | Where an imported list collection came from (file name, refresh choice, sync mode) and how many titles it matched. | none | none | `collection_id IN (SELECT id FROM collections WHERE collection_type IN ('Custom', 'Playlist', 'PlaylistFolder', 'Smart'))` |
+| `collection_list_entries` | Every entry of an imported list and which title in the library it matched. | `matched_work_id` (work) | none | `collection_id IN (SELECT id FROM collections WHERE collection_type IN ('Custom', 'Playlist', 'PlaylistFolder', 'Smart'))` |
 | `collection_placements` | Where a person-built collection appears. | none | none | `collection_id IN (SELECT id FROM collections WHERE collection_type IN ('Custom', 'Playlist', 'PlaylistFolder', 'Smart'))` |
 | `collection_profile_audience` | Which profiles can see a person-built collection. | none | none | `collection_id IN (SELECT id FROM collections WHERE collection_type IN ('Custom', 'Playlist', 'PlaylistFolder', 'Smart'))` |
 | `collection_view_sources` | The gallery or rule feeding a person-built collection. | none | none | `collection_id IN (SELECT id FROM collections WHERE collection_type IN ('Custom', 'Playlist', 'PlaylistFolder', 'Smart'))` |
