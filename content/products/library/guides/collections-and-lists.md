@@ -84,9 +84,9 @@ Web lists work through sources you can switch on and off in **Settings → Plugi
 | MDBList | `mdblist.com/lists/<user>/<list>` | A free MDBList key |
 | Open Library | `openlibrary.org/people/<user>/lists/<list>` | Nothing |
 | MusicBrainz | `musicbrainz.org/collection/<id>` | Nothing |
-| Trakt | `trakt.tv/lists/<id>`, `trakt.tv/lists/official/<name>`, `trakt.tv/users/<user>/lists/<list>` or a user's public watchlist | A free Trakt app Client ID of your own |
+| Trakt | `trakt.tv/lists/<id>`, `trakt.tv/lists/official/<name>`, `trakt.tv/users/<user>/lists/<list>` or a user's public watchlist | A free Trakt app of your own (an administrator enters its Client ID and Client secret); signing in is optional |
 
-Trakt works for **public** lists and public watchlists only. A private list, or your own list that needs you signed in, is refused with a sentence saying so. Signing in to Trakt for your own private lists is not available yet: export the list as a Trakt file and use that instead. Short `trakt.me` links are not followed; use the full address.
+Trakt works for public lists and watchlists with no sign-in. To import your own private lists or your own watchlist, sign in to Trakt on **Settings → Profile → Accounts**: press Sign in, then approve the code shown on another device at `trakt.tv/activate`. The sign-in belongs to your profile only, and a list you import that way refreshes with your sign-in. If you sign out, the list keeps what it has and asks you to sign in again. Short `trakt.me` links are not followed; use the full address.
 
 If a source is switched off, the address field says so and links to Plugins. Switch it back on, or use a file: file import works with every web source off. If a source is down, the import is saved with "Will try again" and shows what matched so far.
 
