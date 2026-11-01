@@ -20,9 +20,9 @@ Starting a community is free, and Tuvima looks after the hosting. It takes about
 Choose **Start a community** on the front page. The **Create a community** steps are:
 
 1. **Name and address.** The name is 3 to 80 characters. The address is the part after `/c/` in the web address, for example `/c/dallas-board-games`. It is suggested from the name and uses lowercase letters, numbers and single hyphens. **The address can never change**, so choose carefully.
-2. **Description.** Up to 1,000 characters on what the community is about.
+2. **Description.** Up to 1,000 characters on what the community is about, and **where it shows on Tuvima**: a front-page category and subtopic. Tuvima suggests one from the name and description, for example Gaming › Tabletop for "D&D Gamers in Dallas". Your community's conversations carry this place as their labels.
 3. **Rules.** Write your community's rules. They sit on top of [the rules everyone follows](../guides/community-rules.md).
-4. **Categories.** Optional sections inside your community, such as "Events" or "Help". You can give a category an automatic content warning, such as "Spoilers".
+4. **Forums.** The places conversations live, such as "Events" or "Help". You can give a forum an automatic content warning, such as "Spoilers". Later you can group forums under categories; see [categories, forums and the front page](categories-and-forums.md).
 5. **Newcomer limits.** Off unless you switch on **Limit newcomers**. See below.
 6. **Review.** Check everything, then choose **Create community**.
 

@@ -19,7 +19,7 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 | Conversations | Formatting, link previews with click-to-play, content warnings, quotes, mentions, edit history, flat and nested views. |
 | Coming back | Bell notices, watch, save, the You page and persona editing. Reply and mention emails are being switched on. |
 | Safety | Reports, hiding and removing posts, suspensions and bans, moderation records, newcomer limits, spam protection. |
-| Owner tools | Setup steps, ranks, members page, numbers, launch checklist, themes, banners and page blocks. |
+| Owner tools | Setup steps, ranks, members page, numbers, launch checklist, themes, banners, page blocks, categories and forums, and labels on Tuvima. |
 | Help | A help centre and draft rules and policies. |
 
 ## Coming later

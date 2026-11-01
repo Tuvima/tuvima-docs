@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
+  <title id="t">Categories, forums and labels</title>
+  <desc id="d">A community has categories, such as Campaigns, labelled Gaming, Tabletop and the tag dnd. Inside it, the Homebrew forum uses the same labels as its category, while the Painting minis forum sets its own: Hobbies and the tag miniatures. Each conversation carries its forum's labels, which are used when someone shares it to the front page.</desc>
+  <rect width="760" height="400" rx="16" fill="#F5F7FB"/>
+  <text x="32" y="44" fill="#14213D" font-size="18" font-weight="700">Dallas Dungeon Crawlers</text>
+  <rect x="24" y="60" width="712" height="316" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="48" y="94" fill="#14213D" font-size="16" font-weight="700">Category: Campaigns</text>
+  <rect x="440" y="76" width="272" height="28" rx="14" fill="#2A52BE"/>
+  <text x="576" y="95" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">On Tuvima: Gaming › Tabletop · #dnd</text>
+  <g stroke="#8A9BC4" stroke-width="2" fill="none">
+    <path d="M190 112v32"/><path d="M560 112v32"/>
+  </g>
+  <rect x="48" y="144" width="300" height="208" rx="10" fill="#F5F7FB" stroke="#C9D3EA"/>
+  <text x="68" y="174" fill="#14213D" font-size="15" font-weight="700">Forum: Homebrew</text>
+  <text x="68" y="198" fill="#47536B" font-size="13">Same as its category</text>
+  <rect x="68" y="214" width="260" height="56" rx="8" fill="#fff" stroke="#C9D3EA"/>
+  <text x="84" y="238" fill="#14213D" font-size="13" font-weight="600">A homebrew wizard subclass</text>
+  <text x="84" y="258" fill="#2A52BE" font-size="12">Gaming › Tabletop · #dnd</text>
+  <rect x="68" y="280" width="260" height="56" rx="8" fill="#fff" stroke="#C9D3EA"/>
+  <text x="84" y="304" fill="#14213D" font-size="13" font-weight="600">Best one-shot for new players</text>
+  <text x="84" y="324" fill="#2A52BE" font-size="12">Gaming › Tabletop · #dnd</text>
+  <rect x="412" y="144" width="300" height="208" rx="10" fill="#F5F7FB" stroke="#C9D3EA"/>
+  <text x="432" y="174" fill="#14213D" font-size="15" font-weight="700">Forum: Painting minis</text>
+  <text x="432" y="198" fill="#47536B" font-size="13">Its own labels</text>
+  <rect x="432" y="214" width="260" height="56" rx="8" fill="#fff" stroke="#C9D3EA"/>
+  <text x="448" y="238" fill="#14213D" font-size="13" font-weight="600">Washes or glazes for skin tones?</text>
+  <text x="448" y="258" fill="#2A52BE" font-size="12">Hobbies · #miniatures</text>
+  <text x="432" y="300" fill="#47536B" font-size="12">Labels are used only when someone</text>
+  <text x="432" y="318" fill="#47536B" font-size="12">shares a conversation to the front page.</text>
+</svg>

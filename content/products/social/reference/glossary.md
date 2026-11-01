@@ -10,14 +10,16 @@ status: early-access
 | Word | What it means |
 | --- | --- |
 | **Accepted answer** | The reply that the person who asked, or a moderator, marked as the most helpful. |
-| **Category** | A broad subject on the front page, such as Gaming. Communities can also have their own categories inside them. |
+| **Category** | A broad subject on the front page, such as Gaming. Communities also have their own categories, headings that group their forums. |
 | **Community** | A space on Tuvima for a group with something specific in common, with its own members, rules and look. |
 | **Content warning** | A label that blurs a post until the reader chooses to see it. |
+| **Forum** | A place inside a community where conversations live, grouped under one of the community's categories. |
 | **Front page** | The shared feed at tuvima.com, where everyone's posts appear by category. |
 | **Full member** | A member who is no longer limited as a newcomer. |
 | **Global persona** | Your one public persona, shown as `handle @ tuvimaid.com`, used on the front page and wherever you choose. |
 | **Handle** | Your public name, made of letters, numbers and underscores. On your global persona it is shown as `handle @ tuvimaid.com`. |
 | **Held community** | A community Tuvima staff have paused while they review it. People can read but not post. |
+| **Labels** | The front-page category, subtopic and tags a community conversation carries, set by the community's owner and admins. |
 | **Moderation record** | The permanent list of moderation actions in a community. |
 | **New and rising** | A changing selection of young, active communities in the directory. |
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
