@@ -34,7 +34,7 @@ Some sources only read lists for [collections](collections-and-lists.md#web-addr
 
 ## Connect a provider
 
-1. Open **Settings → Plugins** (`/settings/plugins`). Metadata sources such as TMDB, TheTVDB and Comic Vine are tiles beside the plugins, under the **Metadata** tab; **Official** ones carry the Tuvima mark.
+1. Open **Settings → Plugins** (`/settings/plugins`). Metadata sources such as TMDB, TheTVDB and Comic Vine are tiles beside the plugins, under the **Getting items in** tab. A source that needs a key shows an amber dot and an **Add a key** button.
 2. Open the source's tile (its page is `/settings/plugins/<source>`), go to **Settings**, and choose **Connect provider**.
 3. Follow its account and credential instructions.
 4. Enter the required values.
