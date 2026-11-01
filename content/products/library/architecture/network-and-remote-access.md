@@ -20,8 +20,7 @@ How Tuvima separates desired network configuration from observed connectivity an
 - `deploy`
 
 Tuvima treats networking as an appliance-style workflow. Administrators use
-**Settings → Server → Network and Remote Access** for a health overview, LAN settings,
-remote access, network-aware streaming, and advanced diagnostics. A new install
+**Settings → Server → Network & Remote Access** (tabs Home network, Remote access and Advanced) for connection status, the home address, remote access, and advanced diagnostics. The Library's friendly name and `.local` address are set on **Settings → General**. A new install
 uses the same panels in `/setup/network`; there is no second onboarding model.
 Tuvima is open from the start: any device that can reach the server can use it,
 and Tuvima sign-in is always required. The default needs no router, DNS, TLS, or
@@ -63,8 +62,8 @@ answers and carries an optional `outside_address` (an origin) when a secure
 outside address is set up: the Tailscale address or the public hostname. The
 Engine supplies it through `GET /network/outside-address` (Dashboard service
 credential only), which returns `{ outside_address }`. **Settings →
-Network and Remote Access** shows both: the home address (the Engine's preferred
-address on the adapter chosen in Settings → Network, with the Dashboard port) and,
+Network & Remote Access** shows both: the home address (the Engine's preferred
+address on the adapter chosen in Settings → Network & Remote Access → Advanced, with the Dashboard port) and,
 when set, the outside address.
 
 The Android app saves the address typed at pairing as its home address and learns
@@ -91,7 +90,7 @@ external edges:
 
 Tuvima authentication remains mandatory. Tailnet membership and forwarded
 identity headers do not replace the Dashboard sign-in boundary. **Settings →
-Network → Remote Access** (**How the internet reaches Tuvima**) sets up that
+Network & Remote Access → Remote access** (**How the internet reaches Tuvima**) sets up that
 optional secure outside address, and **Test remote access** runs a Tuvima
 challenge probe against the selected HTTPS/tunnel route. Passing the test does
 not unlock anything; the page only chooses and checks the outside address.

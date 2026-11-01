@@ -61,7 +61,7 @@ An invalid key, quota limit, or outage does not remove stored subtitles.
 
 ## Understand the matching flow
 
-Open **Settings → Metadata → Ingestion Flow** (`/settings/metadata/ingestion-flow`) to see which providers run for each kind of media, in what order. Administrators on a computer can change it (see below).
+Open **Settings → Libraries → Matching** to see which providers run for each kind of media, in what order. Administrators on a computer can change it (see below).
 
 Retail lookup establishes a likely work and gathers artwork and bridge identifiers. Wikidata uses those identifiers for canonical identity and relationships. Later enrichment can add people, universe links, lyrics, subtitles, and artwork variants.
 
@@ -149,7 +149,7 @@ When a bridge ID resolves, Wikidata supplies canonical identity, relationship fa
 
 ## Reviewing provider order and roles
 
-Open **Settings → Metadata → Ingestion Flow** (`/settings/metadata/ingestion-flow`) to see the active order for each media type. Each provider shows a role: **Primary** identifies the item, **Fallback** identifies it when the Primary cannot, **Adds details** only supplies extra information after the item is identified, and **Off** leaves the provider out of that media type.
+Open **Settings → Libraries → Matching** to see the active order for each media type. Each provider shows a role: **Primary** identifies the item, **Fallback** identifies it when the Primary cannot, **Adds details** only supplies extra information after the item is identified, and **Off** leaves the provider out of that media type.
 
 ### Change the order and roles
 
@@ -161,7 +161,7 @@ Every media type must keep at least one Primary or Fallback provider, so the Das
 
 Provider execution order remains media-scoped in `config/pipelines.json`. Sequential chains run in listed order, passing bridge IDs forward. For music, the default configuration assigns MusicBrainz the `identity` role and Apple the `enrichment` role with `requires_identity: true` plus `use_as_identity_fallback: true`. Apple's `accepted_transition` points back to MusicBrainz for one reconciliation attempt only when Apple supplied the fallback identity. `max_provider_attempts` is an absolute safety budget. Query clauses, candidate paths, nested release constraints, creator-list behavior, transition hint fields, and retry counts all live in validated JSON configuration rather than provider-name branches in the worker.
 
-Wikidata appears in the same provider inventory as every other provider. Ingestion Flow shows its required canonical-identity role separately from optional post-match providers such as LRCLIB and SubDL.
+Wikidata appears in the same provider inventory as every other provider. Matching shows its required canonical-identity role separately from optional post-match providers such as LRCLIB and SubDL.
 
 ---
 

@@ -249,7 +249,7 @@ misleading. Provider display names, accents, and fallback icons are owned by
 `ProviderCatalogueService`; tile artwork selection delegates to
 `MediaTileArtworkResolver` or `MediaTileComposerService`.
 
-The live Ingestion page shows the Engine's queue snapshot and works out no numbers of its own.
+The Libraries status line and Activity tab show the Engine's queue snapshot and works out no numbers of its own.
 `IngestionLiveDashboardState` owns polling, subscriptions, cancellation and awaited shutdown, and
 exposes the latest `IngestionQueueProgressDto` (`QueueProgress`) beside the presentation snapshot
 that feeds the cards below it. `IngestionQueueProgressText` is the one set of words for that

@@ -109,11 +109,11 @@ Open the scope picker at the top of Photos or Places. Your own space stays first
 
 Server administrators have an **Other people** group in the scope picker. It lists every other household, each person in it, and the household's Shared Library. Everything there is read-only: you cannot edit, hide, move, delete or send anything, hidden photos stay hidden, and household administrators and members never see the group. When the administrator screens are locked with a PIN, unlock them first.
 
-Every time you open someone's space or a household's Shared Library, Tuvima records it. The person whose photos you opened sees the date, your name and what you opened under **Settings > Security > Who viewed your photos**, read-only (for a household's Shared Library, the household's own administrator sees it; a server administrator of another household does not). No one else can see it, and it cannot be deleted from there. The same space is recorded at most once an hour.
+Every time you open someone's space or a household's Shared Library, Tuvima records it. The person whose photos you opened sees the date, your name and what you opened under the **Access** panel of **Settings > Security & Devices** (**Who viewed your photos**), read-only (for a household's Shared Library, the household's own administrator sees it; a server administrator of another household does not). No one else can see it, and it cannot be deleted from there. The same space is recorded at most once an hour.
 
 ## Switch View on for a person
 
-People outside your household start with **View** off. Open **Settings > Users and Sign-in** and use the **Can use View** switch on their row when you want them to use it. People in your own household keep whatever you chose when you added them.
+People outside your household start with **View** off. Open **Settings > Users & Households** and use the **Can use View** switch on their row when you want them to use it. People in your own household keep whatever you chose when you added them.
 
 ## Browse People and Places
 
@@ -128,7 +128,7 @@ Face recognition, object/scene detection, captions, semantic search, and AI memo
 <details>
 <summary>Technical details</summary>
 
-A phone backs its photos up to one person that is chosen for the phone, not to whoever the phone is browsing as. The phone's app asks for that person's PIN when they have one; an administrator can also choose under **Settings > Security > Devices** (**Backs up to**). Until one is chosen, backups from that phone are refused.
+A phone backs its photos up to one person that is chosen for the phone, not to whoever the phone is browsing as. The phone's app asks for that person's PIN when they have one; an administrator can also choose under **Settings > Security & Devices > Devices** (**Backs up to**). Until one is chosen, backups from that phone are refused.
 
 Settings > Libraries chooses the managed View root. Current paths use stable `profiles/<profile-id>/sources/<source-id>` folders. Accepted shared originals live in a separate `Shared` tree. Do not move files by hand to match old `View/Profiles` wording.
 
@@ -151,7 +151,7 @@ Each write goes to a temporary copy first. Library checks the copy before it rep
 
 The name is written on the run described in [when changes reach your files](library-settings.md#when-changes-reach-your-files), so it can take up to an hour to appear. A photo you share into the shared library from a personal or read-only folder gets the name on its shared, managed copy. The original is never changed.
 
-Writing these fields needs ExifTool. Library downloads it by itself when it is missing. If it is not ready, the Photos, videos and PDFs wait with the message **waiting for ExifTool**. Check **Settings > Tools and requirements**.
+Writing these fields needs ExifTool. Library downloads it by itself when it is missing. If it is not ready, the Photos, videos and PDFs wait with the message **waiting for ExifTool**. Check **Settings > Tools**.
 
 ## Next steps
 

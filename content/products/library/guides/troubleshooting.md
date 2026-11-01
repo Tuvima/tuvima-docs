@@ -61,9 +61,9 @@ The Dashboard retries credentials on later requests and detects replacement. Do 
 
 ## Sign-in or administrator settings are unavailable
 
-Check the active account, profile grant, and **Users and Sign-in → Sign-in Methods** settings.
+Check the active account, profile grant, and **Users & Households → Advanced** settings.
 
-Account access from outside needs the sign-in methods you allow under Users and Sign-in → Sign-in Methods and a secure path (Tailscale or an HTTPS reverse proxy; the Dashboard itself serves plain http). Administrator settings require account eligibility and an administrator-enabled active grant; optional grant PIN protection may also need unlocking.
+Account access from outside needs the sign-in methods you allow under Users & Households → Advanced and a secure path (Tailscale or an HTTPS reverse proxy; the Dashboard itself serves plain http). Administrator settings require account eligibility and an administrator-enabled active grant; optional grant PIN protection may also need unlocking.
 
 Use [account recovery](account-security.md) if your password and authenticators are unavailable. A request from localhost alone never grants administration.
 
@@ -72,9 +72,9 @@ Use [account recovery](account-security.md) if your password and authenticators 
 Home shows real library results. Check:
 
 1. **Settings → Libraries** for sources, media types, and path access.
-2. **Settings → Providers** for enabled providers and connection results.
+2. **Settings → Plugins** for enabled providers and connection results.
 3. Operations at `/settings/ingestion` for active or waiting work.
-4. **Settings → Review Queue** for uncertain items.
+4. **Settings → Libraries → Needs Review** for uncertain items.
 
 A catalogue item needs a real title, resolved type, and settled artwork state before browsing. View assets use their own local index and permissions.
 
@@ -84,7 +84,7 @@ A catalogue item needs a real title, resolved type, and settled artwork state be
 2. In Docker, use a container path and check its mount.
 3. Confirm the extension and library media type match [supported media types](../reference/media-types.md).
 4. Wait for copying to finish and release locks held by other programs.
-5. Use **Check folders for changes** (in the Ingestion page "⋯" menu) in Operations after changing source folders.
+5. Use **Check folders for changes** (in the Libraries page "⋯" menu) after changing source folders.
 
 For View, confirm the owning profile, source attachment, and upload/import policy. Routine catalogue scans do not replace View's personal-source workflow.
 
@@ -94,7 +94,7 @@ When a folder job wants to change only the letter case of a file's name (or of a
 
 Operations reports durable queued jobs, retries, and provider waits. A settled file count can reach its target while required identity or organization work remains.
 
-Restarted imports resume recoverable jobs. Use **Settings → Review Queue** for unclear matches, conflicting metadata, unreadable files, or ambiguous media types. Read the specific reason before changing anything.
+Restarted imports resume recoverable jobs. Use **Settings → Libraries → Needs Review** for unclear matches, conflicting metadata, unreadable files, or ambiguous media types. Read the specific reason before changing anything.
 
 Optional lyrics, subtitles, or commercial detection returning no result usually do not require identity review.
 
@@ -114,17 +114,17 @@ Library saves changes at once, but writes them into files on a schedule, every 6
 1. Wait for the next run. The editor's **Files** card and the write panel in [Settings > Libraries > Advanced](library-settings.md#when-changes-reach-your-files) show **Next run**.
 2. To write now, press **Write now** (administrators, on a desktop).
 3. If the panel says **files couldn't be written**, open the list and read the reason for each file. A file that is busy, on an unplugged drive or read-only is tried again on the next run. A file that can't hold tags is **kept in Library only** and is not retried.
-4. If the panel says **Photos, videos and PDFs in View are waiting for ExifTool**, check **Settings > Tools and requirements**. Library fetches ExifTool by itself when it is missing. Use **Download again** there if it did not finish.
+4. If the panel says **Photos, videos and PDFs in View are waiting for ExifTool**, check **Settings > Tools**. Library fetches ExifTool by itself when it is missing. Use **Download again** there if it did not finish.
 
 ## Local AI is unavailable
 
-Open **Settings → Tools and requirements**. Check whether a model is missing, downloading, ready or failed, and use **Download again** if a download did not finish. Loading and unloading a model are on the same page; the runtime limits are on **Settings → Local AI → Runtime**.
+Open **Settings → Tools**. Check whether a model is missing, downloading, ready or failed, and use **Download again** if a download did not finish. Loading and unloading a model are on **Settings → Local AI → Models**; the runtime limits are on **Settings → Local AI → Advanced**.
 
 Confirm model storage, native runtime availability, and capability gates. Switching an AI plugin on does not make missing dependencies ready. Local AI is optional for initial catalogue setup.
 
 ## Sending logs with a bug report
 
-A server administrator opens **Settings > System > Logs > Export**, chooses the time range, the level (errors only, warnings and errors, or everything), the areas, and optionally one run or item id, then presses **Download**. The page first says how many lines and how large the file will be. The result is one text file, `tuvima-logs-{start}-{end}.txt`, with a short header that lists what was chosen.
+A server administrator opens **Settings > System > Advanced > Export**, chooses the time range, the level (errors only, warnings and errors, or everything), the areas, and optionally one run or item id, then presses **Download**. The page first says how many lines and how large the file will be. The result is one text file, `tuvima-logs-{start}-{end}.txt`, with a short header that lists what was chosen.
 
 The file hides private details before it is written:
 

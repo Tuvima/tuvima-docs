@@ -53,9 +53,9 @@ The Engine listens only on this computer, so other devices reach Tuvima Library 
 
 ## Helper tools
 
-The installer includes FFmpeg, FFprobe and Tesseract, so the Library normally shows every tool as **Ready**. ExifTool is not in the installer. The Library fetches it by itself the first time, from Tuvima's own GitHub copy of the official release, and then shows it **Ready**. To see them, open **Settings > Tools and requirements** in the Dashboard. The Library also checks the tools at first run and at every start-up.
+The installer includes FFmpeg, FFprobe and Tesseract, so the Library normally shows every tool as **Ready**. ExifTool is not in the installer. The Library fetches it by itself the first time, from Tuvima's own GitHub copy of the official release, and then shows it **Ready**. To see them, open **Settings > Tools** in the Dashboard. The Library also checks the tools at first run and at every start-up.
 
-If FFmpeg is missing or broken, open **Settings > Tools and requirements** and choose **Download again** on that page to repair it. Until FFmpeg is found, video and audio files show **Waiting for media tools** and finish by themselves; nothing fails. Tesseract is optional. Without it, scanned pages and photos of paper are not searchable.
+If FFmpeg is missing or broken, open **Settings > Tools** and choose **Download again** on that page to repair it. Until FFmpeg is found, video and audio files show **Waiting for media tools** and finish by themselves; nothing fails. Tesseract is optional. Without it, scanned pages and photos of paper are not searchable.
 
 ## Update or uninstall
 
@@ -89,9 +89,9 @@ The script publishes self-contained `win-x64` apps and writes `dist\TuvimaLibrar
 
 ## Claim your server
 
-Tuvima is open from the start: phones, TVs and computers on your Wi-Fi can reach the Dashboard and pair apps straight away, and Tuvima sign-in is always required. Keep your router's ports closed, since that is what keeps the internet out; for access from outside, set up Tailscale or an HTTPS reverse proxy under **Settings → Network → Remote Access** (see [Secure remote access](../guides/remote-access.md)). First-run setup needs no code from this computer or your home network.
+Tuvima is open from the start: phones, TVs and computers on your Wi-Fi can reach the Dashboard and pair apps straight away, and Tuvima sign-in is always required. Keep your router's ports closed, since that is what keeps the internet out; for access from outside, set up Tailscale or an HTTPS reverse proxy under **Settings → Network & Remote Access → Remote access** (see [Secure remote access](../guides/remote-access.md)). First-run setup needs no code from this computer or your home network.
 
-- Opening `/setup` from this computer or any device on your home network needs no code. You can start with just a name, using **Start without a password**. That account has no password, so any device that can reach the server can use it, with administrator rights, until you add an email and a password under **Settings → Security**.
+- Opening `/setup` from this computer or any device on your home network needs no code. You can start with just a name, using **Start without a password**. That account has no password, so any device that can reach the server can use it, with administrator rights, until you add an email and a password under **Settings → Security & Devices**.
 - Setup is open to any device that can reach the server until the administrator exists, so finish it before you open any router port.
 - Once the administrator exists, setup closes for good.
 

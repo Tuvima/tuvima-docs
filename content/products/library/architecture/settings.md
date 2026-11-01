@@ -40,12 +40,16 @@ Use SQLite for records created or changed by product workflows:
 - profiles, profile external logins, and API keys.
 - provider health and recent failures.
 - review queue entries and resolution history.
-- ingestion logs, per-file work rows, identity jobs, and Ingestion status inputs.
+- ingestion logs, per-file work rows, identity jobs, and Libraries status inputs.
 - system activity, encode jobs, and playback/reading progress.
 
 ## Library Admin Pages
 
-The Settings menu is flat: **Library & Ingestion** is one row in the Server group, and its tabs (Overview, Libraries, Ingestion Flow) sit under its title, each at its own address (`/settings/ingestion`, `/settings/libraries`, `/settings/metadata/ingestion-flow`). A page's tabs may belong to different sections of the Dashboard; the menu model (`SettingsNav.MenuGroups`) names which section and sub-page each tab opens, and the row stays lit on every one of them. Needs Review and Recently Added open beneath this page without being tabs. The shared tab style is the same one every other page uses. The Ingestion page is a read-heavy operational dashboard, not a configuration editor and not a raw background-job log. Its Engine views (`GET /ingestion/queue-progress` and `GET /ingestion/presentation`) combine JSON-owned configuration with SQLite-owned state:
+The Settings menu is flat: every row is a page, in three groups. **Personal** holds Profile, Manage Profiles and Security & Devices. **Library** holds Libraries and Playback. **Server** holds General, Users & Households, Network & Remote Access, Tools, Local AI, Plugins, Integrations, Backups and System. There is no separate Library & Ingestion overview: Libraries is one page with five tabs (Libraries, Activity, Needs Review with its count, Matching and Rules), each at its own address (`/settings/libraries` and its tab addresses), with the live state as one status line above the table. Matching is the former Ingestion Flow, with the same content. A page's tabs may belong to different sections of the Dashboard; the menu model (`SettingsNav.MenuGroups`) names which section and sub-page each tab opens, and the row stays lit on every one of them. Retired addresses are not found and do not redirect. The shared tab style is the same one every other page uses.
+
+Every page that has advanced settings (for example Playback, Users & Households, Network & Remote Access, Local AI, Backups and System) ends with the same last tab, **Advanced**: right-aligned, drawn with a gear icon and an amber tint, and opening on one warning line ("These settings are for experienced administrators. Everyday use never needs them."). Nothing advanced is shown outside that tab, so a setting stays next to the thing it changes and there is no single Advanced page.
+
+The Libraries status line and Activity tab are a read-heavy operational view, not a configuration editor and not a raw background-job log. Its Engine views (`GET /ingestion/queue-progress` and `GET /ingestion/presentation`) combine JSON-owned configuration with SQLite-owned state:
 
 - JSON supplies configured source folders, provider definitions, and organization templates.
 - SQLite supplies lifecycle counts, the groups in flight and recently added, review reasons, provider health records, and pipeline progress.

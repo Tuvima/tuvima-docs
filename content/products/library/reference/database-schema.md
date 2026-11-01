@@ -1163,15 +1163,15 @@ Which Settings attention lines (the Needs Review line and the missing tools line
 
 ### account_passkeys
 
-Passkeys a person added under **Settings > Security**. `credential_id` (BLOB, primary key), `account_id` (deleting the account removes its passkeys), `name`, `data_json` (the stored credential), `created_at`, and `last_used_at` (NULL until the passkey is used).
+Passkeys a person added under **Settings > Security & Devices**. `credential_id` (BLOB, primary key), `account_id` (deleting the account removes its passkeys), `name`, `data_json` (the stored credential), `created_at`, and `last_used_at` (NULL until the passkey is used).
 
 ### account_external_logins
 
-Linked sign-ins: an account at an outside provider, linked under **Settings > Security > Extra protection > Linked sign-ins**. `id`, `account_id`, `provider`, `issuer`, `subject` (unique together with `provider` and `issuer`), `email`, `display_name`, `linked_at` and `last_login_at`.
+Linked sign-ins: an account at an outside provider, linked under **Settings > Security & Devices > Extra protection > Sign in with another account**. `id`, `account_id`, `provider`, `issuer`, `subject` (unique together with `provider` and `issuer`), `email`, `display_name`, `linked_at` and `last_login_at`.
 
 ### password_recovery_codes
 
-The saved one-time recovery codes for an account, made under **Settings > Security > Extra protection > Recovery codes**. `id`, `account_id`, `code_hash` (unique per account), `created_at`, `expires_at` and `consumed_at`. Only a hash is stored, and each code works once.
+The saved one-time recovery codes for an account, made under **Settings > Security & Devices > Extra protection > Recovery codes**. `id`, `account_id`, `code_hash` (unique per account), `created_at`, `expires_at` and `consumed_at`. Only a hash is stored, and each code works once.
 
 ### password_reset_challenges
 
@@ -1179,7 +1179,7 @@ Email password-reset links, used only when email recovery is set up. `id`, `acco
 
 ### account_invitations
 
-Invitation codes made by an administrator (**Users and Sign-in > Users**). `id`, `account_id`, `token_hash` (unique; only a fingerprint of the code is stored), `created_at`, `expires_at` (seven days) and `consumed_at`.
+Invitation codes made by an administrator (**Users & Households > Users**). `id`, `account_id`, `token_hash` (unique; only a fingerprint of the code is stored), `created_at`, `expires_at` (seven days) and `consumed_at`.
 
 ### profile_feature_grants
 
@@ -1203,7 +1203,7 @@ An administrator unlock held by one signed-in session. `session_id` (primary key
 
 ### client_devices
 
-Paired phones and TVs, listed under **Settings > Security > Devices**. `id`, `application_id`, `account_id`, `profile_id`, `device_name`, `device_class` (`web`, `mobile`, `television` or `automotive`), `client_id`, `client_name`, `client_version`, `scopes`, `capabilities_json`, `created_at`, `last_seen_at`, `revoked_at` and `revoked_reason`. `backup_profile_id` is the profile a phone backs its photos up to (NULL means not chosen; it is cleared if that profile is deleted).
+Paired phones and TVs, listed under **Settings > Security & Devices > Devices**. `id`, `application_id`, `account_id`, `profile_id`, `device_name`, `device_class` (`web`, `mobile`, `television` or `automotive`), `client_id`, `client_name`, `client_version`, `scopes`, `capabilities_json`, `created_at`, `last_seen_at`, `revoked_at` and `revoked_reason`. `backup_profile_id` is the profile a phone backs its photos up to (NULL means not chosen; it is cleared if that profile is deleted).
 
 ### device_pairing_requests
 

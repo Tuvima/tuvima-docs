@@ -29,7 +29,7 @@ Visibility and file organization are separate milestones. Existing/read-only sou
 
 ## Check progress or act
 
-Open **Operations** from the header activity indicator to follow active work. The screen refreshes automatically; **Check folders for changes** (in the Ingestion page "⋯" menu) starts an extra folder scan. Use Review Queue only when the item needs your decision.
+Open **Operations** from the header activity indicator to follow active work. The screen refreshes automatically; **Check folders for changes** (in the Libraries page "⋯" menu) starts an extra folder scan. Use Review Queue only when the item needs your decision.
 
 A completed file count does not mean the whole run has finished. Required identity, enrichment, or organization operations can still be active.
 
@@ -206,7 +206,7 @@ The pipeline is designed to fail safely:
 
 ## Watching Operations
 
-**Settings > Server > Library and Ingestion** is the single operational surface at `/settings/ingestion`. It opens on the library summary (counts by type and health), then the live ingestion panel, then **Now** (the few items being worked on at this moment) and **Added** (what was fully added on each of the last few days, by type). Every Added count and its "View all" link open the Activity log on its Added filter. It answers what is happening now, whether the pipeline is waiting, whether anything needs attention, and what was added recently. **Needs Review** remains the human decision queue, on its own page at `/settings/review` that the administrator banner opens.
+**Settings > Libraries** is the single operational surface. It opens on one status line (what is being added now, what is waiting, what needs you) above the table of libraries, and its **Activity** tab lists what is being worked on at this moment and what was fully added on each of the last few days, by type. Every Added count and its "View all" link open the Activity log on its Added filter. It answers what is happening now, whether the pipeline is waiting, whether anything needs attention, and what was added recently. **Needs Review** remains the human decision queue, on the **Needs Review** tab of Libraries (with its count), which the administrator banner opens.
 
 It shows real application state from the Engine:
 
@@ -220,7 +220,7 @@ It shows real application state from the Engine:
 
 File progress and run completion are deliberately separate. The Files checked outcome reports intake volume, while the prominent overall bar combines measurable pipeline stages for the logical run. It stays below completion while a stage is active and shows the current stage's own task count beneath it. The run stays active while required identity, artwork, people, relationship, or organization operations remain outstanding.
 
-The page's headline, file tally, progress bar and time estimate are the Engine's `IngestionQueueProgress` snapshot, pushed over SignalR whenever its numbers change and read again on every (re)connect; the Dashboard shows it as sent and works out no percentage or estimate of its own. The cards below come from the Engine's presentation view, which the Dashboard refreshes more often while work is active and less often when idle. If the Engine stops answering or the live connection drops, the page says "The Library's engine isn't responding" with a Retry button and greys the last numbers until a fresh snapshot arrives. If a signal is not tracked yet, the page says so instead of inventing a count. The top navigation activity indicator opens Ingestion for authorized system work. The page has no manual status-refresh control because this synchronization is automatic. Its one **Check folders for changes** (in the Ingestion page "⋯" menu) action starts an extra scan of watched folders; folder monitoring, schedules, and queued processing continue automatically.
+The page's headline, file tally, progress bar and time estimate are the Engine's `IngestionQueueProgress` snapshot, pushed over SignalR whenever its numbers change and read again on every (re)connect; the Dashboard shows it as sent and works out no percentage or estimate of its own. The cards below come from the Engine's presentation view, which the Dashboard refreshes more often while work is active and less often when idle. If the Engine stops answering or the live connection drops, the page says "The Library's engine isn't responding" with a Retry button and greys the last numbers until a fresh snapshot arrives. If a signal is not tracked yet, the page says so instead of inventing a count. The top navigation activity indicator opens Ingestion for authorized system work. The page has no manual status-refresh control because this synchronization is automatic. Its one **Check folders for changes** (in the Libraries page "⋯" menu) action starts an extra scan of watched folders; folder monitoring, schedules, and queued processing continue automatically.
 
 Recently Added loads the newest items first. Search and quick filters query the server, while **Show older** appends another bounded page. A show, album or series is one row however many times its files were found; opening a row shows its tracks, episodes or parts without loading raw technical records.
 
