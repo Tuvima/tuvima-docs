@@ -89,6 +89,12 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/categories-and-forums.md",
+      "slug": "owners/categories-and-forums",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/look-and-feel.md",
       "slug": "owners/look-and-feel",
       "group": "Guides",

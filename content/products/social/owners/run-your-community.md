@@ -17,7 +17,7 @@ There are four ranks. Each can do everything the rank below can, and a rank can 
 | --- | --- |
 | **Member** | Post, reply, vote, report, and edit or delete their own posts. |
 | **Moderator** | Hide, remove and restore posts, pin conversations, suspend and ban members, review reports, read the moderation record and see the members page. |
-| **Admin** | Change settings and categories, appoint moderators, manage newcomers and see the numbers. |
+| **Admin** | Change settings, categories, forums and labels, appoint moderators, manage newcomers and see the numbers. |
 | **Owner** | Appoint admins, choose whether the community is listed, show or hide edit history, and use the launch checklist. |
 
 Give moderation only to people you trust. Every rank change needs a reason, is recorded and can be undone. Handing over ownership is planned.
@@ -42,7 +42,7 @@ The **Numbers** page shows members, posts in the last 7 days, active people in t
 - **Who can find this community**: **Listed** or **Unlisted**.
 - **Category on Tuvima**: which front-page category your community belongs to, so the right people find it.
 - **Look** and **Page blocks**: see [change your community's look](look-and-feel.md).
-- **Categories**: the sections inside your community.
+- **Categories and forums**: how conversations are grouped, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md).
 - **Edit history**: whether readers can see earlier versions of edited posts.
 - **Moderation**: including whether readers see "Hidden by moderators" notes.
 - **Launch checklist** and **Rules**.
