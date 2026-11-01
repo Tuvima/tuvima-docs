@@ -26,7 +26,7 @@ Tuvima also has some automatic protections. These are the current settings, and 
 - New personas, less than a week old, have a few extra limits. For example, they can start one community and need 3 visible posts before sharing links on the front page.
 - Links to sites that Tuvima staff have blocked, for example for spreading scams, are refused.
 - If the same link is posted many times in a few minutes, the community is paused for a staff member to check.
-- Anyone can make up to 60 changes a minute, such as posts, votes or edits. Reading is never limited.
+- Anyone can make up to 60 changes a minute, such as posts, reactions or edits. Reading is never limited.
 
 ## The full rules
 

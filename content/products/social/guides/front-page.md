@@ -1,6 +1,6 @@
 ---
 title: The Tuvima front page
-description: How the front page feed works, what Trending and New mean, how categories, tags and votes help you find things, and how to post to it.
+description: How the front page feed works, what Trending and New mean, how categories, tags and reactions help you find things, and how to post to it.
 audience: user
 category: guide
 product_area: tuvima
@@ -13,16 +13,21 @@ The front page is Tuvima's shared space: a feed of discussions and links from ev
 
 At the top of the feed, choose how to sort it:
 
-- **Trending** (the default) shows what people are taking part in right now. It counts votes and how many different people replied, and gently lets older posts fade. Votes from personas less than a week old count for less, so a burst of new accounts cannot push a post to the top. Votes and replies count towards it for a post's first 14 days.
+- **Trending** (the default) shows what people are taking part in right now. It counts reactions and how many different people replied, and gently lets older posts fade. Reactions from members with a higher front-page level count for more, and those from brand-new members count for a quarter, so a burst of new accounts cannot easily push a post to the top. Reactions and replies count towards it for a post's first 14 days. [Reputation and levels](reputation.md) explains how levels work.
 - **New** shows the newest posts first.
 
 Next to the sort are **categories**. Pick one to see only that subject. Each category has subtopics, for example Gaming has PC, Console, Mobile, Tabletop and Esports. A category page also shows its popular tags and some communities about that subject.
 
 A **tag** is a short label, like `board-games`, that a poster adds. Choose a tag to see everything with it.
 
-## Vote
+## React
 
-Every post has an up and a down vote. You need to be signed in, and you cannot vote on your own posts. Others see the totals, never who voted.
+Every post has five reactions: **Like**, **Dislike**, **Insightful**, **Funny** and **Thanks**. On the front page, Like and Dislike work as the up and down votes, and both counts are shown separately. Insightful, Funny and Thanks also count as a vote up.
+
+- Choose **+** to see all five with their names.
+- You can give one reaction per post. Choose it again to take it back, or choose another to change it.
+- You need to be signed in, and you cannot react to your own posts.
+- Others see the totals, never who reacted.
 
 ## Post to Tuvima
 

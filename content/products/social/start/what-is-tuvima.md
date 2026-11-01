@@ -13,7 +13,7 @@ Tuvima is a home for communities. It has three parts that work together.
 
 ## The front page
 
-The front page at tuvima.com is a scrolling feed of discussions and links shared by everyone on Tuvima. Posts are sorted into 16 broad **categories**, such as Gaming, Science or Food and Drink, and labelled with **tags**. Members vote posts up or down, and the best of them rise. [Read more about the front page](../guides/front-page.md).
+The front page at tuvima.com is a scrolling feed of discussions and links shared by everyone on Tuvima. Posts are sorted into 16 broad **categories**, such as Gaming, Science or Food and Drink, and labelled with **tags**. Members react to posts with Like, Dislike and three other reactions, and the best posts rise. [Read more about the front page](../guides/front-page.md).
 
 ## Communities
 

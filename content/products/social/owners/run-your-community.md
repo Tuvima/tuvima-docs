@@ -15,7 +15,7 @@ There are four ranks. Each can do everything the rank below can, and a rank can 
 
 | Rank | Can |
 | --- | --- |
-| **Member** | Post, reply, vote, report, and edit or delete their own posts. |
+| **Member** | Post, reply, react, report, and edit or delete their own posts. |
 | **Moderator** | Hide, remove and restore posts, pin conversations, suspend and ban members, review reports, read the moderation record and see the members page. |
 | **Admin** | Change settings, categories, forums and labels, appoint moderators, manage newcomers and see the numbers. |
 | **Owner** | Appoint admins, choose whether the community is listed, show or hide edit history, and use the launch checklist. |

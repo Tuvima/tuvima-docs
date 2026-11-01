@@ -28,7 +28,7 @@ To stop misuse, you can report each post once, and up to 10 posts an hour.
 | --- | --- |
 | **Hide post** | The post is hidden from readers while moderators look into it. It can be shown again. |
 | **Remove post** | The post is taken down. It can be restored if it was a mistake. |
-| **Suspend** | The member cannot post, reply, vote or join for a set time: 1 hour, 1 day, 3 days, 1 week, 30 days or a custom period. |
+| **Suspend** | The member cannot post, reply, react or join for a set time: 1 hour, 1 day, 3 days, 1 week, 30 days or a custom period. |
 | **Ban** | The member cannot take part in that community until the ban is lifted. They can still read public conversations. |
 
 Bans and suspensions apply to the person, not just one persona, so starting a new private persona does not get around them.
