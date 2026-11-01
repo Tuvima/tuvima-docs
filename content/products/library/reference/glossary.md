@@ -107,7 +107,7 @@ The guidebooks, picture folders and clips found beside a show, film, album, book
 
 ### Extra protection
 
-The **Extra protection** row under **Settings → Security**, which opens one sheet for optional sign-in protection: passkeys, two-step codes, linked sign-ins (when an external provider is set up) and recovery codes. The row appears once the account has a password and shows *Off*, *Passkey added*, *Two-step codes on*, or both.
+The **Extra protection** row under **Settings → Security & Devices**, which opens one sheet for optional sign-in protection: passkeys, two-step codes, linked sign-ins (when an external provider is set up) and recovery codes. The row appears once the account has a password and shows *Off*, *Passkey added*, *Two-step codes on*, or both.
 
 ## F
 
@@ -195,17 +195,17 @@ display URLs.
 
 ### Needs Review
 
-The one place for items the Engine is not sure about: blocked, uncertain, low-confidence, or unresolved items that need a person to confirm them. It is pinned at the top of Settings → Library and Ingestion → Recently Added (opened from that page's "View all"; it is not a menu row) and opens from the account menu. Only server administrators, and apps a server administrator has given review permission, can see and resolve it.
+The one place for items the Engine is not sure about: blocked, uncertain, low-confidence, or unresolved items that need a person to confirm them. It is the **Needs Review** tab of Settings → Libraries (with its count) and opens from the account menu. Only server administrators, and apps a server administrator has given review permission, can see and resolve it.
 
 ## O
 
 ### Own sign-in
 
-An email sign-in that belongs to one person in a household and opens straight to them, without the profile picker. The person stays in the household. An own sign-in is never an administrator, and it follows the library and lane access of the household's main sign-in, so later changes to the household reach the person. An administrator gives it from the person's page under **Settings → Profiles** (the **Sign-in** row) and can remove it at any time; removing it keeps the person and everything they have saved.
+An email sign-in that belongs to one person in a household and opens straight to them, without the profile picker. The person stays in the household. An own sign-in is never an administrator, and it follows the library and lane access of the household's main sign-in, so later changes to the household reach the person. An administrator gives it from the person's page under **Settings → Manage Profiles** (the **Sign-in** row) and can remove it at any time; removing it keeps the person and everything they have saved.
 
 ### Outside address
 
-The secure address (a Tailscale address or an HTTPS reverse-proxy hostname) that phone and TV apps use away from home, chosen in Settings → Network → Remote Access. It is optional: Tuvima is open from the start, so apps pair at home with the home address and need no setup. The app learns the outside address from the discovery answer (`outside_address`).
+The secure address (a Tailscale address or an HTTPS reverse-proxy hostname) that phone and TV apps use away from home, chosen in Settings → Network & Remote Access → Remote access. It is optional: Tuvima is open from the start, so apps pair at home with the home address and need no setup. The app learns the outside address from the discovery answer (`outside_address`).
 
 ## P
 
@@ -300,7 +300,7 @@ Reading the words in a picture of text. Tuvima Library uses it for scanned PDF p
 
 ### Tools and requirements
 
-The Settings page (Administration) that lists every helper tool the Library relies on, such as FFmpeg for video and audio and Tesseract for scanned documents, plus the local AI models. Each shows Ready, Missing or Optional, what it affects, how to fix it for your kind of install, how many files are waiting for it, and **Check again**. You can point the Library at a tool with **Locate it**, and on Windows runs from source it can fetch a checked copy with **Install for me**. First-run setup shows the same list when a required tool is missing.
+The Settings page (**Settings > Tools**, formerly Tools and requirements) that lists every helper tool the Library relies on, such as FFmpeg for video and audio and Tesseract for scanned documents, plus the local AI models. Each shows Ready, Missing or Optional, what it affects, how to fix it for your kind of install, how many files are waiting for it, and **Check again**. You can point the Library at a tool with **Locate it**, and on Windows runs from source it can fetch a checked copy with **Install for me**. First-run setup shows the same list when a required tool is missing.
 
 ## U
 
@@ -339,7 +339,7 @@ A file whose format cannot hold a field, or that Library must not change (a sign
 
 ### Public Address
 
-The single HTTPS address people use to reach this server from outside the home, set once as `remote.public_hostname` under Settings → Network. Passkeys, linked sign-in callbacks and password-reset emails are all built from it.
+The single HTTPS address people use to reach this server from outside the home, set once as `remote.public_hostname` under Settings → Network & Remote Access. Passkeys, linked sign-in callbacks and password-reset emails are all built from it.
 
 ### Personal Space
 
@@ -355,7 +355,7 @@ Separate household-owned View storage containing accepted contributions. Each ho
 
 ### Household administrator
 
-The person who looks after one household: adds and removes people, gives people their own sign-ins, sets PINs, and hands out libraries and features the household already has. They work from **Settings → Profiles**, and from **Settings → Security → Devices** for their own household's devices and signed-in browsers. They never reach another household or the server's settings, which stay with the **server administrator**.
+The person who looks after one household: adds and removes people, gives people their own sign-ins, sets PINs, and hands out libraries and features the household already has. They work from **Settings → Manage Profiles**, and from **Settings → Security & Devices → Devices** for their own household's devices and signed-in browsers. They never reach another household or the server's settings, which stay with the **server administrator**.
 
 ### Account
 

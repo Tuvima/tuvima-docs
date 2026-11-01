@@ -30,7 +30,7 @@ All configuration lives in the `config/` directory as individual JSON files grou
 
 ## config/network.json (host names, proxy and app access)
 
-Desired network state. Only the fields about which host names the Dashboard answers to, the reverse-proxy port and browser-based apps are listed here; the Settings > Network pages own the rest.
+Desired network state. Only the fields about which host names the Dashboard answers to, the reverse-proxy port and browser-based apps are listed here; the Settings > Network & Remote Access pages own the rest.
 
 | Field | Type | Default | Description |
 |---|---|---|---|
@@ -554,7 +554,7 @@ The helper is found in this order: `tesseract_binary_path` when set, then `tools
 
 ## config/tool_downloads.json
 
-The exact builds of FFmpeg, Tesseract and ExifTool the Library may fetch when an administrator presses **Install for me** or **Download again** under **Settings > Tools and requirements** (the same builds as `tools/Download-FFmpeg.ps1` and `tools/Download-Tesseract.ps1`). Only FFmpeg is ever downloaded by itself, while it is missing and `auto_install_required` is true; Tesseract and every repair start only when a person asks. A missing file means the values below. The Local AI models and extra OCR languages keep their own download settings (`config/ai.json`, `language_download_url` in `config/ocr.json`).
+The exact builds of FFmpeg, Tesseract and ExifTool the Library may fetch when an administrator presses **Install for me** or **Download again** under **Settings > Tools** (the same builds as `tools/Download-FFmpeg.ps1` and `tools/Download-Tesseract.ps1`). Only FFmpeg is ever downloaded by itself, while it is missing and `auto_install_required` is true; Tesseract and every repair start only when a person asks. A missing file means the values below. The Local AI models and extra OCR languages keep their own download settings (`config/ai.json`, `language_download_url` in `config/ocr.json`).
 
 | Field | Type | Default | Description |
 |---|---|---|---|

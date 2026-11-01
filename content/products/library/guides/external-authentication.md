@@ -27,10 +27,10 @@ https://library.example.com/signin-tuvima-{provider-id}
 
 1. Configure a stable HTTPS Dashboard address using [secure remote access](remote-access.md). This is the server's **public address** (`remote.public_hostname`); linked sign-in and passkeys use it, so there is no separate address to set.
 2. Register an application with the provider and copy the callback above exactly.
-3. Open **Settings → Manage → Users and Sign-in → Sign-in Methods**.
+3. Open **Settings → Users & Households → Advanced** (under *How people sign in*).
 4. Choose **Optional** or **Required** authentication mode to allow external sign-in.
 5. Enter the provider ID, protocol, client ID, secret, scopes, and authority or OAuth addresses.
-6. Save, then link the provider from your own **Settings → Security** page.
+6. Save, then link the provider from your own **Settings → Security & Devices** page.
 7. Test sign-in before relying on it for other accounts.
 
 Keep a password, passkey, or recovery route available while testing. A configured provider does not automatically link existing accounts by email.
@@ -133,9 +133,9 @@ supports a public authorization-code client with PKCE.
 
 Link an external login to a Tuvima account before using it to sign in. Tuvima checks the provider identity; it never links accounts just because their email addresses match. This helps prevent an old or unverified email address from taking over your account.
 
-Sign in to your existing account and open **Settings → Security**. Choose the provider's **Link** action and complete its sign-in check. You can disconnect it from the same page, but must keep one working sign-in method. Administrators cannot link a person by typing their provider identity.
+Sign in to your existing account and open **Settings → Security & Devices**. Choose the provider's **Link** action and complete its sign-in check. You can disconnect it from the same page, but must keep one working sign-in method. Administrators cannot link a person by typing their provider identity.
 
-To add a family member, open **Settings → Profiles**, open the person and choose **Sign-in**. After accepting an invitation, they can link their own provider from Account Security.
+To add a family member, open **Settings → Manage Profiles**, open the person and choose **Sign-in**. After accepting an invitation, they can link their own provider from Account Security.
 
 ## Reverse proxies
 

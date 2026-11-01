@@ -35,9 +35,9 @@ They can turn two-step codes back on from Account > Security. The reset is recor
 
 ## Follow active work
 
-Open Operations at `/settings/ingestion`, shown as **Library and Ingestion** in the Settings sidebar, which opens on the library summary, then live ingestion, then recently added. It shows the current run, queued work, provider waits, outcomes, and the three newest batches. Use search and outcome filters for history; **Show older** appends another page. Open a batch to browse its media.
+Open **Settings → Libraries**, which opens on a status line (the live ingestion state) above the table of libraries; its **Activity** tab lists what is being added now and recently added items. It shows the current run, queued work, provider waits, outcomes, and the three newest batches. Use search and outcome filters for history; **Show older** appends another page. Open a batch to browse its media.
 
-Operations refreshes automatically. **Check folders for changes** (in the Ingestion page "⋯" menu) starts an extra scan of watched folders. The green navbar activity indicator opens the same page.
+Operations refreshes automatically. **Check folders for changes** (in the Libraries page "⋯" menu) starts an extra scan of watched folders. The green navbar activity indicator opens the same page.
 
 An interrupted import resumes from durable job and operation records when the Engine restarts. Expired worker leases do not by themselves fail recoverable work.
 
@@ -45,7 +45,7 @@ A settled file count measures file work. It does not mean the whole run is finis
 
 ## Back up and test recovery
 
-1. Open **Settings → Manage → System → Backup and recovery**.
+1. Open **Settings → Backups**.
 2. Create a recovery point.
 3. Download a copy to another device or backup system.
 4. Choose **Test restore** for that point.
@@ -75,7 +75,7 @@ Library has no export or import of people, households or sign-ins. Backup and re
 
 ## Copy backups to other places
 
-Under **Settings → Backup and recovery → Where backups go**, **Add a destination** copies each backup somewhere besides this computer: **Another folder** (such as an external drive), a **Network share** (a path such as `\\nas\backups`, or a mounted folder), **S3-compatible storage** (Amazon S3, MinIO, Backblaze B2, Wasabi) or **WebDAV** (Nextcloud and many NAS devices). Each destination receives the same plain backup file and each copy is read back and checked. Backups are never encrypted, so keep the destination somewhere only you can reach. A copy made by an older version (a `.tvbk` file) can no longer be restored. A web destination asks you to agree to the exact address backups will be sent to ("Send backups to ..."). Its login is kept encrypted on this computer and is never shown again. Press **Test** to check a destination; for a network share the Library uses the access your computer already has, so mount or sign in to the share first.
+Under **Settings → Backups → Destinations**, **Add a destination** copies each backup somewhere besides this computer: **Another folder** (such as an external drive), a **Network share** (a path such as `\\nas\backups`, or a mounted folder), **S3-compatible storage** (Amazon S3, MinIO, Backblaze B2, Wasabi) or **WebDAV** (Nextcloud and many NAS devices). Each destination receives the same plain backup file and each copy is read back and checked. Backups are never encrypted, so keep the destination somewhere only you can reach. A copy made by an older version (a `.tvbk` file) can no longer be restored. A web destination asks you to agree to the exact address backups will be sent to ("Send backups to ..."). Its login is kept encrypted on this computer and is never shown again. Press **Test** to check a destination; for a network share the Library uses the access your computer already has, so mount or sign in to the share first.
 
 ## Restore a recovery point
 
@@ -92,7 +92,7 @@ Under **Settings → Backup and recovery → Where backups go**, **Add a destina
 
 **After a restore.** Backup status shows one line while anything is still waiting and for a week after a restore: "12 items got their progress and bookmarks back. 4 are waiting for their files; they'll return if the files do, and are cleared after 90 days." When nothing is waiting it says only how many items got their progress back, and when nothing has come back yet it says only how many are waiting ("3 items are waiting for their files; they'll return if the files do, and are cleared after 90 days."). When both are zero there is no line. It never lists items. It stays quiet about the Vault: the counts are totals.
 
-**The waiting period.** State that is still waiting after 90 days is cleared (the same setting as Safer deleting, `missing_file_retention_days`; changing it affects state already waiting). Administrators on a computer or tablet can change it under **Settings → Backup and recovery → Restored progress → Keep restored progress waiting for**: 30, 60, 90 (the default), 180 or 365 days, saved as soon as you choose. A value set another way (7 to 3650 days) is shown as one more choice. A recovery point made while state is still waiting keeps it, with the time it started waiting, so a second restore does not restart the clock.
+**The waiting period.** State that is still waiting after 90 days is cleared (the same setting as Safer deleting, `missing_file_retention_days`; changing it affects state already waiting). Administrators on a computer or tablet can change it under **Settings → Backups → Advanced → Keep restored progress waiting for**: 30, 60, 90 (the default), 180 or 365 days, saved as soon as you choose. A value set another way (7 to 3650 days) is shown as one more choice. A recovery point made while state is still waiting keeps it, with the time it started waiting, so a second restore does not restart the clock.
 
 **Finding what is waiting.** Search for a title in global search: items still waiting for their files appear in a **File missing** section at the end of the results, with their name, where they belong, their year and a "File missing" note. They cannot be opened; they are only a reminder, and they disappear when the file returns. You see your own items only.
 
@@ -102,7 +102,7 @@ A restore does not replace the media files excluded from the recovery point.
 
 A new version of Tuvima sometimes changes how the data store (the `library.db` file) is laid out. The Engine does this by itself the first time the new version starts, one numbered step at a time. A start with nothing to upgrade is unchanged. A start with steps to run takes a little longer, and the Engine log lists the steps it ran with lines starting "Data store upgrade:". The Dashboard shows its usual "unreachable" state until the Engine is ready.
 
-**Safety copies.** Before the first step runs on an existing data store, the Engine writes a checked copy of it to the `safety-copies` folder inside your backups folder. That is `config/backups` unless you set `TUVIMA_BACKUP_DIR` (the Docker image uses `/backups`). A copy is named like `tuvima-safety-copy-20261018-093000-step-0001-to-0002.db`, which records the upgrade it was taken before. The Engine keeps the two newest copies and deletes older ones. It never touches the recovery points you create in **Settings → Manage → System → Backup and recovery**, which stay in the backups folder itself. A brand-new install has nothing to copy, so it makes none.
+**Safety copies.** Before the first step runs on an existing data store, the Engine writes a checked copy of it to the `safety-copies` folder inside your backups folder. That is `config/backups` unless you set `TUVIMA_BACKUP_DIR` (the Docker image uses `/backups`). A copy is named like `tuvima-safety-copy-20261018-093000-step-0001-to-0002.db`, which records the upgrade it was taken before. The Engine keeps the two newest copies and deletes older ones. It never touches the recovery points you create in **Settings → Backups**, which stay in the backups folder itself. A brand-new install has nothing to copy, so it makes none.
 
 **Go back to a safety copy.** Use this when an upgrade went wrong, or you want the older version back.
 
@@ -155,7 +155,7 @@ Contributors adding a data store change: see [Changing the data store](../develo
    ```
 
 5. Wait for `healthy`.
-6. Check **Settings → Library and Ingestion** (the library summary and live ingestion), **Settings → System**, a representative library page, playback, and Operations.
+6. Check **Settings → Libraries** (the status line and Activity tab), **Settings → System**, a representative library page, playback, and Operations.
 
 A digest identifies the exact image. Tags such as `latest` are moving update channels. The image workflow is configured to generate an SBOM and provenance and sign the image digest; verify the particular image you use.
 

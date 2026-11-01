@@ -15,44 +15,44 @@ An account signs in. A profile holds personal history, preferences, and View Per
 
 ## Give someone access
 
-1. Open **Settings → Users and Sign-in → Users** (server administrators only).
+1. Open **Settings → Users & Households → Users** (server administrators only).
 2. Choose **Add a sign-in**. Pick **A profile without a sign-in** to give an existing profile its own sign-in, or **A new person** to make their profile as well (a name, their household or **A new household**, and **Kid's profile** if it should be one).
 3. Enter the person's email, then pick how they will sign in for the first time: **Send an invitation** (the default) or **Set a temporary password**.
 4. Hand over what Tuvima shows you, through a trusted private channel. It is shown once.
-5. Set what that person may see and do on their profile, under **Settings → Profiles**: the administrator roles, Read, Watch, Listen and View, and the libraries. A sign-in only opens a profile; the profile holds the access.
+5. Set what that person may see and do on their profile, under **Settings → Manage Profiles**: the administrator roles, Read, Watch, Listen and View, and the libraries. A sign-in only opens a profile; the profile holds the access.
 
 Only server administrators create sign-ins. There is no public sign-up, and Tuvima never sends email for this. If Tuvima refuses (for example a second household while the server administrator has no password yet), it says why and nothing is created.
 
 A sign-in can be changed later from its row's "..." menu: **Change email** keeps the profile and everything in it exactly as it was, **Set temporary password** and **Turn off two-step codes** help someone locked out, and **Delete sign-in** removes the sign-in only; the profile stays and a new sign-in can be added to it.
 
-On a phone, **Settings → Users and Sign-in** shows sign-ins and applications as read-only cards (email, the profile it opens and its household). Make changes on a computer or tablet.
+On a phone, **Settings → Users & Households** shows sign-ins and applications as read-only cards (email, the profile it opens and its household). Make changes on a computer or tablet.
 
 ### Invitation code
 
-An invitation is a short code such as `KQ7M4-XH2TA` (ten letters and digits; the confusing ones, 0, O, 1, I and L, are left out). Tuvima shows the code, a link (`<address>/auth/invite?code=KQ7M4-XH2TA`), a QR code, a **Copy** button for the code and the link, and the expiry. The link uses the server's public address when one is set under **Settings → Network**, and otherwise the address you are using now. Only a fingerprint of the code is stored, so it cannot be shown again.
+An invitation is a short code such as `KQ7M4-XH2TA` (ten letters and digits; the confusing ones, 0, O, 1, I and L, are left out). Tuvima shows the code, a link (`<address>/auth/invite?code=KQ7M4-XH2TA`), a QR code, a **Copy** button for the code and the link, and the expiry. The link uses the server's public address when one is set under **Settings → General** and **Network & Remote Access**, and otherwise the address you are using now. Only a fingerprint of the code is stored, so it cannot be shown again.
 
-The person opens the link (or opens `/auth/invite` and types the code), sees their email, and chooses a password. Each invitation works once. Its lifetime comes from **Users and Sign-in → Sign-in Methods**; the default is seven days. A wrong or expired code gets the same plain answer, and repeated wrong codes from outside the home are slowed down.
+The person opens the link (or opens `/auth/invite` and types the code), sees their email, and chooses a password. Each invitation works once. Its lifetime comes from **Users & Households → Advanced**; the default is seven days. A wrong or expired code gets the same plain answer, and repeated wrong codes from outside the home are slowed down.
 
-This page sets a password only; passkeys can be added afterwards in **Settings → Security → Extra protection**.
+This page sets a password only; passkeys can be added afterwards in **Settings → Security & Devices → Extra protection**.
 
 ### Temporary password
 
 Choose **Set a temporary password** to type one yourself or press **Generate** for a random 16-character one. It is shown once, with a **Copy** button. The first time the person signs in with it, Tuvima asks them to choose their own password and nothing else works until they do. (On a person's own **Sign-in** sheet the **Must change it at first sign-in** switch is on by default; turning it off sets an ordinary password that does not expire.) Choosing a new one signs out every other device. A temporary password stops working after 7 days; after that the person sees "Ask your administrator for a new temporary password." and you can set another from the user's actions menu (**Set temporary password**), which also signs them out everywhere.
 
-Every sign-in that works away from home needs an email address. The administrator you create at setup with **Start without a password** has only a name until you secure the account in **Settings → Security**. Someone who does not need their own sign-in is added as a profile in an existing household instead, and is opened by switching profiles.
+Every sign-in that works away from home needs an email address. The administrator you create at setup with **Start without a password** has only a name until you secure the account in **Settings → Security & Devices**. Someone who does not need their own sign-in is added as a profile in an existing household instead, and is opened by switching profiles.
 
 ## Add a person, and give them their own sign-in
 
-A person is looked after from their own page under **Settings → Profiles**, which is for administrators only; each person's row has an **Edit** button. What you see depends on who you are:
+A person is looked after from their own page under **Settings → Manage Profiles**, which is for administrators only; each person's row has an **Edit** button. What you see depends on who you are:
 
-- A **household administrator** sees the people in their own household (up to 8), and, on **Security → Devices**, the paired devices and signed-in browsers of their household (every signed-in person sees that page, but a member sees only their own). Nothing from Users and Sign-in is shown, and they cannot reach another household.
-- A **server administrator** sees every household under **Settings → Profiles**, with **Add household**, and a **Households** page under Users and Sign-in (**Settings → Users and Sign-in → Households**) that lists each household (name, how many people, how many sign-ins) and lets you rename or remove it. A household can only be removed once it has no people, sign-ins or shared photos.
-- Anyone else does not see Profiles. They change their own name, picture and details from **Edit profile** on their Overview, and look after their sign-in under **Settings → Security**.
+- A **household administrator** sees the people in their own household (up to 8), and, on **Security & Devices → Devices**, the paired devices and signed-in browsers of their household (every signed-in person sees that page, but a member sees only their own). Nothing from Users & Households is shown, and they cannot reach another household.
+- A **server administrator** sees every household under **Settings → Manage Profiles**, with **Add household**, and a **Households** page under Users & Households (**Settings → Users & Households → Households**) that lists each household (name, how many people, how many sign-ins) and lets you rename or remove it. A household can only be removed once it has no people, sign-ins or shared photos.
+- Anyone else does not see Profiles. They change their own name, picture and details from **Edit profile** on their Overview, and look after their sign-in under **Settings → Security & Devices**.
 
 On a person's page:
 
 1. **Add profile** (on the Profiles list) adds someone to the household. Enter a name, switch on **Kid's profile** if it is for a child, and set an optional PIN that is asked before anyone switches into them. The household's sign-in can open them straight away; they do not have a sign-in of their own yet.
-2. **Sign-in** shows the person's sign-in email, or *No sign-in*. It is read only on the profile page: a server administrator adds, changes and removes sign-ins in **Settings → Users and Sign-in**. A sign-in opens its own profile, and the person can switch to others in their household.
+2. **Sign-in** shows the person's sign-in email, or *No sign-in*. It is read only on the profile page: a server administrator adds, changes and removes sign-ins in **Settings → Users & Households**. A sign-in opens its own profile, and the person can switch to others in their household.
 3. **Roles** and **Access** are set on the profile: **Household administrator** (and, for a server administrator, **Server administrator**) switches, and **Access** for Read, Watch, Listen and View and the libraries they can open (all of them unless unticked, saved together with **Save changes**). A household administrator can give only what their own profile has, and cannot show a library the household lacks.
 4. **Profile details** sets the PIN asked before anyone switches into that person (4 to 12 digits). A new PIN replaces the old one.
 5. **Delete profile** removes the person and everything personal in it, and their sign-in too. You choose whether their photos **Move to Shared** (the default) or are deleted.
@@ -65,8 +65,8 @@ If a household administrator turned on an administrator PIN, Tuvima asks for it 
 
 Administrator rights belong to the profile: a profile is a server administrator or a household administrator, and the settings only open while that profile is the one in use. The optional PIN lock is a setting on the profile too.
 
-1. Make sure the profile holds an administrator role (**Settings → Profiles**, the person's **Roles** group) and has a PIN (**Profile details**). There is one PIN per profile; admin pages and Vault mode ask for that same PIN.
-2. Open the person's page under **Settings → Profiles**. An **Administrator PIN** group appears there, on your own profile or, for a server administrator, on anyone's.
+1. Make sure the profile holds an administrator role (**Settings → Manage Profiles**, the person's **Roles** group) and has a PIN (**Profile details**). There is one PIN per profile; admin pages and Vault mode ask for that same PIN.
+2. Open the person's page under **Settings → Manage Profiles**. An **Administrator PIN** group appears there, on your own profile or, for a server administrator, on anyone's.
 3. Turn on **Ask for a PIN to open administrator settings** (it is off until you do) and choose how long an unlock lasts.
 
 For example, Mom is a household administrator and signs in as mom@home.com into her own profile. If she also needs server settings, she switches to Shy's profile, which asks for Shy's PIN when he has turned this on.
@@ -77,17 +77,17 @@ The PIN lock protects settings after sign-in. It is separate from the sign-in pa
 
 Signing in shows your household's profiles with your own already selected; press **Continue** (or Enter) or click another person, with their PIN when they have one. Everyone signs in with their own email, so people never need to share a password.
 
-Open **Settings → Security**. **Password** changes your password. Once you have a password, **Extra protection** opens one sheet for passkeys, two-step codes, linked sign-ins and recovery codes. Everyone sees **Sign out everywhere else** under *Access*, which signs out your other sessions (for example a lost phone) and keeps the one you are using; administrators also see **Devices** there. Under *Your photos*, **Who viewed your photos** lists, read-only and newest first, each time a server administrator opened your photos (the household's own administrator also sees views of the household's Shared Library); the times are shown in UTC and nothing there can be deleted.
+Open **Settings → Security & Devices**. **Password** changes your password. Once you have a password, **Extra protection** opens one sheet for passkeys, two-step codes, accounts you sign in with and recovery codes. Everyone sees **Sign out everywhere else** under *Access*, which signs out your other sessions (for example a lost phone) and keeps the one you are using; administrators also see **Devices** there. Under *Your photos*, **Who viewed your photos** lists, read-only and newest first, each time a server administrator opened your photos (the household's own administrator also sees views of the household's Shared Library); the times are shown in UTC and nothing there can be deleted.
 
 Password resets revoke existing sessions. Tuvima prevents removal of the final usable authenticator.
 
-Passkeys need a secure browser origin. Development on `localhost` is allowed; other hostnames need HTTPS and the server's public address (`remote.public_hostname`, set under **Settings → Network**). **Users and Sign-in → Sign-in Methods** reports readiness and explains unavailable methods.
+Passkeys need a secure browser origin. Development on `localhost` is allowed; other hostnames need HTTPS and the server's public address (`remote.public_hostname`, set under **Settings → General** and **Network & Remote Access**). **Users & Households → Advanced** reports readiness and explains unavailable methods.
 
 ## Secure a this-computer account
 
 If you started Tuvima on your desktop without a password (**Use Tuvima on this computer**), that account has no password and no passkey. **Any device that can reach the server can use it, including a guest on your home Wi-Fi, and it has administrator rights.** Tuvima is open from the start and closed router ports are what keep outsiders away, so add a password or passkey as soon as other people share your network, and always before you give Tuvima an address on the internet.
 
-To close it, open **Settings → Security → Password**, which shows **Secure your account**. Enter an email (only if the account has none; you sign in with it from other devices), then a password (at least 12 characters), and confirm it. You get a new set of recovery codes, and the account becomes a normal one that always asks for its password or passkey. You can add a passkey afterwards. Installs that start with a password are normal accounts from the first sign-in.
+To close it, open **Settings → Security & Devices → Password**, which shows **Secure your account**. Enter an email (only if the account has none; you sign in with it from other devices), then a password (at least 12 characters), and confirm it. You get a new set of recovery codes, and the account becomes a normal one that always asks for its password or passkey. You can add a passkey afterwards. Installs that start with a password are normal accounts from the first sign-in.
 
 ## Confirm it's you
 
@@ -95,12 +95,12 @@ Changing your password, adding or removing a passkey, linking or unlinking a pro
 
 ## Two-step codes (optional)
 
-Two-step codes add a second check to password sign-in. You turn them on yourself in **Settings → Security → Extra protection → Two-step codes**: after confirming it's you, scan the picture with an authenticator app (or type the key it shows), enter the 6-digit code the app gives you, and save the new recovery codes that appear. From then on, signing in with your password also asks for **the 6-digit code from your authenticator app**. If your phone is lost, choose **Use a recovery code instead**; each recovery code works once.
+Two-step codes add a second check to password sign-in. You turn them on yourself in **Settings → Security & Devices → Extra protection → Two-step codes**: after confirming it's you, scan the picture with an authenticator app (or type the key it shows), enter the 6-digit code the app gives you, and save the new recovery codes that appear. From then on, signing in with your password also asks for **the 6-digit code from your authenticator app**. If your phone is lost, choose **Use a recovery code instead**; each recovery code works once.
 
 - Passkey and **Sign in with…** sign-ins never ask for a code. They are already a second kind of proof.
 - **Confirm it's you** also asks for the code while two-step is on.
 - To turn it off, confirm it's you, then enter a fresh code (wait for the next one if you just used one) or a recovery code.
-- If someone loses both their phone and their recovery codes, an administrator can turn their codes off from that person's page under **Settings → Profiles**, in **Household access** → **Two-step codes** (for a person with their own sign-in): a server administrator for anyone, a household administrator for their own household. This is recorded in the audit log. You can also run `tuvima-admin auth reset-two-step --email someone@example.com` on the computer that hosts Tuvima.
+- If someone loses both their phone and their recovery codes, an administrator can turn their codes off from that person's page under **Settings → Manage Profiles**, in **Household access** → **Two-step codes** (for a person with their own sign-in): a server administrator for anyone, a household administrator for their own household. This is recorded in the audit log. You can also run `tuvima-admin auth reset-two-step --email someone@example.com` on the computer that hosts Tuvima.
 - Codes are checked offline against a secret stored encrypted on your server. Nothing is sent to any service, and there are no text or email codes.
 
 ## Password rules
@@ -147,9 +147,9 @@ Email is optional. Use an authenticated SMTP relay with a verified sender and pr
 2. Copy `config/examples/email.secrets.example.json` to `config/.secrets/email.json`.
 3. Enter `smtp_password` and restrict file access to the Dashboard's operating-system account.
 4. Restart the Dashboard.
-5. In **Users and Sign-in → Sign-in Methods**, use **Send test email to my account** when delivery reports ready.
+5. In **Settings → General → Notifications**, use **Send test email to my account** under **Settings → General → Notifications** when delivery reports ready.
 
-Password-reset links are built from the server's public address, the same one passkeys and linked sign-in use. Set it under **Settings → Network** (`remote.public_hostname` in `config/network.json`) before enabling email recovery.
+Password-reset links are built from the server's public address, the same one passkeys and linked sign-in use. Set it under **Settings → Network & Remote Access** (`remote.public_hostname` in `config/network.json`) before enabling email recovery.
 
 Example non-secret configuration:
 

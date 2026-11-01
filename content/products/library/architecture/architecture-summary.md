@@ -170,21 +170,21 @@ One selected text resource profile supplies the same Qwen3 artifact to **text_fa
 
 Settings at `/settings/{Section}[/{Subsection}]` is the Dashboard's configuration and operational hub. `SettingsNav` (`src/MediaEngine.Web/Models/ViewDTOs/SettingsNav.cs`) is the canonical route map: one menu tree (`MenuGroups`, built by `Services/Navigation/SettingsMenuBuilder`) in four groups with role-filtered visibility, where every parent opens its own main page and sub-pages are tree children (no sub-page tab strips). Every page renders inside `Components/Settings/Frame/SettingsPageFrame` (breadcrumb, title, server-administrator attention notices, a permanent page notice slot, optional in-page tabs). Pages:
 
-| Group | Pages (route → component) |
+| Group | Pages |
 |---|---|
 | **Personal** | `overview` → `OverviewPage` (children `overview/activity` → `ActivityPage`, `overview/taste` → `OverviewTastePage`; off-menu `overview/apps` → `OverviewAppsPage`), `profiles` → `ProfilesTab` (administrators; person page `ProfileDetailPage`; Households lives under `access/households` → `HouseholdsTab`), `preferences` → `PreferencesSummaryPage` (children `playback`, `listening`, `reading`), `security` → `SecuritySettingsPage` (child `security/devices` → `DevicesTab`) |
-| **Server** | `ingestion` → `IngestionTasksTab` with `LibrarySummary` (Library and Ingestion; off-menu `recently-added` → `RecentlyAddedPageContent`, off-menu `review` → `NeedsReviewPageContent`; children `libraries` → `LibrariesTab`, `metadata` → `MetadataSettingsPage`), `network` → `NetworkRemoteAccessSettings` (Local Network, Remote Access, Advanced), `delivery` → Streaming (Limits and Quality, Hardware Acceleration, Optimized Copies, Diagnostics) |
-| **Manage** | `access/users` → `UsersAccessSettingsTab` (Users; child Sign-in Methods), `system` → `SystemSummaryPage` (children `tools` → `ToolsRequirementsTab` with Scheduled tasks, `system/logs` → `LogsPage`, `backup-recovery`) |
-| **Developer** | `ai` → `LocalAiSettingsTab` (Status, Model and hardware, Budget, Usage), `access/applications` → Integrations, `plugins` → `PluginSettingsTab` (one page), `developer` → Developer Tools (Provider Tester, Enrichment Tester; feature-flagged) |
+| **Library** | Libraries (tabs Libraries, Activity, Needs Review, Matching, Rules; the status line replaces the old overview) and Playback (Quality, Advanced) |
+| **Server** | General (name and address, language and region, notifications), Users & Households (Users, Households, Advanced), Network & Remote Access (Home network, Remote access, Advanced), Tools, Local AI (Status, Models, Advanced), Plugins, Integrations, Backups (Backups, Destinations, Advanced) and System (Health, Scheduled tasks, Logs, Advanced) |
+| **Developer** (development builds only) | `developer` → Developer Tools (Provider Tester, Enrichment Tester; feature-flagged) |
 
-Navigation is URL-driven: `/settings` lands on Overview (Kids profiles do not reach Settings), `/settings/review` is the Needs Review page (the old `/settings/recently-added?review=expanded` link redirects to it), and `/my-activity` opens the person's own Activity outside Settings.
+Navigation is URL-driven: `/settings` lands on Overview (Kids profiles do not reach Settings), Needs Review is a tab of Libraries (retired addresses are not found and do not redirect), and `/my-activity` opens the person's own Activity outside Settings.
 
 Supporting components used inside tabs: `CuratorsDrawer`, `FolderBrowserDialog`, `SettingsSectionPanel`, `SettingsStatusBadge`, `MediaRail`, `MediaRailCard`, `ProviderStageSelector`.
 
 
 ## Needs Review (inside Settings)
 
-Needs Review (stored in the Engine's review queue) is the Engine's safety net for uncertain matches. Only server administrators, and apps a server administrator has given review permission, can list or resolve it. It lives on its own off-menu page, Settings → Needs Review (`/settings/review`, rendered by `NeedsReviewPageContent`), opened from the administrator banner across Settings; the Needs Review count shades the Library and Ingestion menu row. It opens the shared media editor in review mode for blocked or uncertain items.
+Needs Review (stored in the Engine's review queue) is the Engine's safety net for uncertain matches. Only server administrators, and apps a server administrator has given review permission, can list or resolve it. It lives on its own off-menu page, the **Needs Review** tab of Settings → Libraries, opened from the administrator banner across Settings; the Needs Review count shades the Libraries menu row. It opens the shared media editor in review mode for blocked or uncertain items.
 
 The queue surfaces items that need human attention: failed retail matches, ambiguous Wikidata candidates, low-confidence matches, missing titles, and items that fell through during enrichment. Review rows can launch the shared editor in review mode, dismiss an item, skip universe matching where supported, keep a provider match, move a film to TV, or retry a failed write-back according to existing Engine rules. `PostPipelineService` auto-resolves queue items when a later enrichment pass pushes confidence above threshold.
 

@@ -13,9 +13,9 @@ Use Settings in Tuvima Library to create libraries, add folders and check backgr
 
 ## Find your way around Libraries
 
-Libraries is **Settings > Libraries**, in two levels. Each has its own address, so Back and a reload keep your place, and the page title and breadcrumb above it show where you are.
+Libraries is **Settings > Libraries** (in the Library group of the Settings menu), in two levels. Each has its own address, so Back and a reload keep your place, and the page title and breadcrumb above it show where you are.
 
-1. **The Libraries page** has two panes. On the left is a rail with **All libraries**, then the areas **Watch**, **Listen**, **Read** and **View** (and **Vault** for an administrator who may open it), each with its libraries underneath. Every library has a small status dot (green for healthy, amber when something needs you, grey when it is offline or paused) and, when files wait for you, a count. **Add** buttons beside each area start a library in that area. On the right, **All libraries** shows one table grouped by area: a row has the library's name with its icon, its content type, its folder and title counts ("3 folders · 1,284 titles", or "Nothing added yet") and a status: **Healthy**, **N files not identified**, **N need review**, **Empty**, **Folder offline** or **Scanning**. Files that Library could not identify and items in Needs Review are two different counts and two separate links. The whole row opens the library. An area with nothing in it says "nothing yet" with one **Add a {Area} library** button. Vault libraries are listed only inside the Vault area, with a small lock beside the name. Under the table is **Rules for every library** (see [Rules for every library](#rules-for-every-library)) and a line for the [Import folder](#import-folder) (it reads "set" or "not set"). On a narrower window the rail becomes a row of chips above the table.
+1. **The Libraries page** opens on a status line (what is being added now, what is waiting and what needs you) above the table, and has five tabs: **Libraries**, **Activity**, **Needs Review** (with its count), **Matching** and **Rules**. There is no separate overview page. The **Libraries** tab has two panes. On the left is a rail with **All libraries**, then the areas **Watch**, **Listen**, **Read** and **View** (and **Vault** for an administrator who may open it), each with its libraries underneath. Every library has a small status dot (green for healthy, amber when something needs you, grey when it is offline or paused) and, when files wait for you, a count. **Add** buttons beside each area start a library in that area. On the right, **All libraries** shows one table grouped by area: a row has the library's name with its icon, its content type, its folder and title counts ("3 folders · 1,284 titles", or "Nothing added yet") and a status: **Healthy**, **N files not identified**, **N need review**, **Empty**, **Folder offline** or **Scanning**. Files that Library could not identify and items in Needs Review are two different counts and two separate links. The whole row opens the library. An area with nothing in it says "nothing yet" with one **Add a {Area} library** button. Vault libraries are listed only inside the Vault area, with a small lock beside the name. The **Rules** tab holds **Rules for every library** (see [Rules for every library](#rules-for-every-library)). Under the table is a line for the [Import folder](#import-folder) (it reads "set" or "not set"). On a narrower window the rail becomes a row of chips above the table.
 2. **A library page** (for example Movies) shows the library's content type, its counts and status, and **Scan now**, **Add folder** and **Add files**. Its tabs are **Folders** (the table of folders), **File handling**, **Activity** and, when files could not be identified, **Unidentified**, plus **Lookup** for a library that has lookup settings (a YouTube library, or a Vault-protected library of a kind that looks details up). Each tab is described below. **Scan now** scans this library's folders only (folders with scanning paused or offline are left alone). An amber count and a short **Paused** note on the Folders tab mean a new folder is waiting for you (see [the first check](#the-first-check-of-a-new-folder)).
 
 New libraries start from **Add library** on the overview (see [Create a library](#create-a-library)). First-run setup shows this same table in a simpler form (see [First-run setup](#first-run-setup)).
@@ -55,7 +55,7 @@ Every library has a **Recycle bin** switch (on for Videos), on its **File handli
 
 ## First-run setup
 
-First-run setup's Libraries step shows the same grouped table and the same **Add library** pop-up as Settings, in a simple mode: Watch, Listen and Read only, no rail, no Vault, no Import folder line, and rows that do not open a page (a library's page belongs to Settings). A note reminds you that Photos and personal videos, the Import folder and each library's own settings are added after setup, in **Settings > Libraries**. **Skip for now** still defers the step.
+First-run setup's Libraries step is titled **What do you have?** and starts empty. It shows four area cards, **Watch** (movies, TV shows, home videos), **Listen** (music, audiobooks, podcasts), **Read** (books, comics, documents) and **View** (photos and personal videos), each with one line on what fits, "Nothing yet" and its own **Add** button. **Add** opens the same **Add library** pop-up as Settings, already on that area. Each library you add appears as a row under its area, with its folder and buttons to rename it, change its folder or remove it. Rows do not open a page (a library's page belongs to Settings). The Vault step that follows shows the Vault as a fifth card in the same style. A note reminds you that Photos and personal videos, the Import folder and each library's own settings are added after setup, in **Settings > Libraries**. **Skip for now** still defers the step.
 
 ## View libraries
 
@@ -192,7 +192,7 @@ The panel shows:
 - **3 files couldn't be written**, with the list of files and the reason for each.
 - **Write now** (administrators, on a desktop) starts a run at once. Phones show the status only.
 
-If ExifTool is missing, the panel says **Photos, videos and PDFs in View are waiting for ExifTool**, with a link to **Settings > Tools and requirements**. With **Save changes into the files** (or write-back) turned off, no tags are queued and the schedule is hidden; filing moves still wait for their run.
+If ExifTool is missing, the panel says **Photos, videos and PDFs in View are waiting for ExifTool**, with a link to **Settings > Tools**. With **Save changes into the files** (or write-back) turned off, no tags are queued and the schedule is hidden; filing moves still wait for their run.
 
 - A file that is busy, on an unplugged drive or read-only stays on the list for the next run.
 - A file that can't hold tags is **kept in Library only** and is not retried.
@@ -263,7 +263,7 @@ On a library's page you can drop files from your computer onto it (not on phones
 
 ## Set up View storage
 
-Use **Settings > Libraries** to choose the single managed View root. Use **Settings > Users** for each enabled profile's Personal Space sources and devices.
+Use **Settings > Libraries** to choose the single managed View root. Use **Settings > Users & Households** for each enabled profile's Personal Space sources and devices.
 
 **Import folder** copies files into managed storage. **Link existing folder** scans an outside folder read-only. Detaching a source does not delete files. Reconcile is an admin repair action.
 
@@ -282,12 +282,12 @@ How the reading and filing work is in [Documents in View](../explanation/documen
 
 ## Follow work in Operations
 
-Open **Settings > Library and Ingestion**, or select the header activity icon. The page updates on its own. It shows what is being added now, what was added recently, and anything waiting on a provider or a missing tool.
+Open **Settings > Libraries** and its **Activity** tab, or select the header activity icon. The status line above the table and the tab update on their own. They show what is being added now, what was added recently, and anything waiting on a provider or a missing tool.
 
 A checked or visible file does not mean the whole run is done. Matching, richer details, and file moves may still be in progress. Counts come from saved Engine state. Unknown values stay unknown.
 
 1. Check what is being added now and any work that needs help.
-2. Use **Check folders for changes** (in the Ingestion page "⋯" menu) for an extra scan of watched folders.
+2. Use **Check folders for changes** (in the Libraries page "⋯" menu) for an extra scan of watched folders.
 3. Search the list of recently added items or choose a result filter.
 4. Select an item to browse its tracks, episodes or parts.
 5. Choose **Show older** to load another page of history.
@@ -296,15 +296,15 @@ Items are listed under the day they first became Ready. There are no batches to 
 
 ## Fix review and provider problems
 
-[Review Queue](resolving-reviews.md) holds items that need a human decision. Work still waiting or retrying belongs in Operations. Review reasons include weak matches, duplicates, failed lookups, naming issues, and conflicting details.
+[Review Queue](resolving-reviews.md) holds items that need a human decision. Work still waiting or retrying shows on the Activity tab. The **Needs Review** tab of Libraries lists the same items with a count. Review reasons include weak matches, duplicates, failed lookups, naming issues, and conflicting details.
 
-**Plugins** lists metadata sources beside plugins and shows setup, key state, health and tests on each source's page; **Metadata** keeps the Ingestion Flow, where source priorities are set. Healthy, Degraded, Offline, Disabled, Missing Configuration, and Unknown mean different things. No health result does not mean a provider is healthy.
+**Plugins** lists metadata sources beside plugins and shows setup, key state, health and tests on each source's page; the **Matching** tab of Libraries keeps the order in which sources are tried, where source priorities are set. Healthy, Degraded, Offline, Disabled, Missing Configuration, and Unknown mean different things. No health result does not mean a provider is healthy.
 
 These pages do not show secret values. [Set up providers](configuring-providers.md) before retrying a lookup that failed because of setup.
 
 ## Find other admin tools
 
-Settings also holds Users, Local AI, network and remote access, backup/recovery, logs, and [Plugins](using-plugins.md). Your role and the Engine's supported actions control which tools you can use.
+Settings has three groups. **Personal** holds Profile, Manage Profiles and Security & Devices. **Library** holds Libraries and Playback. **Server** holds General, Users & Households, Network & Remote Access, Tools, Local AI, [Plugins](using-plugins.md), Integrations, Backups and System. Every page with advanced settings keeps them on one last tab named **Advanced** (gear icon, amber, with the line "These settings are for experienced administrators. Everyday use never needs them."); nothing advanced appears anywhere else. Your role and the Engine's supported actions control which tools you can use.
 
 Developer Tools is for admin use on a development library, when enabled. Reset & Seed clears the catalog and derived intake state, then queues known test files. It keeps users, sources, and access rules. Advanced resets need a separate confirm step.
 

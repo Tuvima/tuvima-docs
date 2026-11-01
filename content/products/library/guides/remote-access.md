@@ -13,7 +13,7 @@ Tuvima is open from the start: any device that can reach the server can use it, 
 
 **Keep your router's ports closed.** Closed ports are what keep the internet out. The Dashboard serves plain http, so if you forward its port to the internet, sign-ins and pairing codes cross the internet unencrypted. For access from outside, use Tailscale or an HTTPS reverse proxy as described below, and never forward the Dashboard port directly.
 
-**Settings → Network → Remote Access** (**How the internet reaches Tuvima**) is the optional place to choose that secure outside address. It no longer unlocks anything; it records the address and checks it with **Test remote access**. Apps use the address away from home.
+**Settings → Network & Remote Access → Remote access** (**How the internet reaches Tuvima**) is the optional place to choose that secure outside address. It no longer unlocks anything; it records the address and checks it with **Test remote access**. Apps use the address away from home.
 
 The Engine on port 61495 is internal and must not be published or proxied.
 
@@ -29,7 +29,7 @@ tailscale serve --bg http://127.0.0.1:5016
 tailscale serve status --json
 ```
 
-Open **Settings → Server → Network and Remote Access → Remote Access**, select
+Open **Settings → Server → Network & Remote Access → Remote access**, select
 **Tailscale**, and confirm that the private `https://…ts.net` address and Serve
 HTTPS are detected. Choose **Test remote access** to check it. Do not use
 Tailscale Funnel; this deployment is tailnet-private.
@@ -74,8 +74,8 @@ or hosting option that trusts forwarded headers from every address.
 
 ## Check account access
 
-1. Under **Settings → Manage → Users and Sign-in → Sign-in Methods**, choose the sign-in methods you want to allow.
-2. In **Users and Sign-in → Users**, open the intended person's profile and give it only the areas (Read, Watch, Listen, View) and libraries it should reach.
+1. Under **Settings → Users & Households → Advanced** (under *How people sign in*), choose the sign-in methods you want to allow.
+2. In **Users & Households → Users**, open the intended person's profile and give it only the areas (Read, Watch, Listen, View) and libraries it should reach.
 3. If you started Tuvima on your computer without a password, add a password or passkey before you use an outside address. That no-password account works from any device that reaches the server, with administrator rights (see [Account security](account-security.md)).
 4. Test with that account from the remote device.
 
@@ -85,9 +85,9 @@ A working tunnel or proxy does not grant library access.
 
 Phone and TV apps are always allowed; there is no switch to turn them on.
 
-1. The home address is this server's address on the adapter chosen in **Settings → Network**, with the Dashboard port; **Settings → Network and Remote Access → Local Network** shows it. Type it into the app when it asks for your server.
+1. The home address is this server's address on the adapter chosen in **Settings → Network & Remote Access → Advanced**, with the Dashboard port; **Settings → Network & Remote Access → Home network** shows it, and **Settings → General** shows it beside the Library's `.local` name, a QR code and the app links. Type it into the app when it asks for your server.
 2. When you have chosen a way in from outside (Tailscale or an HTTPS address), the outside address is shown beside it. The Android app learns it when it pairs and when it starts, tries your home address first, and switches to the outside address on its own when you are away. If you later remove the outside address, re-pair the phone so it forgets it. The Apple, Roku and TV web apps do not switch addresses yet.
-3. **Settings → Security → Devices** lists each paired phone or TV with an icon for what it is and, for administrators, who it belongs to and when it was last seen. **Sign out** ends one straight away; it has to be paired again. A member sees only their own devices, a household administrator also their household's, and a server administrator everyone's. The same page lists where people are signed in under **Signed-in browsers**, with a **Sign out** for each.
+3. **Settings → Security & Devices → Devices** lists each paired phone or TV with an icon for what it is and, for administrators, who it belongs to and when it was last seen. **Sign out** ends one straight away; it has to be paired again. A member sees only their own devices, a household administrator also their household's, and a server administrator everyone's. The same page lists where people are signed in under **Signed-in browsers**, with a **Sign out** for each.
 
 ## Advanced port forwarding
 

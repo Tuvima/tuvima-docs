@@ -13,12 +13,12 @@ A household is the group of people who live together and the sign-ins that open 
 
 ## Before you start
 
-- You need to be a server administrator or a household administrator. Both look after profiles from **Settings → Profiles**, which only administrators see: choose **Edit** on a person's row to open their page. Server administrators also get **Add household** there, and **Settings → Users and Sign-in → Households**, which lists every household and lets you rename or remove one.
-- Users (sign-ins) are looked after only by the server administrator, in **Settings → Users and Sign-in**.
+- You need to be a server administrator or a household administrator. Both look after profiles from **Settings → Manage Profiles**, which only administrators see: choose **Edit** on a person's row to open their page. Server administrators also get **Add household** there, and **Settings → Users & Households → Households**, which lists every household and lets you rename or remove one.
+- Users (sign-ins) are looked after only by the server administrator, in **Settings → Users & Households**.
 
 ## Add a person to the household
 
-1. Open **Settings → Profiles** and choose **Add profile** in the household's list (a server administrator picks the household by using the row in its group).
+1. Open **Settings → Manage Profiles** and choose **Add profile** in the household's list (a server administrator picks the household by using the row in its group).
 2. Enter a name. Switch on **Kid's profile** if this person is a child. A Kid's profile never has administrator access or Vault access, and a new profile starts with nothing hidden.
 3. Optionally set a **PIN**. Anyone who switches into that profile is asked for it. Use 4 to 12 digits. You can change it later from the person's **Profile details**.
 4. Save. The person appears in the list. They can use the profile straight away by switching to it, and they do not need a sign-in of their own. A household holds up to eight people; at eight, Tuvima shows the Engine's sentence instead of adding a ninth.
@@ -29,7 +29,7 @@ Adult profiles should have a PIN if others can reach the household's sign-in. Tu
 
 A sign-in (an email with a password, a passkey or two-step codes) is only a way in to a person's profile; the person, their access and their roles live in the profile. A profile can have one sign-in, or none: a person without one is opened by signing in as someone else in the household and switching to them.
 
-Only the server administrator adds, changes and removes sign-ins, in **Settings → Users and Sign-in**. A person's **Sign-in** row on their profile page shows their email (or *No sign-in*) and, for a server administrator, links there. Changing a sign-in's email keeps the profile and everything in it. Deleting a sign-in keeps the profile too; a new sign-in can be attached to it later.
+Only the server administrator adds, changes and removes sign-ins, in **Settings → Users & Households**. A person's **Sign-in** row on their profile page shows their email (or *No sign-in*) and, for a server administrator, links there. Changing a sign-in's email keeps the profile and everything in it. Deleting a sign-in keeps the profile too; a new sign-in can be attached to it later.
 
 Signing in opens the person's own profile, and from there they can switch to any other profile of their household (a profile with a PIN asks for it), never into another household.
 
@@ -41,11 +41,11 @@ A household administrator can change only people in their own household, only wi
 
 ## Choose which libraries a household can use
 
-Only the server administrator sees this. On **Settings → Users and Sign-in → Households**, each household has **Libraries this household can use**: every library is ticked by default, and you press **Save changes** after unticking. A household can restrict its people only from the libraries it already has: a household administrator can untick more for the household's profiles but can never show a library the household lacks. A new library appears for every household, and the Vault is never listed here.
+Only the server administrator sees this. On **Settings → Users & Households → Households**, each household has **Libraries this household can use**: every library is ticked by default, and you press **Save changes** after unticking. A household can restrict its people only from the libraries it already has: a household administrator can untick more for the household's profiles but can never show a library the household lacks. A new library appears for every household, and the Vault is never listed here.
 
 ## Set what Kids can see
 
-A Kid's profile is simply a switch on the person's page. What every Kid's profile can see is one setting on the household, under **What Kids can see** in the household's group on **Settings → Profiles** (administrators only). Choose a maximum level for each of **Watch**, **Read** and **Listen**: G, PG, PG-13 or R, each described by what it shows (the default is PG for all three). One **Show unrated items** switch, on by default, decides whether items with no rating (home videos, most books and music) are shown to Kids. Changing these updates every Kid's profile in the household at once. Explicit and adult content counts as adult-rated. The levels guide what Kids see on the home page and in lists; parents still supervise, and a profile PIN stops a child switching into an adult profile.
+A Kid's profile is simply a switch on the person's page. What every Kid's profile can see is one setting on the household, under **What Kids can see** in the household's group on **Settings → Manage Profiles** (administrators only). Choose a maximum level for each of **Watch**, **Read** and **Listen**: G, PG, PG-13 or R, each described by what it shows (the default is PG for all three). One **Show unrated items** switch, on by default, decides whether items with no rating (home videos, most books and music) are shown to Kids. Changing these updates every Kid's profile in the household at once. Explicit and adult content counts as adult-rated. The levels guide what Kids see on the home page and in lists; parents still supervise, and a profile PIN stops a child switching into an adult profile.
 
 ## Roles on a profile
 
@@ -57,7 +57,7 @@ If a profile that holds an administrator role has a PIN, turn on **Ask for a PIN
 
 ## Someone from outside your household
 
-A server administrator can add someone who is not part of an existing household. Choose **Add a sign-in** under **Users and Sign-in → Users**, then **A new person**, set their household to **A new household** and give it a name. They start a household of their own and look after it. Once they are in, give them only what they need on their profile under **Settings → Profiles**.
+A server administrator can add someone who is not part of an existing household. Choose **Add a sign-in** under **Users & Households → Users**, then **A new person**, set their household to **A new household** and give it a name. They start a household of their own and look after it. Once they are in, give them only what they need on their profile under **Settings → Manage Profiles**.
 
 ## The profile picker
 
@@ -66,7 +66,7 @@ Signing in shows your household's profiles as a row of large round pictures with
 
 ## Phone backup
 
-A paired phone backs up its photos to one profile. Open **Settings → Security → Devices**, find the phone in **Paired devices**, and choose a person in its **Whose photos … backs up** list. Only people in the phone's household are offered, and **Not chosen** turns backup off for that phone. The choice does not need a PIN. Photos go to that person's private photo space, and the phone keeps backing up to that profile even when someone else browses on it.
+A paired phone backs up its photos to one profile. Open **Settings → Security & Devices → Devices**, find the phone in **Paired devices**, and choose a person in its **Whose photos … backs up** list. Only people in the phone's household are offered, and **Not chosen** turns backup off for that phone. The choice does not need a PIN. Photos go to that person's private photo space, and the phone keeps backing up to that profile even when someone else browses on it.
 
 ## Shared Library
 
@@ -85,13 +85,13 @@ On a person's page choose **Delete profile**. Tuvima lists what goes with it (pr
 
 ## What a household administrator can and cannot do
 
-A household administrator can add and remove people in their own household, set their PINs, choose what they can open and make another person with a sign-in a household administrator, all from each person's page under **Settings → Profiles**. They cannot add, change or delete users (sign-ins); the server administrator does that in **Users and Sign-in**. The Households list and the rest of **Settings → Users and Sign-in** stay with a server administrator.
+A household administrator can add and remove people in their own household, set their PINs, choose what they can open and make another person with a sign-in a household administrator, all from each person's page under **Settings → Manage Profiles**. They cannot add, change or delete users (sign-ins); the server administrator does that in **Users and Sign-in**. The Households list and the rest of **Settings → Users & Households** stay with a server administrator.
 
 They cannot change another household or a server administrator's profile, and only a server administrator makes someone a server administrator.
 
 ## Adding a second household
 
-With one household the Library can be used without passwords. Before you add another household, set an email and password (or a passkey) for your own sign-in: **Settings → Users and Sign-in → Households → Add household** tells you so and has a **Set an email and password** button that opens Security.
+With one household the Library can be used without passwords. Before you add another household, set an email and password (or a passkey) for your own sign-in: **Settings → Users & Households → Households → Add household** tells you so and has a **Set an email and password** button that opens Security.
 
 ## Next steps
 
