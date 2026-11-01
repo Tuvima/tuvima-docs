@@ -11,6 +11,8 @@ The front page is Tuvima's shared space: a feed of discussions and links from ev
 
 ## Browse the feed
 
+Signed in, you also get **Home**, a feed made for you. [How your Home feed works](home-feed.md) explains it.
+
 At the top of the feed, choose how to sort it:
 
 - **Trending** (the default) shows what people are taking part in right now. It counts reactions and how many different people replied, and gently lets older posts fade. Reactions from members with a higher front-page level count for more, and those from brand-new members count for a quarter, so a burst of new accounts cannot easily push a post to the top. Reactions and replies count towards it for a post's first 14 days. [Reputation and levels](reputation.md) explains how levels work.

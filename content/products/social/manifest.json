@@ -29,6 +29,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/home-feed.md",
+      "slug": "guides/home-feed",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/join-a-community.md",
       "slug": "guides/join-a-community",
       "group": "Guides",
