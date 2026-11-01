@@ -103,6 +103,12 @@
       "section": "Use Tuvima"
     },
     {
+      "source": "guides/collections-and-lists.md",
+      "slug": "guides/collections-and-lists",
+      "group": "Guides",
+      "section": "Use Tuvima"
+    },
+    {
       "source": "guides/editing-items.md",
       "slug": "guides/editing-items",
       "group": "Guides",

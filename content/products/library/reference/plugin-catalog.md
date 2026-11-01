@@ -111,6 +111,20 @@ Each plugin:
 
 The Library reads the list defensively. An entry that cannot be understood (not an object, no `id` or `name`, an unknown or missing `kind`, or an `id` already used) is left out and counted; the page says how many entries could not be read. One bad entry never hides the rest of the list.
 
+## List sources
+
+A source built on a provider file in `config/providers/` (not a plugin package) declares what it can do in `provider_capabilities`: `identity`, `metadata`, `artwork`, `ratings`, `people`, `relationships` or `lists`. The `lists` capability means the source can read a list from a web address and turn it into a collection ([Collections and lists](../guides/collections-and-lists.md)). Library ships these list sources:
+
+| Source | Provider file | Capabilities | Key | Reads |
+|---|---|---|---|---|
+| TMDb | `tmdb.json` | identity, metadata, artwork, ratings, people, relationships, lists | Your TMDb key | `themoviedb.org/list/…`, `themoviedb.org/collection/…` |
+| MusicBrainz | `musicbrainz.json` | identity, metadata, artwork, relationships, people, lists | None | `musicbrainz.org/collection/…` |
+| MDBList | `mdblist.json` | lists | Free MDBList key | `mdblist.com/lists/<user>/<list>` |
+| Open Library | `openlibrary.json` | lists | None | `openlibrary.org/people/<user>/lists/<list>` |
+| Trakt | `trakt.json` | lists | Your own Trakt app Client ID | Public lists, official lists and public watchlists on `trakt.tv` |
+
+MDBList, Open Library and Trakt are off until you switch them on in **Settings → Plugins**. A source that is off, or missing its key, is reported to the builder as unavailable for lists, with a link to Plugins; file import keeps working. Trakt reads public lists only; signing in for your own private lists is not available yet.
+
 ## Blocklist
 
 A list may carry an optional top-level `blocklist` array for plugins Tuvima has pulled:
