@@ -8,22 +8,27 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** the five reactions, Reputation points and levels being counted behind the scenes, reactions weighted by level on the front page, and points taken back when a post is removed for breaking the rules.
+**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, badges, credit for good conversations, Helpful this month, and owners naming and tuning their own levels.
 
-**Coming next:** seeing your level and Reputation next to your name and on your persona page, badges, credit for good conversations, Helpful this month, and owners naming their own levels. After that come the private safety check and folding serious abuse. Names and numbers may change after testing.
+**Coming next:** the private safety check and folding serious abuse. Names and numbers may change after testing.
 :::
 
 Tuvima wants helpful people to be recognised for being helpful, without turning conversations into a contest. Reputation is how a community says "thank you, that was useful".
 
-## Reactions
+## Votes and reactions
 
-Every post, on the front page and in communities, has the same five reactions: **Like**, **Dislike**, **Insightful**, **Funny** and **Thanks**. Choose **+** to see them all with their names. You can give one reaction per post, and change or take it back at any time. Others see how many of each a post has, never who gave them.
+Every post, on the front page and in communities, has two separate controls:
+
+- **Votes** say "more like this" or "less like this". Choose the up or down arrow, and choose it again to take it back. Votes decide what rises, and both counts are shown.
+- **Reactions** say how a post made you feel: **Love**, **Funny**, **Insightful**, **Thanks**, **Wow**, **Sad** and **Angry**. Choose **React** to see them all. You can give one reaction per post and change or take it back at any time. A reaction never pushes a post down, so it is fine to say a post made you angry or sad.
+
+You can vote and react on the same post. Others see how many of each a post has, never who gave them. The author of a post can see who said **Thanks**, so a thank-you reaches the person it was meant for.
 
 ## Reputation: earned from other people
 
 **Reputation** is a public score with badges, earned only when other people value what you wrote:
 
-- reactions to your posts and replies, such as Thanks or Insightful,
+- up votes and reactions to your posts and replies. Insightful and Thanks count most, Love and Funny a little; Wow, Sad and Angry share a feeling and earn nothing,
 - replies from different members,
 - people quoting you,
 - your answer being accepted.
@@ -34,7 +39,7 @@ A few rules keep it fair:
 - **Steady help beats one lucky post.** After a post earns a lot, it earns more slowly.
 - **Good conversations count.** If your reply starts a thread of replies that people value, you earn a share of it. A pile-on does not.
 - **Links alone earn nothing.** What you write with a link earns like any post. A link that starts a real discussion can earn a "Sparked a conversation" badge.
-- **Disagreeing is free.** A dislike or down vote never takes Reputation away. Points are taken back only if the post that earned them is removed for breaking the rules, or the votes behind them turn out to be fake.
+- **Disagreeing is free.** A down vote never takes Reputation away. Points are taken back only if the post that earned them is removed for breaking the rules, or the votes behind them turn out to be fake.
 - **Nobody can edit it.** Not a community owner, not Tuvima staff. Reputation is your history and does not fade.
 
 ## It stays in each community
@@ -49,18 +54,36 @@ Reputation never pushes your own posts up and never gives you moderation powers.
 
 ## Levels
 
-A member's card in a community shows their **Role**, their **Level** and their Reputation.
+A member's card in a community shows their **Role**, their **Level** and their Reputation. Your level shows next to your name on every post, and on the front page your Reputation in that post's category shows too.
 
 - **Role** is given by the owner, for example Moderator.
-- **Level** is a ladder. Newcomer is the first rung. You climb by earning Reputation and taking part on many different days, or when the owner promotes you.
-- Owners name the levels and choose what each one unlocks from a set list, for example posting links or inviting people. Tuvima keeps the safety limits.
-- The top level needs keeping up: after a long time away you drop a level, though not to the bottom. Breaking the rules can drop a level, and a suspension starts you at the beginning again.
+- **Level** is a ladder. Newcomer is the first rung, then Member, Regular and Trusted, unless the owner has renamed them. You climb by earning Reputation, taking part on many different days and being valued by different people.
+- On your own persona page you can see what the next level needs and how far along you are. Only you see this.
+- Only one thing lowers a level on its own: if the top level needs keeping up, a long time away (about six months) moves you down one level, never below Member. Falling below a number never moves you down.
 
 On the front page, levels are the same across every category.
 
+## What owners can change
+
+Each community has one ladder of levels. On the community's **Levels** settings page, the owner (and admins) can:
+
+- rename every level,
+- set what Regular, Trusted and any higher level need: Reputation, active days and the number of different people who valued your posts. Raising a number never moves anyone down,
+- choose whether the top level needs keeping up,
+- turn the **Sparked a conversation** and **Top contributor** badges on or off,
+- hide Reputation numbers in the community, so only levels show.
+
+The owner can also set a member's level by hand. It stays where it is until the owner chooses **Return to automatic**, which puts the member back on the level they have earned. The member gets a notice with their new level, and the change is kept in the community's moderation record. A newcomer has to graduate before their level can be moved.
+
+## Badges
+
+- **Sparked a conversation**: a post that got replies from at least five different members whose replies people valued. You can earn it many times.
+- **Top contributor**: among the ten people who earned the most Reputation over the last 30 days, in a front-page category or in a community. It shows as a small mark on your posts while it holds.
+- More badges will be added over time.
+
 ## When a post is removed
 
-The front page has no moderators, so Tuvima staff step in there, but only for abuse. If staff remove a front-page post for breaking the rules, the points it earned are taken back and its author moves down one front-page level (never below the first). The author gets a notice saying which rule was broken and what changed. The level stays down for 90 days before it can climb again. If staff later restore the post, its points and the author's earlier level come back, and the author is told.
+The front page has no moderators, so Tuvima staff step in there, but only for abuse. Every removal is public: anyone who opens the post sees **Removed by Tuvima staff**, the rule it broke, the reason staff wrote and the date. The points the post earned are taken back and its author moves down one front-page level (never below the first) for 90 days. If staff later restore the post, its points and the author's earlier level come back, and the author is told.
 
 Tuvima staff never step into a community's own moderation. When a community's moderators remove a post, its points are taken back, and levels stay in the owner's hands.
 
@@ -68,9 +91,9 @@ Tuvima staff never step into a community's own moderation. When a community's mo
 
 Some communities will offer a paid **Supporter** membership. An owner may let supporters skip the newcomer stage. Paying never raises your level beyond that, and never changes your Reputation, your votes or how far your posts reach.
 
-## Votes on the front page
+## How votes are weighed
 
-On the front page, Like and Dislike are the up and down votes, and the other three reactions count as a vote up. Reactions from members with a higher front-page level count for more, from a quarter of a vote for someone brand new up to three votes at the top. How much a single vote counts varies at random each time, within the member's limit, so nobody can plan a "power vote". It evens out over many votes.
+Up and down votes from members with a higher level count for more, from a quarter of a vote for someone brand new up to three votes at the top. How much a single vote counts varies at random each time, within the member's limit, so nobody can plan a "power vote". It evens out over many votes. Reactions never change a post's place.
 
 ## Keeping the front page safe
 

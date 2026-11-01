@@ -28,7 +28,8 @@ status: early-access
 | **Private persona** | A persona used in one community only, which no other member, moderator or owner can connect to your other personas. It hides who you are, not what you post. |
 | **Profile** | The settings page where you edit a persona's name, picture and handle. |
 | **Rank** | What someone can do in a community: Member, Moderator, Admin or Owner. |
-| **Reaction** | One of five ways to respond to a post: Like, Dislike, Insightful, Funny or Thanks. |
+| **Reaction** | One of seven ways to say how a post made you feel: Love, Funny, Insightful, Thanks, Wow, Sad or Angry. Reactions never move a post up or down. |
+| **Vote** | Up or down on a post: "more like this" or "less like this". Votes decide what rises. |
 | **Reputation** | Points a member earns in one community when other people value what they wrote. |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
