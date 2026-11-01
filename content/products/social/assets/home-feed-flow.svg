@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
+  <title id="t">How your Home feed is made</title>
+  <desc id="d">Three steps from left to right. First, what you do on Tuvima: follow, react, reply and tap More or Less like this. Second, Tuvima ID keeps your interests and sends them each time Home loads, and only you can see or change them. Third, Home ranks posts by how well they match your interests, how much people valued them and how fresh they are, and gives each post a reason.</desc>
+  <rect width="760" height="250" rx="16" fill="#F5F7FB"/>
+  <rect x="24" y="40" width="208" height="170" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="40" y="70" fill="#14213D" font-size="15" font-weight="700">1. What you do</text>
+  <text x="40" y="100" fill="#47536B" font-size="13">Follow categories and personas</text>
+  <text x="40" y="124" fill="#47536B" font-size="13">React and reply</text>
+  <text x="40" y="148" fill="#47536B" font-size="13">Tap More or Less like this</text>
+  <text x="40" y="172" fill="#47536B" font-size="13">Snooze or mute</text>
+  <rect x="276" y="40" width="208" height="170" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="292" y="70" fill="#14213D" font-size="15" font-weight="700">2. Tuvima ID keeps it</text>
+  <text x="292" y="100" fill="#47536B" font-size="13">Your interests, with points</text>
+  <text x="292" y="124" fill="#47536B" font-size="13">that fade over time</text>
+  <text x="292" y="148" fill="#47536B" font-size="13">Only you can change</text>
+  <text x="292" y="172" fill="#47536B" font-size="13">them, on Your feed</text>
+  <rect x="528" y="40" width="208" height="170" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="544" y="70" fill="#14213D" font-size="15" font-weight="700">3. Home ranks posts</text>
+  <text x="544" y="100" fill="#47536B" font-size="13">45% how well it matches you</text>
+  <text x="544" y="124" fill="#47536B" font-size="13">35% how much people valued it</text>
+  <text x="544" y="148" fill="#47536B" font-size="13">20% how fresh it is</text>
+  <text x="544" y="172" fill="#2A52BE" font-size="13" font-weight="600">Every post gets a reason</text>
+  <g stroke="#2A52BE" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M238 125h30"/><path d="M262 118l8 7-8 7"/>
+    <path d="M490 125h30"/><path d="M514 118l8 7-8 7"/>
+  </g>
+</svg>
