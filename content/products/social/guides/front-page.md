@@ -1,6 +1,6 @@
 ---
 title: The Tuvima front page
-description: How the front page feed works, what Trending and New mean, how categories, tags and reactions help you find things, and how to post to it.
+description: How the front page feed works, what Trending and New mean, how categories, tags and reactions help you find things, how to post to it, and how to report a post.
 audience: user
 category: guide
 product_area: tuvima
@@ -15,7 +15,7 @@ Signed in, you also get **Home**, a feed made for you. [How your Home feed works
 
 At the top of the feed, choose how to sort it:
 
-- **Trending** (the default) shows what people are taking part in right now. It counts up and down votes and how many different people replied, and gently lets older posts fade. Votes from members with a higher front-page level count for more, and those from brand-new members count for a quarter, so a burst of new accounts cannot easily push a post to the top. Votes and replies count towards it for a post's first 14 days. Reactions never move a post up or down. [Reputation and levels](reputation.md) explains how levels work.
+- **Trending** (the default) shows what people are taking part in right now. It counts up and down votes and how many different people replied, and gently lets older posts fade. Votes from members with a higher front-page level count for more, and those from brand-new members count for a quarter, so a burst of new accounts cannot easily push a post to the top. A sudden flood of votes on one post counts gradually rather than all at once: a real crowd still counts in full after a few hours, while a coordinated push loses its moment. Votes and replies count towards it for a post's first 14 days. Reactions never move a post up or down. [Reputation and levels](reputation.md) explains how levels work.
 - **New** shows the newest posts first.
 
 Next to the sort are **categories**. Pick one to see only that subject. Each category has subtopics, for example Gaming has PC, Console, Mobile, Tabletop and Esports. A category page also shows its popular tags and some communities about that subject.
@@ -44,6 +44,10 @@ If a link is already being discussed, Tuvima tells you where, so the conversatio
 :::note
 New personas can post links to the front page after they have made 3 posts that others can see. This keeps out accounts that only exist to spread links.
 :::
+
+## Report a post
+
+Front-page reports go to Tuvima staff, because the front page has no moderators of its own. If enough trusted members report a post for serious abuse, such as a threat or a scam, it is **folded** behind a notice until staff review it. You can still choose **Show anyway** to read it. [Reporting and moderation](reporting-and-moderation.md#report-a-post-on-the-front-page) explains the reasons you can pick and how folds work.
 
 ## Search
 

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
+  <title id="t">A folded post's life</title>
+  <desc id="d">Left to right. First, trusted members report the post for serious abuse within a day. Second, it folds behind a notice and stays readable with Show anyway. Third, Tuvima staff review it, aiming to do so within 24 hours. Then one of two outcomes: if staff uphold the reports, the post is removed with a public reason; if staff reject them, the post comes back in full and the members who folded it are paused from folding.</desc>
+  <rect width="760" height="300" rx="16" fill="#F5F7FB"/>
+  <rect x="20" y="85" width="160" height="130" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="34" y="113" fill="#14213D" font-size="15" font-weight="700">1. Reported</text>
+  <text x="34" y="141" fill="#47536B" font-size="13">Trusted members</text>
+  <text x="34" y="161" fill="#47536B" font-size="13">report serious abuse</text>
+  <text x="34" y="181" fill="#47536B" font-size="13">within a day</text>
+  <rect x="210" y="85" width="160" height="130" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="224" y="113" fill="#14213D" font-size="15" font-weight="700">2. Folded</text>
+  <text x="224" y="141" fill="#47536B" font-size="13">Hidden behind a</text>
+  <text x="224" y="161" fill="#47536B" font-size="13">notice, not removed</text>
+  <text x="224" y="181" fill="#2A52BE" font-size="13" font-weight="600">Show anyway</text>
+  <rect x="400" y="85" width="160" height="130" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="414" y="113" fill="#14213D" font-size="15" font-weight="700">3. Staff decide</text>
+  <text x="414" y="141" fill="#47536B" font-size="13">Tuvima staff review</text>
+  <text x="414" y="161" fill="#47536B" font-size="13">every fold, aiming</text>
+  <text x="414" y="181" fill="#47536B" font-size="13">within 24 hours</text>
+  <rect x="590" y="30" width="150" height="105" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="604" y="58" fill="#14213D" font-size="15" font-weight="700">Upheld</text>
+  <text x="604" y="84" fill="#47536B" font-size="13">Removed, with a</text>
+  <text x="604" y="104" fill="#47536B" font-size="13">public reason</text>
+  <rect x="590" y="165" width="150" height="105" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="604" y="193" fill="#14213D" font-size="15" font-weight="700">Rejected</text>
+  <text x="604" y="219" fill="#47536B" font-size="13">Back in full; folders</text>
+  <text x="604" y="239" fill="#47536B" font-size="13">paused from folding</text>
+  <g stroke="#2A52BE" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M184 150h20"/><path d="M198 143l8 7-8 7"/>
+    <path d="M374 150h20"/><path d="M388 143l8 7-8 7"/>
+    <path d="M564 135l20-40"/><path d="M574 93l10 2 1 10"/>
+    <path d="M564 165l20 40"/><path d="M574 207l10-2 1-10"/>
+  </g>
+</svg>

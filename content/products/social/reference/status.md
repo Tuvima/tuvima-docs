@@ -19,7 +19,8 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 | Conversations | Formatting, link previews with click-to-play, content warnings, quotes, mentions, edit history, flat and nested views. |
 | Coming back | Bell notices, watch, save, the You page and persona editing. Reply and mention emails are being switched on. |
 | Votes, reactions and points | Up and down votes and seven reactions on every post. Reputation and levels show next to names and on persona pages, with badges and Helpful this month. Owners can rename and tune their levels. Front-page removals show a public reason. |
-| Safety | Reports, hiding and removing posts, suspensions and bans, moderation records, newcomer limits, spam protection. |
+| Keeping votes honest | A hidden trust check that can only hold back accounts that act like bots, break front-page rules or vote in coordinated groups. Nightly vote-ring checks, and sudden floods of votes on a front-page post counting gradually. See [Reputation and levels](../guides/reputation.md#keeping-votes-honest). |
+| Safety | Reports, front-page reports to Tuvima staff, folding serious abuse on the front page until staff review it, hiding and removing posts, suspensions and bans, moderation records, newcomer limits, spam protection. |
 | Owner tools | Setup steps, ranks, members page, numbers, launch checklist, themes, banners, page blocks, categories and forums, and labels on Tuvima. |
 | Help | A help centre and draft rules and policies. |
 
@@ -27,7 +28,7 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 
 | Feature | What it will do |
 | --- | --- |
-| Seeing your Reputation and level | Your level and Reputation next to your name, your persona page breakdown, badges, Helpful this month, and owners naming their own levels. See [Reputation and levels](../guides/reputation.md). |
+| Appealing a front-page fold | Today the author of a folded post cannot appeal; Tuvima staff review every fold. |
 | A feed made for you | A front page shaped by the communities and subjects you follow. |
 | Connect your website | Bring articles from a website you already run into your community and the front page. |
 | Your own web address | Move your community to a web address you own, with old Tuvima links forwarding to it. |

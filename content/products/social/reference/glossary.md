@@ -13,6 +13,7 @@ status: early-access
 | **Category** | A broad subject on the front page, such as Gaming. Communities also have their own categories, headings that group their forums. |
 | **Community** | A space on Tuvima for a group with something specific in common, with its own members, rules and look. |
 | **Content warning** | A label that blurs a post until the reader chooses to see it. |
+| **Fold** | On the front page, hiding a post behind a notice after trusted members report it for serious abuse, until Tuvima staff review it. Readers can still choose **Show anyway**. |
 | **Forum** | A place inside a community where conversations live, grouped under one of the community's categories. |
 | **Front page** | The shared feed at tuvima.com, where everyone's posts appear by category. |
 | **Full member** | A member who is no longer limited as a newcomer. |
@@ -30,6 +31,7 @@ status: early-access
 | **Rank** | What someone can do in a community: Member, Moderator, Admin or Owner. |
 | **Reaction** | One of seven ways to say how a post made you feel: Love, Funny, Insightful, Thanks, Wow, Sad or Angry. Reactions never move a post up or down. |
 | **Vote** | Up or down on a post: "more like this" or "less like this". Votes decide what rises. |
+| **Vote ring** | A group of accounts that mostly vote together or for each other. Their votes on the same post count as one. |
 | **Reputation** | Points a member earns in one community when other people value what they wrote. |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
