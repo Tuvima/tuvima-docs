@@ -8,9 +8,9 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, badges, credit for good conversations, Helpful this month, and owners naming and tuning their own levels.
+**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, badges, credit for good conversations, Helpful this month, owners naming and tuning their own levels, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
 
-**Coming next:** the private safety check and folding serious abuse. Names and numbers may change after testing.
+Names and numbers may change after testing.
 :::
 
 Tuvima wants helpful people to be recognised for being helpful, without turning conversations into a contest. Reputation is how a community says "thank you, that was useful".
@@ -39,7 +39,7 @@ A few rules keep it fair:
 - **Steady help beats one lucky post.** After a post earns a lot, it earns more slowly.
 - **Good conversations count.** If your reply starts a thread of replies that people value, you earn a share of it. A pile-on does not.
 - **Links alone earn nothing.** What you write with a link earns like any post. A link that starts a real discussion can earn a "Sparked a conversation" badge.
-- **Disagreeing is free.** A down vote never takes Reputation away. Points are taken back only if the post that earned them is removed for breaking the rules, or the votes behind them turn out to be fake.
+- **Disagreeing is free.** A down vote never takes Reputation away. Points are taken back only if the post that earned them is removed for breaking the rules, or the votes behind them turn out to be fake (see [keeping votes honest](#keeping-votes-honest)).
 - **Nobody can edit it.** Not a community owner, not Tuvima staff. Reputation is your history and does not fade.
 
 ## It stays in each community
@@ -95,9 +95,34 @@ Some communities will offer a paid **Supporter** membership. An owner may let su
 
 Up and down votes from members with a higher level count for more, from a quarter of a vote for someone brand new up to three votes at the top. How much a single vote counts varies at random each time, within the member's limit, so nobody can plan a "power vote". It evens out over many votes. Reactions never change a post's place.
 
-## Keeping the front page safe
+## Keeping votes honest
 
-- **A private safety check.** Tuvima keeps a hidden check on each account, built from spam flags, staff actions and behaviour that looks automated. It can only hold someone back, never boost them, and it is never shown as a score.
-- **Folding serious abuse.** If several trusted front-page members report a post for something serious, such as a threat, someone's private details, illegal content or a scam, it is folded behind a notice until Tuvima staff review it. Anyone can still choose to read it. Disagreement or "offensive" opinions never fold a post. People who fold posts wrongly lose the ability to fold for a while.
+Reputation and Trending only mean something if the votes behind them are real. Tuvima does three things quietly in the background.
 
-Inside communities, moderation stays with each community's own moderators. See [reporting and moderation](reporting-and-moderation.md).
+### A hidden trust check
+
+Tuvima gives less weight to accounts that act like bots, that Tuvima staff have caught breaking the front-page rules, or that vote together in coordinated groups.
+
+- It can only hold someone back. It never boosts anyone.
+- Nobody sees it, not the member, not other members and not Tuvima staff. It is not a score and is never shown anywhere.
+- It wears off over time, so an account that behaves normally gets back to full weight.
+
+Most members are never affected by it.
+
+### Vote rings
+
+A **vote ring** is a group of accounts that mostly vote together, or mostly vote for each other. A check runs every night to find them. While a group is flagged, its members' votes on the same post count as one vote.
+
+Tuvima staff can review a flagged group. If they confirm it, the group's recent votes are taken back, along with the Reputation those votes earned. Anyone who earned points honestly from other people keeps them.
+
+### Sudden floods of votes
+
+When a front-page post suddenly gets a flood of votes, they count gradually rather than all at once. A real crowd still counts in full within a few hours. A coordinated push loses the moment it was trying to win.
+
+## Folding serious abuse on the front page
+
+If enough trusted front-page members report a post for serious abuse, such as a threat, someone's private details, illegal content or a scam, it is **folded**: hidden behind a notice until Tuvima staff review it. Anyone can still choose to read it, and it keeps its votes. Disagreement, or calling a post misleading, never folds it. Members who help fold posts that staff then bring back lose the ability to fold for a while, and can lose a level if it happens again.
+
+[Reporting and moderation](reporting-and-moderation.md#folded-posts-on-the-front-page) explains who can fold a post, what readers and the author see, and what happens after staff decide.
+
+Inside communities, moderation stays with each community's own moderators, and there is no folding. See [reporting and moderation](reporting-and-moderation.md).
