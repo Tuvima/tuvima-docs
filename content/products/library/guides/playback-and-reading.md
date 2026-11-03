@@ -47,24 +47,34 @@ On desktop, **Close player** saves a checked, paused position and ends the audio
 
 1. Open **Watch** and select a movie or TV show.
 2. Choose **Watch** or **Resume**. A show starts an in-progress episode or the first owned episode.
-3. Use the bar at the bottom: Play, back and forward 10 seconds and Mute on the left; the episode name in the middle (for example "From E4 · Episode name"); and Next episode, Episodes, Bookmarks, Subtitles & Audio, Speed and Full screen on the right. A control turns purple when you point at it, and keeps a purple underline while it is on (subtitles showing, speed not 1×, muted). Panels open when you point at their icon and close when you move away; click an icon to keep its panel open. When you pause, the picture dims a little and the show, episode and name appear in the middle until you play again.
+3. Use the bar at the bottom. Play, back and forward 10 seconds and a speaker button are on the left; the episode name is in the middle (for example "From E4 · Episode name"); the tools you need for this title are on the right, then Full screen. Every control is large, and a control grows a little and shows its name when you point at it or tab to it. The speaker button opens a short upright volume slider when you point at it; click the button to mute. When you pause, the picture dims a little and the show, episode and name appear in the middle until you play again.
 4. Choose **Close** to return to the movie or the episode's show details.
 
-Episode lists and Up Next use episodes you own. A provider listing alone is not playable. Audio tracks, subtitles, and quality depend on the file and server. **Subtitles & Audio** shows every audio language in the file next to the subtitles. If your browser cannot switch audio on a file it plays directly, Library asks the Engine for the same video with every audio track and carries on from the same second after a short "Switching audio…". Subtitle size and background are in your profile's playback settings.
+Each kind of video shows only the tools that fit it:
+
+| You are watching | Tools on the right |
+| --- | --- |
+| A movie | Bookmarks, Settings, Speed |
+| A TV episode | Episodes (the season list, with what plays next), Bookmarks, Settings, Speed, and Next episode |
+| Other video that belongs to a series | Lessons, Bookmarks, Settings, Speed |
+
+Episode lists and what plays next use episodes you own. A provider listing alone is not playable. Audio tracks, subtitles and quality depend on the file and server. **Settings** (the gear) has **Audio**, **Subtitles** and **Styling**. Audio and Subtitles list every language in the file; if your browser cannot switch audio on a file it plays directly, Library asks the Engine for the same video with every audio track and carries on from the same second after a short "Switching audio…". If you have not switched on a subtitle source, Subtitles says so and the "find subtitles" row is hidden. **Styling** sets subtitle size, font, shadow, colour and background; the change shows at once and is saved on your profile.
 
 Video can play directly when the client supports the source. Other files may need browser-ready delivery first. That can delay playback.
 
 ## Bookmarks in videos and audiobooks
 
-In the video player, choose **Bookmarks** and click **Add bookmark here** (it shows the time) to save a personal bookmark in one click; type a note first if you like, and press Enter to save it with the note. While watching, press **B** to add a bookmark without opening anything (a line on the progress bar says "Bookmark added" for two seconds), or **Shift+B** to open the list. Under the add row the panel lists the title's bookmarks in time order, earliest first, with who made each one (Mine, Everyone or a pack), **Play** and, for ones you may change, **Delete** (it asks "Delete?" in place). **More…** opens the full panel for the longer description, scene end time and packs.
+In the video player, choose **Bookmarks**. The pane opens above the bar, tall enough to browse a long list. **Add bookmark here** (it shows the time) saves a personal bookmark in one click; type a note first if you like, and press Enter to save it with the note. There is no keyboard shortcut for bookmarks, so a stray key press never adds one.
 
-The audiobook player keeps its panel with **Add** and **Saved**. Add captures the moment the panel opens, so it is not lost while you type. It shows the chapter name when there is one, lets you preview the captured spot, and takes a short note (up to 200 characters) and, in a video, an optional longer description (up to 4,000). Saved lists the title's bookmarks, newest first, with jump-to and delete.
+Under the add row the pane lists the title's bookmarks in time order. When the title has both kinds, a filter appears: **All**, **Mine** or **Global**. Library remembers your choice on your profile. **Mine** are yours alone. **Global** bookmarks are shared with everyone who can see the title; they are read-only for everyone except an administrator, who can rename, edit (name, note, longer description) and delete them. Each row has **Play** and, for ones you may change, **Delete** (it asks "Delete?" in place).
 
-In a video each bookmark is a small round bubble on the progress rail (purple for yours, white for Everyone, blue for a pack), while the file's own chapters stay thin lines. Point at a bubble (or tap it on a touch screen) to see its time and short note, with Play and Delete; if it has a longer description, choose **More**. Bookmarks are personal to the profile that made them. A server administrator can switch on **Share with everyone** when adding, which makes a shared bookmark with a different tick shade and a small "Everyone" label; everyone who can see the title sees it, and only administrators can delete it. Adding a bookmark works on a phone or tablet and does not need Editing Mode.
+An administrator on a computer or tablet also sees **Everyone's**. It lists every profile's personal bookmarks with the owner's name, and **Promote** turns one into a Global bookmark at once, with no confirmation (a short glow marks the row). Promoting a bookmark replaces personal bookmarks within three seconds of it, so a moment is never listed twice. Everyone's is not offered in the Vault, on a phone or on a TV.
 
-### Bookmark packs
+By default the progress bar stays clean. Switch on **Show bookmarks on the bar** in the pane (or in **Settings > Playback**) to see a small round bubble for each bookmark: the accent colour for yours, white for Global. Point at a bubble (or tap it on a touch screen) to see its name, time and note, with Play; if it has a longer description, choose **More**. Chapter ticks are off for video by default and on for audiobooks; both are in **Settings > Playback**.
 
-At the bottom of **Saved** in the video player, **Export** lets you pick some of your own bookmarks, review them and save a small pack file you can give to someone else; **Import** reads a pack someone gave you. The pack holds only how to recognise the film or show and each bookmark's time, end, chapter name, short note and longer description: no file paths, no profile names and nothing about what you watched. If the pack is for a different title it is refused; if it was made on a different cut (another running time or edition) you can **Align by chapter** or **Skip**. Imported bookmarks are read-only **pack bookmarks**, shown with the pack's name and author and their own tick shade on the progress rail, and each pack can be switched off or removed. They belong to your profile, are included in your library backups, and are not offered in the Vault.
+The audiobook player keeps its panel with **Add** and **Saved**. Add captures the moment the panel opens, so it is not lost while you type. It shows the chapter name when there is one, lets you preview the captured spot, and takes a short note (up to 200 characters). Saved lists the title's bookmarks, newest first, with jump-to and delete.
+
+Adding a bookmark works on a phone or tablet and does not need Editing Mode.
 
 ## Resume and save separately
 
