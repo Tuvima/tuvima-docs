@@ -28,11 +28,11 @@ How Tuvima lets users correct media from the surface where they find the issue.
 - `src/MediaEngine.Web/Components/MediaEditor/SharedMediaEditorShell.razor`
 - `src/MediaEngine.Api/Endpoints/MetadataEndpoints.cs`
 
-Tuvima no longer uses a separate media management workbench. Users browse through Home, Read, Watch, Listen, Search, and detail pages. When a media item needs correction, the edit action appears on that same surface: on a single item's detail page it turns on Editing Mode, elsewhere it opens the shared media editor in a dialog.
+Tuvima no longer uses a separate media management workbench. Users browse through Home, Read, Watch, Listen, Search, and detail pages. When a media item needs correction, the edit action appears on that same surface: on a single item's detail page and in a list it opens the pop-over editor.
 
 ## Product model
 
-- Normal single-item correction happens in **Editing Mode** on the detail page: choosing Edit in the page's "..." menu shows a banner and per-field pencils, and Manage Artwork, Match and Identity and History open as one section directly below the hero (`EditingSectionSlot`), which hosts the same `SharedMediaEditorShell` sections in line. There is no drawer. See [Editing Mode](#editing-mode).
+- Normal single-item correction happens in the **pop-over editor**: choosing Edit in an item's "..." menu opens it at once over the page, with Details, Artwork, Match and History across the top and a family tree down the left. See [The pop-over editor](#the-pop-over-editor).
 - Review, browse-row and Recently Added correction, and the people, series-shelf and curated-collection editors, open the same editor shell in a dialog through `MediaEditorLauncherService.OpenAsync` because they originate outside a single item's detail page.
 - Review Queue is only for blocked, uncertain, or low-confidence items that need human confirmation.
 - Settings/Admin is for folders, providers, profiles, ingestion status, system health, logs, and configuration.
