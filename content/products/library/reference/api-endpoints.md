@@ -786,7 +786,9 @@ The action itself enforces the rule, so an application (a non-Dashboard caller h
 | GET | `/read/{assetId}/search` | Full-text search within EPUB content | Required |
 | GET | `/reader/{assetId}/bookmarks` | List bookmarks for an asset | Required |
 | POST | `/reader/{assetId}/bookmarks` | Create a bookmark | Required |
-| DELETE | `/reader/bookmarks/{bookmarkId}` | Delete a bookmark. Another profile's bookmark answers `404`. | Required |
+| GET | `/reader/{assetId}/bookmarks/everyones` | Every profile's personal bookmarks in a book with the owner's name (`ownerName`). Server administrators only (`403` otherwise); a Vault book is refused | Required |
+| POST | `/reader/bookmarks/{bookmarkId}/promote` | Make a personal bookmark Global at once (optional `name`); personal bookmarks in the same paragraph are replaced by it. Server administrators only | Required |
+| DELETE | `/reader/bookmarks/{bookmarkId}` | Delete a bookmark. Another profile's personal bookmark answers `404`; a Global bookmark is deleted only by an administrator. | Required |
 | GET | `/reader/{assetId}/highlights` | List highlights. Rows made by the book reader carry `cfiRange`; rows from the retired reader have it `null`. | Required |
 | POST | `/reader/{assetId}/highlights` | Create a highlight. The book reader sends `cfiRange` (an `epubcfi(...)` range, at most 4096 characters) with `chapterIndex`, `startOffset` and `endOffset` all `0`. `color` must be one of the supported highlight colours, `selectedText` and `noteText` at most 4000 characters; anything else answers `400`. | Required |
 | PUT | `/reader/highlights/{highlightId}` | Change a highlight's colour and note (a missing note clears it). Another profile's highlight answers `404`. | Required |

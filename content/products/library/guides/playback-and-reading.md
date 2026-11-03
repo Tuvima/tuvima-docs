@@ -62,6 +62,10 @@ Episode lists and what plays next use episodes you own. A provider listing alone
 
 Video can play directly when the client supports the source. Other files may need browser-ready delivery first. That can delay playback.
 
+## Bookmarks in books
+
+In the book reader, open **Bookmarks and highlights** and choose **Bookmark this page**. A bookmark marks the page you are on. A small **Global** tag marks a bookmark shared with everyone who can see the book. Administrators also see **Everyone's** (other people's bookmarks in this book, with their names) and a **Promote** button on each personal bookmark; promoting makes it Global at once and folds in personal bookmarks from the same paragraph, so a place is never listed twice. Only an administrator deletes a Global bookmark. Bookmarks you made before this arrived are still yours.
+
 ## Bookmarks in videos and audiobooks
 
 In the video player, choose **Bookmarks**. The pane opens above the bar, tall enough to browse a long list. **Add bookmark here** (it shows the time) saves a personal bookmark in one click; type a note first if you like, and press Enter to save it with the note. There is no keyboard shortcut for bookmarks, so a stray key press never adds one.
