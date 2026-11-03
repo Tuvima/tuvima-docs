@@ -19,6 +19,12 @@
       "section": "Start here"
     },
     {
+      "source": "guides/first-run-setup.md",
+      "slug": "guides/first-run-setup",
+      "group": "Guides",
+      "section": "Start here"
+    },
+    {
       "source": "tutorials/first-library.md",
       "slug": "tutorials/first-library",
       "group": "Guides",
