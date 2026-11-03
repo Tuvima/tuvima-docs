@@ -59,6 +59,16 @@ TMDB and TheTVDB artwork passes record their outcome on the item, its work and i
 
 Before downloading, a pass takes the per-URL download lease, then re-reads the owner's stored artwork. A concurrent pass that already saved the same image is reused rather than stored twice.
 
+## Episode stand-in pictures
+
+TheTVDB is the only source Library uses for TV: identity, numbering, order and artwork. There is no fallback to another catalogue (TMDB) for TV. Matching two catalogues needs a long pairing ladder and, when a pairing is wrong, puts the wrong picture on the wrong episode. Checks on 17 real shows found TheTVDB nearly complete for regular episodes; the real gaps are a few shows (one has 115 of 143 episode pictures missing) and the Stephen Curry MasterClass, which TMDB does not list at all. A blank is honest but looks broken, and a wrong real-looking picture would be worse, so Library shows a clearly marked stand-in instead.
+
+- **What it looks like:** the show's own landscape backdrop, dimmed, with the episode number over it (a special shows its own label, for example S1) and a small "Show image" tag. If the show has no backdrop, a Library tile with the same number and tag stands in.
+- **It is data, not a file:** the episode records `episode_still_standin` (the date of the next check) and the Dashboard draws the stand-in when it shows the episode. Nothing is saved as the episode's artwork and nothing is written into media files, folders or sidecars, so a stand-in can always be told apart from a real picture and never touches your disk.
+- **Checked again every 90 days:** the existing TheTVDB refresh (`stage3_refresh_days`, 90 by default) asks again. Only episodes with a stand-in are re-checked, so the cost is small.
+- **A real picture always wins:** when TheTVDB gains a picture, or a person chooses one in the editor, it replaces the stand-in with no confirmation and the mark is cleared. The file facts row for the picture reads "Stand-in from show image" with the next check date, then "TheTVDB".
+- **Why not hide it:** an honest tag keeps a whole season of identical stand-ins from being mistaken for real stills.
+
 ## API and UI
 
 - The user-facing library has one destination, **View > Artwork Library** at `/view/artwork`. Older `/view/artwork/media`, `/people`, `/universes`, and `/assets` bookmarks resolve to the same browser; they are not separate browse modes.
