@@ -53,6 +53,12 @@ A bookmark file from outside can be a few seconds off from yours: a different re
 
 Because the Engine alone decides how close two bookmarks are, every screen, and every kind of media, agrees on what "Same spot" means. The limits live in a plain config file rather than a Settings page: they are rarely changed, they are different for a second, a page and a place in a book, and a page full of sliders would make an easy feature look hard.
 
+## Why books compare places by chapter and paragraph
+
+A book has no clock. Where a film says "12 minutes 40 seconds", a book says "this paragraph of this chapter", and that address only means something inside the file it came from: another edition (a new translation, a different publisher's file) breaks the text into different pieces, so the same sentence has a completely different address. Library therefore compares two places only when they come from the same file: the same paragraph is the same spot, the same chapter is close, and up to two chapters away is far. It never guesses across editions.
+
+When a bookmark file was made on another edition, Library says so and offers **Align by chapter** instead: each bookmark moves to the start of the chapter with the same name. That is less exact than a paragraph, but it is honest, because chapter names are the one thing editions of a book tend to share, and landing at the top of the right chapter is better than landing somewhere wrong.
+
 ## Why packs are gone
 
 Bookmark packs kept a separate read-only copy of someone else's bookmarks for each person, under the pack's name. That meant the same moment could be listed twice and an administrator's import helped nobody else. Now a file simply becomes bookmarks: Global if an administrator applied it, yours otherwise. One list, one set of rules, nothing extra to remove later.

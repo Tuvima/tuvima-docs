@@ -71,6 +71,8 @@ Bookmarks move between Libraries as a small bookmark file, and only through the 
 
 A bookmark file is a `.zip` that follows the same conventions as a recovery point: a `manifest.json` (`schema_version`, `created_at`, `includes_secrets: false`) and one `pack/bookmarks.json`, checked on the way in with the same refusals (unexpected entries, unsafe paths, oversized or over-compressed contents). Like a recovery point it has no password, because it holds nothing secret: only how to recognise the title (IMDb, TMDB, TVDB, Wikidata or YouTube IDs, running time and edition) and, for each bookmark, its time, optional end, chapter name, short note and longer description. It never holds file paths, profile names or what anyone watched, and a Vault title can be neither exported nor imported.
 
+A bookmark file for a book works the same way, with a reader location in place of a time, plus a fingerprint of the book file so Library can tell whether the file came from the same edition. The fingerprint is a hash of the file's contents, never its name or folder. A file made for a film cannot be applied to a book, or the other way round.
+
 A file is no longer kept as a "pack". Applying one turns its bookmarks into ordinary bookmarks, so there is no pack name, no blue dot and no per-pack switch to manage afterwards, and the old Export and Import for personal packs are gone. Files made earlier still open.
 
 ## Move people to another Library
