@@ -311,6 +311,12 @@
       "section": "Extend Tuvima"
     },
     {
+      "source": "guides/writing-a-plugins-settings.md",
+      "slug": "guides/writing-a-plugins-settings",
+      "group": "Develop",
+      "section": "Extend Tuvima"
+    },
+    {
       "source": "reference/plugin-catalog.md",
       "slug": "reference/plugin-catalog",
       "group": "Develop",
