@@ -43,6 +43,10 @@ A clean progress bar comes first. If you like the extra marks, switch them on in
 
 You bookmark for yourself. An administrator can promote the best bookmarks to Global so everyone benefits. Promotion is immediate and asks nothing, because nobody loses a bookmark and everybody gains one. If a promoted bookmark is within three seconds of someone's own, theirs is folded into it so the same moment is never listed twice. Only administrators edit or delete Global bookmarks, so a shared bookmark cannot be changed by accident; everyone else sees them read-only. Everyone's, the administrator's view of other people's bookmarks, is only on desktop and tablet and never in the Vault, because it shows what other people saved.
 
+## Books follow the same rules, measured in chapters
+
+A book bookmark is a saved place in the text, not a time, so "close" means something different: the same paragraph is the same spot, the same chapter is close, and up to two chapters away is far. Library can only compare two places inside the same file, because another edition of the book has different markup behind the same words. That is why a bookmark file from a different edition is placed by chapter name instead of by position. When an administrator promotes a book bookmark, personal bookmarks in the same paragraph are folded into it, just as bookmarks within a few seconds are for a film.
+
 ## Why Find bookmarks shows two bookmarks side by side
 
 A bookmark file from outside can be a few seconds off from yours: a different release, an extra logo at the start. Applying it blind would either pile up near-duplicates or overwrite what you already have. So Library shows each incoming bookmark beside the nearest one you own, says how far apart they are, and lets you tap the one you prefer. The tap also jumps the player there, so you decide by looking at the scene rather than reading numbers. Nothing changes until Apply, and the defaults are the ones most people would pick (take the incoming bookmark when it is the same spot, keep yours when it is merely close), so most files apply with a single click.
