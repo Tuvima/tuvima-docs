@@ -27,6 +27,12 @@ An icon on its own is hard to read for some people, and for anyone using the key
 
 The old "CC" button only covered subtitles. Audio and the look of your subtitles belong in the same place, so there is now one gear menu with Audio, Subtitles and Styling. When no subtitle source is switched on, it tells you so rather than offering a search that cannot work.
 
+## Subtitles you can actually read
+
+Good subtitles depend on the screen, the room and the person watching. White text on a dark box works for most people, but not for everyone: someone with a bright room may want a solid backing, someone watching a dark film may want the box almost gone, and some people read yellow or blue text more easily than white. So the subtitle style menu (the **Aa** button beside Settings) has eight colors for the text and eight for the box behind it, plus a slider for how solid each one is. The text can be anywhere from faint to fully solid, and the box can go from none at all up to solid. The preview line at the top changes as you choose, so you see the result before you close the menu.
+
+Your choices are saved with your profile, so every title looks the way you set it, and another person in the house keeps their own look. **Reset** puts everything back to white text on a soft black box. If you slide the background to none, subtitles get a gentle shadow instead so they stay readable over a bright scene. On a tablet or phone the swatches are larger and nothing depends on hover.
+
 ## Each kind of media shows only what fits
 
 A film has no episodes or chapters to jump between. An audiobook lives by its chapters. Music is about the queue. Showing only the controls that fit keeps the bar calm, and you never wonder what a button would do on a film.

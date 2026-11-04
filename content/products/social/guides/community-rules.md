@@ -28,6 +28,24 @@ Tuvima also has some automatic protections. These are the current settings, and 
 - If the same link is posted many times in a few minutes, the community is paused for a staff member to check.
 - Anyone can make up to 60 changes a minute, such as posts, reactions or edits. Reading is never limited.
 
+## Your community's own rules
+
+Each community's rules are a numbered list. A rule keeps its number, even when other rules are added or removed, so "rule 3" always means the same rule.
+
+### When the rules change
+
+Every member gets a notice when the rules change. You can see what changed, and read earlier versions.
+
+Some changes are marked **important** by the community's owner. Only the owner can do this. After an important change you can still read the community, but you are asked to agree to the new rules before you post, reply, react or vote again.
+
+### Forum guidelines
+
+A forum can have its own guidelines. They appear above the editor, so you see them as you write.
+
+### When a post breaks a rule
+
+Moderators can name the rule a post broke. The author sees which rule it was and any note the moderator added. When you [report a post](reporting-and-moderation.md#report-a-post-in-a-community), you can pick the rule you think it broke.
+
 ## The full rules
 
 Our Terms of service, Privacy policy, Content rules and Cookie notice are written in plain English and are being reviewed by a lawyer before Tuvima opens to everyone. Until then, each is marked **Draft, under review** on Tuvima.
