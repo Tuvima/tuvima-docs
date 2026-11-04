@@ -10,7 +10,7 @@ const wordmark = hub.record && hub.record.slug === hub.item?.path && hub.item?.w
 
 {wordmark ? (
 	<div class="has-wordmark">
-		<div class="wordmark"><img src={wordmark.logo ?? '/favicon.svg'} alt="" /><span class="tuvima-word">{wordmark.name}</span></div>
+		<div class="wordmark"><img class:list={[wordmark.logoLight && 'logo-on-dark']} src={wordmark.logo ?? '/favicon.svg'} alt="" />{wordmark.logoLight && <img class="logo-on-light" src={wordmark.logoLight} alt="" />}<span class="tuvima-word">{wordmark.name}</span></div>
 		<Default><slot /></Default>
 	</div>
 ) : <Default><slot /></Default>}

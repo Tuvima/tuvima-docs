@@ -46,7 +46,7 @@
       "id": "id",
       "name": "Tuvima ID",
       "icon": "seti:lock",
-      "logo": "/favicon.svg",
+      "logo": "/brand/tuvima-id.svg",
       "description": "One private sign-in for Tuvima. Your email stays here; the communities you join see only the profile you choose.",
       "path": "products/id",
       "status": "early-access",
@@ -57,7 +57,8 @@
         "Guides",
         "Reference"
       ],
-      "wordmark": "tuvima-logo.svg"
+      "wordmark": "tuvima-logo.svg",
+      "logoLight": "/brand/tuvima-id-light.svg"
     },
     {
       "area": "products",

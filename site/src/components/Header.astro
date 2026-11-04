@@ -33,7 +33,7 @@ const itemHome = hub.switcher.find(s => s.current)?.href;
 	{showItemBar && (
 		<div class="item-bar sl-hidden md:sl-flex" role="navigation" aria-label={`${hub.item!.name} sections`}>
 			<a class="item-name" href={itemHome}>
-				<img class="item-logo" src={hub.item!.logo ?? '/favicon.svg'} alt="" width="22" height="22" />{hub.item!.name}
+				<img class:list={['item-logo', hub.item!.logoLight && 'logo-on-dark']} src={hub.item!.logo ?? '/favicon.svg'} alt="" width="22" height="22" />{hub.item!.logoLight && <img class="item-logo logo-on-light" src={hub.item!.logoLight} alt="" width="22" height="22" />}{hub.item!.name}
 			</a>
 			<details class="item-switcher">
 				<summary>Switch product or library</summary>
