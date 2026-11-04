@@ -7,9 +7,8 @@ const searchButton = '<button type="button" class="hub-search" data-hub-search><
 
 
 function card(item) {
-  const title = item.wordmark
-    ? `<a href="/${esc(item.path)}/" class="hub-card-wordmark" aria-label="${esc(item.name)}"><img src="${esc(item.logo ?? '/favicon.svg')}" alt="" width="32" height="32" /><span class="tuvima-word">${esc(item.name)}</span></a>`
-    : `<a href="/${esc(item.path)}/"><img class="hub-card-logo" src="${esc(item.logo ?? '/favicon.svg')}" alt="" width="28" height="28" />${esc(item.name)}</a>`;
+  // Every tile shows the item's mark and its name in Tuvima Sans, the same way for every product and library.
+  const title = `<a href="/${esc(item.path)}/" class="hub-card-wordmark"><img src="${esc(item.logo ?? '/favicon.svg')}" alt="" width="40" height="32" /><span class="tuvima-word">${esc(item.name)}</span></a>`;
   return `<div class="hub-card"><h3>${title}</h3><p>${esc(item.description)}</p><p class="hub-card-meta"><span class="hub-status">${esc(statusLabels[item.status] ?? item.status)}</span><a href="${esc(itemStart(item))}">Get started</a></p></div>`;
 }
 const cardGrid = items => `<div class="hub-cards">\n${items.map(card).join('\n')}\n</div>\n`;

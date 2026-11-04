@@ -28,7 +28,7 @@
       "id": "social",
       "name": "Tuvima",
       "icon": "comment",
-      "logo": "/brand/tuvima.svg",
+      "logo": "/favicon.svg",
       "description": "A home for communities: find people who share your interests, join the conversation, or start a community of your own.",
       "path": "products/social",
       "status": "early-access",
@@ -38,14 +38,15 @@
       "groups": [
         "Guides",
         "Reference"
-      ]
+      ],
+      "wordmark": "tuvima-logo.svg"
     },
     {
       "area": "products",
       "id": "id",
       "name": "Tuvima ID",
       "icon": "seti:lock",
-      "logo": "/brand/tuvima-id.svg",
+      "logo": "/favicon.svg",
       "description": "One private sign-in for Tuvima. Your email stays here; the communities you join see only the profile you choose.",
       "path": "products/id",
       "status": "early-access",
@@ -55,7 +56,8 @@
       "groups": [
         "Guides",
         "Reference"
-      ]
+      ],
+      "wordmark": "tuvima-logo.svg"
     },
     {
       "area": "products",
