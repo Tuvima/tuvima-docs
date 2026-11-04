@@ -96,6 +96,8 @@ Universe Explore is for browsing, not editing. If your role allows it, open univ
 
 Within that editor, you can switch between a universe and its characters, places, groups, events, or objects. Details and Artwork changes apply to the chosen target. Graph facts stay read-only. An entity edit does not reorder a media shelf.
 
+To edit one thing, open its own page from the Universe (choose its tile) and choose **Edit**. Besides name, description and other names, its Details tab has **Belongs to** (a faction, place or species of the same Universe) and **On the Universe page** (Shown or Hidden). Hiding keeps the thing but removes it from the rails, the Timeline and other things' connection lists, so you can tidy a Universe without losing anything. Belongs to never offers a choice that would make two things belong to each other. [How a Universe page works](../explanation/how-universes-work.md) explains why.
+
 ## Resolve blocked items
 
 Use [Review Queue](resolving-reviews.md) when Tuvima asks for a human decision. For a normal title, cover, or note change, open Edit on the item.
