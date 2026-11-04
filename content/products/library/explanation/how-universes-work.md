@@ -43,6 +43,20 @@ A Universe is the larger world several of your Series belong to. Open **Collecti
 
 The Universe page shows its name and how much of it you own, then each Series in order with "Also in this world" underneath, any standalone works, and a Connections section listing the people who appear across formats, what was adapted from what, and the Universe's characters. Every row there says where it came from (Wikidata, or an approved lore source such as a Fandom wiki), and choosing a person or a character shows every Work you own that shares them. Characters follow your **spoiler level** (Settings, Preferences, Playback, Spoilers; **Up to where I am** unless you choose **Everything**). With the default, a character first seen in a later episode than you have reached, or marked as a spoiler for something you have not finished, is held back, and the page says how many were hidden; one the Library cannot place (they appear only in something you have not started, or somewhere in a book or show with no episode to point to) is listed by name only, with "No plot details". The Library works out where a character first appears from the episodes you own, matched by Wikidata item and never by a name; books and audiobooks carry no chapter information from any source, so they are never narrowed to a chapter. A character you have met in any one title is shown, even when another title first sees them later. Entries you do not own can be shown as dashed "Not in library" placeholders in their place if you chose to see missing entries for that Series; otherwise only a quiet count is shown. While the Library is still learning about a Universe the page says so and shows how far it has got, rather than inventing connections. On a computer, Connections links to the explorer for paths between characters and the family tree.
 
+## What a Universe holds besides its Works
+
+Below the Series, a Universe page shows rails of picture tiles for everything the world contains: **Characters**, **Factions**, **Places**, **Events**, **Objects**, **Species** and **Concepts**. A rail appears only when it has something to show, and each tile says where it came from (Wikidata, a lore source such as a Fandom wiki, or you).
+
+The spoiler rule that already protects Characters protects every kind. A Place or Faction you have not reached yet is left out and only counted ("3 more are held back to avoid spoilers"), and one the Library cannot place is listed by name only, with "No plot details". The reasoning: a Universe page should never tell you something the stories you own have not told you yet, whatever kind of thing it is.
+
+Pictures come from the Library's own copies, never from a live link, so a tile loads quickly and works offline. Factions and Objects show their logo when they have one, on a plain tile so a wide logo is never cropped. A thing with no picture shows its first letter instead of a broken image.
+
+**Concepts** (ideas such as a religion or a kind of magic) have no reliable structured source on Wikidata, so they appear only when an approved lore source describes them, or when you add one yourself. This keeps the page from filling with vague, unverifiable entries.
+
+A **Timeline** strip appears when at least three things have a known date. It opens in story order when the stories give years, with a switch to release order; things with no story year come last. Fewer than three dated things would not make a useful line, so the strip stays hidden.
+
+You can add things Wikidata does not know (marked **Added by you**), give any thing extra names, say which other thing it belongs to, or hide it. Your changes are kept separately from provider facts, so a refresh never overwrites them, and a thing you added is never replaced or removed by enrichment.
+
 ## Build your own collections separately
 
 A custom collection can use manual membership or complete dynamic rules. Profile-owned collections are private unless supported sharing policy allows otherwise. Only administrators publish or manage library-wide collections.
