@@ -65,7 +65,15 @@ You can search, filter and file from the Inbox on a phone. Editing every detail 
 
 ## The Shared Library
 
-You can send documents to the household's Shared Library. A shared copy keeps its tags, date, correspondent, type, archive number, notes and custom field values. Documents that sit in the Shared Library can show up in its Inbox. A household administrator or the server administrator files them from the Inbox card with **File**, or in bulk with **Mark filed**, so the Shared Inbox can be emptied; everyone else, including child profiles, sees those cards read-only with the note "Filed by a household administrator". Other bulk edits skip Shared documents, and household administrators' rules can still file them automatically.
+Documents work the way Photos do: each person has their own, and the household has one shared set. You can send documents to the household's Shared Library. A shared copy keeps its tags, date, correspondent, type, archive number, notes and custom field values.
+
+Shared documents are just shared documents. They have no Inbox of their own, and nothing waits for an administrator before it appears: a document added to Shared shows up straight away, with the name of the person who added it once two or more people have added items. This is deliberate. An Inbox is a to-do list of things you have not sorted yet, and that only makes sense for your own papers. A household list that one administrator had to empty would leave everyone else looking at documents they could see but not tidy. Your own Inbox stays in **Mine**.
+
+Anyone who may use Documents and open the Shared Library can tag a shared document and edit its details (title, date, correspondent, type, archive number, notes and custom fields), so the household keeps its papers in order together. A child profile follows its own Documents switch. Deleting a shared document stays with a household administrator, because a deletion affects everyone. Bulk edits skip Shared documents, so a quick tick-and-apply cannot change the whole household's papers by accident, and a household administrator's auto-filing rules can still tidy them.
+
+## Documents that belong to something else
+
+Documents are only what sits in a **Documents** folder. A loose PDF in a folder you added as books is a book, so it is read, matched and shelved like one. Library does not guess that a PDF is "paperwork" from its shape. A manual or booklet that comes with a show, film, album, comic or book sits on that page as an Extra instead, so it stays next to the thing it belongs to.
 
 ## Who can see Documents
 

@@ -65,9 +65,15 @@ Test restore uses temporary storage, checks the recovery point exactly as a real
 
 **A recovery point from an older version can't be restored.** You will see "This backup is from an older version of the Library and can't be restored. Make a new backup with this version." A file that is damaged says "This backup file is damaged and can't be restored."
 
-## Bookmark pack files
+## Bookmark files
 
-A bookmark pack is a small `.zip` file made from **Bookmarks → Saved → Export** in the video player. It follows the same conventions as a recovery point: a ZIP with a `manifest.json` (`schema_version`, `created_at`, `includes_secrets: false`) and one `pack/bookmarks.json`, and it is checked on the way in with the same refusals (unexpected entries, unsafe paths, oversized or over-compressed contents). Like a recovery point it has no password, because it holds nothing secret: only how to recognise the title (IMDb, TMDB, TVDB, Wikidata or YouTube IDs, running time and edition) and, for each bookmark you choose, its time, optional end, chapter name, short note and longer description. It never holds file paths, profile names or what anyone watched, and a Vault title cannot be exported at all. **Import** (in the same Saved list) checks the pack is for the title, tells you when it was made on a different cut and offers **Align by chapter** or **Skip**, then adds read-only pack bookmarks labelled with the pack's name and author. Each pack can be switched off or removed on its own.
+Bookmarks move between Libraries as a small bookmark file, and only through the player: open a title, open the bookmark pane and choose **Find bookmarks** (see [Bookmarks in videos and audiobooks](playback-and-reading.md#bookmarks-in-videos-and-audiobooks)). An administrator's **Export Global bookmarks** saves that title's Global bookmarks, never anyone's personal ones, and there is no profile-level export and no whole-Library export. Everything else about your bookmarks travels in a recovery point.
+
+A bookmark file is a `.zip` that follows the same conventions as a recovery point: a `manifest.json` (`schema_version`, `created_at`, `includes_secrets: false`) and one `pack/bookmarks.json`, checked on the way in with the same refusals (unexpected entries, unsafe paths, oversized or over-compressed contents). Like a recovery point it has no password, because it holds nothing secret: only how to recognise the title (IMDb, TMDB, TVDB, Wikidata or YouTube IDs, running time and edition) and, for each bookmark, its time, optional end, chapter name, short note and longer description. It never holds file paths, profile names or what anyone watched, and a Vault title can be neither exported nor imported.
+
+A bookmark file for a book works the same way, with a reader location in place of a time, plus a fingerprint of the book file so Library can tell whether the file came from the same edition. The fingerprint is a hash of the file's contents, never its name or folder. A file made for a film cannot be applied to a book, or the other way round.
+
+A file is no longer kept as a "pack". Applying one turns its bookmarks into ordinary bookmarks, so there is no pack name, no blue dot and no per-pack switch to manage afterwards, and the old Export and Import for personal packs are gone. Files made earlier still open.
 
 ## Move people to another Library
 

@@ -242,15 +242,9 @@ A plugin of kind `declarative` has no code at all: a `plugin.json` in its own fo
 
 Admins configure plugins through typed fields in **Settings > Plugins**. They do not edit raw settings JSON or manifest JSON from the Dashboard. Put every admin-facing option in `default_settings`, then describe it with `settings_schema` in `plugin.json` or implement `IPluginSettingsSchemaProvider` when the schema has to be computed at runtime.
 
-The Dashboard understands a small JSON-schema-style subset:
+The settings page is drawn from your JSON by one page builder, the same for every plugin, so you write content and never layout (Early Access). The full vocabulary is in [Writing a plugin's settings](writing-a-plugins-settings.md): control types (toggle, choice, number, text, url, path, secret, list of choices, group list), wording (`title`, `description`, `placeholder`, `unit`, `group`, `order`), behaviour (`advanced`, `read_only`, `show_when`, `requires`), `scope` (household or profile), repeating groups with row actions, declared tests and the credentials and links on the Access card. A published schema, `plugin-settings.schema.json`, lists the same words. Settings written with only `type`, `enum`, `minimum` and `maximum` still work. Words Library does not know are ignored and reported as things to know on the [Plugin file card](using-plugins.md#the-plugin-file-card), never as an error.
 
-- `properties` with one object per setting key.
-- `title` and `description` for field labels and help text.
-- `type` values such as `boolean`, `string`, `integer`, `number`, `array`, and `object`.
-- `enum` for select controls.
-- `default`, `minimum`, `maximum`, `format: "password"`, `secret: true`, and `advanced: true`.
-
-The Engine validates typed saves against the schema when one exists. Keep manifest metadata focused on packaging and capability declarations; keep user-adjustable behavior in settings.
+The Engine validates typed saves against the schema when one exists. Administrators can read your plugin's file in Settings, and edit it with live checks (see the Plugin file card), so the schema is also what their edits are checked against. Keep manifest metadata focused on packaging and capability declarations; keep user-adjustable behavior in settings.
 
 ## Package locally
 

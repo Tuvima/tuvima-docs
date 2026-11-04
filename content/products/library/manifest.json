@@ -19,6 +19,12 @@
       "section": "Start here"
     },
     {
+      "source": "guides/first-run-setup.md",
+      "slug": "guides/first-run-setup",
+      "group": "Guides",
+      "section": "Start here"
+    },
+    {
       "source": "tutorials/first-library.md",
       "slug": "tutorials/first-library",
       "group": "Guides",
@@ -247,6 +253,12 @@
       "section": "How it works"
     },
     {
+      "source": "explanation/why-the-player-works-this-way.md",
+      "slug": "explanation/why-the-player-works-this-way",
+      "group": "Guides",
+      "section": "How it works"
+    },
+    {
       "source": "explanation/vault.md",
       "slug": "explanation/vault",
       "group": "Guides",
@@ -301,6 +313,12 @@
     {
       "source": "guides/building-a-plugin.md",
       "slug": "guides/building-a-plugin",
+      "group": "Develop",
+      "section": "Extend Tuvima"
+    },
+    {
+      "source": "guides/writing-a-plugins-settings.md",
+      "slug": "guides/writing-a-plugins-settings",
       "group": "Develop",
       "section": "Extend Tuvima"
     },
