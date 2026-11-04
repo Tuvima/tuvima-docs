@@ -190,17 +190,17 @@ the Engine:
 The canonical edit path is:
 
 ```text
-media surface -> MediaEditorLauncherService -> SharedMediaEditorShell
+media surface -> EditorHost.OpenAsync -> EditorPopover (pop-over editor)
 ```
 
-Normal mode is launched from detail pages, browse rows/cards, book details, listen tables, albums, tracks, movies, shows, and search/detail contexts. Review mode is launched from Review Queue. Batch mode is used only where a real selection exists.
+The editor is launched from detail pages, browse rows and cards, book details, listen tables, albums, tracks, movies, shows, Recently Added, Needs Review (Fix) and search/detail contexts. Ticked rows open the same editor as "Editing N items". See [Inline media editing](inline-media-editing.md).
 
 After an edit is applied, the current surface refreshes and the user remains in the same context.
 
-Editor tab transitions are owned by `MediaEditorTabState`, including the return
-from file inspection to the last content tab. Focused overlays such as artwork
-preview belong in child components instead of adding more state and markup to
-`SharedMediaEditorShell`.
+The editor's staged changes, permission answer and artwork picker are owned by
+`EditorHost`; the window (`EditorPopover`, `EditorPanelHost`) only draws them.
+Focused overlays such as artwork preview belong in child components instead of
+adding more state and markup to the window.
 
 Listen profile navigation JSON is decoded, reordered, and encoded through
 `ListenPlaylistOrderState`. `ListenPage` should coordinate user intent and API
@@ -309,8 +309,8 @@ indented. Developer Tools requires both the Administrator role and the internal-
 - Do not add all-in-one management routes, tabs, CSS prefixes, or docs that describe removed workflows as current product behavior.
 - Do not restore removed all-in-one management implementation types.
 - Do not route normal media fixes through a management workbench.
-- Use `MediaEditorLauncherService` and `SharedMediaEditorShell` for normal, review, and batch edit flows.
-- Refresh the current surface only after the shared editor returns a successful result; canceled edits should not mutate UI state.
+- Open the pop-over editor through `EditorHost.OpenAsync` for normal, review, and several-item edit flows.
+- Refresh the current surface only after the editor reports a successful save; discarded edits should not mutate UI state.
 
 ## Collections and person consistency
 
@@ -362,7 +362,7 @@ Sign-in rejects stale, missing, mismatched, or unreadable antiforgery tokens wit
 
 Presentation follows emitted HTML ownership. DetailPage retains stage/tab/page layout and shared contextual boundaries; hero, sequence-entry, credit and track owners hold their own styles. `SequenceEntryContent` renders the existing sequence content without adding a wrapper. Its parent retains navigation, ordering, current-item semantics and preferences.
 
-The shared media editor owns loading, permissions, mutable drafts, dirty tracking, target selection, API/provider operations and save/apply/cancel. Its Details, Artwork, Match, History and Header sections render explicit presentation parameters and typed callbacks. State-changing callbacks must keep the shell as their EventCallback receiver so synchronous edits rerender the state owner. Do not cascade the shell or inject data services into these sections.
+The pop-over editor's host (`EditorHost`) owns loading, permissions, the staged changes, dirty tracking, item switching, API/provider operations and save/discard. Its header, Details, Contents, Artwork, Match & Identity, Files and History sections render explicit presentation parameters and typed callbacks. Do not cascade the host or inject data services into these sections.
 
 Settings owns its canvas descendant styling. AppSwitchRow owns native row layout and its icon boundary; shared tracks and portal popups remain global for their other consumers. ListenNavigationSection owns its section links; ListenPage retains inline playlist links and the dormant artist/audiobook presentation. Shared class spelling does not establish shared ownership.
 
@@ -374,10 +374,10 @@ Shared `App*` controls render native HTML and SVG. `Services/Ui` holds the scope
 `AppDialogService`/`IAppDialogService`, `AppToastService`/`IAppToastService` and
 `AppPopoverService`; Main, Popup, Reader and SetupWizard layouts mount their
 hosts. Native modal dialogs preserve focus return, typed parameters/results,
-configured close behavior and editor close interception. The media editor remains
-a modal for Review, browse shells and Recently Added; on a single item's detail page
-it is re-housed in line: an Editing Mode banner and one section slot below the hero, under the unchanged detail URL, with a shared
-"Save or discard?" dialog (`AppConfirmDialog`) and an Esc order of field, then section, then overlay (see
+configured close behavior and editor close interception. The media editor is one
+pop-over over whatever page it was opened from, under the unchanged address, with
+a shared "Unsaved changes" dialog on Discard and on leaving, and its Delete and
+Review changes dialogs share the same dialog look (see
 [Inline media editing](inline-media-editing.md)). Toasts retain severity, stacking, dismissal
 and asynchronous actions such as Undo. Popup ownership follows the active dialog
 or fullscreen container; popup geometry remains a client presentation concern.

@@ -313,7 +313,7 @@ The media files that stayed on disk when their title was deleted from the librar
 | `excluded_at` | TEXT | When, ISO 8601 UTC |
 | `excluded_by_account_id` | BLOB | The account that confirmed the deletion (nullable) |
 | `excluded_by_name` | TEXT | That person's name as it was then (nullable) |
-| `reason` | TEXT | `as_is`, `protected` or `delete_failed` (nullable) |
+| `reason` | TEXT | `as_is`, `protected`, `delete_failed` or `ignored_by_you` (nullable). `ignored_by_you` is a file a person chose **Ignore** for in the editor's "What is this file?": it is hidden from the Library and from scans, left on disk, listed in Settings with **Add back**. Upgrade step `0080_extra_kinds_and_places` widened the check; SQLite cannot widen a check in place, so the table was rebuilt with every row kept |
 
 Index: `idx_excluded_source_files_library (library_id)`. Deleting a title also removes every row tied to its Work, editions and media assets (chosen values, metadata claims, jobs, Needs Review rows, artwork links and the artwork only it used, search entries, saved items and ratings, every profile's progress and bookmarks, and its own activity history). `personal_activity` is the one exception: it keeps its own snapshot of the title.
 
@@ -339,8 +339,12 @@ The files that sit beside a title but are not its own episodes, films, tracks, b
 | `target_season` | INTEGER | On a `user_episode` row only: the season the person chose when they moved the file to an episode, 0 for Specials (nullable) |
 | `target_episode` | INTEGER | On a `user_episode` row only: the episode number they chose (nullable) |
 | `found_at` | TEXT | When the file was first found, ISO 8601 UTC |
+| `extra_kind` | TEXT | What the Extra is, as a person would say it (upgrade step `0080_extra_kinds_and_places`): `trailer`, `featurette`, `behind_the_scenes`, `deleted_scene`, `interview`, `document`, `pictures` or `other_clip`. Null on an Extra the rule found: it reads as the default for its file type (a document, pictures, or another clip). Set when a person sorts the file in the editor's "What is this file?" |
+| `place_season` | INTEGER | Where the Extra belongs, when a person placed it: the season (0 for Specials). Null means the whole title (nullable) |
+| `place_episode` | INTEGER | The episode the Extra belongs to, with `place_season` (nullable) |
+| `place_track` | INTEGER | The album track the Extra belongs to (nullable) |
 
-Index: `ix_item_extras_folder (item_folder)`. When a title's folder holds none of the library's own files any more (the show was deleted), its rows are removed on the next check; the files themselves are never touched. A `user_episode` row's season and episode are read when the file is ingested, so it is identified as that episode.
+The kind and place are the reasons the Extras row on a title's page can say "Trailer, Season 1". They are separate from `kind`, which only says what opens the file. Both are person decisions, so they are kept in a backup with the other rows whose `origin` is not `rule`. Index: `ix_item_extras_folder (item_folder)`. When a title's folder holds none of the library's own files any more (the show was deleted), its rows are removed on the next check; the files themselves are never touched. A `user_episode` row's season and episode are read when the file is ingested, so it is identified as that episode.
 
 ### unmatched_assets
 

@@ -274,7 +274,7 @@ The rows a rescan rebuilds are not kept; the tables below say where a person's o
 | `subtitle_name_tags` | Characters found in subtitle text. |
 | `text_tracks` | Subtitle and lyric tracks found for files. |
 | `text_track_rejections` | Lyrics and subtitle results a person marked wrong for a file, so they are not picked again. |
-| `item_extras` | Guidebooks, pictures and clips found beside a title (its Extras); rebuilt by a rescan. Files a person moved between Extras and episodes in the editor are kept as corrections: rows where `origin` is not `rule`. |
+| `item_extras` | Guidebooks, pictures and clips found beside a title (its Extras); rebuilt by a rescan. Files a person sorted in the editor (moved between Extras and episodes, or given an Extra kind and place) are kept as corrections: rows where `origin` is not `rule`. |
 | `local_items` | Photos, documents and other View items found on disk; a person's own choices on them (favourite, hidden, archived, trashed, capture date they set) are kept: choice columns `favorite`, `hidden`, `archived_at`, `trashed_at`, `captured_at_user_override`, `captured_at` (the date only while the person set it). |
 | `local_files` | Files behind View items. |
 | `local_file_sources` | Where View files were found. |

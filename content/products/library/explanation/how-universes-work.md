@@ -57,6 +57,8 @@ A **work** is an underlying title. An **edition** is a particular release or for
 
 A **universe** describes a larger creative world. Its graph can connect characters, places, organizations, events, objects, and works. Those story facts do not silently move files or reorder your authored collections.
 
+On a computer you can edit a Universe in the same editor as any other item, from **Edit** on its page: the editor's top row lists the Universe and its kinds (Characters, Places, Factions and the rest) as dropdowns with **Add** in each, so a character you own can get a portrait and a faction a logo. Your own edits win over the provider's facts, and the provider's value returns if you clear yours. The reason it is the same editor: one layout and one Review before saving, and later kinds slot in without a new screen. See [Correct an item](../guides/editing-items.md#edit-a-universe-its-characters-places-and-factions).
+
 Applying a different provider match can propose a structural move. The editor previews the old and new paths before Apply. Confirming a universe relationship alone does not change shelf placement.
 
 ## Follow the evidence
