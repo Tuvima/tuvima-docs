@@ -19,7 +19,7 @@ You can list built-in and dynamic plugins, enable or disable them, edit settings
 
 ## Open plugin settings
 
-Open **Settings > Plugins**. It is one page: the **Upload plugin** button, a summary strip (how many plugins are installed, switched on and need attention), a search box, two tick-box filters, three tabs and a grid of tiles. A **Cards / List** switch beside the filters changes the layout; the Library remembers your choice on this browser. **Available plugins** follow below. On a phone the page is read-only.
+Open **Settings > Plugins**. It is one page: the **Upload plugin** button, a search box, two tick-box filters, three tabs and a grid of tiles. A **Cards / List** switch beside the filters changes the layout; the Library remembers your choice on this browser. **Available plugins** follow below. On a phone the page is read-only.
 
 **The tabs** are named for when the Library uses a plugin: **Getting items in** (sources that find and match your files, such as TMDB and MusicBrainz), **After import** (things done once an item is in, such as artwork, subtitles, skip markers and Local AI helpers) and **Accounts & lists** (services you sign in to, such as Trakt, and list sources).
 
@@ -35,7 +35,18 @@ Official plugins ship as part of Tuvima. You can switch them off, but cannot rem
 
 ## What a plugin's page and the approval step tell you
 
-Open a tile with its button to reach the plugin's own page. It is one short column: the logo with its dot, the name, one status sentence and the switch, then two tabs, **Set up** (the default) and **Activity**, which have their own addresses. **Set up** shows at most five cards, in this order, and leaves out any with nothing to say: **Access** (keys and sign-in), **What it provides**, **Settings**, **Privacy**, **About**. A metadata source uses the same **Access** card as first-run setup, with the same words (**Connect**, **Replace key**, **Test connection**, **Remove key**). **Activity** shows what ran, when, and **Check now**.
+Open a tile with its button to reach the plugin's own page. Every plugin page has the same shape, so you learn it once: the logo with a green tick when it is working, the name, one status sentence and the switch, then tabs, with a column of quiet facts at the side. **Set up** (the default) and **Activity** have their own addresses; **Plugin file** is a third tab on a computer.
+
+**Set up** shows the cards that have something to say, in this order: **Connection** (keys and sign-in), **What it provides**, **Settings** and **Privacy**. The facts that used to sit on an About card (where it is used, who can use it, version, what it needs, removing it) now live in the side column, so the main column holds only things you act on.
+
+- **Connection** has three states: *Not connected* (a grey row with **Connect**), *Connected* (a green row with **Test again** and a "..." menu for **Replace key** and **Remove key**) and *Needs attention* (an amber row that says why, with the one fix as the main button). **Connect** opens a short window: paste the key, press **Test**, then **Save**. **Save** stays off until the test passes.
+- **Settings** is a list of rows, each with its name and what it does on the left and the control on the right, and one **Save changes** that stays off until you change something.
+- A **list of servers or keys** (for example, the places a plugin looks things up) is a table. A server that has no key shows an amber **+ Add key** pill instead of a plain "Key missing". Each row has **Test** and a "..." menu. The server that ships with the plugin has a small lock and no **Remove**. **Add server** tests the new server before it is added.
+- **Plugin file** (computer only) shows the plugin's definition file, coloured and with line numbers, and whether it differs from the version that shipped. **Edit file** opens an editor window with a **Checks** column that lists problems by line, then **Review changes** before anything is saved.
+
+**Why it works this way.** A key is tested before it is saved because a key that does not work is worse than no key: the plugin would look set up while quietly failing, and a good key could be replaced by a bad one. The plugin file is its own tab, and only on a computer, because it is the one place you can break a plugin by typing, so it needs room, checks and a review step, and a phone is not the place to do it. Pages are calm on purpose: no toasts, and a row that just changed glows for a moment instead.
+
+**Activity** shows what ran, when, and **Check now**.
 
 On the **Privacy** card, **Allowed to** lists what it may do, and **Sends data out** says **No** or **Yes, to** followed by the hosts it contacts. For a plugin that connects to the internet, the list has one line per place, such as "Contacts www.wikidata.org: Wikidata item IDs of Universes already in your Library". The same lines appear in the confirmation you see before switching a plugin on. If a plugin later changes where it connects, it stops running and asks again.
 
