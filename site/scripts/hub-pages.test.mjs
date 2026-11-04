@@ -18,12 +18,12 @@ const titleOf = (item, page) => `Title of ${page.slug}`;
 
 test('adding a product to the catalog adds its card to the home page and the products page', () => {
   const home = homePage(catalog, manifests, titleOf).body;
-  assert.match(home, /<a href="\/products\/library\/"><img[^>]*\/>Library<\/a>/);
-  assert.match(home, /<a href="\/products\/id\/"><img[^>]*\/>ID<\/a>/);
+  assert.match(home, /<a href="\/products\/library\/" class="hub-card-wordmark"><img[^>]*\/><span class="tuvima-word">Library<\/span><\/a>/);
+  assert.match(home, /<a href="\/products\/id\/" class="hub-card-wordmark"><img[^>]*\/><span class="tuvima-word">ID<\/span><\/a>/);
   assert.match(home, /Early Access/);
   assert.match(home, /Install Library/);
   assert.match(home, /Title of license/);
-  assert.match(areaPage(catalog, manifests, catalog.areas[0], titleOf).body, /<a href="\/products\/id\/"><img[^>]*\/>ID<\/a>/);
+  assert.match(areaPage(catalog, manifests, catalog.areas[0], titleOf).body, /<a href="\/products\/id\/" class="hub-card-wordmark"><img[^>]*\/><span class="tuvima-word">ID<\/span><\/a>/);
 });
 test('the legal area lists its pages instead of cards, and the 404 page offers search', () => {
   assert.match(areaPage(catalog, manifests, catalog.areas[1], titleOf).body, /<a href="\/legal\/license\/">Title of license<\/a>/);

@@ -72,6 +72,12 @@ On a computer, if your role allows it, **Edit** on a thing's page opens the same
 
 Characters, places and factions are well covered by Wikidata. Events and Objects are found through the links the Library already follows from characters and places (who took part in an event, what a thing is part of), and Species has its own list of properties to read once a species is known. Wikidata has no reliable way to say "this character is of that species", and it deliberately does not treat the biological parent-taxon property as one, so Species is often thin unless you turn on Fandom Lore or add them yourself. A thin rail is the Library being honest, not a failure to look.
 
+### Open a Universe from a cover or your TV
+
+The "..." menu on a cover in Home and on shelves has an **Open Universe** row whenever the title's Series belongs to a Universe whose page can open. On a TV, a title's page has a **Universe** button beside Play and Back, in the TV browser app and the Android TV app.
+
+**Why it is there.** Covers are where most people browse, and the Universe icon only lives on a title's own page. Putting the same way in on the cover saves opening the title first, and the TV has no hover, so a plain button is the way to reach a Universe from the couch. All three use one rule: the Engine (the part of Library that holds your data and does the matching) decides whether a title has a Universe you can open, and the cover and the TV only show what it decided. So a cover offers the row only when the Engine found a Universe for that title that your profile can open, so a Kids or private profile is never shown a way into a Universe hidden from it, and a title without one shows nothing at all. A Series that is its own Universe gets no row, for the same reason it gets no Universe page: the page would only repeat the Series.
+
 ## Build your own collections separately
 
 A custom collection can use manual membership or complete dynamic rules. Profile-owned collections are private unless supported sharing policy allows otherwise. Only administrators publish or manage library-wide collections.
