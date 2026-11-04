@@ -1,6 +1,6 @@
 ---
 title: Post and reply
-description: Start a conversation, format your post, share links safely, add content warnings, quote others, and edit or delete afterwards.
+description: Start a conversation, save drafts, use templates and polls, format your post, share links safely, add content warnings, quote others, and edit or delete afterwards.
 audience: user
 category: guide
 product_area: tuvima
@@ -15,6 +15,27 @@ Inside a community you can start a conversation or reply to one. You need to be 
 2. Write a title and your post.
 3. Pick the community's category for it, if it has categories.
 4. Choose **Post**.
+
+## Save a draft
+
+You do not need to save anything. Tuvima saves your draft to your persona about 2 seconds after you stop typing.
+
+- Your draft follows you to any device where you use that persona.
+- Drafts are private. Only you can see them.
+- Find them under **You**, then **Drafts**.
+- A draft disappears when the post goes out.
+
+## Start from a template
+
+Some forums offer **post templates**, which fill the editor with a starting layout. A template never replaces what you have already typed. Owners set them up; see [add-ons for your community](../owners/add-ons.md#post-templates).
+
+## Add a poll
+
+In forums where the community has the Polls add-on, you can add a poll to your post. Choose whether people pick one answer or up to a number of answers, and set a closing date if you like. You also choose whether votes are public or private. See [add-ons for your community](../owners/add-ons.md#polls) for how voting works.
+
+## Look for a group
+
+In forums where the owner allows it, you can mark your post as **Looking for group**. People answer **I'm in** or **Maybe**. When the seats are taken, the post shows **Full**, and you are told when someone joins and when it fills. See [add-ons for your community](../owners/add-ons.md#looking-for-group).
 
 ## Reply
 
@@ -51,7 +72,13 @@ Type `@` and a handle to mention a person. They get a notice. Mentions keep work
 - **Edit** your post at any time. It shows **Edited · see history**, and readers can open the **Edit history** unless the community's owner has hidden it. You and the community's moderators can always see it.
 - **Delete post** removes it from view. If people replied to it or quoted it, a "Deleted by the author" note stays in its place so the conversation still makes sense. Deleting cannot be undone.
 
+## Locked threads and slow mode
+
+Moderators can lock a conversation. You can still read it, but you cannot reply. The lock shows its reason.
+
+Moderators can also turn on **slow mode** for a conversation. You can then post only once every so often, from 30 seconds to 1 hour. Tuvima tells you when you can post again. Slow mode does not slow moderators, and it can end on a date the moderators choose. See [pins and thread tools](../owners/moderator-tools.md).
+
 ## Good to know
 
-- In the community's home, members can sort by **Latest**, **New** or **Unread**. Moderators can pin a conversation to the top.
+- In the community's home, members can sort by **Latest**, **New** or **Unread**. Moderators can pin a conversation to the top, and a community can feature up to 4 conversations on its home.
 - The person who started a conversation, or a moderator, can choose **Mark as accepted answer** on the most helpful reply.
