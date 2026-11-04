@@ -8,9 +8,7 @@ const searchButton = '<button type="button" class="hub-search" data-hub-search><
 
 function card(item) {
   // Every tile shows the item's mark and its name in Tuvima Sans, the same way for every product and library.
-  // A mark that is too pale for light backgrounds has a darker twin (logoLight); CSS shows the one that suits the theme.
-  const img = (src, cls) => `<img${cls ? ` class="${cls}"` : ''} src="${esc(src)}" alt="" width="40" height="32" />`;
-  const logo = item.logoLight ? img(item.logo, 'logo-on-dark') + img(item.logoLight, 'logo-on-light') : img(item.logo ?? '/favicon.svg');
+  const logo = `<img src="${esc(item.logo ?? '/favicon.svg')}" alt="" width="40" height="32" />`;
   const title = `<a href="/${esc(item.path)}/" class="hub-card-wordmark">${logo}<span class="tuvima-word">${esc(item.name)}</span></a>`;
   return `<div class="hub-card"><h3>${title}</h3><p>${esc(item.description)}</p><p class="hub-card-meta"><span class="hub-status">${esc(statusLabels[item.status] ?? item.status)}</span><a href="${esc(itemStart(item))}">Get started</a></p></div>`;
 }

@@ -80,7 +80,3 @@ h1, h2, h3, h4 { font-family: Montserrat, var(--sl-font); }
 .hub-card-wordmark:hover .tuvima-word { text-decoration: underline; }
 .hub-card h3 a.hub-card-wordmark { text-decoration: none; }
 
-/* Marks with a light-background twin: show the one that suits the current theme. */
-.logo-on-light { display: none !important; }
-:root[data-theme='light'] .logo-on-dark { display: none !important; }
-:root[data-theme='light'] .logo-on-light { display: block !important; }
