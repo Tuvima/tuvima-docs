@@ -51,7 +51,7 @@ MP3, M4A, and video containers can have several meanings. Clear folder context a
 
 ## Extras beside a title
 
-A guidebook (PDF), a folder of pictures or a bonus clip that sits in a show, film, album, book, comic or course folder is shown as an **Extra** of that title, in an Extras row on its page, and is never counted as an episode, track or issue. Keep them in the title's folder (or in a folder called Extras, Featurettes or Behind the scenes) and Library finds them on its own, without a setting. Numbered files in a show or course folder stay episodes, and a PDF stays a book or comic issue unless its name or folder says it is an extra. A wrong call can be fixed in the editor ([Move a file between Extras and episodes](editing-items.md)).
+A guidebook (PDF), a folder of pictures or a bonus clip that sits in a show, film, album, book, comic or course folder is shown as an **Extra** of that title, in an Extras row on its page, and is never counted as an episode, track or issue. Keep them in the title's folder (or in a folder called Extras, Featurettes or Behind the scenes) and Library finds them on its own, without a setting. Numbered files in a show or course folder stay episodes, and a PDF stays a book or comic issue unless its name or folder says it is an extra. A wrong call can be fixed in the editor: **What is this file?** lets you say it is an episode, an Extra of a kind and place, part of another title, or a file to ignore ([What is this file?](editing-items.md#what-is-this-file)).
 
 ## Add private media
 
