@@ -80,7 +80,7 @@ These properties are consumed by the current reconciliation and universe pipelin
 
 ### Fictional entity graph scope
 
-Stage 3 uses first-class `Character`, `Location`, `Organization`, `Event`, and `Object` entity types. Entity-valued statements retain their individual Wikidata qualifiers and provenance instead of being flattened into one canonical value. P1080 can replace a work-derived universe QID, but a missing resolved P1080 label never erases the existing owned-work label.
+Stage 3 uses first-class `Character`, `Location`, `Organization`, `Event`, `Object`, and `Species` entity types. `Species` reads its own property list (`species_properties`: P31, P1080, P1441, P4584, P170, P361, P527, P18) once a species is known; `Concept` has no Wikidata fetch and comes only from lore sources or by hand. Entity-valued statements retain their individual Wikidata qualifiers and provenance instead of being flattened into one canonical value. P1080 can replace a work-derived universe QID, but a missing resolved P1080 label never erases the existing owned-work label.
 
 | P-code | Claim key | Entity scope | Notes |
 |--------|-----------|--------------|-------|

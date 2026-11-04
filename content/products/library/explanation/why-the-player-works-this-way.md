@@ -27,17 +27,43 @@ An icon on its own is hard to read for some people, and for anyone using the key
 
 The old "CC" button only covered subtitles. Audio and the look of your subtitles belong in the same place, so there is now one gear menu with Audio, Subtitles and Styling. When no subtitle source is switched on, it tells you so rather than offering a search that cannot work.
 
+## Subtitles you can actually read
+
+Good subtitles depend on the screen, the room and the person watching. White text on a dark box works for most people, but not for everyone: someone with a bright room may want a solid backing, someone watching a dark film may want the box almost gone, and some people read yellow or blue text more easily than white. So the subtitle style menu (the **Aa** button beside Settings) has eight colors for the text and eight for the box behind it, plus a slider for how solid each one is. The text can be anywhere from faint to fully solid, and the box can go from none at all up to solid. The preview line at the top changes as you choose, so you see the result before you close the menu.
+
+Your choices are saved with your profile, so every title looks the way you set it, and another person in the house keeps their own look. **Reset** puts everything back to white text on a soft black box. If you slide the background to none, subtitles get a gentle shadow instead so they stay readable over a bright scene. On a tablet or phone the swatches are larger and nothing depends on hover.
+
 ## Each kind of media shows only what fits
 
 A film has no episodes or chapters to jump between. An audiobook lives by its chapters. Music is about the queue. Showing only the controls that fit keeps the bar calm, and you never wonder what a button would do on a film.
 
 ## No keyboard shortcut for bookmarks
 
-A stray key press should never add something to your library. Bookmarks are added from the pane, where you can see exactly what is being saved and when.
+A stray key press should never add something to your library. Bookmarks are added from the pane, where you can see exactly what is being saved and when. Space, the arrow keys and Escape still work, because they are basic accessibility, but the player never prints them on screen as hints.
+
+## Same bar everywhere
+
+Film, TV, audiobooks and music share one bar: the title on the left, the transport in the middle, the tools on the right. Once you know one player you know them all, and only the tools change with what you are playing. Play is in the middle because it is what you reach for most, and the middle is where a thumb or cursor expects it. Every control, Play included, grows a little and shows its name on hover, with no background highlight, so no button looks more important than another.
+
+## Chapters, not ticks
+
+A chapter is a place you jump to, so it gets a list; ticks on the bar are for your own bookmarks. An audiobook's bar shows the chapter you are in ("Chapter 4 of 21") with the time in the chapter and the time left in the book, because a 12-hour bar with 21 ticks tells you nothing at a glance. If you prefer the whole book, the **Chapter | Book** switch flips it, and your choice is remembered.
+
+## Pause shows what you are watching
+
+A pause is a good moment to remind you what you are watching and what it is rated, so the picture dims and the details appear. The rating card also shows for the first few seconds of a title, then gets out of the way.
+
+## Now Playing is one click away
+
+The cover art is the natural thing to click to see what is playing, so it opens the Now Playing page. The top-bar icon with the moving sound bars exists so you can see audio is live and get back to it from any page. Audiobooks open above their details page, because a player hidden underneath the page you started it from is the same as no player.
+
+## The volume box
+
+A dark box with a thick track is easy to hit with a mouse and easy to see in a dark room, and clicking anywhere on the track sets the level. The speaker only shows "muted" after you mute it or set the level to zero, so it never looks muted just because the player had not reported its level yet.
 
 ## Chapter ticks and bookmark bubbles start switched off
 
-A clean progress bar comes first. If you like the extra marks, switch them on in **Settings > Playback** or from the bookmark pane. Audiobooks show chapter ticks by default because a long audiobook is hard to navigate without them.
+A clean progress bar comes first. If you like the extra marks, switch them on in **Settings > Playback** or from the bookmark pane. Audiobooks never draw chapter ticks; see "Chapters, not ticks" below.
 
 ## Mine and Global
 

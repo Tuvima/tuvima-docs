@@ -869,13 +869,14 @@ are not overloaded as locations or organizations.
 | `id` | BLOB | UUID, primary key |
 | `fictional_universe_qid` | TEXT | Authoritative narrative-universe QID |
 | `wikidata_qid` | TEXT | Canonical Wikidata QID (unique) |
-| `entity_sub_type` | TEXT | `"Character"`, `"Location"`, `"Organization"`, `"Event"`, or `"Object"` |
+| `entity_sub_type` | TEXT | `"Character"`, `"Location"`, `"Organization"`, `"Event"`, `"Object"`, `"Species"`, or `"Concept"` |
 | `label` | TEXT | Display name |
 | `description` | TEXT | |
 | `wikidata_revision_id` | INTEGER | Last observed Wikidata revision for lore-delta refresh |
+| `added_by_user` | INTEGER | `1` for a thing a person added by hand (ids start with `local:`); enrichment never updates or removes it |
 
 User-authored display fields are kept separately in `fictional_entity_user_overrides` and
-`narrative_root_user_overrides`, so enrichment never overwrites a curator edit. In `fictional_entity_user_overrides` the name and the description are each optional: a field with no value keeps following the provider.
+`narrative_root_user_overrides`, so enrichment never overwrites a curator edit. In `fictional_entity_user_overrides` the name and the description are each optional: a field with no value keeps following the provider. The same table also keeps `aliases_json` (extra names), `belongs_to_entity_id` (the thing this one belongs to, cleared if that thing is removed) and `is_hidden` (hide from the Universe page).
 
 ### fictional_entity_work_links
 

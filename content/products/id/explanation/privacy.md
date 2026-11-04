@@ -25,11 +25,12 @@ When you sign in, Tuvima ID hands Tuvima a short-lived pass that says only "this
 
 | Who | What they can see |
 | --- | --- |
-| Anyone on the internet, including search engines | Your persona's handle, display name and picture, and everything you post, in any community and on the front page. Unlisted communities are left out of search but can be read by anyone with the link. |
+| Anyone on the internet, including search engines | Your persona's handle, display name and picture, and everything you post on the front page and in public communities. Unlisted public communities are left out of search but can be read by anyone with the link. |
+| Members of a private community or members-only area | What you post there. People who are not let in cannot read it. |
 | A community's moderators and owner | The above, plus when you joined, how many posts you have made, the last day you visited, reports you make in their community and their own moderation records. |
 | No other member, moderator or owner | Your sign-in email, your other personas, or which account a persona belongs to. |
 
-Every community on Tuvima today can be read by anyone. A private persona hides **who you are**, not **what you post**. If you join a health support group with a private persona, nobody can tell it is you, but anyone can read what that persona writes there.
+A private persona hides **who you are**, not **what you post**. If you join a public health support group with a private persona, nobody can tell it is you, but anyone can read what that persona writes there. In a [private community](/products/social/owners/make-it-private.md), only its members can read it. Either way, posts are not end-to-end encrypted, so the Tuvima team can read what is stored.
 
 ## The privacy you do not have
 

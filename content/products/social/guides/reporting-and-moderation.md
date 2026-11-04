@@ -13,8 +13,9 @@ Each community looks after itself: its moderators deal with reports and keep the
 
 1. Choose **Report** on the post. You need to be signed in.
 2. Pick a reason: **Spam**, **Harassment or hate**, **Breaks this community's rules**, **Illegal or dangerous** or **Something else**.
-3. Add a short note if it helps. It is required for **Something else**.
-4. Send it.
+3. If you chose **Breaks this community's rules**, you can pick which rule.
+4. Add a short note if it helps. It is required for **Something else**.
+5. Send it.
 
 The community's moderators see your report and which persona sent it. The person you reported, and other readers, do not.
 
@@ -85,7 +86,7 @@ Every action is written to the community's moderation record, so decisions can b
 
 ## If your post is moderated
 
-You get a notice in your bell, with the reason if the moderator gave one. It never says who acted or who reported you. Readers see **Hidden by moderators** or **Removed by moderators** in its place, unless the community's owner has turned these notes off.
+You get a notice in your bell, with the reason if the moderator gave one. If the moderator named a rule, you see which rule and any note. It never says who acted or who reported you. Readers see **Hidden by moderators** or **Removed by moderators** in its place, unless the community's owner has turned these notes off.
 
 If you think a decision about a community was wrong, a moderator or owner of that community is the first person to ask. For a problem with Tuvima itself, use the [contact form on Tuvima ID](/products/id/guides/your-account.md#contact-the-tuvima-team).
 
