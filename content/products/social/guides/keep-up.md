@@ -1,6 +1,6 @@
 ---
 title: Keep up with conversations
-description: Use the bell, watch and save conversations, find everything on your You page, and edit your persona.
+description: Use the bell and phone alerts, watch and save conversations, find everything on your You page, and edit your persona.
 audience: user
 category: guide
 product_area: tuvima
@@ -26,6 +26,19 @@ You are always told when moderators hide, remove or restore one of your posts, b
 
 For email, see [choose which emails you get](/products/id/guides/email.md) on Tuvima ID.
 
+## Phone alerts
+
+Phone alerts show a notice on your device when something new reaches your bell. They work with the installed app.
+
+:::note
+Phone alerts are still being switched on during Early Access. Until then, the setting says they are not available yet.
+:::
+
+- There is one switch per device, so you can have alerts on your phone and not on your laptop.
+- Alerts follow your bell. You only get what you would see in the bell.
+- **Show the post's text in alerts** is off by default. Even when it is on, text is never shown for posts or forums that have a content warning.
+- Signing out stops alerts on that device.
+
 ## Watch and save
 
 - **Watch** a conversation to hear about new posts in it.
@@ -38,6 +51,7 @@ For email, see [choose which emails you get](/products/id/guides/email.md) on Tu
 - **Communities**: the communities you are in, with how many new conversations each has.
 - **Saved**: posts you saved.
 - **Watching**: conversations you watch.
+- **Drafts**: posts you started and have not sent. See [save a draft](posting.md#save-a-draft).
 
 ## Edit your profile
 

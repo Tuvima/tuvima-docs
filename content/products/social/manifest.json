@@ -107,6 +107,18 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/moderator-tools.md",
+      "slug": "owners/moderator-tools",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/add-ons.md",
+      "slug": "owners/add-ons",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/look-and-feel.md",
       "slug": "owners/look-and-feel",
       "group": "Guides",
