@@ -1,6 +1,6 @@
 ---
 title: Run your community
-description: Give people ranks, look after members, handle reports, read your community's numbers and change its settings.
+description: Give people roles, look after members, handle reports, read your community's numbers and change its settings.
 audience: user
 category: guide
 product_area: tuvima
@@ -9,22 +9,22 @@ status: early-access
 
 As owner, your community's rules, moderation and look are yours to decide, inside [the rules everyone follows](../guides/community-rules.md).
 
-## Ranks
+## Roles
 
-There are four ranks. Each can do everything the rank below can, and a rank can act only on people below it.
+Every community comes with four ready-made roles: **Owner**, **Admin**, **Moderator** and **Member**. Each can do everything the one below can, and a role can act only on people below it.
 
-| Rank | Can |
+| Role | Can, to begin with |
 | --- | --- |
 | **Member** | Post, reply, react, report, and edit or delete their own posts. |
-| **Moderator** | Hide, remove and restore posts, pin conversations, use thread tools, suspend and ban members, review reports, read the moderation record and see the members page. |
-| **Admin** | Change settings, categories, forums and labels, appoint moderators, manage newcomers and see the numbers. |
-| **Owner** | Appoint admins, choose whether the community is listed, show or hide edit history, and use the launch checklist. |
+| **Moderator** | Hide, remove and restore posts, pin conversations, use thread tools, suspend and ban members, review reports and requests to join, read the moderation record and see the members page. |
+| **Admin** | Change settings, categories, forums and labels, give roles, make invites, manage newcomers and see the numbers. |
+| **Owner** | Everything, including making the community public or private, choosing whether it is listed, showing or hiding edit history and using the launch checklist. |
 
-Give moderation only to people you trust. Every rank change needs a reason, is recorded and can be undone. Handing over ownership is planned.
+You can rename the ready-made roles, change what Admin and Moderator allow, and make your own roles as copies, such as a helper for one forum. See [roles: ready-made and your own](roles.md). Give moderation only to people you trust. Every role change is recorded and can be undone. Handing over ownership is planned.
 
 ## Members
 
-The **Members** page lists everyone who has joined. Search it, filter by rank, newcomers, suspended or banned, and sort by when people joined, how active they are or name. Open a member to change their rank, make a newcomer a full member, or take a moderation step. The owner can also set a member's level by hand from here (see below).
+The **Members** page lists everyone who has joined. Its **Invites** tab is where you [make invites](invites.md). Search it, filter by role, newcomers, suspended or banned, and sort by when people joined, how active they are or name. Open a member to give or take roles, make a newcomer a full member, or take a moderation step. The owner can also set a member's level by hand from here (see below).
 
 ## Levels
 
@@ -34,7 +34,7 @@ As the owner you can also set a member's level by hand from their page in **Memb
 
 ## Reports and the moderation record
 
-Reports come to your community's moderation page, where moderators can see open and reviewed reports, filter by reason, act on a post and **Mark reviewed**. Every action is added to the **moderation record**, which cannot be edited.
+Reports come to your community's moderation page, beside [requests to join](join-requests.md), where moderators can see open and reviewed reports, filter by reason, act on a post and **Mark reviewed**. Every action is added to the **moderation record**, which cannot be edited.
 
 ## Pins and thread tools
 
@@ -60,13 +60,16 @@ The **Numbers** page shows members, posts in the last 7 days, active people in t
 
 ## Settings
 
-**Community settings** has these sections. You see the ones your rank allows.
+**Community settings** has these sections. You see the ones your roles allow.
 
 - **General**: name, description and other basics.
+- **Who can read this community**: **Public** or **Private**. See [make your community private](make-it-private.md).
 - **Who can find this community**: **Listed** or **Unlisted**.
+- **How people join** and **Join questions**: see [how people join](how-people-join.md) and [join questions](join-questions.md).
 - **Category on Tuvima**: which front-page category your community belongs to, so the right people find it.
 - **Look** and **Page blocks**: see [change your community's look](look-and-feel.md).
-- **Categories and forums**: how conversations are grouped, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md).
+- **Categories and forums**: how conversations are grouped, who can see and post in each, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md) and [choose who can see and post in each area](area-access.md).
+- **Roles**: see [roles: ready-made and your own](roles.md).
 - **Edit history**: whether readers can see earlier versions of edited posts.
 - **Moderation**: including whether readers see "Hidden by moderators" notes.
 - **Add-ons**: see [add-ons](add-ons.md).
