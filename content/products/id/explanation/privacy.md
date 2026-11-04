@@ -19,7 +19,7 @@ Tuvima is built so you can talk openly in a community without handing everyone y
 
 ![Tuvima ID keeps your email, security settings and the list of which personas are yours. Tuvima keeps personas, communities and posts. A short-lived pass tells Tuvima only which persona is acting, and emails go out from Tuvima ID, never from Tuvima.](../assets/what-stays-where.svg)
 
-When you sign in, Tuvima ID hands Tuvima a short-lived pass that says only "this is persona X". It does not say who you are or which other personas you have. When someone replies to you and you have asked for email, Tuvima asks Tuvima ID to send it, so Tuvima never needs your address. Only Tuvima ID, and the service providers that run sign-in and deliver email for us, handle your address. Communities never get it.
+When you sign in, Tuvima ID hands Tuvima a short-lived pass that says only "this is persona X". It does not say who you are or which other personas you have. When something you asked to hear about happens, Tuvima hands it to Tuvima ID to deliver by email or phone alert, so Tuvima never needs your address or your devices. Tuvima ID keeps a post's text only if you switched on showing it in alerts, and only until the alert is sent. Only Tuvima ID, and the service providers that run sign-in and deliver email for us, handle your address. Communities never get it.
 
 ## What each community sees
 
@@ -56,5 +56,5 @@ We keep what we need to run your account and your conversations, and we want it 
 ## Related pages
 
 - [What is Tuvima ID?](../start/what-is-tuvima-id.md)
-- [Choose which emails you get](../guides/email.md)
+- [Email and alerts](../guides/email.md)
 - [Why Tuvima exists](/products/social/start/why-tuvima.md)

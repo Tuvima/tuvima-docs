@@ -32,7 +32,7 @@ You choose which persona to use each time you join a community. See [one account
 - Signs you in, and signs you out of everything at once.
 - Shows the communities you have joined and which persona you used in each.
 - Lets you turn on two-step sign-in with an authenticator app.
-- Sends you reply and mention emails, only if you ask, so communities never learn your address. This is being switched on soon.
+- Delivers your email and phone alerts for every Tuvima app, gathered into at most one email every 8 hours and held during your quiet hours, so communities never learn your address. This is being switched on soon.
 - Gives you a private way to contact the Tuvima team.
 
 ## Next steps
