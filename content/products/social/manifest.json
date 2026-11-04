@@ -53,6 +53,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/photos.md",
+      "slug": "guides/photos",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/newcomers.md",
       "slug": "guides/newcomers",
       "group": "Guides",
