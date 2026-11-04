@@ -48,6 +48,16 @@ When you open a photo's editor from inside a gallery, the top of the window show
 
 A gallery's cover is chosen by clicking a picture to make it the **Preferred** one, or by choosing **Automatic** and letting Library pick.
 
+## Quick ways in, and one order everywhere
+
+You can reach the editor without ticking anything first. On a computer, each photo in View has a small "..." menu with **Edit** and **Trash**, and the viewer's Gallery list ends with **New gallery**, which starts a gallery with the photo you are looking at.
+
+The actions on a photo, video or document are always in the same order wherever you see them: Favorite, Add to gallery, Download, Share, Archive, Edit, Trash. Library shows only the ones that apply, but never in a different order, so you learn them once.
+
+Beside every field you have changed, a small arrow puts it back to what it was when you opened the editor. Nothing is saved either way until you press Save changes.
+
+A saved Documents view opens in the same editor from its "..." menu. You can rename it and describe it there. Its filters are changed on the Documents page, because they depend on what you are looking at, and saving the view again keeps them.
+
 ## See also
 
 - [Documents in View](documents-in-view.md)
