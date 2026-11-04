@@ -12,8 +12,9 @@ Tuvima gives you a simple, reasonable expectation of privacy while you take part
 ## What others can see
 
 - **Your persona**: handle, display name and picture, for the persona you use in that place.
-- **What you post**: every community and the front page can be read by anyone, including people who are not signed in and search engines. Unlisted communities are left out of search, but anyone with the link can read them. A private persona hides who you are, not what you post.
+- **What you post**: the front page and every public community can be read by anyone, including people who are not signed in and search engines. Unlisted communities are left out of search, but anyone with the link can read a public one. A **private community**, and a members-only area inside a community, can be read only by the members allowed in. A private persona hides who you are, not what you post.
 - **Your activity, to moderators**: a community's moderators and owner see when you joined, how many posts you have made and the last day you visited.
+- **Your join answers, to reviewers only**: if you ask to join a community, the people who review requests see your answers. They are deleted 90 days after a decision.
 - **Your reports, to moderators only**: when you report a post in a community, that community's moderators see which persona reported it. Front-page reports go to Tuvima staff instead. The person you reported is never told who reported them.
 
 ## What they never see
@@ -34,7 +35,7 @@ Search engines may list public pages so that people can find communities. We ask
 
 Tuvima is a place for conversations, not a secret messaging service:
 
-- The Tuvima team can read what is stored on Tuvima. Posts are not end-to-end encrypted, the kind of protection where even the company running a service cannot read your messages.
+- The Tuvima team can read what is stored on Tuvima, including posts in private communities and members-only areas. Posts are not end-to-end encrypted, the kind of protection where even the company running a service cannot read your messages. Private keeps posts from people who are not members; it does not make them secret.
 - Tuvima ID knows which personas are yours, and the people who run Tuvima can reach that link when there is a real reason, such as abuse, safety or a lawful request.
 - Moderation actions are recorded and kept.
 - Tuvima keeps a hidden trust check on each account, to give less weight to accounts that act like bots, break front-page rules or vote in coordinated groups. It can only hold someone back, never boost them, it wears off over time, and nobody sees it, Tuvima staff included. [Reputation and levels](reputation.md#keeping-votes-honest) explains it.

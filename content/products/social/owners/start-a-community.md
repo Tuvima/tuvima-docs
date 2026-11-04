@@ -1,6 +1,6 @@
 ---
 title: Start a community
-description: Create a community in six short steps, choose its address and rules, and decide whether to limit newcomers. It is free and takes about ten minutes.
+description: Create a community in seven short steps, choose its address and rules, and decide whether to limit newcomers. It is free and takes about ten minutes.
 audience: user
 category: tutorial
 product_area: tuvima
@@ -20,11 +20,12 @@ Starting a community is free, and Tuvima looks after the hosting. It takes about
 Choose **Start a community** on the front page. The **Create a community** steps are:
 
 1. **Name and address.** The name is 3 to 80 characters. The address is the part after `/c/` in the web address, for example `/c/dallas-board-games`. It is suggested from the name and uses lowercase letters, numbers and single hyphens. **The address can never change**, so choose carefully.
-2. **Description.** Up to 1,000 characters on what the community is about, and **where it shows on Tuvima**: a front-page category and subtopic. Tuvima suggests one from the name and description, for example Gaming › Tabletop for "D&D Gamers in Dallas". Your community's conversations carry this place as their labels.
-3. **Rules.** Write your community's rules. They sit on top of [the rules everyone follows](../guides/community-rules.md).
-4. **Forums.** The places conversations live, such as "Events" or "Help". You can give a forum an automatic content warning, such as "Spoilers". Later you can group forums under categories; see [categories, forums and the front page](categories-and-forums.md).
-5. **Newcomer limits.** Off unless you switch on **Limit newcomers**. See below.
-6. **Review.** Check everything, then choose **Create community**.
+2. **Public or private.** **Public** means anyone can read and signed-in people can join. **Private** means only members can read; people join by asking or with an invite. See [make your community private](make-it-private.md).
+3. **Description.** Up to 1,000 characters on what the community is about, and **where it shows on Tuvima**: a front-page category and subtopic. Tuvima suggests one from the name and description, for example Gaming › Tabletop for "D&D Gamers in Dallas". Your community's conversations carry this place as their labels.
+4. **Rules.** Write your community's rules. They sit on top of [the rules everyone follows](../guides/community-rules.md).
+5. **Forums.** The places conversations live, such as "Events" or "Help". You can give a forum an automatic content warning, such as "Spoilers". Later you can group forums under categories; see [categories, forums and the front page](categories-and-forums.md).
+6. **Newcomer limits.** Off unless you switch on **Limit newcomers**. See below.
+7. **Review.** Check everything, then choose **Create community**.
 
 Some addresses are reserved, for example ones that look like Tuvima staff or support.
 
@@ -36,7 +37,7 @@ Newcomer limits slow down new members for their first few posts, which keeps spa
 
 Your new community opens with a **launch checklist**: add your rules, write a first post, invite people and connect a website. The steps tick off by themselves as you do them. Connecting a website is coming later.
 
-New communities are listed in the directory. To keep yours out of the directory and search, make it **Unlisted** in settings.
+New communities are listed in the directory. To keep yours out of the directory and search, make it **Unlisted** in settings. To choose who can join and how, see [how people join](how-people-join.md).
 
 ## Next steps
 

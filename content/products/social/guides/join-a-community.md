@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Every community can be read without joining, by anyone. Join to post, reply and get notices.
+Most communities can be read without joining, by anyone. Join to post, reply and get notices. A **private** community can be read only by its members; see [joining a private community](join-private-community.md).
 
 ## Find a community
 
@@ -24,12 +24,12 @@ Some communities are **unlisted**: their owner has chosen to leave them out of t
 ## Join
 
 1. Open the community and read its **rules**. Each community writes its own, on top of [the rules everyone follows](community-rules.md).
-2. Choose **Join**.
+2. Choose **Join**. If the community asks people to be approved first, the button says **Ask to join** instead; see [joining a private community](join-private-community.md).
 3. Choose how to appear:
    - **Join as** your global persona, `handle @ tuvimaid.com`.
    - **Create a private persona for this community**, with its own handle, name and picture. Members and moderators cannot see that it is connected to your global persona.
 
-Think about the choice. Your global persona lets people recognise you across Tuvima. A private persona suits a community where you would rather keep that part of your life separate, such as a health support group. Remember that it hides who you are, not what you post: anyone can still read the community.
+Think about the choice. Your global persona lets people recognise you across Tuvima. A private persona suits a community where you would rather keep that part of your life separate, such as a health support group. Remember that it hides who you are, not what you post: in a public community anyone can still read it.
 
 Some communities ask new members to take part for a while before everything is switched on. See [being new to a community](newcomers.md).
 

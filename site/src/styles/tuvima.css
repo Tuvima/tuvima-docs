@@ -34,9 +34,9 @@
   --sl-color-bg-nav: #ffffff;
   --sl-color-bg-sidebar: #f1f3f8;
 }
-h1, h2, h3, h4 { font-family: 'Tuvima Sans', Montserrat, var(--sl-font); }
+h1, h2, h3, h4 { font-family: Montserrat, var(--sl-font); }
 .hero .tagline { font-family: Montserrat, var(--sl-font); }
-/* Tuvima Sans (Montserrat with the crossbar removed from the A) is for headings, navigation and brand names only, never body text. */
+/* Tuvima Sans (Montserrat with the crossbar removed from the A) is for the top navigation and product names only, never headings or body text. */
 .tuvima-word { font-family: 'Tuvima Sans', Montserrat, var(--sl-font); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
 .sl-markdown-content :is(table, pre) { max-width: 100%; overflow-x: auto; }
 .sl-markdown-content table { display: block; }
@@ -50,11 +50,18 @@ h1, h2, h3, h4 { font-family: 'Tuvima Sans', Montserrat, var(--sl-font); }
 }
 
 /* Hub pages: cards, link lists, big search button */
-.hub-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 1rem; margin: 1rem 0 2rem; }
-.hub-card { border: 1px solid var(--sl-color-gray-5); border-radius: 0.75rem; padding: 1.1rem 1.25rem; background: var(--sl-color-bg-nav); }
-.hub-card h3 { margin: 0 0 0.35rem; font-size: var(--sl-text-lg); }
-.hub-card p { margin: 0 0 0.6rem; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm); }
-.hub-card-meta { display: flex; align-items: center; justify-content: space-between; margin: 0 !important; }
+.hub-cards { display: grid; grid-template-columns: 1fr; grid-auto-rows: 1fr; gap: 0.75rem; margin: 1rem 0 2rem; }
+/* Full-width tiles, all the same height (the tallest one sets it), so word wrap never makes one tile bigger than another. */
+.hub-card { display: grid; grid-template-columns: 1fr; align-content: start; gap: 0.6rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.75rem; padding: 1rem 1.25rem; background: var(--sl-color-bg-nav); }
+.sl-markdown-content .hub-cards > .hub-card, .sl-markdown-content .hub-card > * { margin: 0; }
+.hub-card h3 { font-size: var(--sl-text-lg); }
+.hub-card p { margin: 0; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm); }
+.hub-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin: 0 !important; }
+.hub-card-meta a { display: inline-block; padding-block: 0.4rem; }
+@media (min-width: 50rem) {
+  .hub-card { grid-template-columns: 18rem 1fr auto; align-items: center; align-content: center; gap: 1.5rem; padding: 1.1rem 1.5rem; }
+  .hub-card-meta { flex-direction: column; align-items: flex-end; gap: 0.3rem; }
+}
 .hub-status { font-size: var(--sl-text-xs); color: var(--sl-color-accent-high); background: var(--sl-color-accent-low); padding: 0.1rem 0.5rem; border-radius: 1rem; }
 .hub-links { list-style: none; padding: 0; margin: 0.5rem 0 2rem; display: grid; gap: 0.4rem; }
 .hub-links span { color: var(--sl-color-gray-3); font-size: var(--sl-text-sm); }
@@ -67,7 +74,9 @@ h1, h2, h3, h4 { font-family: 'Tuvima Sans', Montserrat, var(--sl-font); }
 .hub-card h3 a { color: var(--sl-color-white); text-decoration: none; }
 .hub-card h3 a:hover { text-decoration: underline; }
 
-.hub-card-logo { height: 1.75rem; width: auto; max-width: 2.2rem; vertical-align: middle; margin-inline-end: 0.5rem; }
 .hub-card-wordmark { display: inline-flex; align-items: center; gap: 0.6rem; color: var(--sl-color-white); }
-.hub-card-wordmark img { height: 2rem; width: auto; display: block; }
-.hub-card-wordmark .tuvima-word { font-size: 1.5rem; line-height: 1; }
+.hub-card-wordmark img { height: 2rem; width: 2.5rem; object-fit: contain; display: block; flex: none; }
+.hub-card-wordmark .tuvima-word { font-size: 1.35rem; line-height: 1.1; }
+.hub-card-wordmark:hover .tuvima-word { text-decoration: underline; }
+.hub-card h3 a.hub-card-wordmark { text-decoration: none; }
+
