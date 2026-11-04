@@ -29,6 +29,7 @@ Up to 10 photos fit in one post. Your community may allow fewer.
 - **Every photo is checked.** Photos known to be illegal are blocked and reported to the authorities. Photos that may be adult or violent are handled the way your community chose (see below).
 - **Sizes for every screen.** Tuvima keeps a few sizes of each photo, so phones load a small one and large screens a sharp one.
 - **Members-only stays members-only.** A photo in a private community, or in an area only some members can open, can only be opened by people who can read the post. Its addresses stop working after a few minutes, so a copied link doesn't let anyone else in.
+- **Taken down means taken down.** When a post is deleted, or a moderator hides or removes it, its photos stop being public straight away. A photo waiting for a moderator is never public. Deleted photos are erased.
 
 Tuvima doesn't use end-to-end encryption. Tuvima staff can see photos when they need to, for example to deal with a report.
 
