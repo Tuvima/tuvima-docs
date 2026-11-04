@@ -70,7 +70,15 @@ On a computer, open **Photos > Trash** or **Documents > Trash** and choose **Emp
 
 Live Photos and RAW sets count as one item, and all their files go together. Cancel is selected when the dialog opens, and Escape cancels. Only the red **Delete N items from disk** button deletes anything. Deleted files cannot be recovered, and Library has no other copy.
 
-If the Trash changed while the dialog was open, Library shows the new list and deletes nothing; confirm again. If one item cannot be removed, for example because its file is in use, the others go and that item stays in Trash with a note on its tile, such as "Couldn't delete: the file is in use." After a successful run Library says how many items were deleted and how much space was freed.
+If the Trash changed while the dialog was open, Library shows the new list and deletes nothing; confirm again. If one item cannot be removed, for example because its file is in use, the others go and that item stays in Trash with a note on its tile, such as "Couldn't delete: the file is in use." After a successful run Library says how many items were deleted and how much space was freed. An item whose file was already deleted outside Library (for example in File Explorer) is simply cleared and counted as "already missing".
+
+## Files deleted outside Library
+
+If you delete or move a photo, video or document in File Explorer, Library notices within about a minute. A file that only moved is found again at its new place and nothing changes. A file that is really gone stops showing everywhere in Photos, Documents, Galleries, People, Places and Home. Library keeps its notes, tags and Gallery spots for 90 days, and never deletes a file because it went missing.
+
+To find one, search for it and turn on **Include missing files** under the filters. It appears dimmed with "File missing"; opening it shows what Library remembers, with no actions, and the line "If you want it back, tell an administrator." Only items you were allowed to see are found. If the file comes back, the item returns with its notes and Gallery spots. A folder Library cannot reach (an unplugged drive) never marks anything missing; its row in Settings shows **Folder offline** until it is back.
+
+An administrator can change the 90 days, or turn the clean-up off, under **Settings > Libraries > a View kind > File handling > Missing files**.
 
 ## Find and file documents
 
