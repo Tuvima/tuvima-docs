@@ -9,7 +9,7 @@ status: early-access
 
 A **role** says what someone can do in your community, and can also open [members-only areas](area-access.md) to the people who hold it. A person can hold several roles. Every role lives in one list: **Community settings**, then **Roles**, then **Manage roles**.
 
-Only the owner changes roles. Anyone who can open the page can see what each role allows.
+Only the owner changes roles. Moderators and up can see what each role allows.
 
 ## The ready-made roles
 
@@ -18,7 +18,7 @@ Every community starts with four. Each can do everything the one below can.
 | Role | Allows, to begin with |
 | --- | --- |
 | **Owner** | Everything, always. |
-| **Admin** | Everything a moderator can, plus changing rules and settings, managing categories and forums, giving roles, making invites, managing newcomers and seeing the numbers. |
+| **Admin** | Everything a moderator can, plus changing rules and settings, managing categories and forums, giving roles, making invites, managing newcomers and seeing the numbers (members, posts, active people and return visits). |
 | **Moderator** | Hiding and removing posts, pinning and looking after threads, marking accepted answers, suspending and banning, reviewing reports and requests to join, and seeing the members list and the moderation record. |
 | **Member** | Posting, replying, reacting and reporting. Everyone who joins holds it. |
 
@@ -41,6 +41,8 @@ A community can have up to 30 roles. Custom roles can be deleted; the ready-made
 ## Limit a role to some forums
 
 A copy of Moderator can be limited to chosen forums, for example a helper who looks after one forum. Under **Where it applies**, choose **Only in chosen forums** and pick them. Only post moderation can be limited this way: hiding and removing, pinning, accepted answers, reports and the moderation record. Untick other permissions first.
+
+Outside those forums, the person counts as a regular member: they can't moderate there and don't open areas set to Moderators and up. Even in their own forums, pinning a thread for the whole community, featuring, and moving, merging or splitting threads stay with full moderators.
 
 ## Give someone a role
 

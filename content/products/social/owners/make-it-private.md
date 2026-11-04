@@ -10,7 +10,7 @@ status: early-access
 Every community is **public** or **private**. Only the owner can change this.
 
 - **Public**: anyone can read, including people who are not signed in. Signed-in people can join.
-- **Private**: only members can read anything. Everyone else, and search engines, see just the name and the details you choose to show.
+- **Private**: only members can read anything. If it is listed, everyone else sees just its name and the details you choose to show. If it is unlisted, they see nothing.
 
 You choose this in the **Public or private** step when you [start a community](start-a-community.md), and can change it later.
 

@@ -30,8 +30,8 @@ Your answers are seen only by the people who review requests, and are deleted 90
 
 An invite lets you join straight away, even when a community is invite only or does not appear in the directory.
 
-- **A link**: open it. Sign in if asked, read the community's rules, and join.
-- **A code**, such as `ABCDE-23456`: on the community's page, choose **Have an invite code?**, enter it and choose **Use code**.
+- **A link**: open it. Sign in if you aren't already, read the community's rules, and join.
+- **A code**, such as `ABCDE-23456`: on the community's page, choose **Have an invite code?**, enter it and choose **Use code**. If the community isn't in the directory, use the invite link instead.
 - **A QR code**: scan it with your phone's camera to open the link.
 
 If you see "This invite doesn't work", it may have ended, been used up or been turned off. Ask the person who gave it to you for a new one.

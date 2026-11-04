@@ -19,7 +19,7 @@ When you approve, the person becomes a member straight away and is told in their
 
 When you decline, the person is not told why. Their community page shows **Not approved**, with the date they can ask again: **30 days** after the decline.
 
-Occasionally Tuvima ID cannot let a person join, for example because they are banned under another persona. The approval then stops and the request is declined.
+Occasionally Tuvima ID's own checks stop a person joining. The approval then stops and the request is declined. Tuvima ID never says why.
 
 ## Take a closer look
 

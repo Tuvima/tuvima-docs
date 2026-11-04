@@ -37,7 +37,7 @@ Choose **Turn off** beside an invite. Its link and code stop working at once. Pe
 ## Keeping invites safe
 
 - Invite pages ask people to sign in before they show the community.
-- Tuvima limits how many wrong codes can be tried, so codes cannot be guessed.
+- Tuvima limits how many wrong codes can be tried, so codes are very hard to guess.
 - Anyone who has the link can use it until it ends, so share it with care, and prefer a use limit or an end date.
 
 ## Next steps

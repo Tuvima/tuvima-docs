@@ -16,7 +16,7 @@ Owners and admins choose it in **Community settings**, then **How people join**.
 | Choice | What happens |
 | --- | --- |
 | **Anyone can join** | Signed-in people agree to the rules and join straight away. |
-| **Ask to join** | People answer your [join questions](join-questions.md), if you have any, and send a request. A moderator [approves or declines](join-requests.md) it. |
+| **Ask to join** | People answer your [join questions](join-questions.md), if you have any, and send a request. A moderator, admin or the owner [approves or declines](join-requests.md) it (or anyone whose role lets them review requests). |
 | **Invite only** | Only people with an [invite link or code](invites.md) can join. |
 
 [Invites](invites.md) always work, whatever you choose here.
