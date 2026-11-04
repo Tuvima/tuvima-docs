@@ -16,7 +16,7 @@ There are four ranks. Each can do everything the rank below can, and a rank can 
 | Rank | Can |
 | --- | --- |
 | **Member** | Post, reply, react, report, and edit or delete their own posts. |
-| **Moderator** | Hide, remove and restore posts, pin conversations, suspend and ban members, review reports, read the moderation record and see the members page. |
+| **Moderator** | Hide, remove and restore posts, pin conversations, use thread tools, suspend and ban members, review reports, read the moderation record and see the members page. |
 | **Admin** | Change settings, categories, forums and labels, appoint moderators, manage newcomers and see the numbers. |
 | **Owner** | Appoint admins, choose whether the community is listed, show or hide edit history, and use the launch checklist. |
 
@@ -36,6 +36,24 @@ As the owner you can also set a member's level by hand from their page in **Memb
 
 Reports come to your community's moderation page, where moderators can see open and reviewed reports, filter by reason, act on a post and **Mark reviewed**. Every action is added to the **moderation record**, which cannot be edited.
 
+## Pins and thread tools
+
+Moderators can pin, feature, lock, slow, move, merge and split conversations. See [pins and thread tools](moderator-tools.md).
+
+## Add-ons
+
+Polls, Looking for group, the welcome message and post templates are add-ons. See [add-ons](add-ons.md).
+
+## Rules
+
+Under **Settings > Rules** you edit your community's rules in a working copy. Members do not see changes until you publish.
+
+1. Edit the working copy. Add, change or remove rules. Each rule keeps its number.
+2. Choose to publish and add a note saying what changed. Members see the note.
+3. If the change matters enough that members should agree again, mark it **important**. Only the owner can. After an important change, members can still read, but must agree before they post, reply, react or vote again.
+
+Every member gets a notice when you publish. They can see what changed and earlier versions. You can also write **Forum guidelines** for a forum; they show above the editor. Moderators can name the broken rule when they act on a post. See [the rules everyone follows](../guides/community-rules.md#your-communitys-own-rules).
+
 ## Numbers
 
 The **Numbers** page shows members, posts in the last 7 days, active people in the last 7 days, return visits in the last 30 days, and active people each day for four weeks. These come from Tuvima's own records, with no tracking scripts.
@@ -51,4 +69,5 @@ The **Numbers** page shows members, posts in the last 7 days, active people in t
 - **Categories and forums**: how conversations are grouped, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md).
 - **Edit history**: whether readers can see earlier versions of edited posts.
 - **Moderation**: including whether readers see "Hidden by moderators" notes.
+- **Add-ons**: see [add-ons](add-ons.md).
 - **Launch checklist** and **Rules**.
