@@ -33,7 +33,7 @@ The EPUB reader opens supported ebooks in the browser. Reading tools and progres
 
 1. Open a book in **Listen > Audiobooks**.
 2. Choose start or resume, or select a track on Overview.
-3. Open **Chapters** to browse the source segments.
+3. Open **Chapters** to browse the source segments and jump to one. The bar shows the chapter you are in (for example "Chapter 4 of 21"), with the time in the chapter and the time left in the book; the **Chapter | Book** switch at the end of the bar flips it to the whole book. Your choice is remembered on this device. The bar never draws chapter ticks; ticks are only for your bookmarks.
 4. Use bookmarks and History to return to saved or past positions.
 5. Change **Speed** or set **Sleep** when needed.
 
@@ -47,7 +47,7 @@ On desktop, **Close player** saves a checked, paused position and ends the audio
 
 1. Open **Watch** and select a movie or TV show.
 2. Choose **Watch** or **Resume**. A show starts an in-progress episode or the first owned episode.
-3. Use the bar at the bottom. Play, back and forward 10 seconds and a speaker button are on the left; the episode name is in the middle (for example "From E4 · Episode name"); the tools you need for this title are on the right, then Full screen. Every control is large, and a control grows a little and shows its name when you point at it or tab to it. The speaker button opens a short upright volume slider when you point at it; click the button to mute. When you pause, the picture dims a little and the show, episode and name appear in the middle until you play again.
+3. Use the bar at the bottom. The title is on the left (for example "From E4 · Episode name"); Play sits in the middle with back and forward 10 seconds, and previous and next episode when there are some; the speaker button and the tools you need for this title are on the right, then Full screen. Every control is large, and a control grows a little and shows its name when you point at it or tab to it. The speaker button opens a dark volume box with an upright slider when you point at it; click anywhere on the track to set the level, or click the button to mute. The speaker shows sound on until you mute it or turn the level to zero. When you pause, the picture dims and the details appear on the left: the show, season and episode with its description, or a film's title, year and length. A rated title also shows its rating at the top left, on pause and for the first few seconds of playback. A title with no rating shows no rating.
 4. Choose **Close** to return to the movie or the episode's show details.
 
 Each kind of video shows only the tools that fit it:
@@ -102,6 +102,14 @@ The Engine saves supported player and reader settings. Saved positions belong to
 Prepared video may use HLS variants, alternate audio, and WebVTT captions. See [playback architecture](../architecture/playback.md) for delivery, resume, bookmarks, and player ownership rules.
 
 </details>
+
+## Now Playing
+
+While something is playing, a small animated sound-bars icon sits in the top bar. For music and audiobooks it opens the Now Playing page over the page you are on, and clicking it again (or Collapse) brings you back; clicking the cover art or title in the bottom bar does the same. For video it returns you to the player. Playback never stops when you leave the page. Starting an audiobook from its details page opens the player above that page, so it can never sit hidden underneath.
+
+## Keyboard
+
+Space plays and pauses, the arrow keys skip and change volume, and Escape closes the player or a panel. These stay because they are basic accessibility, and Library never shows them as hints on screen. There are no bookmark shortcuts, so a stray key press can never add one.
 
 ## Next steps
 
