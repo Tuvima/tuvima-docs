@@ -1,6 +1,6 @@
 ---
 title: Photos in posts
-description: "Add photos to conversations and replies, describe them for people who can't see them, and choose how your community handles them."
+description: "Add photos to conversations and replies, browse a community's photos and albums, and choose how your community handles them."
 audience: user
 category: guide
 product_area: tuvima
@@ -50,6 +50,18 @@ If you reach a limit, Tuvima says so and when you can add more.
 - A photo that may be adult or violent can be shown blurred, behind **Show photo**. Nothing is shown until you ask.
 - If a moderator removes a photo, the rest of the post stays and a short note says a photo was removed.
 
+## The Photos tab and albums
+
+Every community has a **Photos** tab next to **Forums**. It shows the photos in the community's posts, newest first, or **Most loved** first (the posts with the most love reactions). You only see photos you could see in their posts: nothing from areas you can't open, and nothing a moderator has taken down. Open a photo and choose **Go to post** to see the conversation it came from.
+
+**Albums** gather photos that are already in posts. Nothing is uploaded twice, and each photo still shows only to people who can read its post.
+
+- **Make an album:** on the Photos tab, choose **New album** and give it a name and, if you like, a description. Members can make albums once they reach the level the community chose (usually Member). The community's owner, admins and moderators always can.
+- **Add a photo:** open one of your photos on the Photos tab and choose **Add to album**. You can add your own photos to your albums. The community's owner, admins and moderators can make community albums from anyone's photos.
+- **Change your album:** open it to rename it, change the description, move photos earlier or later, take a photo out, or delete the album. Taking a photo out of an album, or deleting the album, leaves the photo on its post.
+- **Limits:** up to 50 albums for each member in a community, and up to 500 photos in each album.
+- **Report an album** if its name, description or photos break the community's rules. Only the community's moderators see reports. To report one photo, report its post.
+
 ## For owners and admins
 
 Open **Settings › Photos** in your community to choose:
@@ -58,6 +70,7 @@ Open **Settings › Photos** in your community to choose:
 - **What happens to photos that may be adult or violent:** cover them behind **Show photo** (recommended), hold them until a moderator looks, or show them as they are. Tuvima's own rules still apply either way.
 - **The newcomer numbers.** You can make them stricter than Tuvima's, never looser.
 - **Photos for each level:** whether a level can add photos, how many to a post and how many a day.
+- **Albums:** whether members can make albums, and the lowest level that can.
 
 In **Categories and forums**, each forum can switch photos off, or ask for a title on every conversation even when it has photos.
 
@@ -66,4 +79,5 @@ Your owner, admins and moderators always use the highest numbers in your communi
 ## For moderators
 
 - **Remove one photo** from a post from the full-screen view. The rest of the post stays, and the removal goes in your moderation record.
-- **Held photos** (in Moderation) lists photos waiting for a moderator when your community chose to hold them. Choose **Show** to let readers see one, or **Remove**.
+- **Photos** (in Moderation) lists photos waiting for a moderator when your community chose to hold them. Choose **Show** to let readers see one, or **Remove**.
+- **Reported albums** are listed on the same page. Open one to **Rename** it or **Remove album**, or choose **Dismiss** if it's fine. You can also take a single photo out of someone's album. Renames and removals go in your moderation record, and you can't change albums made by someone who outranks you.
