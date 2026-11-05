@@ -1,6 +1,6 @@
 ---
 title: Choose who can see and post in each area
-description: Make a category or forum members-only, or open it only to some members by level or role, and choose whether hidden areas show with a lock.
+description: Make a category or forum members-only, or open it only to some members by level, role or member tier, and choose whether hidden areas show with a lock.
 audience: user
 category: guide
 product_area: tuvima
@@ -17,7 +17,7 @@ Anyone with the **Manage categories and forums** permission sets this: open **Co
 | --- | --- |
 | **Everyone** | Anyone, without signing in. Only in a public community. |
 | **Members only** | Anyone who has joined. |
-| **Only some members** | People who match at least one **way in** you add: a level and up (such as **Level 3 (Regular) and up**), a [role](roles.md), or a ready-made role and everyone above it (such as **Moderators and up**). |
+| **Only some members** | People who match at least one **way in** you add: a level and up (such as **Level 3 (Regular) and up**), a [role](roles.md), a ready-made role and everyone above it (such as **Moderators and up**), or a [member tier](member-tiers.md) (such as **Member tier: Supporter**). |
 
 In a private community everything is already members-only, so you choose between **Members only** and **Only some members**.
 

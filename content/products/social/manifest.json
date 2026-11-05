@@ -137,6 +137,12 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/member-tiers.md",
+      "slug": "owners/member-tiers",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/make-it-private.md",
       "slug": "owners/make-it-private",
       "group": "Guides",

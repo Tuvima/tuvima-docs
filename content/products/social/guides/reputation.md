@@ -8,7 +8,7 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, badges, credit for good conversations, Helpful this month, owners naming and tuning their own levels, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
+**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, badges, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, hidden safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
 
 Names and numbers may change after testing.
 :::
@@ -57,21 +57,40 @@ Reputation never pushes your own posts up and never gives you moderation powers.
 A member's card in a community shows their **Role**, their **Level** and their Reputation. Your level shows next to your name on every post, and on the front page your Reputation in that post's category shows too.
 
 - **Role** is given by the owner, for example Moderator.
-- **Level** is a ladder. Newcomer is the first rung, then Member, Regular and Trusted, unless the owner has renamed them. You climb by earning Reputation, taking part on many different days and being valued by different people.
-- On your own persona page you can see what the next level needs and how far along you are. Only you see this.
-- Only one thing lowers a level on its own: if the top level needs keeping up, a long time away (about six months) moves you down one level, never below Member. Falling below a number never moves you down.
+- **Level** is a ladder. Every community starts with five ready-made **Journey** levels, which the owner can rename or replace:
 
-On the front page, levels are the same across every category.
+| Level | What it means |
+| --- | --- |
+| **Wanderer** | New here, with a few [newcomer limits](newcomers.md) for the first days. |
+| **Companion** | A full member of the community. |
+| **Pathfinder** | Takes part often and is valued by others. |
+| **Warden** | Long-standing and trusted. Needs keeping up. |
+| **Elder** | Honoured by hand for long-standing people. |
+
+- You climb by earning Reputation, taking part on many different days and being valued by different people. A community can also ask for a number of posts and replies, or days since joining.
+- Some levels are **given by hand only**, like Elder. Nobody climbs into them on their own.
+- On your own persona page you can see what the next level needs and how far along you are. Only you see this.
+- Only one thing lowers a level on its own: if a level needs keeping up, a long time away (about six months) moves you down to the nearest level below that doesn't. Falling below a number never moves you down.
+
+The front page uses the same five names. A persona is a Wanderer for its first days, and Elder on the front page is given only by Tuvima staff, with a reason, and the person is told.
+
+### Safety steps
+
+However a community names its levels, every level sits on one of four hidden **safety steps**: **New**, **Member**, **Regular** and **Trusted**. The step, never the level's name or number, decides how much a vote counts and what a member can do on the front page. So a community with 50 levels can't give anyone more say than a community with five.
+
+Each step also has a Tuvima minimum that owners can't lower. To be on the **Regular** step a member must have taken part on at least 10 days with nothing removed in the last 30 days. For **Trusted**, at least 30 days with nothing removed in the last 90. Until they meet it, they stay on the step below, whatever their level.
 
 ## What owners can change
 
-Each community has one ladder of levels. On the community's **Levels** settings page, the owner (and admins) can:
+Each community has one ladder. On the community's **Member levels** settings page, the owner (and admins) can:
 
-- rename every level,
-- set what Regular, Trusted and any higher level need: Reputation, active days and the number of different people who valued your posts. Raising a number never moves anyone down,
-- choose whether the top level needs keeping up,
+- have up to **50 levels**: add, remove, rename, describe and reorder them,
+- set what each level needs: Reputation, active days, the number of different people who valued your posts, posts and replies, and days since joining. Raising a number never moves anyone down,
+- choose each level's safety step, whether it needs keeping up, and whether it is given by hand only,
 - turn the **Sparked a conversation** and **Top contributor** badges on or off,
 - hide Reputation numbers in the community, so only levels show.
+
+Removing a level moves its members to the nearest level below; the page says where they go before you confirm. A level that opens a [category or forum](../owners/area-access.md) can't be removed until that area's setting changes.
 
 The owner can also set a member's level by hand. It stays where it is until the owner chooses **Return to automatic**, which puts the member back on the level they have earned. The member gets a notice with their new level, and the change is kept in the community's moderation record. A newcomer has to graduate before their level can be moved.
 
@@ -89,11 +108,11 @@ Tuvima staff never step into a community's own moderation. When a community's mo
 
 ## What money can and cannot do
 
-Some communities will offer a paid **Supporter** membership. An owner may let supporters skip the newcomer stage. Paying never raises your level beyond that, and never changes your Reputation, your votes or how far your posts reach.
+Some communities offer [member tiers](../owners/member-tiers.md), such as **Supporter**, and paid tiers will come later. An owner may let a tier skip the newcomer stage. A tier never raises your level beyond that, and never changes your Reputation, your votes or how far your posts reach.
 
 ## How votes are weighed
 
-Up and down votes from members with a higher level count for more, from a quarter of a vote for someone brand new up to three votes at the top. How much a single vote counts varies at random each time, within the member's limit, so nobody can plan a "power vote". It evens out over many votes. Reactions never change a post's place.
+Up and down votes from members on a higher [safety step](#safety-steps) count for more, from a quarter of a vote for someone brand new up to three votes at the top. How much a single vote counts varies at random each time, within the member's limit, so nobody can plan a "power vote". It evens out over many votes. Reactions never change a post's place.
 
 ## Keeping votes honest
 

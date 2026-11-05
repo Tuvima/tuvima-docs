@@ -16,6 +16,7 @@ An invite lets someone join your community straight away, whatever your [join se
    - **Ends on** (optional): the invite stops working at the end of that day. Leave it empty to keep it until you turn it off.
    - **Number of people who can use it** (optional): enter 1 for one person; leave it empty for no limit (up to 1,000).
    - **People who use it join as**: a member, or a role you are allowed to give.
+   - **Also gives a tier** (optional): people who use it also get a [member tier](member-tiers.md). Only tiers that take invite codes are listed, and you need the **Manage member tiers** permission.
 3. Choose **Make invite**.
 
 An invite that gives a moderator-level role hands out real powers, so it must have an end date and a use limit: at most **5 uses and 7 days**.
