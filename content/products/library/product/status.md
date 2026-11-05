@@ -32,7 +32,7 @@ For the row-by-row implementation truth table, see the [Feature Truth Inventory]
 | For Me | Live | Your saved items, Favorites and Continue state remain separate. Personal collections, playlists and galleries appear in their own shelves. |
 | Collections | Partial | Browse trusted automatic groups and custom collections. Lane-level shelves stay in their media lanes; playlists belong in Listen. |
 | Search | Partial | Cross-library search is wired to Engine display/search APIs. Results depend on indexed metadata. |
-| Detail pages | Live | Item detail surfaces show metadata and launch inline editing through the shared editor. |
+| Detail pages | Live | Item detail surfaces show metadata and open the pop-over editor from Edit. |
 | Review Queue | Live | Uncertain or blocked items can be reviewed, dismissed, skipped for universe/QID, or resolved through Engine-backed actions. |
 | Durable operations | Live | Ingestion, Wikidata bridge work, and plugin jobs have restart-safe operation rows with status, stage, progress, retry, and failure detail. |
 | Capability readiness | Partial | Media assets can expose explicit readiness rows for identity, enrichment, text tracks, commercial skip, writeback, AI, and plugin work. More workers will be wired over time. |

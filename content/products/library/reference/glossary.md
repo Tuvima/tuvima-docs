@@ -99,11 +99,11 @@ Follow-up metadata work after basic identity is known, such as artwork, people, 
 
 ### Excluded file
 
-A media file that stayed on disk when its title was deleted from the library: a file in a Read-only folder, the original of a merged file, or a file that could not be removed. Scans skip it so the title does not come back. **Settings > Libraries > Excluded files** lists it, and **Add back** scans it again. See [Manage library settings and operations](../guides/library-settings.md#excluded-files).
+A media file that stayed on disk when its title was deleted from the library: a file in a Read-only folder, the original of a merged file, a file that could not be removed, or a file you chose **Ignore** for in the editor. Scans skip it so the title does not come back. **Settings > Libraries > Excluded files** lists it, and **Add back** scans it again. See [Manage library settings and operations](../guides/library-settings.md#excluded-files).
 
 ### Extras
 
-The guidebooks, picture folders and clips found beside a show, film, album, book, comic or course. They show in an Extras row on the title's page and are never counted as episodes, tracks or issues. See [Extras beside a title](../guides/adding-media.md#extras-beside-a-title).
+The guidebooks, picture folders and clips found beside a show, film, album, book, comic or course. They show in an Extras row on the title's page and are never counted as episodes, tracks or issues. A person can give an Extra a kind (Trailer, Featurette, Behind the scenes, Deleted scene, Interview, Document, Pictures or Other clip) and a place (the whole title, a season, an episode or a track) in the editor's **What is this file?**. See [Extras beside a title](../guides/adding-media.md#extras-beside-a-title) and [Correct an item](../guides/editing-items.md#what-is-this-file).
 
 ### Extra protection
 
@@ -401,7 +401,7 @@ An optional add-on that extends the Library. There are four kinds: Official plug
 
 ### Removed all-in-one workspace
 
-Old management concepts that should not be reintroduced. Current browse and correction flows use Home, Read, Watch, Listen, Collections, Search, detail pages, Needs Review, and Settings/Admin. The retired all-in-one management screen is gone: fixing one item happens in Editing Mode on its detail page, and items the Engine is unsure about go to Needs Review.
+Old management concepts that should not be reintroduced. Current browse and correction flows use Home, Read, Watch, Listen, Collections, Search, detail pages, Needs Review, and Settings/Admin. The retired all-in-one management screen is gone: fixing one item happens in the editor, a pop-over opened from Edit on the item (there is no editing mode, bar or left-hand tree), and items the Engine is unsure about go to Needs Review.
 
 ## Next steps
 

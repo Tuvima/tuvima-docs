@@ -41,8 +41,20 @@
       "section": "Take part"
     },
     {
+      "source": "guides/join-private-community.md",
+      "slug": "guides/join-private-community",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/posting.md",
       "slug": "guides/posting",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
+      "source": "guides/photos.md",
+      "slug": "guides/photos",
       "group": "Guides",
       "section": "Take part"
     },
@@ -117,6 +129,54 @@
       "slug": "owners/look-and-feel",
       "group": "Guides",
       "section": "Run a community"
+    },
+    {
+      "source": "owners/roles.md",
+      "slug": "owners/roles",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/member-tiers.md",
+      "slug": "owners/member-tiers",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/make-it-private.md",
+      "slug": "owners/make-it-private",
+      "group": "Guides",
+      "section": "Private communities and joining"
+    },
+    {
+      "source": "owners/area-access.md",
+      "slug": "owners/area-access",
+      "group": "Guides",
+      "section": "Private communities and joining"
+    },
+    {
+      "source": "owners/how-people-join.md",
+      "slug": "owners/how-people-join",
+      "group": "Guides",
+      "section": "Private communities and joining"
+    },
+    {
+      "source": "owners/join-questions.md",
+      "slug": "owners/join-questions",
+      "group": "Guides",
+      "section": "Private communities and joining"
+    },
+    {
+      "source": "owners/join-requests.md",
+      "slug": "owners/join-requests",
+      "group": "Guides",
+      "section": "Private communities and joining"
+    },
+    {
+      "source": "owners/invites.md",
+      "slug": "owners/invites",
+      "group": "Guides",
+      "section": "Private communities and joining"
     },
     {
       "source": "reference/status.md",

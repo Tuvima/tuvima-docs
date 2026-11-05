@@ -17,11 +17,11 @@ A short animation lands on the tagline **One library. Every story.** and three c
 
 ## The steps, and why they are in this order
 
-1. **Your Library.** The name, language and region of this server. These come first because every later screen uses them.
+1. **Your Library.** The name, language and country of this server. These come first because every later screen uses them. The spelling variant of your language (for example English US or UK) is not asked here: Library follows your browser and uses US English otherwise, and you can change it later in **Settings > General > Language and region**. Country is the one that matters for ratings and storefronts, so it stays.
 2. **Your profile.** The first administrator account. Setup needs a signed-in administrator before it can offer anything private.
 3. **Tools.** The outside programs Library uses, such as FFmpeg. Chips at the top show how many are ready, need setup or are downloading. A missing tool never blocks setup; downloads carry on in the background.
 4. **Vault (optional).** A place for anything you want hidden, adult content included. It comes before Libraries on purpose: the Vault kinds appear in **Add library** only when the Vault is on, so deciding first means you are never shown choices that do not apply. It is protected by its own PIN, and kids profiles never see it. Choose **Not now** and nothing about it appears anywhere else.
-5. **Libraries.** One table lists your libraries with their area, folders and status. During setup every status says **Pending**, because nothing is scanned yet. Settings › Libraries shows the same table with live counts once scanning starts.
+5. **Libraries.** One table lists your libraries with their area, folder count and status, with the same area chips and **Edit** window as Settings. During setup every status says **Pending**, because nothing is scanned yet. Settings › Libraries shows the same table with live counts once scanning starts.
 6. **Metadata.** Optional services that identify your media. Tiles that need a key come first, then the ones that work as they are. A key is tested before it is saved, so a wrong key is never stored.
 7. **All set.** A summary. If you added films, TV shows or comics but connected no metadata source, a warning says they will wait to be identified until you connect one. It appears here only, so setup is never interrupted halfway.
 
@@ -31,7 +31,7 @@ A short animation lands on the tagline **One library. Every story.** and three c
 
 1. **Area:** Watch, Listen, Read or View (and the Vault, once it is on).
 2. **Type:** for example Movies or TV shows within Watch. New areas and types are simply more rows.
-3. **Folder:** a plain list of folders on the server. It opens instantly because it does not look inside folders while you browse. Start from a drive or media location, or choose **Type a path** for a network path the server can reach.
+3. **Folder:** a plain list of folders on the server, with the library name at the top and a path box with **Go**. It opens instantly because it does not look inside folders while you browse. Start from a drive or media location, or type a network path the server can reach.
 4. **The check:** after you press **Add library**, Library looks inside the folder once and says one of three things.
    - **Looks right:** it found files of that type and the library is added.
    - **Heads up:** the folder's contents do not match the type (for example no films in a Movies folder). You can choose another folder or add it anyway.

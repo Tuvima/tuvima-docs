@@ -28,7 +28,7 @@
       "id": "social",
       "name": "Tuvima",
       "icon": "comment",
-      "logo": "/brand/tuvima.svg",
+      "logo": "/favicon.svg",
       "description": "A home for communities: find people who share your interests, join the conversation, or start a community of your own.",
       "path": "products/social",
       "status": "early-access",
@@ -38,7 +38,8 @@
       "groups": [
         "Guides",
         "Reference"
-      ]
+      ],
+      "wordmark": "tuvima-logo.svg"
     },
     {
       "area": "products",
@@ -55,7 +56,8 @@
       "groups": [
         "Guides",
         "Reference"
-      ]
+      ],
+      "wordmark": "tuvima-logo.svg"
     },
     {
       "area": "products",
