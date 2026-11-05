@@ -56,7 +56,7 @@ Every community has a **Photos** tab next to **Forums**. It shows the photos in 
 
 **Albums** gather photos that are already in posts. Nothing is uploaded twice, and each photo still shows only to people who can read its post.
 
-- **Make an album:** on the Photos tab, choose **New album** and give it a name and, if you like, a description. Members can make albums once they reach the level the community chose (usually Member). The community's owner, admins and moderators always can.
+- **Make an album:** on the Photos tab, choose **New album** and give it a name and, if you like, a description. Members can make albums once they reach the level the community chose (usually the second level). The community's owner, admins and moderators always can.
 - **Add a photo:** open one of your photos on the Photos tab and choose **Add to album**. You can add your own photos to your albums. The community's owner, admins and moderators can make community albums from anyone's photos.
 - **Change your album:** open it to rename it, change the description, move photos earlier or later, take a photo out, or delete the album. Taking a photo out of an album, or deleting the album, leaves the photo on its post.
 - **Limits:** up to 50 albums for each member in a community, and up to 500 photos in each album.
