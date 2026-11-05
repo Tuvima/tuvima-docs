@@ -80,4 +80,4 @@ Your owner, admins and moderators always use the highest numbers in your communi
 
 - **Remove one photo** from a post from the full-screen view. The rest of the post stays, and the removal goes in your moderation record.
 - **Photos** (in Moderation) lists photos waiting for a moderator when your community chose to hold them. Choose **Show** to let readers see one, or **Remove**.
-- **Reported albums** are listed on the same page. Open one to **Rename** it or **Remove album**, or choose **Dismiss** if it's fine. You can also take a single photo out of someone's album. Renames and removals go in your moderation record, and you can't change albums made by someone who outranks you.
+- **Reported albums** are listed on the same page. Open one to **Rename** it or **Remove album**, or choose **Dismiss** if it's fine. Only the person who made an album can take photos out of it or reorder it. Renames and removals go in your moderation record, and you can't change albums made by someone who outranks you.
