@@ -41,4 +41,4 @@ You see **You're all set**. Your handle now shows in the menu at the top of Tuvi
 
 - [Find and join a community](/products/social/guides/join-a-community.md)
 - [Turn on two-step sign-in](../guides/two-step-sign-in.md)
-- [Choose which emails you get](../guides/email.md)
+- [Email and alerts](../guides/email.md)
