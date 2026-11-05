@@ -17,7 +17,7 @@ Anyone with the **Manage categories and forums** permission sets this: open **Co
 | --- | --- |
 | **Everyone** | Anyone, without signing in. Only in a public community. |
 | **Members only** | Anyone who has joined. |
-| **Only some members** | People who match at least one **way in** you add: a level and up (such as **Level 3 (Regular) and up**), a [role](roles.md), a ready-made role and everyone above it (such as **Moderators and up**), or a [member tier](member-tiers.md) (such as **Member tier: Supporter**). |
+| **Only some members** | People who match at least one **way in** you add: a level and up (such as **Level 3 (Pathfinder) and up**), a [role](roles.md), a ready-made role and everyone above it (such as **Moderators and up**), or a [member tier](member-tiers.md) (such as **Member tier: Supporter**). |
 
 In a private community everything is already members-only, so you choose between **Members only** and **Only some members**.
 

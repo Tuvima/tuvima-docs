@@ -23,7 +23,7 @@ Tiers are separate from [roles](roles.md). A role is a job in the community, suc
 
 The owner and admins can make, change and give tiers. The owner can also give the **Manage member tiers** permission to any other role.
 
-Open **Community settings**, then **Manage member tiers**. A community can have up to 50 tiers.
+Open **Community settings**, then **Manage member tiers**. A community can have up to 50 current tiers; retired tiers don't count.
 
 ## Make a tier
 
@@ -38,9 +38,10 @@ Choose **+ New tier** and fill in:
   - **Renews:** monthly or yearly, for paid tiers later. Until then, a tier that renews is given by hand.
 - **Sign-up window** (optional): the dates invite codes for the tier start and stop working.
 - **What it gives:**
+  - **Name colour**, **Tier icon** and **Tier name as their title:** how the tier shows beside a holder's name on posts.
   - **Skip the Newcomer stage:** [newcomer limits](../guides/newcomers.md) don't apply while someone holds the tier. If it ends before they have finished the Newcomer stage themselves, the limits come back. Their level is never lowered.
   - **Includes everything in:** another tier. A Patron tier can include Supporter, so Patrons can open everything Supporters can.
-- **On posts:** whether the tier shows beside names by default, with its icon, as their name's colour, or as their title.
+- **On posts:** whether the tier shows beside holders' names by default. Each holder can still choose for themselves.
 
 Use the arrows to put your tiers in the order members see them.
 
@@ -57,18 +58,18 @@ Choose **Members** next to a tier to see who has it.
 - **Give it:** find a member by name, choose **Give**, and optionally pick an end date. A fixed-length tier ends on its own after its length.
 - **End it:** choose **End** next to a member and confirm. Their tier history is kept.
 
-Members get a notice when they are given a tier, a reminder about a week before a tier with an end date runs out, and a notice when it ends.
+Members get a notice when they are given a tier, a reminder about a week before a tier lasting more than a week runs out, and a notice when you end it, it runs out or the tier is retired.
 
 A tier also ends when:
 
 - its end date passes,
-- the member leaves the community, or is banned. Joining again does not bring the tier back.
+- the member leaves the community, or is banned. No notice is sent then, and joining again does not bring the tier back.
 
 ## Tier invite codes
 
-When a tier has **Invite code** switched on, anyone who can [make invites](invites.md) can choose **Also gives a tier** when making an invite. People who join with it get the tier too.
+When a tier has **Invite code** switched on, anyone who can [make invites](invites.md) and has the **Manage member tiers** permission can choose **Also gives a tier** when making an invite. People who join with it get the tier too.
 
-People who are already members can type the code on the community's **Tiers** page, under **Have a tier code?**.
+People who are already members can type the code on the community's **Tiers** page, under **Have a tier code?**. This works for invites that give a tier with no role.
 
 A tier code only works while the tier is taking codes: inside its sign-up window, and while it is not retired.
 

@@ -8,7 +8,7 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, badges, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, hidden safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
+**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, badges, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
 
 Names and numbers may change after testing.
 :::
@@ -70,13 +70,13 @@ A member's card in a community shows their **Role**, their **Level** and their R
 - You climb by earning Reputation, taking part on many different days and being valued by different people. A community can also ask for a number of posts and replies, or days since joining.
 - Some levels are **given by hand only**, like Elder. Nobody climbs into them on their own.
 - On your own persona page you can see what the next level needs and how far along you are. Only you see this.
-- Only one thing lowers a level on its own: if a level needs keeping up, a long time away (about six months) moves you down to the nearest level below that doesn't. Falling below a number never moves you down.
+- Only one thing lowers a level on its own: if a level needs keeping up, a long time away (about six months) moves you down to the nearest level below that doesn't, and never below the second level. Falling below a number never moves you down.
 
 The front page uses the same five names. A persona is a Wanderer for its first days, and Elder on the front page is given only by Tuvima staff, with a reason, and the person is told.
 
 ### Safety steps
 
-However a community names its levels, every level sits on one of four hidden **safety steps**: **New**, **Member**, **Regular** and **Trusted**. The step, never the level's name or number, decides how much a vote counts and what a member can do on the front page. So a community with 50 levels can't give anyone more say than a community with five.
+However a community names its levels, every level sits on one of four **safety steps**: **New**, **Member**, **Regular** and **Trusted**. Members never see them; owners choose them on the levels page, with the first two levels always on New and Member. The step, never the level's name or number, decides how much a vote counts and what a member can do on the front page. So a community with 50 levels can't give anyone more say than a community with five.
 
 Each step also has a Tuvima minimum that owners can't lower. To be on the **Regular** step a member must have taken part on at least 10 days with nothing removed in the last 30 days. For **Trusted**, at least 30 days with nothing removed in the last 90. Until they meet it, they stay on the step below, whatever their level.
 

@@ -41,7 +41,7 @@ status: early-access
 | **Reaction** | One of seven ways to say how a post made you feel: Love, Funny, Insightful, Thanks, Wow, Sad or Angry. Reactions never move a post up or down. |
 | **Reputation** | Points a member earns in one community when other people value what they wrote. |
 | **Role** | What someone can do in a community, and which members-only areas they can open. Every community has Owner, Admin, Moderator and Member, and owners can make their own. |
-| **Safety step** | One of four hidden steps (New, Member, Regular, Trusted) that every level sits on. The step decides how much a vote counts. |
+| **Safety step** | One of four steps (New, Member, Regular, Trusted) that every level sits on, chosen by the owner and never shown to members. The step decides how much a vote counts. |
 | **Slow mode** | A limit on how often each person can post in a conversation, from 30 seconds to 1 hour. |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
