@@ -39,7 +39,7 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 | Connect your website | Bring articles from a website you already run into your community and the front page. |
 | Your own web address | Move your community to a web address you own, with old Tuvima links forwarding to it. |
 | Handing over ownership | Pass a community to another member. |
-| Photos in posts | Built: add photos to posts, with safety checks and members-only photos. Switches on once the safety checks are set up. See [photos in posts](../guides/photos.md). |
+| Photos in posts | Built: add photos to posts, with safety checks and members-only photos, plus a Photos tab and albums in every community. Switches on once the safety checks are set up. See [photos in posts](../guides/photos.md). |
 | Video | Today posts link to video hosted elsewhere. |
 | Status page | A separate page showing whether Tuvima is working normally. |
 | Tuvima Support | A public community where you can ask the Tuvima team for help. |
