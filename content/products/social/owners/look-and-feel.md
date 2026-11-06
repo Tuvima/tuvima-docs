@@ -28,3 +28,7 @@ Blocks are small panels on your community's home page, either at the **Top of th
 - **Welcome**: a greeting for visitors.
 
 Each area holds up to 10 blocks. New communities start with About and Rules in the sidebar.
+
+## Category tiles
+
+You can also arrange your categories as tiles of different sizes with pictures, and hide the sidebar so the tiles use the full width. See [Build your home page with tiles](home-tiles.md).

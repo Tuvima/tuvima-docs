@@ -167,6 +167,12 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/home-tiles.md",
+      "slug": "owners/home-tiles",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/roles.md",
       "slug": "owners/roles",
       "group": "Guides",
