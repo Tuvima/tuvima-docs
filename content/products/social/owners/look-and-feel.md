@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Every community can have its own colours and banner, while fonts and layout stay the same across Tuvima so members always know where things are. Open **Community settings**, then **Look** or **Page blocks**.
+Every community can have its own colours and banner, while fonts and layout stay the same across Tuvima so members always know where things are. Open **Manage**, then **Look and home page**.
 
 ## Colours
 

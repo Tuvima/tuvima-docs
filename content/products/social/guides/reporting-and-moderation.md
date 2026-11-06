@@ -90,6 +90,15 @@ You get a notice in your bell, with the reason if the moderator gave one. If the
 
 If you think a decision about a community was wrong, a moderator or owner of that community is the first person to ask. For a problem with Tuvima itself, use the [contact form on Tuvima ID](/products/id/guides/your-account.md#contact-the-tuvima-team).
 
+## If you get a warning
+
+A community's moderators can give you a warning, with points, for breaking one of its rules. In that community you then see **You have a warning from this community** at the top of its page and in place of the reply box.
+
+- Open it to see the rule and the moderators' message. It never says which moderator gave it.
+- Choose **I understand**. Until you do, you can read but not post or reply in that community.
+- Points expire on their own, and moderators can take a warning back.
+- Points can lead to your new posts waiting for a moderator for a while. Nothing bans you automatically: a person always decides.
+
 ## When Tuvima steps in
 
 On the front page, Tuvima staff handle reports and folded posts, and can remove posts that break [the rules everyone follows](community-rules.md). Every front-page removal shows a public reason.

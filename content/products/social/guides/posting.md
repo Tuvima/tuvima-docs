@@ -37,6 +37,12 @@ In forums where the community has the Polls add-on, you can add a poll to your p
 
 In forums where the owner allows it, you can mark your post as **Looking for group**. People answer **I'm in** or **Maybe**. When the seats are taken, the post shows **Full**, and you are told when someone joins and when it fills. See [add-ons for your community](../owners/add-ons.md#looking-for-group).
 
+## If your post is waiting or blocked
+
+Some communities hold certain posts for a moderator to look at first, such as a newcomer's first posts or posts with particular words. You see **Your post is waiting for a moderator to look at it. It will appear once it's approved.**
+
+A community can also block some words. Then your post isn't posted, and you see the community's message saying why. Change your words and try again. Nothing you wrote is lost.
+
 ## Reply
 
 Open a conversation and write in the reply box at the bottom. Replies show oldest first.
