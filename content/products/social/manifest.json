@@ -23,6 +23,12 @@
       "section": "Start here"
     },
     {
+      "source": "guides/getting-around.md",
+      "slug": "guides/getting-around",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/front-page.md",
       "slug": "guides/front-page",
       "group": "Guides",
@@ -49,6 +55,12 @@
     {
       "source": "guides/join-private-community.md",
       "slug": "guides/join-private-community",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
+      "source": "guides/community-pages.md",
+      "slug": "guides/community-pages",
       "group": "Guides",
       "section": "Take part"
     },

@@ -17,7 +17,7 @@ Sign in to Tuvima ID and choose **Personas** in the menu. On a phone, the menu i
 
 - **Search** for a community by name. Your global persona shows up when it is used in a matching community.
 - **All, Global, Private** narrow the list to one kind of persona.
-- Each row shows the kind of persona, how many communities it is used in and when it was made. A long list shows 50 at a time, with **Show more** at the bottom.
+- Each row shows the persona's name and picture, the kind of persona, how many communities it is used in and when it was made. A long list shows 50 at a time, with **Show more** at the bottom.
 
 ## What you see for each persona
 
@@ -27,7 +27,7 @@ Choose a persona to open its details.
 - **Relay email addresses**: each community gets its own email address for you, so no community sees your sign-in email. An address is made the first time a community emails you. You can see whether email from that community is allowed or stopped, and change it in [email and alerts](email.md).
 - **Where it is used**: each community, with the day you joined or left. Follows, topics and community settings live on Tuvima, so you manage them there.
 
-Names and pictures are kept on Tuvima rather than Tuvima ID, so this page names each persona by its kind and community.
+You set each persona's name and picture on Tuvima. Tuvima ID shows a copy here, updated moments after you change them. Tuvima ID keeps its own copy of each picture, so opening this page never asks Tuvima for your pictures.
 
 ## Privacy
 

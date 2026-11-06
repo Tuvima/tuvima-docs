@@ -60,7 +60,7 @@ Every member gets a notice when you publish. They can see what changed and earli
 
 ## Insights
 
-The **Insights** page shows members, posts in the last 7 days, active people in the last 7 days, return visits in the last 30 days, and active people each day for four weeks. These come from Tuvima's own records, with no tracking scripts.
+The **Insights** page shows members, posts in the last 7 days, active people in the last 7 days, return visits in the last 30 days, and active people each day for four weeks. It counts what people do, never what they read. These come from Tuvima's own records, with no tracking scripts.
 
 ## Settings
 
