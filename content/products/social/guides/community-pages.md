@@ -1,6 +1,6 @@
 ---
 title: Find your way around a community
-description: "What you see on a community's home, its forum group pages, a conversation and a member's page in that community."
+description: "What you see on a community's home, its forum group pages, a conversation and a member's page in that community, with their showcase and what they're known for."
 audience: user
 category: guide
 product_area: tuvima
@@ -35,11 +35,25 @@ The line above the title shows where you are, for example **Retro Console Club â
 
 Choose someone's name in a community to see their page there. It shows only what they did in that community:
 
+- **Known for here:** up to three tags they post under most in that community,
+- their **Showcase:** up to six of their posts they picked,
 - their level and achievements there,
 - their photos there,
 - the conversations they started there.
 
 Their page never shows other communities they belong to, and a private persona is never linked to anyone's global persona.
+
+### Your showcase
+
+On your own page in a community, choose **Edit showcase**. Tick up to six of your posts there (conversations you started or replies you wrote), put them in order with **Up** and **Down**, and choose **Save showcase**. To take one off, choose **Unpin**.
+
+Everyone sees your pinned posts in your order, but only the ones they could already read. A post in a members-only forum stays hidden from people outside it. If you delete a pinned post it leaves your showcase. If moderators hide or remove it, only you still see it there, marked **Only you see this**, until they put it back or you unpin it.
+
+### Known for here
+
+Tuvima fills this in for you from the tags on the conversations you post in, counting both conversations you start and your replies. A tag shows once you have at least three posts under it, and only your top three show. Like your showcase, it only counts posts the reader could see, so a members-only forum's tags never show to people outside it.
+
+Don't want it? On your own page, turn off **Show "Known for here" on my page**. Then nobody else sees it, and your page looks the same as someone who simply has no tags yet.
 
 ## For owners and admins: Insights
 
