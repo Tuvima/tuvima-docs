@@ -9,7 +9,7 @@ status: early-access
 
 How people join is its own setting, for public and private communities alike. A public community can be readable by anyone and still ask people to be approved before they take part.
 
-Owners and admins choose it in **Community settings**, then **How people join**.
+Owners and admins choose it in **Manage**, then **Joining and privacy**.
 
 ## The three ways in
 

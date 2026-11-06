@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-A **role** says what someone can do in your community, and can also open [members-only areas](area-access.md) to the people who hold it. A person can hold several roles. Every role lives in one list: **Community settings**, then **Roles**, then **Manage roles**.
+A **role** says what someone can do in your community, and can also open [members-only areas](area-access.md) to the people who hold it. A person can hold several roles. Every role lives in one list: **Manage**, then **Roles and permissions**.
 
 Only the owner changes roles. Moderators and up can see what each role allows.
 
@@ -22,7 +22,15 @@ Every community starts with four. Each can do everything the one below can.
 | **Moderator** | Hiding and removing posts, pinning and looking after threads, marking accepted answers, suspending and banning, reviewing reports and requests to join, and seeing the members list and the moderation record. |
 | **Member** | Posting, replying, reacting and reporting. Everyone who joins holds it. |
 
-You can rename any of them to suit your community, for example Admin to "Guild Master". You can also change what Admin and Moderator allow, with **Edit**. Choose **Show every permission** to see the full list beside the short one most owners need.
+You can rename any of them to suit your community, for example Admin to "Guild Master". You can also change what Admin and Moderator allow: choose a role in the list to open it, switch permissions on or off, and choose **Save**. The button says how many changes you are saving. Choose **Show every permission** to see the full list beside the short one most owners need.
+
+## Compare roles
+
+Tick two to four roles in the list and choose **Compare roles** to see what each allows side by side.
+
+## Feature switches
+
+Each role also has switches for **Post photos**, **Start polls**, **Looking for group posts** and **Add links to posts**. Switch one off and people who hold only that role can't use it. When someone holds several roles, the most generous one wins. The owner is never limited.
 
 Some rights belong to the owner alone and cannot be given to any role: making the community public or private, handing it over, and deleting it. Choosing whether it is listed, showing edit history and setting levels by hand also stay with the owner.
 
@@ -30,7 +38,7 @@ Some rights belong to the owner alone and cannot be given to any role: making th
 
 1. Choose **Make copy** next to the role closest to what you want, for example Moderator.
 2. Give it a **Name**, such as "Dungeon Master", and an optional description.
-3. Choose **Edit** on the copy to pick what it allows.
+3. Open the copy in the list to pick what it allows.
 
 A copy keeps its source's place: a copy of Moderator acts like a moderator when it comes to who can act on whom. No role can act on its equals, on higher roles or on the owner.
 
@@ -46,7 +54,7 @@ Outside those forums, the person counts as a regular member: they can't moderate
 
 ## Give someone a role
 
-1. Open **Members** and choose the member.
+1. Open **Members** and choose the member, or tick several people and use **Give role** (see [look after members](members.md)).
 2. Under **Roles**, tick the roles to give and untick those to take away.
 3. Choose **Save roles**.
 

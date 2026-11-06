@@ -9,7 +9,7 @@ status: early-access
 
 Each category and forum, together called **areas**, has its own rule for who can see it and who can post in it. Use this for a members-only lounge in a public community, a forum for your most trusted members, or an announcements forum where only staff post.
 
-Anyone with the **Manage categories and forums** permission sets this: open **Community settings**, then **Manage categories and forums**, and choose **Who can see and post** next to a category or forum.
+Anyone with the **Manage categories and forums** permission sets this: open **Manage**, then **Forums and categories**, and choose **Who can see and post** next to a category or forum.
 
 ## Who can see it
 
@@ -31,12 +31,18 @@ A forum gets its category's rule (**Same as its category**). You can narrow a fo
 
 An area someone cannot open is **hidden** from them completely: they do not see it in lists, search, notifications or the Home feed.
 
-Tick **Show it with a lock (name only)** if you would rather people know it exists. They then see its name with a lock and "Only some members can open this", and nothing else.
+Tick **Show it with a lock (name only)** if you would rather people know it exists. They then see its name with a lock and "Only some members can open this", and nothing else. You can write your own **no-access message** instead, up to 280 characters, such as "Become a Supporter to join this forum."
 
 ## Who can post
 
 - **Everyone who can see it**, the usual choice.
 - **Only some members**, using ways in as above. Others can read but not post, for example in an announcements forum.
+
+## See every forum at once
+
+**Manage**, then **Roles and permissions**, then **Access by forum** shows a grid: one row per forum, one column per role, and **Yes**, **No** or **Depends** in each cell. Choose what to look at: **See it exists**, **Read**, **Start threads** or **Reply**. Choose a forum to see all its answers and change who can see and post there.
+
+**Check a person** answers "why can't this member see that forum?". Search for a member and pick them to see, for every forum, what they can do there, and what stops them.
 
 ## Example
 

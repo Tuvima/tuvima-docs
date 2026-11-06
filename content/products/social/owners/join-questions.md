@@ -9,7 +9,7 @@ status: early-access
 
 When your community uses **Ask to join**, you can ask up to three questions, for example "How did you hear about us?" or "Do you live in Dallas?". People answer them when they send their request.
 
-Owners and admins set them in **Community settings**, then **Join questions**. With no questions, people can ask to join without answering anything.
+Owners and admins set them in **Manage**, then **Joining and privacy**. With no questions, people can ask to join without answering anything.
 
 ## Add a question
 

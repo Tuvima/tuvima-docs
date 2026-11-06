@@ -9,7 +9,7 @@ status: early-access
 
 Conversations in your community live in **forums**. **Categories** are headings that group forums on your community's page. **Labels** say where your conversations belong on the Tuvima front page (the Tuvima portal), so that a conversation someone shares there lands with the right subject and tags.
 
-Owners and admins manage all of this in **Community settings**, then **Manage categories and forums**.
+Owners and admins manage all of this in **Manage**, then **Forums and categories**.
 
 ## Categories and forums
 
@@ -21,6 +21,7 @@ Owners and admins manage all of this in **Community settings**, then **Manage ca
 - Use **Move up** and **Move down** to change the order, and **Move to…** then **Move** to put a forum in another category. These are buttons rather than dragging, so they work the same on a phone, with a keyboard or with a screen reader.
 - **Who can see and post** makes a category or forum members-only, or opens it only to some members. See [choose who can see and post in each area](area-access.md).
 - **Edit** renames a category or forum, adds a description, or gives a forum an automatic content warning, such as "Spoilers".
+- **Forum type**, under **Edit**: **Discussion** (replies in time order, for chat, news and show-and-tell), **Questions and answers** (best answers rise, and the asker or a moderator accepts one, which shows first) or **Link to another page** (shows in the list like a forum but opens a web page you choose, such as your shop or wiki; it holds no conversations). A forum that already has conversations can't become a link.
 - To delete a forum, first choose where its conversations go. They move with every reply, and nothing else is deleted. A category can be deleted once it is empty.
 
 Members see the category and forum in a breadcrumb on every conversation, for example **Dallas Dungeon Crawlers › Campaigns › Homebrew**. They can filter the conversation list and search by category and by forum.

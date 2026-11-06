@@ -22,19 +22,23 @@ Every community comes with four ready-made roles: **Owner**, **Admin**, **Modera
 
 You can rename the ready-made roles, change what Admin and Moderator allow, and make your own roles as copies, such as a helper for one forum. See [roles: ready-made and your own](roles.md). Give moderation only to people you trust. Every role change is recorded and can be undone. Handing over ownership is planned.
 
+## Everything in one place
+
+Choose **Manage** on your community's page to open its [admin area](admin-area.md): every setting and moderation tool, grouped into Insights, Community, Members and access, and Safety, with a **Find a setting** box.
+
 ## Members
 
-The **Members** page lists everyone who has joined. Its **Invites** tab is where you [make invites](invites.md). Search it, filter by role, newcomers, suspended or banned, and sort by when people joined, how active they are or name. Open a member to give or take roles, make a newcomer a full member, or take a moderation step. The owner can also set a member's level by hand from here (see below).
+The **Members** page is a table of everyone who has joined. Search it, filter by role, newcomers, suspended or banned, tick several people to give a role or warn them, or choose **Details** for a side panel with their warnings and private moderator notes. See [look after members](members.md). **Invites** is where you [make invites](invites.md). Open a member's page to give or take roles, make a newcomer a full member, or take a moderation step. The owner can also set a member's level by hand from there (see below).
 
 ## Levels
 
-Members climb a ladder of levels as others value what they write: Newcomer, Member, Regular and Trusted to begin with. On **Settings > Levels** you can rename the levels, set what each one needs, choose whether the top level needs keeping up, turn the two community badges on or off, and hide Reputation numbers so only levels show. Raising a number never moves anyone down.
+Members climb a ladder of levels as others value what they write: Newcomer, Member, Regular and Trusted to begin with. On **Manage > Levels** you can rename the levels, set what each one needs, choose whether the top level needs keeping up, turn the two community badges on or off, and hide Reputation numbers so only levels show. Raising a number never moves anyone down.
 
 As the owner you can also set a member's level by hand from their page in **Members**. It stays until you choose **Return to automatic**. The member is told their new level but not who changed it, and the change is kept in the moderation record. [Reputation and levels](../guides/reputation.md) explains the whole system.
 
 ## Reports and the moderation record
 
-Reports come to your community's moderation page, beside [requests to join](join-requests.md), where moderators can see open and reviewed reports, filter by reason, act on a post and **Mark reviewed**. Every action is added to the **moderation record**, which cannot be edited.
+Reports come to **Manage > Reports**, where moderators can see open and reviewed reports, filter by reason, act on a post and **Mark reviewed**. Every action is added to the **moderation record** (**Manage > Moderation log**), which cannot be edited. Held posts and requests to join wait in the **Approval queue**, and removed posts can be restored for 30 days. See [warnings, word filters and the approval queue](warnings-and-filters.md).
 
 ## Pins and thread tools
 
@@ -46,7 +50,7 @@ Polls, Looking for group, the welcome message and post templates are add-ons. Se
 
 ## Rules
 
-Under **Settings > Rules** you edit your community's rules in a working copy. Members do not see changes until you publish.
+Under **Manage > Rules** you edit your community's rules in a working copy. Members do not see changes until you publish.
 
 1. Edit the working copy. Add, change or remove rules. Each rule keeps its number.
 2. Choose to publish and add a note saying what changed. Members see the note.
@@ -60,17 +64,12 @@ The **Insights** page shows members, posts in the last 7 days, active people in 
 
 ## Settings
 
-**Community settings** has these sections. You see the ones your roles allow.
+The [admin area](admin-area.md) lists every settings page. You see the ones your roles allow.
 
-- **General**: name, description and other basics.
-- **Who can read this community**: **Public** or **Private**. See [make your community private](make-it-private.md).
-- **Who can find this community**: **Listed** or **Unlisted**.
-- **How people join** and **Join questions**: see [how people join](how-people-join.md) and [join questions](join-questions.md).
-- **Category on Tuvima**: which front-page category your community belongs to, so the right people find it.
-- **Look** and **Page blocks**: see [change your community's look](look-and-feel.md).
-- **Categories and forums**: how conversations are grouped, who can see and post in each, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md) and [choose who can see and post in each area](area-access.md).
-- **Roles**: see [roles: ready-made and your own](roles.md).
-- **Edit history**: whether readers can see earlier versions of edited posts.
-- **Moderation**: including whether readers see "Hidden by moderators" notes.
-- **Add-ons**: see [add-ons](add-ons.md).
-- **Launch checklist** and **Rules**.
+- **General**: name, description, newcomer limits, **Category on Tuvima** (which front-page category your community belongs to), edit history, whether readers see "Hidden by moderators" notes, and the launch checklist.
+- **Look and home page**: see [change your community's look](look-and-feel.md).
+- **Forums and categories**: how conversations are grouped, forum types, who can see and post in each, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md) and [choose who can see and post in each area](area-access.md).
+- **Rules**, **Photos** and **Add-ons**: see [add-ons](add-ons.md).
+- **Joining and privacy**: **Public** or **Private**, **Listed** or **Unlisted**, how people join and join questions. See [make your community private](make-it-private.md), [how people join](how-people-join.md) and [join questions](join-questions.md).
+- **Roles and permissions**: see [roles: ready-made and your own](roles.md).
+- **Warnings and word filters**: see [warnings, word filters and the approval queue](warnings-and-filters.md).

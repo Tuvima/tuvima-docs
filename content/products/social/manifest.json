@@ -125,6 +125,24 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/admin-area.md",
+      "slug": "owners/admin-area",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/members.md",
+      "slug": "owners/members",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/warnings-and-filters.md",
+      "slug": "owners/warnings-and-filters",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/categories-and-forums.md",
       "slug": "owners/categories-and-forums",
       "group": "Guides",
