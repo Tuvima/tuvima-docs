@@ -13,6 +13,10 @@ Your account page on Tuvima ID is the one place that shows everything tied to yo
 
 Go to Tuvima ID and choose **See your account**, or sign in first. The page has two parts.
 
+A menu on every account page takes you to **Overview** (this page), **Personas**, **Sign-in and security**, **Email and alerts** and **Your feed**. On a phone, the menu is the row of tabs under the top bar.
+
+Tuvima ID opens in dark mode. Use **Dark**, **Light** or **Device** in the top bar to change it; **Device** follows your phone or computer's setting. Your choice is remembered in that browser.
+
 ## Account-wide
 
 These settings apply to your whole Tuvima ID, not to any one community.
@@ -20,6 +24,7 @@ These settings apply to your whole Tuvima ID, not to any one community.
 - **Sign-in email**: the address you sign in with. Communities never see it.
 - **Account created**: the day you joined.
 - **global persona**: whether your global persona has been created yet.
+- **Your personas**: opens [your personas](your-personas.md), every persona you use and where.
 - **Email about replies and mentions**: opens [your email choices](email.md).
 - **Two-step sign-in**: whether it is on, with a link to [turn it on or manage it](two-step-sign-in.md).
 
