@@ -292,12 +292,14 @@ The rows a rescan rebuilds are not kept; the tables below say where a person's o
 | `qid_labels` | Cached Wikidata labels. |
 | `search_index` | Search index over titles. |
 
-## Transient tables (68)
+## Transient tables (70)
 
 None of these are kept.
 
 | Table | Why |
 |---|---|
+| `activity_runs` | The History of imports on the Activity page; rebuilt as new files arrive, so it is not kept in a backup. |
+| `activity_run_items` | The items inside each History entry on the Activity page. |
 | `recycle_bin_personal_state` | Progress kept for files waiting in the Recycle bin; the bin is not backed up, so these copies are not either. |
 | `activity_runs` | The History of imports on the Activity page; rebuilt as new files arrive, so it is not kept in a backup. |
 | `activity_run_items` | The items inside each History entry on the Activity page. |
