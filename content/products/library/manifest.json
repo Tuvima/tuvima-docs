@@ -271,6 +271,12 @@
       "section": "How it works"
     },
     {
+      "source": "explanation/libraries-and-folders.md",
+      "slug": "explanation/libraries-and-folders",
+      "group": "Guides",
+      "section": "How it works"
+    },
+    {
       "source": "explanation/vault.md",
       "slug": "explanation/vault",
       "group": "Guides",
