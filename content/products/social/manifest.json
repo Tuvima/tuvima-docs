@@ -59,6 +59,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/community-pages.md",
+      "slug": "guides/community-pages",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/posting.md",
       "slug": "guides/posting",
       "group": "Guides",
