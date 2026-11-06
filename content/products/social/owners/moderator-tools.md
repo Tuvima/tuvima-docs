@@ -44,9 +44,9 @@ Each of these needs a reason.
 
 Merge and split only work between forums that the same people can read. If you move a conversation into a more private forum, it becomes more private too.
 
-## Moderator notes in a conversation
+## Posts from the moderators
 
-When you reply in a conversation you moderate, tick **Post as a moderator note** to mark your reply as guidance from the moderators, such as "Please keep this on topic" or a summary of a decision. The reply shows a **Moderator note** label, and in a [big conversation](../guides/posting.md#read-a-big-conversation) it always appears in Catch up, so people who skip ahead still see it. Only people who moderate that forum can post one.
+When you reply in a conversation you moderate, tick **Mark as from the moderators** to mark your reply as guidance from the moderators, such as "Please keep this on topic" or a summary of a decision. The reply shows a **From the moderators** label, and in a [big conversation](../guides/posting.md#read-a-big-conversation) it always appears in Catch up, so people who skip ahead still see it. Only people who moderate that forum can mark a reply this way. (These are different from the private [moderator notes](members.md#moderator-notes) your team keeps about members.)
 
 ## Next steps
 
