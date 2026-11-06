@@ -16,14 +16,14 @@ Owners and admins manage all of this in **Community settings**, then **Manage ca
 ![A category holds forums, and forums hold conversations. A category's labels pass to its forums and on to each conversation.](../assets/categories-and-forums.svg)
 
 - A new community starts with one category, **General**, holding the forums you chose when you created it.
-- While there is only one category, members see just its forums, so a small community stays simple. Add a second category and members see the forums grouped under the headings.
+- While there is only one category, members see just its forums, so a small community stays simple. Add a second category and members see one card per category on the community home, with its forums and how many conversations started there this week. Each category also gets its own page. See [find your way around a community](../guides/community-pages.md).
 - A community can have up to 20 categories and 50 forums.
 - Use **Move up** and **Move down** to change the order, and **Move to…** then **Move** to put a forum in another category. These are buttons rather than dragging, so they work the same on a phone, with a keyboard or with a screen reader.
 - **Who can see and post** makes a category or forum members-only, or opens it only to some members. See [choose who can see and post in each area](area-access.md).
 - **Edit** renames a category or forum, adds a description, or gives a forum an automatic content warning, such as "Spoilers".
 - To delete a forum, first choose where its conversations go. They move with every reply, and nothing else is deleted. A category can be deleted once it is empty.
 
-Members see the category and forum in a breadcrumb on every conversation, for example **Dallas Dungeon Crawlers / Campaigns / Homebrew**. They can filter the conversation list and search by category and by forum.
+Members see the category and forum in a breadcrumb on every conversation, for example **Dallas Dungeon Crawlers › Campaigns › Homebrew**. They can filter the conversation list and search by category and by forum.
 
 ## Labels on Tuvima
 

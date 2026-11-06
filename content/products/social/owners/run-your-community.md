@@ -54,9 +54,9 @@ Under **Settings > Rules** you edit your community's rules in a working copy. Me
 
 Every member gets a notice when you publish. They can see what changed and earlier versions. You can also write **Forum guidelines** for a forum; they show above the editor. Moderators can name the broken rule when they act on a post. See [the rules everyone follows](../guides/community-rules.md#your-communitys-own-rules).
 
-## Numbers
+## Insights
 
-The **Numbers** page shows members, posts in the last 7 days, active people in the last 7 days, return visits in the last 30 days, and active people each day for four weeks. These come from Tuvima's own records, with no tracking scripts.
+The **Insights** page shows members, posts in the last 7 days, active people in the last 7 days, return visits in the last 30 days, and active people each day for four weeks. It counts what people do, never what they read. These come from Tuvima's own records, with no tracking scripts.
 
 ## Settings
 
