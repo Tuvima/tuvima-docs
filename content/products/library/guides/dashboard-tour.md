@@ -38,7 +38,7 @@ My List saves items for later. For Me's Favorites currently shows songs marked w
 1. Open a lane and browse its Discover shelves.
 2. Choose a scope, such as **Books**, **TV Shows**, or **Music**, for the full browser.
 3. Use search and the genre, person, year, and status filters where offered.
-4. Choose a sort order, tile size, or Cards/List view where offered.
+4. Choose a sort order or Cards/List view where offered. Every tile is the same size, so there is no size control.
 5. Open a card for details, then start the item.
 
 Music starts in Songs view. Select a song to play it. Its menu can open the parent album. A TV show lists the episodes you own, not a provider's full episode catalog.
