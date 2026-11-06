@@ -11,7 +11,7 @@ Every community can have its own colours and banner, while fonts and layout stay
 
 ## Colours
 
-- Choose a **theme**: Default, Tuvima, Library purple, Slate, Forest or Sunset. Each has a light and a dark version, and members see the one that matches their device.
+- Choose a **theme**: Tuvima, Library purple, Slate, Forest or Sunset. Each has a light and a dark version, and members see the one that matches their choice of light or dark. A new community starts with the Tuvima theme: Harbor blue, with a near-black dark mode.
 - Optionally set an **accent colour**, the colour of buttons and links, with the picker or a colour code. If a colour would be hard to read in light or dark mode, Tuvima uses the nearest readable shade of it automatically.
 
 ## Banner
