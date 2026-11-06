@@ -1,6 +1,6 @@
 ---
 title: Find and join a community
-description: Find a community in the directory, choose the persona to use there, and leave when you want to.
+description: Find a community in Explore or the directory, choose the persona to use there, and leave when you want to.
 audience: user
 category: guide
 product_area: tuvima
@@ -11,7 +11,7 @@ Most communities can be read without joining, by anyone. Join to post, reply and
 
 ## Find a community
 
-Choose **Find a community** on the front page.
+Choose **Explore** in the menu, or **Find a community** on the front page. Explore suggests communities for you and shows what is growing; see [Explore and your communities and follows](explore.md). For the full directory, choose **See more**:
 
 - **Search communities** by name or subject.
 - Filter by **category**.

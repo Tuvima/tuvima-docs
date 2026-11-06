@@ -77,10 +77,10 @@ See [email and alerts](/products/id/guides/email.md) on Tuvima ID for quiet hour
 
 **You** brings it together:
 
-- **Communities**: the communities you are in, with how many new conversations each has.
 - **Saved**: posts you saved.
-- **Watching**: conversations you set to **Every reply**.
 - **Drafts**: posts you started and have not sent. See [save a draft](posting.md#save-a-draft).
+
+The communities you are in, the people and topics you follow, and the conversations you set to **Every reply** are in **Communities and follows**, where you can also change many at once. See [Explore and your communities and follows](explore.md#your-communities-and-follows).
 
 ## Edit your profile
 

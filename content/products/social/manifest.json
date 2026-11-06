@@ -41,6 +41,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/explore.md",
+      "slug": "guides/explore",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/join-private-community.md",
       "slug": "guides/join-private-community",
       "group": "Guides",
