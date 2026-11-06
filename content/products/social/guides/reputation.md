@@ -8,7 +8,7 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, badges, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
+**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, achievements, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
 
 Names and numbers may change after testing.
 :::
@@ -26,7 +26,7 @@ You can vote and react on the same post. Others see how many of each a post has,
 
 ## Reputation: earned from other people
 
-**Reputation** is a public score with badges, earned only when other people value what you wrote:
+**Reputation** is a public score with achievements, earned only when other people value what you wrote:
 
 - up votes and reactions to your posts and replies. Insightful and Thanks count most, Love and Funny a little; Wow, Sad and Angry share a feeling and earn nothing,
 - replies from different members,
@@ -38,7 +38,7 @@ A few rules keep it fair:
 - **Many people beat one fan.** Each extra reaction from the same person counts for less, and one person can only give you so much in a day.
 - **Steady help beats one lucky post.** After a post earns a lot, it earns more slowly.
 - **Good conversations count.** If your reply starts a thread of replies that people value, you earn a share of it. A pile-on does not.
-- **Links alone earn nothing.** What you write with a link earns like any post. A link that starts a real discussion can earn a "Sparked a conversation" badge.
+- **Links alone earn nothing.** What you write with a link earns like any post. A link that starts a real discussion can earn a "Sparked a conversation" achievement.
 - **Disagreeing is free.** A down vote never takes Reputation away. Points are taken back only if the post that earned them is removed for breaking the rules, or the votes behind them turn out to be fake (see [keeping votes honest](#keeping-votes-honest)).
 - **Nobody can edit it.** Not a community owner, not Tuvima staff. Reputation is your history and does not fade.
 
@@ -87,18 +87,18 @@ Each community has one ladder. On the community's **Member levels** settings pag
 - have up to **50 levels**: add, remove, rename, describe and reorder them,
 - set what each level needs: Reputation, active days, the number of different people who valued your posts, posts and replies, and days since joining. Raising a number never moves anyone down,
 - choose each level's safety step, whether it needs keeping up, and whether it is given by hand only,
-- turn the **Sparked a conversation** and **Top contributor** badges on or off,
+- turn the **Sparked a conversation** and **Top contributor** achievements on or off,
 - hide Reputation numbers in the community, so only levels show.
 
 Removing a level moves its members to the nearest level below; the page says where they go before you confirm. A level that opens a [category or forum](../owners/area-access.md) can't be removed until that area's setting changes.
 
 The owner can also set a member's level by hand. It stays where it is until the owner chooses **Return to automatic**, which puts the member back on the level they have earned. The member gets a notice with their new level, and the change is kept in the community's moderation record. A newcomer has to graduate before their level can be moved.
 
-## Badges
+## Achievements
 
 - **Sparked a conversation**: a post that got replies from at least five different members whose replies people valued. You can earn it many times.
 - **Top contributor**: among the ten people who earned the most Reputation over the last 30 days, in a front-page category or in a community. It shows as a small mark on your posts while it holds.
-- More badges will be added over time.
+- More achievements will be added over time.
 
 ## When a post is removed
 
