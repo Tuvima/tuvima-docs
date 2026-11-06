@@ -55,7 +55,7 @@ On long conversations, the **Reading position** bar shows where you are and lets
 
 A conversation with more than 200 replies opens on **Catch up**, so you can see what matters without scrolling through everything.
 
-- **Highlights**: up to 30 of the replies people voted up most, in the order they were written, plus every accepted answer and moderator note. **See it in the thread** takes you to that reply with the replies around it.
+- **Highlights**: up to 30 of the replies people voted up most, in the order they were written, plus every accepted answer and every post marked **From the moderators**. **See it in the thread** takes you to that reply with the replies around it.
 - **Folded branches**: a long run of replies to one post folds into one line, such as **+399 replies in this branch · 6 people · Sam, Jo, Mira and 3 others**. Choose it to open the branch in place.
 - **New replies since your last visit**: members see a bar at the top that jumps to the first reply they haven't seen.
 
@@ -110,4 +110,4 @@ Moderators can also turn on **slow mode** for a conversation. You can then post 
 
 - In the community's home, members can sort by **Latest**, **New** or **Unread**. Moderators can pin a conversation to the top, and a community can feature up to 4 conversations on its home.
 - The person who started a conversation, or a moderator, can choose **Mark as accepted answer** on the most helpful reply.
-- Moderators can tick **Post as a moderator note** when they reply. The reply shows a **Moderator note** label and always appears in Catch up, so everyone sees it. Use it for guidance about the conversation itself, such as "Please keep this on topic".
+- Moderators can tick **Mark as from the moderators** when they reply. The reply shows a **From the moderators** label and always appears in Catch up, so everyone sees it. Use it for guidance about the conversation itself, such as "Please keep this on topic".
