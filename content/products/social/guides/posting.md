@@ -1,6 +1,6 @@
 ---
 title: Post and reply
-description: Start a conversation, save drafts, use templates and polls, format your post, share links safely, add content warnings, quote others, and edit or delete afterwards.
+description: Start a conversation, save drafts, use templates and polls, read big conversations and answers, format your post, share links safely, add content warnings, quote others, and edit or delete afterwards.
 audience: user
 category: guide
 product_area: tuvima
@@ -47,9 +47,31 @@ A community can also block some words. Then your post isn't posted, and you see 
 
 Open a conversation and write in the reply box at the bottom. Replies show oldest first.
 
-Choose **Flat** to read replies in order, or **Nested** to see who replied to whom. Tuvima remembers your choice on that device.
+Choose **In order** to read replies one after another, or **Nested** to see who replied to whom. Tuvima remembers your choice on that device.
 
 On long conversations, the **Reading position** bar shows where you are and lets you jump. Members also see **Jump to where you left off** and a **New since your last visit** line.
+
+## Read a big conversation
+
+A conversation with more than 200 replies opens on **Catch up**, so you can see what matters without scrolling through everything.
+
+- **Highlights**: up to 30 of the replies people voted up most, in the order they were written, plus every accepted answer and moderator note. **See it in the thread** takes you to that reply with the replies around it.
+- **Folded branches**: a long run of replies to one post folds into one line, such as **+399 replies in this branch · 6 people · Sam, Jo, Mira and 3 others**. Choose it to open the branch in place.
+- **New replies since your last visit**: members see a bar at the top that jumps to the first reply they haven't seen.
+
+Choose **In order** or **Nested** at any time to read every reply. Replies load about 50 at a time, and every reply keeps its own link, so a shared link still opens on the right reply.
+
+The **Timeline** beside the conversation shows how busy each day was. Choose a day to jump to its first reply, or use **Back to top**, **Where you stopped**, **Busiest day** and **Jump to newest**. On a phone, the timeline is a slider at the bottom of the screen: drag it to move through the conversation, or choose **Jump** to go to the start, the busiest moment, the newest reply, a date or a reply number.
+
+Nothing is hidden or removed by Catch up. It only changes where the conversation opens.
+
+### Turn big thread mode off
+
+If you'd rather every conversation open in the usual way, open **You** from your account menu, choose **Edit** beside your name, and under **Reading** switch off **Big thread mode**. It applies to every community. The **Turn it off in your settings** link under the highlights goes to the same place.
+
+## Questions and answers forums
+
+In a **Questions and answers** forum, a question opens on **Top answers**: the accepted answer first, then the answers people voted up most. When two answers have the same votes, the newer one comes first. Each answer shows its first few replies, and **Show all replies** opens the rest. Choose **In order** to read everything by time instead.
 
 ## Format your post
 
@@ -88,3 +110,4 @@ Moderators can also turn on **slow mode** for a conversation. You can then post 
 
 - In the community's home, members can sort by **Latest**, **New** or **Unread**. Moderators can pin a conversation to the top, and a community can feature up to 4 conversations on its home.
 - The person who started a conversation, or a moderator, can choose **Mark as accepted answer** on the most helpful reply.
+- Moderators can tick **Post as a moderator note** when they reply. The reply shows a **Moderator note** label and always appears in Catch up, so everyone sees it. Use it for guidance about the conversation itself, such as "Please keep this on topic".
