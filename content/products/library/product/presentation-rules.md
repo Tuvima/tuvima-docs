@@ -624,3 +624,13 @@ This is the current look. Where an older paragraph above says something differen
 
 **People pictures.** Small and square-cornered (88 px) everywhere except the person page, which opens with a large portrait (about 340 px on a desktop).
 
+## One tile design (November 2026)
+
+Every cover in Library is the same tile, on every page. This section replaces the earlier tile size, hover and caption rules above.
+
+- **One size.** A poster is 214 × 321 px on a desktop and 112 × 168 px on a phone; a square is 321 × 321 px beside posters and 214 × 214 px on a page that holds only squares (Listen); a landscape tile is 320 × 180 px. There is no tile size control anywhere and no `tile=` address part. A wider window shows more columns, not bigger tiles.
+- **No text under a tile.** A cover carries its own title in its art. Only two tiles draw words of their own: the Continue tile (title, then rating and year, under its picture) and a cover with no art (a plain dark cover with an icon, the title and the author or artist; a video gets a still on top and its name and one detail line below, at poster size). Collection, Series, Universe and album tiles carry their name on the art; People tiles keep their name line. Episode lists on a show or season page keep the episode number and title under each still.
+- **One "..." button.** It is always visible at the top right (a 44 × 44 px tap area, a vertical three-dot mark with no box). It holds Add to My List, Restart (once started), Open Universe, Edit (desktop) and Delete (administrators on a desktop), in that order; there is no "+" button. A Continue tile's menu starts with Go to (the show, movie or book) and holds Remove from Continue after Restart.
+- **One hover.** A 2 px purple outline around the cover only. The tile never grows, lifts or opens a panel. A touch device gets the same tile with no hover and no text.
+- **Two flush labels.** A status label touches the top-left corner ("Getting details" while the item is being matched, otherwise New or New episode, which the Engine decides) and a bottom label touches the bottom-left corner (the count of a group: "12 episodes", "6 books", "3 videos").
+- **Home rolls up per parent.** Recently Added shows one tile per show, album, Series of books, audiobooks or comics, or folder of videos, with its count in the bottom label; movies, photos and loose files stay one tile each. Opening a rolled-up tile goes to that parent's own page.
