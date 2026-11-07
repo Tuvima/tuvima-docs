@@ -409,6 +409,25 @@ There is one block per kind of position, because a second, a page and a place in
 
 The `time` same-spot value is also the window the Promote action uses to fold other people's personal bookmarks into the Global one, so "the same moment" means the same thing everywhere. Each block must keep `same_spot` ≤ `close` ≤ `far`; a file that breaks that is ignored.
 
+## config/extras.json
+
+The rules that decide which files beside a title become its **supporting files** (shown as its Extras), where each one belongs, and what role it has. The Engine ships these defaults and reads the file at start and whenever it changes; a missing or broken file (including a pattern that does not compile) falls back to the shipped rules, with a warning in the log. Keeping the words here, not in code, means the naming scheme can grow with a release or with your own words, and one list drives every scan.
+
+| Key | What it holds |
+|---|---|
+| `accepted_types` | File types that can become supporting files: documents (PDF, EPUB, text), pictures, video and audio clips. Only kinds Library can open. |
+| `hidden_types` | Files that are never shown: archives (zip, 7z, rar), `.nfo`, `.xml`, `.json` and other metadata sidecars, subtitle files (they belong to the media file), and poster, fanart and thumb pictures named for a media file. |
+| `ignored_folders`, `transient_files` | Folders and temporary files the scan skips. |
+| `hint_folders`, `group_parent_folders` | Folder names such as `Extras`, `Featurettes`, `Bonus`, `Documents`, `Materials`, `Resources`: they mark supporting files without changing where they belong. A named sub-folder under one of the group parents becomes a group (`Extras/Character guides/…` → "Character guides"). |
+| `folder_roles`, `role_words` | Folder names and file-name words that suggest a role (`trailer` → Trailer, `workbook` → Worksheet, `guide` → Guide, `behind` → Behind the scenes). Tried in order; the first match wins. |
+| `roles`, `default_roles`, `role_families` | The fixed role list per file kind (documents, videos, pictures) with their labels, the role used when no word matches, and the families used to group a large title's files until you name groups. |
+| `document_hint_words`, `clip_suffix_words` | Words that mark a file in a library's own format as a supporting file rather than a book or an episode (for example "Season 1 trailer.mkv"). |
+| `season_words`, `specials_words`, `episode_words` | Words that tell a season or section folder, Specials, and an episode's own folder apart. |
+| `title_separators` | Characters turned into spaces when a title is made from a file name (`02-component-exercises.pdf` → "02 component exercises"). |
+| `missing_file_keep_days` | How long a supporting file that has gone from disk is kept as "File missing" before it is removed (30), so a renamed file can be found again. |
+
+A person's own values (title, description, group, role, where it belongs, tags) are stored separately from what these rules work out, so changing a rule and rescanning never overwrites them.
+
 ## config/writeback.json
 
 Controls how resolved metadata is written back into file tags.
