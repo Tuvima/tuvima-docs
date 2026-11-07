@@ -24,6 +24,10 @@ Every community starts with four. Each can do everything the one below can.
 
 You can rename any of them to suit your community, for example Admin to "Guild Master". You can also change what Admin and Moderator allow: choose a role in the list to open it, switch permissions on or off, and choose **Save**. The button says how many changes you are saving. Choose **Show every permission** to see the full list beside the short one most owners need.
 
+## Let a role give achievements
+
+The owner and admins can give [achievements](achievements.md) by hand. To let another role do it, open that role and switch on **Give achievements**. People with it can give and take back achievements given by hand, and see the hand-given log. They can't change the achievements themselves.
+
 ## Compare roles
 
 Tick two to four roles in the list and choose **Compare roles** to see what each allows side by side.

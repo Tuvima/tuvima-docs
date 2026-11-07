@@ -95,6 +95,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/achievements.md",
+      "slug": "guides/achievements",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/privacy.md",
       "slug": "guides/privacy",
       "group": "Guides",
@@ -185,6 +191,12 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/achievements.md",
+      "slug": "owners/achievements",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/make-it-private.md",
       "slug": "owners/make-it-private",
       "group": "Guides",
@@ -229,6 +241,12 @@
     {
       "source": "reference/glossary.md",
       "slug": "reference/glossary",
+      "group": "Reference",
+      "section": "Look something up"
+    },
+    {
+      "source": "reference/achievement-packs.md",
+      "slug": "reference/achievement-packs",
       "group": "Reference",
       "section": "Look something up"
     }

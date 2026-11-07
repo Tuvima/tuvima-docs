@@ -8,7 +8,7 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, achievements, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
+**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, achievements with an Achievements tab in each community, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
 
 Names and numbers may change after testing.
 :::
@@ -54,7 +54,7 @@ Reputation never pushes your own posts up and never gives you moderation powers.
 
 ## Levels
 
-A member's card in a community shows their **Role**, their **Level** and their Reputation. Your level shows next to your name on every post, and on the front page your Reputation in that post's category shows too.
+A member's card in a community shows their **Role**, their **Level** and their Reputation. The one [achievement](achievements.md#show-one-by-your-name) a member chooses to show also appears beside their name. Your level shows next to your name on every post, and on the front page your Reputation in that post's category shows too.
 
 - **Role** is given by the owner, for example Moderator.
 - **Level** is a ladder. Every community starts with five ready-made **Journey** levels, which the owner can rename or replace:
@@ -87,7 +87,7 @@ Each community has one ladder. On the community's **Member levels** settings pag
 - have up to **50 levels**: add, remove, rename, describe and reorder them,
 - set what each level needs: Reputation, active days, the number of different people who valued your posts, posts and replies, and days since joining. Raising a number never moves anyone down,
 - choose each level's safety step, whether it needs keeping up, and whether it is given by hand only,
-- turn the **Sparked a conversation** and **Top contributor** achievements on or off,
+- turn the **Sparked a conversation** and **Top contributor** achievements on or off. All other [achievements](../owners/achievements.md) are managed on their own page,
 - hide Reputation numbers in the community, so only levels show.
 
 Removing a level moves its members to the nearest level below; the page says where they go before you confirm. A level that opens a [category or forum](../owners/area-access.md) can't be removed until that area's setting changes.
@@ -96,9 +96,12 @@ The owner can also set a member's level by hand. It stays where it is until the 
 
 ## Achievements
 
+Achievements are marks of recognition, separate from Reputation. They never add to your Reputation or your level, and they never open areas or give powers. Two of the ready-made ones are tied to how others value your words:
+
 - **Sparked a conversation**: a post that got replies from at least five different members whose replies people valued. You can earn it many times.
-- **Top contributor**: among the ten people who earned the most Reputation over the last 30 days, in a front-page category or in a community. It shows as a small mark on your posts while it holds.
-- More achievements will be added over time.
+- **Top contributor**: among the ten people who earned the most Reputation over the last 30 days, in a front-page category or in a community. You hold it while you stay there; when you drop out it stays in your list marked as past.
+
+Communities and the front page have many more, such as years as a member and accepted answers. They count fairly, using the same filtered numbers as Reputation, so votes from vote rings and removed posts never count. [Achievements](achievements.md) explains how to earn them, how rare they are, and how to show one by your name.
 
 ## When a post is removed
 

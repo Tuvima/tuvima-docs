@@ -10,11 +10,13 @@ status: early-access
 | Word | What it means |
 | --- | --- |
 | **Accepted answer** | The reply that the person who asked, or a moderator, marked as the most helpful. |
+| **Achievement** | A mark of recognition a member earns, or is given by hand, such as a year as a member or ten accepted answers. It has an emblem, never gives access or powers, and has no score. |
 | **Add-on** | A feature a community can switch on or off, such as Polls or Looking for group. |
 | **Category** | A broad subject on the front page, such as Gaming. Communities also have their own categories, headings that group their forums. |
 | **Community** | A space on Tuvima for a group with something specific in common, with its own members, rules and look. |
 | **Content warning** | A label that blurs a post until the reader chooses to see it. |
 | **Draft** | A post you have started and not sent. It saves to your persona as you type and is private to you. |
+| **Emblem** | The small picture on an achievement: a shape, a symbol and two colours. |
 | **Featured** | A row on the community home with up to 4 conversations chosen by moderators. |
 | **Fold** | On the front page, hiding a post behind a notice after trusted members report it for serious abuse, until Tuvima staff review it. Readers can still choose **Show anyway**. |
 | **Forum guidelines** | Short guidance for one forum, shown above the editor. |
@@ -43,6 +45,7 @@ status: early-access
 | **Role** | What someone can do in a community, and which members-only areas they can open. Every community has Owner, Admin, Moderator and Member, and owners can make their own. |
 | **Safety step** | One of four steps (New, Member, Regular, Trusted) that every level sits on, chosen by the owner and never shown to members. The step decides how much a vote counts. |
 | **Slow mode** | A limit on how often each person can post in a conversation, from 30 seconds to 1 hour. |
+| **Showcase** | Up to six achievements shown at the top of a member's page in a community, above their pinned posts. |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
 | **Unlisted** | A community left out of the directory and search. A public one is reachable by link; a private one only by invite. |
