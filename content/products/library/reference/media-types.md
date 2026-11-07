@@ -49,7 +49,8 @@ The same video extensions as Movies and TV (for example `.mp4`, `.mkv`, `.mov`, 
 | Sub-folders inside a series folder | Sections of that series (a course module, a season) |
 
 Order inside a series follows a number in the file name, otherwise natural sort (2 before 10). Reordering by hand is
-saved in Tuvima and does not rename files.
+saved in Tuvima and does not rename files. Sections (a course's modules) can be put in a new order the same way, from the
+editor's Section dropdown, and a rescan keeps that order.
 
 ### How a video is identified
 
