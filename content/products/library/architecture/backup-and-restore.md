@@ -114,7 +114,7 @@ A run looks at every waiting row once, in batches of 200, however many there are
 
 See "What a backup file holds" above. The restore screens come in the next step.
 
-## Configuration tables (66)
+## Configuration tables (67)
 
 | Table | Why | Points at the catalogue | Left out | Only rows where |
 |---|---|---|---|---|
@@ -188,6 +188,7 @@ See "What a backup file holds" above. The restore screens come in the next step.
 | `narrative_root_user_overrides` | A person's name and description corrections for a universe (already keyed by its Wikidata id). | none | none | all rows |
 | `folder_first_checks` | The first check of each newly added folder: a pause waiting for an administrator's choice, and which folders have already passed, so a restore neither releases a paused folder nor starts the check again. | none | none | all rows |
 | `backup_restores` | Which backups were restored and when, with counts of what was put back and what is still waiting. | none | none | all rows |
+| `bookmark_definitive_sets` | Which titles have a definitive set of Everyone's bookmarks an administrator made (the bookmarks themselves are the shared ones in each person's bookmark list). | `work_id` (work) | `made_by` | all rows |
 | `waiting_personal_state` | State from a restored backup that is still waiting for its title, kept with the time it started waiting, so a backup taken before it attaches does not lose it or restart its waiting period. | none | none | all rows |
 
 ## Personal state tables (16)

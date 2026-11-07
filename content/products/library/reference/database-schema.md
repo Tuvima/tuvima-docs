@@ -1730,9 +1730,19 @@ Saved playback positions in a video or an audiobook (the table keeps its audiobo
 | `end_seconds` | REAL | Optional end of a bookmark that marks a part of the video (a scene), after `position_seconds` (upgrade step 0034); NULL for a plain bookmark |
 | `position_kind` | TEXT | `time` (default), `text` or `page` (upgrade step 0078) |
 | `locator` | TEXT | The reader location of a `text` bookmark; NULL for `time` rows |
-
-Bookmark sets from a file (Find bookmarks) are not stored on their own: once applied they are ordinary rows here, with `is_global` = 1 when an administrator applied them and the person's own otherwise. The retired `bookmark_packs` and `bookmark_pack_items` tables (step 0034) were dropped by step `0077_bookmark_packs_retired`; a pack was a separate per-person copy of someone else's bookmarks, which is exactly what applying a set into ordinary rows replaces.
 | `created_at` | TEXT | Timestamp |
+
+Bookmark sets from a file (Import in the editor's Bookmarks tab) are not stored on their own: once applied they are ordinary rows here, with `is_global` = 1 when an administrator applied them to Everyone's bookmarks. The retired `bookmark_packs` and `bookmark_pack_items` tables (step 0034) were dropped by step `0077_bookmark_packs_retired`; a pack was a separate per-person copy of someone else's bookmarks, which is exactly what applying a set into ordinary rows replaces.
+
+### bookmark_definitive_sets
+
+Titles whose Everyone's bookmarks an administrator has made definitive in the editor's Bookmarks tab (universal editor v5, upgrade step 0084). Until a title has a row here, Everyone's bookmarks are every profile's bookmarks on it pooled together, same-spot ones merged. The first change an administrator saves makes the set definitive: from then on Everyone is exactly the bookmarks with `is_global` = 1 on that title. "Start over from profiles" deletes the row and clears the flags. A bookmark is never copied: the flag sits on the owner's own row, so the owner still sees it under Mine.
+
+| Column | Type | Notes |
+|---|---|---|
+| `work_id` | BLOB | Primary key; FK -> `works.id`, deleted with the title |
+| `made_at` | TEXT | When the set became definitive |
+| `made_by` | BLOB | The administrator's profile; FK -> `profiles.id`, cleared if the profile is deleted (nullable) |
 
 ### audiobook_chapter_title_overrides
 
