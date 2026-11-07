@@ -428,6 +428,22 @@ The rules that decide which files beside a title become its **supporting files**
 
 A person's own values (title, description, group, role, where it belongs, tags) are stored separately from what these rules work out, so changing a rule and rescanning never overwrites them.
 
+## config/editor.json
+
+The numbers and per-kind choices behind the editor, so the Dashboard holds none of its own. The Engine reads the file at start and when it changes; a key you leave out takes the shipped value, and a broken file falls back to the shipped rules with a warning in the log.
+
+| Key | What it holds | Shipped value |
+|---|---|---|
+| `inline_supporting_files` | How many supporting files a level shows inline in the header's item dropdown before "All supporting files (N)" opens the browser | `8` |
+| `cards_per_group` | Extras cards per group on a title's page before "See all" | `12` |
+| `rows_per_page` | Rows a page in the supporting-files browser | `25` |
+| `item_list_page_size` | Items the header's item dropdown loads at a time on a long show | `50` |
+| `folder_tree_page_size` | Entries a page in the folder browser | `100` |
+| `suggest_details` | Limits for "Suggest details from the document" (how much of the file is read) | |
+| `kinds` | Per kind of item (TV show, season, episode, movie, album, song, book, audiobook, comic, Series, course, section, video, person, supporting file, Universe, View item, gallery, several items): `tabs` it gets, what the `facts_line` and `quick_facts` show, and the Match search `match_fields` (Title and Year for a movie; Show and Year for TV; Artist, Album and Song for music; Title, Author and ISBN for a book) | |
+
+The tabs' order and names, fields being locked by default, the footer wording and the Delete and Review rules are deliberately not settings: they are the product.
+
 ## config/writeback.json
 
 Controls how resolved metadata is written back into file tags.
