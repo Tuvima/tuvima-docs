@@ -168,22 +168,18 @@ In the book reader, open **Bookmarks and highlights** and choose **Bookmark this
 
 ## Bookmarks in the player
 
-*Early Access: the player's Bookmarks panel described here is still being finished, so what you see can differ in small ways for a while.*
+Choose **Bookmarks** in the player: on the bar for music, audiobooks and video, and on a phone in the audiobook or video tool row or, for music, the "..." menu. The panel opens above the bar.
 
-Choose **Bookmarks** in the player (on a phone, in the audiobook tool row or the "..." menu). The panel opens above the bar.
-
-- **Save a spot.** The wide **+ Bookmark at 34:12** button saves a bookmark at that moment at once, with no note. To add a note, type in **Add a note…** first. There is no keyboard shortcut for bookmarks, so a stray key press never adds one.
-- **Everyone or Mine.** One two-way choice, **Everyone | Mine**, starts on **Everyone**. **Everyone** is what your household bookmarked on this title, each with the name of whoever made it. You never have to copy or save anything: it is simply there. Until an administrator curates the title, Everyone pools every profile's bookmarks, with bookmarks at the same spot merged. Once an administrator has made a definitive set in the editor, Everyone shows only that set. **Mine** is your own bookmarks, and you can **Edit** (rename and add a note) and **Delete** (it asks again in place). Rows under Everyone have no actions in the player.
+- **Save a spot.** The wide **+ Bookmark at 34:12** button saves a bookmark at the moment you pressed it, at once, with no note. To add a note, type in **Add a note…** first. There is no keyboard shortcut for bookmarks, so a stray key press never adds one.
+- **Everyone or Mine.** One two-way choice, **Everyone | Mine**, starts on **Everyone**. **Everyone** is what your household bookmarked on this title, each with the name of whoever made it. You never have to copy or save anything: it is simply there. Until an administrator curates the title, Everyone pools every profile's bookmarks, with bookmarks at the same spot merged. Once an administrator has made a definitive set in the editor, Everyone shows only that set. **Mine** is your own bookmarks, and you can **Edit** (rename and add a note) and **Delete** (it asks again in place). If something fails, the panel says so in place ("Couldn't save" or "Couldn't delete"). Rows under Everyone have no actions in the player, and one of your own bookmarks that an administrator added to the title's set is changed in the editor, not the player.
 - **Rows.** Each row shows the time, the name or note, and a picture: a frame from that moment for a video, the cover for audio. Select a row to jump there. A search box appears above eight rows. Empty lists say "No bookmarks for this title yet" (Everyone) or "No bookmarks of yours yet" (Mine).
 - **On the timeline.** The **Show on timeline** switch at the bottom draws a small tick for each bookmark of the list you are looking at. The progress bar stays clean until you switch it on. Chapter ticks are a separate setting in **Settings > Playback**, off for video and on for audiobooks.
 
-Who sees what is decided by the Engine, not the screen: you see a title's bookmarks if you may see the title. A Vault title has no pooled view, and a Kids profile sees Everyone only for titles it may watch. The player has no copy, share or import action; those belong to the editor.
+Who sees what is decided by the Engine, not the screen: you see a title's bookmarks if you may see the title. A Vault title has no pooled view, and a Kids profile sees Everyone only for titles it may watch. The player only ever makes your own bookmarks: it has no copy, share, import or "add to Everyone's" action; those belong to the editor.
 
 Adding a bookmark works on a phone or tablet.
 
 ## Bookmarks for everyone
-
-*Early Access, with the player's Bookmarks panel above.*
 
 An administrator decides which bookmarks everyone sees in the editor, on a computer: open a movie, episode, video, audiobook or book, choose **Edit** in the "..." menu and open the **Bookmarks** tab. The upper list is **Everyone's bookmarks**, exactly as the player shows them under Everyone. Until you change anything it is pooled from every profile's own bookmarks, with bookmarks at the same spot merged. Your first change (**Rename**, **Change time** or **Remove from Everyone's**) turns it into the title's **definitive set**, and from then on the player shows only that set. **Start over from profiles**, in the list's "..." menu, discards the set and pools again. The lower list, **From profiles**, shows every profile's own bookmarks; **Add to Everyone's** puts one in the set and its owner keeps it as their own. On a video each row starts with the frame at that moment.
 

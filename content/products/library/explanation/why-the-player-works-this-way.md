@@ -95,8 +95,6 @@ The TV apps and the car apps follow the Dashboard's order, names and defaults, w
 
 ## Bookmarks are Everyone's or Mine
 
-*Early Access.*
-
 You bookmark for yourself. In the player, **Everyone** shows what the household bookmarked on this title and **Mine** shows your own, and it opens on Everyone so a good bookmark anyone makes is simply there. You never have to copy or save one to use it. An administrator who wants a cleaner list makes a definitive set in the editor's Bookmarks tab by adding the best bookmarks to Everyone's, renaming them and removing the rest, and then Everyone shows only that set. That work lives in the editor rather than the player because it is curation, not watching: it is staged and saved with **Save changes** like every other edit, so a stray click in the player can never change what everyone sees. Nobody loses a bookmark when it is added to Everyone's; its owner keeps it as their own, and one within a few seconds of it is folded in so the same moment is never listed twice. The tab is never offered in the Vault, because it shows what other people saved.
 
 ## No keyboard shortcut for bookmarks
