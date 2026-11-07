@@ -404,6 +404,18 @@ The guidebooks, picture folders and clips found beside a show, film, album, book
 
 Moving a file between a show's Extras and its episodes is the `extra_move` kind of `POST /library/edit-session`: `entity_id` is the show, `target_id` the Extra and `token` is `episode:{season}:{episode}` (season 0 is Specials), or `entity_id` is the episode and `token` is `extras`. It is checked and saved with the rest of the session, runs after the changes that can be undone, and cannot itself be undone. Nothing is renamed or moved on disk.
 
+### Supporting files (Editor v5)
+
+An Extra is also a **supporting file** the editor can name, describe, group and place. A person's own values are saved through the editor's one Save (`POST /library/edit-session`, change kind `supporting_files`: set group by name, role, Belongs to or "use folder location", add or remove tags for a list of files of one title), so a Save keeps everything or nothing. The reads and the one direct action:
+
+| Method | Path | Description | Auth |
+|---|---|---|---|
+| GET | `/api/v1/supporting-files/titles/{titleId}` | One title's supporting files for the editor's browser: search over file name, title and description (`q`), `where` (a scope key such as `root`, `season:2`, `episode:2:3`), `type`, `group` (or ungrouped), `sort`, `offset` and `page_size`. Returns the rows, totals, the groups with counts and the Where options with counts. A picture folder is one row | Signed in, with access to the title |
+| POST | `/api/v1/supporting-files/titles/{titleId}/preview` | What a staged change would do, without writing anything: per file the outcome, and for a Belongs to change in a Managed folder the planned move from and to (none in a Read-only folder). The editor's amber footer and Review use it. An unknown place is refused (`BadPlace`) | Effective administrator, with metadata write access to the title |
+| POST | `/api/v1/supporting-files/titles/{titleId}/bulk-delete` | Delete supporting files at once (Delete asks once and happens at once). Files follow the library's file handling through the source-file safety gate: the Recycle bin when the library has one; a file in a Read-only folder stays on disk and is remembered as excluded | Effective administrator in person (not a paired or service app) |
+
+Main search (`GET /search/universal`) has a **Supporting files** section that matches title, description and file name, following the visibility of the title each file belongs to (Kids levels, hidden libraries and the Vault apply).
+
 ## Library Item
 
 | Method | Path | Description | Auth |
@@ -462,6 +474,11 @@ Moving a file between a show's Extras and its episodes is the `extra_move` kind 
 | POST | `/metadata/{entityId}/artwork/{assetType}` | Compatibility upload route for an artwork type | Effective administrator or precise Application permission |
 | PUT | `/metadata/artwork/{variantId}/preferred` | Make an artwork variant the preferred image for its artwork type | Effective administrator or precise Application permission |
 | DELETE | `/metadata/artwork/{variantId}` | Remove an artwork variant from the item. Shared provider/image cache files are retained when still referenced elsewhere. | Effective administrator or precise Application permission |
+| GET | `/metadata/{entityId}/editor-nav/level` | One more page of the editor header's item dropdown: `level_id`, optional search `q`, `offset` (50 a page) and `supporting_file_id` to mark the file being edited. The first page arrives with the editor context in `header`: the title's root, the home button, the Season or Section dropdown, items with code, still, state and length, the supporting files of each level, the cover's stored colours and the editor settings for the kind | Effective administrator or precise Application permission, plus catalogue access |
+| GET | `/metadata/editor-config` | The editor settings for a kind with no header of its own (`kind`: person, Universe, supporting file, View item or gallery, several items): tabs, facts and limits from `config/editor.json` | Effective administrator or precise Application permission |
+| GET | `/metadata/{entityId}/current-match` | The item's current match, read by its stored provider ID and never by a search: picture, title, year, creator, provider, source link and the Why-this-match rows. TheTVDB records are read live by ID, with pictures through the Engine; other providers show the stored record | Effective administrator or precise Application permission, plus catalogue access |
+| GET | `/metadata/{entityId}/supporting-files/{supportingFileId}/suggest-details` | Title and description suggested from a document's own metadata and first lines (PDF, EPUB, text), read on this machine with no provider and no AI. Refused for a file that is not this title's | Effective administrator or precise Application permission, plus catalogue access |
+| GET | `/metadata/{entityId}/folder-tree` | One folder of the title's folder tree for the editor's folder button (`folder`, `offset`): folders first, then files marked main media, supporting file, unsorted or hidden ("Not shown in the library"). Never leaves the title's folder, and links pointing outside it are left out | Effective administrator or precise Application permission, plus catalogue access |
 
 ---
 
