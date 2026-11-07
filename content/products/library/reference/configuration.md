@@ -403,7 +403,7 @@ Administrators can run the same maintenance manually with `POST /maintenance/sto
 
 ## config/bookmarks.json
 
-How close two bookmarks must be to count as the same, used by **Find bookmarks** when it sets a bookmark file beside the bookmarks you already have. There is no Settings page for it: edit the file and save, and the next comparison uses the new values with no restart. A missing or broken file falls back to the built-in values below.
+How close two bookmarks must be to count as the same, used when the editor's **Bookmarks** tab imports a bookmark file beside Everyone's bookmarks, and when it merges bookmarks at the same spot on **Save changes**. There is no Settings page for it: edit the file and save, and the next comparison uses the new values with no restart. A missing or broken file falls back to the built-in values below.
 
 There is one block per kind of position, because a second, a page and a place in a book are measured differently. In each block, `same_spot`, `close` and `far` are the largest gap that still earns that label; anything further is **New**.
 
@@ -413,7 +413,7 @@ There is one block per kind of position, because a second, a page and a place in
 | `page` | Comics and PDFs (gaps in pages) | `0` (the same page) | `2` | `10` |
 | `text` | EPUB books (gaps in chapters; the same-spot value is a share of one chapter) | `0.02` | `0` | `2` |
 
-The `time` same-spot value is also the window the Promote action uses to fold other people's personal bookmarks into the Global one, so "the same moment" means the same thing everywhere. Each block must keep `same_spot` ≤ `close` ≤ `far`; a file that breaks that is ignored.
+The `time` same-spot value is also the window the editor's Add to Everyone's uses to fold other people's personal bookmarks into the Global one, so "the same moment" means the same thing everywhere. Each block must keep `same_spot` ≤ `close` ≤ `far`; a file that breaks that is ignored.
 
 ## config/extras.json
 
