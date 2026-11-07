@@ -58,7 +58,7 @@ The Listen playback bridge stores only Web client mechanics under `tuvima.playba
 - `tuvima.playback.v2.command`
 - `tuvima.playback.v2.device-id`
 
-Do not read the retired `listen-playback-state` or `listen-playback-command` keys. Browser timing and popup defaults are injected from `config/ui/playback-client.json` through `listenPlayback.configure(...)`; user listening preferences stay in the playback settings API.
+Do not read the retired `listen-playback-state` or `listen-playback-command` keys. Browser timing defaults are injected from `config/ui/playback-client.json` through `listenPlayback.configure(...)`; user listening preferences stay in the playback settings API.
 
 ## Native control hosts
 

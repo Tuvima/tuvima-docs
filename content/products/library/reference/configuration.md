@@ -706,10 +706,11 @@ Browser playback mechanics for the Dashboard Listen host. These are not user lis
 
 | Field | Type | Description |
 |---|---|---|
-| `popup_width` / `popup_height` | int | Mini-player popup dimensions. |
+| `default_skip_back_seconds` / `default_skip_forward_seconds` | int | Skip lengths used when a profile has not saved its own (10 and 30). |
+| `music_previous_restart_seconds` | number | In music, after this many seconds of play (3) Previous restarts the song; before that, or on a second press within this time of a restart, it goes to the previous song. |
 | `immediate_action_dedup_milliseconds` | int | Debounce window for immediate DOM audio actions. |
 | `immediate_action_consume_milliseconds` | int | Window for treating immediate DOM actions as already handled by the host. |
-| `lyrics_lead_milliseconds` | int | Client lyric highlighting lead in milliseconds; defaults to 150, bounded to 0–500. Native media time drives the main window; popup snapshots are extrapolated locally. |
+| `lyrics_lead_milliseconds` | int | Client lyric highlighting lead in milliseconds; defaults to 150, bounded to 0–500. Native media time drives the player. |
 | `audio_observer_interval_milliseconds` | int | Browser audio state observer cadence. |
 | `audio_observer_minimum_interval_milliseconds` | int | Lower bound for observer cadence. |
 | `seek_tolerance_seconds` | number | Allowed difference between target and actual audio position before applying a corrective seek. |

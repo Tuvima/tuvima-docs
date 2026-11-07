@@ -1,6 +1,6 @@
 ---
 title: "Why the player works this way"
-description: "The reasoning behind the Watch and Listen players: control sizes, the Settings menu, bookmarks, volume and what is switched off by default."
+description: "The reasoning behind the one player for music, audiobooks, TV and movies: the shared bar, panels, bookmarks, phones, casting and the lock screen."
 audience: user
 category: explanation
 product_area: playback
@@ -13,65 +13,105 @@ tags:
 
 # Why the player works this way
 
-The Watch and Listen players make a few choices you cannot change. This page explains the reasons, so they feel like decisions rather than limits. For how to use the player, see [Play, listen, and read](../guides/playback-and-reading.md).
+The player makes a few choices you cannot change. This page explains the reasons, so they feel like decisions rather than limits. For how to use the player, see [Play, listen, and read](../guides/playback-and-reading.md).
 
-## Bigger controls and a bigger title
+## One bar everywhere
 
-Small icons were hard to find and hard to hit, especially from across a room. Every control now comes from one size set, so no button is smaller or easier to miss than another. The title in the middle is large for the same reason.
+Music, audiobooks, TV and movies share one bar: the title on the left, the playback buttons in the middle and the tools on the right. You learn it once, and only the tools change with what you are playing. Play is in the exact middle because it is what you reach for most, and the middle is where a thumb or cursor expects it. It stays there however long the title is or however many tools there are, so it never moves under your hand.
 
-## Pointing at a control shows its name, and it grows
+## Artwork in every bar
 
-An icon on its own is hard to read for some people, and for anyone using the keyboard. A control grows a little and shows its name when you point at it or tab to it. The growth is switched off if your device asks for reduced motion.
-
-## One gear for Settings
-
-The old "CC" button only covered subtitles. Audio and the look of your subtitles belong in the same place, so there is now one gear menu with Audio, Subtitles and Styling. When no subtitle source is switched on, it tells you so rather than offering a search that cannot work.
-
-## Subtitles you can actually read
-
-Good subtitles depend on the screen, the room and the person watching. White text on a dark box works for most people, but not for everyone: someone with a bright room may want a solid backing, someone watching a dark film may want the box almost gone, and some people read yellow or blue text more easily than white. So the subtitle style menu (the **Aa** button beside Settings) has eight colors for the text and eight for the box behind it, plus a slider for how solid each one is. The text can be anywhere from faint to fully solid, and the box can go from none at all up to solid. The preview line at the top changes as you choose, so you see the result before you close the menu.
-
-Your choices are saved with your profile, so every title looks the way you set it, and another person in the house keeps their own look. **Reset** puts everything back to white text on a soft black box. If you slide the background to none, subtitles get a gentle shadow instead so they stay readable over a bright scene. On a tablet or phone the swatches are larger and nothing depends on hover.
+You should see what is playing without reading. Movies and TV episodes now show their artwork in the bar too, so the bar looks the same whatever you started.
 
 ## Each kind of media shows only what fits
 
-A film has no episodes or chapters to jump between. An audiobook lives by its chapters. Music is about the queue. Showing only the controls that fit keeps the bar calm, and you never wonder what a button would do on a film.
+A film has no episodes or chapters to jump between. An audiobook lives by its chapters. Music is about the queue. Showing only the tools that fit keeps the bar calm, and you never wonder what a button would do on a film. A button that cannot act right now is dimmed in place, and one that does not apply is left out, so the controls never shuffle and nothing is a dead button.
 
-## No keyboard shortcut for bookmarks
+## Music skips songs, not seconds
 
-A stray key press should never add something to your library. Bookmarks are added from the pane, where you can see exactly what is being saved and when. Space, the arrow keys and Escape still work, because they are basic accessibility, but the player never prints them on screen as hints.
+Previous and Next are what every music app taught you, and songs are skipped whole, so music has no skip-by-seconds buttons. Previous restarts the song first and goes back a song only if you press it again or press it in the first 3 seconds, the way Spotify and Apple Music do. Audiobooks, TV and movies keep back 10 seconds and forward 30, because that is how people move through a story.
 
-## Same bar everywhere
+## Personal actions sit beside the song
 
-Film, TV, audiobooks and music share one bar: the title on the left, the transport in the middle, the tools on the right. Once you know one player you know them all, and only the tools change with what you are playing. Play is in the middle because it is what you reach for most, and the middle is where a thumb or cursor expects it. Every control, Play included, grows a little and shows its name on hover, with no background highlight, so no button looks more important than another.
+Favorite and Like are about the song, not about the player, so they sit next to its name instead of among the tools on the right. Shuffle and Repeat sit just outside the playback buttons.
+
+## Panels that never clip and open one at a time
+
+A menu that hides behind the page, or stacks on top of another menu, is a bug, not a feature. Every tool opens the same kind of panel: a fixed title with a close button, a scrolling middle and a fixed footer for actions. They open above the bar or inside the video, even in full screen, and only one is open at once. Escape, the close button, the tool's own button or a click elsewhere closes it, and your keyboard focus goes back to where you were. Closing a panel never touches playback.
+
+## Pointing at a control shows its name
+
+An icon on its own is hard to read for some people, and for anyone using the keyboard. Every control shows its name when you point at it or tab to it. Every control is a large target, so none is smaller or easier to miss than another, and a soft highlight tells you which one you are on. On a touch screen nothing depends on hovering, so you press and hold an icon to see its name.
+
+## Audio and subtitles together
+
+You choose the language you hear and the words you read together, so one **Audio & subtitles** button opens both at once, in two columns, each with a check on your choice. The look of the subtitles is a step away in **Subtitle appearance**, with a live preview, three presets (Default, Large text, High contrast) and a custom page for font, colors and opacity. Good subtitles depend on the screen, the room and the person watching, and your choices are saved on your profile so another person in the house keeps their own look. **Reset to default** puts everything back. Skip lengths, speed, picture-in-picture and the file's technical facts have their own gear, **Playback settings**, so they do not crowd the language choices. When no subtitle source is switched on, Library says so rather than offering a search that cannot work.
+
+## Speed has presets and a slider
+
+Most people want one of a few speeds, and a few people want an exact one. The presets (0.75×, 1×, 1.25×, 1.5×, 2×) and the slider (0.5× to 3×) always agree, a preset is ticked only when the number matches it, and a custom number ticks none. The number on the bar always tells the truth about what is playing. For an audiobook that number is on the bar itself, because you reach for speed all the time.
 
 ## Chapters, not ticks
 
-A chapter is a place you jump to, so it gets a list; ticks on the bar are for your own bookmarks. An audiobook's bar shows the chapter you are in ("Chapter 4 of 21") with the time in the chapter and the time left in the book, because a 12-hour bar with 21 ticks tells you nothing at a glance. If you prefer the whole book, the **Chapter | Book** switch flips it, and your choice is remembered.
+A chapter is a place you jump to, so it gets a list. The audiobook timeline shows the chapter you are in ("Chapter 8 · 12:08 · −18:32") or the whole book ("Book · 32% · 6h 12m left"), and says which, because a 12-hour bar with 24 ticks tells you nothing at a glance. You switch between the two at the bottom of the Chapters panel, and your choice is remembered. Ticks on the bar are for your own marks, and you choose whether to see them.
+
+## A sleep timer for audiobooks
+
+The sleep timer is built for audiobooks, where "stop at the end of this chapter" is the choice that matters, so that is where it lives and what it offers. The timer is part of your listening session rather than the page, so it keeps counting when you open Now playing, switch pages or reload. Music does not have a sleep timer yet.
+
+## Lyrics follow you, and you can scroll away
+
+Lyrics highlight the line that is playing. Reading ahead is normal, so scrolling by hand stops the following, and **Resume following** brings it back instead of fighting your scroll.
 
 ## Pause shows what you are watching
 
-A pause is a good moment to remind you what you are watching and what it is rated, so the picture dims and the details appear. The rating card also shows for the first few seconds of a title, then gets out of the way.
+A pause is a good moment to remind you what you are watching, so the show, the episode and a short description appear at the bottom left, on a soft gradient behind the text. The rest of the picture stays clear, so you are not left looking at a dimmed film, and the details hide when you open a panel. The rating card, which shows the title's content rating such as "Rated TV-MA", also shows for the first few seconds of a title and then gets out of the way. It shows the content rating only, never an audience score.
 
-## Now Playing is one click away
+## Now playing is one tap away
 
-The cover art is the natural thing to click to see what is playing, so it opens the Now Playing page. The top-bar icon with the moving sound bars exists so you can see audio is live and get back to it from any page. Audiobooks open above their details page, because a player hidden underneath the page you started it from is the same as no player.
+The cover art is the natural thing to click to see what is playing, so it opens the Now playing page with the big cover, the facts, and the lyrics, queue and history (or an audiobook's chapters and about). The sound-bars icon in the top bar shows audio is live and gets you back from any page. Opening and closing the page never interrupts playback, and **Close** on the bar is the only button that stops it. There is no separate pop-out window: the page and the bar are the same player, so there is never a second copy to keep in step.
 
-## The volume box
+## Phones reflow rather than shrink
 
-A dark box with a thick track is easy to hit with a mouse and easy to see in a dark room, and clicking anywhere on the track sets the level. The speaker only shows "muted" after you mute it or set the level to zero, so it never looks muted just because the player had not reported its level yet.
+Thumbs need room. On a phone the bar collapses to a thin strip with the artwork, the title and only the one or two buttons you reach for, so it never covers your library. Tap it and it opens into a full-screen Now playing with a large cover, the playback buttons and one short row of tools; everything else lives in the "..." menu. Panels become sheets from the bottom, with their own scrolling. There is no volume control because your phone's own buttons already do that job.
 
-## Chapter ticks and bookmark bubbles start switched off
+## Volume stays out of the way
 
-A clean progress bar comes first. If you like the extra marks, switch them on in **Settings > Playback** or from the bookmark pane. Audiobooks never draw chapter ticks; see "Chapters, not ticks" below.
+The speaker mutes with one click and brings your level back when you unmute. A short horizontal slider opens beside it when you point at it or tab to it and closes again, without moving the other tools. On a touch screen the speaker opens a small panel, with mute inside it. The speaker only shows "muted" after you mute it or set the level to zero, so it never looks muted just because the player had not reported its level yet.
 
-## Mine and Global
+## The lock screen belongs to your device
 
-You bookmark for yourself. Until an administrator steps in, everyone sees all profiles' bookmarks pooled, so a good bookmark anyone makes is naturally there. An administrator who wants a cleaner list makes a definitive set in the editor's Bookmarks tab: adding the best bookmarks to Everyone's, renaming them and removing the rest. That work lives in the editor rather than the player because it is curation, not watching: it is staged and saved with **Save changes** like every other edit, so a stray click in the player can never change what everyone sees. Nobody loses a bookmark when it is added to Everyone's; its owner keeps it as their own, and one within three seconds of it is folded in so the same moment is never listed twice. The tab is never offered in the Vault, because it shows what other people saved.
+Your phone, computer, headset or car stereo draws the lock screen and media card. Library fills in the cover, the names and the buttons that make sense for what is playing (Previous, Play and Next for music; back 10 and forward 30 for audiobooks and video), so it looks like everything else you play there and your headset's buttons just work. A Vault item sends nothing while the Vault is locked.
+
+## Your TV is already a receiver
+
+AirPlay and Google Cast are built into your browser, so Library asks the browser to show its own device list instead of scanning your network or installing anything on the TV. Library learns only that you started a session. The action is a row in a menu, not a button on the bar, because on a computer sending to another device is the exception, not the rule. It is switched off in browsers that have no device list, and for Vault items.
+
+The TV fetches the picture itself, without your sign-in, so Library gives it a short-lived secret link for that one title. The link lasts at most 6 hours and is tied to your signed-in session, and it is checked again on every request: signing out, removing the profile or lowering a Kids limit stops it. It is not limited to your home network: Library does not decide by where a device is connected from. The protection is that the link is secret, expires, covers one title only and is checked every time, which is also why you should not share it.
+
+## One contract for every screen
+
+The TV apps and the car apps follow the Dashboard's order, names and defaults, written once in a shared player contract. Learning one player is learning them all: the same five playback buttons, the same names for the tools, and 10 seconds back and 30 forward on every remote. The TV and car parts are a first definition that each app refines.
+
+## Bookmarks are Everyone's or Mine
+
+*Early Access.*
+
+You bookmark for yourself. In the player, **Everyone** shows what the household bookmarked on this title and **Mine** shows your own, and it opens on Everyone so a good bookmark anyone makes is simply there. You never have to copy or save one to use it. An administrator who wants a cleaner list makes a definitive set in the editor's Bookmarks tab by adding the best bookmarks to Everyone's, renaming them and removing the rest, and then Everyone shows only that set. That work lives in the editor rather than the player because it is curation, not watching: it is staged and saved with **Save changes** like every other edit, so a stray click in the player can never change what everyone sees. Nobody loses a bookmark when it is added to Everyone's; its owner keeps it as their own, and one within a few seconds of it is folded in so the same moment is never listed twice. The tab is never offered in the Vault, because it shows what other people saved.
+
+## No keyboard shortcut for bookmarks
+
+A stray key press should never add something to your library. Bookmarks are added from the panel, where you can see exactly what is being saved and when. Space, the arrow keys and Escape still work, because they are basic accessibility, but the player never prints them on screen as hints.
+
+## Bookmarks start off the timeline
+
+A clean progress bar comes first. If you like the extra marks, switch **Show on timeline** on in the Bookmarks panel; the ticks then follow whichever list you are looking at. A long set from a file would otherwise cover the bar the first time you open a film. Chapter ticks are a separate choice in **Settings > Playback**.
 
 ## Books follow the same rules, measured in chapters
 
-A book bookmark is a saved place in the text, not a time, so "close" means something different: the same paragraph is the same spot, the same chapter is close, and up to two chapters away is far. Library can only compare two places inside the same file, because another edition of the book has different markup behind the same words. That is why a bookmark file from a different edition is placed by chapter name instead of by position. When an administrator adds a book bookmark to Everyone's, personal bookmarks in the same paragraph are folded into it, just as bookmarks within a few seconds are for a film.
+A book has no clock. Where a film says "12 minutes 40 seconds", a book says "this paragraph of this chapter", and that address only means something inside the file it came from: another edition (a new translation, a different publisher's file) breaks the text into different pieces, so the same sentence has a completely different address. Library therefore compares two places only when they come from the same file: the same paragraph is the same spot, the same chapter is close, and up to two chapters away is far. It never guesses across editions.
+
+When a bookmark file was made on another edition, Library says so and offers **Align by chapter** instead: each bookmark moves to the start of the chapter with the same name. That is less exact than a paragraph, but it is honest, because chapter names are the one thing editions of a book tend to share, and landing at the top of the right chapter is better than landing somewhere wrong. When an administrator adds a book bookmark to Everyone's, personal bookmarks in the same paragraph are folded into it, just as bookmarks within a few seconds are for a film.
 
 ## Why importing a bookmark file shows two bookmarks side by side
 
@@ -79,20 +119,6 @@ A bookmark file from outside can be a few seconds off from yours: a different re
 
 Because the Engine alone decides how close two bookmarks are, every screen, and every kind of media, agrees on what "Same spot" means. The limits live in a plain config file rather than a Settings page: they are rarely changed, they are different for a second, a page and a place in a book, and a page full of sliders would make an easy feature look hard.
 
-## Why books compare places by chapter and paragraph
-
-A book has no clock. Where a film says "12 minutes 40 seconds", a book says "this paragraph of this chapter", and that address only means something inside the file it came from: another edition (a new translation, a different publisher's file) breaks the text into different pieces, so the same sentence has a completely different address. Library therefore compares two places only when they come from the same file: the same paragraph is the same spot, the same chapter is close, and up to two chapters away is far. It never guesses across editions.
-
-When a bookmark file was made on another edition, Library says so and offers **Align by chapter** instead: each bookmark moves to the start of the chapter with the same name. That is less exact than a paragraph, but it is honest, because chapter names are the one thing editions of a book tend to share, and landing at the top of the right chapter is better than landing somewhere wrong.
-
 ## Why packs are gone
 
-Bookmark packs kept a separate read-only copy of someone else's bookmarks for each person, under the pack's name. That meant the same moment could be listed twice and an administrator's import helped nobody else. Now a file simply becomes bookmarks: Global if an administrator applied it, yours otherwise. One list, one set of rules, nothing extra to remove later.
-
-## Why imported bookmarks start off the bar
-
-Bookmarks from a file follow the same rule as any other: no bubbles on the progress bar until you switch **Show bookmarks on the bar** on, like subtitles that you choose to turn on. A long set from a file would otherwise cover the bar the first time you open a film. Their rows are always in the list under Global (or Mine).
-
-## Volume is vertical and square
-
-A vertical slider that opens from the speaker button matches the rest of the design and stays out of the way until you need it. On a phone or tablet the device's own volume buttons do the job, so the slider is not shown on touch screens.
+Bookmark packs kept a separate read-only copy of someone else's bookmarks for each person, under the pack's name. That meant the same moment could be listed twice and an administrator's import helped nobody else. Now a file simply becomes bookmarks: part of Everyone's if an administrator applied it, yours otherwise. One list, one set of rules, nothing extra to remove later.
