@@ -128,6 +128,12 @@ Priority Cascade thresholds. Controls how the Engine resolves metadata conflicts
 | `conflict_epsilon` | float | `0.05` | If two claims are within this margin of each other, the field is flagged as conflicted rather than resolved. |
 | `stale_claim_decay_days` | int | `90` | Number of days after which a claim's confidence begins decaying. |
 | `stale_claim_decay_factor` | float | `0.8` | Multiplier applied to confidence on each decay cycle after `stale_claim_decay_days`. |
+| `match_verdict.strong_min_score`, `match_verdict.possible_min_score` | float | `0.85`, `0.6` | Score bands for the Match tab's verdict on a result: Strong, Possible or Check. |
+| `match_verdict.strong_min_agreeing_facts` | int | `2` | How many facts must agree (with no fact disagreeing) for a Strong verdict. |
+| `match_verdict.identity_facts` | string[] | `title`, `number`, `identifier` | Facts that decide identity: one that disagrees gives Check. An agreeing identifier (IMDb, TMDB, ISBN, ISRC, YouTube ID) turns a differing title into Possible rather than Check, for translated titles. |
+| `match_verdict.runtime_tolerance_minutes` | int | `2` | How far a file's measured length may be from a provider's rounded runtime and still count as the same. |
+| `match_verdict.track_length_tolerance_seconds` | int | `3` | The same for a song's length. |
+| `match_verdict.evidence_facts` | object | per kind | Which facts the Match tab compares for each kind (for example a movie: title, year, runtime, identifier). A fact with nothing to compare in your file is shown as not checked and never counts against a match. |
 
 ---
 
@@ -440,9 +446,29 @@ The numbers and per-kind choices behind the editor, so the Dashboard holds none 
 | `item_list_page_size` | Items the header's item dropdown loads at a time on a long show | `50` |
 | `folder_tree_page_size` | Entries a page in the folder browser | `100` |
 | `suggest_details` | Limits for "Suggest details from the document" (how much of the file is read) | |
-| `kinds` | Per kind of item (TV show, season, episode, movie, album, song, book, audiobook, comic, Series, course, section, video, person, supporting file, Universe, View item, gallery, several items): `tabs` it gets, what the `facts_line` and `quick_facts` show, and the Match search `match_fields` (Title and Year for a movie; Show and Year for TV; Artist, Album and Song for music; Title, Author and ISBN for a book) | |
+| `kinds` | Per kind of item (TV show, season, episode, movie, album, song, book, audiobook, comic, Series, course, section, video, person, supporting file, Universe, View item, gallery, several items): `tabs` it gets, what the `facts_line` and `quick_facts` show, and the Match search `match_fields` (Title, Year and a provider ID for a movie; Show and Year for TV; Artist, Album and Song for music; Title, Author and ISBN for a book) | |
 
 The tabs' order and names, fields being locked by default, the footer wording and the Delete and Review rules are deliberately not settings: they are the product.
+
+## config/filename_cleaning.json
+
+How a file or folder name is cleaned before Library reads a title, a year, a season and episode, or a disc and track from it. The Match tab's pre-filled search, the Videos title cleaner and the scan-time name reader all use this one file. A key you leave out takes the shipped value; a broken file, or a pattern that does not compile, falls back to the shipped rules with a warning in the log. Every pattern runs with a time limit, and one that takes too long counts as no match.
+
+| Key | What it holds |
+|---|---|
+| `noise_words` | Words removed from names, by family: `resolution` (1080p, 4k), `source` (bluray, web-dl), `codec` (x265, hevc, 10bit), `audio` (aac, dts, atmos), `release_flags` (proper, repack) and `container` (mkv, mp4) |
+| `custom_noise_words` | Your own words to remove, added to the lists above |
+| `ambiguous_words` | Noise words that are also ordinary words (opus, dual, live): removed only next to other noise, never from the middle of a title |
+| `noise_patterns` | Patterns for noise that varies (`720p`, `DDP5.1`, `x.264`) |
+| `separators` | Characters read as spaces (`_`, `.`) |
+| `year` | The pattern for a year in a name |
+| `season_episode_patterns`, `season_folder_pattern` | How `S02E03`, `2x03` and "Season 2 Episode 3" are read, and which folder names are season folders |
+| `track_patterns` | How a disc and track number are read from a song's file name (`1-04`, `CD2 Track 03`, `04 `) |
+| `edition_markers` | Words that name an edition (extended cut, director's cut, remastered) and are kept as the edition rather than part of the title |
+
+The words that decide a supporting file's role and group stay in `config/extras.json`.
+
+---
 
 ## config/writeback.json
 
@@ -513,6 +539,7 @@ This file is the authoritative configuration for all Wikidata-related behaviour.
 | `rate_limit_ms` | int | Minimum milliseconds between requests to this provider. |
 | `cache_ttl_hours` | int | How long provider responses are cached in `provider_response_cache`. |
 | `preferred_bridge_ids` | object | Per-media-type ordered bridge identifiers preferred by this provider. Stage 2 uses this to order bridge resolution, so music tries MusicBrainz IDs before Apple IDs. |
+| `editor_match` | object | How the editor's Match tab uses this provider: `kinds` (the kinds of item it can match, such as `movie` or `tv_episode`), `default_for` (the kinds it is offered first for) and `id_lookup` (identifiers a person can type that it can look up directly, such as `isbn`). TV stays TheTVDB only. A kind with no provider (a course video, a supporting file) has no search; a video with a YouTube ID uses YouTube. |
 
 ### Provider file sections
 
@@ -642,6 +669,10 @@ Global UI defaults applied to all devices and users unless overridden.
 | `poster_aspect_ratio` | string | `"2:3"` - standard cover art card ratio. |
 | `default_view_mode` | string | `"list"` or `"grid"`. Default media library view mode. |
 | `app_store_links` | object | Where each Tuvima app can be installed: `app_store`, `google_play` and `roku`, each a web address. All three ship blank; the Apps page (Settings > Personal > Overview > Apps) shows a store button only once its link is a real `http` or `https` address. |
+
+### config/ui/palette.json (editor header)
+
+`editor_header.primary_percent` and `editor_header.secondary_percent` (shipped `55` and `70`) set how much of a cover's two main colors the editor header's background keeps before it fades into the window surface. A cover with no stored colors gets the plain surface.
 
 ### config/ui/devices/*.json
 
