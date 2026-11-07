@@ -473,6 +473,19 @@ How a file or folder name is cleaned before Library reads a title, a year, a sea
 
 The words that decide a supporting file's role and group stay in `config/extras.json`.
 
+## config/wikidata_match.json
+
+How the Match tab's Wikidata side searches and tells a direct item from its parent (universal editor v5 3c). It is built into the Engine and changes take effect without a restart.
+
+| Key | What it holds |
+|---|---|
+| `search_limit` | How many results one Wikidata search shows (`8`) |
+| `year_tolerance` | How many years a year may differ and still count as agreeing (`1`) |
+| `kinds` | Per kind of item (`tv_episode`, `tv_season`, `tv_show`, `movie`, `song`, `album`, `book`, `audiobook`, `comic`): the Wikidata classes that are the item itself (`direct`) and those that are its show, album or series (`parent`) |
+| `type_words` | The plain words a result's type is shown in |
+| `identifiers` | The identifiers compared as evidence (IMDb, TheTVDB, TMDB, ISBN, MusicBrainz and others): `key`, `label`, the Wikidata `properties` that hold it and the `provider` it belongs to |
+| `year_properties`, `creator_properties`, `series_properties`, `type_property` | Which Wikidata properties are read for the year, creator, series and type |
+
 ---
 
 ## config/writeback.json
