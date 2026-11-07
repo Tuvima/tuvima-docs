@@ -850,6 +850,21 @@ The action itself enforces the rule, so an application (a non-Dashboard caller h
 | POST | `/player/audiobooks/{workId}/chapter-overrides` | Save one display-only audiobook chapter title override | Required |
 | DELETE | `/player/audiobooks/{workId}/chapter-overrides/{assetId}/{chapterIndex}` | Delete one display-only audiobook chapter title override | Required |
 
+### Editor Bookmarks tab
+
+The editor's Bookmarks tab (universal editor v5 D37) is where an administrator makes a title's **definitive set** of Everyone's bookmarks. The players keep Everyone and Mine, markers, jumping and a person's own bookmarks; adding to Everyone's, editing it, importing and exporting live here. Changes are staged and written by the editor's one Save (`POST /library/edit-session`, change kind `bookmarks`: add a profile's bookmark to Everyone's, remove, rename, change time, apply an import, start over from profiles) in one transaction with the same-spot merge, so nobody loses a bookmark. The first saved change makes the set definitive (table `bookmark_definitive_sets`); from then on the players' Everyone shows exactly that set, and "Start over from profiles" pools every profile's bookmarks again. A changed time makes a new frame for a video bookmark.
+
+| Method | Path | Description | Auth |
+|---|---|---|---|
+| GET | `/editor-bookmarks/titles/{workId}` | A title's Everyone's bookmarks (time, name, who it was chosen from, its frame on a video) and whether they are a definitive set or pooled, with every profile's own bookmarks on it beside them | Server administrators only; a Vault title is refused |
+| POST | `/editor-bookmarks/titles/{workId}/compare` | Read a bookmark file for this title and compare it with Everyone's bookmarks (Same spot, Close, Far, New); nothing is written | Server administrators only; a Vault title is refused |
+| POST | `/editor-bookmarks/titles/{workId}/export` | Everyone's bookmarks on a title as one bookmark file (times, names, frames; never personal bookmarks) | Server administrators only; a Vault title is refused |
+| GET | `/editor-bookmarks/families/{workId}` | A show's, season's or album's overview: each member's Everyone's count, definitive or pooled, and personal count, grouped by season | Server administrators only; a Vault title is refused; Vault members are left out |
+| POST | `/editor-bookmarks/families/{workId}/export` | One file for a whole show or album, keyed by season and episode (or disc and track) number | Server administrators only; a Vault title is refused |
+| POST | `/editor-bookmarks/families/{workId}/compare` | Read such a file and compare it episode by episode | Server administrators only; a Vault title is refused |
+
+The older player routes for Everyone's bookmarks, promote and bookmark sets above stay for native apps and the book reader.
+
 Player and playback contracts carry the complete queue/session state, delivery
 manifest, resume data, tracks/subtitles/chapters, audiobook history and
 bookmarks, chapter-title provenance, offline variants, diagnostics, and user
