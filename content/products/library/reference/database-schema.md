@@ -343,8 +343,48 @@ The files that sit beside a title but are not its own episodes, films, tracks, b
 | `place_season` | INTEGER | Where the Extra belongs, when a person placed it: the season (0 for Specials). Null means the whole title (nullable) |
 | `place_episode` | INTEGER | The episode the Extra belongs to, with `place_season` (nullable) |
 | `place_track` | INTEGER | The album track the Extra belongs to (nullable) |
+| `own_title` | TEXT | The title a person gave the supporting file; a rescan never touches it. Null means the card shows `title` (nullable) |
+| `own_description` | TEXT | A description a person wrote, or that "Suggest details" filled (nullable) |
+| `role` | TEXT | The role a person chose (Guide, Worksheet, Transcript, Notes, Booklet, Trailer, Featurette, Behind the scenes, Deleted scene, Interview, Clip, Pictures, Other; the list per file kind lives in `config/extras.json`) (nullable) |
+| `inferred_role` | TEXT | The role the Engine read from the file and folder names; recomputed on every rescan (nullable) |
+| `group_id` | BLOB | The group the file is in (`item_extra_groups`); cleared if the group is deleted (nullable) |
+| `group_source` | TEXT | Who put it in that group: `folder` (read from a sub-folder name) or `you` (a person); a rescan keeps a `you` group (nullable) |
+| `inferred_group` | TEXT | The group name read from the folder layout, kept so the folder's own grouping can be restored (nullable) |
+| `scope` | TEXT | Where a person said the file belongs ("Belongs to"), as a scope key: `root`, `season:2`, `episode:2:3`, `folder:<sub-folder>`, `file:<path>` or `track:4`. Null means it follows `inferred_scope` (nullable) |
+| `inferred_scope` | TEXT | Where the file belongs according to its folder; recomputed on every rescan, so "Use folder location" can go back to it. Defaults to `root` |
+| `alongside` | TEXT | The episode or lesson a person chose to show the file alongside, as a scope key, or `none` when they cleared the guess (nullable) |
+| `inferred_alongside` | TEXT | The episode or lesson the Engine matched from the file name (nullable) |
+| `missing_since` | TEXT | When the file was last found missing on disk. The record is kept as "File missing" for the days set in `config/extras.json`, so a renamed file can be found again, then removed (nullable) |
 
 The kind and place are the reasons the Extras row on a title's page can say "Trailer, Season 1". They are separate from `kind`, which only says what opens the file. Both are person decisions, so they are kept in a backup with the other rows whose `origin` is not `rule`. Index: `ix_item_extras_folder (item_folder)`. When a title's folder holds none of the library's own files any more (the show was deleted), its rows are removed on the next check; the files themselves are never touched. A `user_episode` row's season and episode are read when the file is ingested, so it is identified as that episode.
+
+
+### item_extra_groups
+
+Groups a title's supporting files are sorted into, such as "Character guides" or "Homework". A group is virtual: it never depends on or changes the folder layout. Groups belong to one title (its folder) and go when the title goes.
+
+| Column | Type | Notes |
+|---|---|---|
+| `id` | BLOB | Primary key |
+| `item_folder` | TEXT | The title's folder, compared without regard to case |
+| `name` | TEXT | The group's name, unique within the title, compared without regard to case |
+| `sort_order` | INTEGER | Position of the group in the title's list |
+| `source` | TEXT | `folder` (read from a sub-folder under Extras, Documents or Materials; dropped by a rescan once no file is in it) or `you` (made or renamed by a person; kept until they delete it) |
+| `created_at` | TEXT | When the group was made, ISO 8601 UTC |
+
+Index: `ix_item_extra_groups_folder (item_folder)`.
+
+### item_extra_tag_links
+
+Which tags a person put on which supporting file. The tags themselves are the global `tags`.
+
+| Column | Type | Notes |
+|---|---|---|
+| `extra_id` | BLOB | The supporting file (`item_extras`); removed with it |
+| `tag_id` | BLOB | The tag (`tags`); removed with it |
+| `added_at` | TEXT | When the tag was added, ISO 8601 UTC |
+
+Primary key `(extra_id, tag_id)`; index `ix_item_extra_tag_links_tag (tag_id)`.
 
 ### unmatched_assets
 
