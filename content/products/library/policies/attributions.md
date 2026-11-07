@@ -108,6 +108,15 @@ Model weights are downloaded separately according to configured model URLs and t
 
 Some providers require credentials or API keys. Provider trademarks and data remain owned by their respective organizations.
 
+## Dashboard fonts
+
+| Font | Use | License |
+|---|---|---|
+| Inter 4.1 (rsms/inter) | All interface text in the Dashboard, self-hosted as a variable woff2 file | SIL Open Font License 1.1 |
+| Tuvima Sans | Wordmark and top navigation only; a modified version of Montserrat with the crossbar removed from the capital A (Montserrat itself is not shipped) | SIL Open Font License 1.1 |
+| Merriweather | The book reader | SIL Open Font License 1.1 |
+| JetBrains Mono | Paths and technical values | SIL Open Font License 1.1 |
+
 ## Design and Documentation Assets
 
 Tuvima's own logos, documentation styling, and product copy are maintained in this repository unless otherwise noted. Documentation screenshots are deferred. The documentation site is built from the `tuvima-docs` repository and published through GitHub Pages.

@@ -38,8 +38,8 @@ Use only one filled primary action in an action region. A page may contain multi
 
 ## Typography
 
-- Interface: `--font-ui` (`Segoe UI Variable`, then system UI fallbacks). This is the default for navigation, controls, settings, tables, and body copy.
-- Brand and prominent media identity: `--font-brand` (Montserrat), scoped to deliberate identity treatments rather than all interface text.
+- Interface: `--font-ui` (Inter, shipped with the app, then the system UI font). This is the default for navigation, controls, settings, tables, and body copy.
+- Brand: `--font-brand` (Tuvima Sans), used for the wordmark and top navigation only, never for other interface text.
 - Reader: `--font-reader` (Merriweather), scoped to long-form reading and its preview.
 - Technical values: `--tl-font-mono` (JetBrains Mono with system monospace fallbacks), used for paths, URLs, identifiers, and code.
 - Minimum readable size: `--tl-font-size-xs` (12px at the default root size). Body copy defaults to 14px; secondary copy is 13px; captions and compact metadata are 12px.
@@ -50,7 +50,7 @@ Do not use a smaller font to solve layout pressure. Shorten copy, allow wrapping
 
 Buttons, segmented controls, tabs, and other shared action controls use the interface font and one consistent semibold weight. Visual priority comes from fill, border, and color—not heavier label text.
 
-- Font family: `--font-ui` (`Segoe UI Variable`, `Segoe UI`, then system UI fallbacks).
+- Font family: `--font-ui` (Inter, then the system UI font).
 - Font weight: `--tl-control-font-weight` (600) for primary, secondary, tertiary, selected, and unselected labels alike.
 - Compact size: `--tl-control-font-size-sm` (13px).
 - Normal size: `--tl-control-font-size-md` (14px).
