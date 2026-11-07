@@ -134,6 +134,10 @@ Priority Cascade thresholds. Controls how the Engine resolves metadata conflicts
 | `match_verdict.runtime_tolerance_minutes` | int | `2` | How far a file's measured length may be from a provider's rounded runtime and still count as the same. |
 | `match_verdict.track_length_tolerance_seconds` | int | `3` | The same for a song's length. |
 | `match_verdict.evidence_facts` | object | per kind | Which facts the Match tab compares for each kind (for example a movie: title, year, runtime, identifier). A fact with nothing to compare in your file is shown as not checked and never counts against a match. |
+| `music_match.max_releases` | int | `10` | How many MusicBrainz releases the Match tab's music step lists. |
+| `music_match.release_title_points`, `release_track_count_exact_points`, `release_track_count_more_points` | int | `4`, `3`, `1` | Points that pick the suggested release: the album title agrees, the track count fits exactly, or the release has more tracks than you own. Ties go to a release with a track as long as your song. |
+| `music_match.track_title_points`, `track_number_points`, `track_length_points` | int | `4`, `2`, `2` | Points that pick the suggested track on the opened release: title, track number and length agree. |
+| `music_match.track_min_points` | int | `4` | The fewest points a track needs before it is suggested. |
 
 ---
 
@@ -464,6 +468,7 @@ How a file or folder name is cleaned before Library reads a title, a year, a sea
 | `year` | The pattern for a year in a name |
 | `season_episode_patterns`, `season_folder_pattern` | How `S02E03`, `2x03` and "Season 2 Episode 3" are read, and which folder names are season folders |
 | `track_patterns` | How a disc and track number are read from a song's file name (`1-04`, `CD2 Track 03`, `04 `) |
+| `absolute_episode_patterns` | How an absolute episode number is read from a name (`Show - 105`, `Show Ep 105`), for shows numbered straight through; the Match tab turns it into TheTVDB's season and episode |
 | `edition_markers` | Words that name an edition (extended cut, director's cut, remastered) and are kept as the edition rather than part of the title |
 
 The words that decide a supporting file's role and group stay in `config/extras.json`.
