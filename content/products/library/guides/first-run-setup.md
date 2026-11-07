@@ -31,7 +31,7 @@ A short animation lands on the tagline **One library. Every story.** and three c
 
 1. **Area:** Watch, Listen, Read or View (and the Vault, once it is on).
 2. **Type:** for example Movies or TV shows within Watch. New areas and types are simply more rows.
-3. **Folder:** a plain list of folders on the server, with the library name at the top and a path box with **Go**. It opens instantly because it does not look inside folders while you browse. Start from a drive or media location, or type a network path the server can reach.
+3. **Folder:** a plain list of folders on the server, with the library name at the top. Click a folder to open it; the folder you are inside is the one you are choosing, named on the line above the list. It opens instantly because it does not look inside folders while you browse. Start from a drive or media location, or choose **Type a path…** in the Locations list for a network path the server can reach, and press **Go**.
 4. **The check:** after you press **Add library**, Library looks inside the folder once and says one of three things.
    - **Looks right:** it found files of that type and the library is added.
    - **Heads up:** the folder's contents do not match the type (for example no films in a Movies folder). You can choose another folder or add it anyway.
