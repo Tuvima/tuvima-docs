@@ -100,7 +100,7 @@ The sign-in only reaches the hosts listed in `api.allowed_hosts`, over HTTPS on 
 
 Provider definitions live in `config/providers/*.json`. Long-lived keys belong in ignored files at `config/secrets/{provider}.json`, one flat object per provider with the names `api_key`, `api_key_override`, `client_key`, `access_token`, `pin`, `username` and `password`. A plugin's keys are kept the same way, in `config/secrets/plugins/{plugin-id}.json`. Never put a key in a provider file: provider files are committed and shared.
 
-The Dashboard writes these files when you connect a provider. They sit in the config folder, so they survive a data store reset and are left out of backups.
+The Dashboard writes these files when you connect a provider, and the files are encrypted: the keys are not readable in a text editor. They sit in the config folder, so they survive a data store reset and are left out of backups unless you choose Include keys on a backup. Moving the config folder to another computer without the Library's root key leaves the keys unreadable there; enter them again.
 
 A blank key in a base provider file can still have an effective secret overlay. Check both places before assuming a key was removed. Saved connection checks contain safe status text, not the key.
 
