@@ -118,7 +118,7 @@ Drag the timeline to scrub. On a video Library has made previews for, a small pi
 
 **Episodes** lists a show's episodes with a **Season** dropdown, the count ("20 episodes"), and each episode's still, number, title, length and a one-line synopsis. The current one reads "Playing · 2:23 of 22:41" (or "Paused") and the next has an **Up next** tag. Select an episode to play it, or resume it where you left it. The **Autoplay next episode** switch is at the bottom of this panel. Folder videos and courses call the same panel **Lessons**, and never say Episode or Season.
 
-When an episode or lesson ends, a card shows above the bar: **Up next**, the next item with "Next episode" or "Next lesson", and **Cancel** and **Play now**. With autoplay on it counts down ("Starts in 10 seconds"); with autoplay off it waits for you. For a course, a **Homework** line lists the supporting files marked as shown alongside the lesson.
+When an episode or lesson ends, a card shows above the bar: **Up next**, the next item with "Next episode" or "Next lesson", and **Cancel** and **Play now**. With autoplay on it counts down ("Starts in 10 seconds"); with autoplay off it waits for you. For a course, a **Homework for this lesson** block lists the lesson's own files and the files shown alongside it, each with **Open**; Open stops the countdown and opens the file, and the player shrinks to its bar. A TV episode's card has no homework. On the last lesson the card shows only when there is homework.
 
 Episode lists and what plays next use episodes you own. A provider listing alone is not playable. Audio tracks, subtitles and quality depend on the file and server.
 
