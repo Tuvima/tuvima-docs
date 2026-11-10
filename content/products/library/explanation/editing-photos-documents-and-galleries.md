@@ -27,7 +27,7 @@ The window has the same parts every time, in the same frame as the movie and mus
 - **Header:** a picture of the item (the photo, a still from the video, or a document's first page) and a line that names it, such as "Photo · May 12, 2026 · Lisbon".
 - **Tabs:** Details and History. A gallery has Details, Artwork and History.
 - **Quick Facts:** a read-only card beside the form with the file name, type, size, pages or dimensions, and the number of parts, so you always know what you are looking at. There is no separate Files tab, because these facts are always in view.
-- **Footer:** **Delete**, **Discard** and **Save changes**, together on the right. The footer also says "File write-back off": edits are saved in Library and your original files stay unchanged.
+- **Footer:** a red **Delete** at the left, then **Discard** and **Save changes** at the right. The footer also says "File write-back off": edits are saved in Library and your original files stay unchanged.
 
 Facts that came from the file itself start locked: the date taken, the place and the people found in the photo. Press **Unlock** to change one. A small arrow beside it then puts it back to what the file says. The description, tags and galleries are yours, so they are never locked. Locking stops a stray click from overwriting what the camera recorded, while keeping your own words one click away.
 
