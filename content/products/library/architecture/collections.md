@@ -358,7 +358,7 @@ These are managed on the Collections page (`/collections`).
 
 ## Profile lists and state
 
-The former Reading List, Watchlist, Currently Watching, Listening Queue, and name-based System Collection behavior are retired. `/for-me?view=my-list` reads saved references; `/for-me?view=favorites` reads reactions. `ProfileStateRepository` persists those independent states in `profile_saved_items` and `profile_reactions`.
+The former Reading List, Watchlist, Currently Watching, Listening Queue, and name-based System Collection behavior are retired. `/for-me?view=my-list` reads saved references; `/for-me?view=favorites` reads saved songs. `ProfileStateRepository` persists those independent states in `profile_saved_items` and `profile_reactions`.
 
 Continue comes from playback/reading progress, without requiring list membership. Profile-owned Collections, Playlists, and Galleries appear automatically only in their respective **Your** shelves. Accessible library Collections and shared Playlists enter My List only when explicitly saved.
 
@@ -458,7 +458,7 @@ The value input adapts based on the selected field:
 
 Media and group cards remain one semantic detail link without inline playback, My List, reaction, or remove buttons. Actions live on details and purpose-built playback/queue surfaces.
 
-My List saves a movie, TV show, book, comic, audiobook, album, accessible Collection, or library/shared Playlist as one reference. Songs use Favorite and Add to Playlist. Favorites are separate reactions; saving or favoriting never creates a hidden collection.
+My List saves a movie, TV show, book, comic, audiobook, album, accessible Collection, or library/shared Playlist as one reference. Songs use Favorite and Add to Playlist; a favorite song is a saved item of kind Song, so it shows in Favorites and never in My List. Like and Dislike are separate reactions. Saving or favoriting never creates a hidden collection. The collection rules follow the same split: **Is on My List** matches saved titles that are not songs, and **Is a favorite** matches saved songs.
 
 ## Progress Tracking
 

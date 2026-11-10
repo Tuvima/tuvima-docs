@@ -2006,6 +2006,14 @@ The order a person last chose on each "View all" grid (Watch, Read, Listen, My l
 | `sort` | TEXT | `added`, `title`, `year` or `played`. Anything else is refused by a CHECK. |
 | `updated_at` | TEXT | ISO 8601 UTC. |
 
+### profile_reactions
+
+A profile's Like or Dislike on a title or other item: `profile_id`, `entity_kind`, `entity_id` (primary key together), `reaction` and `updated_at`. A CHECK allows only `Like` and `Dislike`; the heart is not a reaction (see `profile_saved_items`). Index: `idx_profile_reactions_recent`. Upgrade step `0085_favorites_are_saved_items` moved every former `Love` row into `profile_saved_items` (keeping its date as `saved_at`), removed it, and rebuilt the table with the narrower CHECK.
+
+### profile_saved_items
+
+What a profile saved with the heart: `profile_id`, `entity_kind`, `entity_id`, `saved_at` and an optional `position`. A saved song (`entity_kind = 'Song'`) is one of the profile's Favorites; every other saved kind is on My List. Saving never sets or clears a reaction.
+
 ### profile_taste_overrides
 
 What a person removed from, or added to, the taste the Library learned about them (Settings > Personal > Overview > Taste). Added by upgrade step `0010_profile_taste_overrides`. The learned taste (the taste profiler's reading of their history) is never changed; these rows are applied on top whenever taste is shown, so a removed value is hidden and an added value is shown as "Added by you". One row per `profile_id` (cascades on profile deletion), `taste_group` (`genre`, `mood` or `era`) and `value` (trimmed and lower-cased, the way the profiler writes its keys), with `action` (`removed` or `added`) and `created_at` (UTC). Setting a value again replaces its row. Only the signed-in person writes their own rows.
