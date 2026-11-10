@@ -33,6 +33,12 @@ Each folder you add gets a friendly name, filled in from its path and editable. 
 
 **Why:** a path like `E:\Incoming\Films` is hard to read at a glance, and a library name cannot do this job any more because there is only one library per kind.
 
+## Photos, personal videos and documents work the same way
+
+The three View kinds are rows like Movies: one row per kind, "N folders" with a list, and one **Edit** button. A View folder's friendly name is optional (it starts as the folder's own name), and you choose Read-only or Managed when you add it. Once a kind has two folders, its page gets a **Folders** filter. Uploads, phone backup and Add files are filed into a Managed folder, so until a kind has one, uploading is switched off and the page says why.
+
+**Why:** a View folder should not be a special case. The same words and the same buttons mean the same thing everywhere.
+
 ## Read-only and Managed
 
 Every folder is in one of two states, and Library always says which:
