@@ -63,7 +63,7 @@ Content served via `GET /comic/{assetId}/page/{pageNum}` - individual images ext
 
 Rendered as a persistent bottom bar in `MainLayout.razor` - survives page navigation. `PlaybackSessionController` (scoped per circuit, in `Services/Playback/`) manages the active audio session with typed commands and state. Shared controls live in `ListenTransportControls.razor`.
 
-- Play/pause, skip +/-30 seconds
+- Play/pause, skip back 10 and forward 30 seconds (changeable per profile)
 - Playback speed (0.5x - 3x)
 - Chapter list with direct navigation
 - Sleep timer
