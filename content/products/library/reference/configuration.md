@@ -419,6 +419,23 @@ There is one block per kind of position, because a second, a page and a place in
 
 The `time` same-spot value is also the window the editor's Add to Everyone's uses to fold other people's personal bookmarks into the Global one, so "the same moment" means the same thing everywhere. Each block must keep `same_spot` ≤ `close` ≤ `far`; a file that breaks that is ignored.
 
+## config/reader.json
+
+Limits for the page reader that opens comics (`.cbz`, `.cbr`, `.cb7`) and PDFs. Edit and save: no rebuild or restart is needed, and when the file is missing the defaults below apply.
+
+| Key (under `comic`) | Default | What it does |
+|---|---|---|
+| `widths` | `160, 480, 720, 1080, 1440, 2160` | The only picture widths, in pixels, the Engine makes for a comic page. `0` (the original) is always allowed. The reader asks for the size that fits the window and screen. |
+| `thumbnail_width` | `160` | The small size used by the page slider preview and the Pages panel. |
+| `max_entries` | `6000` | An archive with more pictures than this is refused. |
+| `max_page_megabytes` | `60` | A page larger than this is refused; a cover this large refuses the whole comic. |
+| `max_page_megapixels` | `120` | A page with more pixels than this (in millions) is refused. |
+| `max_unpacked_megabytes` | `4096` | A `.cbr` or `.cb7` whose pictures add up to more than this is refused instead of unpacked. |
+| `cache_size_mb` | `2048` | Size of the temporary folder where `.cbr` and `.cb7` comics are unpacked while they are read; the comic read longest ago is cleared first. A `.cbz` is read in place and needs none. |
+| `jpeg_quality` | `85` | Quality of resized page pictures. |
+
+A refused comic shows "This file can't be opened" in the reader; the file itself is never changed. Page bookmarks use the `page` block of `config/bookmarks.json`, below.
+
 ## config/extras.json
 
 The rules that decide which files beside a title become its **supporting files** (shown as its Extras), where each one belongs, and what role it has. The Engine ships these defaults and reads the file at start and whenever it changes; a missing or broken file (including a pattern that does not compile) falls back to the shipped rules, with a warning in the log. Keeping the words here, not in code, means the naming scheme can grow with a release or with your own words, and one list drives every scan.

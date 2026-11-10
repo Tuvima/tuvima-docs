@@ -348,6 +348,7 @@ The shipped template writes the number as `{TrackNumber?}` and the dash after an
 |---|---|
 | `.cbz` | Comic Book Archive (ZIP) |
 | `.cbr` | Comic Book Archive (RAR) |
+| `.cb7` | Comic Book Archive (7-Zip) |
 | `.pdf` | Portable Document Format comic or graphic novel when routed from a Comics library folder |
 
 ### Extracted metadata
@@ -374,6 +375,8 @@ The shipped template writes the number as `{TrackNumber?}` and the dash after an
 | `colorist` | 0.90 | `<Colorist>` element |
 | `genre` | 0.85 | `<Genre>` element |
 | `language_iso` | 0.95 | `<LanguageISO>` element |
+
+Comics (`.cbz`, `.cbr`, `.cb7`) and PDFs open in Library's page reader. Pages are made by the Engine on the fly at the sizes in `config/reader.json`, so a comic never has to be downloaded whole; a `.cbr` or `.cb7` is unpacked once into a size-limited temporary folder. A manga marks itself right to left in its ComicInfo.xml and the reader follows it. A PDF is drawn on the device with its own text layer for search and its outline for Contents; a scanned PDF opens and turns pages but has no text to search.
 
 ComicInfo.xml is the de facto standard metadata format for CBZ/CBR archives. Not all archives include it; files without it fall back to filename parsing.
 

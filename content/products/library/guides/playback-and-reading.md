@@ -22,6 +22,8 @@ Music, audiobooks, TV episodes and movies all use the same player: a bar at the 
 
 The EPUB reader opens supported ebooks in the browser. Reading tools and progress depend on the format. Use playback and reading settings to change the options offered.
 
+Comics (CBZ, CBR, CB7) and PDFs open in the page reader. It keeps your place, shows the title under Continue, and offers the same Bookmarks as books. Turn pages with the arrow keys, Page Up and Down, the space bar, a click or tap on the left or right third of the page, or a swipe; Ctrl and the wheel, a pinch or a double tap zoom. The top line (Back, title, Search and Contents for a PDF, Pages, Bookmark this page, Bookmarks, Settings) and the page slider fade after three seconds and return on a middle tap or any key that does not turn a page. Layout (Auto, One page, Two pages, Scrolling), Fit, Direction (comics) and Background are remembered on your profile, so they follow you to another device. On a TV remote, left and right turn pages, OK shows the top line, and Back closes a panel and then the reader.
+
 ## How the player works
 
 ### The bar
