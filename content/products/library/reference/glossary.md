@@ -103,7 +103,7 @@ A media file that stayed on disk when its title was deleted from the library: a 
 
 ### Extras
 
-The guidebooks, picture folders and clips found beside a show, film, album, book, comic or course. They show in an Extras row on the title's page and are never counted as episodes, tracks or issues. A person can give an Extra a kind (Trailer, Featurette, Behind the scenes, Deleted scene, Interview, Document, Pictures or Other clip) and a place (the whole title, a season, an episode or a track) in the editor's **What is this file?**. See [Extras beside a title](../guides/adding-media.md#extras-beside-a-title) and [Correct an item](../guides/editing-items.md#what-is-this-file).
+The guidebooks, picture folders and clips found beside a show, film, album, book, comic or course. They show in an Extras row on the title's page and are never counted as episodes, tracks or issues. In the editor they are called **supporting files**, and each can be given a title, description, group, role and a place it belongs to (the whole title, a season, an episode or a track). See [Extras beside a title](../guides/adding-media.md#extras-beside-a-title), [Naming supporting files](../guides/naming-supporting-files.md) and [Correct an item](../guides/editing-items.md#supporting-files).
 
 ### Extra protection
 

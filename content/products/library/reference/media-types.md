@@ -50,7 +50,7 @@ The same video extensions as Movies and TV (for example `.mp4`, `.mkv`, `.mov`, 
 
 Order inside a series follows a number in the file name, otherwise natural sort (2 before 10). Reordering by hand is
 saved in Tuvima and does not rename files. Sections (a course's modules) can be put in a new order the same way, from the
-editor's Section dropdown, and a rescan keeps that order.
+editor's Section dropdown, and a rescan keeps that order. Worksheets, guides and other files in a course folder become supporting files placed by their folder and name ([Naming supporting files](../guides/naming-supporting-files.md)); a worksheet shown alongside a lesson appears on the player's end card as **Homework for this lesson**.
 
 ### How a video is identified
 
