@@ -40,3 +40,7 @@ Your pins belong to your Tuvima persona, so they follow you to every device you 
 Tuvima starts in dark mode. Choose **Dark**, **Light** or **Follow my device** in your account menu, or at the bottom of any page. Signed in, your choice is saved with your Tuvima persona and follows you to your other devices. Signed out, it is kept on this device only.
 
 Each community's own colours still apply inside that community, in light and dark.
+
+## Menus and hints
+
+Menus stay calm: pointing at a row shows a light grey highlight, and only the page you are on is marked in colour. Small pop-up hints appear only where they help: on buttons that show just an icon, on a greyed-out button to say why it can't be used yet, and on shortened text such as "3 h" to show the full date. A hint disappears after a few seconds, or as soon as you press anything.

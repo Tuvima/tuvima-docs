@@ -14,10 +14,10 @@ test('aggregate preserves complete browser dependency notices and actual font co
     assert.equal(coverage.packages, 25);
     assert.equal(coverage.fonts, 3);
     const notice = await fs.readFile(path.join(output, 'THIRD-PARTY.txt'), 'utf8');
-    for (const source of ['node_modules/@astrojs/starlight/LICENSE', 'node_modules/pagefind/LICENSE/LICENSE', 'node_modules/pagefind/LICENSE/LICENSE-vscode-ripgrep', 'node_modules/expressive-code/LICENSE', 'node_modules/shiki/LICENSE', 'scripts/licenses/Svelte-MIT.txt', 'src/fonts/Montserrat-OFL.txt', 'src/fonts/JetBrainsMono-OFL.txt']) {
+    for (const source of ['node_modules/@astrojs/starlight/LICENSE', 'node_modules/pagefind/LICENSE/LICENSE', 'node_modules/pagefind/LICENSE/LICENSE-vscode-ripgrep', 'node_modules/expressive-code/LICENSE', 'node_modules/shiki/LICENSE', 'scripts/licenses/Svelte-MIT.txt', 'src/fonts/Inter-OFL.txt', 'src/fonts/JetBrainsMono-OFL.txt']) {
       assert.ok(notice.includes(await fs.readFile(path.join(website, source), 'utf8')), `${source}: notice must be preserved verbatim`);
     }
-    assert.match(notice, /Copyright 2011 The Montserrat Project Authors/);
+    assert.match(notice, /Copyright 2016 The Inter Project Authors/);
     assert.match(notice, /Copyright 2020 The JetBrains Mono Project Authors/);
     await generateNotices(website, output);
     assert.equal(await fs.readFile(path.join(output, 'THIRD-PARTY.txt'), 'utf8'), notice, 'generation is deterministic');

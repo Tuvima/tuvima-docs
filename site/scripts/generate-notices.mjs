@@ -1,3 +1,4 @@
+import zlib from 'node:zlib';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -23,7 +24,41 @@ async function licenseFiles(directory, relative = '') {
   return found.sort();
 }
 
-function fontCopyright(buffer) {
+// A WOFF2 file keeps its "name" table untransformed inside one Brotli stream, so it is
+// unpacked back to a plain table set first (only what the name reader below needs).
+function woff2Tables(buffer) {
+  const numTables = buffer.readUInt16BE(12);
+  let pos = 48;
+  const base128 = () => { let value = 0; for (let i = 0; i < 5; i++) { const b = buffer[pos++]; value = (value << 7) | (b & 0x7f); if (!(b & 0x80)) return value; } throw new Error('Bad WOFF2 number'); };
+  // The WOFF2 specification's table of known tags, in order.
+  const known = ['cmap', 'head', 'hhea', 'hmtx', 'maxp', 'name', 'OS/2', 'post', 'cvt ', 'fpgm', 'glyf', 'loca', 'prep', 'CFF ', 'VORG', 'EBDT', 'EBLC', 'gasp', 'hdmx', 'kern', 'LTSH', 'PCLT', 'VDMX', 'vhea', 'vmtx', 'BASE', 'GDEF', 'GPOS', 'GSUB', 'EBSC', 'JSTF', 'MATH', 'CBDT', 'CBLC', 'COLR', 'CPAL', 'SVG ', 'sbix', 'acnt', 'avar', 'bdat', 'bloc', 'bsln', 'cvar', 'fdsc', 'feat', 'fmtx', 'fvar', 'gvar', 'hsty', 'just', 'lcar', 'mort', 'morx', 'opbd', 'prop', 'trak', 'Zapf', 'Silf', 'Glat', 'Gloc', 'Feat', 'Sill'];
+  const tables = [];
+  for (let i = 0; i < numTables; i++) {
+    const flags = buffer[pos++];
+    const tag = (flags & 0x3f) === 0x3f ? buffer.toString('ascii', pos, (pos += 4)) : known[flags & 0x3f];
+    const length = base128();
+    const transform = (flags >> 6) & 3;
+    const transformed = (tag === 'glyf' || tag === 'loca') ? transform !== 3 : transform !== 0;
+    tables.push({ tag, length: transformed ? base128() : length });
+  }
+  const data = zlib.brotliDecompressSync(buffer.subarray(pos, pos + buffer.readUInt32BE(20)));
+  let at = 0;
+  const out = new Map();
+  for (const t of tables) { out.set(t.tag, data.subarray(at, at + t.length)); at += t.length; }
+  return out;
+}
+
+function fontCopyright(input) {
+  let buffer = input;
+  if (input.toString('ascii', 0, 4) === 'wOF2') {
+    const name = woff2Tables(input).get('name');
+    if (!name) throw new Error('Bundled font has no name table');
+    // A one-table font file around the name table, read by the code below.
+    buffer = Buffer.concat([Buffer.alloc(28), name]);
+    buffer.writeUInt16BE(1, 4);
+    buffer.write('name', 12, 'ascii');
+    buffer.writeUInt32BE(28, 20);
+  }
   let offset;
   for (let i = 0; i < buffer.readUInt16BE(4); i++) {
     const record = 12 + i * 16;
@@ -65,7 +100,7 @@ export async function generateNotices(websiteRoot, outputDirectory) {
   notices.push('\n===== Svelte runtime bundled in Pagefind Default UI (MIT) =====',
     'Source: original npm svelte@4.2.1 package LICENSE.md, retained because default-ui bundles Svelte 4 runtime code.',
     await fs.readFile(path.join(websiteRoot, 'scripts/licenses/Svelte-MIT.txt'), 'utf8'));
-  for (const [font, license, dir = 'src/fonts'] of [['Montserrat-VariableFont_wght.ttf', 'Montserrat-OFL.txt'], ['JetBrainsMono-Regular.ttf', 'JetBrainsMono-OFL.txt'], ['TuvimaSans-Variable.ttf', 'OFL.txt', '../font']]) {
+  for (const [font, license, dir = 'src/fonts'] of [['InterVariable-Latin.woff2', 'Inter-OFL.txt'], ['JetBrainsMono-Regular.ttf', 'JetBrainsMono-OFL.txt'], ['TuvimaSans-Variable.ttf', 'OFL.txt', '../font']]) {
     notices.push(`\n===== ${font} (SIL OFL 1.1) =====`,
       `Copyright embedded in the actual bundled font:\n${fontCopyright(await fs.readFile(path.join(websiteRoot, dir, font)))}`,
       await fs.readFile(path.join(websiteRoot, dir, license), 'utf8'));
