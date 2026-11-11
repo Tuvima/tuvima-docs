@@ -8,9 +8,9 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** making tiers, giving and ending them by hand, tier invite codes, tier-only categories and forums, showing a tier beside names, and notices for members.
+**Working today:** making tiers, giving and ending them by hand, tier invite codes, tier-only categories and forums, showing a tier beside names, the past-supporter achievement, and notices for members.
 
-**Coming later:** paid tiers, which arrive with payments, and the past-supporter achievement, which is saved now and given out once achievements arrive.
+**Coming later:** paid tiers, which arrive with payments.
 :::
 
 A **member tier** is a kind of membership your community offers, such as **Supporter**, **Patron** or **Season pass**. A tier can open forums only its members see, and it can show beside their name on posts.
@@ -44,6 +44,15 @@ Choose **+ New tier** and fill in:
 - **On posts:** whether the tier shows beside holders' names by default. Each holder can still choose for themselves.
 
 Use the arrows to put your tiers in the order members see them.
+
+## Give an achievement to past supporters
+
+In the tier's settings, under **Past supporters**, switch on **Give an achievement to people who held it**. Members who held the tier then earn a "Supporter since" [achievement](achievements.md). Two settings shape it:
+
+- **Wording:** the achievement's name. `{year}` becomes the year the member first had the tier. If you leave it empty, Tuvima uses its default wording.
+- **Least days held:** how long someone must have held the tier in all, from 0 days. 0 means any time at all.
+
+Time held counts across all the periods someone had the tier, including past ones. It does not change a level. Switching it off keeps the wording and holders keep their achievement; switching it back on brings it back. You change or switch off this achievement here, not on the **Achievements** page.
 
 ## Open a forum to a tier
 

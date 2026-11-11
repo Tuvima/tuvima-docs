@@ -32,9 +32,13 @@ The **Members** page is a table of everyone who has joined. Search it, filter by
 
 ## Levels
 
-Members climb a ladder of levels as others value what they write: Newcomer, Member, Regular and Trusted to begin with. On **Manage > Levels** you can rename the levels, set what each one needs, choose whether the top level needs keeping up, turn the two community achievements on or off, and hide Reputation numbers so only levels show. Raising a number never moves anyone down.
+Members climb a ladder of levels as others value what they write: Newcomer, Member, Regular and Trusted to begin with. On **Manage > Levels** you can rename the levels, set what each one needs, choose whether the top level needs keeping up, turn the **Sparked a conversation** and **Top contributor** achievements on or off, and hide Reputation numbers so only levels show. Raising a number never moves anyone down.
 
 As the owner you can also set a member's level by hand from their page in **Members**. It stays until you choose **Return to automatic**. The member is told their new level but not who changed it, and the change is kept in the moderation record. [Reputation and levels](../guides/reputation.md) explains the whole system.
+
+## Achievements
+
+Every community starts with a ready-made set of [achievements](achievements.md). On **Manage > Achievements** you can switch them off, change them, build your own with a rule builder and an emblem builder, give some by hand, import packs, and retire what you no longer want.
 
 ## Reports and the moderation record
 

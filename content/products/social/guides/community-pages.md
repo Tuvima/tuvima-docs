@@ -37,7 +37,7 @@ Choose someone's name in a community to see their page there. It shows only what
 
 - **Known for here:** up to three tags they post under most in that community,
 - their **Showcase:** up to six of their posts they picked,
-- their level and achievements there,
+- their level and a showcase of up to six [achievements](achievements.md) there,
 - their photos there,
 - the conversations they started there.
 

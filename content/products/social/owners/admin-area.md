@@ -17,7 +17,7 @@ The menu down the side has four groups. You only see the pages your roles allow,
 | --- | --- |
 | **Insights** | Your community's numbers. |
 | **Community** | **General** (name, description, newcomer limits, category on Tuvima, edit history, removal notices, launch checklist), **Look and home page**, **Forums and categories**, **Rules**, **Photos** and **Add-ons**. |
-| **Members and access** | **Members**, **Join requests**, **Joining and privacy**, **Roles and permissions**, **Levels**, **Member tiers** and **Invites**. |
+| **Members and access** | **Members**, **Join requests**, **Joining and privacy**, **Roles and permissions**, **Levels**, **Achievements**, **Member tiers** and **Invites**. |
 | **Safety** | **Approval queue**, **Reports**, **Photo reports**, **Removed posts**, **Warnings and word filters** and **Moderation log**. |
 
 A number next to **Approval queue** shows how many posts and requests are waiting.

@@ -11,7 +11,7 @@ Tuvima helps you come back to the conversations you care about, without flooding
 
 ## The bell
 
-The bell in the menu collects everything addressed to you, from every persona you use, in one list. Each notice shows which persona it is for; a private persona shows only its community's name. Filter by **All**, **Mentions** and **Moderation**.
+The bell in the menu collects everything addressed to you, from every persona you use, in one list. Each notice shows which persona it is for; a private persona shows only its community's name. Filter by **All**, **Mentions** and **Moderation**. When you earn an [achievement](achievements.md#earning-one) it also appears here; achievements never send an email or phone alert.
 
 A post tells you one thing only: a reply beats a quote, a quote beats a mention. Several replies in a row are bundled together while you have not read them.
 
