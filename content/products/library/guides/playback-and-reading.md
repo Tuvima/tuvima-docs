@@ -20,9 +20,9 @@ Music, audiobooks, TV episodes and movies all use the same player: a bar at the 
 3. Use the reader's page controls and other tools.
 4. Return to the library when you finish the session.
 
-The EPUB reader opens supported ebooks in the browser. Reading tools and progress depend on the format. Use playback and reading settings to change the options offered.
+The EPUB reader opens supported ebooks in the browser. Books, PDFs and comics share one reader frame: the same top line, the same tool order (Search, Contents, Pages, Bookmark this page, Bookmarks, Reading settings), the same side panels and **Close** at the top right. A reader leaves out a tool it does not have. On a phone only Bookmark this page and Close stay on the top line, and the other tools are in a "..." sheet. Use playback and reading settings to change the options offered.
 
-Comics (CBZ, CBR, CB7) and PDFs open in the page reader. It keeps your place, shows the title under Continue, and offers the same Bookmarks as books. Turn pages with the arrow keys, Page Up and Down, the space bar, a click or tap on the left or right third of the page, or a swipe; Ctrl and the wheel, a pinch or a double tap zoom. The top line (Back, title, Search and Contents for a PDF, Pages, Bookmark this page, Bookmarks, Settings) and the page slider fade after three seconds and return on a middle tap or any key that does not turn a page. Layout (Auto, One page, Two pages, Scrolling), Fit, Direction (comics) and Background are remembered on your profile, so they follow you to another device. On a TV remote, left and right turn pages, OK shows the top line, and Back closes a panel and then the reader.
+Comics (CBZ, CBR, CB7) and PDFs open in the page reader. It keeps your place, shows the title under Continue, and offers the same Bookmarks as books. Turn pages with the arrow keys, Page Up and Down, the space bar, a click or tap on the left or right third of the page, or a swipe; Ctrl and the wheel, a pinch or a double tap zoom. The top line (title, Search and Contents for a PDF, Pages, Bookmark this page, Bookmarks, Reading settings, then Close) and the page slider fade after three seconds and return on a middle tap or any key that does not turn a page. Layout (Auto, One page, Two pages, Scrolling), Fit, Direction (comics) and Background are remembered on your profile, so they follow you to another device. On a TV remote, left and right turn pages, OK shows the top line, and Back closes a panel and then the reader.
 
 ## How the player works
 
@@ -166,7 +166,7 @@ To start it, the Dashboard asks the Engine for a short-lived secret link for tha
 
 ## Bookmarks in books
 
-In the book reader, open **Bookmarks and highlights** and choose **Bookmark this page**. A bookmark marks the page you are on. A small **Global** tag marks a bookmark shared with everyone who can see the book. Which bookmarks everyone sees is chosen by an administrator in the editor (see [Bookmarks for everyone](#bookmarks-for-everyone)). Bookmarks you made before this arrived are still yours.
+In a book, PDF or comic, press the bookmark button on the top line, or open **Bookmarks** and choose **Bookmark this page**. A bookmark marks the page you are on; the button is filled when this page is bookmarked, and pressing it again removes your bookmark. The Bookmarks panel switches between **Mine** and **Everyone**, and a book lists its highlights beneath your bookmarks. A small **Global** tag marks a bookmark shared with everyone who can see the book. Which bookmarks everyone sees is chosen by an administrator in the editor (see [Bookmarks for everyone](#bookmarks-for-everyone)). Bookmarks you made before this arrived are still yours.
 
 ## Bookmarks in the player
 
