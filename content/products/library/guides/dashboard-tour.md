@@ -41,7 +41,17 @@ My List saves items for later. For Me's Favorites currently shows songs marked w
 4. Choose a sort order or Cards/List view where offered. Every tile is the same size, so there is no size control.
 5. Open a card for details, then start the item.
 
-Music starts in Songs view. Select a song to play it. Its menu can open the parent album. A TV show lists the episodes you own, not a provider's full episode catalog.
+Music starts in Songs view. Click a song to play it. Its menu can open the parent album. A TV show lists the episodes you own, not a provider's full episode catalog.
+
+### Song lists
+
+Songs, Albums, an album's tracks and a playlist all use the same song table, so what you learn in one works in the others.
+
+- Click a row to play it. The heart saves the song to Favorites. Hover a row to add it to the queue, or open its **...** menu for Play next, Go to album and more.
+- Choose **Columns** at the end of the header to hide, show or resize columns, or to reset them. Library remembers your choice for each list, on your profile, so it follows you to your other devices.
+- Click a column heading to sort. A playlist keeps your own order instead, so its headings do not sort.
+- In a playlist you can edit, drag a song by its handle, or select it and press Alt+Up or Alt+Down. With touch or a screen reader, use **Move up** and **Move down** in the song's **...** menu.
+- On a phone every song list is a plain list: cover, title, artist and **...**. Tap a song to play it; the heart is in the **...** menu. The Songs page has a search box, Play, Shuffle and a **Sort and filter** button, and an A to Z strip while you sort by title or artist.
 
 ## Explore Collections
 
