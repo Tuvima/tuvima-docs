@@ -136,9 +136,9 @@ The shape says what opens:
 - **Portrait**: one title.
 - **Round**: a person, such as an artist or an author.
 - **Square**: an album or a playlist. A playlist shows a 2 × 2 mosaic of album covers until you choose artwork.
-- **Landscape with a fanned stack of covers**: any group of titles, such as a curated collection, Series, Universe, imported list or pack Set, with a small corner word naming the kind. Custom artwork replaces the stack.
+- **Poster with a count**: any group of titles, such as a curated collection, Series, Universe, imported list or pack Set. It is the same size as a single title's cover, shows the group's artwork, and has only the number of titles under its name.
 
-Names and counts sit under the tile, never on top of the artwork. On the Collections page a curated tile also shows a one-line source: Rules, Hand-picked, From a list or Pack. An imported list shows its last refresh and an amber **Couldn't match N** badge that opens the editor.
+Names and counts sit under the tile, never on top of the artwork. A group tile has a "..." menu like any other cover (a Universe has none, because a Universe is changed on its own page). Where a list could not match some titles, the editor's From a list step shows the figures.
 
 ## An imported list's own page
 

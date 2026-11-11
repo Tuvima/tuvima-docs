@@ -145,7 +145,7 @@ Tap the bar to expand it into Now playing for music and audiobooks. At the top a
 | Music | Shuffle, Lyrics, Queue, Repeat |
 | An audiobook | Chapters, Speed, Sleep timer, Bookmarks |
 
-An audiobook without chapters shows **History** in place of Chapters. Everything else, including a song's Bookmarks, Playback settings and the item actions, is in the "..." menu. Collapsing keeps audio playing.
+An audiobook without chapters has no Chapters tool; nothing takes its place. Everything else, including a song's Bookmarks, Playback settings and the item actions, is in the "..." menu. Collapsing keeps audio playing.
 
 Video on a phone keeps its picture with the same playback buttons and its own row of tools: Audio & subtitles, Episodes (or Lessons), Bookmarks and Fullscreen. Panels are bottom sheets.
 
