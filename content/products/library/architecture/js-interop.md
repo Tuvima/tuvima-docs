@@ -62,7 +62,7 @@ Do not read the retired `listen-playback-state` or `listen-playback-command` key
 
 ## Native control hosts
 
-The shared popup, dialog, toast, select and autocomplete components own their
+The shared popup, dialog, select and autocomplete components own their
 JavaScript registrations and release them from `DisposeAsync`. Register against
 the rendered element and current callback owner, update relevant binding state,
 and preserve portal release/focus restoration before removing popup content.
@@ -93,7 +93,7 @@ arrives while that state remains open, the module reopens the dialog without tak
 another scroll lock or replacing its opener, restores its inner focus and asks the
 .NET close guard when Escape dismissal is enabled. Cancellation requests are
 coalesced while pending. An intentional close or detach clears expected state,
-releases the lock and restores eligible opener focus. Reopening retains popup/toast
+releases the lock and restores eligible opener focus. Reopening retains popup
 top-layer ordering. Keep editing/Discard remains the editor's responsibility.
 
 `route-smoke.mjs` checks every source-derived Settings destination and representative

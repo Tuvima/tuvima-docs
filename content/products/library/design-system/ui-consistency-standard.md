@@ -118,6 +118,24 @@ In a footer, buttons sit in one row at the right: a quiet text button first, the
 
 A tooltip appears only when it adds information: the control is icon-only, the control is disabled and the tooltip says why, or the text is cut off and the tooltip shows it in full. A control with a visible label never repeats it in a tooltip, and list and menu rows do not have tooltips. A tooltip hides when its control leaves the page, on any press, when a menu or dialog opens, and after four seconds with a mouse. Why: about three hundred tooltips said what the label already said, and a few stayed stuck on screen.
 
+## Feedback after an action
+
+Library has no pop-up notices. What you did is confirmed where you did it, so your eye never has to leave the thing that changed and nothing covers the page.
+
+| What happened | What you see |
+| --- | --- |
+| A change you made worked, and the changed thing is on screen | That row, card or cover glows once |
+| A change worked and there is no single row to point at, such as a settings form | A quiet "Saved" line beside the Save button, which fades by itself |
+| The control already shows the new state, such as a switch or a tick | Nothing more: the new state is the confirmation |
+| Something failed | A message in place, at the top of the window or section, that stays until you act |
+| Something finished in the background, such as a scan | The Activity indicator at the top right |
+| You marked something watched, read or listened | A short line with Undo, right there, for about ten seconds |
+| Something in the background failed | The Activity indicator turns amber and says "Needs attention" until you open Activity (administrators only) |
+| Something was copied | The button itself says "Copied" for a moment |
+| A quick action on photos, documents or galleries | The slim ribbon at the top of the View page |
+
+**Why it works this way.** A notice that pops up in a corner is easy to miss, covers what you are doing, and disappears before you can read a failure. Keeping the answer beside the action means a failure stays visible until it is dealt with, and a success never interrupts.
+
 ## Intentional exceptions
 
 The October 5 shared-control family is `AppSelect` (with typed/native/int/media-type adapters), `AppTooltip`, `AppRangeSlider`, `AppProgressBar`, and `AppSpinner`. Use explicit intrinsic selector sizing for bounded series/set selectors; forms retain full-width fields. Tooltip help supports hover, keyboard focus, Escape, and optional touch long-press without replacing accessible labels. Lyrics and Queue player modes use glyphs with tooltips, without visible label spans. See [the player/control verification report](../../engineering/reports/player-controls-2026-10-05.md) for acceptance evidence and remaining device checks.

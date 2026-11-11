@@ -43,7 +43,7 @@ do not apply single-column `Virtualize` to responsive variable-width flex layout
 
 `src/MediaEngine.Web/Shared/MainLayout.razor` is the app-wide shell. It coordinates:
 
-- First-party theme, popup, dialog and toast hosts.
+- First-party theme, popup and dialog hosts.
 - Brand/logo placement.
 - Primary navigation.
 - A global Search icon in the top-right action group that opens the instant cross-library search overlay without navigating away.
@@ -371,15 +371,14 @@ Every isolated stylesheet has a 2,000-line cap. `StyleOwnershipGuardrailTests` e
 ## Native UI infrastructure
 
 Shared `App*` controls render native HTML and SVG. `Services/Ui` holds the scoped
-`AppDialogService`/`IAppDialogService`, `AppToastService`/`IAppToastService` and
-`AppPopoverService`; Main, Popup, Reader and SetupWizard layouts mount their
+`AppDialogService`/`IAppDialogService` and `AppPopoverService`; Main, Popup, Reader and SetupWizard layouts mount their
 hosts. Native modal dialogs preserve focus return, typed parameters/results,
 configured close behavior and editor close interception. The media editor is one
 pop-over over whatever page it was opened from, under the unchanged address, with
 a shared "Unsaved changes" dialog on Discard and on leaving, and its Delete and
 Review changes dialogs share the same dialog look (see
-[Inline media editing](inline-media-editing.md)). Toasts retain severity, stacking, dismissal
-and asynchronous actions such as Undo. Popup ownership follows the active dialog
+[Inline media editing](inline-media-editing.md)). There are no pop-up notices (toasts): a change is confirmed where it was made (see "Feedback after an action" in the
+[UI consistency standard](../design-system/ui-consistency-standard.md)). Popup ownership follows the active dialog
 or fullscreen container; popup geometry remains a client presentation concern.
 
 Three shared phone primitives keep later phone layouts consistent. A dialog asks
