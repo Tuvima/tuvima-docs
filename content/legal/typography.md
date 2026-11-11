@@ -9,7 +9,7 @@ status: current
 
 <link rel="preload" href="/font/TuvimaSans-Variable.woff2" as="font" type="font/woff2" crossorigin />
 
-**Tuvima Sans** is the typeface we use for the TUVIMA wordmark, the top navigation and product names, such as LIBRARY or TUVIMA ID. We keep it to those places: headings and body text stay in a plain, easy-to-read font. In the Library app the interface text is set in Inter; Tuvima Sans is the wordmark and top navigation only. It is free to use, share and modify under the SIL Open Font License.
+**Tuvima Sans** is the typeface we use for the TUVIMA wordmark, the top navigation and product names, such as LIBRARY or TUVIMA ID. We keep it to those places. Every other word, headings and body text included, is set in **Inter**, a plain, easy-to-read typeface, in Tuvima, Tuvima ID, the Library app and this documentation site. Inter is free under the SIL Open Font License, and each site serves its own copy, so nothing is loaded from an outside font service. It is free to use, share and modify under the SIL Open Font License.
 
 ## Specimen
 
