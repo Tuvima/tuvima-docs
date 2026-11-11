@@ -39,7 +39,7 @@ Tuvima no longer uses a separate media management workbench. Users browse throug
 - Creating a collection or playlist, and managing items and rules, still use the collection editor; photos and documents keep their own editor.
 - No current feature should route users to a separate media library workspace.
 
-**Desktop-only rule.** `EditorDeviceRule.CanEdit` is the one device rule: the form factor is desktop AND the primary pointer is fine and can hover. It gates every Dashboard launcher and edit handler, not just the buttons. Where it is false the launcher returns `EditorLaunchResult.NotAvailableOnThisDevice` and shows the toast "Edit on a computer". The Engine's permission check still decides who may edit.
+**Desktop-only rule.** `EditorDeviceRule.CanEdit` is the one device rule: the form factor is desktop AND the primary pointer is fine and can hover. It gates every Dashboard launcher and edit handler, not just the buttons. Where it is false the launcher returns `EditorLaunchResult.NotAvailableOnThisDevice` and the page shows "Edit on a computer" in place. The Engine's permission check still decides who may edit.
 
 ## The pop-over editor
 
