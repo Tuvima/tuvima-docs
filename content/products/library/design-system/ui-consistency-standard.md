@@ -129,6 +129,8 @@ Library has no pop-up notices. What you did is confirmed where you did it, so yo
 | The control already shows the new state, such as a switch or a tick | Nothing more: the new state is the confirmation |
 | Something failed | A message in place, at the top of the window or section, that stays until you act |
 | Something finished in the background, such as a scan | The Activity indicator at the top right |
+| You marked something watched, read or listened | A short line with Undo, right there, for about ten seconds |
+| Something in the background failed | The Activity indicator turns amber and says "Needs attention" until you open Activity (administrators only) |
 | Something was copied | The button itself says "Copied" for a moment |
 | A quick action on photos, documents or galleries | The slim ribbon at the top of the View page |
 
