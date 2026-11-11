@@ -17,6 +17,8 @@ A menu on every account page takes you to **Overview** (this page), **Personas**
 
 Tuvima ID opens in dark mode. Use **Dark**, **Light** or **Device** in the top bar to change it; **Device** follows your phone or computer's setting. Your choice is remembered in that browser.
 
+On a phone, tablet or touch screen, every button, link, switch and tick box is at least 44 pixels to tap, about the size of a fingertip, and the words beside a switch or tick box work as part of it. Text is 16 pixels on a phone, so your phone doesn't zoom in when you tap a box to type.
+
 ## Account-wide
 
 These settings apply to your whole Tuvima ID, not to any one community.
