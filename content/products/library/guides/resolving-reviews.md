@@ -41,7 +41,7 @@ Each row shows the file's own cover when it has one, its title, the library it i
 
 If an action does not work, the reason shows under that row and the row stays where it is. If the list itself cannot load, you see an error with **Try again** rather than an empty list.
 
-Fix, Delete and editing several items need a device that can open the editor. Until the editor is available on phones, a phone shows every other action and leaves those three out.
+Fix, Delete and editing several items open the editor, which works on a computer, a tablet and a phone (see [Editing on a phone](editing-items.md#editing-on-a-phone)).
 
 ## Work on several items at once
 

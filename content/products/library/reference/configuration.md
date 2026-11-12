@@ -128,12 +128,14 @@ Priority Cascade thresholds. Controls how the Engine resolves metadata conflicts
 | `conflict_epsilon` | float | `0.05` | If two claims are within this margin of each other, the field is flagged as conflicted rather than resolved. |
 | `stale_claim_decay_days` | int | `90` | Number of days after which a claim's confidence begins decaying. |
 | `stale_claim_decay_factor` | float | `0.8` | Multiplier applied to confidence on each decay cycle after `stale_claim_decay_days`. |
-| `match_verdict.strong_min_score`, `match_verdict.possible_min_score` | float | `0.85`, `0.6` | Score bands for the Match tab's verdict on a result: Strong, Possible or Check. |
+| `match_verdict.strong_min_score`, `match_verdict.possible_min_score` | float | `0.85`, `0.6` | Score bands for the Match tab's verdict on a result: Strong match, Possible match or Weak match. |
 | `match_verdict.strong_min_agreeing_facts` | int | `2` | How many facts must agree (with no fact disagreeing) for a Strong verdict. |
-| `match_verdict.identity_facts` | string[] | `title`, `number`, `identifier` | Facts that decide identity: one that disagrees gives Check. An agreeing identifier (IMDb, TMDB, ISBN, ISRC, YouTube ID) turns a differing title into Possible rather than Check, for translated titles. |
+| `match_verdict.identity_facts` | string[] | `title`, `number`, `identifier` | Facts that decide identity: one that disagrees gives Weak match. An agreeing identifier (IMDb, TMDB, ISBN, ISRC, YouTube ID) turns a differing title into Possible match rather than Weak match, for translated titles. |
 | `match_verdict.runtime_tolerance_minutes` | int | `2` | How far a file's measured length may be from a provider's rounded runtime and still count as the same. |
 | `match_verdict.track_length_tolerance_seconds` | int | `3` | The same for a song's length. |
-| `match_verdict.evidence_facts` | object | per kind | Which facts the Match tab compares for each kind (for example a movie: title, year, runtime, identifier). A fact with nothing to compare in your file is shown as not checked and never counts against a match. |
+| `match_verdict.evidence_facts` | object | per kind | Which facts the Match tab compares for each kind (for example a movie: title, year, runtime, identifier). A fact with nothing to compare in your file is shown with a dash and never counts against a match. |
+| `match_verdict.verdict_only_facts` | object | `song`: `identifier` | Facts, per kind, that count toward the verdict but are not drawn as a row of the Match card's compare table. |
+| `match_verdict.collection_title_markers` | string[] | `box set`, `boxed set`, `boxset`, `collection`, `complete series`, `omnibus`, `trilogy` | Words in a result's title that mark it as a collection or box set rather than one title, so its row in the results list says "Collection". They are skipped when the result is a numbered entry in a series. |
 | `music_match.max_releases` | int | `10` | How many MusicBrainz releases the Match tab's music step lists. |
 | `music_match.release_title_points`, `release_track_count_exact_points`, `release_track_count_more_points` | int | `4`, `3`, `1` | Points that pick the suggested release: the album title agrees, the track count fits exactly, or the release has more tracks than you own. Ties go to a release with a track as long as your song. |
 | `music_match.track_title_points`, `track_number_points`, `track_length_points` | int | `4`, `2`, `2` | Points that pick the suggested track on the opened release: title, track number and length agree. |

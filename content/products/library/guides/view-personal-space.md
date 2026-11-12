@@ -89,7 +89,7 @@ An administrator can change the 90 days, or turn the clean-up off, under **Setti
 3. Use the filters on the left for tags, correspondent, type, date and custom fields. **Save this view** keeps a filter set under a name. Saved views are private to you.
 4. Choose **Select** to add tags or set a correspondent, type or date on up to 500 documents at once, or to move them to the **Trash**. **Export list (CSV)** downloads the list you are looking at.
 
-A television can browse and open documents but not change them. A phone can search, read and file from the Inbox, but editing every detail of a document and editing rules need a computer with a mouse or trackpad. Read [Documents in View](../explanation/documents-in-view.md) for the whole picture, and [How documents are filed](../explanation/how-documents-are-filed.md) for the Inbox and rules.
+A television can browse and open documents but not change them. A phone can search, read and file from the Inbox, and edit a document's details in the same editor as a computer. Editing rules needs a computer with a mouse or trackpad. Read [Documents in View](../explanation/documents-in-view.md) for the whole picture, and [How documents are filed](../explanation/how-documents-are-filed.md) for the Inbox and rules.
 
 ## Make Galleries
 
