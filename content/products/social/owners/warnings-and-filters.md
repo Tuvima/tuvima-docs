@@ -1,6 +1,6 @@
 ---
 title: Warnings, word filters and the approval queue
-description: Give warning points that expire on their own, hold posts with chosen words, review held posts one at a time, and restore removed posts within 30 days.
+description: Set up warning points, a warning ladder and ready-made reasons, hold posts with chosen words, review held posts, and restore removed posts.
 audience: user
 category: guide
 product_area: tuvima
@@ -20,21 +20,47 @@ Newcomers are members who haven't yet met your [newcomer limits](../guides/newco
 
 ## Warnings
 
-A moderator can give a member a warning with points.
+A moderator can give a member a warning with points, from the member's side panel or page, or for several people at once from the [members list](members.md#act-on-several-people-at-once).
 
-- **Minor** and **Serious** warnings carry the points you choose (1 and 3 to begin with). A moderator can also choose a number of points, from 1 to 20.
-- A warning can name one of your community's rules and carry a message to the member.
-- Points expire on their own, after 90 days to begin with.
 - Giving or taking back a warning needs the **Suspend and ban** permission, even when the moderator is also removing a post.
-- The member sees the warning, the rule and the message, but not which moderator gave it. They must choose **I understand** before posting or replying again, and can still read in the meantime.
+- The moderator picks one of your **ready-made reasons**, which comes with its points, or writes their own reason and chooses the points, from 1 to 20.
+- A warning can also name one of your community's rules and carry a message to the member.
 - A warning can be taken back from the member's side panel or page. Its points stop counting at once.
+
+### What the member sees
+
+The member is told they have a warning. On **Your warnings** in your community they see the reason, the points, when the points expire and what the next step on your ladder is, for example "at 3 points, new posts wait for review for 7 days". They never see which moderator gave the warning.
+
+They must choose **I understand** before posting or replying again, and can still read in the meantime. See [if you get a warning](../guides/reporting-and-moderation.md#if-you-get-a-warning).
+
+### When points expire
+
+Under **Points expire after**, choose how many days warning points keep counting, 90 to begin with. After that, each warning's points stop counting on their own.
+
+### Ready-made reasons
+
+Give each reason a name and a number of points, for example "Off-topic posting, 1 point". Moderators see them as a list to pick from when they warn someone. You can have up to 20, and put them in the order you like.
 
 ### The warning ladder
 
-- **Hold new posts for review**: when a member's points reach a number you choose, their new posts wait in the approval queue for a number of days.
-- **Suggest a suspension**: when points reach a higher number, moderators see a suggested suspension. It only happens if a moderator does it.
+The ladder is a list of steps. Each step starts when a member's points still counting reach a number you choose, and does one of these:
 
-Set a step to 0 to switch it off.
+- **Hold new posts for review**: their new posts wait in the approval queue for the number of days you choose.
+- **Suggest a suspension**: moderators see a suggested suspension of the number of days you choose.
+- **Suggest a ban**: moderators see a suggested ban.
+
+A suggestion never happens on its own. Nobody is suspended or banned unless a moderator decides to do it.
+
+You can add, change and remove steps, up to 10.
+
+### What new communities start with
+
+Every new community starts with a ladder and reasons you can change:
+
+- Points expire after 90 days.
+- Reasons: **Minor problem** (1 point) and **Serious problem** (3 points).
+- At 3 points, new posts wait for review for 7 days.
+- At 6 points, moderators see a suggested 7-day suspension.
 
 ## Word filters
 

@@ -1,6 +1,6 @@
 ---
 title: Look after members
-description: Use the members table to find people, act on several at once, and open a side panel with their warnings and private moderator notes.
+description: Find, filter and sort members, act on up to 100 at once, export the list as a spreadsheet, and open a side panel with their warnings and notes.
 audience: user
 category: guide
 product_area: tuvima
@@ -11,25 +11,46 @@ Open **Manage**, then **Members**. Moderators, admins and the owner can see this
 
 ## The members table
 
-Each row shows a member's name, their roles and any newcomer, suspended or banned mark, when they were last here and how many posts they have written. Search by name, filter by role or status, and use **Show more** for the next page.
+Each row shows a member's name, their roles and any newcomer, suspended or banned mark, their level, when they joined, when they last posted and how many posts they have written. A line above the table says how many people match and how many joined this week. Use **Show more** for the next page.
+
+"Last posted" and post counts only count posts in forums you can open yourself. Someone who only posts in a private forum you can't see shows as never having posted.
+
+### Search, filter and sort
+
+- **Search** by name or handle.
+- **Filter** by role, by status (such as newcomer or suspended), by level, by when they joined (this week or this month) and by when they last posted (this week, this month, over a month ago, or never).
+- **Has warning points** shows only people with points still counting. You only see this filter if your role can read the moderation record.
+- **Sort** by name, newest members, last posted, most posts, most points or level. Most points is only there if you can read the moderation record.
 
 ## Act on several people at once
 
-Tick the people you want, and a bar appears at the bottom of the screen saying how many are ticked.
+Tick the people you want, up to 100 at a time. A bar appears at the bottom of the screen saying how many are ticked.
 
-- **Give role** and **Take role**: for anyone whose role allows **Give roles**. You can only give or take roles below your own.
+- **Give role** and **Take role**: for anyone whose role allows **Give roles**.
 - **Warn**: for anyone whose role allows **Suspend and ban**. See [warnings](warnings-and-filters.md#warnings).
 
-Each person is changed in turn. If someone can't be changed, for example because their role is as high as yours, they are listed afterwards and everyone else is still done.
+The same rules apply as when you act on one person: you can't act on yourself, or on anyone whose role is as high as yours or higher. Each person is changed in turn. Afterwards a summary lists who was done, and who wasn't and why. Everyone who could be changed still is.
+
+## Export the list
+
+Owners and admins can choose **Export list** to download the members list as a spreadsheet (a CSV file, which opens in any spreadsheet app).
+
+- It holds exactly what is on screen: the same search and filters. Change the filters first to export a smaller group.
+- For each person: name, handle, roles, level, when they joined, when they last posted and how many posts they have written. Warning points are included only if you can read the moderation record.
+- Email addresses and sign-in details are never included. They stay in Tuvima ID.
+- An export can hold up to 50,000 people.
+- Every export is kept in the moderation record, with who made it.
 
 ## A member's side panel
 
 Choose **Details** on a row. A panel opens beside the list, so you keep your place. It shows:
 
-- their posts, when they joined and when they were last here,
-- their roles, with **Open member page** and **Change roles**,
-- their **warnings**, with the points still counting (moderators who can read the moderation log),
-- private **moderator notes** (see below).
+- their roles and level, with **Open member page** and **Change roles**,
+- their posts, when they joined and when they last posted,
+- their **warnings**, with the points still counting (if you can read the moderation record),
+- their answers to your [join questions](join-questions.md) (if you can review requests to join),
+- private **moderator notes** (see below),
+- **Warn**, **Suspend** and **Ban**, if your role allows them.
 
 Email addresses and sign-in details are never shown here. They stay in Tuvima ID.
 
