@@ -83,7 +83,7 @@ Choose **Who can see and post** to open the same choices a forum has; see [choos
 
 ### Read-only channels
 
-A read-only channel is one where only some members can post, for example **announcements**. Everyone else who can read it sees "Only moderators can post here" in place of the message box. They can still read and react.
+A read-only channel is one where only some members can post, for example **announcements**. Everyone else who can read it sees "Only some members can post here" in place of the message box. They can still read and react.
 
 ### Slow mode
 
