@@ -95,9 +95,9 @@ The TV fetches the picture itself, without your sign-in, so Library gives it a s
 
 The TV apps and the car apps follow the Dashboard's order, names and defaults, written once in a shared player contract. Learning one player is learning them all: the same five playback buttons, the same names for the tools, and 10 seconds back and 30 forward on every remote. The TV and car parts are a first definition that each app refines.
 
-## Bookmarks are Everyone's or Mine
+## Bookmarks are Mine or Global
 
-You bookmark for yourself. In the player, **Everyone** shows what the household bookmarked on this title and **Mine** shows your own, and it opens on Everyone so a good bookmark anyone makes is simply there. You never have to copy or save one to use it. An administrator who wants a cleaner list makes a definitive set in the editor's Bookmarks tab by adding the best bookmarks to Everyone's, renaming them and removing the rest, and then Everyone shows only that set. That work lives in the editor rather than the player because it is curation, not watching: it is staged and saved with **Save changes** like every other edit, so a stray click in the player can never change what everyone sees. Nobody loses a bookmark when it is added to Everyone's; its owner keeps it as their own, and one within a few seconds of it is folded in so the same moment is never listed twice. The tab is never offered in the Vault, because it shows what other people saved.
+You bookmark for yourself. The player opens on **Mine**, and only yours are ever shown until you choose otherwise. On movies and TV, an administrator can make a **Global** set for a title in the editor's Bookmarks tab, by adding the best bookmarks, importing a file or renaming and removing, and then everyone can pick Global to see it. It starts empty on purpose: nobody sees notes they never chose to see. That work lives in the editor rather than the player because it is curation, not watching: it is staged and saved with **Save changes** like every other edit, so a stray click in the player can never change what everyone sees. Nobody loses a bookmark when it is added to Global; its owner keeps it as their own, and one within a few seconds of it is folded in so the same moment is never listed twice. Books and audiobooks stay personal, because a page or a spot in a story is yours alone, and music has no bookmarks. The tab is never offered in the Vault, because it shows what other people saved.
 
 ## No keyboard shortcut for bookmarks
 
@@ -121,4 +121,4 @@ Because the Engine alone decides how close two bookmarks are, every screen, and 
 
 ## Why packs are gone
 
-Bookmark packs kept a separate read-only copy of someone else's bookmarks for each person, under the pack's name. That meant the same moment could be listed twice and an administrator's import helped nobody else. Now a file simply becomes bookmarks: part of Everyone's if an administrator applied it, yours otherwise. One list, one set of rules, nothing extra to remove later.
+Bookmark packs kept a separate read-only copy of someone else's bookmarks for each person, under the pack's name. That meant the same moment could be listed twice and an administrator's import helped nobody else. Now a file simply becomes bookmarks: part of Global if an administrator applied it, yours otherwise. One list, one set of rules, nothing extra to remove later.

@@ -134,7 +134,7 @@ For shelves that support edits, you can also keep the stack of member art that T
 
 ## Bookmarks (administrators only)
 
-On a film, an episode, a video, an audiobook or a book, an administrator also sees a **Bookmarks** tab. The upper list is **Everyone's**, exactly as the player shows it; the lower list, **From profiles**, is each profile's own bookmarks on the title. **Add to Everyone's** promotes one; **Remove from Everyone's**, **Rename** and **Change time** edit the set. The first change turns the pooled list into a set you curated, and **Start over from profiles** goes back. Rows on a film, episode or video start with the frame at that moment. **Export** saves the title's set as a file and **Import** compares an incoming file with Everyone's, per title or per show. Changes are staged and shown in Review changes like any other.
+On a film, an episode or a video, an administrator also sees a **Bookmarks** tab. The upper list is **Global**, the set the player shows when someone picks Global; the lower list, **From profiles**, is each profile's own bookmarks on the title. Global starts empty. **Add to Global** promotes one; **Remove from Global**, **Rename** and **Change time** edit the set, and **Clear Global** empties it. Rows start with the frame at that moment. **Export** saves the title's set as a file and **Import** compares an incoming file with Global and puts what you take there, per title or per show. Changes are staged and shown in Review changes like any other.
 
 **Why here.** The player's job is playing; deciding what everyone sees is an administrator's job, and it benefits from the same Review and Save as every other edit. People who are not administrators never see the tab.
 
