@@ -113,7 +113,7 @@ A category that still holds channels can't be deleted. Move or delete its channe
 
 ## Moderating chat
 
-The rules you already have apply in chat: suspensions, bans, [newcomer limits and word filters](warnings-and-filters.md) all work as they do for posts. A newcomer's hourly limit counts chat messages and forum posts together.
+The rules you already have apply in chat: suspensions, bans and [newcomer limits](warnings-and-filters.md#newcomers) work as they do for posts. Only word filters set for every forum apply in chat: see [word filters in chat channels](warnings-and-filters.md#word-filters-in-chat-channels). A newcomer's hourly limit counts chat messages and forum posts together.
 
 - **Removing messages.** Moderators can open **Message options** on any message and choose **Remove message**. A line saying "This message was removed" stays in its place. The removal is written in your community's moderation log as "Removed a message in a chat channel", **without the message's text**.
 - **Reports.** When a member reports a channel message, it goes to your community's moderators, with the message and up to 5 messages before and after it. A moderator only receives reports about channels they can read.
