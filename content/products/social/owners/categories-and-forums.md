@@ -22,6 +22,9 @@ Owners and admins manage all of this in **Manage**, then **Forums and categories
 - **Who can see and post** makes a category or forum members-only, or opens it only to some members. See [choose who can see and post in each area](area-access.md).
 - **Edit** renames a category or forum, adds a description, or gives a forum an automatic content warning, such as "Spoilers".
 - **Forum type**, under **Edit**: **Discussion** (replies in time order, for chat, news and show-and-tell), **Questions and answers** (best answers rise, and the asker or a moderator accepts one, which shows first) or **Link to another page** (shows in the list like a forum but opens a web page you choose, such as your shop or wiki; it holds no conversations). A forum that already has conversations can't become a link.
+- **Each forum has its own settings page**: choose the forum's name in the list. It has tabs for **Settings**, **Access**, **Rules** and **Labels**, and keeps the access summary in view. Under **Settings** you can also:
+  - **Hold newcomers' first posts here** for a moderator to approve, even when the community doesn't hold first posts everywhere.
+  - In a **Questions and answers** forum, show **new unanswered questions first** for a day, and choose whether **the asker can accept an answer** or only moderators can.
 - To delete a forum, first choose where its conversations go. They move with every reply, and nothing else is deleted. A category can be deleted once it is empty.
 
 Members see the category and forum in a breadcrumb on every conversation, for example **Dallas Dungeon Crawlers › Campaigns › Homebrew**. They can filter the conversation list and search by category and by forum.

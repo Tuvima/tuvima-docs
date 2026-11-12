@@ -28,9 +28,15 @@ You can rename any of them to suit your community, for example Admin to "Guild M
 
 The owner and admins can give [achievements](achievements.md) by hand. To let another role do it, open that role and switch on **Give achievements**. People with it can give and take back achievements given by hand, and see the hand-given log. They can't change the achievements themselves.
 
+## Colour and a tag on posts
+
+Each role can have a **colour** from a short list. The colour shows as a small square beside the role's name in the roles list, the access grid and on member pages. The name always stands beside it, so nobody has to rely on the colour alone.
+
+Switch on **Show on posts** to put a small tag with the role's name next to its holders' names on their posts, for example "Mentor". The role editor shows a preview. When someone holds several roles that show on posts, the tag comes from the one highest in the roles list, so move roles up or down to choose which tag wins.
+
 ## Compare roles
 
-Tick two to four roles in the list and choose **Compare roles** to see what each allows side by side.
+Under the roles list, **Compare roles** shows what up to six roles allow side by side, grouped into moderation, members, running the community and features. A box says **Yes**, **No**, the names of the forums a role is limited to, or "not for newcomers". Choose **Choose roles to compare** to pick which roles to show, and **Show all permissions** for the full list.
 
 ## Feature switches
 
@@ -40,9 +46,10 @@ Some rights belong to the owner alone and cannot be given to any role: making th
 
 ## Make your own role
 
-1. Choose **Make copy** next to the role closest to what you want, for example Moderator.
-2. Give it a **Name**, such as "Dungeon Master", and an optional description.
-3. Open the copy in the list to pick what it allows.
+1. Choose **New role**.
+2. Start from a copy of the role closest to what you want, for example Moderator, or start blank at the Admin, Moderator or Member rank. A blank role starts with nothing switched on.
+3. Give it a **Name**, such as "Dungeon Master", and an optional description.
+4. Open it in the list to pick what it allows, its colour and whether it shows on posts.
 
 A copy keeps its source's place: a copy of Moderator acts like a moderator when it comes to who can act on whom. No role can act on its equals, on higher roles or on the owner.
 
@@ -66,7 +73,7 @@ The person is told "You were given the … role". Admins, and anyone else whose 
 
 ## Every change is recorded
 
-Making, renaming, changing, deleting, giving and taking a role are all kept in the **moderation record**, with who did it.
+Making, renaming, changing (including its colour and tag), deleting, giving and taking a role are all kept in the **moderation record**, with who did it.
 
 ## Next steps
 
