@@ -79,7 +79,7 @@ Thumbs need room. On a phone the bar collapses to a thin strip with the artwork,
 
 ## Volume stays out of the way
 
-The speaker mutes with one click and brings your level back when you unmute. A short horizontal slider opens beside it when you point at it or tab to it and closes again, without moving the other tools. On a touch screen the speaker opens a small panel, with mute inside it. The speaker only shows "muted" after you mute it or set the level to zero, so it never looks muted just because the player had not reported its level yet.
+The speaker mutes with one click and brings your level back when you unmute. A short upright slider opens just above it when you point at it or tab to it and closes again. It used to open sideways, which pushed the neighbouring buttons along the bar; opening upward means nothing you were about to click moves. On a touch screen the speaker opens a small panel, with mute inside it. The speaker only shows "muted" after you mute it or set the level to zero, so it never looks muted just because the player had not reported its level yet.
 
 ## The lock screen belongs to your device
 
@@ -103,9 +103,9 @@ You bookmark for yourself. The player opens on **Mine**, and only yours are ever
 
 A stray key press should never add something to your library. Bookmarks are added from the panel, where you can see exactly what is being saved and when. Space, the arrow keys and Escape still work, because they are basic accessibility, but the player never prints them on screen as hints.
 
-## Bookmarks start off the timeline
+## Bookmarks show on the timeline
 
-A clean progress bar comes first. If you like the extra marks, switch **Show on timeline** on in the Bookmarks panel; the ticks then follow whichever list you are looking at. A long set from a file would otherwise cover the bar the first time you open a film. Chapter ticks are a separate choice in **Settings > Playback**.
+A bookmark you cannot see is easy to forget, so each one is a small dot on the progress bar, and the dots follow whichever list you are looking at. They are small enough that a long set does not hide the bar, and **Show on timeline** in the Bookmarks panel turns them off if you want a clean bar. Chapter ticks are a separate choice in **Settings > Playback**.
 
 ## Books follow the same rules, measured in chapters
 
