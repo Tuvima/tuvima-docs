@@ -200,7 +200,7 @@ Files in a read-only folder are never deleted. The item just leaves the Library 
 
 ## Edit several items at once
 
-Tick rows in a list (a song list, Needs Review, a library table, a season page) or in the supporting-files browser and choose Edit. On a phone, **Select** in a list (or a long press on a row) turns on ticking. The editor becomes **"Editing 12 songs"**, with small pictures, and its home button goes back to the family. It offers only the changes that make sense for all of them:
+Tick rows in a list (a song list, Needs Review, a library table, a season page) or in the supporting-files browser and choose Edit. On a phone, **Select** in a row's "..." sheet turns on ticking, and for ticked songs **Edit** is under the **...** button beside Done. The editor becomes **"Editing 12 songs"**, with small pictures, and its home button goes back to the family. It offers only the changes that make sense for all of them:
 
 - Facts that identify one item, such as title, track or episode number, ISBN and file name, are never offered.
 - Facts that describe a group are offered when every item is the same kind: album, album artist, genre, year and disc (songs); series and author (books); tags (everything); Explicit (songs and videos). Season and show are changed through Match, one item at a time.
