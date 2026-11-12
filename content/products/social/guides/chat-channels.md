@@ -89,7 +89,7 @@ See [reporting and moderation](reporting-and-moderation.md).
 
 ## Read-only channels and slow mode
 
-- In a **read-only** channel, only some members can post, usually moderators. It is used for things like announcements. The channel list marks it **read only**, and in place of the message box you see "Only moderators can post here". You can still read and react.
+- In a **read-only** channel, only some members can post, usually moderators. It is used for things like announcements. The channel list marks it **read only**, and in place of the message box you see "Only some members can post here". You can still read and react.
 - With **slow mode** on, each member waits a set time between their own messages, for example one message every 30 seconds. A line under the message box tells you when you can write again.
 
 ## Turn chat into a forum conversation
