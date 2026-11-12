@@ -23,7 +23,7 @@ Formats of one title (the ebook and the audiobook of Dune) are variants of that 
 
 ## Start a new collection
 
-Choose **New collection** on the Collections page, or the **+** beside Collections or Playlists on the Watch, Read and Listen rails (the media type is ticked for you). From an item's **...** menu, **Add to collection** lists only the collections you may edit. With several rows ticked in a list, use **Add N to collection**.
+Choose **New collection** on the Collections page, or the **+** beside Collections or Playlists on the Watch, Read and Listen rails (the media type is ticked for you). From an item's **...** menu, **Add to collection** lists only the collections you may edit. With several rows ticked in a list, use **Add N to collection**. Songs are the exception: they go into playlists, so a song's menu and ticked songs offer **Add to playlist** and never Add to collection (see [Pick several songs](dashboard-tour.md#pick-several-songs)).
 
 Step 1 offers four ways in:
 

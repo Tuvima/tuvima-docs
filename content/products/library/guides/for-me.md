@@ -19,7 +19,7 @@ Home also shows a **My List** row directly under Continue with your 20 newest sa
 
 Open **For Me** for the wider picture: Continue, My List, Favorites, Your Collections, Your Playlists, and Your Galleries when they have items.
 
-Continue follows reading or playback progress. My List saves items for later. Favorites holds songs you have marked with a heart. You can save, favorite, or start an item on its own. One choice does not make the others.
+Continue follows reading or playback progress. My List saves items for later. Favorites holds songs you have marked with a heart and opens inside Listen as a playlist you can put in your own order. You can save, favorite, or start an item on its own. One choice does not make the others.
 
 ## Save something for later
 
@@ -43,7 +43,7 @@ Everything above works the same on a phone as on a desktop.
 
 ## Find favorites and your own groups
 
-Open **For Me > Favorites** for your favorite songs. This view does not yet browse favorite items across all media types. Like/Dislike ratings are separate from Favorite. A song's heart adds it to Favorites. Favorites in View belong to that separate personal-media surface.
+Open **Favorites** in the Listen rail for your favorite songs: it is a playlist inside Listen, newest heart first, which you can sort by any column or put in your own order (see [Favorites](dashboard-tour.md#favorites)). For Me also lists them. Favorites does not browse favorite items across all media types. Like/Dislike ratings are separate from Favorite. A song's heart adds it to Favorites. Favorites in View belong to that separate personal-media surface.
 
 Your own collections, playlists, and galleries appear in their **Your** shelves. Library collections and shared playlists enter My List only when you choose to save them.
 
@@ -52,7 +52,7 @@ Switch profiles to change whose progress and saved items you see. You can switch
 <details>
 <summary>Technical details</summary>
 
-My List is at `/my-list`. For Me's overview uses `/for-me`, and its Favorites view uses `/for-me?view=favorites`. Saved items, reactions, and progress have separate profile records. They are not stored as hidden collections or playlists.
+My List is at `/my-list`. For Me's overview uses `/for-me`, and its Favorites view uses `/for-me?view=favorites`, and the Favorites playlist in Listen is at `/listen/music/playlists/system/favorite-songs`. Saved items, reactions, and progress have separate profile records. They are not stored as hidden collections or playlists.
 
 Watchlist, Reading List and Listening Queue are retired terms. The older addresses `/my-library`, `/for-me?view=my-list` and `/all/personal/my-list` no longer exist.
 

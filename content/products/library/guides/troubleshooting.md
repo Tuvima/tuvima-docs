@@ -98,6 +98,8 @@ Restarted imports resume recoverable jobs. Use **Settings → Libraries → Need
 
 Optional lyrics, subtitles, or commercial detection returning no result usually do not require identity review.
 
+If a song's Lyrics panel says "No lyrics found", press **Find lyrics** or **Add a lyrics file**. If it says "Lyrics could not be looked up right now", the lyrics source could not be reached: check your connection and press **Try again**. Library retries on its own three times in all (after 15 minutes, then 2 hours) and then waits for you. The Engine log has one line per lyrics lookup that names the outcome (found, no match, length too different, source unreachable).
+
 ## Provider lookups fail
 
 1. Confirm the provider is enabled.

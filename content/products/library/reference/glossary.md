@@ -375,7 +375,7 @@ The titles a profile saved for later with the plus (movies, TV shows, books, com
 
 ### Favorites
 
-Items marked with a favorite reaction. A favorite is distinct from Like/Dislike ratings and My List saves.
+The songs a profile has hearted, shown as a playlist inside Listen, newest first, in an order the person can change by hand. A Favorite is distinct from Like/Dislike ratings and My List saves.
 
 ### Continue
 
