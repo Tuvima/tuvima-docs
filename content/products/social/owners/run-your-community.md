@@ -42,7 +42,7 @@ Every community starts with a ready-made set of [achievements](achievements.md).
 
 ## Reports and the moderation record
 
-Reports come to **Manage > Reports**, where moderators can see open and reviewed reports, filter by reason, act on a post and **Mark reviewed**. Every action is added to the **moderation record** (**Manage > Moderation log**), which cannot be edited. Held posts and requests to join wait in the **Approval queue**, and removed posts can be restored for 30 days. See [warnings, word filters and the approval queue](warnings-and-filters.md).
+Reported posts and messages, held posts and requests to join all wait in one **Approval queue** (**Manage > Approval queue**), where moderators decide on them one at a time. Every action is added to the **moderation record** (**Manage > Moderation log**), which cannot be edited, and the queue's **Reports already dealt with** link shows past reports. Removed posts can be restored for 30 days. See [the approval queue](warnings-and-filters.md#the-approval-queue).
 
 ## Pins and thread tools
 

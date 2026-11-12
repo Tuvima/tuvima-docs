@@ -76,7 +76,7 @@ Communities do not have folds. A community's own moderators handle its reports, 
 | Action | What it means |
 | --- | --- |
 | **Hide post** | The post is hidden from readers while moderators look into it. It can be shown again. |
-| **Remove post** | The post is taken down. It can be restored if it was a mistake. |
+| **Remove post** | The post is taken down. Moderators can restore it within 30 days if it was a mistake. |
 | **Suspend** | The member cannot post, reply, react or join for a set time: 1 hour, 1 day, 3 days, 1 week, 30 days or a custom period. |
 | **Ban** | The member cannot take part in that community until the ban is lifted. They can still read public conversations. |
 
