@@ -36,7 +36,7 @@ When you start something, a bar appears at the bottom of every page. It has a th
 
 Every control is a large button with a soft highlight under the pointer or keyboard focus. Point at one, or tab to it, to see its name.
 
-On a desktop or tablet the bar is the same height (88 px) for music, audiobooks, TV and movies, with the same size of cover, so it does not change size when you move from a song to a video. A phone keeps the small mini-player strip (see below).
+On a desktop or tablet the bar is the same height (100 px) for music, audiobooks, TV and movies, with the same size of cover, so it does not change size when you move from a song to a video. A phone keeps the small mini-player strip (see below).
 
 The bar stays in front of a title's details window and works beside it. Press **Play** on an album and the bar appears at once; **Pause**, **Next** and the tools all work while the album's window is still open, and the window ends above the bar rather than covering it. Press **Esc** to close the window; the music keeps playing.
 

@@ -69,7 +69,7 @@ The panel is also honest about waiting. A lookup for lyrics can take a moment, a
 
 ## The bar is always in front, and always the same size
 
-The player is the one thing you must always be able to reach. A title's details window covers the page behind it, and that used to include the bar, so pressing Play on an album could leave you with music and no controls. Now the bar sits in front of the window and works beside it, and the window ends above the bar. Music, audiobooks and video use the same 88 px bar on a desktop and tablet, so the bar does not change size when you change what you are playing; a phone keeps its small strip so it never covers your library.
+The player is the one thing you must always be able to reach. A title's details window covers the page behind it, and that used to include the bar, so pressing Play on an album could leave you with music and no controls. Now the bar sits in front of the window and works beside it, and the window ends above the bar. Music, audiobooks and video use the same 100 px bar on a desktop and tablet, so the bar does not change size when you change what you are playing; a phone keeps its small strip so it never covers your library.
 
 ## Songs go to playlists, columns follow your hand
 
