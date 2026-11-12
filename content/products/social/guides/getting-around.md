@@ -34,6 +34,9 @@ Your pins belong to your Tuvima persona, so they follow you to every device you 
 - Swipe in from the left edge of the screen, or tap **You**, to open the menu. It has your communities (pinned, recent and private), your account links, light or dark, and sign out.
 - If your phone uses that swipe for "back", tap **You** instead.
 - With reduced motion turned on in your phone's settings, the bar stays put and the menu appears without sliding.
+- Everything you can tap is at least 44 pixels, about the size of a fingertip, so you don't hit the wrong thing. This includes links, buttons, filters, tick boxes and the links at the bottom of the page. A link in the middle of a sentence keeps the size of the sentence.
+- Text you read at length, such as posts, titles and the boxes you type in, is 16 pixels. Small labels are 13 to 14 pixels, and no text is ever smaller than 12 pixels. Because the boxes you type in are 16 pixels, your phone doesn't zoom in when you tap one.
+- On a tablet or a touch screen computer, things to tap are the same comfortable size.
 
 ## Light or dark
 
