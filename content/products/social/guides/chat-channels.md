@@ -25,7 +25,7 @@ Chat channels are for **members only**.
 2. Choose the **Chat** tab.
 3. Choose a channel. Channels have a `#` mark, such as **# general**, and are listed under their category next to that category's forums.
 
-On a computer the list of channels stays beside the open channel. On a phone the list is one screen and the channel is the next.
+On a computer the list of channels stays beside the open channel, and the channel uses the full height of the screen. The community's name at the top of the list takes you back to the community's home page. On a phone the list is one screen and the channel is the next.
 
 Some communities open on chat: when you open the community as a member, you land on the **Chat** tab. The **Home** tab still takes you to the community's home page.
 
@@ -33,7 +33,9 @@ The top of a channel shows its name, what it is for, and **Writing as** with the
 
 ## The dot for new messages
 
-A channel with messages you have not read is shown in bold with a **dot**. It is only a dot, never a number. Opening the channel clears it.
+A channel with messages you have not read is shown in bold with a **dot**. Opening the channel clears it.
+
+If someone replied to you there, the dot becomes a **number**: how many of those messages are waiting. Muted channels never show a number.
 
 The **Chat** tab shows a dot too when a channel you have not muted has something new.
 
@@ -45,6 +47,8 @@ Type in the box at the bottom and choose **Send**. On a computer, Enter sends an
 - Photos cannot be sent in chat yet.
 - You write as the one persona you use in that community.
 - The community's rules apply as they do in forums. A suspension stops you writing in chat too, and [newcomer limits](newcomers.md) count chat messages and forum posts together. If the community blocks certain words, a message containing them is not sent and you are told why.
+
+In a very busy channel you may be told the conversation is busy and asked to try again in a moment. Your message was not sent; send it again.
 
 In a brand-new channel you see "Speak, friend, and enter." Be the first to say something.
 
@@ -59,15 +63,15 @@ Choose the **Message options** button (three dots) beside a message.
 
 Moderators can remove anyone's message. Their own messages carry a **Moderator** tag.
 
-## Mention someone
+## When someone replies to you
 
-Type `@` and a member's handle, for example `@avery`, to get their attention. They get a notice in their bell, as long as they can read that channel and have not muted it. The notice says who mentioned them and in which channel, never what was written.
+When someone replies to your message, you get a notice in your bell, as long as you can still read that channel and have not muted it. The notice says who replied and in which channel, never what was written.
 
 ## Choose your alerts
 
 Choose the **info** button at the top of the channel. On a wide screen the same choices show in a column beside the channel. Under **Your alerts**:
 
-- **Normal**: you are told about mentions and replies to you.
+- **Normal**: you are told about replies to you.
 - **Muted**: you are told nothing from this channel.
 
 Channel alerts appear in the bell only. They never send an email or a phone alert. There is no setting to be alerted about every message. See [keep up with conversations](keep-up.md).
@@ -106,6 +110,7 @@ What happens:
 - A new conversation starts in that forum. Its first post quotes each message, and each person is credited for their own words.
 - A line with a link to the new conversation is left in the channel.
 - The original messages stay in the channel.
+- The conversation is added to **Kept from this channel** in the channel's info, which lists the newest 10. You only see conversations in forums you can open.
 
 You can turn **your own** messages into a conversation. Moderators can turn anyone's. You need to be able to post in the channel, so in a read-only channel only the people who can post there, and moderators, see this choice. The usual limits on starting conversations apply.
 
