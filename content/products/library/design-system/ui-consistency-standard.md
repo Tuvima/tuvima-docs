@@ -48,7 +48,7 @@ The Dashboard is dark only. Surfaces are neutral near-black grays, not blue or v
 - Area colors (Watch rose, Listen amber, Read blue, View teal, Vault gold) appear only in chips, icon tiles and area labels. Status colors (success green, info blue, warning amber, danger red) appear only on status. Green means healthy or done and nothing else.
 - Icons ask for a tone (neutral, accent, info, success, warning, danger, an area or a media type), never a color.
 
-Why: a color should tell you something. When purple, green or amber turn up as decoration, they stop meaning "selected", "healthy" or "needs attention". Keeping every background neutral also lets artwork be the only colorful thing on a page. An automated check fails a component style that types its own hex or `rgb()` color outside a short, named list (charts, subtitle swatches, the map, avatars).
+Why: a color should tell you something. When purple, green or amber turn up as decoration, they stop meaning "selected", "healthy" or "needs attention". Keeping every background neutral also lets artwork be the only colorful thing on a page. Every color on every screen comes from this shared set. Dimming over artwork, hairlines and hover washes use a short named set of light washes (3, 5, 8, 12 and 18% white) and dark scrims (20 to 70% black) instead of one-off values. An automated check fails a component style that types its own color in any form outside a short, written list of real exceptions: colors taken from a cover's artwork, charts, subtitle color choices, the map, avatars and the readers' page themes.
 
 ## Typography
 
@@ -57,27 +57,31 @@ Why: a color should tell you something. When purple, green or amber turn up as d
 - Reader: `--font-reader` (Merriweather), scoped to long-form reading and its preview.
 - Technical values: `--tl-font-mono` (JetBrains Mono with system monospace fallbacks), used for paths, URLs, identifiers, and code.
 
-The type ladder has seven named steps. A screen picks a step; it does not type its own number.
+Every piece of text has a job, and the job sets its size and weight. A screen names a job; it does not type its own number.
 
-| Step | Size | Used for |
+| Job | Size and weight | Used for |
 |---|---|---|
-| Caption | 12px | Captions, compact metadata |
-| Secondary | 13px | Helper lines, form labels, tooltips |
-| Body | 14px | Body copy |
-| Controls | 16px | Controls, menus, rows |
-| Section | 20px | Section and shelf titles, window titles |
-| Page title | 24px (28px at 1180px and wider) | Page titles |
-| Hero | 32px | Hero titles |
+| Hero | 32px, 700 | The title over a hero (the only text that may scale with the screen) |
+| Page title | 24px, 700 (28px at 1180px and wider) | The one title of a page |
+| Heading | 20px, 600 | Section and shelf titles, every window title |
+| Subheading | 16px, 600 | A group inside a section, a card's title |
+| Menu | 16px, 500 | Rows in pop-up menus |
+| Control | 14px, 500 | Buttons, tabs, dropdown values and options, chips, row titles |
+| Body | 14px, 400 | Reading text, dialog messages, text typed into a field |
+| Label | 13px, 500 | Field labels |
+| Secondary | 13px, 400 | Helper lines, meta lines, counts, tooltips |
+| Overline | 12px, 600 | A small heading above a group |
+| Caption | 12px, 400 | Badges, time stamps, column headings |
 
-Weights are 400 for body text, 500 for labels, menu rows and chips, 600 for group headings and card and row titles, and 700 for page and hero titles only. Line heights are 1.2, 1.3 and 1.5. Why: nearly three hundred slightly different sizes made neighboring screens look almost, but not quite, the same.
+Text typed into a field is 14px on tablets and desktops and 16px on a phone, so the page does not zoom when a field is tapped. Line heights are 1.2, 1.3 and 1.5. Why: buttons, tabs and fields used to be three different sizes on the same screen, and nearly three hundred slightly different sizes made neighboring screens look almost, but not quite, the same. An automated check fails any text size written by hand outside a short written list (hero titles, the players, subtitle cues, the map, icons).
 
 Do not use a smaller font to solve layout pressure. Shorten copy, allow wrapping, widen the region, or change the information density instead.
 
 ### Control typography
 
-Buttons, segmented controls, tabs, and other shared action controls use the interface font and one consistent semibold weight. Visual priority comes from fill, border, and color, not heavier label text.
+Buttons, segmented controls, tabs, and other shared action controls use the interface font and one consistent medium weight. Visual priority comes from fill, border, and color, not heavier label text.
 
-- Font weight: `--tl-control-font-weight` (600) for primary, secondary, tertiary, selected, and unselected labels alike.
+- Font weight: `--tl-control-font-weight` (500) for primary, secondary, tertiary, selected, and unselected labels alike.
 - Compact size: `--tl-control-font-size-sm` (13px).
 - Normal size: `--tl-control-font-size-md` (14px).
 - Line height: `--tl-control-line-height` (1.25).
@@ -109,14 +113,18 @@ Everything that floats over the page is one of four kinds, each a single shared 
 
 - **Window:** centered, with a dimmed page behind it. Three widths: 480px for a confirmation or short form, 640px for a form or picker, 900px for a workspace such as the editor. It has a title, an optional one-line description, a close button, a body and a footer.
 - **Sheet:** the Window on phones. Under 600px every Window slides up from the bottom, with rounded top corners and a handle.
-- **Pop-out:** anchored to its control with no dimming, closed by pressing elsewhere or Escape. Menus are 272px wide with 44px rows; Panels are 400px wide and hold tools such as the player's speed, audio, subtitles and queue.
-- **Viewer:** full screen, for the reader, photos, documents, search and the details overlay.
+- **Pop-out:** anchored to its control with no dimming, closed by pressing elsewhere or Escape. Pop-up menus are 240 to 360px wide with 48px rows and 16px labels; a dropdown's list is at least as wide as its dropdown, grows to fit its longest option, and keeps every option on one line at 14px; Panels are 400px wide and hold tools such as the player's speed, audio, subtitles and queue.
+- **Viewer:** full screen, for the reader, photos, documents and search.
 
-In a footer, buttons sit in one row at the right: a quiet text button first, then a destructive button (outlined red), then Cancel or Discard, then the one primary button last. On phones they stack full width with the primary first. Why: people learn where "keep" and "delete" are once, and pressing Enter or Escape never destroys anything by accident.
+The details window (a title opened from a list) is a Window, not a Viewer: it floats at 90% of the screen with the page visible around it, and on a phone it is the Sheet.
+
+In a larger window's footer, buttons sit in one row at the right: a quiet text button first, then a destructive button (outlined red), then Cancel or Discard, then the one primary button last. On phones they stack full width with the primary first. A short confirmation is different: a roomy box with no lines inside, the safe choice as a neutral outlined button with the focus, and the destructive choice as a solid red button, last. Why: people learn where "keep" and "delete" are once, and pressing Enter or Escape never destroys anything by accident.
+
+A tab row is the same everywhere: an icon, then the label, 48px tall, the active tab with a purple icon and underline, one thin divider under the row. Every tab has an icon. On a phone the row scrolls sideways with a soft fade at the cut edge.
 
 ## Tooltips
 
-A tooltip appears only when it adds information: the control is icon-only, the control is disabled and the tooltip says why, or the text is cut off and the tooltip shows it in full. A control with a visible label never repeats it in a tooltip, and list and menu rows do not have tooltips. A tooltip hides when its control leaves the page, on any press, when a menu or dialog opens, and after four seconds with a mouse. Why: about three hundred tooltips said what the label already said, and a few stayed stuck on screen.
+A tooltip appears only when it adds information: the control is icon-only, the control is disabled and the tooltip says why, or the text is cut off and the tooltip shows it in full. A control with a visible label never repeats it in a tooltip, and list and menu rows do not have tooltips. A tooltip hides when its control leaves the page, on any press, when a menu or dialog opens, and after four seconds with a mouse. Tooltips, info tips and hover cards all draw in the browser's top layer, so an open window never covers them, and a choice tile that already shows its description has no hover text repeating it. On a phone, a long press on an icon-only button shows its name. Why: about three hundred tooltips said what the label already said, and a few stayed stuck on screen.
 
 ## Feedback after an action
 
@@ -203,13 +211,14 @@ Video volume appears as a 100px overlay beside Mute without moving peer controls
 
 These rules came from the look passes (November 2026). Each one says what the app does and the reason.
 
-- **One dialog.** A dialog has a bold title, a close button, a short body and its buttons on the right. The safe choice is filled purple, sits last and has the focus. A destructive choice is outlined red and sits to its left. Why: people learn where "keep" and "delete" are once.
-- **One menu.** Rows are 44 pixels tall with 16 pixel text, 24 pixel icons and one shared width. Why: the "..." menu is used on every tile, so a cramped row would be felt everywhere, and touch targets stay comfortable.
+- **One dialog.** A short confirmation has a bold title, a short message, no lines inside and its buttons on the right. When it destroys something, the safe choice is a neutral outlined button with the focus and the destructive choice is solid red and last. When it destroys nothing, the primary is purple and last. Why: people learn where "keep" and "delete" are once.
+- **One menu.** Rows are 48 pixels tall with 16 pixel text and 24 pixel icons; a menu is 240 to 360 pixels wide so labels are not cut. Why: the "..." menu is used on every tile, so a cramped row would be felt everywhere, and touch targets stay comfortable.
 - **Three button heights.** 36 pixels for dense desktop rows, 44 for standard touch-safe buttons, 48 for large controls. The hero button is taller still. Resume shows progress as a thin bar along the bottom edge of the button. Why: the main action on a page should look like the main action.
 - **Square corners on chips and icon buttons.** Round shapes are kept for avatars, switches, progress and seek bars and the player dock. Why: round pills next to square controls looked unfinished, and one corner rule is easier to keep.
 - **One chip.** Labels such as "Kids", "Smart" or "Not matched" are one chip shape with square 3 pixel corners; an automated check caps how often fully round corners appear.
 - **Tiles are one size.** Posters, squares and landscape tiles each have one size app-wide, with no size control. The "..." button on a tile is always visible. Why: a hidden button is invisible to touch screens and easy to miss with a mouse, and the menu is where Like, Details and Remove live.
 - **Settings is rows, not cards.** Each settings page is a list of groups, and each group is rows with the control at the right end. Cards are kept for objects such as a backup destination, a connected device or a plugin, and for the danger group. Why: a wall of bordered cards made every page look equally important.
-- **Destructive is said, not guessed.** A confirmation that removes or discards something is marked as destructive by the screen that asks, which turns its main button outlined red and moves focus to the safe choice. Why: guessing from the button's wording broke the moment a button was renamed or translated.
+- **Destructive is said, not guessed.** A confirmation that removes or discards something is marked as destructive by the screen that asks, which turns its main button solid red, puts it last and moves focus to the safe choice. Why: guessing from the button's wording broke the moment a button was renamed or translated.
 - **Shared buttons, fields and menus.** Plain buttons, text fields and drop-downs use the app's shared parts instead of raw browser controls. Playback controls, the book reader, tiles and toggle controls stay as they are. Why: one place to change a button's height, focus ring or hover changes every screen.
+- **Phone equals desktop.** Everything on the desktop is on a phone, except first-time setup: dropdowns, menus and dialogs become bottom sheets with nothing missing, tab rows scroll, and choice tiles show their descriptions without hovering. Why: most people use Library only on their phones.
 - **Central control.** All of these values live in the token file and the shared parts, and automated checks fail the build if a screen uses a shape, size or color of its own, or if the developer reference for the design system lists a value that differs from the token file. Why: changing one value changes every screen, and nobody can drift away from the rules by accident.
