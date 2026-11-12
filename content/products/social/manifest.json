@@ -89,6 +89,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/messages.md",
+      "slug": "guides/messages",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/reputation.md",
       "slug": "guides/reputation",
       "group": "Guides",
