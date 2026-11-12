@@ -38,11 +38,22 @@ Tick **Show it with a lock (name only)** if you would rather people know it exis
 - **Everyone who can see it**, the usual choice.
 - **Only some members**, using ways in as above. Others can read but not post, for example in an announcements forum.
 
+## Who can start threads
+
+Starting a new conversation has its own rule, on top of posting:
+
+- **Everyone who can post**, the usual choice.
+- **Only some members**, using ways in as above. Everyone else who can post can still reply. For example, in a "Swap Meet" forum, members from Level 3 can start a listing, and every member can reply to one.
+
 ## See every forum at once
 
-**Manage**, then **Roles and permissions**, then **Access by forum** shows a grid: one row per forum, one column per role, and **Yes**, **No** or **Depends** in each cell. Choose what to look at: **See it exists**, **Read**, **Start threads** or **Reply**. Choose a forum to see all its answers and change who can see and post there.
+**Manage**, then **Roles and permissions**, then **Access by forum** shows a grid: one row for each category and each forum under it, and one column for visitors and for each role. Every box shows four small squares, in order: **See it exists**, **Read**, **Start threads** and **Reply**. A filled square means yes, an empty one no, and a lock with a level, such as "L3", means from that level up. Forums that only follow their category are drawn lighter, and forums with rules of their own say **stricter**.
 
-**Check a person** answers "why can't this member see that forum?". Search for a member and pick them to see, for every forum, what they can do there, and what stops them.
+Choose a box to change it for that role in that area. Each choice is **Yes** or **No**; the **Member** column can also choose a level. Only the box you chose changes. If a change can't be made, the panel says why in plain words, for example "A forum can only be stricter than its category". **Show it with a lock** is one setting for the whole area: it applies to everyone who can't read there. Use **Columns** to choose which roles to show, and **Show** to look at one category. The owner and admins can always open everything, so their columns can't be changed.
+
+Every change is kept in the moderation record. Changes about an area are only shown to people who can open it.
+
+**Check a person** answers "why can't this member see that forum?". Search for a member and pick them to see, for every forum, grouped by category, whether they can see it, read, start threads and reply, with one sentence on what stops them, such as "Starting threads needs Level 3. Sam is Level 2."
 
 ## Example
 
