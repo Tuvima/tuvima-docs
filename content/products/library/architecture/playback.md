@@ -147,7 +147,7 @@ The page, app header and actual measured bar allocation remain distinct layout r
 
 ### Shared audio presentation and lyrics timing
 
-The bar uses one three-zone layout for every media, with 24px icons in 44px targets and a 32px Play glyph in a 48px target. Audiobook order is Previous chapter, Skip back, Play, Skip forward, Next chapter; music is Shuffle, Previous track, Play, Next track, Repeat. Utilities do not move into an overflow menu on desktop. The phone's collapsed and expanded surfaces keep their bounded composition and omit volume.
+The bar uses one three-zone layout for every media, with 28px icons in 48px targets and a 40px Play glyph in a 56px target in a 72px row. Audiobook order is Previous chapter, Skip back, Play, Skip forward, Next chapter; music is Shuffle, Previous track, Play, Next track, Repeat. Utilities do not move into an overflow menu on desktop. The phone's collapsed and expanded surfaces keep their bounded composition and omit volume.
 
 `PlaybackArtworkUrl` resolves real ingestion URL shapes for every audio surface. It accepts known bounded renditions, resolves unsized recording covers and inherited track art through canonical album/book work cover URLs, and uses a truthful raw source only when music has no canonical identity. It does not invent rendition siblings or width descriptors. The Now playing page keeps the bar, with artwork and identity at left, tabs at right and a focus-restoring Back to library control; the phone's expanded player is the snapshot/sink full player.
 
