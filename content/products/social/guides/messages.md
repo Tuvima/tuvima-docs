@@ -9,6 +9,8 @@ status: early-access
 
 Private messages let you talk with one person, or a small group, away from the forums. Every conversation belongs to one community, and you write as the persona you use there.
 
+To talk live with everyone in a community, use its [chat channels](chat-channels.md) instead.
+
 ## Find your messages
 
 Choose **Messages** (the speech bubble) in the menu. You see one inbox for every persona you use. Each row shows the community and which persona you are there, so you always know who you are writing as. A number on the button counts conversations with something new.

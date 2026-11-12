@@ -95,6 +95,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/chat-channels.md",
+      "slug": "guides/chat-channels",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/reputation.md",
       "slug": "guides/reputation",
       "group": "Guides",
@@ -157,6 +163,12 @@
     {
       "source": "owners/categories-and-forums.md",
       "slug": "owners/categories-and-forums",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/chat-channels.md",
+      "slug": "owners/chat-channels",
       "group": "Guides",
       "section": "Run a community"
     },
