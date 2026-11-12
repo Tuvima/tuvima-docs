@@ -23,7 +23,7 @@ Only an adult profile that an administrator has given Vault mode can open the Va
 
 ## Turning the Vault on in setup
 
-When the first administrator finishes the Libraries step on a computer or tablet, first-run setup asks **Turn on the Vault?** once. **Not now** carries on, and the Vault stays off.
+When the first administrator reaches the Vault step on a computer or tablet, first-run setup asks **Turn on the Vault?**. **Not now** marks the step skipped and the Vault stays off, but **Back** brings the offer back so the choice can be changed during setup. Once it is on, setup says **Your Vault is on**. Turning the Vault off is done later in Settings, not in setup.
 
 If you choose **Set up the Vault**, the next screen asks you to protect it with a PIN, typed twice. A PIN is strongly suggested but never required: **Skip PIN** turns the Vault on without one. The PIN is the same one that protects your profile, so it is asked for before Vault mode opens. An administrator can add or reset it later.
 
