@@ -217,7 +217,7 @@ To edit one thing, open its own page from the Universe (choose its tile) and cho
 
 ## Resolve blocked items
 
-Use [Review Queue](resolving-reviews.md) when Tuvima asks for a human decision. For a normal title, cover, or note change, open Edit on the item.
+Use [Needs Review](resolving-reviews.md) when Tuvima asks for a human decision. For a normal title, cover, or note change, open Edit on the item.
 
 <details>
 <summary>Technical details</summary>

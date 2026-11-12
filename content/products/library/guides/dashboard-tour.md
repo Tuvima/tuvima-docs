@@ -77,7 +77,7 @@ Details shows the item's title, art, facts, and actions. Open **Edit** there to 
 
 ## Check work and settings
 
-The header activity icon opens **Operations** for system work you can access. Operations shows active work and recent batches. Review Queue holds items that need a human decision.
+The header activity icon opens **Operations** for system work you can access. Operations shows active work and recent batches. Needs Review holds items that need a human decision.
 
 Settings holds folders, providers, profiles, playback choices, and admin tools. Your role controls which tools you see. [Manage library settings](library-settings.md) explains the admin tasks.
 
