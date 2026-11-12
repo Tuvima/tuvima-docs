@@ -11,7 +11,7 @@ Most communities can be read without joining, by anyone. Join to post, reply and
 
 ## Find a community
 
-Choose **Explore** in the menu, or **Find a community** on the front page. Explore suggests communities for you and shows what is growing; see [Explore and your communities and follows](explore.md). For the full directory, choose **See more**:
+Choose **Explore** in the menu, or **Find a community** on Home if you haven't joined one yet. Explore suggests communities for you and shows what is growing; see [Explore and your communities and follows](explore.md). For the full directory, choose **See more**:
 
 - **Search communities** by name or subject.
 - Filter by **category**.
@@ -35,7 +35,7 @@ Some communities ask new members to take part for a while before everything is s
 
 ## Leave
 
-Open the community's menu and choose **Leave community**, then confirm. Your posts stay. You can still find them, and delete them, from **Your posts here** or from your [Tuvima ID account page](/products/id/guides/your-account.md).
+Choose **Joined** at the top of the community, then **Leave community**, and confirm. Your posts stay. You can still find them, and delete them, from **Your posts here** or from your [Tuvima ID account page](/products/id/guides/your-account.md).
 
 If you rejoin with the same persona later, your progress as a member is kept.
 

@@ -30,7 +30,7 @@ Your pins belong to your Tuvima persona, so they follow you to every device you 
 
 ## On a phone
 
-- The bar at the bottom holds Home, Communities, the **+** button, Alerts and You. It slides away while you scroll down a long conversation and comes back as soon as you scroll up or reach the end.
+- The bar at the bottom holds Home, Explore, the **+** button, Alerts and You. Inside a community none of them is lit up: the community's name in the top bar tells you where you are. In a conversation the bar makes way for the reply box.
 - Swipe in from the left edge of the screen, or tap **You**, to open the menu. It has your communities (pinned, recent and private), your account links, light or dark, and sign out.
 - If your phone uses that swipe for "back", tap **You** instead.
 - With reduced motion turned on in your phone's settings, the bar stays put and the menu appears without sliding.
