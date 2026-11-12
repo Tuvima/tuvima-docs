@@ -94,10 +94,10 @@ If you think a decision about a community was wrong, a moderator or owner of tha
 
 A community's moderators can give you a warning, with points, for breaking one of its rules. In that community you then see **You have a warning from this community** at the top of its page and in place of the reply box.
 
-- Open it to see the rule and the moderators' message. It never says which moderator gave it.
+- Open **Your warnings** to see the reason, the points, any rule and message, when the points expire and what happens if your points go higher. Only you can see this page, and it never says which moderator gave the warning.
 - Choose **I understand**. Until you do, you can read but not post or reply in that community.
 - Points expire on their own, and moderators can take a warning back.
-- Points can lead to your new posts waiting for a moderator for a while. Nothing bans you automatically: a person always decides.
+- Points can lead to your new posts waiting for a moderator for a while. Nothing suspends or bans you automatically: a person always decides.
 
 ## When Tuvima steps in
 
