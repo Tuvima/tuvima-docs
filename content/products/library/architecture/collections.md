@@ -358,7 +358,7 @@ These are managed on the Collections page (`/collections`).
 
 ## Profile lists and state
 
-The former Reading List, Watchlist, Currently Watching, Listening Queue, and name-based System Collection behavior are retired. `/for-me?view=my-list` reads saved references; `/for-me?view=favorites` reads saved songs. `ProfileStateRepository` persists those independent states in `profile_saved_items` and `profile_reactions`.
+The former Reading List, Watchlist, Currently Watching, Listening Queue, and name-based System Collection behavior are retired. `/my-list` reads saved references; `/for-me?view=favorites` reads saved songs. `ProfileStateRepository` persists those independent states in `profile_saved_items` and `profile_reactions`.
 
 Continue comes from playback/reading progress, without requiring list membership. Profile-owned Collections, Playlists, and Galleries appear automatically only in their respective **Your** shelves. Accessible library Collections and shared Playlists enter My List only when explicitly saved.
 

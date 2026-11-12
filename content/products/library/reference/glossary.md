@@ -371,11 +371,11 @@ The active profile's personal hub for Continue, My List, Favorites, and its own 
 
 ### My List
 
-Bookmarks for supported media, accessible collections, and library/shared playlists. Saved items remain separate from favorites and progress. Songs use Favorite or Add to Playlist.
+The titles a profile saved for later with the plus (movies, TV shows, books, comics, audiobooks, albums, accessible collections, and library/shared playlists), and the personal page that shows them under Continue. Saved items remain separate from favorites and progress. Songs use Favorite (the heart) or Add to Playlist.
 
 ### Favorites
 
-Items marked with a favorite reaction. A favorite is distinct from Like/Dislike ratings and My List bookmarks.
+Items marked with a favorite reaction. A favorite is distinct from Like/Dislike ratings and My List saves.
 
 ### Continue
 
