@@ -35,7 +35,7 @@ Previous and Next are what every music app taught you, and songs are skipped who
 
 Favorite and Like are about the song, not about the player, so they sit next to its name instead of among the tools on the right.
 
-They are also two different things. Saving puts something on a list: a song's heart (Favorite) sends it to Favorites, and the plus on anything else sends it to My List (the plus becomes a tick once it is there). Like and Dislike say what you think of it, and that is what Library learns your taste from. Keeping them apart means saving a song you want to find again never tells Library you love it, and a song you like does not have to clutter your list. Shuffle and Repeat sit just outside the playback buttons.
+They are also two different things. Saving puts something on a list: a song's heart (Favorite) sends it to Favorites (a playlist inside Listen that you can put in your own order), and the plus on anything else sends it to My List (the plus becomes a tick once it is there). Like and Dislike say what you think of it, and that is what Library learns your taste from. Keeping them apart means saving a song you want to find again never tells Library you love it, and a song you like does not have to clutter your list. Shuffle and Repeat sit just outside the playback buttons.
 
 ## Panels that never clip and open one at a time
 
@@ -64,6 +64,16 @@ The sleep timer is built for audiobooks, where "stop at the end of this chapter"
 ## Lyrics follow you, and you can scroll away
 
 Lyrics highlight the line that is playing. Reading ahead is normal, so scrolling by hand stops the following, and **Resume following** brings it back instead of fighting your scroll.
+
+The panel is also honest about waiting. A lookup for lyrics can take a moment, and the first one runs on its own after a song is added, so while one is waiting or running the panel says "Looking for lyrics…" instead of "No lyrics found". Saying "none" too early would make you give up on a song that was about to get its lyrics. Titles are matched forgivingly, because the same song is written many ways ("Hey Jude (Remastered 2015)", "Hey Jude feat. …"), but the song's length is checked too, so being relaxed about the name never means showing the lyrics of a different recording. When the lyrics source cannot be reached, Library says so and offers **Try again**; it retries by itself only three times (after 15 minutes, then 2 hours) so it does not keep calling a source that is down, and then waits for you to press **Find lyrics**. Lyrics come from files first, so your own files always win, then from LRCLIB.
+
+## The bar is always in front, and always the same size
+
+The player is the one thing you must always be able to reach. A title's details window covers the page behind it, and that used to include the bar, so pressing Play on an album could leave you with music and no controls. Now the bar sits in front of the window and works beside it, and the window ends above the bar. Music, audiobooks and video use the same 100 px bar on a desktop and tablet, so the bar does not change size when you change what you are playing; a phone keeps its small strip so it never covers your library.
+
+## Songs go to playlists, columns follow your hand
+
+A playlist is a list of songs in an order you choose, and a collection groups titles, so ticked songs offer **Add to playlist** and not Add to collection. The same choice is there from the keyboard and the phone (**Add to playlist**), and on a desktop you can drag ticked songs straight onto a playlist. Playlists that fill themselves from rules do not accept songs, because the rules decide what is in them. Favorites is a playlist you do not create: hearting a song puts it at the top, and you can reorder it like any other, with the order saved on your profile so it is the same on every device. Song columns resize by dragging their edge (double-click puts one back) and the widths are saved once, when you let go, on your profile.
 
 ## Pause shows what you are watching
 

@@ -36,6 +36,10 @@ When you start something, a bar appears at the bottom of every page. It has a th
 
 Every control is a large button with a soft highlight under the pointer or keyboard focus. Point at one, or tab to it, to see its name.
 
+On a desktop or tablet the bar is the same height (100 px) for music, audiobooks, TV and movies, with the same size of cover, so it does not change size when you move from a song to a video. A phone keeps the small mini-player strip (see below).
+
+The bar stays in front of a title's details window and works beside it. Press **Play** on an album and the bar appears at once; **Pause**, **Next** and the tools all work while the album's window is still open, and the window ends above the bar rather than covering it. Press **Esc** to close the window; the music keeps playing.
+
 | You are playing | Playback buttons, left to right | Tools on the right |
 | --- | --- | --- |
 | Music | Shuffle, Previous track, Play, Next track, Repeat | Lyrics, Queue, Bookmarks, Volume, Now playing, Close |
@@ -69,7 +73,18 @@ Click the speaker to mute, and click again to bring back the level you had. Poin
 3. Use the bar at the bottom to play, pause, skip or seek.
 4. Choose **Now playing** to open the full page (see below).
 
-**Lyrics** follow the song and highlight the current line when the source has valid timing. Scroll by hand to read ahead and the highlight stops following; choose **Resume following** to catch up, or select a timed line to jump to it. A "Synced" or "Unsynced" tag says which kind you have, and untimed lyrics are plain text. The footer names where the lyrics came from (LRCLIB, or a file next to the song) and has a "..." menu with **Find another**, **Add a lyrics file** and **About lyrics sources**. When a song has none, the panel offers **Find lyrics** and **Add a lyrics file**, and anyone can use them.
+**Lyrics** follow the song and highlight the current line when the source has valid timing. Scroll by hand to read ahead and the highlight stops following; choose **Resume following** to catch up, or select a timed line to jump to it. A "Synced" or "Unsynced" tag says which kind you have, and untimed lyrics are plain text. The footer names where the lyrics came from (LRCLIB, or a file next to the song) and has a "..." menu with **Find another**, **Add a lyrics file** and **About lyrics sources**.
+
+Lyrics come from files first (a lyrics file next to the song, or one you add), then from LRCLIB. What the panel says depends on how the lookup is going:
+
+| The panel says | What it means | What you can do |
+| --- | --- | --- |
+| "Looking for lyrics…" | A lookup is waiting or running. This includes the automatic first lookup after a song is added. | Wait a moment. The panel does not say there are none while a lookup is still on its way. |
+| The lyrics, with "Synced" or "Unsynced" | A source had them. | Read along. |
+| "No lyrics found" | The lookup finished and the source has nothing for this song. | **Find lyrics** to look again, or **Add a lyrics file** of your own. |
+| "Lyrics could not be looked up right now" | The lyrics source could not be reached. | **Try again**. |
+
+Titles are matched forgivingly, so "Hey Jude (Remastered 2015)" finds the lyrics for "Hey Jude" (capitals, accents, punctuation, bracketed extras and "feat." credits are ignored), but the length of the song is still checked so a different recording is not shown out of step. If the source cannot be reached, Library tries three times in all, after 15 minutes and then after 2 hours, and then leaves the song alone until you press **Find lyrics**. This keeps Library from calling a source that is down over and over. Anyone can use Find lyrics and Add a lyrics file. If a song keeps coming up empty, the Engine log has one line per lookup that names the reason.
 
 **Queue** has two tabs. **Up next** lists the songs after this one; drag a song by the handle on its left, or use **Move up** and **Move down** in its "..." menu. **Clear** removes the upcoming songs and never stops the one playing. **History** lists what this session has already played and when. The footer says where the queue is playing from, such as an album.
 
@@ -96,7 +111,7 @@ The "..." menu has **Add to playlist…**, **Mark as finished** (or unfinished),
 
 **Now playing** is the full page for music and audiobooks.
 
-- **On a computer or tablet,** choose the **Now playing** tool, click the cover art or title in the bar, or choose the sound-bars icon that appears in the top bar while audio is playing. The page (`/listen/now-playing`) shows a large cover and the facts on the left. For music the tabs are **Lyrics**, **Queue** and **History**. For an audiobook they are **Chapters** and **About** (the description and book facts). The same bar stays at the bottom. **Back to library** and **Close** at the top both return you to the page you came from and never stop playback.
+- **On a computer or tablet,** choose the **Now playing** tool, click the cover art or title in the bar, or choose the sound-bars icon that appears in the top bar while audio is playing. The page (`/listen/now-playing`) shows a large cover and the facts on the left. For music the tabs are **Lyrics**, **Queue** and **History**. For an audiobook they are **Chapters** and **About** (the description and book facts). The same bar stays at the bottom. **Back to library** and **Close** at the top both return you to the page you came from and never stop playback. The layout follows the approved design at desktop, tablet and phone sizes.
 - **On a phone,** tap the collapsed bar and it grows into Now playing (see below).
 
 There is no separate player window to pop out. Starting an audiobook from its details page shows the player above that page, so it can never sit hidden underneath.
@@ -199,7 +214,7 @@ Your phone, computer or headset draws its own lock screen or media card; Library
 
 Continue shelves and resume actions follow progress. Completed items show their completion state. Albums, tracks, and View items do not use long-form completion bars.
 
-**My List** saves an item for later: on a movie, show, book or audiobook the plus adds it to My List and becomes a tick, in the players too. **Favorite** is the heart, kept for songs: a song's heart adds it to Favorites. **Rate** means Like or Dislike, a separate choice that saving never changes. These choices do not start playback or replace progress.
+**My List** saves an item for later: on a movie, show, book or audiobook the plus adds it to My List and becomes a tick, in the players too. **Favorite** is the heart, kept for songs: a song's heart adds it to Favorites, a playlist inside Listen (see [Song lists](dashboard-tour.md#song-lists)). **Rate** means Like or Dislike, a separate choice that saving never changes. These choices do not start playback or replace progress.
 
 <details>
 <summary>Technical details</summary>

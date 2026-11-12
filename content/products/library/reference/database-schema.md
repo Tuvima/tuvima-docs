@@ -2014,6 +2014,8 @@ A profile's Like or Dislike on a title or other item: `profile_id`, `entity_kind
 
 What a profile saved (the plus for My List, the heart for a song): `profile_id`, `entity_kind`, `entity_id`, `saved_at` and an optional `position`. A saved song (`entity_kind = 'Song'`) is one of the profile's Favorites; every other saved kind is on My List. Saving never sets or clears a reaction.
 
+`position` holds the hand-made order of a profile's Favorites songs. A newly hearted song goes to the top, and moving a song (drag, Alt+Up/Down, or Move up / Move down) renumbers the whole list, so the order you set is the order every device shows. Songs the profile cannot see keep their place. There is no new table or column for this; the Favorites list reads `entity_kind = 'Song'` rows in `position` order.
+
 ### profile_taste_overrides
 
 What a person removed from, or added to, the taste the Library learned about them (Settings > Personal > Overview > Taste). Added by upgrade step `0010_profile_taste_overrides`. The learned taste (the taste profiler's reading of their history) is never changed; these rows are applied on top whenever taste is shown, so a removed value is hidden and an added value is shown as "Added by you". One row per `profile_id` (cascades on profile deletion), `taste_group` (`genre`, `mood` or `era`) and `value` (trimmed and lower-cased, the way the profiler writes its keys), with `action` (`removed` or `added`) and `created_at` (UTC). Setting a value again replaces its row. Only the signed-in person writes their own rows.

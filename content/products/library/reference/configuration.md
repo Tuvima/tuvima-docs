@@ -590,7 +590,53 @@ A file is checked when it loads and when it is saved. A property the Library doe
 | `result_rules` and `search_strategies[].claim_rules` | `name`, `media_types`, `add`, `rules`; `drop`, `drop_non_english_text`, `derive` | Claim rules that plain `field_mappings` cannot express: creators listed with free-text roles (`role.map`), lists joined into one value, claims dropped or derived from the request. Rule kinds include `priority_pick`, `items`, `lookup` and `sequence`; `claim_key`, `json_path` / `json_paths`, `confidence`, `transform`, `template` and `join` shape one claim. `add` is `always`, `if_missing_key` or `if_missing_value` (default). |
 | `candidate_ranking` (tie order) | `name`, `media_types`, `facts`, `require_facts`, `candidates` (`match`, `fields`, `score`, `identity`), `preferred_run`, `enrich_when_multiple`, `final_terms`, `order` | How one result is picked from a list when plain title matching cannot tell near-identical results apart. `facts` read values from the request; each candidate must pass `match`, earns a `score` from weighted terms (year bands, title overlap, counts), and `order` breaks ties as `field:desc` / `field:asc` (`score` is always available). |
 | `sequence_manifest` | `enabled`, `url_template`, `fields`, `page_size`, `max_pages`, `container_kind`, `expected_total_kind` | Reads the whole list of members of a series from the provider, page by page, so a missing issue can be shown as a named gap. |
-| `text_track` (subtitles and lyrics) | `kind` (`Subtitles` or `Lyrics`), `noun`, `api.allowed_hosts`, `api.accept`, `http.allow_auto_redirect`, `http.max_response_buffer_bytes`, `language.aliases`, `language.unknown`, `search`, `download`, `errors`, `messages` | Used with `"adapter_type": "text_track"`: one built-in adapter searches and downloads for any subtitle or lyrics provider that declares its requests, item paths, scoring and error codes here. `download.mode` is `payload` (the text came with the search) or `fetch` (downloaded from a link, only from `download.allowed_hosts`, only under `path_prefix`, up to `max_bytes`, with limits on archives). When `requires_api_key` is true, `endpoints['api']` must be an HTTPS address on the default port with no credentials and `api.allowed_hosts` must list at least its host, so the key only reaches that host; redirects elsewhere are refused. |
+| `text_track` (subtitles and lyrics) | `kind` (`Subtitles` or `Lyrics`), `noun`, `api.allowed_hosts`, `api.accept`, `http.allow_auto_redirect`, `http.max_response_buffer_bytes`, `language.aliases`, `language.unknown`, `search`, `download`, `errors`, `messages` | Used with `"adapter_type": "text_track"`: one built-in adapter searches and downloads for any subtitle or lyrics provider that declares its requests, item paths, scoring and error codes here. `download.mode` is `payload` (the text came with the search) or `fetch` (downloaded from a link, only from `download.allowed_hosts`, only under `path_prefix`, up to `max_bytes`, with limits on archives). When `requires_api_key` is true, `endpoints['api']` must be an HTTPS address on the default port with no credentials and `api.allowed_hosts` must list at least its host, so the key only reaches that host; redirects elsewhere are refused. For lyrics, `search.lyrics.match` and `search.lyrics.duration` decide which search hit is the song you own (see Lyrics matching below). |
+
+#### Lyrics matching (`text_track.search.lyrics`)
+
+A lyrics source answers a search with a list of songs. The Library keeps a hit only when its title and artist are the song you own, and when its length fits. Both checks are set in the `lyrics` block of the provider's `text_track.search`, so a source can be made stricter or more forgiving without any code change. The shipped `lrclib.json` is the worked example.
+
+**`match`: is this the same song?** Real libraries rarely spell a title exactly the way the source does ("Hey Jude - Remastered 2015", "Hey Jude (Remastered 2015)", "Hey Jude feat. Someone"). Without forgiving rules those would be rejected and the song would show "No lyrics found" even though the lyrics exist. Both the source's title and artist and your song's are reduced to the same plain form before they are compared, and they match when the plain forms are equal and not empty. Every field is optional; leaving out `match` (or setting it to `null`) gives the plain rule, which only ignores capitals.
+
+| Field | Type | Default | What it does |
+|---|---|---|---|
+| `title_path` | string | `trackName` | Where the song title is in a search hit. |
+| `artist_path` | string | `artistName` | Where the artist name is in a search hit. |
+| `ignore_case` | boolean | `true` | "HEY JUDE" and "Hey Jude" are the same. |
+| `ignore_punctuation` | boolean | `false` | Drops punctuation and collapses runs of spaces. An apostrophe joins the letters around it ("don't" becomes "dont"); any other punctuation becomes a space. |
+| `ignore_bracketed` | boolean | `false` | Removes text in round or square brackets, such as "(Remastered 2011)" or "[Live]". |
+| `ignore_diacritics` | boolean | `false` | Treats an accented letter as the plain letter ("Beyoncé" and "Beyonce"). |
+| `strip_suffix_patterns` | list of regular expressions | empty | Each pattern is case-insensitive and the text it matches is cut off before comparing, which handles tails such as " - Remastered 2011" or " feat. Someone". A pattern that is not a valid regular expression is reported when the file loads and is ignored by a lookup; a pattern that takes too long to run is skipped for that title. |
+
+The rules run in this order: lowercase, remove bracketed text, cut the suffix patterns, fold accents, drop punctuation, trim. A title that the rules would reduce to nothing (such as "(Untitled)", which is all brackets) is compared as it was written, ignoring capitals, so it can still match itself. Example, as shipped for LRCLIB:
+
+```json
+"match": {
+  "title_path": "trackName",
+  "artist_path": "artistName",
+  "ignore_case": true,
+  "ignore_punctuation": true,
+  "ignore_bracketed": true,
+  "ignore_diacritics": true,
+  "strip_suffix_patterns": [
+    "\\s+-\\s+(remaster(ed)?|live|mono|stereo|single|album|radio)\\b.*$",
+    "\\s+(feat\\.?|ft\\.?|featuring)\\s+.*$"
+  ]
+}
+```
+
+**`duration`: is it the same recording?** Being forgiving about titles means two different recordings of one song (a live take, a radio edit) can now match by name, so the length is the safety check. When both the source and your file report a length, the difference decides:
+
+| Field | Meaning (LRCLIB value) |
+|---|---|
+| `path` | Where the length, in seconds, is in the answer (`duration`). |
+| `full_within_seconds` | A difference up to this is a perfect match (2). |
+| `reject_beyond_seconds` | A difference beyond this is a wrong song (10). Between the two limits the confidence falls from 1 toward 0. |
+| `strict_format` | The format whose wrong-length answers are dropped (`lrc`, the timed lyrics, whose timing only fits the right recording). Other formats, such as plain text, are kept (`txt`). |
+| `lenient_floor` | The lowest confidence of a kept answer in a format other than `strict_format` (0.75). |
+| `default_confidence` | The confidence when either side does not know the length (0.82). |
+
+So a hit with timed lyrics whose song is 40 seconds longer than your file is rejected rather than shown out of step, while a hit that carries only plain text is kept at no less than `lenient_floor`, since plain text has no timing to get wrong. When every title match was rejected only for its length, the lookup says the length was too different; when no title matched, it says no match.
 
 ### Provider and plugin secrets
 
