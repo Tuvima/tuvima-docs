@@ -11,6 +11,12 @@ Home is your own front page. It puts the posts you are most likely to enjoy firs
 
 ![Three steps: what you do on Tuvima, Tuvima ID keeping your interests, and Home ranking posts with a reason for each.](../assets/home-feed-flow.svg)
 
+## Your communities at the top
+
+On a phone, Home starts with a row of your communities. A dot on a community means someone started a conversation there since you last looked. Swipe the row sideways, and choose **Find more** at the end to open Explore. On a computer, your communities are in the menu on the left instead.
+
+If you haven't joined a community yet, or you aren't signed in, Home shows a small **Find your first community** card with **Find a community** and **Start one**.
+
 ## The four tabs
 
 Sign in with your global persona and the front page has four tabs:
@@ -18,9 +24,15 @@ Sign in with your global persona and the front page has four tabs:
 - **Home** is the feed made for you. It mixes posts from the front page and from your communities, ranked by the recipe below.
 - **Following** shows the newest posts first from the categories and personas you follow, plus posts from your communities. Nothing is ranked.
 - **Trending** shows what people are taking part in right now.
-- **New and rising** shows the newest posts first.
+- **New** shows the newest posts first.
 
-If you are not signed in, you see **Trending** and **New and rising**. Nothing about you is recorded, because there is nothing to tie it to. If Tuvima ID is slow to answer when you open Home, you see the first page of Trending instead, and Home says so.
+The tabs sit on one line; on a narrow phone you can swipe them sideways. The sliders button at the end of the line opens **Tune your feed**, where you change what Home learns (see below).
+
+If you are not signed in, you see **Trending** and **New**. Nothing about you is recorded, because there is nothing to tie it to. If Tuvima ID is slow to answer when you open Home, you see the first page of Trending instead, and Home says so.
+
+## A link shared in more than one place
+
+When the same link is shared in several categories, Home shows it once, with a line such as **Shared in Science and Politics**, so you don't scroll past the same story twice.
 
 ## Why you are seeing a post
 
