@@ -58,7 +58,7 @@ Songs, Albums, an album's tracks and a playlist all use the same song table, so 
 
 Tick songs and a bar appears with **Play**, **Add to queue**, **Add to playlist** and, if your role allows editing, **Edit**. **Add to playlist** lists your hand-made playlists and **New playlist**; a playlist that fills itself from rules cannot be chosen, because its songs come from the rules. Songs already in the playlist are skipped, and the notice on the page says how many were added.
 
-Songs go into playlists, not collections, so there is no Add to collection for a song. Ticked albums offer **Add to playlist** (all their songs) and still offer **Add to collection**. Ticked audiobooks offer **Add to collection** only.
+Songs go into playlists, not collections, so there is no Add to collection for a song. To tick albums, open **Albums** in Listen in the cover layout and press **Select** above the covers (on a phone, open an album's **...** sheet and choose **Select**). Ticked albums offer **Add to playlist** (all the songs you own on them, in album order, up to 20 albums at a time) and still offer **Add to collection**. Ticked audiobooks offer **Add to collection** only.
 
 On a phone, open a song's **...** sheet and choose **Select**. Tap more songs to tick them. A bar at the bottom offers **Play**, **Add to queue** and **Add to playlist**, and **Done** ends selecting.
 
