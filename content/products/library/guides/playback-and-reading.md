@@ -199,7 +199,7 @@ Your phone, computer or headset draws its own lock screen or media card; Library
 
 Continue shelves and resume actions follow progress. Completed items show their completion state. Albums, tracks, and View items do not use long-form completion bars.
 
-**My List** saves an item for later. **Rate** means Like or Dislike. **Favorite** is the heart, a separate choice. A song's heart adds it to Favorites; on a movie, show, book or audiobook the heart adds it to My List. Favorite never changes Like or Dislike. These choices do not start playback or replace progress.
+**My List** saves an item for later: on a movie, show, book or audiobook the plus adds it to My List and becomes a tick, in the players too. **Favorite** is the heart, kept for songs: a song's heart adds it to Favorites. **Rate** means Like or Dislike, a separate choice that saving never changes. These choices do not start playback or replace progress.
 
 <details>
 <summary>Technical details</summary>

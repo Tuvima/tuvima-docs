@@ -35,7 +35,7 @@ Previous and Next are what every music app taught you, and songs are skipped who
 
 Favorite and Like are about the song, not about the player, so they sit next to its name instead of among the tools on the right.
 
-They are also two different things. The heart (Favorite) puts something on a list: a song goes to Favorites, anything else to My List. Like and Dislike say what you think of it, and that is what Library learns your taste from. Keeping them apart means saving a song you want to find again never tells Library you love it, and a song you like does not have to clutter your list. Shuffle and Repeat sit just outside the playback buttons.
+They are also two different things. Saving puts something on a list: a song's heart (Favorite) sends it to Favorites, and the plus on anything else sends it to My List (the plus becomes a tick once it is there). Like and Dislike say what you think of it, and that is what Library learns your taste from. Keeping them apart means saving a song you want to find again never tells Library you love it, and a song you like does not have to clutter your list. Shuffle and Repeat sit just outside the playback buttons.
 
 ## Panels that never clip and open one at a time
 

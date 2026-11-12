@@ -2012,7 +2012,7 @@ A profile's Like or Dislike on a title or other item: `profile_id`, `entity_kind
 
 ### profile_saved_items
 
-What a profile saved with the heart: `profile_id`, `entity_kind`, `entity_id`, `saved_at` and an optional `position`. A saved song (`entity_kind = 'Song'`) is one of the profile's Favorites; every other saved kind is on My List. Saving never sets or clears a reaction.
+What a profile saved (the plus for My List, the heart for a song): `profile_id`, `entity_kind`, `entity_id`, `saved_at` and an optional `position`. A saved song (`entity_kind = 'Song'`) is one of the profile's Favorites; every other saved kind is on My List. Saving never sets or clears a reaction.
 
 ### profile_taste_overrides
 

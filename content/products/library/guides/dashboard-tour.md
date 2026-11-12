@@ -29,7 +29,7 @@ Each shelf shows up to 20 titles. Choose **View all** (the last tile in the row,
 
 [For Me](for-me.md) gathers your Continue, My List, Favorites, Collections, Playlists, and Galleries. Empty shelves are left out. The items belong to your active profile.
 
-My List saves items for later. For Me's Favorites currently shows songs marked with a heart. Continue follows your progress. Each choice is separate.
+My List saves items for later; the bookmark in the top bar (the My List tab on a phone) opens it, and Home shows your newest saves under Continue. For Me's Favorites currently shows songs marked with a heart. Continue follows your progress. Each choice is separate.
 
 ## Browse Read, Watch, and Listen
 
