@@ -26,7 +26,7 @@ Each Inbox card shows the thumbnail, the title, the date found in the document, 
 - **Tap a chip** to change it first: pick another name, clear it, or switch a suggested tag off.
 - **File without changes** only marks the document as filed.
 
-You can file from a phone. Editing everything about a document, and editing rules, happens on a computer with a mouse or trackpad.
+You can file from a phone, and edit everything about a document there in the same editor as on a computer. Editing rules happens on a computer with a mouse or trackpad.
 
 ## Suggestions
 

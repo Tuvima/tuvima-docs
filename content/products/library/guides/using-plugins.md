@@ -97,7 +97,7 @@ A plugin that is defined by a file (a metadata source's file under `config/provi
 The card shows the file name, **Valid** or the number of problems, whether the file **differs from Tuvima's version**, and two buttons.
 
 - **View file** opens the file in place, read-only, coloured and with line numbers.
-- **Edit file** turns the card into an editor. Editing is for administrators on a computer with a mouse or trackpad, the same rule as editing items. On a phone or tablet the card shows the file name and state and says "Editing is available on a computer". The Engine still checks permission on every save, so the rule is not only in the buttons.
+- **Edit file** turns the card into an editor. Editing a plugin file is for administrators on a computer with a mouse or trackpad. On a phone or tablet the card shows the file name and state and says "Editing is available on a computer". The Engine still checks permission on every save, so the rule is not only in the buttons.
 
 **Checks run as you type.** Each problem names its line and says in plain words what is wrong, such as a number outside its range. Findings that are only worth knowing, such as a longer cache time, are listed as things to know and do not stop you. Words Library does not recognise are listed there too.
 

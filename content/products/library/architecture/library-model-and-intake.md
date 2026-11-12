@@ -432,7 +432,7 @@ Empty Trash is the one permanent-file operation. Before it deletes anything it
 separately proves ownership, source containment, managed/writable policy, and a
 fresh explicit confirmation of the exact summary.
 
-Deleting a personal file from disk is done by Empty Trash. A personal file, such as a photo or a document in View, always goes to Trash first, where Restore brings it back, and it leaves the disk only when its owner empties Trash on a computer and confirms the exact summary. Empty Trash empties the whole Trash of the owner's own Personal Space; it cannot delete chosen items. A personal item with a file in a linked read-only folder cannot be moved to Trash at all. Library media works differently: its files are deleted straight away after confirmation (see Managed source), and personal items cannot be deleted through Delete from library.
+Deleting a personal file from disk is done by Empty Trash. A personal file, such as a photo or a document in View, always goes to Trash first, where Restore brings it back, and it leaves the disk only when its owner empties Trash and confirms the exact summary. Empty Trash empties the whole Trash of the owner's own Personal Space; it cannot delete chosen items. A personal item with a file in a linked read-only folder cannot be moved to Trash at all. Library media works differently: its files are deleted straight away after confirmation (see Managed source), and personal items cannot be deleted through Delete from library.
 
 ## Access
 

@@ -16,7 +16,7 @@ tags:
 
 Photos, videos, documents and galleries share one editor, and it looks and behaves like the editor you use for movies, shows and music. Open it with **Edit**: from the viewer, from a document card, or from the selection bar after you tick several items. It opens as a window over the page you were on, and the page behind it does not change until you save.
 
-Editing is available on a computer with a mouse or trackpad. On a phone, tablet or TV you can look at everything, but the Edit button does not appear. Fine corrections need a precise pointer and a big screen, and keeping them on the computer means a stray tap can never rewrite a caption.
+Editing works on a computer, a tablet and a phone. On a phone the editor opens as a full-screen sheet with the same tabs and the same rules, arranged to fit the screen; [Editing on a phone](../guides/editing-items.md#editing-on-a-phone) describes the arrangement. Most people use only their phones, so the phone can do what the computer does, and a stray tap still cannot rewrite a caption, because nothing is saved until you have seen Review changes. On a TV you can look at everything, but there is no Edit.
 
 ## What you can change
 

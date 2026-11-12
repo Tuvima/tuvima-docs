@@ -18,7 +18,7 @@ Formats of one title (the ebook and the audiobook of Dune) are variants of that 
 - Every adult profile can make its own collections and playlists. They are private: **Only you can see this collection.**
 - Administrators can also make a collection for everyone, or share one with selected profiles. The last step of the builder asks who the collection belongs to (**Owner** and **Audience**).
 - Kids profiles do not see New collection.
-- Building and editing are desktop only. Phones and TVs show collections and rows but have no builder.
+- Adding a title to a collection or playlist you may edit works on a computer, a tablet and a phone. TVs show collections and rows but do not change them.
 - Putting a title from the Vault into a private collection works. Putting it into a shared one is refused.
 
 ## Start a new collection
@@ -40,7 +40,7 @@ Every way shows a preview of what is in your library before you save. In Listen 
 
 Pick the media types (Movies, TV, Books, Audiobooks, Music, Comics, Videos), then add one rule per line. Rules read like sentences and are joined by "and": "Movies, directed by Denis Villeneuve, released after 2010".
 
-- Each rule is a field, a condition in words (is, is not, is any of, contains, is before, is after, is between, at least, at most, is known, is unknown) and a value.
+- Each rule is a field, a condition in words (is, is not, is any of, contains, is before, is after, is between, at least, at most, is known, is unknown) and a value. The three line up in every row, with any help text on a line under the whole row, and on a narrow screen they stack one under another.
 - **Exceptions** are rules under "but never when": for example, never titles rated R.
 - **Match any of these instead** switches "and" to "or".
 - **Advanced** shows rule groups with their own any/all logic. A collection that already uses several groups opens in Advanced.
