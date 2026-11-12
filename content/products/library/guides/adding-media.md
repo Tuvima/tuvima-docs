@@ -67,7 +67,7 @@ Tuvima waits for copying to settle, fingerprints the file, reads metadata, finds
 
 Catalogue items enter browse surfaces when title, type, and artwork state are settled. A completed file count does not mean every required batch operation is finished. Operations reports provider waits and later work separately.
 
-Open **Settings → Review Queue** when an item needs confirmation. Use [editing items](editing-items.md) for corrections from a detail page.
+Open **Needs Review** in the account menu when an item needs confirmation. Use [editing items](editing-items.md) for corrections from a detail page.
 
 ## Improve matching
 
