@@ -18,7 +18,7 @@ Library shows your media as a few clear libraries: Movies, TV Shows, Music, Book
 
 ## A library is named for what it holds
 
-You never type a name for a library. Movies is Movies and Music is Music, and photos and videos together are one choice, Photos and Videos.
+You never type a name for a library. Movies is Movies and Music is Music, and photos and videos together are one choice, Photos and videos.
 
 **Why:** names you type drift. One household ends up with "Films", "Movies" and "Old movies", and the same title can be counted three times. Fixed names keep every screen, every profile and every device saying the same thing, and they remove a question that has no good answer.
 
@@ -35,7 +35,7 @@ Each folder you add gets a friendly name, filled in from its path and editable. 
 
 ## Photos, personal videos and documents work the same way
 
-The three View kinds are rows like Movies: one row per kind, "N folders" with a list, and one **Edit** button. A View folder's friendly name is optional (it starts as the folder's own name), and you choose Read-only or Managed when you add it. Once a kind has two folders, its page gets a **Folders** filter. Uploads, phone backup and Add files are filed into a Managed folder, so until a kind has one, uploading is switched off and the page says why.
+The View kinds are rows like Movies. Photos and videos is one row that holds both the photo and the personal video folders, and Documents is its own row. Each row shows "N folders" with a list and one **Edit** button, and a library with no folders is not listed at all. A View folder's friendly name is optional (it starts as the folder's own name), and you choose Read-only or Managed when you add it. Once a kind has two folders, its page gets a **Folders** filter. Uploads, phone backup and Add files are filed into a Managed folder, so until a kind has one, uploading is switched off and the page says why.
 
 **Why:** a View folder should not be a special case. The same words and the same buttons mean the same thing everywhere.
 
@@ -54,9 +54,9 @@ You can switch a Read-only folder to Managed later from Edit. Library renames an
 
 Adding a library, adding a folder from a library page, adding a folder from Edit, adding a View folder and first-run setup all open the same folder window at the same size. The steps look identical wherever you start, so you learn it once.
 
-## Square tiles and hover cards
+## Full-width rows, not hover cards
 
-Add library asks two questions with square tiles: where does it belong (Watch, Listen, Read or View), and what is it. Hover over or focus a tile to see what belongs there, a few examples, and what Library does with it. The words come from the same list that defines the kinds, so a new kind added to that list shows up with its own tile and card.
+Add library asks two questions with full-width rows: where does it belong (Watch, Listen, Read or View), and what is it. Each row shows its icon, its name and one line saying what belongs there, so nothing needs hovering to be read. The words come from the same list that defines the kinds, so a new kind added to that list shows up as its own row.
 
 ## Related
 

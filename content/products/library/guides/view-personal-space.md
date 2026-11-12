@@ -24,7 +24,7 @@ Your admin controls View access. Check the scope selector before you share or so
 There is one place to put new photos and videos: the **Import** area. It sits outside every library folder, so a library folder only ever holds filed photos.
 
 - **Add files from a browser.** Open **View > Photos** and select **Mine**, use the upload action and choose your files. They are checked and filed straight away.
-- **Add a folder during first-run setup.** On the **Libraries** step choose **View**, then **Add folder** on Photos, Personal videos or Documents. Pick the folder with the folder picker and give it a name. Your files are never changed. Library scans the folder and its subfolders.
+- **Add a folder during first-run setup.** On the **Libraries** step choose **View**, then **Add folder** on Photos and videos or Documents. Pick the folder with the folder picker and give it a name. Your files are never changed. Library scans the folder and its subfolders.
 - **Copy files in.** An administrator opens **Settings > Libraries > View > Photos** (or **Personal videos**) and sees the Import folder's path on the Folders tab. Copy files there, or use **Add files** and **Scan now** on that page. A file in a folder named *Shared* goes to the Shared Library, a folder named after a person goes to that person's library, and anything else goes to the first administrator's library.
 - **Phone backup** goes through the same checks into the person the phone backs up.
 
@@ -34,7 +34,7 @@ Before anything is copied Library checks that the drive has room and says how mu
 
 Each library page for Photos and Personal videos has an **Activity** tab: what was added, skipped and refused, newest first, as counts and reasons only.
 
-To add a folder source, ask an admin to open **Settings > Libraries > View** and choose Photos, Personal videos or Documents. The page has the same tabs as any library: **Folders**, **Access** and **File handling**. In Folders, **Add folder** defaults to a new managed folder; everything inside a folder is read, subfolders included. **Import folder** copies files into managed storage. **Link existing folder** scans an outside folder read-only. It leaves the original files where they are.
+To add a folder source, ask an admin to open **Settings > Libraries > View** and choose Photos and videos or Documents. The page has the same tabs as any library: **Folders**, **Access** and **File handling**. In Folders, **Add folder** defaults to a new managed folder; everything inside a folder is read, subfolders included. **Import folder** copies files into managed storage. **Link existing folder** scans an outside folder read-only. It leaves the original files where they are.
 
 ### Tidy this folder and duplicates
 
