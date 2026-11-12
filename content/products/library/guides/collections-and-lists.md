@@ -19,6 +19,7 @@ Formats of one title (the ebook and the audiobook of Dune) are variants of that 
 - Administrators can also make a collection for everyone, or share one with selected profiles. The last step of the builder asks who the collection belongs to (**Owner** and **Audience**).
 - Kids profiles do not see New collection.
 - Adding a title to a collection or playlist you may edit works on a computer, a tablet and a phone. TVs show collections and rows but do not change them.
+- Making or editing a collection or playlist works on a phone too. On a phone or an upright tablet the builder is a full-screen sheet, like the editor: the title, a **...** menu (with **Delete collection**) and Close on one line, the tabs in one row that scrolls sideways, and Cancel and Save fixed at the bottom above the keyboard. Rule groups have **Move up** and **Move down** buttons, so nothing needs dragging. It is the same builder with the same rules, arranged to fit the screen, because most people use only their phones and one builder is one thing to learn.
 - Putting a title from the Vault into a private collection works. Putting it into a shared one is refused.
 
 ## Start a new collection
