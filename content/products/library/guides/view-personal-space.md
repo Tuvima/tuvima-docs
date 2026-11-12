@@ -60,7 +60,7 @@ Items in a read-only folder cannot be moved to Trash. A folder you have linked t
 
 The Trash view shows how much it holds, such as **128 items · 4.2 GB**, on every device, so you can see the space Trash is using.
 
-**Empty Trash** deletes the files of everything in your Trash, for photos and documents together. It works only on a computer. On a phone or tablet the Trash view shows its size and "Empty Trash on a computer." Only you can empty your own Trash, from your own Personal Space; household members, administrators and the native apps cannot. You cannot pick items out of Trash to delete. To keep something, restore it first.
+**Empty Trash** deletes the files of everything in your Trash, for photos and documents together. It works on a computer, a tablet and a phone. A TV shows the Trash size and "Emptying Trash is not available on this device." Only you can empty your own Trash, from your own Personal Space; household members, administrators and the native apps cannot. You cannot pick items out of Trash to delete. To keep something, restore it first.
 
 On a computer, open **Photos > Trash** or **Documents > Trash** and choose **Empty Trash…**. Library first checks what is in Trash, then shows:
 
