@@ -22,7 +22,7 @@ Use [View Personal Space](../guides/view-personal-space.md) for private photos, 
 ## Add a structured library
 
 1. Open **Settings → Libraries** and choose **Add library**. (During [first-run setup](../guides/first-run-setup.md) the same button sits on the Libraries step.)
-2. Pick the **area** (Watch, Listen, Read or View), then the **type** within it, such as Movies or Music. Both are lists of large rows with a short description.
+2. Pick the **area** (Watch, Listen, Read or View, and Vault once it is on), then the **type** within it, such as Movies or Music. Both are lists of full-width rows with a short description; pressing a row moves you on.
 3. Choose the **folder** from a plain list of the server's drives and folders, or type the path. You browse the server's drives (inside a container, whatever the container can see). Only administrators can browse, and Tuvima's own folders are never listed.
 4. Press **Add library**. Library looks inside the folder once and answers **Looks right**, **Heads up** (the contents do not match the type) or **Already used** (the exact folder belongs to another library).
 

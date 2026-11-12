@@ -11,12 +11,15 @@ Every community on Tuvima has the same layout. Only its colour, banner and conte
 
 ## The community home
 
-The top of the page is a band in the community's own colour. It shows the community's name and its two sections: **Home** and **Photos**. Your membership sits beside the name: **Join**, or that you're a member and the persona you use there.
+The top of the page is a band in the community's own colour. It shows the community's name, how many members it has, whether it is public or private, and its sections, such as **Home** and **Photos**.
+
+Beside the name is **Join**, or, once you're a member, a **Joined** button. Choose **Joined** to see **Your membership**: the persona you use there, a link to this community's **Alerts**, **Your tiers**, and **Leave community**. On a phone it opens as a sheet from the bottom. The bell button next to it sets how much of this community reaches your alerts.
 
 Under the band:
 
-- **Forums.** Each category is a card with its forums. The card says how many conversations started there in the last 7 days, for example **38 this week**, and busy forums show **11 new** beside their name. Choose a category's name to open its own page, or a forum to go straight to its conversations.
-- **Latest conversations.** One line per conversation: its title, its forum and tags, small pictures of the people who posted most recently, the number of replies and when it last moved. Pinned conversations come first. Members also get **New** (started since you joined) and **Unread** (new replies since you last read).
+- **Forums.** Each category is a card with its forums. The card says how many conversations started there in the last 7 days, for example **38 this week**, and each forum says how many started there, such as **11 new this week**. On a phone each forum takes one short line, so the conversations start sooner. Choose a category's name to open its own page, or a forum to go straight to its conversations.
+- **Latest conversations.** One line per conversation: its title, its forum and tags, small pictures of the people who posted most recently, the number of replies and when it last moved. Pinned conversations come first. Members also get **New** (started since you joined) and **Unread** (new replies since you last read). A conversation nobody has answered yet says **No replies yet**.
+- **Filter.** Choose **Filter** to narrow the list by forum, tag or label, then **Show conversations**. Each filter you use shows as a chip above the list; choose its cross to remove it. **Start a conversation** is above the list (on a phone it says **New**).
 - **About** and **Rules**, and any other blocks the owners added, sit on the side. On a phone they come after the conversations.
 
 A community with only one category skips the cards and shows its forums straight away.

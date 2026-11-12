@@ -45,7 +45,7 @@ A community can also block some words. Then your post isn't posted, and you see 
 
 ## Reply
 
-Open a conversation and write in the reply box at the bottom. Replies show oldest first.
+Open a conversation and write in the reply box at the bottom. On a phone the reply box stays at the bottom of the screen, in place of the usual bottom bar, and opens the full editor when you tap it. Replies show oldest first.
 
 Choose **In order** to read replies one after another, or **Nested** to see who replied to whom. Tuvima remembers your choice on that device.
 
@@ -61,7 +61,7 @@ A conversation with more than 200 replies opens on **Catch up**, so you can see 
 
 Choose **In order** or **Nested** at any time to read every reply. Replies load about 50 at a time, and every reply keeps its own link, so a shared link still opens on the right reply.
 
-The **Timeline** beside the conversation shows how busy each day was. Choose a day to jump to its first reply, or use **Back to top**, **Where you stopped**, **Busiest day** and **Jump to newest**. On a phone, the timeline is a slider at the bottom of the screen: drag it to move through the conversation, or choose **Jump** to go to the start, the busiest moment, the newest reply, a date or a reply number.
+The **Timeline** beside the conversation shows how busy each day was. Choose a day to jump to its first reply, or use **Back to top**, **Where you stopped**, **Busiest day** and **Jump to newest**. On a phone, conversations with more than 20 replies show a small button above the reply box, such as **Reply 31 of 40 · Jump**. Choose it to go to the start, the busiest moment, the newest reply, a date or a reply number.
 
 Nothing is hidden or removed by Catch up. It only changes where the conversation opens.
 

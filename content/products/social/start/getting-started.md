@@ -24,7 +24,7 @@ When you see **You're all set**, the getting-started page asks **What are you in
 
 ## Join your first community
 
-1. Choose **Explore** in the menu, or **Find a community** on the front page.
+1. Choose **Explore** in the menu, or **Find a community** on Home.
 2. Open a community that looks right and read its rules.
 3. Choose **Join**, then choose how to appear: as your global persona, or with a private persona just for this community.
 

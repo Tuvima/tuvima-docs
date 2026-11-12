@@ -835,9 +835,9 @@ The action itself enforces the rule, so an application (a non-Dashboard caller h
 | GET | `/reader/{assetId}/bookmarks` | List bookmarks for an asset | Required |
 | POST | `/reader/{assetId}/bookmarks` | Create a bookmark | Required |
 | DELETE | `/reader/bookmarks/{bookmarkId}` | Delete a bookmark. Another profile's personal bookmark answers `404`; a Global bookmark is deleted only by an administrator. | Required |
-| GET | `/reader/{assetId}/page-bookmarks` | The signed-in person's page bookmarks of a comic or PDF plus Everyone's: `[{"id","assetId","page","label","isGlobal","isYours","ownerName","createdAt"}]`. Another profile's personal bookmark is never listed. | Required |
-| POST | `/reader/{assetId}/page-bookmarks` | Bookmark a page (`{"page","label"}`, page 1 or more). The bookmark is personal until an administrator adds it to Everyone's in the editor's Bookmarks tab. | Required |
-| DELETE | `/reader/page-bookmarks/{bookmarkId}` | Delete a page bookmark. Another profile's personal bookmark answers `404`; an Everyone's bookmark is deleted only by a server administrator (`404` for anyone else). | Required |
+| GET | `/reader/{assetId}/page-bookmarks` | The signed-in person's page bookmarks of a comic or PDF plus Global: `[{"id","assetId","page","label","isGlobal","isYours","ownerName","createdAt"}]`. Another profile's personal bookmark is never listed. | Required |
+| POST | `/reader/{assetId}/page-bookmarks` | Bookmark a page (`{"page","label"}`, page 1 or more). The bookmark is personal until an administrator adds it to Global in the editor's Bookmarks tab. | Required |
+| DELETE | `/reader/page-bookmarks/{bookmarkId}` | Delete a page bookmark. Another profile's personal bookmark answers `404`; an Global bookmark is deleted only by a server administrator (`404` for anyone else). | Required |
 | GET | `/reader/{assetId}/highlights` | List highlights. Rows made by the book reader carry `cfiRange`; rows from the retired reader have it `null`. | Required |
 | POST | `/reader/{assetId}/highlights` | Create a highlight. The book reader sends `cfiRange` (an `epubcfi(...)` range, at most 4096 characters) with `chapterIndex`, `startOffset` and `endOffset` all `0`. `color` must be one of the supported highlight colours, `selectedText` and `noteText` at most 4000 characters; anything else answers `400`. | Required |
 | PUT | `/reader/highlights/{highlightId}` | Change a highlight's colour and note (a missing note clears it). Another profile's highlight answers `404`. | Required |
@@ -869,18 +869,18 @@ The action itself enforces the rule, so an application (a non-Dashboard caller h
 
 ### Editor Bookmarks tab
 
-The editor's Bookmarks tab (universal editor v5 D37) is where an administrator makes a title's **definitive set** of Everyone's bookmarks. The players keep Everyone and Mine, markers, jumping and a person's own bookmarks; adding to Everyone's, editing it, importing and exporting live here. Changes are staged and written by the editor's one Save (`POST /library/edit-session`, change kind `bookmarks`: add a profile's bookmark to Everyone's, remove, rename, change time, apply an import, start over from profiles) in one transaction with the same-spot merge, so nobody loses a bookmark. The first saved change makes the set definitive (table `bookmark_definitive_sets`); from then on the players' Everyone shows exactly that set, and "Start over from profiles" pools every profile's bookmarks again. A changed time makes a new frame for a video bookmark.
+The editor's Bookmarks tab (universal editor v5 D37, amended by global bookmarks v5) is where an administrator makes a title's **Global** set of bookmarks. Global exists for movies, episodes and videos only: the routes below refuse any change on a book, audiobook or song, and creating a bookmark on a music track is refused (`400`); a music track's bookmark list is empty. The players keep Mine | Global, markers, jumping and a person's own bookmarks; adding to Global, editing it, importing and exporting live here. Global starts empty and is never pooled from profiles.
 
 | Method | Path | Description | Auth |
 |---|---|---|---|
-| GET | `/editor-bookmarks/titles/{workId}` | A title's Everyone's bookmarks (time, name, who it was chosen from, its frame on a video) and whether they are a definitive set or pooled, with every profile's own bookmarks on it beside them | Server administrators only; a Vault title is refused |
-| POST | `/editor-bookmarks/titles/{workId}/compare` | Read a bookmark file for this title and compare it with Everyone's bookmarks (Same spot, Close, Far, New); nothing is written | Server administrators only; a Vault title is refused |
-| POST | `/editor-bookmarks/titles/{workId}/export` | Everyone's bookmarks on a title as one bookmark file (times, names, frames; never personal bookmarks) | Server administrators only; a Vault title is refused |
-| GET | `/editor-bookmarks/families/{workId}` | A show's, season's or album's overview: each member's Everyone's count, definitive or pooled, and personal count, grouped by season | Server administrators only; a Vault title is refused; Vault members are left out |
+| GET | `/editor-bookmarks/titles/{workId}` | A title's Global bookmarks (time, name, who it was chosen from, its frame on a video) and whether they are a definitive set or pooled, with every profile's own bookmarks on it beside them | Server administrators only; a Vault title is refused |
+| POST | `/editor-bookmarks/titles/{workId}/compare` | Read a bookmark file for this title and compare it with Global bookmarks (Same spot, Close, Far, New); nothing is written | Server administrators only; a Vault title is refused |
+| POST | `/editor-bookmarks/titles/{workId}/export` | Global bookmarks on a title as one bookmark file (times, names, frames; never personal bookmarks) | Server administrators only; a Vault title is refused |
+| GET | `/editor-bookmarks/families/{workId}` | A show's, season's or album's overview: each member's Global count, definitive or pooled, and personal count, grouped by season | Server administrators only; a Vault title is refused; Vault members are left out |
 | POST | `/editor-bookmarks/families/{workId}/export` | One file for a whole show or album, keyed by season and episode (or disc and track) number | Server administrators only; a Vault title is refused |
 | POST | `/editor-bookmarks/families/{workId}/compare` | Read such a file and compare it episode by episode | Server administrators only; a Vault title is refused |
 
-The player and the book reader no longer have routes of their own for Everyone's bookmarks, promoting, comparing or exporting a bookmark file: those jobs are only here. A book's tab exchanges bookmark files too, with places in the text instead of times (no Change time).
+The player and the book reader no longer have routes of their own for Global bookmarks, promoting, comparing or exporting a bookmark file: those jobs are only here. A book's tab exchanges bookmark files too, with places in the text instead of times (no Change time).
 
 Player and playback contracts carry the complete queue/session state, delivery
 manifest, resume data, tracks/subtitles/chapters, audiobook history and

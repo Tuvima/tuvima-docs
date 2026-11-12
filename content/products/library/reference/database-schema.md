@@ -1732,11 +1732,11 @@ Saved playback positions in a video or an audiobook (the table keeps its audiobo
 | `locator` | TEXT | The reader location of a `text` bookmark; NULL for `time` rows |
 | `created_at` | TEXT | Timestamp |
 
-Bookmark sets from a file (Import in the editor's Bookmarks tab) are not stored on their own: once applied they are ordinary rows here, with `is_global` = 1 when an administrator applied them to Everyone's bookmarks. The retired `bookmark_packs` and `bookmark_pack_items` tables (step 0034) were dropped by step `0077_bookmark_packs_retired`; a pack was a separate per-person copy of someone else's bookmarks, which is exactly what applying a set into ordinary rows replaces.
+Bookmark sets from a file (Import in the editor's Bookmarks tab) are not stored on their own: once applied they are ordinary rows here, with `is_global` = 1 when an administrator applied them to Global. The retired `bookmark_packs` and `bookmark_pack_items` tables (step 0034) were dropped by step `0077_bookmark_packs_retired`; a pack was a separate per-person copy of someone else's bookmarks, which is exactly what applying a set into ordinary rows replaces.
 
 ### bookmark_definitive_sets
 
-Titles whose Everyone's bookmarks an administrator has made definitive in the editor's Bookmarks tab (universal editor v5, upgrade step 0084). Until a title has a row here, Everyone's bookmarks are every profile's bookmarks on it pooled together, same-spot ones merged. The first change an administrator saves makes the set definitive: from then on Everyone is exactly the bookmarks with `is_global` = 1 on that title. "Start over from profiles" deletes the row and clears the flags. A bookmark is never copied: the flag sits on the owner's own row, so the owner still sees it under Mine.
+Titles whose Global bookmarks an administrator has started in the editor's Bookmarks tab (universal editor v5, upgrade step 0084). Global is exactly the bookmarks with `is_global` = 1 on a title, and only movies, episodes and videos can have any; nothing is pooled from profiles, so a title with no row here has an empty Global set. The first change an administrator saves adds the row without flagging anything. "Clear Global" deletes the row and clears the flags. A bookmark is never copied: the flag sits on the owner's own row, so the owner still sees it under Mine.
 
 | Column | Type | Notes |
 |---|---|---|
