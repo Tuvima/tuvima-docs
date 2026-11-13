@@ -118,6 +118,12 @@ Moving a post to a better category is not available yet.
 
 Every post has a public **Moderation history**. It shows what was raised, what was decided and when, with the counts, such as **6 of 7 reviewers agreed**. It never shows names: not who raised a concern, not who reviewed, and not the author's reply. Anyone who can read the post can open it from the **History** link on a label, fold or hidden note.
 
+## Monthly totals
+
+Anyone can see how member moderation is going on the front page. Open **Moderation in numbers** from the footer of any Tuvima page, or from a post's moderation history. Each month shows how many concerns were raised, how cases ended (left alone, labelled, folded, hidden, moved, or no clear agreement), how many authors asked for another look and how many got their post shown again, and how many illegal-content reports Tuvima staff handled. The current month is shown as "so far".
+
+The totals are counts only. They never show names, posts or a list of cases.
+
 ## If a concern is raised about your post
 
 You are told straight away, with the reason and any rule. You can give your side once, in up to 280 characters. Reviewers see it beside your post, but it is never shown in the public history.
@@ -159,6 +165,7 @@ Once it is on, **Report** becomes **Raise a concern** in that community. The own
 - **The community's labels**: five to start, up to 12, each with its own name.
 - **Who can take a second look**: members of that community at the level the owner picks (Regular and above to start) who joined at least 30 days ago. Moderators never take a second look, because they are the ones who can overrule members.
 - **The repeat list**: how many posts by one member that members changed, over how many days, before that member is listed for the moderators (3 posts in 30 days to start; the owner can choose 2 to 20 posts over 7 to 90 days). The list is only for the moderators to see. Nothing happens to anyone automatically.
+- **Show monthly totals publicly**: off to start. When the owner turns it on, the community gets its own **Moderation in numbers** page, linked from its rules page, with the same monthly counts for its own cases plus how many outcomes its moderators overruled. In a private community, only people who can see the community can see it.
 
 If a community has fewer than 10 members who can take a second look, concerns go to its moderators instead, the same as with it off.
 
