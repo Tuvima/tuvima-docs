@@ -19,7 +19,7 @@ A few rules apply everywhere on Tuvima. Each community adds its own rules on top
 
 ## How it is enforced
 
-Community moderators handle their own community. Tuvima staff handle serious harm, illegal content and abuse that spreads across communities. See [reporting and moderation](reporting-and-moderation.md).
+Community moderators handle their own community. On the front page, members settle concerns together through [member moderation](member-moderation.md). Tuvima staff handle illegal content, legal notices, suspensions across Tuvima and abuse that spreads across communities. See [reporting and moderation](reporting-and-moderation.md).
 
 Tuvima also has some automatic protections. These are the current settings, and Tuvima staff may adjust them:
 

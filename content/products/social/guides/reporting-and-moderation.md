@@ -1,13 +1,13 @@
 ---
 title: Reporting and moderation
-description: Report a post in a community or on the front page, how folded front-page posts work, what moderators and Tuvima staff can do, and what you are told if your own post is moderated.
+description: Report a post in a community, raise a concern about a front-page post, how folded posts work, what moderators and Tuvima staff can do, and what you are told if your own post is moderated.
 audience: user
 category: guide
 product_area: tuvima
 status: early-access
 ---
 
-Each community looks after itself: its moderators deal with reports and keep the conversation on track. The front page has no moderators, so reports there go to Tuvima staff. Tuvima's own team also steps in for serious harm, illegal content and spam across communities.
+Each community looks after itself: its moderators deal with reports and keep the conversation on track. The front page has no moderators: members look after it together, through [member moderation](member-moderation.md). Tuvima's own team handles illegal content, legal notices and suspensions across all of Tuvima.
 
 ## Report a post in a community
 
@@ -23,55 +23,36 @@ You can follow your reports under **Your reports**, which shows whether each is 
 
 To stop misuse, you can report each post once, and up to 10 posts an hour.
 
-## Report a post on the front page
+## Raise a concern on the front page
 
-Front-page reports go to Tuvima staff, not to any community.
+The front page has no moderators. Instead, members who are not involved take a second look at posts others raise concerns about. [How member moderation works](member-moderation.md) explains the whole process.
 
-1. Choose **Report** on the post. You need to be signed in.
-2. Pick a reason. These five are **serious abuse**:
-   - **Threats**
-   - **Someone's private details**, such as a home address or phone number shared without their permission
-   - **Illegal or dangerous**
-   - **Scam or fraud**
-   - **Spam**
+1. Choose **Raise a concern** on the post. You need to be signed in.
+2. Pick one reason.
+   - **Something to tidy**: **Off topic**, **Wrong place** (it belongs in another category), **Duplicate** (it is already being discussed), **Out of date** or **Spoiler**.
+   - **Something harmful**: **Scam, fraud or spam**, **Threat or private details**, **Harassment or hate** (aimed at a person or a group) or **Illegal content**.
+3. Under **Which rule?**, pick one of the front page's rules if it helps, or leave it at **No particular rule**.
+4. Choose **Send concern**.
 
-   The other reasons are **Harassment or hate**, **Misleading** and **Something else**.
-3. Add a short note if it helps, and send it.
+There is no note to write. **Illegal content** goes straight to Tuvima staff, and members are never asked to look at it. Every other concern can open a case, and randomly picked members decide whether the post needs a label, a fold or hiding, or should be left alone. They never see who raised it.
 
-Staff look at every report. Only the five serious-abuse reasons can lead to a post being folded.
+You can raise a concern about each post once, and up to 10 posts an hour. You can't raise one about your own post.
 
 ## Folded posts on the front page
 
-A **folded** post is one that trusted members have reported for serious abuse and that is waiting for Tuvima staff. Folding keeps harmful posts out of sight quickly, without waiting for staff and without deleting anything.
+A **folded** post is collapsed behind a notice, but not removed. Anyone can choose **Show anyway** to read it, and it keeps its votes. Folds do not wait for Tuvima staff: members settle them.
 
-![A folded post's life, left to right. Trusted members report it for serious abuse within a day. It folds behind a notice and stays readable with Show anyway. Tuvima staff review it, aiming to do so within 24 hours. If staff uphold the reports, the post is removed with a public reason. If staff reject them, the post comes back in full and the members who folded it are paused from folding.](../assets/fold-life.svg)
+- **While it is checked**: if enough members on the Regular or Trusted step raise harmful concerns within one day, the post folds behind **Members raised a concern. Independent members are checking it.** while reviewers take their second look. If the reviewers don't clearly agree to keep a fold or hide the post, the fold lifts.
+- **As an outcome**: reviewers can decide that a fold is the right fix. The post then shows **Folded by members**, with the reason and how many reviewers agreed.
+- **Illegal content**: a post reported for illegal content can fold while Tuvima staff decide, showing **Reported by members, waiting for Tuvima review.**
 
-### When a post folds
+If you helped fold a post that reviewers or staff then find is fine, you cannot help fold anything for 30 days. [Keeping it fair](member-moderation.md#keeping-it-fair) has the details.
 
-A post folds when enough trusted front-page members report it for serious abuse within one day. Reports from **Trusted** members count in full and reports from **Regular** members count half. Reports from members on lower levels still reach staff, but do not count towards a fold.
+## If a concern is raised about your front-page post
 
-Disagreement never folds a post. Neither do reports for **Misleading**, **Harassment or hate** or **Something else**: staff review those in the normal way.
+You are told straight away. You can give your side once, in up to 280 characters, and reviewers see it beside your post. If members hide your post, you can ask for another look once, within 7 days, and a larger group of fresh reviewers makes the final decision. Every post's public **Moderation history** shows what was raised and decided, without names. See [if a concern is raised about your post](member-moderation.md#if-a-concern-is-raised-about-your-post).
 
-### What people see
-
-- **Readers** see **Reported by members, waiting for Tuvima review.** in place of the post, with a **Show anyway** button. The post is not removed, keeps its votes, and is kept out of search previews.
-- **The author** is told straight away that their post has been folded. There is no way to appeal a fold for now; staff review every fold anyway.
-
-### What happens next
-
-Tuvima staff review every folded post, aiming to do so within 24 hours.
-
-- **If staff agree**, the post is removed from the front page with a public reason, the same as any [front-page removal](reputation.md#when-a-post-is-removed).
-- **If staff disagree**, the post comes back in full. The members who helped fold it cannot help fold anything for 30 days. If a second fold they helped with is rejected within 90 days, they also move down one front-page level.
-
-### Limits that keep folding fair
-
-- You can help fold up to 5 posts a day.
-- Members can fold a post only once. If staff bring it back, only staff can act on it after that.
-
-Communities do not have folds. A community's own moderators handle its reports, as described above.
-
-## What moderators can do
+## What community moderators can do
 
 | Action | What it means |
 | --- | --- |
@@ -84,7 +65,7 @@ Bans and suspensions apply to the person, not just one persona, so starting a ne
 
 Every action is written to the community's moderation record, so decisions can be checked.
 
-## If your post is moderated
+## If your post is moderated in a community
 
 You get a notice in your bell, with the reason if the moderator gave one. If the moderator named a rule, you see which rule and any note. It never says who acted or who reported you. Readers see **Hidden by moderators** or **Removed by moderators** in its place, unless the community's owner has turned these notes off.
 
@@ -101,6 +82,6 @@ A community's moderators can give you a warning, with points, for breaking one o
 
 ## When Tuvima steps in
 
-On the front page, Tuvima staff handle reports and folded posts, and can remove posts that break [the rules everyone follows](community-rules.md). Every front-page removal shows a public reason.
+On the front page, Tuvima staff no longer judge ordinary concerns: members do. Staff handle reports of illegal content and legal notices, and can remove a post that breaks [the rules everyone follows](community-rules.md). Every front-page removal by staff shows a public reason.
 
 Tuvima staff can pause a community while they review it. Reading continues, but posting, editing, voting and joining stop for members, usually for a day or two. The community's moderators can still tidy up. Staff can also suspend a persona across all of Tuvima for breaking [the rules everyone follows](community-rules.md).

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
+  <title id="t">How member moderation works on the front page</title>
+  <desc id="d">Left to right. First, a member raises a concern about a post. A concern about illegal content goes straight to Tuvima staff instead, and members never see it. Second, a case opens and uninvolved members are picked at random: 5 for something to tidy, 7 for something harmful. Third, each reviewer takes a second look and privately chooses the lightest fix or Not sure, within 12 hours, with one top-up of 6 hours. Then one of two outcomes: with clear agreement, the post gets a label, is folded, or is hidden; without clear agreement, the post is left alone. If a post is hidden, its author can ask once for another look, and 9 fresh reviewers decide.</desc>
+  <rect width="760" height="400" rx="16" fill="#F5F7FB"/>
+  <rect x="20" y="70" width="160" height="150" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="34" y="98" fill="#14213D" font-size="15" font-weight="700">1. Concern raised</text>
+  <text x="34" y="126" fill="#47536B" font-size="13">A member picks a</text>
+  <text x="34" y="146" fill="#47536B" font-size="13">reason: something</text>
+  <text x="34" y="166" fill="#47536B" font-size="13">to tidy, or</text>
+  <text x="34" y="186" fill="#47536B" font-size="13">something harmful</text>
+  <rect x="210" y="70" width="160" height="150" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="224" y="98" fill="#14213D" font-size="15" font-weight="700">2. Case opens</text>
+  <text x="224" y="126" fill="#47536B" font-size="13">Uninvolved members</text>
+  <text x="224" y="146" fill="#47536B" font-size="13">picked at random:</text>
+  <text x="224" y="166" fill="#47536B" font-size="13">5 to tidy,</text>
+  <text x="224" y="186" fill="#47536B" font-size="13">7 if harmful</text>
+  <rect x="400" y="70" width="160" height="150" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="414" y="98" fill="#14213D" font-size="15" font-weight="700">3. Second look</text>
+  <text x="414" y="126" fill="#47536B" font-size="13">Each picks the</text>
+  <text x="414" y="146" fill="#47536B" font-size="13">lightest fix or</text>
+  <text x="414" y="166" fill="#47536B" font-size="13">Not sure, privately,</text>
+  <text x="414" y="186" fill="#47536B" font-size="13">within 12 hours</text>
+  <rect x="590" y="20" width="150" height="110" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="604" y="48" fill="#14213D" font-size="15" font-weight="700">Clear agreement</text>
+  <text x="604" y="74" fill="#47536B" font-size="13">Labelled, folded</text>
+  <text x="604" y="94" fill="#47536B" font-size="13">or hidden, with</text>
+  <text x="604" y="114" fill="#47536B" font-size="13">a public note</text>
+  <rect x="590" y="160" width="150" height="110" rx="12" fill="#fff" stroke="#C9D3EA"/>
+  <text x="604" y="188" fill="#14213D" font-size="15" font-weight="700">No agreement</text>
+  <text x="604" y="214" fill="#47536B" font-size="13">The post is left</text>
+  <text x="604" y="234" fill="#47536B" font-size="13">alone; nothing</text>
+  <text x="604" y="254" fill="#47536B" font-size="13">goes to staff</text>
+  <rect x="20" y="290" width="350" height="90" rx="12" fill="#fff" stroke="#C9D3EA" stroke-dasharray="6 4"/>
+  <text x="34" y="318" fill="#14213D" font-size="15" font-weight="700">Illegal content</text>
+  <text x="34" y="344" fill="#47536B" font-size="13">Goes straight to Tuvima staff.</text>
+  <text x="34" y="364" fill="#47536B" font-size="13">Members are never asked to view it.</text>
+  <rect x="400" y="290" width="340" height="90" rx="12" fill="#fff" stroke="#C9D3EA" stroke-dasharray="6 4"/>
+  <text x="414" y="318" fill="#14213D" font-size="15" font-weight="700">If hidden: another look</text>
+  <text x="414" y="344" fill="#47536B" font-size="13">The author can ask once. 9 fresh reviewers</text>
+  <text x="414" y="364" fill="#47536B" font-size="13">decide; 7 must agree to keep it hidden.</text>
+  <g stroke="#2A52BE" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M184 145h20"/><path d="M198 138l8 7-8 7"/>
+    <path d="M374 145h20"/><path d="M388 138l8 7-8 7"/>
+    <path d="M564 130l20-40"/><path d="M574 88l10 2 1 10"/>
+    <path d="M564 160l20 40"/><path d="M574 202l10-2 1-10"/>
+    <path d="M100 224v58"/><path d="M93 274l7 8 7-8"/>
+  </g>
+</svg>

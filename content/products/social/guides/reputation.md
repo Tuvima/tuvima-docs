@@ -8,7 +8,7 @@ status: early-access
 ---
 
 :::note[Being built in steps]
-**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, achievements with an Achievements tab in each community, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and folding serious abuse on the front page.
+**Working today:** up and down votes, the seven reactions, Reputation and levels shown next to names and on persona pages, achievements with an Achievements tab in each community, credit for good conversations, Helpful this month, owners building their own ladder of up to 50 levels, the five Journey levels, safety steps, the hidden trust check, vote-ring checks, slowing sudden floods of votes, and [member moderation](member-moderation.md) on the front page.
 
 Names and numbers may change after testing.
 :::
@@ -105,7 +105,9 @@ Communities and the front page have many more, such as years as a member and acc
 
 ## When a post is removed
 
-The front page has no moderators, so Tuvima staff step in there, but only for abuse. Every removal is public: anyone who opens the post sees **Removed by Tuvima staff**, the rule it broke, the reason staff wrote and the date. The points the post earned are taken back and its author moves down one front-page level (never below the first) for 90 days. If staff later restore the post, its points and the author's earlier level come back, and the author is told.
+On the front page, members settle most concerns themselves through [member moderation](member-moderation.md). When members hide a post, the points it earned are taken back while it is hidden, and come back if another look shows it again. It counts as a removal for the [safety steps](#safety-steps), but the author's level does not drop.
+
+Tuvima staff step in on the front page only for illegal content and legal notices. Every staff removal is public: anyone who opens the post sees **Removed by Tuvima staff**, the rule it broke, the reason staff wrote and the date. The points the post earned are taken back and its author moves down one front-page level (never below the first) for 90 days. If staff later restore the post, its points and the author's earlier level come back, and the author is told.
 
 Tuvima staff never step into a community's own moderation. When a community's moderators remove a post, its points are taken back, and levels stay in the owner's hands.
 
@@ -141,10 +143,10 @@ Tuvima staff can review a flagged group. If they confirm it, the group's recent 
 
 When a front-page post suddenly gets a flood of votes, they count gradually rather than all at once. A real crowd still counts in full within a few hours. A coordinated push loses the moment it was trying to win.
 
-## Folding serious abuse on the front page
+## Folding and hiding on the front page
 
-If enough trusted front-page members report a post for serious abuse, such as a threat, someone's private details, illegal content or a scam, it is **folded**: hidden behind a notice until Tuvima staff review it. Anyone can still choose to read it, and it keeps its votes. Disagreement, or calling a post misleading, never folds it. Members who help fold posts that staff then bring back lose the ability to fold for a while, and can lose a level if it happens again.
+On the front page, members settle concerns about posts together. Randomly picked members who are not involved take a second look and can add a label, fold a post behind **Show anyway**, or hide it, but only when most of them agree. Without clear agreement, the post is left alone. Members who help fold posts that reviewers then find are fine lose the ability to fold for a while, and can lose a level if it happens again.
 
-[Reporting and moderation](reporting-and-moderation.md#folded-posts-on-the-front-page) explains who can fold a post, what readers and the author see, and what happens after staff decide.
+[How member moderation works](member-moderation.md) explains who reviews, how many must agree and what the author can do.
 
-Inside communities, moderation stays with each community's own moderators, and there is no folding. See [reporting and moderation](reporting-and-moderation.md).
+Inside communities, moderation stays with each community's own moderators for now. See [reporting and moderation](reporting-and-moderation.md).

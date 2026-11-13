@@ -15,7 +15,8 @@ Tuvima gives you a simple, reasonable expectation of privacy while you take part
 - **What you post**: the front page and every public community can be read by anyone, including people who are not signed in and search engines. Unlisted communities are left out of search, but anyone with the link can read a public one. A **private community**, and a members-only area inside a community, can be read only by the members allowed in. A private persona hides who you are, not what you post.
 - **Your activity, to moderators**: a community's moderators and owner see when you joined, how many posts you have made and the last day you visited.
 - **Your join answers, to reviewers only**: if you ask to join a community, the people who review requests see your answers. They are deleted 90 days after a decision.
-- **Your reports, to moderators only**: when you report a post in a community, that community's moderators see which persona reported it. Front-page reports go to Tuvima staff instead. The person you reported is never told who reported them.
+- **Your reports, to moderators only**: when you report a post in a community, that community's moderators see which persona reported it. The person you reported is never told who reported them.
+- **Your concerns, to nobody**: when you raise a concern about a front-page post, the members who review it, the author and other readers never see who raised it. Reviewers' answers stay private until the case closes, and the post's public moderation history shows counts, never names. A concern about illegal content goes to Tuvima staff, who see which persona sent it.
 
 ## What they never see
 
