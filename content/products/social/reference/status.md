@@ -25,7 +25,7 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 | Writing | Drafts that save as you type and follow you to any device. Polls, Looking for group, post templates and a welcome message, as add-ons owners can switch on or off. |
 | Rules | Numbered rules, notices when they change, earlier versions, important changes that members agree to, forum guidelines and rule-named moderation. |
 | Thread tools | Pins, the Featured row, lock, slow mode, move, merge and split, all in the moderation record. |
-| Owner tools | Setup steps, ready-made and custom roles, members page, numbers, launch checklist, themes, banners, page blocks, categories and forums, and labels on Tuvima. |
+| Owner tools | Setup steps, ready-made and custom roles, members page, Insights, launch checklist, themes, banners, page blocks, categories and forums, and labels on Tuvima. |
 | Help | A help centre and draft rules and policies. |
 
 ## Coming later

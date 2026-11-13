@@ -15,7 +15,7 @@ The menu down the side has four groups. You only see the pages your roles allow,
 
 | Group | Pages |
 | --- | --- |
-| **Insights** | Your community's numbers. |
+| **Insights** | **Insights**: how your community is doing, counted each night. See [Insights](run-your-community.md#insights). |
 | **Community** | **General** (name, description, newcomer limits, category on Tuvima, edit history, removal notices, launch checklist), **Look and home page**, **Forums and categories**, **Rules**, **Photos** and **Add-ons**. |
 | **Members and access** | **Members**, **Join requests**, **Joining and privacy**, **Roles and permissions**, **Levels**, **Achievements**, **Member tiers** and **Invites**. |
 | **Safety** | **Approval queue** (held posts, join requests and reports), **Photo reports**, **Removed posts**, **Warnings and word filters** and **Moderation log**. |

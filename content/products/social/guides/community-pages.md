@@ -60,4 +60,4 @@ Don't want it? On your own page, turn off **Show "Known for here" on my page**. 
 
 ## For owners and admins: Insights
 
-**Manage**, then **Insights**, shows how your community is doing: members, posts in the last 7 days, active people in the last 7 days, return visits in the last 30 days, and active people each day. Insights counts what people do, never what they read. It never shows page views, reading time or who looked at what.
+**Manage**, then **Insights**, shows how your community is doing over 7 days, 30 days, 90 days or a year: members, active members, new contributors, the typical time to a first reply and questions with no reply, each compared with the period before. Insights counts what people do, never what they read. It never shows page views, reading time or who looked at what, and any count of 1 to 4 people shows as "fewer than 5". See [Insights](../owners/run-your-community.md#insights).

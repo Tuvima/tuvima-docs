@@ -17,7 +17,7 @@ Every community comes with four ready-made roles: **Owner**, **Admin**, **Modera
 | --- | --- |
 | **Member** | Post, reply, react, report, and edit or delete their own posts. |
 | **Moderator** | Hide, remove and restore posts, pin conversations, use thread tools, suspend and ban members, review reports and requests to join, read the moderation record and see the members page. |
-| **Admin** | Change settings, categories, forums and labels, give roles, make invites, manage newcomers and see the numbers. |
+| **Admin** | Change settings, categories, forums and labels, give roles, make invites, manage newcomers and see [Insights](#insights). |
 | **Owner** | Everything, including making the community public or private, choosing whether it is listed, showing or hiding edit history and using the launch checklist. |
 
 You can rename the ready-made roles, change what Admin and Moderator allow, and make your own roles as copies, such as a helper for one forum. See [roles: ready-made and your own](roles.md). Give moderation only to people you trust. Every role change is recorded and can be undone. Handing over ownership is planned.
@@ -64,7 +64,43 @@ Every member gets a notice when you publish. They can see what changed and earli
 
 ## Insights
 
-The **Insights** page shows members, posts in the last 7 days, active people in the last 7 days, return visits in the last 30 days, and active people each day for four weeks. It counts what people do, never what they read. These come from Tuvima's own records, with no tracking scripts.
+**Manage**, then **Insights**, shows how your community is doing. It used to be called **Numbers**. You see it if your role has the **See the numbers** permission, which the owner and admins have to begin with. Insights counts what people do, never what they read, from Tuvima's own records and with no tracking scripts. It never shows page views, reading time or who looked at what.
+
+### Choose a period
+
+Use the switch at the top to choose **7 days**, **30 days**, **90 days** or **1 year**. Each number is compared with the period before, for example "+312 vs previous 30 days".
+
+Insights is counted once a night, just after midnight UTC, so today's activity shows up tomorrow. The bottom of the page says when it was last counted. A new community sees "Your first Insights arrive after tonight's count" until then.
+
+### The five tiles
+
+| Tile | What it counts |
+| --- | --- |
+| **Members** | Everyone who has joined. |
+| **Active members** | People who posted, replied, voted or reacted in the period. Its change is shown as a percent. |
+| **New contributors** | People who made their first post in the period. |
+| **Typical time to first reply** | How long a new conversation usually waits for its first reply, such as "38 min". Shows "Not enough replies yet" when there are too few to say. |
+| **Questions with no reply** | Questions that are still waiting for an answer. |
+
+Under each tile is its change since the previous period, with an arrow and words, or "No earlier period yet" for a new community.
+
+### The rest of the page
+
+- **Active members per day**: a chart for the period. For a year, each point is a week's daily average.
+- **Needs attention**: what is waiting right now, each a link to deal with it. For example "3 questions from the last year in Help have no reply after 24 hours", posts waiting for approval, people waiting to join and reports waiting for review. This list is live, not counted overnight.
+- **Forums**: a table of each forum's new threads, replies, conversations with no reply yet and typical time to first reply.
+- **Members by level**: how many members are at each [level](../guides/reputation.md), as of last night.
+
+### Small numbers are hidden
+
+So nobody can be singled out, any count of people from 1 to 4 shows as **fewer than 5**. This is the same for everyone, including the owner. Zero shows as 0. Things anyone can already see, such as the number of threads and replies in a forum, stay exact.
+
+- When hiding one number would let someone work it out by subtracting from a total, another number is hidden too and shows as **—** (hidden to protect small numbers). For example, in **Members by level**.
+- A change that is fewer than 5 shows as "Up by fewer than 5" or "Down by fewer than 5", and its percent is hidden too. If either period is too small to compare, the change shows as **—**.
+
+### Moderators limited to some forums
+
+A moderator whose role is limited to some forums sees the totals for the whole community, with the note "Totals include areas you can't open."
 
 ## Settings
 
