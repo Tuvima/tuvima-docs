@@ -1,6 +1,6 @@
 ---
 title: The Tuvima front page
-description: How the front page feed works, what Trending and New mean, how categories, tags and reactions help you find things, how to post to it, and how to report a post.
+description: How the front page feed works, what Trending and New mean, how categories, tags and reactions help you find things, how to post to it, and how to raise a concern about a post.
 audience: user
 category: guide
 product_area: tuvima
@@ -45,9 +45,11 @@ If a link is already being discussed, Tuvima tells you where, so the conversatio
 New personas can post links to the front page after they have made 3 posts that others can see. This keeps out accounts that only exist to spread links.
 :::
 
-## Report a post
+## Raise a concern about a post
 
-Front-page reports go to Tuvima staff, because the front page has no moderators of its own. If enough trusted members report a post for serious abuse, such as a threat or a scam, it is **folded** behind a notice until staff review it. You can still choose **Show anyway** to read it. [Reporting and moderation](reporting-and-moderation.md#report-a-post-on-the-front-page) explains the reasons you can pick and how folds work.
+The front page has no moderators of its own: members look after it together. Choose **Raise a concern** on a post and pick a reason, such as **Off topic**, **Duplicate** or **Scam, fraud or spam**. A few uninvolved members, picked at random, take a second look and decide whether it needs a label, a fold or hiding, or should be left alone. Concerns about illegal content go straight to Tuvima staff.
+
+[Reporting and moderation](reporting-and-moderation.md#raise-a-concern-on-the-front-page) has the steps, and [how member moderation works](member-moderation.md) explains who reviews, how many must agree and what everyone sees.
 
 ## Search
 

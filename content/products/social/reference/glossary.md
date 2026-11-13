@@ -14,11 +14,12 @@ status: early-access
 | **Add-on** | A feature a community can switch on or off, such as Polls or Looking for group. |
 | **Category** | A broad subject on the front page, such as Gaming. Communities also have their own categories, headings that group their forums. |
 | **Community** | A space on Tuvima for a group with something specific in common, with its own members, rules and look. |
+| **Concern** | On the front page, what you raise when a post needs tidying or may be harmful. It can open a case for a second look. |
 | **Content warning** | A label that blurs a post until the reader chooses to see it. |
 | **Draft** | A post you have started and not sent. It saves to your persona as you type and is private to you. |
 | **Emblem** | The small picture on an achievement: a shape, a symbol and two colours. |
 | **Featured** | A row on the community home with up to 4 conversations chosen by moderators. |
-| **Fold** | On the front page, hiding a post behind a notice after trusted members report it for serious abuse, until Tuvima staff review it. Readers can still choose **Show anyway**. |
+| **Fold** | On the front page, collapsing a post behind a notice, either while members check a harmful concern or because reviewers agreed it should be folded. Readers can still choose **Show anyway**. |
 | **Forum guidelines** | Short guidance for one forum, shown above the editor. |
 | **Forum** | A place inside a community where conversations live, grouped under one of the community's categories. |
 | **Front page** | The shared feed at tuvima.com, where everyone's posts appear by category. |
@@ -31,8 +32,10 @@ status: early-access
 | **Join request** | A request to join a community that asks people to be approved first. A moderator approves or declines it. |
 | **Labels** | The front-page category, subtopic and tags a community conversation carries, set by the community's owner and admins. |
 | **Level** | A member's rung on a community's ladder of up to 50 levels. Every community starts with Wanderer, Companion, Pathfinder, Warden and Elder, and the front page uses the same names. |
+| **Member moderation** | How the front page is looked after: members who are not involved, picked at random, take a second look at posts others raise concerns about, and decide together. |
 | **Member tier** | A kind of membership a community offers, such as Supporter. It can open forums and show beside names, but never changes levels, Reputation or votes. |
 | **Moderation record** | The permanent list of moderation actions in a community. |
+| **Moderation history** | The public list, on every front-page post, of what was raised about it and what was decided, with counts and never names. |
 | **New and rising** | A changing selection of young, active communities in the directory. |
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
 | **Persona** | Who you are to others on Tuvima: a handle, display name and picture. Your account stays hidden behind it. |
@@ -44,6 +47,7 @@ status: early-access
 | **Reputation** | Points a member earns in one community when other people value what they wrote. |
 | **Role** | What someone can do in a community, and which members-only areas they can open. Every community has Owner, Admin, Moderator and Member, and owners can make their own. |
 | **Safety step** | One of four steps (New, Member, Regular, Trusted) that every level sits on, chosen by the owner and never shown to members. The step decides how much a vote counts. |
+| **Second look** | A front-page case you have been picked to review. Open cases are listed under **Second look** in the You menu. |
 | **Slow mode** | A limit on how often each person can post in a conversation, from 30 seconds to 1 hour. |
 | **Showcase** | Up to six achievements shown at the top of a member's page in a community, above their pinned posts. |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
