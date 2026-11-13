@@ -51,6 +51,7 @@ Choose **Details** on a row. A panel opens beside the list, so you keep your pla
 - their answers to your [join questions](join-questions.md) (if you can review requests to join),
 - private **moderator notes** (see below),
 - **Warn**, **Suspend** and **Ban**, if your role allows them.
+- **Message**, if you hold a moderation permission. It starts a [private message](../guides/messages.md) to the member, which carries a **Moderator** tag.
 
 Email addresses and sign-in details are never shown here. They stay in Tuvima ID.
 

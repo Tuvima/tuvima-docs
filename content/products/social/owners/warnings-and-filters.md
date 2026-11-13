@@ -108,6 +108,7 @@ Each kind has its own tab with a count. You only see the tabs for the kinds your
 - **Reject**: the post doesn't appear. You can name a rule, give a warning (this needs the **Suspend and ban** permission), and tick **Tell [name] why** to send the writer a note.
 - **Approve and edit**: fix the post, then **Save and approve**. The post is published as a new version and shows as edited. The moderation record shows "Approved after editing", and the writer is told. The original held wording is visible only to the author and the forum's moderators, and nobody can quote it.
 - **Skip**: leave it in the queue for now.
+- **Message**: write privately to the person the item is about, without leaving the queue's decision behind. It shows if you hold a moderation permission, and the message carries a **Moderator** tag.
 
 ### Deciding on reports and join requests
 
