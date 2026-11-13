@@ -92,6 +92,7 @@ Open **Manage**, then **Approval queue**. Everything that needs a moderator's de
 
 - **Held posts**: posts held by a word filter, by warning points, or because they are a newcomer's first posts.
 - **Join requests**: people asking to join.
+- **Coming back**: former members asking to come back, when [returns need a moderator](leaving-and-coming-back.md).
 - **Reported posts** and **Reported messages**: what members have reported.
 
 Each kind has its own tab with a count. You only see the tabs for the kinds your role lets you review. You can show one forum at a time, and choose **Oldest first** or **Newest first**. To look back at reports that have already been handled, choose **Reports already dealt with**, which opens the moderation record of past reports.
@@ -115,6 +116,7 @@ Each kind has its own tab with a count. You only see the tabs for the kinds your
 - **Reported post**: **Keep it** or **Remove post**.
 - **Reported message**: **No action needed** or **Warn**. You only see the lines the reporter sent, under **What the reporter sent**. The rest of the conversation stays private.
 - **Join request**: **Approve** or **Decline**. Declining doesn't tell the person why.
+- **Coming back**: **Approve** or **Decline**. The card shows the persona they had, when they left, their posts and level, and their message if they wrote one. Approving brings them back as that persona.
 
 If another moderator decides an item before you, you see "Someone else already decided this one." and the next one opens.
 
