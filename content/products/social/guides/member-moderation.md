@@ -136,6 +136,16 @@ While your post is hidden by members:
 - You can help fold up to 5 posts a day.
 - You can raise a concern about each post once, and up to 10 posts an hour. You can't raise a concern about your own post, or one you are reviewing.
 
+Some quiet checks stop an organised group from using the process against someone:
+
+- **People who often raise concerns together count as one.** If the same people keep raising concerns on the same posts (3 shared posts in 30 days) and most of those concerns are found fine, their concerns count as one person's. They are also never picked to review the same case.
+- **Your record matters.** If most of your recent concerns were found fine by reviewers (6 of your last 10), your concerns count for half. Only concerns reviewers found fine count against you. Reports of illegal content, and cases without clear agreement, never do.
+- **A cleared author is protected for 30 days.** When reviewers find one of your posts fine, for the next 30 days a concern about any of your posts still gets a second look, but the post stays fully visible while it is checked. Illegal content is the only exception.
+- **A sudden pile-on slows down.** If concerns arrive about 3 or more posts by the same person, or in the same thread, within 24 hours, those posts are not folded straight away, and nobody who raised one of those concerns is picked to review them.
+- **An edited post can be checked again.** If a post is edited after reviewers found it fine, it can get one more check, judged on the new version.
+
+These checks never show anyone your answers, your record or who raised a concern. Tuvima staff watch how the process is working overall (how often reviewers agree, how many cases go unanswered, and random spot checks of closed cases), but a spot check never overrules what members decided.
+
 ## What Tuvima staff do
 
 Tuvima staff no longer judge ordinary cases. They handle:
