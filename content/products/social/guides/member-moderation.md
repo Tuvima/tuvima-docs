@@ -1,6 +1,6 @@
 ---
 title: How member moderation works
-description: On the Tuvima front page, members settle concerns about posts together. How a concern becomes a case, who takes a second look, how many must agree, and what everyone sees.
+description: On the Tuvima front page, and in communities that switch it on, members settle concerns about posts together. How a concern becomes a case, who takes a second look, how many must agree, and what everyone sees.
 audience: user
 category: explanation
 product_area: tuvima
@@ -9,8 +9,8 @@ status: early-access
 
 The Tuvima front page has no moderators of its own. Instead, members look after it together. When someone raises a concern about a post, a small group of members who are not involved is picked at random to take a **second look**. If enough of them agree, the post gets the lightest fix that works. If they don't, the post is left alone.
 
-:::note[Front page only, for now]
-Member moderation works on the Tuvima front page today. Communities will be able to switch the same tools on later. Until then, a community's own moderators handle its reports, as described in [reporting and moderation](reporting-and-moderation.md#report-a-post-in-a-community).
+:::note[Front page, and communities that switch it on]
+Member moderation always runs on the Tuvima front page. Each community decides for itself: it is off until the community's owner switches it on, and until then the community's own moderators handle its reports, as described in [reporting and moderation](reporting-and-moderation.md#report-a-post-in-a-community). See [in communities](#in-communities) for what changes.
 :::
 
 ![How member moderation works, left to right. First, a member raises a concern about a post. A concern about illegal content goes straight to Tuvima staff instead, and members never see it. Second, a case opens and uninvolved members are picked at random: 5 for something to tidy, 7 for something harmful. Third, each reviewer takes a second look and privately chooses the lightest fix or Not sure, within 12 hours. With clear agreement, the post is labelled, folded or hidden. Without it, the post is left alone and nothing goes to staff. If a post is hidden, its author can ask once for another look, and 9 fresh reviewers decide.](../assets/member-moderation.svg)
@@ -146,11 +146,41 @@ Some quiet checks stop an organised group from using the process against someone
 
 These checks never show anyone your answers, your record or who raised a concern. Tuvima staff watch how the process is working overall (how often reviewers agree, how many cases go unanswered, and random spot checks of closed cases), but a spot check never overrules what members decided.
 
+## In communities
+
+A community's owner can switch member moderation on under **Manage › Safety › Member moderation**. Only the owner can change these settings. There are three choices:
+
+- **Off** (the starting setting): nothing changes. Members see **Report**, and moderators handle every report.
+- **Labels and moves**: members can add the community's own labels to a post (for example "Out of date" or "Wrong place") and move a thread to a better forum. Harmful concerns still go to the moderators.
+- **Folding and hiding too**: members can also fold or hide harmful posts, as on the front page.
+
+Once it is on, **Report** becomes **Raise a concern** in that community. The owner also chooses:
+
+- **The community's labels**: five to start, up to 12, each with its own name.
+- **Who can take a second look**: members of that community at the level the owner picks (Regular and above to start) who joined at least 30 days ago. Moderators never take a second look, because they are the ones who can overrule members.
+- **The repeat list**: how many posts by one member that members changed, over how many days, before that member is listed for the moderators (3 posts in 30 days to start; the owner can choose 2 to 20 posts over 7 to 90 days). The list is only for the moderators to see. Nothing happens to anyone automatically.
+
+If a community has fewer than 10 members who can take a second look, concerns go to its moderators instead, the same as with it off.
+
+### Moving a thread
+
+When you choose **Wrong place** on the first post of a thread, you can suggest a forum that would suit it better. If most reviewers agree, the thread moves and shows **Moved here from {forum} by members**, with a link to its history. A thread only ever moves to a forum with exactly the same readers, so a move never makes a post more public or hides it from its own author.
+
+### What moderators can do
+
+Moderators see every case in the community, and can **Overrule** any outcome that changed a post: take a label off, lift a fold, move a thread back or show a hidden post again. The author is told; nobody else is. The overrule shows in the post's public history without any names. Moderators never see who raised a concern or how anyone answered.
+
+A moderator who hides or removes a post that members are still checking takes the case over, and the case ends.
+
+### Illegal content in a community
+
+A concern about illegal content goes to the community's moderators **and** to Tuvima staff, and the person who raised it is told so. Tuvima staff can remove the post with a public reason, or decide it is not illegal. Staff removing a post does not change the author's standing in that community: the community's own moderators decide anything about its members.
+
 ## What Tuvima staff do
 
 Tuvima staff no longer judge ordinary cases. They handle:
 
-- reports of illegal content,
+- reports of illegal content, from the front page and from every community,
 - legal notices,
 - suspensions across all of Tuvima,
 - guarding the process itself, so it stays fair.
@@ -160,7 +190,5 @@ A post reported for illegal content may fold while staff decide, and staff can r
 ## Coming later
 
 - Reviewing will earn Reputation and [achievements](achievements.md) in a later update.
-- Communities will be able to switch these tools on.
-- Members will be able to move a post to the right category.
 
 See [what's ready and what's coming](../reference/status.md).
