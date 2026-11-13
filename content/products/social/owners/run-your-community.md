@@ -96,7 +96,7 @@ Under each tile is its change since the previous period, with an arrow and words
 So nobody can be singled out, any count of people from 1 to 4 shows as **fewer than 5**. This is the same for everyone, including the owner. Zero shows as 0. Things anyone can already see, such as the number of threads and replies in a forum, stay exact.
 
 - When hiding one number would let someone work it out by subtracting from a total, another number is hidden too and shows as **—** (hidden to protect small numbers). For example, in **Members by level**.
-- Changes in counts of people (members, active members and new contributors) are rounded to the nearest 5 and say "about", such as **about +5** or **about −10**. The percent for active members is worked out from the rounded amount. **About the same** means the change was under 3. This way, switching between periods can't reveal a small group. Changes in things anyone can see, such as threads, replies and unanswered questions, and in time to first reply, stay exact. If either period is too small to compare, the change shows as **—**.
+- Changes in counts of people (members, active members and new contributors) are rounded to the nearest 5 and say "about", such as **about +5** or **about −10**. Active members show the change as a percent of the rounded amount, except a change of about 5, which shows as the amount (**about +5**). **About the same** means the change was under 3. This way, switching between periods can't reveal a small group. Changes in things anyone can see, such as threads, replies and unanswered questions, and in time to first reply, stay exact. If either period is too small to compare, the change shows as **—**.
 
 ### Moderators limited to some forums
 
