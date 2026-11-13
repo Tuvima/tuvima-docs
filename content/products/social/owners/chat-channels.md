@@ -117,8 +117,8 @@ The rules you already have apply in chat: suspensions, bans and [newcomer limits
 
 - **Removing messages.** Moderators can open **Message options** on any message and choose **Remove message**. A line saying "This message was removed" stays in its place. The removal is written in your community's moderation log as "Removed a message in a chat channel", **without the message's text**.
 - **Reports.** When a member reports a channel message, it goes to your community's moderators, with the message and up to 5 messages before and after it. A moderator only receives reports about channels they can read.
-- **Keeping good chat.** Moderators can turn anyone's messages into a forum conversation with **Turn into a conversation**. Members can do the same with their own messages. Every writer is credited, and a link is left in the channel.
-- **Moderator tag.** Messages from people who hold a moderation permission carry a **Moderator** tag.
+- **Keeping good chat.** Anyone can turn their own messages into a forum conversation with **Turn into a conversation**. Turning other people's messages needs the **Turn anyone's chat messages into a conversation** permission, which the ready-made Owner, Admin and Moderator roles have. You can switch it on or off for a role on the [Roles](roles.md) screen. Every writer is credited, and a link is left in the channel.
+- **Moderator tag.** In a channel, messages from people who hold a moderation permission carry a **Moderator** tag. In private messages the tag appears only when a moderator writes from the moderation screens.
 
 ## What to tell your members about privacy
 

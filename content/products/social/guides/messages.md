@@ -57,7 +57,7 @@ To choose who may start a conversation with you in the first place, see [who can
 
 ## Messages from moderators
 
-Moderators of a community can always message a member there, whatever that member's settings, so that they can reach you about a problem. Their messages carry a **Moderator** tag, and the community's moderation record notes that a moderator contacted you. It never records what was said.
+Moderators of a community can always reach a member there about a problem, whatever that member's settings. When they do, they write from the community's moderation screens: the message carries a **Moderator** tag, and the community's moderation record notes that a moderator contacted you. It never records what was said. When a moderator messages you the ordinary way, they are a member like anyone else: your settings and blocks apply, and there is no tag.
 
 ## Report a message
 
