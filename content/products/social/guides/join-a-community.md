@@ -1,6 +1,6 @@
 ---
 title: Find and join a community
-description: Find a community in Explore or the directory, choose the persona to use there, and leave when you want to.
+description: Find a community in Explore or the directory, choose the persona to use there, mute it, leave it, and come back as the same persona.
 audience: user
 category: guide
 product_area: tuvima
@@ -33,10 +33,41 @@ Think about the choice. Your global persona lets people recognise you across Tuv
 
 Some communities ask new members to take part for a while before everything is switched on. See [being new to a community](newcomers.md).
 
+## Mute instead of leaving
+
+If you only want a break, choose **Joined** at the top of the community to open **Your membership**, then **Mute this community**. You get no alerts from it, and with your global persona it also stays off your Home. You stay a member. Choose **Unmute this community** to turn things back on.
+
+With a private persona, muting stops the alerts only.
+
 ## Leave
 
-Choose **Joined** at the top of the community, then **Leave community**, and confirm. Your posts stay. You can still find them, and delete them, from **Your posts here** or from your [Tuvima ID account page](/products/id/guides/your-account.md).
+Choose **Joined**, then **Leave this community**. The next page shows what stays and what ends, then choose **Leave**.
 
-If you rejoin with the same persona later, your progress as a member is kept.
+What stays:
+
+- your persona, so the name you used here is kept for you,
+- your posts, shown under your name as usual,
+- your level and achievements.
+
+What ends:
+
+- your roles here, such as moderator,
+- alerts from this community,
+- its place in your community list and on Home.
+
+A [member tier](../owners/member-tiers.md) that is still paid for stays attached, and you still get notices about it.
 
 An owner cannot leave their own community yet. Handing over ownership is planned.
+
+## Come back
+
+Open the community again and choose **Rejoin as** your persona. You always come back as the persona you had there, with your posts, level and achievements where you left them. To use a different name, ask for a rename after you rejoin.
+
+Each community's owner decides how people come back:
+
+- **Any time**: you rejoin straight away, even if the community normally asks people to be approved or invited.
+- **A moderator approves**: you agree to the rules and choose **Ask to come back**, with an optional message for the moderators. The page shows "Your request to come back is waiting" until someone decides. You can choose **Withdraw request** while you wait. If it is not approved, the page says when you can ask again.
+
+If the community asks people to be approved or invited, choose **Been a member before? Come back** under the join button.
+
+Someone who is banned or suspended in a community cannot come back while that lasts.

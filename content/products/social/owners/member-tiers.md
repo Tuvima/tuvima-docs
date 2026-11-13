@@ -72,7 +72,9 @@ Members get a notice when they are given a tier, a reminder about a week before 
 A tier also ends when:
 
 - its end date passes,
-- the member leaves the community, or is banned. No notice is sent then, and joining again does not bring the tier back.
+- the member is banned. No notice is sent then, and joining again does not bring the tier back.
+
+Leaving does not end a tier. It stays attached while the member is away, and they still get its notices.
 
 ## Tier invite codes
 
