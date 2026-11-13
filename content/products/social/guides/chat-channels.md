@@ -35,7 +35,7 @@ The top of a channel shows its name, what it is for, and **Writing as** with the
 
 A channel with messages you have not read is shown in bold with a **dot**. Opening the channel clears it.
 
-If someone replied to you there, the dot becomes a **number**: how many of those messages are waiting. Muted channels never show a number.
+If someone replied to you or mentioned you there, the dot becomes a **number**: how many of those messages are waiting. Muted channels never show a number.
 
 The **Chat** tab shows a dot too when a channel you have not muted has something new.
 
@@ -61,17 +61,19 @@ Choose the **Message options** button (three dots) beside a message.
 - **Change the words** edits your own message. It is marked **edited**, and everyone in the channel can choose **See the edits** to see what it said before.
 - **Remove message** takes away your own message. A line saying "This message was removed" stays in its place, so people can see that something was there but not what it said.
 
-Moderators can remove anyone's message. Their own messages carry a **Moderator** tag.
+Moderators can remove anyone's message. Their own messages in a channel carry a **Moderator** tag.
 
-## When someone replies to you
+## Mention someone
 
-When someone replies to your message, you get a notice in your bell, as long as you can still read that channel and have not muted it. The notice says who replied and in which channel, never what was written.
+Type `@` and the first letters of a member's handle, then pick them from the list. They get a notice in their bell, as long as they can read that channel and have not muted it. Only people you pick from the list are mentioned.
+
+When someone replies to your message, you get a notice in the same way. A notice says who mentioned you or replied, and in which channel, never what was written.
 
 ## Choose your alerts
 
 Choose the **info** button at the top of the channel. On a wide screen the same choices show in a column beside the channel. Under **Your alerts**:
 
-- **Normal**: you are told about replies to you.
+- **Normal**: you are told about mentions and replies to you.
 - **Muted**: you are told nothing from this channel.
 
 Channel alerts appear in the bell only. They never send an email or a phone alert. There is no setting to be alerted about every message. See [keep up with conversations](keep-up.md).
@@ -112,7 +114,7 @@ What happens:
 - The original messages stay in the channel.
 - The conversation is added to **Kept from this channel** in the channel's info, which lists the newest 10. You only see conversations in forums you can open.
 
-You can turn **your own** messages into a conversation. Moderators can turn anyone's. You need to be able to post in the channel, so in a read-only channel only the people who can post there, and moderators, see this choice. The usual limits on starting conversations apply.
+You can turn **your own** messages into a conversation. Turning anyone else's needs a right the community's owner gives to roles; moderators have it to begin with. You need to be able to post in the channel, so in a read-only channel only the people who can post there, and moderators, see this choice. The usual limits on starting conversations apply.
 
 ## Older messages may be cleared
 
