@@ -17,7 +17,9 @@ Each community looks after itself: its moderators deal with reports and keep the
 4. Add a short note if it helps. It is required for **Something else**.
 5. Send it.
 
-The community's moderators see your report and which persona sent it. The person you reported, and other readers, do not.
+The community's moderators see your report and which persona sent it. The person you reported, and other readers, do not. A report of illegal content also goes to Tuvima staff.
+
+Some communities switch on [member moderation](member-moderation.md#in-communities). There, **Report** becomes **Raise a concern**, randomly picked members of that community take a second look, and moderators never see who raised it.
 
 You can follow your reports under **Your reports**, which shows whether each is open or has been reviewed. To protect everyone's privacy, it does not say what action was taken.
 
