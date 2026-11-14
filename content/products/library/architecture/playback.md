@@ -212,6 +212,25 @@ The Engine has explicit Android and iOS playback capability profiles. Native cli
 - offline downloads
 - resume/progress conflict handling across devices
 
+## How the Engine chooses how to play a video (the playback path)
+
+For every start of a video the Engine walks a four-step ladder and the first step that works wins. A step is never skipped "to be safe".
+
+1. **Direct play.** The file's container, picture and sound all work in this player. The Engine sends the file as it is.
+2. **Repackage.** Only the container is wrong (for example H.264 and AAC inside an MKV). The Engine copies picture and sound into a streamable HLS package without re-encoding either.
+3. **Convert the sound.** The picture works but the sound does not (DTS, TrueHD). The picture is copied; only the sound is converted to AAC. Sound the player accepts (AAC, MP3, AC3 where reported) stays as it is.
+4. **Encode the picture.** Only when the picture cannot be played (an unsupported codec, 10-bit H.264, a size above the player's limit, or a remote or slow connection that needs a smaller picture). The Engine builds one quality that suits the player and the connection, using the graphics card first and the processor when the card is unavailable. A second, lower quality is added only when a remote or slow connection asks for it.
+
+`PlaybackLadder` makes the decision from the file's stored technical facts and what the player reports it can play. The manifest carries the result as `playback_path` (`rung`, `reason`, `encoder`, `ran_on`, `fallback_reason`, `waiting_label`, `phase`, `percent_prepared`, `failure_detail`), and every start writes one log line ("Play: repackage, because MKV is not a Web container; video copied, audio copied; encoder copy ..."). The waiting label is the exact line every player shows while it waits, for example "Getting this ready · converting sound" or "Preparing picture · using your graphics card"; it is never only "Preparing video…".
+
+### Graphics hardware
+
+The Engine tests each graphics encoder with a real 640 by 360 picture (NVIDIA's encoder rejects pictures smaller than about 145 by 49) and keeps FFmpeg's own error text, shown as one plain sentence on Settings > Playback > Quality. **Test hardware** runs the test again on demand; the setup Tools step shows the same result as a "Graphics hardware" row that never blocks Continue. If a graphics encode fails to start or writes no segment within 30 seconds, that start restarts on the processor at once and says why. "Maximum active encodes" (`max_concurrent_transcodes`) applies to the next start without restarting the Engine.
+
+### Measured player abilities
+
+Players report what they can actually decode instead of a fixed list: the Dashboard asks the browser's media-capability checks and reports once per session; paired apps send `ClientCapabilitiesDto` schema version 2 through `PUT /devices/current/capabilities` (older apps keep their fixed lists). If a player starts a title and then reports that it could not play it, the Engine remembers that for the device and kind of file and uses the next step from then on; administrators see it on Settings > Security & Devices > Devices as "Learned: ..." and can clear it.
+
 ## Adaptive Video Delivery
 
 The playback manifest keeps direct play when the negotiated client profile supports the source. Otherwise, the Engine creates a source-aware HLS VOD package under the configured variant cache. A package contains independent H.264 video renditions, AAC alternate-audio playlists, managed and embedded WebVTT caption playlists, and a master manifest. Rendition heights never upscale the source.
@@ -228,7 +247,7 @@ The persistent video host owns video transport, captions, audio-track selection,
 
 Windows installers bundle the checksum-pinned FFmpeg build described in `tools/ffmpeg/README.md`. Container builds verify the HLS muxer plus H.264, AAC, and WebVTT encoders. Engine readiness reports these capabilities separately.
 
-`hardware_acceleration` accepts `auto`, `nvenc`, `quicksync`, `vaapi`, `cpu`, or `none`. Auto mode probes hardware encoders and falls back to `libx264`; explicit software modes still report and use normal HLS capabilities. A failed hardware encode is retried once with `libx264`.
+`hardware_acceleration` accepts `auto`, `nvenc`, `quicksync`, `vaapi`, `cpu`, or `none`. Auto mode probes hardware encoders and falls back to `libx264`; explicit software modes still report and use normal HLS capabilities. A graphics encode that fails to start, or writes no segment within 30 seconds, is restarted on `libx264` at once and the reason is shown to the player and the administrator.
 
 ### October 2026 remediation follow-up
 

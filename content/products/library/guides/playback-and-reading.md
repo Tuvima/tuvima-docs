@@ -145,6 +145,16 @@ Episode lists and what plays next use episodes you own. A provider listing alone
 
 Video can play directly when the client supports the source. Other files may need browser-ready delivery first. That can delay playback.
 
+## How Library starts a video
+
+Library picks the lightest way to play each title and tells you which one it chose while you wait.
+
+- **Plays as it is.** The file already works in your player, so it starts in about a second.
+- **Getting this ready.** Only the file type is wrong (for example an MKV with H.264 video), or only the sound cannot be played (DTS, for example). Library copies the picture and, when needed, converts only the sound. This takes a few seconds and barely uses the processor.
+- **Preparing picture.** The picture itself cannot be played, or your connection needs a smaller one. Library uses your graphics card when it works and the processor when it does not, and says why.
+
+Settings > Playback > Quality names the graphics card Library found and has a **Test hardware** button. If a test fails, the page gives the reason in plain words. Your files are never changed. Under **Video quality and devices** you can choose a quality for each person, a lower one for mobile data, and per-device limits such as a maximum resolution; everything is Automatic until you change it.
+
 ## On a tablet or phone
 
 A tablet keeps the same bar with larger touch targets, and its panels open as sheets from the bottom (on touch screens up to 1024 px wide). Nothing depends on hovering: to see the name of an icon, press and hold it.
