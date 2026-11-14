@@ -21,6 +21,8 @@ Tuvima is built so you can talk openly in a community without handing everyone y
 
 When you sign in, Tuvima ID hands Tuvima a short-lived pass that says only "this is persona X". It does not say who you are or which other personas you have. When something you asked to hear about happens, Tuvima hands it to Tuvima ID to deliver by email or phone alert, so Tuvima never needs your address or your devices. Tuvima ID keeps a post's text only if you switched on showing it in alerts, and only until the alert is sent. Only Tuvima ID, and the service providers that run sign-in and deliver email for us, handle your address. Communities never get it.
 
+When you [switch persona in a community](/products/social/guides/switch-persona.md), Tuvima ID keeps a private log of the switch for one year. Communities never read it. It is not shown to moderators or owners. The community learns which two personas belong together only when you press **Switch**, and it gets a new email address for you.
+
 ## What each community sees
 
 | Who | What they can see |
