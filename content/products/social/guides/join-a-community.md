@@ -71,3 +71,9 @@ Each community's owner decides how people come back:
 If the community asks people to be approved or invited, choose **Been a member before? Come back** under the join button.
 
 Someone who is banned or suspended in a community cannot come back while that lasts.
+
+## If a moderator removed you
+
+A moderator can remove someone from a community without banning them, for example for spam or for being off-topic. You get a notice with the reason. Your persona stays, and so do your posts unless they were removed as spam.
+
+To come back, open the community and choose **Join**. Depending on the community, you rejoin straight away or choose **Ask to come back** and wait for a moderator. You come back as the same persona.

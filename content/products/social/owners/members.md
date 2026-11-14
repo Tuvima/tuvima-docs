@@ -28,8 +28,29 @@ Tick the people you want, up to 100 at a time. A bar appears at the bottom of th
 
 - **Give role** and **Take role**: for anyone whose role allows **Give roles**.
 - **Warn**: for anyone whose role allows **Suspend and ban**. See [warnings](warnings-and-filters.md#warnings).
+- **Remove from community**: for anyone whose role allows **Suspend and ban**. See [remove someone](#remove-someone-from-the-community).
 
 The same rules apply as when you act on one person: you can't act on yourself, or on anyone whose role is as high as yours or higher. Each person is changed in turn. Afterwards a summary lists who was done, and who wasn't and why. Everyone who could be changed still is.
+
+## Remove someone from the community
+
+Removing is for someone who doesn't fit your community, without banning them. It needs the **Suspend and ban** permission, and you can't remove anyone whose role is as high as yours or higher.
+
+Choose **Remove from community** on a member's page, or tick several people and use the bar at the bottom. Then:
+
+1. Pick a reason: **Spam**, **Off-topic or not a fit**, **Inactive** or **Other**. For **Other**, write a short note for them.
+2. For spam only, you can tick **Also remove their posts**. Their posts written before the removal are removed in the background.
+3. Read **What happens** and confirm.
+
+Their persona stays, and so do their posts unless you removed them for spam. They get a notice with the reason, but not who removed them. Every removal is kept in the moderation record.
+
+Whether they can come back depends on your [Leaving and coming back](leaving-and-coming-back.md) settings. By default a moderator approves their return in the [approval queue](warnings-and-filters.md#the-approval-queue). An invite lets them straight back in.
+
+### Removed members
+
+The **Removed members** tab on the Members page lists people who were removed, with the date, the reason and who removed them. Choose **Let back in** to approve their waiting request, or, if they haven't asked, to let them straight back the next time they join. They then leave the list.
+
+To keep someone out for good, ban them instead. Bans always stop someone coming back.
 
 ## Export the list
 

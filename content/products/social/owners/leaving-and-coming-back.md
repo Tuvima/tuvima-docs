@@ -18,7 +18,7 @@ You decide how people come back. Open **Manage**, then **Leaving and coming back
 
 ## Coming back after a moderator removed someone
 
-This applies to people a moderator removes from the community. Choose **A moderator approves** (the default) or **Any time**. Removing members is coming soon.
+This applies to people a moderator [removes from the community](members.md#remove-someone-from-the-community). Choose **A moderator approves** (the default) or **Any time**.
 
 ## What these settings don't do
 
