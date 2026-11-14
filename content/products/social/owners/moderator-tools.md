@@ -48,6 +48,17 @@ Merge and split only work between forums that the same people can read. If you m
 
 When you reply in a conversation you moderate, tick **Mark as from the moderators** to mark your reply as guidance from the moderators, such as "Please keep this on topic" or a summary of a decision. The reply shows a **From the moderators** label, and in a [big conversation](../guides/posting.md#read-a-big-conversation) it always appears in Catch up, so people who skip ahead still see it. Only people who moderate that forum can mark a reply this way. (These are different from the private [moderator notes](members.md#moderator-notes) your team keeps about members.)
 
+## Name entries in the moderation record
+
+Switching and renaming are added to the [moderation record](run-your-community.md#reports-and-the-moderation-record) like any other action. You will see:
+
+- **Approved a switch to a global persona** and **Declined a switch**, when a moderator decides a [switching request](warnings-and-filters.md#the-approval-queue).
+- **Renamed a member (their request)** and **Declined a name change**, from [name requests](name-changes.md#name-requests).
+- **Changed a member's name**, when an admin used **Change the name now**. The record keeps the old name, which is how staff can still see it.
+- **Hid a member's name as offensive** and **Showed a member's name again**.
+
+A member who switched to their global persona shows "as @old" on earlier entries, so warnings and notes are not lost. See [Name history](leaving-and-coming-back.md#name-history). A hidden name shows in full to staff here, with a **Name hidden** label.
+
 ## Next steps
 
 - [Run your community](run-your-community.md)

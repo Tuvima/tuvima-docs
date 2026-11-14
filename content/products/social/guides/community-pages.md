@@ -58,6 +58,26 @@ Tuvima fills this in for you from the tags on the conversations you post in, cou
 
 Don't want it? On your own page, turn off **Show "Known for here" on my page**. Then nobody else sees it, and your page looks the same as someone who simply has no tags yet.
 
+## Change your name in a community
+
+If you use a **private persona** in a community, you can't rename it yourself. You ask the admins.
+
+1. Open your persona page in the community, choose **Persona settings**, then **Change my name here**.
+2. Type the **New name**. You can add a **New display name (optional)**, and a **Reason (optional)**. A rename can change your handle and your display name.
+3. Choose **Send to the admins**.
+
+The page then says **Waiting for an admin**, with the date you asked. You can **Withdraw** it, and you can have one request at a time. Nothing changes until an admin approves. You get a notice either way, and a decline can carry a note.
+
+You stay the same persona: posts, level, achievements and followers stay. Your old name shows as "formerly @old" in this community for as long as the owner chose, and a **Name changed recently** label may sit on your posts for 30 days. See [what other people see](switch-persona.md#what-other-people-see). Your picture and about text are free to change at any time, with no request.
+
+An admin may also change your name for you if it is unsuitable. In that case no "formerly" note is shown.
+
+If you are banned in the community, you can't ask. A global persona is renamed in your Tuvima profile, and the page says so.
+
+### If your name is hidden
+
+If an admin hides your name as offensive, you can still see it, with a **Name hidden** label. Everyone else sees **Name hidden** instead of your name, on your posts too. You can still ask for a new name, and approving it shows your name again. Until then you can't switch between private and global.
+
 ## For owners and admins: Insights
 
 **Manage**, then **Insights**, shows how your community is doing over 7 days, 30 days, 90 days or a year: members, active members, new contributors, the typical time to a first reply and questions with no reply, each compared with the period before. Insights counts what people do, never what they read. It never shows page views, reading time or who looked at what, and any count of 1 to 4 people shows as "fewer than 5". See [Insights](../owners/run-your-community.md#insights).

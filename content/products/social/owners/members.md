@@ -56,6 +56,16 @@ To keep someone out for good, ban them instead. Bans always stop someone coming 
 
 A member can [switch between a private and a global persona](../guides/switch-persona.md) without leaving. While the community's name history shows, their page says "formerly @old", and the moderation record shows "as @old" on earlier entries. Their warnings, notes and level follow them. See [Name history](leaving-and-coming-back.md#name-history).
 
+## Unsuitable names
+
+A member with a private persona can't rename themselves; they [ask the admins](name-changes.md). If a name is unsuitable, open the member's side panel or page and use **Unsuitable name**:
+
+- **Change the name now** replaces the handle with a neutral one such as `member_4821`, which you can edit. Their posts, level and achievements stay. Members are not shown "formerly".
+- **Mark as offensive** hides the name from members, who see **Name hidden**, and you then choose a follow-up: **Mute for 7 days**, **Suspend**, **Ban** or **Warn only**. This needs the **Suspend and ban** permission.
+- **Show the name again** undoes a hidden name.
+
+You need the **Approve and change member names** permission, and you can't act on someone whose role is as high as yours or higher. For a global persona the section only explains that its name is Tuvima-wide, and you use Warn, Suspend or Ban. Everything is explained on [Name changes](name-changes.md).
+
 ## Export the list
 
 Owners and admins can choose **Export list** to download the members list as a spreadsheet (a CSV file, which opens in any spreadsheet app).

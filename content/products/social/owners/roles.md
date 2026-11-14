@@ -24,6 +24,12 @@ Every community starts with four. Each can do everything the one below can.
 
 You can rename any of them to suit your community, for example Admin to "Guild Master". You can also change what Admin and Moderator allow: choose a role in the list to open it, switch permissions on or off, and choose **Save**. The button says how many changes you are saving. Choose **Show every permission** to see the full list beside the short one most owners need.
 
+## Approve and change member names
+
+**Approve and change member names** lets a role decide [name requests](name-changes.md#name-requests) from members with a private persona and [change a name now](name-changes.md#change-a-name-now). Admins have it to begin with. Moderators do not, unless you switch it on. It also adds a **Name changes** page under **Manage**.
+
+Hiding a name as offensive needs **Suspend and ban** as well, because it comes with a mute, suspension, ban or warning.
+
 ## Let a role give achievements
 
 The owner and admins can give [achievements](achievements.md) by hand. To let another role do it, open that role and switch on **Give achievements**. People with it can give and take back achievements given by hand, and see the hand-given log. They can't change the achievements themselves.
