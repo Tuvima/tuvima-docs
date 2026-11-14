@@ -16,17 +16,23 @@ Fix a title, cover, or wrong match in Tuvima Library from the item's own page. M
 1. Find the item anywhere: its detail page, a row in a library list, Recently Added, or Needs Review.
 2. Choose **Edit** in its "..." menu (or **Fix** on a Needs Review row). The editor opens at once as a pop-over over the page; nothing on the page behind it changes.
 3. It always opens on the item you chose. An item that is not matched yet opens on **Match**, with the search already filled in from its folder and file names.
-4. Make your changes, then choose **Save changes**, check **Review changes**, and save. **Discard** asks first if you have changes waiting.
+4. Make your changes, then choose **Save changes**, check **Review changes**, and save. **Discard** asks first if you have changes waiting. Two things do not wait: Delete and artwork apply at once, and everything else waits for **Save changes**.
 
-**Why it works this way.** You asked for one step and nothing to learn, so Edit opens the editor directly instead of first putting the page into an "editing" state. Nothing is saved until you have seen the before-and-after list, so a slip never changes your library. Editing works on a computer, a tablet and a phone: it is the same editor with the same rules, arranged to fit the screen (see [Editing on a phone](#editing-on-a-phone)). Your role decides who may edit at all: Edit is shown only to an administrator, on item pages and in lists alike, so nobody else opens the editor only to be refused at Save. If your administrator settings are protected by a PIN and are locked, Edit is still there: tapping it asks for the PIN, then opens the editor. Close the prompt and nothing opens. It is the same prompt everywhere, so you never have to go to Settings first just to fix a title. A TV does not edit.
+**Why it works this way.** You asked for one step and nothing to learn, so Edit opens the editor directly instead of first putting the page into an "editing" state. Nothing about an item's details is saved until you have seen the before-and-after list, so a slip never changes your library. Choosing a picture is different: it is a quick pick you can reverse by picking the earlier picture again, so it takes effect straight away. Editing works on a computer, a tablet and a phone: it is the same editor with the same rules, arranged to fit the screen (see [Editing on a phone](#editing-on-a-phone)). Your role decides who may edit at all: Edit is shown only to an administrator, on item pages and in lists alike, so nobody else opens the editor only to be refused at Save. If your administrator settings are protected by a PIN and are locked, Edit is still there: tapping it asks for the PIN, then opens the editor. Close the prompt and nothing opens. It is the same prompt everywhere, so you never have to go to Settings first just to fix a title. A TV does not edit.
 
 ## The layout
 
 From top to bottom the window has three parts, and the top and bottom never scroll away:
 
-- **The header.** It looks like the thing you are editing. On the left is the item's cover, a picture only (it is not a link). Beside it, the show's or album's name as a plain label, then the item's own title and one line of facts with its match state. Top right are links to its provider records (for example TheTVDB and Wikidata) and the close button. On **Match** the header shrinks to one line, so the search and the chosen result have room ([see Match](#match)). The header's background is a soft gradient taken from the cover's two main colors; a cover with no colors yet gets a plain dark window.
+- **The header.** It looks like the thing you are editing. On the left is the item's cover, a picture only (it is not a link). Beside it, the show's or album's name as a plain label, then the item's own title and one line of facts. Top right are plain links to the item's source pages (TMDB, TheTVDB, Apple Books, MusicBrainz and Wikidata) and the close button. A link appears when the item is matched to that source and the source has a page; an item with no match shows the words "Not matched" instead. The links are the only sign of a match, and the header looks the same on every tab, including **Match**. The header's background is a soft gradient taken from the cover's two main colors; a cover with no colors yet gets a plain dark window.
 - **Tabs.** **Details**, **Artwork**, **Match** and **History**. A supporting file has **Details**, **Preview** and **History**. A Series has **Details** and **History** and is read-only. Administrators also see **Bookmarks** on a film, episode, video, audiobook or book ([see below](#bookmarks-administrators-only)). There is no Contents tab and no Files tab: getting around is the header's job, and a file's facts sit in Quick facts.
 - **A footer.** A red **Delete** at the left; then plain words about your files, "File write-back off: Edits save in Library. Original files stay unchanged." (or "File write-back on: Edits save in Library and are written into the file's own tags."); how many changes are waiting; **Discard**; and **Save changes**. When a match will move a file in a Managed folder, the file line is replaced by an amber warning showing where it goes, until you save or discard.
+
+### Save changes
+
+**Save changes** opens **Review changes**, a compact list with one line per change: the field, the old value struck through, then the new one. A fact that changes in more than one place is one line, not several. When a file will move or be renamed, one amber block says where it goes. The footer has **Back to editing** at the left and **Discard** and **Save changes** at the right. Review never lists pictures, because artwork has already been applied.
+
+After you save, the window closes and the item shows its normal **Updating** state, the same as while Library is ingesting, until the work is done. There is no "Saved" box. If a background step fails, the item shows the usual warning and the **History** tab says which step. **History** is also where you see what changed.
 
 **Why the footer says it.** Editing in Library never rewrites your original files unless you have turned write-back on for that library, and people want to know that before they press Save, not after.
 
@@ -82,9 +88,9 @@ Beside the form, **Quick facts** show the facts that suit the item: a season sho
 
 ## Match
 
-On **Match** the editor's header is one line: a small cover, "Match book" (or movie, episode, song), and a colored dot with the state, "Unmatched" or "Matched to" and the provider's name. The header navigation is still reachable from that line. You always match **the item selected in the header**, nothing else.
+The header stays the same on **Match** as on every other tab, so you can always reach the navigation. You always match **the item selected in the header**, nothing else.
 
-Under the editor's own tabs, Match has two tabs:
+At the top of the Match tab, two tabs choose the kind of match:
 
 - **Media providers** is the retail match (TheTVDB, TMDB, MusicBrainz, OpenLibrary, ComicVine, Apple or YouTube, whichever suits the kind).
 - **Wikidata** is the canonical identity. You search it the same way, or paste a Wikidata link or QID. A result that is the item's parent is marked as the parent and cannot be chosen (a show is never assigned as an episode's identity).
@@ -93,7 +99,7 @@ They are independent: changing one never touches the other, and the tab flags it
 
 ### A matched item
 
-Match opens on what the item is **already matched to**, found by its provider ID, shown in the Match card described below, with **Open source**, **Change match** and **Remove match**. It never says "Nothing called ..." about an item's own title. **Change match** brings up the search row and the results list.
+Match opens on what the item is **already matched to**: its cover, title, creator, year and a short description. Under it are two actions, **Remove match** at the left and **Change match** at the right. There is no verdict, no comparison table and no "based on" note for a match you have already saved, and no Open source button (the links at the top right of the header open the source pages). It never says "Nothing called ..." about an item's own title. **Change match** brings up the search row and the results list.
 
 ### Search
 
@@ -105,9 +111,9 @@ Under the search row, one bar shows **your file**: the file name, then what the 
 
 ### Results and the Match card
 
-Results are a plain list: a small cover, the title, then the creator, the year, and the series and number when the provider gives them. A collection or box set says "Collection". The list carries no verdict and no description; when there are more results than fit, **Show more results** reveals the rest. A tick marks the row you chose.
+Results are a plain list: a small cover, the title, then the creator, the year, and the series and number when the provider gives them. Each cover keeps its own shape and is never cropped or stretched: square for audiobooks, albums and songs, portrait for books, movies and shows, and wide for episodes. A collection or box set says "Collection". The list carries no verdict and no description; when there are more results than fit, **Show more results** reveals the rest. A tick marks the row you chose.
 
-Choose a result and one **Match card** shows it:
+Choose a result and one **Match card** shows the candidate you are considering:
 
 - a large cover, to compare with your own;
 - the title, the series and number, the creator and the year;
@@ -116,7 +122,9 @@ Choose a result and one **Match card** shows it:
 - the verdict, in words: **Strong match**, **Possible match** or **Weak match**;
 - a compare table with three columns, **Field**, **Your file** and **Selected result**, and a mark on each row: a tick where the two agree, a cross where they differ, and a dash where one side is unknown. A dash never counts against the match;
 - a note saying what the verdict is based on;
-- **Apply match**, with one line saying what it does ("Links this book to Apple Books.").
+- **Apply match**, with no explanation line under it.
+
+The verdict and the table appear only while you are weighing a search result; once a match is saved, the Match tab goes back to the plain view described above.
 
 What the verdicts mean:
 
@@ -145,9 +153,9 @@ TV, music, Wikidata and several ticked items all use the same search row, list a
 
 There is **no "Change placement"** and no table lining up every file. Matching an episode to another place moves it, and in a Managed folder its file; files are matched one at a time from the header. A match updates unlocked fields, keeps locked ones, writes History, follows the library's file-management mode, and pins the match so a later scan never re-identifies the file from its folder.
 
-**Why a current match first.** The old tab opened on an empty search, so a matched item looked unmatched and gave a confusing "nothing found". Showing what it is matched to, with the reasons, answers the question people actually have, and it only searches when you ask.
+**Why a current match first.** The old tab opened on an empty search, so a matched item looked unmatched and gave a confusing "nothing found". Showing what it is matched to, plainly and with two actions, answers the question people actually have, and it only searches when you ask.
 
-**Why one card and a table.** Fixing a wrong match should take one glance: your file on one bar, the candidates in a list, and the chosen one with a large cover and a plain table that shows what agrees. The verdict is said once, in the card, so the list stays easy to scan. Words and a table replaced percentages because a number like 87 does not tell you what to look at; a cross beside Year does. The two sources are tabs so the search row gets the full width, and the header is one line on this tab so the results and the card do not have to scroll inside a small box.
+**Why one card and a table, only while you search.** Fixing a wrong match should take one glance: your file on one bar, the candidates in a list, and the chosen one with a large cover and a plain table that shows what agrees. The verdict is said once, in the card, so the list stays easy to scan. Words and a table replaced percentages because a number like 87 does not tell you what to look at; a cross beside Year does. Once you have applied and saved a match there is nothing left to weigh, so the saved match is shown without them. The two sources are tabs so the search row gets the full width; the results and the card scroll inside the window while the header and footer stay put.
 
 ## What is this file?
 
@@ -166,11 +174,13 @@ Library guesses from the file name ("Season 1 trailer.mkv" becomes a Trailer for
 
 **Artwork** has a card for each picture role: Poster, Background and Logo for a film or show, Season poster or Episode still where they apply, and Cover for books, comics, albums and audiobooks. [Artwork types](../reference/artwork-types.md) explains each role. Each card says how many versions you have and which is **Preferred**.
 
-Choose a card to see its picture large, at its real shape (a tall poster, a wide background, a logo), with zoom, and its file facts: size in pixels, file size, type and source. A line under the picture says exactly what changes ("Only this episode's still changes"). Below it a strip shows every version; **click a version to make it Preferred**, and it moves to the front. **Add artwork** offers three ways: the provider's choices (filtered by language, with your app's language first, and by size, with a quiet **Small** mark on pictures too small to look good), an upload, or a pasted link. For a season, **Fetch all** gets every episode still.
+Choose a card to see a small preview of its picture at its real shape (a tall poster, a wide background, a logo), with its file facts: size in pixels, file size, type and source. **View full size** opens the picture large. A line under the preview says exactly what changes ("Only this episode's still changes"). Below it, one row of small thumbnails shows every version; **click a version to make it Preferred**, and it moves to the front. **Add artwork** offers four ways: the provider's choices (filtered by language, with your app's language first, and by size, with a quiet **Small** mark on pictures too small to look good), an upload, a pasted link, or a picture already in your Library. For a season, **Fetch all** gets every episode still. The whole tab fits the window without scrolling on a computer.
+
+**Pictures apply at once.** Choosing a version, uploading, adding from a link or from the Library, and **Make preferred** all change the item the moment you do them. There is no Undo and no need to press **Save changes**. The earlier pictures stay in the versions row, so going back is just picking the old one again. Review changes never lists pictures, and **Discard** does not touch them. **Remove** still asks before it deletes a picture.
 
 For shelves that support edits, you can also keep the stack of member art that Tuvima builds. A shelf cover belongs to the shelf. It does not replace the covers of its members.
 
-**Why large and real-shaped.** The first Artwork tool drew every picture as a small square, so you could not tell a good poster from a poor one, and a wide logo looked cropped. Showing each at its true shape and size, with the file facts, lets you judge before you choose. One click for Preferred replaces a separate "set preferred" button because it is what people tried first. Like every change except Delete, it waits for Save.
+**Why small, real-shaped and instant.** The first Artwork tool drew every picture as a small square, so you could not tell a good poster from a poor one, and a wide logo looked cropped. A later version drew them very large, and you had to scroll to see your choices. A small preview at the true shape, with the file facts, is enough to judge a picture at a glance, and **View full size** is there when you want more. One click for Preferred replaces a separate "set preferred" button because it is what people tried first. Choosing a picture is a quick pick rather than a change to your data, so it applies straight away, and picking an earlier version again is the way back. Save changes is kept for details.
 
 ## Series and Universes
 
@@ -188,15 +198,15 @@ On a film, an episode or a video, an administrator also sees a **Bookmarks** tab
 
 ## History
 
-**History** shows changes to matches, details, artwork and file intake, so you can see what changed and why. If newer changes conflict with yours, the editor keeps your input and offers reload; it does not write over the newer changes.
+**History** shows changes to matches, details, artwork and file intake, so you can see what changed and why. After a save, if a background step fails, History says which step. If newer changes conflict with yours, the editor keeps your input and offers reload; it does not write over the newer changes.
 
 ## Delete
 
-Delete is the red button at the left of the footer, for the item you are on (including a whole show, season, album or Series). On a phone it is in the header's "..." menu instead. In the browser, ticked rows have **Delete** too, and a supporting file is deleted the same way. It asks **"Are you sure?"** once, and the box says what will go, how many files, how much space is freed, whether a hand-picked collection is affected, and, plainly, that removed files cannot be recovered (or that they go to the Recycle bin, when that media type has it switched on). Then it happens **at once**; it does not wait for Save. If your administrator settings are protected by a PIN and are locked, Delete asks for the PIN first, everywhere it appears (an item's page, a tile, a song, ticked rows, Needs Review), and only then asks "Are you sure?". Close the PIN prompt and nothing is asked or deleted. It is the same prompt Edit uses, so you are never asked to confirm a delete that would then be refused.
+Delete is the red button at the left of the footer, for the item you are on (including a whole show, season, album or Series). On a phone it is in the header's "..." menu instead. In the browser, ticked rows have **Delete** too, and a supporting file is deleted the same way. It asks **"Are you sure?"** once, and the box says what will go, how many files, how much space is freed, whether a hand-picked collection is affected, and, plainly, that removed files cannot be recovered (or that they go to the Recycle bin, when that media type has it switched on). Then it happens **at once**; it does not wait for Save. Delete and artwork apply at once; everything else waits for **Save changes**. If your administrator settings are protected by a PIN and are locked, Delete asks for the PIN first, everywhere it appears (an item's page, a tile, a song, ticked rows, Needs Review), and only then asks "Are you sure?". Close the PIN prompt and nothing is asked or deleted. It is the same prompt Edit uses, so you are never asked to confirm a delete that would then be refused.
 
 Files in a read-only folder are never deleted. The item just leaves the Library and is left out of future scans. Unsaved changes on a deleted item are dropped, and changes on other items stay waiting. If you delete the item you are on, the editor moves to its parent, or closes when there is none.
 
-**Why delete happens at once.** Every other change waits for Save because it can be reviewed and cancelled. The delete box already says everything Review would, and a second confirmation after the first would only be noise. The box says plainly that it happens now, so it cannot surprise you.
+**Why delete happens at once.** Details, matches and other data changes wait for Save because they can be reviewed and cancelled (artwork is applied at once for a different reason: picking an earlier picture undoes it). The delete box already says everything Review would, and a second confirmation after the first would only be noise. The box says plainly that it happens now, so it cannot surprise you.
 
 ## Edit several items at once
 
@@ -220,15 +230,15 @@ The editor works on a phone and a tablet as it does on a computer. **Edit** is i
 | Part | On a phone |
 |---|---|
 | Window | A full-screen sheet with Close at the top right. Swiping down never discards; leaving with changes asks first, as on a computer. |
-| Header | Always one line: a small cover, the title and the state. Tap the line to open the navigation as a sheet: home, Season or Section, the item list with pictures, the supporting files and the folder button. |
+| Header | Always one line on every tab: a small cover and the name, with no state line and no source links. Tap the line to open the navigation as a sheet: home, Season or Section, the item list with pictures, the supporting files and the folder button. |
 | Tabs | The same tabs in one row that scrolls sideways when they do not fit. |
 | Details | One column. Each field keeps its label above and its lock at the right. Tap the lock to unlock; tap it again to see where the value came from and to **Revert**. Quick facts sit under the form, closed until you open them. |
-| Artwork | Two pictures per row. You can add a picture from the phone's photos or camera, as well as from providers. |
-| Match | The two tabs, then Provider, each field and **Search** stacked one per line. Results fill the width, and tapping one opens the Match card as a full-screen sheet with **Apply match** fixed at the bottom. TV and music take one step per screen: the show, then the season and episode; the release, then the track. |
+| Artwork | Two small previews per row, applied the moment you choose one. You can add a picture from the phone's photos or camera, as well as from providers. |
+| Match | The two tabs, then Provider, each field and **Search** stacked one per line. A matched item shows its match with the source links at the end of the card (or "Not matched"), and **Remove match** and **Change match** side by side. Results fill the width, and tapping one opens the Match card as a full-screen sheet with **Apply match** fixed at the bottom. TV and music take one step per screen: the show, then the season and episode; the release, then the track. |
 | Supporting files browser | Full screen, with search at the top and the filters and the Folders view in a sheet. **Select** turns on ticking, and the actions for ticked files appear in a bar at the bottom. |
 | Reorder videos | Drag a video by its handle, or use **Move up** and **Move down** in the row's "..." menu. **Save order** and **Cancel** sit in a bar at the bottom. |
-| Review changes | A full-screen step that lists every change, with Back and **Save changes**. |
-| Footer | The write-back line, then **Discard** and **Save changes** side by side. **Delete** is in the header's "..." menu. |
+| Review changes | A full-screen step with the same compact list, one line per change. The footer is stacked, **Save changes** first, then **Discard**, then **Back to editing**. |
+| Footer | The write-back line, then **Discard** and **Save changes** side by side (stacked, with **Save changes** first, in Review changes). **Delete** is in the header's "..." menu. After you save, the window closes and the item shows its normal Updating state. |
 
 Nothing depends on hovering or a right-click: anything a computer shows on hover, such as why a field is locked or the full file path, opens with a tap. Every control is at least 44 px so it is easy to hit with a thumb, and while the keyboard is open the footer stays above it.
 
