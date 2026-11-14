@@ -668,7 +668,7 @@ Controls FFmpeg discovery, adaptive playback packages, offline variants, concurr
 | Field | Type | Default | Description |
 |---|---|---|---|
 | `ffmpeg_binary_path` / `ffprobe_binary_path` | string | `""` | Explicit executable paths. Empty searches, in order: `tools/ffmpeg/` in the Tuvima data folder, `tools/ffmpeg/` next to the Engine, `PATH`, then the operating system's standard install folders (Windows: `Program Filesfmpegin`, `C:fmpegin`, WinGet, Chocolatey and Scoop shims; macOS: `/opt/homebrew/bin`, `/usr/local/bin`). An explicit missing path fails capability detection instead of silently falling back. **Check again** in Settings (`POST /settings/tools/check`) searches again without a restart; work already running keeps the copy it started with. |
-| `hardware_acceleration` | string | `"auto"` | `auto`, `nvenc`, `quicksync`, `vaapi`, `cpu`, or `none`. Auto probes usable hardware encoders; CPU/none select `libx264`. |
+| `hardware_acceleration` | string | `"auto"` | `auto`, `nvenc`, `quicksync`, `vaapi`, `cpu`, or `none`. Auto tests each graphics encoder with a real picture and uses the card when it works, falling back to the processor with a stated reason; CPU/none select `libx264`. Settings > Playback > Quality has a Test hardware button. |
 | `max_concurrent_transcodes` | int | `1` | Shared upper bound for adaptive package preparation. Clamped to 1-8. |
 | `shadow_storage_limit_gb` | int | `500` | Maximum prepared-variant storage. Cleanup evicts least-recently-used ready packages when this bound is exceeded. |
 | `variant_cache_path` | string | `".data/variants"` | Absolute path or path relative to `library_root`. Adaptive packages live below its `hls/` directory. |
