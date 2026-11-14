@@ -15,17 +15,29 @@ Open it by pressing the spinner in the top bar. The spinner is blue while Librar
 
 ## Working now
 
-While work is running, the top of the page shows one progress card for the whole Library, not one bar per library. It shows the percentage, a short line of counts, and a "Review N items" link to Needs Review when something needs a decision. Under it, tiles show the items being added with a small status label. A quiet Background line appears only while housekeeping work (such as fetching artwork) is running.
+While work is running, the top of the page shows one slim progress card for the whole Library, not one bar per library. It has the same animated sync icon as the top bar, the title "Updating your library", an "In progress" label, one line such as "427 of 538 files processed · 16 min elapsed", and a thin bar with the percent at its right end. When the total is not known yet, the card says how many files it has found and the bar moves without a percent. The percent is the same number as the top bar's, never shows 100 while work continues, and counts files only.
 
-When nothing is running, the card says "Everything is up to date" and when the last scan completed.
+If something needs a person, one amber pill, for example "2 need review", opens Needs Review. It shows the same number as the Needs Review tab and the banner, because all three read one count from the Engine. The pill shows the whole number even when you have picked a filter chip, so it always matches the tab. It is hidden at zero.
+
+Under the card, Working now shows small covers of the titles being added, identified or having their details fetched, as many as fit in one row with no scroll bar, with the total in its heading ("Working now · 34 titles"). When more titles are in progress than fit, the row rotates through them. A title that only waits for you in Needs Review is not "working", and neither is follow-up work after a title is usable. Follow-up work, such as making preview pictures for scrubbing, appears on a quiet Background line instead. When the card says "Everything is up to date", Working now is gone.
+
+When nothing is running, the card says "Everything is up to date" and when the last scan completed. The Libraries page shows the same card, with a View activity button that opens this page.
+
+## Filters
+
+The chips at the top (All libraries, Watch, Listen, Read) narrow the whole page together: the card, Working now and the History timeline. With Watch picked, a batch with nothing for Watch is hidden, and a batch that holds several kinds shows only its Watch counts, covers and items. A library's own Activity tab narrows the same way to that library. The History row (search, type, date range and sort) is separate and stays as it is.
 
 ## History
 
-Below it, History is a vertical timeline of past imports, newest first. Each entry shows a date bubble, a headline such as "Added 14 items", the first few covers, and a status: Active while files are still arriving, Completed once Library has been quiet for about five minutes. Because of that quiet period, an entry may turn Completed a minute or so after the spinner turns green.
+Below it, History is a vertical timeline of past imports, newest first, grouped by month ("November 2026 · 2 batches"). A running batch has a purple edge, a title such as "Adding audiobooks", a line such as "2 added so far", up to two small covers and an Active label. A finished batch has a title such as "250 items added" (or "updated", "fixed", "removed"), one line of counts by kind, three small covers with a "+N", and a green Completed check.
 
-Open an entry to see its items in place. Episodes are stacked into one tile per show, tracks into one tile per album, and videos from one folder into one tile per folder, so a hundred new episodes do not become a hundred tiles. Scroll inside the entry to load more.
+One import is one batch. A batch stays open for as long as Library is busy with that import, and the five quiet minutes that close it only start counting once Library goes idle. If Library is stopped part way and starts again, the titles join the batch that was cut off. Files added after Library has been idle for five minutes make a new batch.
 
-Months and years collapse. The current month is open; older years are folded away until you open them. Use the search box to find a title: it appears once, with its own list of the dates it was added. You can also narrow by type and date range.
+Open an entry to see its items in place. Episodes are stacked into one tile per show, tracks into one tile per album, and videos from one folder into one tile per folder, so a hundred new episodes do not become a hundred tiles.
+
+Months and years collapse. The current month is open; older years are folded away until you open them. Use the search box to find a title: it appears once, with its own list of the dates it was added. You can also narrow History by type, date range and sort order.
+
+Everything on this page works the same on a phone; only the layout changes to fit.
 
 Photos and documents never appear in Activity. They have their own place in View.
 
