@@ -9,6 +9,14 @@ status: early-access
 
 Every community is **public** or **private**. Only the owner can change this.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/make-it-private-desktop-light.jpg" alt="The settings for who can see and join a private community." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/make-it-private-desktop-dark.jpg" alt="The settings for who can see and join a private community." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/make-it-private-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/make-it-private-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 - **Public**: anyone can read, including people who are not signed in. Signed-in people can join.
 - **Private**: only members can read anything. If it is listed, everyone else sees just its name and the details you choose to show. If it is unlisted, they see nothing.
 

@@ -9,6 +9,14 @@ status: early-access
 
 The Tuvima front page has no moderators of its own. Instead, members look after it together. When someone raises a concern about a post, a small group of members who are not involved is picked at random to take a **second look**. If enough of them agree, the post gets the lightest fix that works. If they don't, the post is left alone.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/member-moderation-desktop-light.jpg" alt="Moderation in numbers: how many posts members and moderators looked at, and what they decided." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/member-moderation-desktop-dark.jpg" alt="Moderation in numbers: how many posts members and moderators looked at, and what they decided." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/member-moderation-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/member-moderation-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 :::note[Front page, and communities that switch it on]
 Member moderation always runs on the Tuvima front page. Each community decides for itself: it is off until the community's owner switches it on, and until then the community's own moderators handle its reports, as described in [reporting and moderation](reporting-and-moderation.md#report-a-post-in-a-community). See [in communities](#in-communities) for what changes.
 :::

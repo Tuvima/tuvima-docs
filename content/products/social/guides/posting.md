@@ -9,6 +9,14 @@ status: early-access
 
 Inside a community you can start a conversation or reply to one. You need to be a member.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/posting-desktop-light.jpg" alt="A conversation with its opening post, a photo, reactions and replies." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/posting-desktop-dark.jpg" alt="A conversation with its opening post, a photo, reactions and replies." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/posting-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/posting-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Start a conversation
 
 1. Open the community and choose to start a new conversation.

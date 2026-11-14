@@ -9,6 +9,14 @@ status: early-access
 
 **Chat channels** are live chat rooms for your members, beside your forums. Use forums for conversations worth keeping and channels for quick, everyday talk. [Chat channels](../guides/chat-channels.md) explains how members use them.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/owner-chat-channels-desktop-light.jpg" alt="A community&#x27;s chat channels as the owner sees them." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/owner-chat-channels-desktop-dark.jpg" alt="A community&#x27;s chat channels as the owner sees them." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/owner-chat-channels-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/owner-chat-channels-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 Channels are always for members only. Visitors never see them, even in a public community, and nothing from a channel shows on the Tuvima front page, the Home feed or search engines.
 
 Owners and admins set up channels.

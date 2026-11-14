@@ -9,6 +9,14 @@ status: early-access
 
 Tuvima is in Early Access: it is being built and tested, and is not open to everyone yet. This page is the honest list of what works and what is still to come. Planned features may change before they arrive.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/status-desktop-light.jpg" alt="A community&#x27;s numbers: members, posts and activity over time." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/status-desktop-dark.jpg" alt="A community&#x27;s numbers: members, posts and activity over time." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/status-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/status-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Ready today
 
 | Area | What works |

@@ -177,3 +177,16 @@ button.sl-menu-button:has(~ :popover-open),
 
 /* Note, tip and warning boxes: card corners like the app's notices. */
 .starlight-aside { border-radius: 8px; }
+
+/* Screen pictures on the Tuvima and Tuvima ID help pages: the same screen on a computer and a
+   phone, in the reader's light or dark look. Taken from the sample world by the screenshot tool
+   in Tuvima/tuvima-social (e2e/sample/screenshots.spec.ts). */
+.sl-markdown-content figure.tv-screens { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.3fr); gap: 1rem; align-items: start; margin: 1.5rem 0; }
+.sl-markdown-content figure.tv-screens img { width: 100%; height: auto; border: 1px solid var(--tv-border); border-radius: 8px; margin: 0; }
+.sl-markdown-content figure.tv-screens figcaption { grid-column: 1 / -1; color: var(--tv-text-muted); font-size: var(--sl-text-sm); margin: 0; }
+:root[data-theme='light'] figure.tv-screens .tv-dark,
+:root:not([data-theme='light']) figure.tv-screens .tv-light { display: none; }
+@media (max-width: 40rem) {
+  .sl-markdown-content figure.tv-screens { grid-template-columns: minmax(0, 1fr); }
+  .sl-markdown-content figure.tv-screens .tv-phone { width: 60%; justify-self: center; }
+}

@@ -9,6 +9,14 @@ status: early-access
 
 A persona is the name people see when you post. You have one **global persona**, used in any community you join with it, and you can have a **private persona** for a single community. Your personas page on Tuvima ID lists them all in one place. Only you can see it, and communities never learn which personas belong to you.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/id-personas-desktop-light.jpg" alt="Your personas: a global persona and a private persona, with the communities each is in." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/id-personas-desktop-dark.jpg" alt="Your personas: a global persona and a private persona, with the communities each is in." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/id-personas-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/id-personas-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Open the page
 
 Sign in to Tuvima ID and choose **Personas** in the menu. On a phone, the menu is the row of tabs under the top bar.

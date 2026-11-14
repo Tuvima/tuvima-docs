@@ -9,6 +9,14 @@ status: early-access
 
 Your account page on Tuvima ID is the one place that shows everything tied to your account. Only you can see it.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/id-account-desktop-light.jpg" alt="The Tuvima ID account page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/id-account-desktop-dark.jpg" alt="The Tuvima ID account page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/id-account-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/id-account-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Open your account
 
 Go to Tuvima ID and choose **See your account**, or sign in first. The page has two parts.

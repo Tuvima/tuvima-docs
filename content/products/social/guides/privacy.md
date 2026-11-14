@@ -9,6 +9,14 @@ status: early-access
 
 Tuvima gives you a simple, reasonable expectation of privacy while you take part in conversations. It is not built to hide everything from everyone, including from Tuvima itself, and we want you to know the difference.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/privacy-desktop-light.jpg" alt="The profile page where you edit your persona&#x27;s name, picture and about text." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/privacy-desktop-dark.jpg" alt="The profile page where you edit your persona&#x27;s name, picture and about text." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/privacy-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/privacy-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## What others can see
 
 - **Your persona**: handle, display name and picture, for the persona you use in that place.

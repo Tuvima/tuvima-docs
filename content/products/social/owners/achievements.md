@@ -9,6 +9,14 @@ status: early-access
 
 [Achievements](../guides/achievements.md) are small marks of recognition for what members do in your community. They never open areas or give powers. This page shows how to run them.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/owner-achievements-desktop-light.jpg" alt="The settings for a community&#x27;s achievements." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/owner-achievements-desktop-dark.jpg" alt="The settings for a community&#x27;s achievements." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/owner-achievements-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/owner-achievements-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Open the achievements page
 
 Choose **Manage**, then **Achievements** under **Members and access**. You see it if you are the owner or an admin, or if one of your roles has the **Give achievements** permission. Someone with only that permission sees only the hand-given log.

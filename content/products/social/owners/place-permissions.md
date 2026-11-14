@@ -9,6 +9,14 @@ status: early-access
 
 Forums and chat channels share one list of **permissions**. A permission is one thing a person may do, such as start a thread, reply or post a message in chat. Every role has its own community-wide switches, and every **place** can change them for that place. A place is a category, a forum or a chat channel.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/place-permissions-desktop-light.jpg" alt="The permissions for each place in a community, by role." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/place-permissions-desktop-dark.jpg" alt="The permissions for each place in a community, by role." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/place-permissions-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/place-permissions-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 Use this to make an announcements channel only staff can write in, to mute someone, or to let a helper moderate one forum and nowhere else.
 
 The owner, and anyone with **Manage categories and forums**, can set permissions for categories and forums. For chat channels, the permission is **Manage chat channels**.

@@ -9,6 +9,14 @@ status: early-access
 
 By the end of this page you will have a Tuvima ID and a public handle, and you will be ready to join a community. It takes about three minutes.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/id-getting-started-desktop-light.jpg" alt="A new member&#x27;s Tuvima ID account page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/id-getting-started-desktop-dark.jpg" alt="A new member&#x27;s Tuvima ID account page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/id-getting-started-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/id-getting-started-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Before you start
 
 You need an email address you can open now. It stays private: nobody on Tuvima will see it.

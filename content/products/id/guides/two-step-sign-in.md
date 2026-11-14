@@ -9,6 +9,14 @@ status: early-access
 
 Two-step sign-in means that signing in needs two things: your usual sign-in, and a short code from an app on your phone. Someone who learns your password still cannot get in without your phone.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/id-two-step-desktop-light.jpg" alt="The security page, with two-step sign-in turned on." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/id-two-step-desktop-dark.jpg" alt="The security page, with two-step sign-in turned on." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/id-two-step-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/id-two-step-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Before you start
 
 Install an authenticator app on your phone. Any app that makes six-digit sign-in codes works.

@@ -9,6 +9,14 @@ status: early-access
 
 Members who use a **private persona** in your community can't change their name on their own. They ask the admins, and an admin decides. You can also change a name yourself, or hide a name that is offensive. This page covers all of it. Members' side: [Change your name in a community](../guides/community-pages.md#change-your-name-in-a-community).
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/name-changes-desktop-light.jpg" alt="The page for reviewing members&#x27; name changes." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/name-changes-desktop-dark.jpg" alt="The page for reviewing members&#x27; name changes." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/name-changes-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/name-changes-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 A member's **global persona** is different. Its name is the same across Tuvima, so it is changed in their Tuvima profile, not here. See [global personas](#global-personas).
 
 ## Who can do this

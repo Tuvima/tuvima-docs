@@ -9,6 +9,14 @@ status: early-access
 
 How people join is its own setting, for public and private communities alike. A public community can be readable by anyone and still ask people to be approved before they take part.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/how-people-join-desktop-light.jpg" alt="The settings for how people join: straight away, by asking, or by invitation." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/how-people-join-desktop-dark.jpg" alt="The settings for how people join: straight away, by asking, or by invitation." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/how-people-join-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/how-people-join-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 Owners and admins choose it in **Manage**, then **Joining and privacy**.
 
 ## The three ways in

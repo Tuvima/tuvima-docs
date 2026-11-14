@@ -9,6 +9,14 @@ status: early-access
 
 An **achievement** is a small mark of recognition for something you did, such as your first reply, a year as a member, or having your answer accepted ten times. Each one has an **emblem**: a shape, a symbol and two colours.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/achievements-desktop-light.jpg" alt="A community&#x27;s achievements page, showing what members can earn." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/achievements-desktop-dark.jpg" alt="A community&#x27;s achievements page, showing what members can earn." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/achievements-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/achievements-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 Achievements are recognition only. They never open an area, add to your votes or give you any powers. [Levels](reputation.md#levels) and [member tiers](../owners/member-tiers.md) do that. There is no score either: every achievement stands on its own, and nothing adds them up into a total.
 
 Every community has its own achievements, set up by its owner, and the Tuvima front page has its own too. Yours in one place never mix with another place.

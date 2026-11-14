@@ -9,6 +9,14 @@ status: early-access
 
 Each community looks after itself: its moderators deal with reports and keep the conversation on track. The front page has no moderators: members look after it together, through [member moderation](member-moderation.md). Tuvima's own team handles illegal content, legal notices and suspensions across all of Tuvima.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/reporting-desktop-light.jpg" alt="A conversation where a moderator has hidden an unkind reply, seen by a moderator." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/reporting-desktop-dark.jpg" alt="A conversation where a moderator has hidden an unkind reply, seen by a moderator." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/reporting-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/reporting-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Report a post in a community
 
 1. Choose **Report** on the post. You need to be signed in.

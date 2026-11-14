@@ -9,6 +9,14 @@ status: early-access
 
 Most communities can be read without joining, by anyone. Join to post, reply and get notices. A **private** community can be read only by its members; see [joining a private community](join-private-community.md).
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/join-a-community-desktop-light.jpg" alt="A community that asks people to request to join, showing its join button, rules and description." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/join-a-community-desktop-dark.jpg" alt="A community that asks people to request to join, showing its join button, rules and description." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/join-a-community-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/join-a-community-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Find a community
 
 Choose **Explore** in the menu, or **Find a community** on Home if you haven't joined one yet. Explore suggests communities for you and shows what is growing; see [Explore and your communities and follows](explore.md). For the full directory, choose **See more**:

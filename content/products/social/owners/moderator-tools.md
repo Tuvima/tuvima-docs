@@ -9,6 +9,14 @@ status: early-access
 
 Moderators have a few tools to keep conversations tidy. Every use is added to the [moderation record](run-your-community.md#reports-and-the-moderation-record).
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/moderator-tools-desktop-light.jpg" alt="The approval queue with a newcomer&#x27;s first post waiting for a moderator." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/moderator-tools-desktop-dark.jpg" alt="The approval queue with a newcomer&#x27;s first post waiting for a moderator." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/moderator-tools-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/moderator-tools-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Pin a conversation
 
 A pinned conversation stays at the top of the list.

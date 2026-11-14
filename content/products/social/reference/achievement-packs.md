@@ -9,6 +9,14 @@ status: early-access
 
 An achievement pack is a JSON file of ready-made achievements that a community imports in one step. Owners and admins import packs from **Manage**, **Achievements**, **Packs**, and can export their own achievements in the same format to share. See [Run achievements in your community](../owners/achievements.md#packs).
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/achievement-packs-desktop-light.jpg" alt="The staff page listing achievements available on Tuvima." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/achievement-packs-desktop-dark.jpg" alt="The staff page listing achievements available on Tuvima." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/achievement-packs-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/achievement-packs-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## An example
 
 ```json

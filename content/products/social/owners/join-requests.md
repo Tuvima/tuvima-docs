@@ -9,6 +9,14 @@ status: early-access
 
 When your community uses **Ask to join**, or during a [slow-down](how-people-join.md#sudden-rush-of-new-members), requests wait for someone to decide. Moderators, admins and the owner can review them, along with any [role](roles.md) given **Review requests to join**.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/join-requests-desktop-light.jpg" alt="The list of people asking to join a community, with buttons to approve or decline." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/join-requests-desktop-dark.jpg" alt="The list of people asking to join a community, with buttons to approve or decline." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/join-requests-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/join-requests-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Approve or decline
 
 1. Open your community's moderation page and choose the **Requests** tab, next to **Reports**. The oldest requests come first.

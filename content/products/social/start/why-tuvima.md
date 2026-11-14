@@ -9,6 +9,14 @@ status: early-access
 
 The word "Tuvima" means "discoverable". That is the whole idea: good communities should be easy to find, easy to join and easy to keep coming back to.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/community-home-desktop-light.jpg" alt="A community&#x27;s home page with its banner, forums, rules and latest conversations." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/community-home-desktop-dark.jpg" alt="A community&#x27;s home page with its banner, forums, rules and latest conversations." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/community-home-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/community-home-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Bring focused communities back
 
 Not long ago, the best conversations online happened in small, focused places: a forum for one hobby, a group for one town, a board for people going through the same thing. Many of those places have faded as everyone moved into a few huge meeting spaces, where specific conversations get lost in the noise.

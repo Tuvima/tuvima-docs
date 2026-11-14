@@ -9,6 +9,14 @@ status: early-access
 
 A few rules apply everywhere on Tuvima. Each community adds its own rules on top, and can be stricter, but never less strict.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/community-rules-desktop-light.jpg" alt="A community&#x27;s rules page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/community-rules-desktop-dark.jpg" alt="A community&#x27;s rules page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/community-rules-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/community-rules-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Not allowed anywhere
 
 - Scams or fraud.

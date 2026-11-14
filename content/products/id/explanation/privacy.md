@@ -9,6 +9,14 @@ status: early-access
 
 Tuvima is built so you can talk openly in a community without handing everyone your whole life. This page explains the privacy you get, and just as plainly, the privacy you do not get.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/id-privacy-desktop-light.jpg" alt="The page showing the interests Tuvima ID keeps for your Home feed, with ways to change them." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/id-privacy-desktop-dark.jpg" alt="The page showing the interests Tuvima ID keeps for your Home feed, with ways to change them." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/id-privacy-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/id-privacy-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## The short version
 
 - Your sign-in email stays in Tuvima ID. Communities, owners, moderators and other members never see it.

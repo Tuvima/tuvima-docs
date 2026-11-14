@@ -15,6 +15,14 @@ status: early-access
 
 A **member tier** is a kind of membership your community offers, such as **Supporter**, **Patron** or **Season pass**. A tier can open forums only its members see, and it can show beside their name on posts.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/member-tiers-desktop-light.jpg" alt="The settings for a community&#x27;s member tiers." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/member-tiers-desktop-dark.jpg" alt="The settings for a community&#x27;s member tiers." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/member-tiers-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/member-tiers-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 A tier gives access and perks, **never influence**. Holding a tier never changes someone's [level](../guides/reputation.md#levels), their Reputation, how much their votes count or how far their posts reach.
 
 Tiers are separate from [roles](roles.md). A role is a job in the community, such as Moderator. A tier is a kind of membership. Someone can have both.
