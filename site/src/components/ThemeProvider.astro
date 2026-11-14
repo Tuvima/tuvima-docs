@@ -1,10 +1,16 @@
 <script is:inline>
+  // Light or dark follows the device unless the reader picked one, like the Tuvima apps.
   (() => {
-    let storedTheme;
-    try { storedTheme = localStorage.getItem('starlight-theme'); } catch {}
-    const theme = storedTheme || 'dark';
-    document.documentElement.dataset.theme = theme === 'auto'
-      ? (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark')
-      : theme;
+    let stored;
+    try { stored = localStorage.getItem('starlight-theme'); } catch {}
+    const choice = stored === 'light' || stored === 'dark' ? stored : 'auto';
+    const query = matchMedia('(prefers-color-scheme: dark)');
+    const apply = () => {
+      const current = document.documentElement.dataset.themeChoice || choice;
+      document.documentElement.dataset.theme = current === 'auto' ? (query.matches ? 'dark' : 'light') : current;
+    };
+    document.documentElement.dataset.themeChoice = choice;
+    apply();
+    query.addEventListener('change', apply);
   })();
 </script>

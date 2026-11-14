@@ -71,22 +71,23 @@ const itemHome = hub.switcher.find(s => s.current)?.href;
 	.right-group, .social-icons { gap: 1rem; align-items: center; }
 	.social-icons::after { content: ''; height: 2rem; border-inline-end: 1px solid var(--sl-color-gray-5); }
 	.hub-areas { gap: 1.75rem; align-items: center; justify-content: center; flex: 1 1 auto; min-width: 0; white-space: nowrap; }
-	.hub-areas a { color: var(--sl-color-gray-2); text-decoration: none; font-family: 'Tuvima Sans', var(--sl-font); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; padding: 0.9rem 0.1rem; border-bottom: 2px solid transparent; }
-	.hub-areas a:hover, .hub-areas a[aria-current] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-accent); }
+	.hub-areas a { color: var(--sl-color-gray-3); text-decoration: none; font-family: 'Tuvima Sans', var(--sl-font); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; padding: 0.9rem 0.1rem; border-bottom: 2px solid transparent; }
+	.hub-areas a:hover, .hub-areas a[aria-current] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-text-accent); }
 	.hub-search-slot { flex: 0 1 16rem; justify-content: flex-end; }
 	.item-bar { align-items: center; gap: 1.25rem; border-top: 1px solid var(--sl-color-gray-5); height: 3rem; }
 	.item-name { display: inline-flex; align-items: center; gap: 0.5rem; font-family: 'Tuvima Sans', var(--sl-font); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--sl-color-white); text-decoration: none; }
 	.item-switcher { position: relative; }
-	.item-switcher summary { cursor: pointer; list-style: none; color: var(--sl-color-gray-3); font-size: var(--sl-text-xs); padding: 0.3rem 0.6rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.35rem; }
+	.item-switcher summary { cursor: pointer; list-style: none; color: var(--sl-color-gray-3); font-size: var(--sl-text-xs); padding: 0.3rem 0.6rem; border: 1px solid var(--sl-color-gray-5); border-radius: 6px; }
 	.item-switcher summary::-webkit-details-marker { display: none; }
 	.item-switcher summary::after { content: ' \25BE'; }
-	.item-switcher ul { position: absolute; z-index: 10; margin: 0.35rem 0 0; padding: 0.35rem; list-style: none; min-width: 15rem; background: var(--sl-color-bg-nav); border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; box-shadow: var(--sl-shadow-md); }
-	.item-switcher li a { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 0.65rem; border-radius: 0.35rem; color: var(--sl-color-gray-1); text-decoration: none; }
+	.item-switcher ul { position: absolute; z-index: 10; margin: 0.35rem 0 0; padding: 0.35rem; list-style: none; min-width: 15rem; background: var(--sl-color-bg-nav); border: 1px solid var(--sl-color-gray-5); border-radius: 8px; box-shadow: var(--sl-shadow-md); }
+	.item-switcher li a { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 0.65rem; border-radius: 6px; color: var(--sl-color-gray-1); text-decoration: none; }
 	.item-switcher li a small { color: var(--sl-color-gray-3); }
-	.item-switcher li a:hover, .item-switcher li a[aria-current] { background: var(--sl-color-accent-low); }
+	.item-switcher li a:hover { background: color-mix(in srgb, var(--sl-color-white) 7%, transparent); }
+	.item-switcher li a[aria-current] { background: var(--sl-color-accent-low); }
 	.item-groups { display: flex; gap: 0.25rem; margin-inline-start: auto; }
-	.item-groups a { color: var(--sl-color-gray-2); text-decoration: none; font-family: 'Tuvima Sans', var(--sl-font); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; padding: 0.9rem 0.6rem; border-bottom: 2px solid transparent; }
-	.item-groups a:hover, .item-groups a[aria-current] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-accent); }
+	.item-groups a { color: var(--sl-color-gray-3); text-decoration: none; font-family: 'Tuvima Sans', var(--sl-font); font-size: 1.02rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1; padding: 0.9rem 0.6rem; border-bottom: 2px solid transparent; }
+	.item-groups a:hover, .item-groups a[aria-current] { color: var(--sl-color-white); border-bottom-color: var(--sl-color-text-accent); }
 	@media (max-width: 49.99rem) {
 		.title-wrapper { flex: 1 1 auto; overflow: visible; }
 		.hub-search-slot { flex: 0 0 auto; }
