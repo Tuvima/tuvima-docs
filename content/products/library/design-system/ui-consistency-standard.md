@@ -116,7 +116,7 @@ Everything that floats over the page is one of four kinds, each a single shared 
 - **Pop-out:** anchored to its control with no dimming, closed by pressing elsewhere or Escape. Pop-up menus are 240 to 360px wide with 48px rows and 16px labels; a dropdown's list is at least as wide as its dropdown, grows to fit its longest option, and keeps every option on one line at 14px; Panels are 400px wide and hold tools such as the player's speed, audio, subtitles and queue.
 - **Viewer:** full screen, for the reader, photos, documents and search.
 
-The details window (a title opened from a list) is a Window, not a Viewer: it floats at 90% of the screen with the page visible around it, and on a phone it is the Sheet.
+The details window (a title opened from a list) is a Window, not a Viewer: it floats at 90% of the screen with the page visible around it, and on a phone it is the Sheet. On a screen up to about 1500 px wide nothing changes; on a wider screen the window's width follows its height (a 16:9 hero) up to 1920 px, so a landscape background fills the hero and is never cut off at the sides.
 
 In a larger window's footer, buttons sit in one row at the right: a quiet text button first, then a destructive button (outlined red), then Cancel or Discard, then the one primary button last. On phones they stack full width with the primary first. A short confirmation is different: a roomy box with no lines inside, the safe choice as a neutral outlined button with the focus, and the destructive choice as a solid red button, last. Why: people learn where "keep" and "delete" are once, and pressing Enter or Escape never destroys anything by accident.
 

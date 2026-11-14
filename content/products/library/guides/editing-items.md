@@ -35,7 +35,7 @@ From top to bottom the window has three parts, and the top and bottom never scro
 Under the title is one row that is the map of the item's family:
 
 1. **Home button** (in the accent color). It goes back up to the root: the show, the album, the Series. It is the only way up.
-2. **Season** dropdown (**Section** on a course). Pick another season or section.
+2. **Season** dropdown (**Section** on a course). Pick another season or section. It also has **Select episodes** (**Select videos** for a folder of videos): the window lists that season's or section's rows with tick boxes, and choosing Edit on the ticked rows opens **Editing N episodes**. The show page itself has no tick boxes on its episode or Series rows. A folder of videos' dropdown names each folder in the same order with its video count.
 3. **Item dropdown.** For a show it lists the episodes with each one's still, code (S02E03) and title, a tick when matched, a warning when not, and a purple dot when changes are waiting on it. It is searchable and pages in as you scroll, so a 500-episode show opens as fast as a short one. Below the episodes it lists the **supporting files that belong to this season**, then **All supporting files** (which opens the browser when there are more than eight), and last a folder button, **Browse files and folders**, which opens the real folder tree so any file Library found can be reached, sorted or not.
 
 What you see depends on the item:
@@ -200,7 +200,7 @@ Files in a read-only folder are never deleted. The item just leaves the Library 
 
 ## Edit several items at once
 
-Tick rows in a list (a song list, Needs Review, a library table, a season page) or in the supporting-files browser and choose Edit. On a phone, **Select** in a row's "..." sheet turns on ticking, and for ticked songs **Edit** is under the **...** button beside Done. The editor becomes **"Editing 12 songs"**, with small pictures, and its home button goes back to the family. It offers only the changes that make sense for all of them:
+Tick rows in a list (a song list, Needs Review, a library table) or in the supporting-files browser and choose Edit. For episodes, use **Select episodes** in the editor's Season dropdown (the show page has no tick boxes). On a phone, **Select** in a row's "..." sheet turns on ticking, and for ticked songs **Edit** is under the **...** button beside Done. The editor becomes **"Editing 12 songs"**, with small pictures, and its home button goes back to the family. It offers only the changes that make sense for all of them:
 
 - Facts that identify one item, such as title, track or episode number, ISBN and file name, are never offered.
 - Facts that describe a group are offered when every item is the same kind: album, album artist, genre, year and disc (songs); series and author (books); tags (everything); Explicit (songs and videos). Season and show are changed through Match, one item at a time.
