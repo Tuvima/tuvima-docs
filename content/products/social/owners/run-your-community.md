@@ -98,9 +98,9 @@ So nobody can be singled out, any count of people from 1 to 4 shows as **fewer t
 - When hiding one number would let someone work it out by subtracting from a total, another number is hidden too and shows as **—** (hidden to protect small numbers). For example, in **Members by level**.
 - Changes in counts of people (members, active members and new contributors) are rounded to the nearest 5 and say "about", such as **about +5** or **about −10**. Active members show the change as a percent of the rounded amount, except a change of about 5, which shows as the amount (**about +5**). **About the same** means the change was under 3. This way, switching between periods can't reveal a small group. Changes in things anyone can see, such as threads, replies and unanswered questions, and in time to first reply, stay exact. If either period is too small to compare, the change shows as **—**.
 
-### Moderators limited to some forums
+### Areas a moderator can't open
 
-A moderator whose role is limited to some forums sees the totals for the whole community, with the note "Totals include areas you can't open."
+A moderator who can't open some areas sees the totals for the whole community, with the note "Totals include areas you can't open."
 
 ## Settings
 
@@ -111,5 +111,5 @@ The [admin area](admin-area.md) lists every settings page. You see the ones your
 - **Forums and categories**: how conversations are grouped, forum types, who can see and post in each, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md) and [choose who can see and post in each area](area-access.md).
 - **Rules**, **Photos** and **Add-ons**: see [add-ons](add-ons.md).
 - **Joining and privacy**: **Public** or **Private**, **Listed** or **Unlisted**, how people join and join questions. See [make your community private](make-it-private.md), [how people join](how-people-join.md) and [join questions](join-questions.md).
-- **Roles and permissions**: see [roles: ready-made and your own](roles.md).
+- **Roles and permissions**: see [roles: ready-made and your own](roles.md) and [set permissions for a place](place-permissions.md).
 - **Warnings and word filters**: see [warnings, word filters and the approval queue](warnings-and-filters.md).

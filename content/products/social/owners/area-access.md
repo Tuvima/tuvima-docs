@@ -23,6 +23,8 @@ In a private community everything is already members-only, so you choose between
 
 The owner and admins always see and post everywhere.
 
+**Who can see and post** comes first. It decides who may be in an area at all. Each area's **Permissions** then fine-tune what each role can do there, such as starting threads or reacting. See [set permissions for a place](place-permissions.md).
+
 ## Forums follow their category
 
 A forum gets its category's rule (**Same as its category**). You can narrow a forum further, but never open it wider than its category. For example, if a category is for Moderators and up, a forum inside it cannot be open to every member.
@@ -61,5 +63,6 @@ In a public gaming community, a "Campaign planning" forum set to **Only some mem
 
 ## Next steps
 
+- [Set permissions for a category, forum or chat channel](place-permissions.md)
 - [Roles: ready-made and your own](roles.md)
 - [Categories, forums and the front page](categories-and-forums.md)

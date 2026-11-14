@@ -1,13 +1,13 @@
 ---
 title: "Roles: ready-made and your own"
-description: Use the four ready-made roles, rename them, choose what each allows, make your own roles as copies, limit a role to some forums, and give roles to members.
+description: Use the four ready-made roles, rename them, choose what each allows, make your own roles as copies, give roles to members and compare what roles can do.
 audience: user
 category: guide
 product_area: tuvima
 status: early-access
 ---
 
-A **role** says what someone can do in your community, and can also open [members-only areas](area-access.md) to the people who hold it. A person can hold several roles. Every role lives in one list: **Manage**, then **Roles and permissions**.
+A **role** says what someone can do in your community, and can also open [members-only areas](area-access.md) to the people who hold it. A person can hold several roles. Every role lives in one list: **Manage**, then **Roles and permissions**. A role sets what its holders can do across the whole community. To change that for one category, forum or chat channel, see [set permissions for a place](place-permissions.md).
 
 Only the owner changes roles. Moderators and up can see what each role allows.
 
@@ -20,9 +20,11 @@ Every community starts with four. Each can do everything the one below can.
 | **Owner** | Everything, always. |
 | **Admin** | Everything a moderator can, plus changing rules and settings, managing categories and forums, giving roles, making invites, managing newcomers and seeing [Insights](run-your-community.md#insights) (the **See the numbers** permission). |
 | **Moderator** | Hiding and removing posts, pinning and looking after threads, marking accepted answers, suspending and banning, reviewing reports and requests to join, and seeing the members list and the moderation record. |
-| **Member** | Posting, replying, reacting and reporting. Everyone who joins holds it. |
+| **Member** | Everyday actions: starting threads, replying, chatting, reacting and voting, photos, links, polls and looking for group, plus reporting. Everyone who joins holds it. |
 
 You can rename any of them to suit your community, for example Admin to "Guild Master". You can also change what Admin and Moderator allow: choose a role in the list to open it, switch permissions on or off, and choose **Save**. The button says how many changes you are saving. Choose **Show every permission** to see the full list beside the short one most owners need.
+
+A role's page groups its permissions: **Everyday** (what ordinary members do), then the staff groups **Conversations**, **Chat**, **Members** and **Running the community**. See [the permissions](place-permissions.md#the-permissions) for the full list.
 
 ## Approve and change member names
 
@@ -42,11 +44,11 @@ Switch on **Show on posts** to put a small tag with the role's name next to its 
 
 ## Compare roles
 
-Under the roles list, **Compare roles** shows what up to six roles allow side by side, grouped into moderation, members, running the community and features. A box says **Yes**, **No**, the names of the forums a role is limited to, or "not for newcomers". Choose **Choose roles to compare** to pick which roles to show, and **Show all permissions** for the full list.
+Under the roles list, **Compare roles** shows what up to six roles allow side by side, grouped into everyday, moderation, members and running the community. A box says **Yes**, **No** or "not for newcomers". Choose **Choose roles to compare** to pick which roles to show, and **Show all permissions** for the full list. The **In:** picker chooses a place, such as a forum or a #channel. Choose **Show** to see what each role can do there, after that place's own [permissions](place-permissions.md).
 
-## Feature switches
+## Everyday permissions
 
-Each role also has switches for **Post photos**, **Start polls**, **Looking for group posts** and **Add links to posts**. Switch one off and people who hold only that role can't use it. When someone holds several roles, the most generous one wins. The owner is never limited.
+Posting photos, making polls, using looking for group and adding links are **Everyday** permissions, beside starting threads, replying, chatting and reacting. Switch one off for a role and people who hold only that role can't use it. When someone holds several roles, the most generous one wins, unless a place says Deny: see [how the choices add up](place-permissions.md#how-the-choices-add-up). The owner is never limited.
 
 Some rights belong to the owner alone and cannot be given to any role: making the community public or private, handing it over, and deleting it. Choosing whether it is listed, showing edit history and setting levels by hand also stay with the owner.
 
@@ -63,11 +65,9 @@ A copy of **Member** has no staff permissions. Use one to open private areas to 
 
 A community can have up to 30 roles. Custom roles can be deleted; the ready-made ones cannot.
 
-## Limit a role to some forums
+## Moderate one forum only
 
-A copy of Moderator can be limited to chosen forums, for example a helper who looks after one forum. Under **Where it applies**, choose **Only in chosen forums** and pick them. Only post moderation can be limited this way: hiding and removing, pinning, accepted answers, reports and the moderation record. Untick other permissions first.
-
-Outside those forums, the person counts as a regular member: they can't moderate there and don't open areas set to Moderators and up. Even in their own forums, pinning a thread for the whole community, featuring, and moving, merging or splitting threads stay with full moderators.
+To let someone look after one forum, make a copy of Moderator with nothing switched on, then choose **Allow** on that forum's Permissions tab. They moderate there and nowhere else. See [a moderator for one forum only](place-permissions.md#a-moderator-for-one-forum-only).
 
 ## Give someone a role
 
@@ -75,7 +75,7 @@ Outside those forums, the person counts as a regular member: they can't moderate
 2. Under **Roles**, tick the roles to give and untick those to take away.
 3. Choose **Save roles**.
 
-The person is told "You were given the … role". Admins, and anyone else whose role allows **Give roles**, can give only roles below their own, carrying only permissions they hold themselves. Nobody can change their own roles.
+The person is told "You were given the … role". Admins, and anyone else whose role allows **Give roles**, can give only roles below their own, carrying only permissions they hold themselves. A role based on Member can never hold a staff permission, so it can't be used to give one. Nobody can change their own roles.
 
 ## Every change is recorded
 
@@ -83,5 +83,6 @@ Making, renaming, changing (including its colour and tag), deleting, giving and 
 
 ## Next steps
 
+- [Set permissions for a category, forum or chat channel](place-permissions.md)
 - [Choose who can see and post in each area](area-access.md)
 - [Run your community](run-your-community.md)
