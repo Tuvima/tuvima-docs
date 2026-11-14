@@ -59,6 +59,10 @@ A [member tier](../owners/member-tiers.md) that is still paid for stays attached
 
 An owner cannot leave their own community yet. Handing over ownership is planned.
 
+## Switch persona
+
+You can change between your private and global persona in a community later. See [switch between your private and global persona](switch-persona.md).
+
 ## Come back
 
 Open the community again and choose **Rejoin as** your persona. You always come back as the persona you had there, with your posts, level and achievements where you left them. To use a different name, ask for a rename after you rejoin.

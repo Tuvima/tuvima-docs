@@ -47,6 +47,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/switch-persona.md",
+      "slug": "guides/switch-persona",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/explore.md",
       "slug": "guides/explore",
       "group": "Guides",

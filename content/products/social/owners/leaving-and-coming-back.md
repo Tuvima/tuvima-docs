@@ -1,6 +1,6 @@
 ---
 title: Leaving and coming back
-description: Choose how former members come back, how return requests reach your moderators, and what happens when someone deletes their persona.
+description: Choose how former members come back, how members switch between private and global personas, how long name history shows, and what happens when someone deletes their persona.
 audience: user
 category: guide
 product_area: tuvima
@@ -29,6 +29,34 @@ Members can delete their persona in your community (see [deleting your persona](
 - **Are removed**: replies to them stay.
 
 You also choose when they can start a new persona here: **After 30 days** (the default) or **After 90 days**. Tuvima ID keeps this wait privately, so your community never learns that a new member was someone's old persona.
+
+## Switching personas
+
+Members can switch, in your community, between a private persona and their global persona. See [switching as a member](../guides/switch-persona.md). On the same settings page, **Switching personas** has two choices.
+
+**From private to global**:
+
+- **Straight away** (the default): the member switches at once.
+- **A moderator approves**: the member asks, and the request appears in the [approval queue](warnings-and-filters.md#the-approval-queue) under **Switching**. The member is told that moderators will see their global persona. A moderator who can review join requests decides.
+
+**From global to private**:
+
+- **Straight away, as a newcomer** (the default): the global persona here is deleted and the member starts again with a private name, with no level or achievements.
+- **Same wait as a new persona**: the member deletes their persona and can return with a private name after your wait of 30 or 90 days. There is no name history, so nothing links the two.
+- **Not allowed**.
+
+Both kinds of switch refuse people who are suspended or banned here or have an open report. You cannot switch to private as the owner.
+
+## Name history
+
+**Name history after a rename or switch** controls what members see after a name changes.
+
+- **Show "formerly …" for**: 30 days, 60 days, 90 days (the default), 1 year, 5 years or forever. There is no "off". The shortest is 30 days, so a switch always leaves a note for at least that long.
+- **Show a "Name changed recently" label for 30 days**: on by default. It sits on the person's posts.
+
+Both notes show only in your community, never on a global profile. The time is fixed when the name changes, so changing the setting later does not change notes already showing. When the time ends, the old name is deleted.
+
+Moderators see the earlier handle in the moderation record as "as @old", for example after a member switched to their global persona. Warnings and notes follow the member through a switch.
 
 ## What these settings don't do
 

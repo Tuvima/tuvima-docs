@@ -52,6 +52,10 @@ The **Removed members** tab on the Members page lists people who were removed, w
 
 To keep someone out for good, ban them instead. Bans always stop someone coming back.
 
+## Members who switched persona
+
+A member can [switch between a private and a global persona](../guides/switch-persona.md) without leaving. While the community's name history shows, their page says "formerly @old", and the moderation record shows "as @old" on earlier entries. Their warnings, notes and level follow them. See [Name history](leaving-and-coming-back.md#name-history).
+
 ## Export the list
 
 Owners and admins can choose **Export list** to download the members list as a spreadsheet (a CSV file, which opens in any spreadsheet app).

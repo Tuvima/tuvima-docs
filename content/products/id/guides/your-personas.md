@@ -27,6 +27,15 @@ Choose a persona to open its details.
 - **Relay email addresses**: each community gets its own email address for you, so no community sees your sign-in email. An address is made the first time a community emails you. You can see whether email from that community is allowed or stopped, and change it in [email and alerts](email.md).
 - **Where it is used**: each community, with the day you joined or left. Follows, topics and community settings live on Tuvima, so you manage them there.
 
+## Switching personas in a community
+
+You can switch, in one community, between a private persona and your global persona. See [switch between your private and global persona](/products/social/guides/switch-persona.md).
+
+- **The switch is private.** Tuvima ID makes the switch and tells the community only that this member changed persona. Only you can see your own switch history.
+- **A new community email address.** Each switch gives that community a new relay email address for you, so the community cannot link the old and new address.
+- **The 30-day limit.** You can switch once in each community every 30 days. If you try early, you are told the date.
+- **The switch log.** Tuvima ID keeps a log of switches for one year, and the date after which you can switch again.
+
 You set each persona's name and picture on Tuvima. Tuvima ID shows a copy here, updated moments after you change them. Tuvima ID keeps its own copy of each picture, so opening this page never asks Tuvima for your pictures.
 
 ## Privacy
