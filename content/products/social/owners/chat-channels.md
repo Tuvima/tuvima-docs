@@ -62,6 +62,8 @@ A new channel can be read by every member who can open its category. A community
 
 Each channel is listed under its category's forums with a **Chat channel** badge. Use **Up** and **Down** to change the order, **Edit** to open its settings, and **Delete** to remove it. These buttons only show while the Chat channels add-on is on.
 
+Someone who holds only **Manage chat channels** sees a **Chat channels** page in **Manage**. It shows each category's channels, with **Add a chat channel**, ordering and **Edit**, and no category or forum controls.
+
 People who can manage channels also see **Manage channels** at the top of the channel list in **Chat**.
 
 ## Channel settings
@@ -81,9 +83,15 @@ Choose **Who can see and post** to open the same choices a forum has; see [choos
 
 **Only some members** lets you pick who can read, or who can post, by level, role or member tier.
 
+### Permissions
+
+The **Permissions** tab sets what each role can do in this channel: write messages, react, add links and more, and staff actions such as removing messages. See [set permissions for a place](place-permissions.md). **Who can see and post** still decides who is in the channel at all.
+
 ### Read-only channels
 
 A read-only channel is one where only some members can post, for example **announcements**. Everyone else who can read it sees "Only some members can post here" in place of the message box. They can still read and react.
+
+For finer control, use **Permissions**: set **Post messages in chat** to **Deny** for Everyone and **Allow** for a role such as Announcer. See [a read-only announcements channel](place-permissions.md#a-read-only-announcements-channel).
 
 ### Slow mode
 
@@ -129,5 +137,6 @@ The rules you already have apply in chat: suspensions, bans and [newcomer limits
 ## Next steps
 
 - [Categories, forums and the front page](categories-and-forums.md)
+- [Set permissions for a place](place-permissions.md)
 - [Add-ons](add-ons.md)
 - [Moderator tools](moderator-tools.md)

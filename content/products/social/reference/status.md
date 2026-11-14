@@ -26,7 +26,7 @@ Tuvima is in Early Access: it is being built and tested, and is not open to ever
 | Rules | Numbered rules, notices when they change, earlier versions, important changes that members agree to, forum guidelines and rule-named moderation. |
 | Switching and names | [Switching](../guides/switch-persona.md) between a private and a global persona in a community, with a 30-day limit and name history. Private personas [ask the admins](../owners/name-changes.md) for a new name. Admins can change an unsuitable name or hide it as offensive, with a mute, suspension, ban or warning. |
 | Thread tools | Pins, the Featured row, lock, slow mode, move, merge and split, all in the moderation record. |
-| Owner tools | Setup steps, ready-made and custom roles, members page, Insights, launch checklist, themes, banners, page blocks, categories and forums, and labels on Tuvima. |
+| Owner tools | Setup steps, ready-made and custom roles, [permissions for each category, forum and chat channel](../owners/place-permissions.md), members page, Insights, launch checklist, themes, banners, page blocks, categories and forums, and labels on Tuvima. |
 | Help | A help centre and draft rules and policies. |
 
 ## Coming later

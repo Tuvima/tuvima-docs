@@ -41,6 +41,7 @@ status: early-access
 | **Name changed recently** | A small label on a person's posts for 30 days after a rename or switch, if the owner has it on. |
 | **Name hidden** | What members see in place of a name an admin has hidden as offensive: a blurred bar with no text. The member and staff still see the real name. |
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
+| **Permission** | One thing a role may do, such as start threads, reply or post in chat. Owners can allow or deny each one for a role in a single category, forum or chat channel. See [permissions for a place](../owners/place-permissions.md). |
 | **Persona** | Who you are to others on Tuvima: a handle, display name and picture. Your account stays hidden behind it. |
 | **Pin** | Keeping a conversation at the top of the whole community or one forum, with an optional end date. |
 | **Private community** | A community only its members can read. Others see its name and the details its owner chooses. |

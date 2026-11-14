@@ -98,6 +98,8 @@ See [reporting and moderation](reporting-and-moderation.md).
 - In a **read-only** channel, only some members can post, usually moderators. It is used for things like announcements. The channel list marks it **read only**, and in place of the message box you see "Only some members can post here". You can still read and react.
 - With **slow mode** on, each member waits a set time between their own messages, for example one message every 30 seconds. A line under the message box tells you when you can write again.
 
+In some channels you can read and react but not write. Chat permissions are set channel by channel, so you may be able to write in one and not in another. If the message box is missing or you see **You can't post messages in this channel**, ask a moderator or the owner. See [permissions for a place](../owners/place-permissions.md).
+
 ## Turn chat into a forum conversation
 
 Chat moves fast. When something is worth keeping, turn it into a forum conversation.

@@ -227,6 +227,12 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/place-permissions.md",
+      "slug": "owners/place-permissions",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/member-tiers.md",
       "slug": "owners/member-tiers",
       "group": "Guides",

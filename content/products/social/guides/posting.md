@@ -100,6 +100,10 @@ Type `@` and a handle to mention a person. They get a notice. Mentions keep work
 - **Edit** your post at any time. It shows **Edited · see history**, and readers can open the **Edit history** unless the community's owner has hidden it. You and the community's moderators can always see it.
 - **Delete post** removes it from view. If people replied to it or quoted it, a "Deleted by the author" note stays in its place so the conversation still makes sense. Deleting cannot be undone.
 
+## When a button is missing
+
+Sometimes a place doesn't let you do something. You may not see **Start a conversation**, the reply box or the reaction buttons, or you may be told **You can't do that here**. Your community's owner sets what each role can do in each category, forum and chat channel, so it can differ from one place to the next. Nothing is wrong with your account. If you think it is a mistake, ask a moderator or the owner. They can see the reason. See [permissions for a place](../owners/place-permissions.md).
+
 ## Locked threads and slow mode
 
 Moderators can lock a conversation. You can still read it, but you cannot reply. The lock shows its reason.
