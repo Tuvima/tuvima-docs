@@ -63,6 +63,10 @@
   --sl-color-red-low: #301e22;
   --sl-color-red: #f87171;
   --sl-color-red-high: #f87171;
+  /* Tips use the app's green, so no purple is left anywhere. */
+  --sl-color-purple-low: var(--sl-color-green-low);
+  --sl-color-purple: var(--sl-color-green);
+  --sl-color-purple-high: var(--sl-color-green-high);
 }
 :root[data-theme='light'] {
   --tv-surface: #f5f7fa;
@@ -170,3 +174,6 @@ button.sl-menu-button,
 :root[data-theme='light'] button.sl-menu-button { background: transparent; color: var(--tv-text); border: 1px solid var(--tv-border); border-radius: 6px; box-shadow: none; padding: 0.7rem; }
 button.sl-menu-button:has(~ :popover-open),
 :root[data-theme='light'] button.sl-menu-button:has(~ :popover-open) { background: color-mix(in srgb, var(--tv-text) 11%, transparent); }
+
+/* Note, tip and warning boxes: card corners like the app's notices. */
+.starlight-aside { border-radius: 8px; }

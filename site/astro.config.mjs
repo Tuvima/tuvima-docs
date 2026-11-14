@@ -38,6 +38,9 @@ export default defineConfig({
     lastUpdated: true,
     locales: { root: { label: 'English', lang: 'en' } },
     customCss: ['./src/styles/tuvima.css'],
+    // Pages are copied into .generated/content before the build, so Starlight's own Markdown
+    // features (note boxes, heading links) must be told to look there too.
+    markdown: { processedDirs: ['./.generated/content'] },
     head: [{ tag: 'meta', attrs: { name: 'theme-color', content: '#0B1220' } }],
     components: {
       ThemeProvider: './src/components/ThemeProvider.astro',
