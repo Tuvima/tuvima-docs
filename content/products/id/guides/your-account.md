@@ -35,7 +35,7 @@ These settings apply to your whole Tuvima ID, not to any one community.
 Every community you have joined is listed with:
 
 - **Persona used**: your global persona, or a private persona for that community.
-- **Status**: member, or the day you left.
+- **Status**: member, the day you left, or **Being deleted** with the day it becomes final if you deleted your persona there. Once it is final the row says **Deleted on** that day and shows only the community's name, with **A new persona here from** the day you can join again with a new persona. Only you see that date.
 - **Joined**: the day you joined.
 - **Your posts in this community**: a link to a page on Tuvima where you can see, and delete, what you posted there. It works after you leave, too.
 

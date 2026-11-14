@@ -1,6 +1,6 @@
 ---
 title: Leaving and coming back
-description: Choose how former members come back to your community, and how return requests reach your moderators.
+description: Choose how former members come back, how return requests reach your moderators, and what happens when someone deletes their persona.
 audience: user
 category: guide
 product_area: tuvima
@@ -19,6 +19,16 @@ You decide how people come back. Open **Manage**, then **Leaving and coming back
 ## Coming back after a moderator removed someone
 
 This applies to people a moderator [removes from the community](members.md#remove-someone-from-the-community). Choose **A moderator approves** (the default) or **Any time**.
+
+## When someone deletes their persona
+
+Members can delete their persona in your community (see [deleting your persona](../guides/join-a-community.md#delete-your-persona-in-a-community)). For 30 days they can undo it, and their posts show as **Former member**. After that, you choose what happens to their posts:
+
+- **Stay as "Former member"** (the default): no name, link or level.
+- **Stay with their name, marked "left"**.
+- **Are removed**: replies to them stay.
+
+You also choose when they can start a new persona here: **After 30 days** (the default) or **After 90 days**. Tuvima ID keeps this wait privately, so your community never learns that a new member was someone's old persona.
 
 ## What these settings don't do
 
