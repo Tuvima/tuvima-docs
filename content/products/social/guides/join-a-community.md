@@ -71,3 +71,25 @@ Each community's owner decides how people come back:
 If the community asks people to be approved or invited, choose **Been a member before? Come back** under the join button.
 
 Someone who is banned or suspended in a community cannot come back while that lasts.
+
+## If a moderator removed you
+
+A moderator can remove someone from a community without banning them, for example for spam or for being off-topic. You get a notice with the reason. Your persona stays, and so do your posts unless they were removed as spam.
+
+To come back, open the community and choose **Join**. Depending on the community, you rejoin straight away or choose **Ask to come back** and wait for a moderator. You come back as the same persona.
+
+## Delete your persona in a community
+
+Leaving is the everyday choice. Deleting is for when you want your persona in one community gone. It doesn't touch your other personas or your Tuvima ID.
+
+1. Open your own persona page in the community and choose **Persona settings**.
+2. Choose **Delete my persona here**. The page shows what happens to your posts under this community's rule, and when you could start a new persona here.
+3. Type DELETE and confirm.
+
+For the next 30 days your persona is hidden and your posts show as **Former member**. A banner on the community lets you undo it: **Undo** brings back your posts with your name, your level, your achievements and any member tier still paid up. Roles you held are not given back automatically; ask the community's staff.
+
+After 30 days it can't be undone. Your posts then follow the community's rule: they stay as **Former member** with no name, link or level, stay with your name marked "left", or are removed (replies to them stay). Nothing in the community links your old persona to those posts any more.
+
+You can start a new persona in that community after 30 or 90 days, depending on the community. Only you see the date. The community just sees that you can't join yet.
+
+You can't delete your persona while you're banned or suspended in that community, and the owner can't delete their own persona. To remove single posts instead, use **See your posts here** while you're still a member.
