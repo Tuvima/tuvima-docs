@@ -7,6 +7,14 @@ product_area: wikidata
 status: current
 ---
 
+## v3.10.2
+
+Patch release. Fixes bridge text fallback for very common titles. No public API changes.
+
+- For `Book` and `Audiobook` requests, `Creator` (P50) and `SeriesTitle` (P179) are sent to the reconciler as scoring constraints, so the item whose author or series matches ranks first instead of being ordered by item number among same-labelled items.
+- The fallback reads up to 15 results when a creator or series is supplied (5 otherwise) and walks `P279` two levels for the type filter.
+- The `Book` type hints now include novel (Q8261), novella (Q149537) and short story (Q49084).
+
 ## v3.10.1
 
 Documentation release. The guides, reference, migration guides and this changelog moved to docs.tuvima.com; the README and package links point there. No code changes.
