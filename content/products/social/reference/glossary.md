@@ -20,6 +20,7 @@ status: early-access
 | **Emblem** | The small picture on an achievement: a shape, a symbol and two colours. |
 | **Featured** | A row on the community home with up to 4 conversations chosen by moderators. |
 | **Fold** | On the front page, collapsing a post behind a notice, either while members check a harmful concern or because reviewers agreed it should be folded. Readers can still choose **Show anyway**. |
+| **Formerly** | A note beside a name, such as "formerly @old", that shows the name a person had before a rename or a switch. It shows only in that community, for the time the owner chose. |
 | **Forum guidelines** | Short guidance for one forum, shown above the editor. |
 | **Forum** | A place inside a community where conversations live, grouped under one of the community's categories. |
 | **Front page** | The shared feed at tuvima.com, where everyone's posts appear by category. |
@@ -37,6 +38,8 @@ status: early-access
 | **Moderation record** | The permanent list of moderation actions in a community. |
 | **Moderation history** | The public list, on every front-page post, of what was raised about it and what was decided, with counts and never names. |
 | **New and rising** | A changing selection of young, active communities in the directory. |
+| **Name changed recently** | A small label on a person's posts for 30 days after a rename or switch, if the owner has it on. |
+| **Name hidden** | What members see in place of a name an admin has hidden as offensive: a blurred bar with no text. The member and staff still see the real name. |
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
 | **Persona** | Who you are to others on Tuvima: a handle, display name and picture. Your account stays hidden behind it. |
 | **Pin** | Keeping a conversation at the top of the whole community or one forum, with an optional end date. |
@@ -50,6 +53,7 @@ status: early-access
 | **Second look** | A front-page case you have been picked to review. Open cases are listed under **Second look** in the You menu. |
 | **Slow mode** | A limit on how often each person can post in a conversation, from 30 seconds to 1 hour. |
 | **Showcase** | Up to six achievements shown at the top of a member's page in a community, above their pinned posts. |
+| **Switch** | Changing which persona you use in one community, from private to global or back, without leaving. See [Switch between your private and global persona](../guides/switch-persona.md). |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
 | **Unlisted** | A community left out of the directory and search. A public one is reachable by link; a private one only by invite. |

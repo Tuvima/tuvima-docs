@@ -18,6 +18,17 @@ Tuvima gives you a simple, reasonable expectation of privacy while you take part
 - **Your reports, to moderators only**: when you report a post in a community, that community's moderators see which persona reported it. The person you reported is never told who reported them.
 - **Your concerns, to nobody**: when you raise a concern about a front-page post, the members who review it, the author and other readers never see who raised it. Reviewers' answers stay private until the case closes, and the post's public moderation history shows counts, never names. A concern about illegal content goes to Tuvima staff, who see which persona sent it.
 
+## Switching and renaming
+
+You can switch between a private and a global persona in a community, and a private persona can ask the admins for a new name. Here is what each shows:
+
+- **Going from private to global** shows your global persona in that community, with "formerly" and your old private handle beside it for as long as the owner chose. Moderators see your global persona before they approve, if the owner asks for approval. You can't go back to private without deleting your persona there.
+- **Going from global to private** deletes your persona there and you start as a newcomer. Where the owner shows name history, members can see your old global name for a while; the switch page tells you before you confirm. **Deleting and coming back after the wait** is the route with no link at all: nothing connects the two personas.
+- **A rename** shows "formerly @old" in that community only, for the owner's time. Your global persona never lists names or communities.
+- **A name hidden as offensive** is not sent to other members at all. They see **Name hidden**. Only you and staff who can rename or suspend see the real name.
+
+Tuvima ID keeps a private log of switches. See [your personas](/products/id/guides/your-personas.md#switching-personas-in-a-community) and [switching](switch-persona.md).
+
 ## What they never see
 
 - **Your email address.** It stays in Tuvima ID. Tuvima itself never receives it, and nor does any community.

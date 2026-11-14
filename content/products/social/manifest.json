@@ -173,6 +173,12 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/name-changes.md",
+      "slug": "owners/name-changes",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/warnings-and-filters.md",
       "slug": "owners/warnings-and-filters",
       "group": "Guides",
