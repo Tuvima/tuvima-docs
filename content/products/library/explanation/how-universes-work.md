@@ -125,7 +125,7 @@ Stage 2 establishes canonical identity; bounded Stage 3 enriches grounded entiti
 
 Universe grouping lives in the data store and does not create a universe folder hierarchy. Internal `Collection` and `ParentCollection` records have several roles; do not translate every stored Collection into the same user-facing label. The surface determines whether the user sees a series, show, album, or broader collection.
 
-Default series-card thresholds are configured through `lane_group_display.*.minimum_series_items`. Missing-item defaults live in `config/ui/library-preferences.json`; explicit profile/series overrides live in `profile_sequence_preferences` and can be removed to restore inheritance.
+Default series-card thresholds are configured through `lane_group_display.*.minimum_series_items`. Whether missing titles show is the profile's own **Show missing** tick on each Series row, kept in `profile_sequence_preferences`; a Series always starts unticked and no library-wide setting changes that.
 
 See [Universe Graph architecture](../architecture/universe-graph.md) and [the processing pipeline](../architecture/ingestion-identity-enrichment-pipeline.md) for the stored relationship model.
 

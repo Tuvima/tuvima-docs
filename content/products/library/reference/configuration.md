@@ -771,17 +771,16 @@ Per-user UI preference overrides. Stored server-side and merged into the resolve
 
 ### config/ui/library-preferences.json
 
-Library display preferences used by browse and discovery surfaces. This file is per computer (gitignored) and written by the Engine's library-preferences action. When it is absent, the Engine reads the shipped `config/ui/library-preferences.defaults.json` instead: every media type offers **Show missing** (`enabled: true`) with missing entries hidden until the person ticks it (`default_visibility: hidden`), comics page their missing entries, and the Watch and Read lane group shelves keep their usual settings. A file of this computer's own always replaces the defaults as a whole. Docker seeds `/config` from the image only when the volume is empty, so an existing volume gets the defaults file by copying it from the image's `default-config/ui/` folder (or by a fresh volume).
+Library display preferences used by browse and discovery surfaces. This file is per computer (gitignored) and written by the Engine's library-preferences action. When it is absent, the Engine reads the shipped `config/ui/library-preferences.defaults.json` instead. A file of this computer's own always replaces the defaults as a whole. Docker seeds `/config` from the image only when the volume is empty, so an existing volume gets the defaults file by copying it from the image's `default-config/ui/` folder (or by a fresh volume).
 
 | Field | Type | Description |
 |---|---|---|
-| `missing_item_display` | object | Required per-media missing-member display policy. Each registered media type is configured explicitly; the shipped defaults file supplies them when this computer has no file of its own. |
 | `view_modes` | object | Per-tab default groupings, such as `tv: "shows"` or `comics: "series"`. |
 | `lane_group_display` | object | Per-lane display policy for lane group shelves. Watch configures the movie-only `Series` shelf (TV shows use their own fixed shelf), and Read defaults to `Series & Reading Lists`; these are lane groups, not top-level Collections tiles. |
 
 Each `lane_group_display` entry supports `enabled`, `shelf_key`, `title`, `subtitle`, and `see_all_route`.
 
-Each `missing_item_display` entry supports `enabled`, `default_visibility` (`shown` or `hidden`), `presentation` (`all` or `paged`), `page_size` (1-500), and `detail_hydration` (`owned_only`, `on_demand`, or `all`). Authoritative manifest completeness remains a data-integrity requirement and cannot be relaxed by configuration. `default_visibility` is the sole media-level default: it is not copied into SQLite. When a profile explicitly changes **Show missing** for one stable series container, the Dashboard stores that exception in `profile_sequence_preferences`; removing the exception immediately restores inheritance from this file. Comic policy defaults are recorded here as hidden, paged, and owned-only detail hydration so large runs remain lightweight.
+There is no general setting for missing titles. **Show missing** is one check mark on each Series row, remembered for that title and that profile, and a Series always starts with it unticked (`profile_sequence_preferences` holds only the ticks people have made).
 
 ### config/ui/playback-client.json
 
