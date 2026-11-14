@@ -110,7 +110,8 @@ Results are a plain list: a small cover, the title, then the creator, the year, 
 Choose a result and one **Match card** shows it:
 
 - a large cover, to compare with your own;
-- the title, the series and number, the creator and the year;
+- the title, the series and number, the creator, the year and how long it runs ("170 min");
+- the lead cast, up to four names, when the provider or the saved match has them;
 - a link to the record on the provider's site;
 - the description, with **Read more**;
 - the verdict, in words: **Strong match**, **Possible match** or **Weak match**;
@@ -207,7 +208,7 @@ Tick rows in a list (a song list, Needs Review, a library table) or in the suppo
 - Where a change would make items collide ("These 3 songs would all be track 4") it is blocked, with the reason.
 - Where the items differ, the field says "Mixed, leave unchanged".
 - A read-only item stays in the selection, greyed with the reason; the change reaches the others.
-- For artwork, only roles they share ("Set one cover for these 12 songs" sets the album's cover, said in words).
+- For artwork, only roles they share ("Set one cover for these 12 songs" sets the album's cover, said in words). Like a picture chosen for a single item, the cover changes at once: it is not held for Review and there is no Undo. Choose an earlier cover again to go back.
 
 Review lists each item.
 
