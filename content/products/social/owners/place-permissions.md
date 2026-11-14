@@ -86,7 +86,7 @@ Members can read and react. Only Announcers can write.
 5. Pick **Announcer** and set **Post messages in chat** to **Allow**.
 6. Choose **Save changes** for each row.
 
-A named role beats Everyone, so Announcers can write and nobody else can. Other members see "Only some members can post here" in place of the message box. If you also want an admin to write there, pick **Admin** and choose **Allow** too. You can also make a read-only channel with **Who can see and post**; the permissions way lets you name exactly which roles may write.
+A named role beats Everyone, so Announcers can write and nobody else can. Check **Who can see and post** for the channel too: if it says only moderators and up can post, change it to let members post, or the Allow for Announcer has nothing to work with. Other members see "Only some members can post here" in place of the message box. If you also want an admin to write there, pick **Admin** and choose **Allow** too. You can also make a read-only channel with **Who can see and post**; the permissions way lets you name exactly which roles may write.
 
 ### A Muted role
 
@@ -125,13 +125,13 @@ On the roles list, choose **Compare roles**. The **In:** picker chooses a place,
 
 ## View as a role and Why?
 
-:::note
-These two tools are being finished. This is how they are designed to work.
-:::
+Two tools let you check your settings before members notice a mistake.
 
-**View as a role** lets the owner pick a role and browse the community the way its holders see it. A banner stays at the top with an **Exit** button. Places the role can't see are missing from the lists, and so are actions it can't take. Nothing can be changed while you view, and you never act as that role.
+**View as a role** is for the owner. On a role's page, or on a place's Permissions tab, choose **View as this role**. You then browse the community the way someone with that role sees it. A bar at the top says "Viewing as…" with an **Exit** button. Places the role can't see are missing from the lists, and so are actions it can't take, such as the message box in a channel where it can't post.
 
-**Why?** answers "why can't this person do that here?". Pick a member or a role, then a place. Each permission shows **Yes** or **No** with the one line that decided it, for example "No: Everyone is denied here, and none of their roles allow it." It is read-only too.
+Nothing can be changed while you view, and you never act as that role. Your own messages, alerts and settings are hidden until you choose **Exit**. The view ends by itself after an hour, or when you sign out.
+
+**Why?** answers "why can't this person do that here?". Open **Manage**, then **Roles and permissions**, then **Check a person**. Pick a member or a role, then a place, and choose **Show**. Each permission shows **Yes** or **No** with the one line that decided it, for example "Denied for Everyone on #announcements, and none of their roles allow it." It only explains; it changes nothing.
 
 ## If you used the older settings
 
