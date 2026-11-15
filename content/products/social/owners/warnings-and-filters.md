@@ -14,7 +14,7 @@ These tools help your moderators act early and fairly. Nothing here bans anyone 
 <img class="tv-desktop tv-dark" src="../assets/screens/warnings-desktop-dark.jpg" alt="A suspended member&#x27;s page as the owner sees it, with buttons to suspend, lift the suspension, ban or remove them." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/warnings-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/warnings-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 Owners and admins set them up in **Manage**, then **Warnings and word filters**.

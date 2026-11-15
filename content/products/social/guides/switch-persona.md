@@ -14,7 +14,7 @@ In each community you use one persona: your **global persona** (`handle @ tuvima
 <img class="tv-desktop tv-dark" src="../assets/screens/switch-persona-desktop-dark.jpg" alt="The page for choosing which persona to use in a community." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/switch-persona-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/switch-persona-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 To start, open the community, choose **Joined** to open **Your membership**, then choose the switch row. It says **Switch to my global persona** or **Switch to a private persona**. If the row is missing, the owner has not allowed that switch in this community.

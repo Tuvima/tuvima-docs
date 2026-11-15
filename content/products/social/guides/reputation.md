@@ -20,7 +20,7 @@ Tuvima wants helpful people to be recognised for being helpful, without turning 
 <img class="tv-desktop tv-dark" src="../assets/screens/reputation-desktop-dark.jpg" alt="A member&#x27;s page in a community, with their level, reputation and recent posts." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/reputation-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/reputation-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 ## Votes and reactions

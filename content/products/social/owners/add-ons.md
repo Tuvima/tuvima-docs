@@ -14,7 +14,7 @@ Add-ons are extra features a community can use. Tuvima's built-in add-ons start 
 <img class="tv-desktop tv-dark" src="../assets/screens/add-ons-desktop-dark.jpg" alt="The add-ons a community can switch on." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/add-ons-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/add-ons-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 If you switch an add-on off, it is hidden and nobody can start new uses of it. What members already made stays.

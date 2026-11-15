@@ -14,7 +14,7 @@ A **role** says what someone can do in your community, and can also open [member
 <img class="tv-desktop tv-dark" src="../assets/screens/roles-desktop-dark.jpg" alt="A community&#x27;s roles: Owner, Admin, Moderator and Member." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/roles-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/roles-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 Only the owner changes roles. Moderators and up can see what each role allows.

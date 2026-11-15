@@ -1,0 +1,45 @@
+---
+// Click (or Enter) on a screen picture on a help page to see it full size; click, Escape or
+// the close button to go back. Pictures are in <figure class="tv-screens"> (see CONTRIBUTING.md).
+---
+
+<dialog class="tv-zoom" aria-label="Picture at full size">
+	<button type="button" class="tv-zoom-close" aria-label="Close">×</button>
+	<img alt="" />
+</dialog>
+
+<script>
+	const setUp = () => {
+		const dialog = document.querySelector<HTMLDialogElement>('dialog.tv-zoom');
+		const big = dialog?.querySelector('img');
+		if (!dialog || !big) return;
+		const open = (img: HTMLImageElement) => {
+			big.src = img.currentSrc || img.src;
+			big.alt = img.alt;
+			dialog.showModal();
+		};
+		for (const img of document.querySelectorAll<HTMLImageElement>('figure.tv-screens img')) {
+			img.tabIndex = 0;
+			img.setAttribute('role', 'button');
+			img.title = 'Enlarge picture';
+			img.addEventListener('click', () => open(img));
+			img.addEventListener('keydown', (event) => {
+				if (event.key === 'Enter' || event.key === ' ') {
+					event.preventDefault();
+					open(img);
+				}
+			});
+		}
+		// Any click closes it: on the picture, the dark backdrop or the close button.
+		dialog.addEventListener('click', () => dialog.close());
+	};
+	setUp();
+</script>
+
+<style>
+	.tv-zoom { border: 0; padding: 0; background: transparent; max-width: 96vw; max-height: 94vh; overflow: visible; }
+	.tv-zoom::backdrop { background: rgb(5 10 16 / 0.85); }
+	.tv-zoom img { display: block; max-width: 96vw; max-height: 94vh; width: auto; height: auto; border-radius: 8px; cursor: zoom-out; }
+	.tv-zoom-close { position: absolute; top: -0.75rem; right: -0.75rem; width: 2.5rem; height: 2.5rem; border-radius: 50%; border: 1px solid var(--tv-border); background: var(--tv-surface-raised); color: var(--tv-text); font-size: 1.5rem; line-height: 1; cursor: pointer; }
+	.tv-zoom-close:focus-visible { outline: 2px solid var(--sl-color-accent); outline-offset: 2px; }
+</style>

@@ -14,7 +14,7 @@ Tuvima is built so you can talk openly in a community without handing everyone y
 <img class="tv-desktop tv-dark" src="../assets/screens/id-privacy-desktop-dark.jpg" alt="The page showing the interests Tuvima ID keeps for your Home feed, with ways to change them." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/id-privacy-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/id-privacy-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 ## The short version

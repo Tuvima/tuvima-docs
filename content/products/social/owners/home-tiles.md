@@ -14,7 +14,7 @@ Your community's home page lists its categories so members can find their way in
 <img class="tv-desktop tv-dark" src="../assets/screens/home-tiles-desktop-dark.jpg" alt="The home page builder, where owners arrange their community&#x27;s home page." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/home-tiles-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/home-tiles-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 ## Open the tile builder

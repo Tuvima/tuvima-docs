@@ -14,7 +14,7 @@ By the end of this page you will have a Tuvima ID and a public handle, and you w
 <img class="tv-desktop tv-dark" src="../assets/screens/id-getting-started-desktop-dark.jpg" alt="A new member&#x27;s Tuvima ID account page: their sign-in email, when the account was made, two-step sign-in and their communities." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/id-getting-started-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/id-getting-started-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 ## Before you start

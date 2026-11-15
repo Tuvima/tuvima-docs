@@ -14,7 +14,7 @@ Photos are on their way. Everything on this page is built and switches on once T
 <img class="tv-desktop tv-dark" src="../assets/screens/photos-desktop-dark.jpg" alt="A community&#x27;s photos page, showing the photos members have posted." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/photos-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/photos-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 Photos are free in every community. Nobody pays to post them or to see them.
