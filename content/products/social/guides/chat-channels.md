@@ -14,7 +14,7 @@ A **chat channel** is a live chat room inside a community. It sits beside the co
 <img class="tv-desktop tv-dark" src="../assets/screens/chat-channels-desktop-dark.jpg" alt="A community&#x27;s chat channel with recent messages from members." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/chat-channels-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/chat-channels-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
-<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
 Not every community has chat. The community's owner decides, and chooses the channels.

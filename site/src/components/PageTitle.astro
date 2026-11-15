@@ -1,6 +1,7 @@
 ---
 import Default from '@astrojs/starlight/components/PageTitle.astro';
 import { hubContext } from '../hub';
+import ScreenZoom from './ScreenZoom.astro';
 
 // Breadcrumb above the title (every part a link) plus search metadata: which item a page belongs
 // to (for the "search all Tuvima" switch) and the item name in the result title.
@@ -21,6 +22,7 @@ const title = Astro.locals.starlightRoute.entry.data.title;
 	</nav>
 )}
 <Default><slot /></Default>
+<ScreenZoom />
 
 <style>
 	.crumbs { margin-bottom: 0.75rem; font-size: var(--sl-text-xs); }
