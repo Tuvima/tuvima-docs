@@ -9,6 +9,14 @@ status: early-access
 
 Home is your own front page. It puts the posts you are most likely to enjoy first, and it always tells you why a post is there. You stay in charge: you can see everything Home has learned, change it, or wipe it.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/home-feed-desktop-light.jpg" alt="The communities and conversations a member follows." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/home-feed-desktop-dark.jpg" alt="The communities and conversations a member follows." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/home-feed-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/home-feed-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ![Three steps: what you do on Tuvima, Tuvima ID keeping your interests, and Home ranking posts with a reason for each.](../assets/home-feed-flow.svg)
 
 ## Your communities at the top

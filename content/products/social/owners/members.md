@@ -9,6 +9,14 @@ status: early-access
 
 Open **Manage**, then **Members**. Moderators, admins and the owner can see this page.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/members-desktop-light.jpg" alt="The members list of a community, with each member&#x27;s role and when they joined." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/members-desktop-dark.jpg" alt="The members list of a community, with each member&#x27;s role and when they joined." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/members-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/members-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## The members table
 
 Each row shows a member's name, their roles and any newcomer, suspended or banned mark, their level, when they joined, when they last posted and how many posts they have written. A line above the table says how many people match and how many joined this week. Use **Show more** for the next page.

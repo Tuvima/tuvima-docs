@@ -9,6 +9,14 @@ status: early-access
 
 You decide who may start a private conversation with you. The choice lives in Tuvima ID so that one setting covers every persona you use, and so that communities never see how your personas are connected.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/id-messages-desktop-light.jpg" alt="The settings for who can send you private messages." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/id-messages-desktop-dark.jpg" alt="The settings for who can send you private messages." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/id-messages-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/id-messages-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Set your rule
 
 1. Sign in to Tuvima ID.

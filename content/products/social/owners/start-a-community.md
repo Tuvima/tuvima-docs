@@ -9,6 +9,14 @@ status: early-access
 
 Starting a community is free, and Tuvima looks after the hosting. It takes about ten minutes. You become the community's **owner**.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/start-a-community-desktop-light.jpg" alt="The form for starting a new community." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/start-a-community-desktop-dark.jpg" alt="The form for starting a new community." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/start-a-community-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/start-a-community-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Before you start
 
 - Sign in and [choose your handle](../start/getting-started.md).

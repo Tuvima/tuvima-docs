@@ -9,6 +9,14 @@ status: early-access
 
 Every community can have its own colours and banner, while fonts and layout stay the same across Tuvima so members always know where things are. Text is always set in Inter, the same typeface as the rest of Tuvima, so a community looks the same on every phone and computer. Open **Manage**, then **Look and home page**.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/look-and-feel-desktop-light.jpg" alt="The settings for a community&#x27;s look: theme, colours and banner." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/look-and-feel-desktop-dark.jpg" alt="The settings for a community&#x27;s look: theme, colours and banner." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/look-and-feel-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/look-and-feel-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Colours
 
 - Choose a **theme**: Tuvima, Library purple, Slate, Forest or Sunset. Each has a light and a dark version, and members see the one that matches their choice of light or dark. A new community starts with the Tuvima theme: Harbor blue, with a near-black dark mode.

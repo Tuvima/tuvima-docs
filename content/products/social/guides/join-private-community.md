@@ -9,6 +9,14 @@ status: early-access
 
 A **private** community can be read only by its members. Before you join, you see its name and only the details its owner chooses to show, such as a description or the number of members. Some public communities also ask people to be approved, or to have an invite, before they can take part.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/join-private-community-desktop-light.jpg" alt="A private community seen by someone who is not a member: its name, description and a way to ask to join, but no posts." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/join-private-community-desktop-dark.jpg" alt="A private community seen by someone who is not a member: its name, description and a way to ask to join, but no posts." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/join-private-community-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/join-private-community-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 You need to be signed in to join any community.
 
 ## Ask to join

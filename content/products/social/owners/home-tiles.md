@@ -9,6 +9,14 @@ status: early-access
 
 Your community's home page lists its categories so members can find their way in. Owners and admins can arrange them as **tiles**, give the bigger ones a picture, and choose what each one shows. Fonts, the top bar and the list of conversations stay the same in every community, so members always know where things are.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/home-tiles-desktop-light.jpg" alt="The home page builder, where owners arrange their community&#x27;s home page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/home-tiles-desktop-dark.jpg" alt="The home page builder, where owners arrange their community&#x27;s home page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/home-tiles-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/home-tiles-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Open the tile builder
 
 On your community's home page, choose **Edit home page** next to **Forums**. You can also find it in **Manage**, under **Look and home page**. You need to be the owner or an admin, because the tiles change both the look of the page and the order of your categories.

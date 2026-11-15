@@ -9,6 +9,14 @@ status: early-access
 
 Every community on Tuvima has the same layout. Only its colour, banner and content differ, so once you know one community you know them all.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/community-pages-desktop-light.jpg" alt="A community&#x27;s home page with its forums, about panel, rules and latest conversations." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/community-pages-desktop-dark.jpg" alt="A community&#x27;s home page with its forums, about panel, rules and latest conversations." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/community-pages-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/community-pages-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## The community home
 
 The top of the page is a band in the community's own colour. It shows the community's name, how many members it has, whether it is public or private, and its sections, such as **Home** and **Photos**.

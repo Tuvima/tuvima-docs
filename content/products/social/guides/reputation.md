@@ -15,6 +15,14 @@ Names and numbers may change after testing.
 
 Tuvima wants helpful people to be recognised for being helpful, without turning conversations into a contest. Reputation is how a community says "thank you, that was useful".
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/reputation-desktop-light.jpg" alt="A member&#x27;s page in a community, with their level, reputation and recent posts." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/reputation-desktop-dark.jpg" alt="A member&#x27;s page in a community, with their level, reputation and recent posts." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/reputation-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/reputation-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## Votes and reactions
 
 Every post, on the front page and in communities, has two separate controls:

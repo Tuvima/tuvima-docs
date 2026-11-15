@@ -9,6 +9,14 @@ status: early-access
 
 Leaving a community is a soft step. A member who leaves keeps their persona, posts, level and achievements, and comes back as the same persona. Their roles end when they leave. See [leaving and coming back as a member](../guides/join-a-community.md#leave).
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/leaving-desktop-light.jpg" alt="The settings for what happens when members leave and come back." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/leaving-desktop-dark.jpg" alt="The settings for what happens when members leave and come back." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/leaving-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/leaving-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 You decide how people come back. Open **Manage**, then **Leaving and coming back** under **Members and access**. Only the owner can change these settings.
 
 ## Coming back after leaving

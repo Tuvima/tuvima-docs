@@ -9,6 +9,14 @@ status: early-access
 
 Each category and forum, together called **areas**, has its own rule for who can see it and who can post in it. Use this for a members-only lounge in a public community, a forum for your most trusted members, or an announcements forum where only staff post.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/area-access-desktop-light.jpg" alt="The forums of a private community, with who can open each one." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/area-access-desktop-dark.jpg" alt="The forums of a private community, with who can open each one." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/area-access-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/area-access-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 Anyone with the **Manage categories and forums** permission sets this: open **Manage**, then **Forums and categories**, and choose **Who can see and post** next to a category or forum.
 
 ## Who can see it

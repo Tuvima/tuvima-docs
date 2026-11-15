@@ -9,6 +9,14 @@ status: early-access
 
 Tuvima keeps its frame quiet so the conversations have the room. Here is where everything lives.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/getting-around-desktop-light.jpg" alt="The top bar with search, messages, alerts and the account menu, above a community&#x27;s page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/getting-around-desktop-dark.jpg" alt="The top bar with search, messages, alerts and the account menu, above a community&#x27;s page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/getting-around-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/getting-around-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## The top bar
 
 The top bar has the Tuvima name (it takes you home), the community you are in, search, the bell and your account. There is no "New post" button up here: you start a conversation from inside a community or forum, where it belongs.

@@ -9,6 +9,14 @@ status: early-access
 
 Tuvima helps you come back to the conversations you care about, without flooding you.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/keep-up-desktop-light.jpg" alt="The alerts page, listing replies, achievements and other news." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/keep-up-desktop-dark.jpg" alt="The alerts page, listing replies, achievements and other news." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/keep-up-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/keep-up-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 ## The bell
 
 The bell in the menu collects everything addressed to you, from every persona you use, in one list. Each notice shows which persona it is for; a private persona shows only its community's name. Filter by **All**, **Mentions** and **Moderation**. When you earn an [achievement](achievements.md#earning-one) it also appears here; achievements never send an email or phone alert.

@@ -61,3 +61,12 @@ status: early-access
 | **Vote ring** | A group of accounts that mostly vote together or for each other. Their votes on the same post count as one. |
 | **Vote** | Up or down on a post: "more like this" or "less like this". Votes decide what rises. |
 | **Watch** | Follow a conversation to be told about new posts in it. |
+
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/glossary-desktop-light.jpg" alt="A conversation in a forum of a community, with a persona&#x27;s post and photo." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/glossary-desktop-dark.jpg" alt="A conversation in a forum of a community, with a persona&#x27;s post and photo." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/glossary-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/glossary-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+

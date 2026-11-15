@@ -9,6 +9,14 @@ status: early-access
 
 By the end of this page you will have a persona and be a member of your first community. It takes about five minutes.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/explore-desktop-light.jpg" alt="The Explore page, suggesting communities and conversations to look at." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/explore-desktop-dark.jpg" alt="The Explore page, suggesting communities and conversations to look at." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/explore-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/explore-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 You can read the front page and public communities without an account. You need one only to post, reply, react or join.
 
 ## Sign in
