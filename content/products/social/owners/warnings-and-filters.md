@@ -10,8 +10,8 @@ status: early-access
 These tools help your moderators act early and fairly. Nothing here bans anyone automatically: moderators always decide.
 
 <figure class="tv-screens">
-<img class="tv-desktop tv-light" src="../assets/screens/warnings-desktop-light.jpg" alt="A member&#x27;s page as an owner sees it, with their warnings and a running suspension." width="1600" height="1000" loading="lazy" decoding="async">
-<img class="tv-desktop tv-dark" src="../assets/screens/warnings-desktop-dark.jpg" alt="A member&#x27;s page as an owner sees it, with their warnings and a running suspension." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-light" src="../assets/screens/warnings-desktop-light.jpg" alt="A suspended member&#x27;s page as the owner sees it, with buttons to suspend, lift the suspension, ban or remove them." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/warnings-desktop-dark.jpg" alt="A suspended member&#x27;s page as the owner sees it, with buttons to suspend, lift the suspension, ban or remove them." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/warnings-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/warnings-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>

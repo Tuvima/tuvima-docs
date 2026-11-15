@@ -10,8 +10,8 @@ status: early-access
 Tuvima ID is the one account you use to sign in to Tuvima. Think of it as the private back office for your public life on Tuvima: it knows who you are, and it decides what each community gets to see.
 
 <figure class="tv-screens">
-<img class="tv-desktop tv-light" src="../assets/screens/id-home-desktop-light.jpg" alt="Tuvima ID&#x27;s home page." width="1600" height="1000" loading="lazy" decoding="async">
-<img class="tv-desktop tv-dark" src="../assets/screens/id-home-desktop-dark.jpg" alt="Tuvima ID&#x27;s home page." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-light" src="../assets/screens/id-home-desktop-light.jpg" alt="Tuvima ID&#x27;s home page, explaining it is the sign-in service for Tuvima, with menus for personas, who can message you, sign-in and security, email and alerts, and your feed." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/id-home-desktop-dark.jpg" alt="Tuvima ID&#x27;s home page, explaining it is the sign-in service for Tuvima, with menus for personas, who can message you, sign-in and security, email and alerts, and your feed." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-phone tv-light" src="../assets/screens/id-home-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <img class="tv-phone tv-dark" src="../assets/screens/id-home-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
 <figcaption>On a computer and on a phone. Everyone shown is a made-up sample person.</figcaption>
