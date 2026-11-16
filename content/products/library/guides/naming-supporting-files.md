@@ -68,6 +68,30 @@ The role comes from the type of file first, then words in the folder and file na
 | Pictures | a folder of pictures; folder `Pictures` |
 | Clip, Other | anything else (a video is a Clip, a document is Other) |
 
+## Naming convention: the kind in the file name
+
+When you change a supporting file's kind in the editor and the file sits in a **Managed** folder, Library renames it to end with that kind, so the name says what the file is even outside Library. A file in a **Read-only** folder is never renamed; only its record in Library changes. If a file with the new name already exists, the file keeps its name and the editor says so.
+
+The form is `Name-ending.ext`, the same form Plex and Jellyfin read for video extras (`Pilot-trailer.mkv`). Neither of them has any convention for documents, so the document endings are Tuvima's own, and anyone is welcome to adopt them.
+
+| Kind | Ending | Where it comes from |
+|---|---|---|
+| Trailer | `-trailer` | Plex and Jellyfin |
+| Featurette | `-featurette` | Plex and Jellyfin |
+| Behind the scenes | `-behindthescenes` | Plex and Jellyfin |
+| Deleted scene | `-deleted` | Plex and Jellyfin |
+| Interview | `-interview` | Plex and Jellyfin |
+| Guide | `-guide` | Tuvima |
+| Worksheet | `-worksheet` | Tuvima |
+| Transcript | `-transcript` | Tuvima |
+| Notes | `-notes` | Tuvima |
+| Booklet | `-booklet` | Tuvima |
+| Clip, Other, Pictures, or a kind you typed yourself | none | the plain name |
+
+Choosing another kind swaps the ending (`Pilot-trailer.mkv` becomes `Pilot-interview.mkv`); choosing a kind with no ending takes it off. The endings live in `config/extras.json` (`role_file_endings`).
+
+**Why it works this way.** An ending renames the file without moving it, so nothing else about its place changes, and it is the form people already use for video extras. A kind you type yourself has no ending because no other program would know what it means; the kind is kept in Library, and the file keeps its plain name.
+
 ## Groups
 
 A sub-folder inside an **Extras**, **Bonus**, **Documents**, **Materials** or **Resources** folder, whose name is not a role word, becomes a **group**. `Extras/Character guides/Elves.pdf` is in the group "Character guides". Groups only tidy the Extras row and the browser; they never move a file. A title with many supporting files and no groups is grouped by kind (Documents, Videos, Pictures) until you name groups.
