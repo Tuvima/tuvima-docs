@@ -12,6 +12,7 @@ status: early-access
 | **Accepted answer** | The reply that the person who asked, or a moderator, marked as the most helpful. |
 | **Achievement** | A mark of recognition a member earns, or is given by hand, such as a year as a member or ten accepted answers. It has an emblem, never gives access or powers, and has no score. |
 | **Add-on** | A feature a community can switch on or off, such as Polls or Looking for group. |
+| **Always shown** | A place the owner wants everyone to see, such as Announcements. Members can't hide it or take it off their menu. |
 | **Category** | A broad subject on the front page, such as Gaming. Communities also have their own categories, headings that group their forums. |
 | **Community** | A space on Tuvima for a group with something specific in common, with its own members, rules and look. |
 | **Concern** | On the front page, what you raise when a post needs tidying or may be harmful. It can open a case for a second look. |
@@ -28,6 +29,7 @@ status: early-access
 | **Global persona** | Your one public persona, shown as `handle @ tuvimaid.com`, used on the front page and wherever you choose. |
 | **Handle** | Your public name, made of letters, numbers and underscores. On your global persona it is shown as `handle @ tuvimaid.com`. |
 | **Held community** | A community Tuvima staff have paused while they review it. People can read but not post. |
+| **House rules** | A community's own numbered rules, read as the last step of joining. Joining means agreeing to them. |
 | **Important rules change** | A change to a community's rules that the owner marks important. Members can still read, but must agree before they post, reply, react or vote again. |
 | **Invite** | A link, short code or QR code that lets someone join a community straight away. |
 | **Join request** | A request to join a community that asks people to be approved first. A moderator approves or declines it. |
@@ -41,6 +43,8 @@ status: early-access
 | **Name changed recently** | A small label on a person's posts for 30 days after a rename or switch, if the owner has it on. |
 | **Name hidden** | What members see in place of a name an admin has hidden as offensive: a blurred bar with no text. The member and staff still see the real name. |
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
+| **Path** | An answer to one of a community's questions about what you're into. Each path is a role you pick yourself, which can put places in your menu. Only you see your paths. See [your paths and places](../guides/paths-and-places.md). |
+| **Path role** | A role members can pick for themselves. It can put places in their menu, follow places and open members-only places, but never carries staff powers. |
 | **Permission** | One thing a role may do, such as start threads, reply or post in chat. Owners can allow or deny each one for a role in a single category, forum or chat channel. See [permissions for a place](../owners/place-permissions.md). |
 | **Persona** | Who you are to others on Tuvima: a handle, display name and picture. Your account stays hidden behind it. |
 | **Pin** | Keeping a conversation at the top of the whole community or one forum, with an optional end date. |
@@ -52,8 +56,10 @@ status: early-access
 | **Role** | What someone can do in a community, and which members-only areas they can open. Every community has Owner, Admin, Moderator and Member, and owners can make their own. |
 | **Safety step** | One of four steps (New, Member, Regular, Trusted) that every level sits on, chosen by the owner and never shown to members. The step decides how much a vote counts. |
 | **Second look** | A front-page case you have been picked to review. Open cases are listed under **Second look** in the You menu. |
+| **See all places** | The page listing every place you can open in a community, with tabs for My places, All places and Hidden. |
 | **Slow mode** | A limit on how often each person can post in a conversation, from 30 seconds to 1 hour. |
 | **Showcase** | Up to six achievements shown at the top of a member's page in a community, above their pinned posts. |
+| **Start here** | A place the owner puts in every new member's menu, whatever paths they pick. |
 | **Switch** | Changing which persona you use in one community, from private to global or back, without leaving. See [Switch between your private and global persona](../guides/switch-persona.md). |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
@@ -61,6 +67,7 @@ status: early-access
 | **Vote ring** | A group of accounts that mostly vote together or for each other. Their votes on the same post count as one. |
 | **Vote** | Up or down on a post: "more like this" or "less like this". Votes decide what rises. |
 | **Watch** | Follow a conversation to be told about new posts in it. |
+| **What holders get** | The settings on a role, level or member tier that decide which places holders find in their menu and which they follow. |
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/glossary-desktop-light.jpg" alt="A conversation in a forum of a community, with a persona&#x27;s post and photo." width="1600" height="1000" loading="lazy" decoding="async">

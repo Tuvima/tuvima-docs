@@ -19,6 +19,8 @@ A **role** says what someone can do in your community, and can also open [member
 
 Only the owner changes roles. Moderators and up can see what each role allows.
 
+The list is grouped into **Staff**, **Members** and **Paths** (roles members pick for themselves). Each role also has a **What holders get** tab that decides which places holders find in their menu. See [path roles and what holders get](path-roles.md).
+
 ## The ready-made roles
 
 Every community starts with four. Each can do everything the one below can.
