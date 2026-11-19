@@ -31,11 +31,13 @@ Some communities are **unlisted**: their owner has chosen to leave them out of t
 
 ## Join
 
-1. Open the community and read its **rules**. Each community writes its own, on top of [the rules everyone follows](community-rules.md).
+1. Open the community and read about it. Each community writes its own rules, on top of [the rules everyone follows](community-rules.md).
 2. Choose **Join**. If the community asks people to be approved first, the button says **Ask to join** instead; see [joining a private community](join-private-community.md).
-3. Choose how to appear:
+3. If the community has set up **paths**, answer a few short questions about what you're into, or choose **Skip for now**. The line at the bottom says what each pick gives you. See [your paths and places](paths-and-places.md).
+4. **One last step: house rules.** Read the rules and choose how to appear:
    - **Join as** your global persona, `handle @ tuvimaid.com`.
    - **Create a private persona for this community**, with its own handle, name and picture. Members and moderators cannot see that it is connected to your global persona.
+5. Choose **Join**. Joining means you agree to the rules. Nothing is saved before this, so closing the steps halfway doesn't join you.
 
 Think about the choice. Your global persona lets people recognise you across Tuvima. A private persona suits a community where you would rather keep that part of your life separate, such as a health support group. Remember that it hides who you are, not what you post: in a public community anyone can still read it.
 
@@ -73,7 +75,7 @@ You can change between your private and global persona in a community later. See
 
 ## Come back
 
-Open the community again and choose **Rejoin as** your persona. You always come back as the persona you had there, with your posts, level and achievements where you left them. To use a different name, ask for a rename after you rejoin.
+Open the community again and choose **Rejoin as** your persona. You're greeted with "Well met again", and your [paths](paths-and-places.md) are as you left them. You always come back as the persona you had there, with your posts, level and achievements where you left them. To use a different name, ask for a rename after you rejoin.
 
 Each community's owner decides how people come back:
 

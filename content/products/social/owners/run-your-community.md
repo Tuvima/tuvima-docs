@@ -65,6 +65,7 @@ Polls, Looking for group, the welcome message and post templates are add-ons. Se
 Under **Manage > Rules** you edit your community's rules in a working copy. Members do not see changes until you publish.
 
 1. Edit the working copy. Add, change or remove rules. Each rule keeps its number.
+   Each rule can have an optional **one-line explanation** under it, such as "Trading for fun is fine in Trading". New members read the rules, with these lines, as the last step of joining.
 2. Choose to publish and add a note saying what changed. Members see the note.
 3. If the change matters enough that members should agree again, mark it **important**. Only the owner can. After an important change, members can still read, but must agree before they post, reply, react or vote again.
 

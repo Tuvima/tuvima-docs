@@ -47,6 +47,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/paths-and-places.md",
+      "slug": "guides/paths-and-places",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/switch-persona.md",
       "slug": "guides/switch-persona",
       "group": "Guides",
@@ -223,6 +229,12 @@
     {
       "source": "owners/roles.md",
       "slug": "owners/roles",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/path-roles.md",
+      "slug": "owners/path-roles",
       "group": "Guides",
       "section": "Run a community"
     },
