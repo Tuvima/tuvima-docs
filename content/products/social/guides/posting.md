@@ -53,7 +53,7 @@ A community can also block some words. Then your post isn't posted, and you see 
 
 ## Reply
 
-Open a conversation and write in the reply box at the bottom. On a phone the reply box stays at the bottom of the screen, in place of the usual bottom bar, and opens the full editor when you tap it. Replies show oldest first.
+Open a conversation and write in the reply box at the bottom. On a computer the reply box is a single line until you select it, then it opens with the formatting bar. On a phone the reply box stays at the bottom of the screen, in place of the usual bottom bar, and opens the full editor when you tap it. Replies show oldest first.
 
 Choose **In order** to read replies one after another, or **Nested** to see who replied to whom. Tuvima remembers your choice on that device.
 
@@ -97,11 +97,15 @@ Turn on **Content warning** and add a short label, such as "Spoilers". Readers s
 
 ## Quote someone
 
-Select text in a post and choose **Quote selection**, or choose **Quote…** to pick text with the keyboard. A post can have up to 10 quotes.
+Select text in a post and choose **Quote selection**, or open the post's **···** menu and choose **Quote** to pick text with the keyboard. A post can have up to 10 quotes.
 
 ## Mention someone
 
 Type `@` and a handle to mention a person. They get a notice. Mentions keep working if the person later changes their handle.
+
+## A post's buttons
+
+Each post keeps only the buttons you use most in view: the up and down votes, **React** and **Reply**. The reactions people added show as a small summary at the end of the row. Everything else is in the **···** menu at the top corner of the post: **Quote**, **Save**, **Copy link**, **Edit**, **Delete**, **Report**, and, for the person who asked the question, **Mark as accepted answer**. Moderators also find their tools there.
 
 ## Edit or delete
 

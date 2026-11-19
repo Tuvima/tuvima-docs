@@ -21,7 +21,7 @@ Home is your own front page. It puts the posts you are most likely to enjoy firs
 
 ## Your communities at the top
 
-On a phone, Home starts with a row of your communities. A dot on a community means someone started a conversation there since you last looked. Swipe the row sideways, and choose **Find more** at the end to open Explore. On a computer, your communities are in the menu on the left instead.
+On a phone, Home starts with a row of your communities. A dot on a community means someone started a conversation there since you last looked. Swipe the row sideways, and choose **Find more** at the end to open Explore. On a computer, your communities are in the menu on the left instead. The menu also has a **Create post** button. On a wide screen, panels beside the feed suggest communities to try, with **Join**, and show the tags people are using today and what is trending today.
 
 If you haven't joined a community yet, or you aren't signed in, Home shows a small **Find your first community** card with **Find a community** and **Start one**.
 
@@ -44,7 +44,7 @@ When the same link is shared in several categories, Home shows it once, with a l
 
 ## Why you are seeing a post
 
-Every post on Home and Following has a small grey line above it, such as "You follow Gaming" or "Popular in Tabletop". Choose it to open **Why you're seeing this**. The sheet lists up to three reasons, with what you did this month that led to each one. When a post has no personal reason, it says why the post is worth a look, for example "Trending on Tuvima" or "A new voice".
+Every post on Home and Following has a **···** menu in its top corner. Choose **Why am I seeing this?** in it to open **Why you're seeing this**. The sheet lists up to three reasons, with what you did this month that led to each one. When a post has no personal reason, it says why the post is worth a look, for example "Trending on Tuvima" or "A new voice".
 
 The same sheet has the buttons that steer Home:
 
