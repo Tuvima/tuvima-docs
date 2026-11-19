@@ -33,6 +33,9 @@ Library finds faces in the photos in your own space, turns each into a short lis
 - **Who's this?** shows the biggest groups that have no name yet. Name one, and Library offers other groups that may be the same person with **Is this Sam?**: untick any face that is someone else, then choose **Yes**, **Not Sam** or **Skip**. Nothing is named without a yes.
 - A person's page has one menu: **Rename**, **Merge with…**, **Choose cover photo**, **Hide this person** and **Remove from all photos…** (asked once).
 - In the photo viewer, the **People** section shows each face in the photo, with the name or **Name this face**.
+- The viewer toolbar has a people button that draws a frame around each face (dashed when nobody is named yet). The frames show while the photo fits the screen and hide when you zoom in.
+- **Open Places** in the side panel opens the map at the spot where the photo was taken.
+- While faces are being looked for, Settings > Server > General > Library activity shows a line such as "Looking at 1,240 of 8,900 photos" with a link to People.
 - Names already in your files' metadata appear as named people and are never overwritten.
 - A count on **People** in the View menu shows how many groups are waiting for a name.
 
