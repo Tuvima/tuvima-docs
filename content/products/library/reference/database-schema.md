@@ -735,6 +735,10 @@ density never resets it. A saved Documents view is a row in `view_galleries`
 (`gallery_kind = 'smart'`) whose `smart_rule_json` contains a `media_type` is
 `document` condition; no table was added for it.
 
+Three more switches sit on the same row and are saved on their own: `built_in_map_only` (off by default; no online map tiles are requested), `read_words_in_photos` (off by default; the words inside the profile's own photos are read in the background so a search finds them) and `recognize_people` (on by default; Library may look for faces in the profile's own photos).
+
+People in View keeps its data in four tables, all owned by one profile and removed with it. `view_people` is a person or a still-unnamed group (`name` is NULL until someone names it, plus `cover_face_id` and `hidden`). `view_faces` is one face in one photo: its box as fractions of the picture (`box_x`, `box_y`, `box_width`, `box_height`), a `quality` score, the `embedding` (a short list of 32-bit numbers describing how the face looks), the `person_id` it belongs to and whether a person `confirmed` it. `view_face_rejections` records a face a person said is not a given person ("Not Sam"). `view_face_scans` records every photo already looked at, even one with no face, so a scan never repeats and carries on after a restart. Face data is local only, is part of backup, and "Delete all face data" empties all four tables for that profile.
+
 ---
 
 ## Metadata

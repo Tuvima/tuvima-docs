@@ -114,7 +114,7 @@ A run looks at every waiting row once, in batches of 200, however many there are
 
 See "What a backup file holds" above. The restore screens come in the next step.
 
-## Configuration tables (67)
+## Configuration tables (71)
 
 | Table | Why | Points at the catalogue | Left out | Only rows where |
 |---|---|---|---|---|
@@ -173,6 +173,10 @@ See "What a backup file holds" above. The restore screens come in the next step.
 | `view_galleries` | Galleries a person built in View. | `cover_item_id` (local item), `soundtrack_playlist_id` (collection) | none | all rows |
 | `view_gallery_items` | The View items in a person-built gallery. | `item_id` (local item) | none | all rows |
 | `view_gallery_shares` | Who a person-built View gallery is shared with. | none | none | all rows |
+| `view_people` | The people a person named in their own photos, and groups still waiting for a name. | none | none | all rows |
+| `view_faces` | Where faces are in a person's own photos and who they were matched to; looks are kept so groups survive a restore. | `item_id` (local item) | none | all rows |
+| `view_face_rejections` | Faces a person said are not a given person. | none | none | all rows |
+| `view_face_scans` | Which of a person's photos were already looked at for faces. | `item_id` (local item) | none | all rows |
 | `doc_field_values` | Values a person entered in custom document fields. | `item_id` (local item) | none | all rows |
 | `local_item_tag_links` | Which tags a person put on which View item. | `item_id` (local item) | none | all rows |
 | `doc_item_details` | Filing details a person entered for a document (machine suggestions are rebuilt). | `item_id` (local item) | `suggestions_json` | all rows |
