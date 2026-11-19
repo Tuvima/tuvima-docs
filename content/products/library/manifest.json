@@ -247,6 +247,12 @@
       "section": "How it works"
     },
     {
+      "source": "explanation/people-and-search-in-view.md",
+      "slug": "explanation/people-and-search-in-view",
+      "group": "Guides",
+      "section": "How it works"
+    },
+    {
       "source": "explanation/how-documents-are-read.md",
       "slug": "explanation/how-documents-are-read",
       "group": "Guides",
