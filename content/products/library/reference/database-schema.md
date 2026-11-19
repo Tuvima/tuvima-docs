@@ -190,6 +190,16 @@ Links works to collections (Series to Universe relationships).
 
 `collection_items` also has `added_by` (`TEXT NOT NULL DEFAULT 'hand'`, either `'hand'` or `'list'`): who put the title in a person-built collection. A list refresh only ever adds or removes `'list'` rows, so it never touches a title added by hand. Added by upgrade step `0075_collection_list_sources`.
 
+### profile_pinned_playlists
+
+Which playlists a person pinned to the top of their own playlist list (Listen). One row per profile and playlist; pinning is personal, so it follows the person across devices and is kept in a backup. Added by upgrade step `0092_profile_pinned_playlists`.
+
+| Column | Type | Notes |
+|---|---|---|
+| `profile_id` | BLOB | FK -> `profiles.id` (`ON DELETE CASCADE`) |
+| `collection_id` | BLOB | FK -> `collections.id` (`ON DELETE CASCADE`) |
+| `pinned_at` | TEXT | When it was pinned |
+
 ### collection_placements
 
 Where a person-built collection appears as a lane ("Show on").

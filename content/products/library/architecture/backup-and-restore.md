@@ -214,6 +214,7 @@ See "What a backup file holds" above. The restore screens come in the next step.
 | `profile_taste_overrides` | Genres and tastes a person switched on or off. | `profile_id` | none | none |
 | `profile_work_preferences` | A person's own tags and preferences for a title. | `profile_id` | `work_id` (work) | none |
 | `profile_person_preferences` | A person's own tags and preferences for a creator or performer. | `profile_id` | `person_id` (person) | none |
+| `profile_pinned_playlists` | The playlists a person pinned to the top of their own list. | `profile_id` | `collection_id` (collection) | none |
 
 ## Catalogue tables (73)
 
