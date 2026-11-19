@@ -231,7 +231,7 @@ Continue shelves and resume actions follow progress. Completed items show their 
 
 The Engine saves supported player and reader settings. Saved positions belong to the active profile and exact media item. Stream access expires and is resolved for the current session. A saved position is not a download link.
 
-Prepared video may use HLS variants, alternate audio, and WebVTT captions. See [playback architecture](../architecture/playback.md) for delivery, resume, bookmarks, and player ownership rules.
+Prepared video may use HLS variants, alternate audio, and WebVTT captions. A film that must be converted while you watch shows its full length from the start; jumping (or resuming) past the part that is ready starts a second conversion at that point and drops the first, so you land within a couple of seconds of where you aimed after a short wait. See [playback architecture](../architecture/playback.md) for delivery, resume, bookmarks, and player ownership rules.
 
 </details>
 
