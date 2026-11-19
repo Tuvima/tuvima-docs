@@ -355,7 +355,26 @@ unauthorized identifiers return the same not-found shape as missing resources.
 | GET, POST, DELETE | `/view/galleries/{id}/items` | Page or mutate Manual Gallery membership. For a profile without the Documents permission the page leaves documents out, adding a document is 403 (nothing in the request is added), and remove and reorder never touch or count a document | Required + Gallery permission |
 | GET, PUT | `/view/galleries/{id}/shares` | Read or replace selected-profile Gallery shares. A saved Documents view is always private: replacing its shares is refused with 403 ("A saved Documents view is private and cannot be shared.") | Owner + Gallery sharing enabled |
 | GET | `/view/share-targets` | Return only enabled profiles the caller may select as Gallery share recipients | Required + trusted profile |
-| GET | `/view/people` | Cursor-page named/reviewed, provenance-aware people annotations within an authorized scope; no face-recognition claim | Required + scope read |
+| GET | `/view/people` | Cursor-page named people (from file metadata, typed names and names given to recognized faces) within an authorized scope | Required + scope read |
+| GET | `/view/search-suggestions` | People, Places, Years, Cameras and Tags matching a typed prefix, with counts, within an authorized scope (`perKind` caps each group) | Required + scope read |
+| GET, PUT | `/view/preferences/photo-words` | Read or set the profile's own "Read words in my photos" choice (off by default). Turning it on queues the person's own photos for text recognition | Required + own profile |
+| GET, PUT | `/view/preferences/recognize-people` | Read or set the profile's own face recognition choice (on by default) | Required + own profile |
+| GET | `/view/faces/groups` | The profile's own groups of faces; `named`, `includeHidden` and `take` narrow the list. Faces are only ever the caller's own photos | Required + own profile |
+| GET | `/view/faces/groups/{personId}` | One group or person | Required + own profile |
+| GET | `/view/faces/groups/{personId}/faces` | The faces held by one group, as boxes (fractions of the picture) | Required + own profile |
+| GET | `/view/faces/groups/{personId}/suggestions` | Other groups that may be the same person ("Is this Sam?"), nearest first, never ones already marked "Not them" | Required + own profile |
+| GET | `/view/faces/items/{itemId}` | The faces found in one photo | Required + own profile |
+| GET | `/view/faces/{faceId}/crop` | A small square JPEG of one face (`size` 32 to 512) | Required + own profile |
+| GET | `/view/faces/progress` | `state` (`off`, `getting_tools`, `looking`, `done`), photos looked at and in total, faces, named people and groups waiting for a name | Required + own profile |
+| POST | `/view/faces/groups/{personId}/name` | Name a group (1 to 120 characters). A name that already belongs to someone joins that person (`merged: true`) | Required + own profile, manage |
+| POST | `/view/faces/groups/{personId}/merge` | Merge a group into another (`into_person_id`) | Required + own profile, manage |
+| POST | `/view/faces/groups/{personId}/confirm` | "Yes": `accepted_face_ids` join the person, `rejected_face_ids` are marked not them | Required + own profile, manage |
+| POST | `/view/faces/groups/{personId}/reject` | "Not them": `face_ids` may never be put with this person again | Required + own profile, manage |
+| PUT | `/view/faces/groups/{personId}/hidden` | Hide or show a person; a hidden person is not offered by search | Required + own profile, manage |
+| PUT | `/view/faces/groups/{personId}/cover` | Choose the cover face (`face_id`) | Required + own profile, manage |
+| DELETE | `/view/faces/groups/{personId}` | Remove a person and forget their faces | Required + own profile, manage |
+| DELETE | `/view/faces/{faceId}` | Remove one face | Required + own profile, manage |
+| DELETE | `/view/faces` | Delete all face data of the profile | Required + own profile, manage |
 | GET | `/view/places` | Cursor-page real GPS/place aggregates within an authorized scope; no map/tile request | Required + scope read |
 | GET | `/view/admin/profiles/{profileId}/sources` | Return an administrator-safe source/device summary without paths, secrets, client identifiers, or invented capacity. Each source carries `content_kind` (`photos`, `personal_videos` or `documents`), `skipped_file_count` (files the last full scan skipped because they do not fit the kind), `added_by_profile_id` and `accepts_photos_and_videos` (true for the built-in upload source, which is shown as "accepts photos and videos") | Administrator |
 | POST | `/view/admin/profiles/{profileId}/sources` | Add a folder to a Personal Space. `content_kind` is required (400 without a valid one); the folder records the acting administrator as `added_by_profile_id`, and files found in it are tagged with that profile | Administrator |
