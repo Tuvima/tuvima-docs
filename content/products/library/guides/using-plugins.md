@@ -111,7 +111,7 @@ Keys and settings values are stored apart from the file, so editing or resetting
 
 ## Restore official plugins
 
-If an official plugin's file goes missing or cannot be read, the Engine already puts it back quietly when it starts. **Restore official plugins** is the visible version: a quiet row in Settings, for administrators only, and not on the Plugins page itself. It opens a short dialog listing each official plugin file that is missing, damaged or edited, marked "will be restored" or "will be reset", and how many already match. Confirming restores them from the shipped copies.
+If an official plugin's file goes missing or cannot be read, the Engine already puts it back quietly when it starts. **Restore official plugins** is the visible version: a quiet row at the bottom of the **Plugins** page, for administrators only. It opens a short dialog listing each official plugin file that is missing, damaged or edited, marked "will be restored" or "will be reset", and how many already match. Confirming restores them from the shipped copies.
 
 It never touches your keys, switches, settings values or Private plugins. The row is quiet because you should rarely need it. It is there for when you edited something and want to start again, or want to see what a repair would do before it happens. When nothing differs, the dialog says "All official plugins match."
 

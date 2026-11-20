@@ -168,7 +168,7 @@ One selected text resource profile supplies the same Qwen3 artifact to **text_fa
 
 ## Settings
 
-Settings at `/settings/{Section}[/{Subsection}]` is the Dashboard's configuration and operational hub. `SettingsNav` (`src/MediaEngine.Web/Models/ViewDTOs/SettingsNav.cs`) is the canonical route map: one menu tree (`MenuGroups`, built by `Services/Navigation/SettingsMenuBuilder`) in four groups with role-filtered visibility, where every parent opens its own main page and sub-pages are tree children (no sub-page tab strips). Every page renders inside `Components/Settings/Frame/SettingsPageFrame` (breadcrumb, title, server-administrator attention notices, a permanent page notice slot, optional in-page tabs). Pages:
+Settings at `/settings/{Section}[/{Subsection}]` is the Dashboard's configuration and operational hub. `SettingsNav` (`src/MediaEngine.Web/Models/ViewDTOs/SettingsNav.cs`) is the canonical route map: one menu tree (`MenuGroups`, built by `Services/Navigation/SettingsMenuBuilder`) in four groups with role-filtered visibility, where every parent opens its own main page and sub-pages are tree children (no sub-page tab strips). Every page renders inside `Components/Settings/Frame/SettingsPageFrame` (title, an optional single back link for pages below a page, server-administrator attention notices, a permanent page notice slot, optional in-page tabs). Pages:
 
 | Group | Pages |
 |---|---|
