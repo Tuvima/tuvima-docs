@@ -731,9 +731,17 @@ The System > Logs page (`/settings/system/logs`) reads these. Logs can name file
 | GET | `/notifications` | The Dashboard inbox, newest first (`items`, `unread_count`). Query `limit` (default 50, at most 500) | Effective administrator |
 | POST | `/notifications/read` | Marks the given `ids` read, or every unread message when `ids` is empty. `204` | Effective administrator |
 | GET | `/notifications/settings` | Each event with the `channels` it goes to, each channel with its `state` (`healthy`, `needs_attention`, `off`) and a plain `state_label`, `quiet_hours`, and `include_details` | Effective administrator |
-| PUT | `/notifications/settings` | Changes routes (event id to channel ids; events left out keep theirs), quiet hours (`HH:mm` times) or `include_details`. `400` for an unknown event or channel or a bad time | Effective administrator |
+| PUT | `/notifications/settings` | Changes routes (event id to channel ids; events left out keep theirs), quiet hours (`HH:mm` times) `include_details`, a per-channel `channel_details` switch or the `daily_summary` (`enabled`, `time` as `HH:mm`). `400` for an unknown event or channel or a bad time | Effective administrator |
 | POST | `/notifications/channels/{channelId}/test` | Sends a test message to the signed-in administrator through that channel; a working test turns a switched-off channel back on | Effective administrator |
 | POST | `/notifications/channels/{channelId}/enable` | Turns a channel that switched itself off back on. `204` | Effective administrator |
+| GET | `/notifications/mail-server` | The mail server (`host`, `port`, `encrypted`, `username`, `from_address`, `from_name`, `configured`, `has_password`; never the password) | Effective administrator |
+| PUT | `/notifications/mail-server` | Saves the mail server. A `null` `password` keeps the saved one | Effective administrator |
+| POST | `/notifications/mail-server/test` | Sends a test message to the signed-in administrator without saving | Effective administrator |
+| GET | `/notifications/channel-types` | The kinds of channel that can be added, each with its fields, a help sentence, its cost and a `what_leaves` line | Effective administrator |
+| GET | `/notifications/channels/{channelId}` | One added channel with its saved values; secrets come back only as the names of the fields that are set | Effective administrator |
+| POST | `/notifications/channels` | Adds a channel (`type`, `name`, `values`). `400` with a plain reason for a bad value | Effective administrator |
+| PUT | `/notifications/channels/{channelId}` | Changes an added channel. Leaving a secret blank keeps the saved one | Effective administrator |
+| DELETE | `/notifications/channels/{channelId}` | Removes an added channel and its saved secrets. `204` | Effective administrator |
 | GET | `/backup/settings` | The schedule, `keep_last`, each destination with `state` and last copy, next run and the last monthly restore check | Administrator or application with `backup.read` |
 | PUT | `/backup/settings` | Changes the schedule, retention or `enabled_destinations`; parts left out keep their value. `400` for a bad time, frequency or unknown destination | Administrator or application with `backup.run` |
 | POST | `/backup/run` | Backs up now and copies to each switched-on destination, reading every copy back. Only the Library's settings, each person's own state (kept against how to recognise each title) and safe configuration are included, never the catalogue or media files. `409` while another backup is running | Administrator or application with `backup.run` |

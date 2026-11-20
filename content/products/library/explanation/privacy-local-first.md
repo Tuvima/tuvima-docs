@@ -31,6 +31,24 @@ Provider behavior depends on configuration, credentials, media type, and process
 
 The plugin directory (Settings > Plugins > Available plugins) contacts GitHub, and only when an administrator opens Available plugins and the saved copy is more than a day old, or presses Check now. There is no background schedule. The request is a plain read of a public file, with the Library's standard User-Agent and nothing about you, your media or your server in it. The Library keeps a saved copy of the list on the server, so the page works without GitHub. A switch on the section turns the lookup off completely: with it off no request is made. Installed plugins can use external services according to their implementation and declared permissions. Only install code you trust.
 
+## Know what alerts send
+
+Alerts leave your computer only when an administrator adds a channel under **Settings > General > Notifications** and routes an alert to it. Nothing is sent otherwise, and nothing is sent during quiet hours. By default a message carries a short generic title only; **Include details** is a switch per channel and starts off. Each channel type sends to one place:
+
+| Channel | What leaves, and where it goes |
+|---|---|
+| Email | The alert goes to the administrators' mail accounts through your own mail server and whatever relays it on the way. |
+| Phone alerts (ntfy) | The alert text. With ntfy.sh it passes through their servers, and through Apple or Google to reach an iPhone or Android phone. Anyone who knows the topic can read the alerts, so use the long random topic the form suggests, or your own ntfy server. |
+| Discord | The alert text goes to Discord's servers, and everyone who can read that channel sees it. |
+| Telegram | The alert text goes to Telegram's servers and appears in the chat with your bot. |
+| Pushover | The alert text goes to Pushover's servers and on to your phone through Apple or Google. |
+| Slack or Teams | The alert text goes to Slack or Microsoft, and everyone who can read that channel sees it. |
+| Gotify | The alert text goes to your own Gotify server and stays there. |
+| Web address (webhook) | The alert text goes to the address you enter. If that is outside your home network, whoever runs it can read it. |
+| Other services (Apprise) | The alert text goes to your Apprise server, then wherever you set it to forward it. |
+
+Channel logins, tokens and links are stored encrypted, never shown again, and never appear in an error message. Redirects are not followed, hosted services are limited to their own addresses, and a channel that fails five times in a row switches itself off. There is no Tuvima-run relay: Library talks to the service you pick directly. See [Get alerts on your phone](../guides/phone-alerts.md).
+
 ## Know how scanned documents are read
 
 Scanned pages and photos of paper are read by Tesseract, a program that runs on your own host. The text stays in your data store and is private to the owner's space. Nothing is uploaded.
