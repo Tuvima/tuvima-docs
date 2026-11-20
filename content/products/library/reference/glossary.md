@@ -205,7 +205,7 @@ An email sign-in that belongs to one person in a household and opens straight to
 
 ### Outside address
 
-The secure address (a Tailscale address or an HTTPS reverse-proxy hostname) that phone and TV apps use away from home, chosen in Settings → Network & Remote Access → Remote access. It is optional: Tuvima is open from the start, so apps pair at home with the home address and need no setup. The app learns the outside address from the discovery answer (`outside_address`).
+The secure address (a Tailscale address or an HTTPS reverse-proxy hostname) that phone and TV apps use away from home, chosen in Settings → Network & Remote Access → Remote access. It is optional: Tuvima is open from the start, so apps pair at home with the home address and need no setup. The app learns the outside address from the discovery answer (`outside_address`). Anyone who signs in through it needs a password or passkey. See [Away from home](../guides/away-from-home/overview.md).
 
 ## P
 
@@ -220,6 +220,10 @@ Code that opens a file format and extracts embedded metadata, artwork, and techn
 ### Provider
 
 An external metadata source such as Apple, TMDB, MusicBrainz, Comic Vine, or Wikidata. Historical bridge identifiers may remain in records even when their original provider is no longer active.
+
+### Proxy port
+
+A second Dashboard port (`remote.proxy_port`, 5017 in the guides) for a proxy or tunnel in front of Library, such as Tailscale Serve, Caddy, nginx or a Cloudflare connector. Everything that arrives on it counts as coming from outside, so profiles with no password stay home only. See [Passwords and who can sign in from outside](../guides/away-from-home/passwords-and-outside-sign-in.md).
 
 ## Q
 
@@ -262,6 +266,10 @@ A set of Documents filters a person keeps under a name: a Smart Gallery whose ru
 ### Series
 
 A lane-level shelf, such as a book series in Read, a film series in Watch, or an album/audio series in Listen. Comics use volume/issue wording on user-facing surfaces even when the stored metadata field is still `series`. A Series is identified by its Wikidata Series plus its kind of media, so the Expanse novels, audiobooks and TV show are three Series.
+
+### Shared address
+
+A situation where your internet provider shares one public address between several homes (CGNAT). A door opened in your router then leads nowhere, so Library's Check warns first and suggests Tailscale or a tunnel. See [Router port forwarding](../guides/away-from-home/router-port-forwarding.md#shared-public-addresses).
 
 ### Shelf
 

@@ -79,7 +79,7 @@ Evaluation fixtures, outputs, reports, and models stay on the Engine host unless
 
 Keep provider keys in ignored secret files, rather than committing them to the repository. Missing credentials should remain visible as a configuration problem, not as a successful connection.
 
-Tuvima is open from the start: any device that can reach the server can use it, and Tuvima sign-in is always required. Closed router ports are what keep the internet out, and a desktop install started without a password can be used from any device that reaches the server until its administrator adds a password or passkey. The Dashboard serves plain http, so for access from outside use a verified Tailscale Serve or HTTPS reverse-proxy path. Advanced router mapping is opt-in. [Remote access guidance](../guides/remote-access.md) explains the deployment checks.
+Tuvima is open from the start: any device that can reach the server can use it, and Tuvima sign-in is always required. Closed router ports keep the internet out. A profile with no password works at home only: Tuvima refuses it from outside, and everyone who signs in from outside needs a password or passkey. The Dashboard serves plain http, so for access from outside use a verified Tailscale Serve or HTTPS reverse-proxy path. The guided away-from-home flow makes no outside calls beyond its connection test, and each guide names any step that contacts Tailscale, Cloudflare or a certificate service (see [Why away-from-home access works this way](../guides/away-from-home/why-it-works-this-way.md)). Advanced router mapping is opt-in. [Remote access guidance](../guides/remote-access.md) explains the deployment checks.
 
 ## Plan an offline session
 

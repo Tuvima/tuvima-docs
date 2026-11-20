@@ -63,7 +63,7 @@ The Dashboard retries credentials on later requests and detects replacement. Do 
 
 Check the active account, profile grant, and **Users & Households → Advanced** settings.
 
-Account access from outside needs the sign-in methods you allow under Users & Households → Advanced and a secure path (Tailscale or an HTTPS reverse proxy; the Dashboard itself serves plain http). Administrator settings require account eligibility and an administrator-enabled active grant; optional grant PIN protection may also need unlocking.
+Account access from outside needs the sign-in methods you allow under Users & Households → Advanced and a secure path (Tailscale or an HTTPS reverse proxy; the Dashboard itself serves plain http). A profile with no password cannot sign in from outside at all. For each message the away-from-home flow shows, see [Test your connection and fix what a check reports](away-from-home/testing-and-troubleshooting.md). Administrator settings require account eligibility and an administrator-enabled active grant; optional grant PIN protection may also need unlocking.
 
 Use [account recovery](account-security.md) if your password and authenticators are unavailable. A request from localhost alone never grants administration.
 
