@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-The **Trailhead** is your community's welcome page. New members land there after joining, and it stays one tap away in the community menu. You set it up on one page: **Manage › Onboarding › Trailhead and Waymarks**. You need the **Manage onboarding** permission, which the Owner and Admin roles have.
+The **Trailhead** is your community's welcome page. New members land there after joining, and it stays one tap away in the community menu. You set it up on one page: **Manage › Trailhead and Waymarks**. You need the **Manage onboarding** permission, which the Owner and Admin roles have.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/trailhead-settings-desktop-light.jpg" alt="The owner&#x27;s page for the Trailhead: the welcome words, up to five Waymarks, Lore links, Wayfarer, the introduction draft and highlighted achievements." width="1600" height="1000" loading="lazy" decoding="async">
