@@ -36,6 +36,7 @@ Every post has an up and a down vote, and seven reactions: **Love**, **Funny**, 
 
 - You can give one vote and one reaction per post. Choose either again to take it back, or choose another to change it.
 - You need to be signed in, and you cannot react to your own posts.
+- Your first vote or reaction asks you to agree to the [front page guidelines](front-page-guidelines.md), once.
 - Others see the totals, never who reacted.
 
 ## Post to Tuvima

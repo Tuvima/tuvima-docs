@@ -35,6 +35,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/front-page-guidelines.md",
+      "slug": "guides/front-page-guidelines",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/home-feed.md",
       "slug": "guides/home-feed",
       "group": "Guides",

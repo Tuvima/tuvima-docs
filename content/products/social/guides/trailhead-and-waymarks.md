@@ -31,7 +31,9 @@ What can tick a Waymark:
 | The Waymark asks you to | It ticks when you |
 |---|---|
 | Post or reply somewhere | start a conversation or reply in that forum |
-| React to a post somewhere | react to any post in that forum |
+| React to a post somewhere | react to any post in that forum (or anywhere in the community, if it names no forum) |
+| Vote on a post (front page) | vote or react on any post on the front page |
+| Join a community (front page) | are a member of any community other than the front page |
 | Open a chat channel | open that channel |
 | Read a pinned conversation | open that conversation |
 | Read the rules | open the community's Rules page (agreeing when you joined doesn't count) |
@@ -62,6 +64,20 @@ Below your first steps, the Trailhead keeps going:
 
 Until you've finished your Waymarks, the community home shows a small **Trailhead** card with your progress and **Open the Trailhead**. Choose **Dismiss** to hide the card. The Trailhead and the menu item stay.
 
+## The front page's Trailhead
+
+The front page has its own Trailhead too, with a welcome and three first steps: **Vote on a post**, **Join a community** and **Set your picture**. You see it as the last step of your first visit, and any time at the front page's **Trailhead**.
+
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/portal-trailhead-desktop-light.jpg" alt="The Tuvima front page&#x27;s own Trailhead: a welcome and three first steps (vote on a post, join a community, set your picture) that tick themselves." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/portal-trailhead-desktop-dark.jpg" alt="The Tuvima front page&#x27;s own Trailhead: a welcome and three first steps (vote on a post, join a community, set your picture) that tick themselves." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/portal-trailhead-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/portal-trailhead-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
+Its Waymarks start once you've agreed to the [front page guidelines](front-page-guidelines.md). Until then it shows **Agree to the guidelines to start ticking these off**.
+
 ## Visiting before you join
 
 If you haven't joined, the Trailhead shows the welcome and the Lore, with a link to join. Waymarks start once you're a member.
@@ -72,3 +88,4 @@ If you haven't joined, the Trailhead shows the welcome and the Lore, with a link
 - [Joining a community](join-a-community.md)
 - [Being new to a community](newcomers.md)
 - [Achievements](achievements.md)
+- [Front page guidelines](front-page-guidelines.md)
