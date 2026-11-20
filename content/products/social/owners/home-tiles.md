@@ -56,6 +56,15 @@ For each tile, tick what it shows:
 - **New posts this week**: how many conversations started in the category this week.
 - **Latest conversation**: the most recent conversation in the category.
 
+## Choose what your home page shows
+
+At the top of the builder, **Home page shows** has two choices:
+
+- **What's happening** (the starting choice): your home opens with the week's popular conversations, new photos, who is chatting and recent achievements, then your tiles and the list. It helps a community feel lively from the first visit.
+- **Forums and list**: just your tiles and the list of conversations, for a quieter, classic forum.
+
+Members can always find the classic view by choosing a forum.
+
 ## Hide the side column
 
 The side column holds your About, Rules and other blocks. Choose **Side column: Hide (full width)** so the tiles use the whole width of the page. Choose **Show** to bring it back. Your blocks are kept either way. See [Change your community's look](look-and-feel.md) to choose which blocks it holds.
