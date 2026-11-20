@@ -21,7 +21,7 @@ Home is your own front page. It puts the posts you are most likely to enjoy firs
 
 ## Your communities at the top
 
-On a phone, Home starts with a row of your communities. A dot on a community means someone started a conversation there since you last looked. Swipe the row sideways, and choose **Find more** at the end to open Explore. On a computer, your communities are in the menu on the left instead. The menu also has a **Create post** button. On a wide screen, panels beside the feed suggest communities to try, with **Join**, and show the tags people are using today and what is trending today.
+On a phone, Home starts with a row of your communities. A dot on a community means someone started a conversation there since you last looked. Swipe the row sideways, and choose **Find more** at the end to open Explore. On a computer, your communities are in the menu on the left instead. The menu also has a **Create post** button. You can vote and react on a post right from the feed. On a community's post, your reaction counts as the persona you use in that community. On a wide screen, panels beside the feed suggest communities to try, with **Join**, and show the tags people are using today and what is trending today.
 
 If you haven't joined a community yet, or you aren't signed in, Home shows a small **Find your first community** card with **Find a community** and **Start one**.
 
