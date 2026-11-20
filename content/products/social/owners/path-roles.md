@@ -36,7 +36,7 @@ It is still one list, and every role works the same way. The groups are there so
 
 A role members can pick can never hold staff or moderation permissions. Tuvima refuses the switch while a role has any, so nobody can hand themselves moderator powers by accident. To let members pick a role that opens a members-only place, give the role access to that place in its [area settings](area-access.md); picking the role then opens it.
 
-Members find roles they can pick on **Your paths**, under **Roles you can pick**. When your community has path questions, each answer gives its own path role.
+Members find roles they can pick on **Your paths**, under **Roles you can pick**. When your community has path questions, each answer gives its own path role. You write the questions on [Manage › Onboarding](onboarding-questions.md).
 
 ## Choose what holders get
 
@@ -44,6 +44,8 @@ Every role has a **What holders get** tab. Member [levels](run-your-community.md
 
 - **In their menu**: places (forums, chat channels or whole categories) added to holders' menus.
 - **Alerts**: forums or categories holders follow, so new conversations there reach their bell. Email always stays a separate choice each member makes. Members can change or mute any alert you set up for them.
+
+For path roles, people with **Manage onboarding** can set **In their menu** and **Alerts** too, so admins can build onboarding without being able to change other roles.
 
 It works however someone got the role: picked it, was given it by a moderator or an invite, reached the level or holds the tier. When it isn't their own pick, they get a **New paths opened** notice in their bell, and the places appear in their menu. When the role ends, its places leave their menu; their posts stay.
 
@@ -60,7 +62,7 @@ When showing a role is the point, as with "Raid team", switch on **Shown on memb
 
 ## Start here and always shown
 
-In the settings of any category, forum or chat channel, people with the **Manage onboarding** permission (Admins and the owner, to begin with) see two choices:
+On [Manage › Onboarding › Start-here places](start-here-places.md), or in the settings of any category, forum or chat channel, people with the **Manage onboarding** permission (Admins and the owner, to begin with) see two choices:
 
 - **Start here**: put this place in every new member's menu, whatever they pick. Choose a few welcoming places, such as an introductions forum and a general chat channel. Up to 10.
 - **Always shown**: members can't hide it or take it off their menu. Use it sparingly, for places such as Announcements. Up to 10.

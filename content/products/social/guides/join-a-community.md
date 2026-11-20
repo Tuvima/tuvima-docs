@@ -43,6 +43,8 @@ Think about the choice. Your global persona lets people recognise you across Tuv
 
 Some communities ask new members to take part for a while before everything is switched on. See [being new to a community](newcomers.md).
 
+Some communities only accept accounts that are at least a day or a week old, to keep out sudden waves of fake accounts. If yours is newer, you'll see a message saying when to try again. Your community never learns when you signed up: Tuvima ID only tells it yes or no.
+
 ## Mute instead of leaving
 
 If you only want a break, choose **Joined** at the top of the community to open **Your membership**, then **Mute this community**. You get no alerts from it, and with your global persona it also stays off your Home. You stay a member. Choose **Unmute this community** to turn things back on.

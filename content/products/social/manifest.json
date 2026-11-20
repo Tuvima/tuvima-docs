@@ -239,6 +239,30 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/onboarding.md",
+      "slug": "owners/onboarding",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/onboarding-questions.md",
+      "slug": "owners/onboarding-questions",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/start-here-places.md",
+      "slug": "owners/start-here-places",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/try-onboarding.md",
+      "slug": "owners/try-onboarding",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/path-roles.md",
       "slug": "owners/path-roles",
       "group": "Guides",

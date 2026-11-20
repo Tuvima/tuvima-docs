@@ -43,6 +43,18 @@ Changing who can read or who can find the community sets this back to the usual 
 
 While it runs, the settings page says **Joining is slowed down**. Choose **End the slow-down** to go back to your normal choice early.
 
+## Account age
+
+Brand-new accounts are a common sign of a raid. Under **Account age**, choose:
+
+- **Any age** (the usual choice),
+- **At least 1 day old**, or
+- **At least 1 week old**.
+
+Tuvima ID checks the account's age and only tells your community yes or no. Nobody in your community, you included, ever learns when someone signed up. Someone whose account is too new sees "This community only accepts accounts that are at least a day old. Please try again tomorrow." (or "a week old ... Please try again later"). Nothing is kept about the attempt, and an invite they used still works for them later.
+
+It applies to every way of joining: straight away, asking to join and invites. Approving a request that was sent earlier doesn't check again.
+
 ## Limits on joining many communities
 
 To slow down spam accounts, each Tuvima ID account can join only a few communities an hour and a day, counted across all its personas, with lower limits in an account's first week. Someone over the limit sees "You can't join more communities right now. Try again later." You do not need to set anything up for this.
