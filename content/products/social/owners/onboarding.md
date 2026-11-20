@@ -52,6 +52,14 @@ When you have questions, the page lists the places that no answer and no start-h
 
 **Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote your questions see a one-time **Choose your paths** banner, so they can pick paths without leaving and rejoining. Switch it off if you'd rather not ask them. New members always see your questions when they join.
 
+## Start from a template
+
+Not sure where to begin? **Start from a template** next to the page title fills in questions, a welcome and Waymarks for a gaming group, a product support community, a creator fan club or a local club. See [Start onboarding from a template](onboarding-templates.md).
+
+## How it's going
+
+**Manage › Insights** shows an Onboarding card: how many people started joining, joined, chose paths and finished their Waymarks, always rounded. See [See how onboarding is going](onboarding-numbers.md).
+
 ## Before you start
 
 - Keep it short. Every extra step loses a few people. Two or three questions is usually plenty.
