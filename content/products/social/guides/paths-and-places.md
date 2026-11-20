@@ -87,6 +87,10 @@ Choose **See all places** at the bottom of the community menu. It has three tabs
 
 Showing a place again also brings back the alert setting it had before you hid it.
 
+## Your first steps
+
+After you join, the community's **Trailhead** welcomes you with a few first steps, called Waymarks, that tick themselves as you go. See [The Trailhead and Waymarks](trailhead-and-waymarks.md).
+
 ## Coming back
 
 If you leave a community and come back later, you're greeted with "Well met again". Your paths and roles are as you left them. Choose **Review my picks first** to look at your paths after you rejoin.

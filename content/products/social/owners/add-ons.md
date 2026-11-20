@@ -1,6 +1,6 @@
 ---
 title: Add-ons
-description: Switch Tuvima's built-in add-ons on or off for your community, and set up polls, looking for group, a welcome message and post templates.
+description: Switch Tuvima's built-in add-ons on or off for your community, and set up polls, looking for group and post templates.
 audience: user
 category: guide
 product_area: tuvima
@@ -39,13 +39,9 @@ Members can ask others to join them, for example for a game night.
 - When the seats are taken, the post shows **Full**.
 - The author is told when someone joins and when it fills.
 
-## Welcome message
+## Welcome message (now the Trailhead)
 
-A short message for new members.
-
-- Members who join after you wrote it see it, until they dismiss it.
-- It can have up to 3 links.
-- A link to a place a member cannot open is left out for that member.
+The welcome message add-on has become your community's **Trailhead**: a welcome page with first steps that tick themselves. See [Set up the Trailhead and Waymarks](trailhead.md).
 
 ## Post templates
 

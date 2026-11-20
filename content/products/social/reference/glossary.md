@@ -20,12 +20,14 @@ status: early-access
 | **Draft** | A post you have started and not sent. It saves to your persona as you type and is private to you. |
 | **Emblem** | The small picture on an achievement: a shape, a symbol and two colours. |
 | **Featured** | A row on the community home with up to 4 conversations chosen by moderators. |
+| **Finding your feet** | A part of the Trailhead that shows a newcomer how close they are to becoming a full member. |
 | **Fold** | On the front page, collapsing a post behind a notice, either while members check a harmful concern or because reviewers agreed it should be folded. Readers can still choose **Show anyway**. |
 | **Formerly** | A note beside a name, such as "formerly @old", that shows the name a person had before a rename or a switch. It shows only in that community, for the time the owner chose. |
 | **Forum guidelines** | Short guidance for one forum, shown above the editor. |
 | **Forum** | A place inside a community where conversations live, grouped under one of the community's categories. |
 | **Front page** | The shared feed at tuvima.com, where everyone's posts appear by category. |
 | **Full member** | A member who is no longer limited as a newcomer. |
+| **Further along** | A part of the Trailhead that shows your next level, what it opens, and achievements the community suggests. |
 | **Global persona** | Your one public persona, shown as `handle @ tuvimaid.com`, used on the front page and wherever you choose. |
 | **Handle** | Your public name, made of letters, numbers and underscores. On your global persona it is shown as `handle @ tuvimaid.com`. |
 | **Held community** | A community Tuvima staff have paused while they review it. People can read but not post. |
@@ -35,6 +37,7 @@ status: early-access
 | **Join request** | A request to join a community that asks people to be approved first. A moderator approves or declines it. |
 | **Labels** | The front-page category, subtopic and tags a community conversation carries, set by the community's owner and admins. |
 | **Level** | A member's rung on a community's ladder of up to 50 levels. Every community starts with Wanderer, Companion, Pathfinder, Warden and Elder, and the front page uses the same names. |
+| **Lore** | Up to six things a community wants new members to read first, shown on its Trailhead: a pinned conversation, the rules or a short page. |
 | **Member moderation** | How the front page is looked after: members who are not involved, picked at random, take a second look at posts others raise concerns about, and decide together. |
 | **Member tier** | A kind of membership a community offers, such as Supporter. It can open forums and show beside names, but never changes levels, Reputation or votes. |
 | **Moderation record** | The permanent list of moderation actions in a community. |
@@ -62,11 +65,14 @@ status: early-access
 | **Start here** | A place the owner puts in every new member's menu, whatever paths they pick. |
 | **Switch** | Changing which persona you use in one community, from private to global or back, without leaving. See [Switch between your private and global persona](../guides/switch-persona.md). |
 | **Tag** | A short label added to a front page post, such as `board-games`. |
+| **Trailhead** | A community's welcome page: the owner's welcome, your Waymarks and the Lore. It's in the community menu. |
 | **Tuvima ID** | The private account you sign in with. It keeps your email and security settings. |
 | **Unlisted** | A community left out of the directory and search. A public one is reachable by link; a private one only by invite. |
 | **Vote ring** | A group of accounts that mostly vote together or for each other. Their votes on the same post count as one. |
 | **Vote** | Up or down on a post: "more like this" or "less like this". Votes decide what rises. |
 | **Watch** | Follow a conversation to be told about new posts in it. |
+| **Wayfarer** | An achievement some communities give when you finish their first Waymarks. |
+| **Waymarks** | Up to five first steps a community writes for new members. They tick themselves as you do them, and only you see your progress. |
 | **What holders get** | The settings on a role, level or member tier that decide which places holders find in their menu and which they follow. |
 
 <figure class="tv-screens">

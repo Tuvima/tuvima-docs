@@ -23,7 +23,7 @@ While you are new, you can post a limited number of times an hour, for example 5
 
 ## Become a full member
 
-A progress note shows how far you are, for example: "You're new here: 7 of 10 posts to become a full member".
+A progress note shows how far you are, for example: "You're new here: 7 of 10 posts to become a full member". The community's [Trailhead](trailhead-and-waymarks.md) shows the same progress under **Finding your feet**.
 
 - Make the number of posts the community asks for, usually 10, that are still showing. Each post that moderators hide or remove adds 5 more to go.
 - Some communities also ask for a **sign of value from regulars**: an answer of yours accepted by a regular, or replies from 3 different regulars. A regular is a full member of that community.

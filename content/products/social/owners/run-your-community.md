@@ -58,7 +58,7 @@ Moderators can pin, feature, lock, slow, move, merge and split conversations. Se
 
 ## Add-ons
 
-Polls, Looking for group, the welcome message and post templates are add-ons. See [add-ons](add-ons.md).
+Polls, Looking for group and post templates are add-ons. See [add-ons](add-ons.md). Your welcome for new members lives on the [Trailhead](trailhead.md).
 
 ## Rules
 
