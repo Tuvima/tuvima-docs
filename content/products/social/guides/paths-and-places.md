@@ -63,6 +63,30 @@ Communities that haven't set up paths show every place in the menu, as before.
 
 When you're given a role, reach a new level or get a member tier that comes with places, your bell says **New paths opened** and the places appear in your menu.
 
+## For you or Everything on the community's home
+
+Once you've picked at least one path in a community, its home has a switch at the top: **For you | Everything**.
+
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/community-home-for-you-desktop-light.jpg" alt="A community&#x27;s home for a member who picked paths: a For you and Everything switch at the top, a card pinned for the Jam crew role, and popular conversations, new photos, latest conversations and chat now drawn from their own places." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/community-home-for-you-desktop-dark.jpg" alt="A community&#x27;s home for a member who picked paths: a For you and Everything switch at the top, a card pinned for the Jam crew role, and popular conversations, new photos, latest conversations and chat now drawn from their own places." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/community-home-for-you-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/community-home-for-you-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
+- **For you** is where you start. **Popular**, **New photos**, **Latest** and **Chat now** come only from your places, the ones in your menu, and their headings say "in your paths". Places you've hidden never appear.
+- **Everything** shows the whole community, as anyone sees it, including places you've hidden.
+- Choose **See everything ›** beside any heading to switch to Everything. When a block has nothing new from your places, it says "Nothing new in your paths yet." with the same link.
+
+Tuvima remembers your choice for that community, on every device, until you change it. Changing your paths doesn't reset it. The owner's featured conversations and announcements show in both views.
+
+If you haven't picked any paths, or the community hasn't set them up, there's no switch: you see everything, as before.
+
+### Pinned for your role
+
+Owners can pin a conversation to the top of the home for the people who hold a role, level or member tier. You see it as a card marked **Pinned for** and the role's name, for example "Pinned for Jam crew", in both views. People who don't hold that role don't see it.
+
 ## Hide a place
 
 Choose **···** beside a place in the community menu, then **Hide**. Hiding:
