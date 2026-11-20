@@ -193,6 +193,12 @@
       "section": "Set up and manage"
     },
     {
+      "source": "guides/phone-alerts.md",
+      "slug": "guides/phone-alerts",
+      "group": "Guides",
+      "section": "Set up and manage"
+    },
+    {
       "source": "guides/remote-access.md",
       "slug": "guides/remote-access",
       "group": "Guides",
