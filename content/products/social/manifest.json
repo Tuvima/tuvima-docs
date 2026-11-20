@@ -53,6 +53,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/trailhead-and-waymarks.md",
+      "slug": "guides/trailhead-and-waymarks",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/switch-persona.md",
       "slug": "guides/switch-persona",
       "group": "Guides",
@@ -235,6 +241,12 @@
     {
       "source": "owners/path-roles.md",
       "slug": "owners/path-roles",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/trailhead.md",
+      "slug": "owners/trailhead",
       "group": "Guides",
       "section": "Run a community"
     },

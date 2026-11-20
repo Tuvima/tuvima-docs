@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
+  <title id="t">The Trailhead's three stretches</title>
+  <desc id="d">Three stretches in a row, left to right. First steps: the Waymarks you write, up to five, ticked automatically, with Wayfarer as an optional achievement at the end. Finding your feet: the newcomer rules shown as progress, only while a member is new and only when newcomer limits are on. Further along: the member's next level and what it opens, plus up to two achievements you highlight. Only the member sees their own progress.</desc>
+  <rect width="760" height="330" rx="16" fill="#F5F7FB"/>
+  <text x="32" y="40" fill="#14213D" font-size="18" font-weight="700">The Trailhead's three stretches</text>
+
+  <g stroke="#0C5F86" stroke-width="2" fill="none">
+    <path d="M254 170h22"/><path d="M270 164l8 6-8 6"/>
+    <path d="M498 170h22"/><path d="M514 164l8 6-8 6"/>
+  </g>
+
+  <g font-size="13" fill="#14213D">
+    <rect x="24" y="62" width="230" height="216" rx="12" fill="#fff" stroke="#0C5F86" stroke-width="1.5"/>
+    <text x="42" y="90" font-size="12" font-weight="600" fill="#47536B">1 · YOU WRITE IT</text>
+    <text x="42" y="114" font-size="16" font-weight="700">First steps</text>
+    <text x="42" y="140">Your Waymarks, up to five</text>
+    <text x="42" y="162" fill="#47536B" font-size="12">✓ Introduce yourself!</text>
+    <text x="42" y="182" fill="#47536B" font-size="12">✓ Say hi in #general</text>
+    <text x="42" y="202" fill="#47536B" font-size="12">○ Share a patch you like</text>
+    <text x="42" y="232" font-size="12">Tick themselves as people go</text>
+    <text x="42" y="256" font-size="12" font-weight="600" fill="#0C5F86">Wayfarer at the end (optional)</text>
+
+    <rect x="268" y="62" width="230" height="216" rx="12" fill="#fff" stroke="#C9D3EA"/>
+    <text x="286" y="90" font-size="12" font-weight="600" fill="#47536B">2 · FROM NEWCOMER LIMITS</text>
+    <text x="286" y="114" font-size="16" font-weight="700">Finding your feet</text>
+    <text x="286" y="140">The newcomer rules as progress</text>
+    <text x="286" y="162" fill="#47536B" font-size="12">Share 10 posts that stay up</text>
+    <text x="286" y="182" fill="#47536B" font-size="12">7 of 10</text>
+    <text x="286" y="202" fill="#47536B" font-size="12">Be helpful once</text>
+    <text x="286" y="232" font-size="12">Only while someone is new,</text>
+    <text x="286" y="250" font-size="12">and only if limits are on</text>
+
+    <rect x="512" y="62" width="224" height="216" rx="12" fill="#fff" stroke="#C9D3EA"/>
+    <text x="530" y="90" font-size="12" font-weight="600" fill="#47536B">3 · FROM LEVELS AND YOU</text>
+    <text x="530" y="114" font-size="16" font-weight="700">Further along</text>
+    <text x="530" y="140">The next level, what it opens</text>
+    <text x="530" y="162" fill="#47536B" font-size="12">Reach level 3: opens Gear swap</text>
+    <text x="530" y="182" fill="#47536B" font-size="12">Up to 2 achievements</text>
+    <text x="530" y="202" fill="#47536B" font-size="12">you highlight</text>
+    <text x="530" y="232" font-size="12">When you use levels or</text>
+    <text x="530" y="250" font-size="12">highlight achievements</text>
+  </g>
+
+  <text x="32" y="308" fill="#47536B" font-size="13">Only the member sees their own progress. Owners never see who has done what.</text>
+</svg>
