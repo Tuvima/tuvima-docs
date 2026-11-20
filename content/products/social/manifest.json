@@ -245,6 +245,12 @@
       "section": "Run a community"
     },
     {
+      "source": "owners/onboarding-templates.md",
+      "slug": "owners/onboarding-templates",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
       "source": "owners/onboarding-questions.md",
       "slug": "owners/onboarding-questions",
       "group": "Guides",
@@ -259,6 +265,12 @@
     {
       "source": "owners/try-onboarding.md",
       "slug": "owners/try-onboarding",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/onboarding-numbers.md",
+      "slug": "owners/onboarding-numbers",
       "group": "Guides",
       "section": "Run a community"
     },
