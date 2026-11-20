@@ -23,7 +23,19 @@ The top of the page is a band in the community's own colour. It shows the commun
 
 Beside the name is **Join**, or, once you're a member, a **Joined** button. Choose **Joined** to see **Your membership**: the persona you use there, a link to this community's **Alerts**, **Your tiers**, and **Leave community**. On a phone it opens as a sheet from the bottom. The bell button next to it sets how much of this community reaches your alerts.
 
-Under the band:
+On a computer, a menu on the left takes the place of the sections in the band. It holds the community's sections, then its forums and chat channels. If the community has several categories, each one is a heading you can fold. The one you are in opens by itself, and Tuvima remembers which ones you folded.
+
+Most communities open on **what's happening** across the whole community:
+
+- **Popular this week.** The three conversations started this week with the most replies.
+- **New photos.** The six newest photos. Choose **All photos** to see the rest.
+- **Chat now** (members only). The chat channels with messages today, with **Open chat**. The messages themselves stay in chat.
+- **Recently earned.** Achievements people earned here lately.
+- **New here.** How many people joined this week. It never says who.
+
+An owner can switch this off so the home shows only the forums and the list. See [Build your home page with tiles](../owners/home-tiles.md).
+
+Then:
 
 - **Forums.** Each category is a card with its forums. The card says how many conversations started there in the last 7 days, for example **38 this week**, and each forum says how many started there, such as **11 new this week**. On a phone each forum takes one short line, so the conversations start sooner. Choose a category's name to open its own page, or a forum to go straight to its conversations.
 - **Latest conversations.** One line per conversation: its title, its forum and tags, small pictures of the people who posted most recently, the number of replies and when it last moved. Pinned conversations come first. Members also get **New** (started since you joined) and **Unread** (new replies since you last read). A conversation nobody has answered yet says **No replies yet**.
@@ -38,9 +50,11 @@ There are no view counts anywhere. Tuvima doesn't track who reads what.
 
 A category's own page shows its forums across the top, then its conversations. Choose a forum to see only that forum, or **All forums** to see the whole group again. **Start a conversation** picks that forum for you.
 
+Inside a forum, the forum's own name is the heading, with its description and how many conversations started there this week. On a wide screen, the forum's guidelines sit beside the list.
+
 ## A conversation
 
-The line above the title shows where you are, for example **Retro Console Club › Workshop › Help and questions**. Under the title, a short strip says who started the conversation and when, when the last reply came, how many replies there are and who has joined in lately.
+The line above the title shows where you are, for example **Retro Console Club › Workshop › Help and questions**. Under the title, a short line says who started the conversation and when, when the last reply came, how many replies there are and who has joined in lately. On a wide screen these facts move into an **About this conversation** panel beside the posts.
 
 ## A member's page in a community
 
