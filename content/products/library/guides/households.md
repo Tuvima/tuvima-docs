@@ -13,7 +13,7 @@ A household is the group of people who live together and the sign-ins that open 
 
 ## Before you start
 
-- You need to be a server administrator or a household administrator. Both look after profiles from **Settings → Manage Profiles**, which only administrators see: choose **Edit** on a person's row to open their page. Server administrators also get **Add household** there, and **Settings → Users & Households → Households**, which lists every household and lets you rename or remove one.
+- You need to be a server administrator or a household administrator. Both look after profiles from **Settings → Manage Profiles**, which only administrators see: choose **Edit** on a person's row to open their page. Households are created, renamed and removed in one place only: **Settings → Users & Households → Households** (server administrators). Manage Profiles lists people and links to that page.
 - Users (sign-ins) are looked after only by the server administrator, in **Settings → Users & Households**.
 
 ## Add a person to the household
