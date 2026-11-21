@@ -11,6 +11,8 @@ status: current
 
 Tuvima is open from the start: any device that can reach the server can use it, and Tuvima sign-in is always required. At home you need no setup, and phone and TV apps can pair straight away. This page is for reaching Tuvima from outside your home. Allow 15–30 minutes once your network tools are ready.
 
+> **Looking for a step-by-step walk-through?** The [Away from home guides](away-from-home/overview.md) explain every route (Tailscale, a Cloudflare Tunnel, Caddy, nginx and router port forwarding) with each step and the reasoning behind it, and match the guided **Remote access** flow in Settings. This page keeps the reference details for the settings behind it.
+
 **Keep your router's ports closed.** Closed ports are what keep the internet out. The Dashboard serves plain http, so if you forward its port to the internet, sign-ins and pairing codes cross the internet unencrypted. For access from outside, use Tailscale or an HTTPS reverse proxy as described below, and never forward the Dashboard port directly.
 
 **Settings → Network & Remote Access → Remote access** (**How the internet reaches Tuvima**) is the optional place to choose that secure outside address. It no longer unlocks anything; it records the address and checks it with **Test remote access**. Apps use the address away from home.
@@ -25,9 +27,11 @@ host, or use the supported Compose overlay in `deploy/tailscale`.
 For a native installation, connect the host to its tailnet and run:
 
 ```text
-tailscale serve --bg http://127.0.0.1:5016
+tailscale serve --bg 5017
 tailscale serve status --json
 ```
+
+Aim Serve at the **proxy port** (5017 unless you changed `remote.proxy_port`), never the main Dashboard port 5016. Everything that arrives on the proxy port counts as outside, so no-password profiles stay home only. See [Passwords and who can sign in from outside](away-from-home/passwords-and-outside-sign-in.md).
 
 Open **Settings → Server → Network & Remote Access → Remote access**, select
 **Tailscale**, and confirm that the private `https://…ts.net` address and Serve
@@ -76,7 +80,7 @@ or hosting option that trusts forwarded headers from every address.
 
 1. Under **Settings → Users & Households → Advanced** (under *How people sign in*), choose the sign-in methods you want to allow.
 2. In **Users & Households → Users**, open the intended person's profile and give it only the areas (Read, Watch, Listen, View) and libraries it should reach.
-3. If you started Tuvima on your computer without a password, add a password or passkey before you use an outside address. That no-password account works from any device that reaches the server, with administrator rights (see [Account security](account-security.md)).
+3. If you started Tuvima on your computer without a password, add a password or passkey before you use an outside address. A profile with no password works at home only: Tuvima refuses it from outside, and forwarded requests through a proxy or tunnel always count as outside. The administrator who sets up outside access needs a password to continue (see [Passwords and who can sign in from outside](away-from-home/passwords-and-outside-sign-in.md) and [Account security](account-security.md)).
 4. Test with that account from the remote device.
 
 A working tunnel or proxy does not grant library access.
@@ -102,6 +106,8 @@ the host router manually.
 
 ## Next steps
 
+- [Away from home: overview and how to choose](away-from-home/overview.md).
+- [Test your connection and fix what a check reports](away-from-home/testing-and-troubleshooting.md).
 - [Manage accounts and recovery](account-security.md).
 - [Back up before network changes](operations-and-recovery.md).
 - [Troubleshoot connection problems](troubleshooting.md).

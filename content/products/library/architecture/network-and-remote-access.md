@@ -32,9 +32,11 @@ Desired state lives in `config/network.json` and is validated against
 `config/schemas/network.schema.json`. There is no rule about how far away a visitor may be: the
 Dashboard answers every request whatever its origin, and Tuvima sign-in decides
 who gets in. The only exception is the no-password "use Tuvima on this computer"
-account, which any device that reaches the server can use, with its administrator
+account, which only this computer and the home network can use (it is refused from
+outside, and forwarded requests always count as outside), with its administrator
 rights, until a password or passkey is added (see
-[Account security](../guides/account-security.md)). Closed router ports are the
+[Account security](../guides/account-security.md) and
+[Passwords and who can sign in from outside](../guides/away-from-home/passwords-and-outside-sign-in.md)). Closed router ports are the
 gatekeeper. The Dashboard serves plain http, so if its port is forwarded to the
 internet, sign-ins and pairing codes cross the internet unencrypted; for access
 from outside, use Tailscale or an HTTPS reverse proxy. Schema 2.0 includes the

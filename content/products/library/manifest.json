@@ -217,6 +217,84 @@
       "section": "Set up and manage"
     },
     {
+      "source": "guides/away-from-home/overview.md",
+      "slug": "guides/away-from-home/overview",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/tailscale.md",
+      "slug": "guides/away-from-home/tailscale",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/cloudflare-tunnel.md",
+      "slug": "guides/away-from-home/cloudflare-tunnel",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/caddy.md",
+      "slug": "guides/away-from-home/caddy",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/nginx.md",
+      "slug": "guides/away-from-home/nginx",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/router-port-forwarding.md",
+      "slug": "guides/away-from-home/router-port-forwarding",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/domain-names.md",
+      "slug": "guides/away-from-home/domain-names",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/https-and-certificates.md",
+      "slug": "guides/away-from-home/https-and-certificates",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/passwords-and-outside-sign-in.md",
+      "slug": "guides/away-from-home/passwords-and-outside-sign-in",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/invite-friends.md",
+      "slug": "guides/away-from-home/invite-friends",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/testing-and-troubleshooting.md",
+      "slug": "guides/away-from-home/testing-and-troubleshooting",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/turn-access-off.md",
+      "slug": "guides/away-from-home/turn-access-off",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
+      "source": "guides/away-from-home/why-it-works-this-way.md",
+      "slug": "guides/away-from-home/why-it-works-this-way",
+      "group": "Guides",
+      "section": "Away from home"
+    },
+    {
       "source": "explanation/how-the-pipeline-works.md",
       "slug": "explanation/how-the-pipeline-works",
       "group": "Guides",
