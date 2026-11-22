@@ -48,7 +48,9 @@ To start receiving these gifts, Harbor Daily claims its website by showing it co
 
 ### Bringing your subscribers with you
 
-On Enterprise, Harbor Daily can link its own subscription tiers to Tuvima. A reader who already subscribes on harbordaily.com gets the matching perks in Harbor Daily's Tuvima community, such as the Insider chat, without paying twice. Tuvima keeps track of who qualifies, so perks keep working even if the newsroom's own site is briefly down.
+On Enterprise, Harbor Daily can sell its real subscription through Tuvima. A reader who subscribes in Harbor Daily's Tuvima community gets both the community perks, such as the Insider chat, and full access on harbordaily.com. With the reader's permission, Tuvima ID simply tells Harbor Daily's site that this reader has an active subscription, and nothing else about them.
+
+People who subscribe on harbordaily.com itself don't get Tuvima perks automatically. Harbor Daily can include them by sharing part of that subscription with Tuvima, the same way it would for a subscription sold on Tuvima. Either way, Tuvima keeps track of who qualifies, so perks keep working even if the newsroom's own site is briefly down.
 
 ## Story 2: a video creator
 
