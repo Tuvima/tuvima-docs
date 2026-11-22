@@ -33,7 +33,7 @@ Some communities are **unlisted**: their owner has chosen to leave them out of t
 
 1. Open the community and read about it. Each community writes its own rules, on top of [the rules everyone follows](community-rules.md).
 2. Choose **Join**. If the community asks people to be approved first, the button says **Ask to join** instead; see [joining a private community](join-private-community.md).
-3. If the community has set up **paths**, answer a few short questions about what you're into, or choose **Skip for now**. The line at the bottom says what each pick gives you. See [your paths and places](paths-and-places.md).
+3. If the community has set up **paths**, answer a few short questions about what you're into, or choose **Skip for now**. The line at the bottom says what each pick gives you. See [your paths and places](paths-and-places.md). If you join with your global persona, answers that match topics you follow on the Tuvima front page may already be ticked; untick anything you don't want. This never happens when you join with a private persona.
 4. **One last step: house rules.** Read the rules and choose how to appear:
    - **Join as** your global persona, `handle @ tuvimaid.com`.
    - **Create a private persona for this community**, with its own handle, name and picture. Members and moderators cannot see that it is connected to your global persona.

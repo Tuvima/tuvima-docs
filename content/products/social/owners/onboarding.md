@@ -56,6 +56,10 @@ Below the four parts, **Lamplighters** lets members who like welcoming people pi
 
 **Adventures** are short events for every member, with a few self-ticking steps and an optional achievement. See [Adventures for owners](adventures.md).
 
+## Rules that need explaining
+
+When moderators have cited one of your numbered rules at least 5 times in the last 90 days, and that rule has no one-line explanation yet, **Things to check** says so, for example "Moderators cite Rule 3 most often." Choose **Add an explanation** to open the rules editor at that rule. A short line under a rule helps newcomers understand it before they break it. The hint never names moderators or members, and only people with **Manage onboarding** see it.
+
 ## Members who joined before you set this up
 
 **Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote your questions see a one-time **Choose your paths** banner, so they can pick paths without leaving and rejoining. Switch it off if you'd rather not ask them. New members always see your questions when they join.

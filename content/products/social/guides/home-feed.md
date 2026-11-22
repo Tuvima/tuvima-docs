@@ -46,6 +46,8 @@ When the same link is shared in several categories, Home shows it once, with a l
 
 Every post on Home and Following has a **···** menu in its top corner. Choose **Why am I seeing this?** in it to open **Why you're seeing this**. The sheet lists up to three reasons, with what you did this month that led to each one. When a post has no personal reason, it says why the post is worth a look, for example "Trending on Tuvima" or "A new voice".
 
+If a post is from a place one of your [paths](paths-and-places.md) gave you, the reason says so, for example **Because you chose Building kits**. Only you see this.
+
 The same sheet has the buttons that steer Home:
 
 - **More like this** and **Less like this** tell Home what you want. Home also hides that post from now on, so you don't see it twice.
