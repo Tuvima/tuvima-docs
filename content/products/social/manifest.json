@@ -71,6 +71,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/adventures.md",
+      "slug": "guides/adventures",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/switch-persona.md",
       "slug": "guides/switch-persona",
       "group": "Guides",
@@ -295,6 +301,12 @@
     {
       "source": "owners/lamplighters.md",
       "slug": "owners/lamplighters",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/adventures.md",
+      "slug": "owners/adventures",
       "group": "Guides",
       "section": "Run a community"
     },

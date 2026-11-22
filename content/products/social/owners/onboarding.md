@@ -52,6 +52,10 @@ When you have questions, the page lists the places that no answer and no start-h
 
 Below the four parts, **Lamplighters** lets members who like welcoming people pick a role and see newcomers' posts that nobody has answered yet. See [Lamplighters for owners](lamplighters.md).
 
+## Adventures
+
+**Adventures** are short events for every member, with a few self-ticking steps and an optional achievement. See [Adventures for owners](adventures.md).
+
 ## Members who joined before you set this up
 
 **Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote your questions see a one-time **Choose your paths** banner, so they can pick paths without leaving and rejoining. Switch it off if you'd rather not ask them. New members always see your questions when they join.
