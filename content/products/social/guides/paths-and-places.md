@@ -111,6 +111,14 @@ Choose **See all places** at the bottom of the community menu. It has three tabs
 - **All places**: every place you can open, grouped by category, with **Add** to put one in your menu.
 - **Hidden**: what you've hidden, with **Show again**.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/see-all-places-desktop-light.jpg" alt="See all places: the My places tab listing the places in a member&#x27;s menu, each labelled with where it came from, such as a path role, Always shown or In menu." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/see-all-places-desktop-dark.jpg" alt="See all places: the My places tab listing the places in a member&#x27;s menu, each labelled with where it came from, such as a path role, Always shown or In menu." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/see-all-places-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/see-all-places-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 Showing a place again also brings back the alert setting it had before you hid it.
 
 ## Your first steps
