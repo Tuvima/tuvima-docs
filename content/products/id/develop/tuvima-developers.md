@@ -68,7 +68,7 @@ Once published, the app's name and address are fixed. If you later ask for a new
 ## If something goes wrong
 
 - **Changes requested.** The review note says what to fix. Fix it and send the app for review again.
-- **Suspended.** Tuvima can suspend an app that breaks the terms. Its page stays up and shows the reason, and no one new can start using it.
+- **Suspended.** Tuvima can suspend any app that breaks the terms, including apps for your own places. You see the reason on the app, and its settings are read-only until Tuvima restores it. A published app's page stays up and shows the reason, and no one new can start using it.
 - **Your subscription ends.** You have 30 days to renew. After that your published apps stop taking new people until you renew. People already using them are not cut off, and nothing is deleted.
 
 ## See how your app is doing
