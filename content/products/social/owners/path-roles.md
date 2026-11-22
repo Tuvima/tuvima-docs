@@ -99,3 +99,8 @@ Members who have picked at least one path also get a **For you | Everything** sw
 - You see how many people hold each role (rounded for private path roles).
 - You never see which answers a particular member picked, which places they added to or took off their menu, or what they hid.
 - Picking paths never changes who can read what. Only a role you have given access to a members-only place opens it.
+
+## Next steps
+
+- [Write your path questions](onboarding-questions.md)
+- [Start-here and always-shown places](start-here-places.md)

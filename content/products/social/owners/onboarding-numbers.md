@@ -35,3 +35,8 @@ A big gap between **Started joining** and **Joined** usually means the steps are
 Every number is rounded to the nearest 5. From 1 to 4 it shows **fewer than 5**, and nothing shows as 0 unless it really is 0. The card never names anyone and never shows one person's picks. The "started joining" count keeps only a day and a random number for the device, never who was signed in. These numbers are worked out when you open the page, unlike the rest of Insights, which is counted once a night.
 
 **Set up onboarding** at the bottom of the card takes you to the [Onboarding page](onboarding.md) if you're allowed to change it.
+
+## Next steps
+
+- [Write your path questions](onboarding-questions.md)
+- [Try it as a new member](try-onboarding.md)

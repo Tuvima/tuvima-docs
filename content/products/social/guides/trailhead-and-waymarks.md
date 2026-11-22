@@ -23,7 +23,7 @@ Waymarks are short first steps written by the community, for example "Introduce 
 
 - **They tick themselves.** Do the thing and the Waymark ticks the next time you open a page in the community. You never tick them by hand.
 - **"Waymarks 2 of 4"** sits at the top of the community menu, with a small progress bar, until you've done them all. Then it goes away. The Trailhead stays.
-- **Some are just for you.** A community can add a Waymark for people who chose a certain path, such as "Sign up for jam night" for the Jam crew. Other members don't see it, and it isn't counted for them.
+- **Some are just for you.** A community can add a Waymark for holders of a certain role, such as a path role, such as "Sign up for jam night" for the Jam crew. Other members don't see it, and it isn't counted for them.
 - **A tick stays.** If a post you made is later removed, the Waymark it ticked stays ticked.
 
 What can tick a Waymark:
@@ -41,7 +41,7 @@ What can tick a Waymark:
 
 ### Wayfarer
 
-Some communities give the **Wayfarer** achievement when you finish their first Waymarks. The Trailhead says so with an **Earn Wayfarer** card. It works like any other [achievement](achievements.md): it shows on your profile and you get one notice in the bell.
+Some communities give the **Wayfarer** achievement when you finish their first Waymarks. The Trailhead says so with an **Earn Wayfarer** card. It works like any other [achievement](achievements.md): it shows on your persona page and you get one notice in the bell.
 
 ### Introduce yourself
 
@@ -54,7 +54,7 @@ Below your first steps, the Trailhead keeps going:
 - **Finding your feet** appears while you're a [newcomer](newcomers.md) in a community that has newcomer limits. It shows how close you are to becoming a full member, for example "Share 10 posts that stay up: 7 of 10".
 - **Further along** appears in communities that use levels. It shows your next [level](reputation.md), what it opens, what you still need, and one or two achievements the community suggests.
 
-**Only you can see your Waymarks** and your progress. Owners and moderators never see who has done what; later, owners will only see rounded totals.
+**Only you can see your Waymarks** and your progress. Owners and moderators never see who has done what; owners only see rounded totals, such as how many people finished their Waymarks.
 
 ## Lore
 
@@ -82,14 +82,6 @@ Its Waymarks start once you've agreed to the [front page guidelines](front-page-
 
 If you haven't joined, the Trailhead shows the welcome and the Lore, with a link to join. Waymarks start once you're a member.
 
-## Related
-
-- [Your paths and places](paths-and-places.md)
-- [Joining a community](join-a-community.md)
-- [Being new to a community](newcomers.md)
-- [Achievements](achievements.md)
-- [Front page guidelines](front-page-guidelines.md)
-
 ## Adventures
 
 While a community runs an Adventure, such as "Frost Week", it shows on the Trailhead above the Waymarks. Its steps tick themselves like Waymarks, but only for what you do while it runs. See [Adventures](adventures.md).
@@ -111,3 +103,13 @@ Choose **Join** to say you're in, exactly as if you'd answered on the post itsel
 ## Welcoming others
 
 Once you've found your feet, you can help the next newcomers. If the community has Lamplighters switched on, pick the Lamplighters role on **Your paths** to see posts still waiting for a welcome. See [Lamplighters](lamplighters.md).
+
+## Related
+
+- [Your paths and places](paths-and-places.md)
+- [Joining a community](join-a-community.md)
+- [Being new to a community](newcomers.md)
+- [Achievements](achievements.md)
+- [Front page guidelines](front-page-guidelines.md)
+- [Adventures](adventures.md)
+- [Lamplighters](lamplighters.md)

@@ -28,6 +28,8 @@ When a community has set up paths, choosing **Join** takes you through a few sho
 
 Use **Back** at any time to change an earlier answer. Nothing is saved until you choose **Join**, so closing the steps halfway doesn't join you.
 
+If you joined before the community set up paths, a **Choose your paths** banner on the community offers **Choose** or **Not now**.
+
 If the community asks people to be approved first, you see the rules and the community's questions for reviewers instead, and you can choose your paths once you're in. A banner on the community offers **Choose your paths**.
 
 ## What a path gives you
@@ -105,7 +107,7 @@ Some places, such as Announcements, are **always shown**: the owner has decided 
 
 Choose **See all places** at the bottom of the community menu. It has three tabs:
 
-- **My places**: what's in your menu, and why each place is there ("From the Raid team role", "Start here", "Added by you").
+- **My places**: what's in your menu, with a label on each place: where it came from (such as "From the Raid team role", or a level or tier), **Always shown**, or **In menu**.
 - **All places**: every place you can open, grouped by category, with **Add** to put one in your menu.
 - **Hidden**: what you've hidden, with **Show again**.
 
