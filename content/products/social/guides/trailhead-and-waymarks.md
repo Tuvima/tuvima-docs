@@ -90,6 +90,10 @@ If you haven't joined, the Trailhead shows the welcome and the Lore, with a link
 - [Achievements](achievements.md)
 - [Front page guidelines](front-page-guidelines.md)
 
+## Adventures
+
+While a community runs an Adventure, such as "Frost Week", it shows on the Trailhead above the Waymarks. Its steps tick themselves like Waymarks, but only for what you do while it runs. See [Adventures](adventures.md).
+
 ## Welcoming others
 
 Once you've found your feet, you can help the next newcomers. If the community has Lamplighters switched on, pick the Lamplighters role on **Your paths** to see posts still waiting for a welcome. See [Lamplighters](lamplighters.md).
