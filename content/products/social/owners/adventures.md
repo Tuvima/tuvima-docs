@@ -24,7 +24,7 @@ status: early-access
 3. Fill in:
    - **Name** (up to 60 characters) and **What it's about** (up to 200).
    - **Starts** and **Ends**: the first and last day. An Adventure runs from the start of its first day to the end of its last, and can last up to 60 days.
-   - **Steps**: 1 to 5. Each has a short line, what ticks it (post or reply, react, join a chat channel, read a pinned conversation, read the rules, set a picture) and where, chosen the same way as [Waymarks](trailhead.md).
+   - **Steps**: 1 to 5. Each has a short line, what ticks it (post or reply, react, open a chat channel, read a pinned conversation, read the rules, set a picture) and where, chosen the same way as [Waymarks](trailhead.md).
    - **Achievement** (optional): switch on **Give an achievement for finishing all the steps**, and give it a name and description.
 4. Choose **Save**.
 
@@ -48,3 +48,8 @@ The **Adventures** part on the Onboarding page lists what's running, coming up a
 ## What you can see
 
 Members' progress is private. Members see roughly how many people are taking part once at least 20 are, rounded to the nearest 5. You see the same.
+
+## Next steps
+
+- [Set up onboarding](onboarding.md)
+- [Adventures, for members](../guides/adventures.md)

@@ -9,6 +9,8 @@ status: early-access
 
 When your community uses **Ask to join**, you can ask up to three questions, for example "How did you hear about us?" or "Do you live in Dallas?". People answer them when they send their request.
 
+These questions are for the people who review requests. To shape new members' menus, use [path questions](onboarding-questions.md) instead.
+
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/join-questions-desktop-light.jpg" alt="The joining settings of an invite-only community." width="1600" height="1000" loading="lazy" decoding="async">
 <img class="tv-desktop tv-dark" src="../assets/screens/join-questions-desktop-dark.jpg" alt="The joining settings of an invite-only community." width="1600" height="1000" loading="lazy" decoding="async">
@@ -21,7 +23,7 @@ Owners and admins set them in **Manage**, then **Joining and privacy**. With no 
 
 ## Add a question
 
-1. Write **Your question**, up to 200 characters.
+1. Write the **Question**, up to 200 characters.
 2. Pick an **Answer type**:
 
    | Answer type | What people give |

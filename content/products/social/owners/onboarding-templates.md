@@ -21,12 +21,12 @@ A **template** fills in your [onboarding](onboarding.md) in one go: a couple of 
 
 | Template | Questions it asks | Waymarks |
 |---|---|---|
-| 🎮 **Gaming group** | What brings you here? Where do you play? | Read the rules, set your picture, introduce yourself |
-| 🛠️ **Product support** | What do you need help with? How do you use it? | Read the rules, set your picture, ask your first question |
-| ⭐ **Creator fan club** | What are you into? | Read the rules, set your picture, say hello |
-| 📍 **Local club** | What would you like to do? How often can you join in? | Read the rules, set your picture, introduce yourself |
+| 🎮 **Gaming group** | What brings you here? Where do you play? | Read the rules, Set your picture, Introduce yourself! |
+| 🛠️ **Product support** | What do you need help with? How do you use it? | Read the rules, Set your picture, Ask your first question |
+| ⭐ **Creator fan club** | What are you into? | Read the rules, Set your picture, Say hello |
+| 📍 **Local club** | What would you like to do? How often can you join in? | Read the rules, Set your picture, Introduce yourself! |
 
-Each template also writes a short welcome for your [Trailhead](trailhead.md). The "introduce yourself" kind of Waymark points at your first forum that every member can post in. If you don't have one, that Waymark is left out.
+Each template also writes a short welcome for your [Trailhead](trailhead.md). The third Waymark (**Introduce yourself!**, **Ask your first question** or **Say hello**) points at your first forum where every member can read, reply and start conversations. If you don't have one, that Waymark is left out. **Gaming group** and **Creator fan club** also switch on the [introduction draft](trailhead.md#introduce-yourself), which starts a newcomer's first post from the paths they chose.
 
 ## Use a template
 
@@ -39,10 +39,15 @@ You can also pick a template while you [create a community](start-a-community.md
 
 ## After you apply it
 
-Each answer gets its own role named after it, but it doesn't add anything to the menu yet. So the Onboarding page shows warnings that answers **lead nowhere**. That's expected: open [the questions](onboarding-questions.md) and point each answer at the forums and channels it should add to a new member's menu. When every answer leads somewhere, the warnings go away.
+Each answer gets its own role named after it, but it doesn't add anything to the menu yet. So the Onboarding page shows warnings that answers **lead nowhere**. That's expected: open [the questions](onboarding-questions.md) and point each answer at the forums and channels it should add to a new member's menu. When every answer leads somewhere, the warnings go away. If you already had a pick-yourself role with the same name as an answer, the answer uses it, so it may already lead somewhere.
 
 ## What a template doesn't change
 
 - Your rules, Lore links, start-here places and highlighted achievements stay as they are.
 - Members who already picked answers keep the places and roles they have. Their old picks are removed with the old questions, so they don't count under **Chose paths** in [the numbers](onboarding-numbers.md).
 - Trying a different template later reuses the roles an earlier one made with the same names, so your roles list doesn't fill up with copies. Roles no answer uses any more stay until you delete them on the Roles page.
+
+## Next steps
+
+- [Write your path questions](onboarding-questions.md) and point each answer at places
+- [Try it as a new member](try-onboarding.md)

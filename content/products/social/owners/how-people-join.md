@@ -61,6 +61,7 @@ To slow down spam accounts, each Tuvima ID account can join only a few communiti
 
 ## Next steps
 
+- [Set up onboarding](onboarding.md)
 - [Join questions](join-questions.md)
 - [Review join requests](join-requests.md)
 - [Invite people with a link, code or QR code](invites.md)

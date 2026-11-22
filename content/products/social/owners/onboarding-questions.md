@@ -27,14 +27,16 @@ You can have up to five questions. Use the arrow buttons to change their order, 
 
 ## An answer
 
-Each question can have up to 12 answers. For each one:
+Each question can be up to 80 characters and have up to 12 answers. For each answer:
 
-- **Emoji** (optional) and **title**, such as 🔧 Building kits.
-- **Line under it** (optional): a few words that explain it, such as "Soldering and first builds".
-- **Adds to their menu**: the forums, chat channels or whole categories this answer puts in the member's menu. Choosing a category adds everything in it.
+- **Emoji** (optional) and **title** (up to 40 characters), such as 🔧 Building kits.
+- **Line under it** (optional, up to 80 characters): a few words that explain it, such as "Soldering and first builds".
+- **Adds to their menu**: the forums, chat channels or whole categories this answer puts in the member's menu. Choosing a category adds everything in it. Up to 20 places per answer.
 - **Gives role**: every answer gives a [path role](path-roles.md). Choose **Create a role named after this answer** (the usual choice), or pick an existing role that members can pick. Path roles can open places but can never hold staff permissions.
 
 - **Matches a front-page topic** (optional): a topic from the Tuvima front page, such as Synths. People who follow that topic on the front page find this answer already ticked when they join. Leave it at **None** if no topic fits.
+
+Picking an existing role loads the places it already adds; **Create a role named after this answer** starts with an empty menu.
 
 The menu places belong to the answer's role, so you'll also see them on that role's **What holders get** tab. Anyone with **Manage onboarding** can change them here.
 

@@ -31,7 +31,7 @@ Next to the page title, **On** means you have set up questions or a Trailhead. *
 ## What the labels mean
 
 - **Ready**: this part is set up and nothing looks wrong.
-- **Not set up** or **None yet**: you haven't used this part. That's fine; it's optional.
+- **Not set up**: you haven't used this part. That's fine; it's optional.
 - **A warning in amber**: something will not work the way you probably expect. Common ones:
   - **An answer leads nowhere**: picking it adds nothing to the menu and gives no role that does anything.
   - **A place new members can't open**: an answer, a start-here place, a Waymark or a Lore link points at a place that a new member isn't allowed into, such as a members-only forum. They won't see it.
@@ -58,7 +58,7 @@ Below the four parts, **Lamplighters** lets members who like welcoming people pi
 
 ## Rules that need explaining
 
-When moderators have cited one of your numbered rules at least 5 times in the last 90 days, and that rule has no one-line explanation yet, **Things to check** says so, for example "Moderators cite Rule 3 most often." Choose **Add an explanation** to open the rules editor at that rule. A short line under a rule helps newcomers understand it before they break it. The hint never names moderators or members, and only people with **Manage onboarding** see it.
+When moderators have cited one of your numbered rules at least 5 times in the last 90 days, and that rule has no one-line explanation yet, **Things to check** says so, for example "Moderators cite Rule 3 ("No selling without asking first.") most often. A one-line explanation under it can help newcomers." Choose **Add an explanation** to open the rules editor at that rule. A short line under a rule helps newcomers understand it before they break it. The hint never names moderators or members, and only people with **Manage onboarding** see it.
 
 ## Members who joined before you set this up
 
@@ -81,8 +81,13 @@ Not sure where to begin? **Start from a template** next to the page title fills 
 
 ## Next steps
 
-- [Write your path questions](onboarding-questions.md)
-- [Start-here and always-shown places](start-here-places.md)
-- [Set up the Trailhead and Waymarks](trailhead.md)
-- [Try it as a new member](try-onboarding.md)
-- [Path roles and what holders get](path-roles.md)
+A good order to set things up in:
+
+1. [Start from a template](onboarding-templates.md), or skip it and write your own.
+2. [Write your path questions](onboarding-questions.md) and point each answer at places.
+3. [Start-here and always-shown places](start-here-places.md)
+4. [Set up the Trailhead and Waymarks](trailhead.md)
+5. [Try it as a new member](try-onboarding.md)
+6. [See how onboarding is going](onboarding-numbers.md)
+
+Also: [Path roles and what holders get](path-roles.md), [Lamplighters](lamplighters.md), [Adventures](adventures.md) and [How people join](how-people-join.md).

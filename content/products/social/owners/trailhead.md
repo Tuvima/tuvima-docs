@@ -21,7 +21,7 @@ The **Trailhead** is your community's welcome page. New members land there after
 
 ## Welcome
 
-Write a short **title** and the **words for new members**: who you are, where to start and what you're proud of. Two short paragraphs is plenty. If you leave it empty, the Trailhead shows your community's description instead.
+Write a short **title** and the **words for new members**: who you are, where to start and what you're proud of. Two short paragraphs is plenty. If you leave it empty, the Trailhead shows your community's description instead. The title can be up to 80 characters and the welcome up to 1,000. Choose **Save** at the bottom when you're done.
 
 ## Waymarks
 
@@ -59,11 +59,13 @@ Lore is up to six things worth reading first:
 
 ## Wayfarer
 
-Switch on **Wayfarer** to give members an achievement when they finish their Waymarks. It appears with your other [achievements](achievements.md). Switching it off later keeps it for everyone who already earned it.
+Tick **Give an achievement called Wayfarer to members who finish every Waymark they can see** to give members an achievement when they finish their Waymarks. It appears with your other [achievements](achievements.md). Switching it off later keeps it for everyone who already earned it.
 
 ## Introduce yourself
 
 When **Introduce yourself** is on, the intro Waymark opens a new conversation with a draft: your **opening line** (or "Hi all, I'm {name}.") followed by the paths the member chose. Members can change or clear it, and nothing is posted until they choose to. Switch it off for a plain empty form.
+
+To use it, first tick **Use for Introduce yourself** on one Waymark, then tick **Start a member's introduction from the paths they chose**. The opening line can be up to 200 characters; {name} becomes the member's name.
 
 ## Highlighted achievements
 
@@ -81,8 +83,9 @@ Only the member sees their own progress. You don't see who has done what.
 
 The Trailhead replaces the old **Welcome message** add-on. The small card on your community home now shows the Trailhead's welcome and the member's Waymarks progress, and a **Trailhead** block in your home layout (under **Look and home page**) shows the same card.
 
-## Related
+## Next steps
 
+- [Try it as a new member](try-onboarding.md)
 - [Path roles and what holders get](path-roles.md)
 - [Achievements](achievements.md)
 - [The Trailhead and Waymarks, for members](../guides/trailhead-and-waymarks.md)
