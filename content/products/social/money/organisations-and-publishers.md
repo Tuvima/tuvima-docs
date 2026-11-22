@@ -43,6 +43,7 @@ Extra seats are $3 a month each. A **staff seat** is one person who works for yo
 | Staff sign-in with your company account | | | ✓ |
 | An audit log of staff and money actions | | | ✓ |
 | Full data export | | | ✓ |
+| Link your own subscription tiers to Tuvima | | | ✓ |
 | Agreed terms, invoices and a service promise | | | ✓ |
 | A named contact at Tuvima | | | ✓ |
 
@@ -68,9 +69,9 @@ Personal personas are never affected. If the same reporter posts in a hobby comm
 
 A publisher can earn in five ways:
 
-1. **Gifts on articles.** Readers give gifts on your articles, wherever they are discussed on Tuvima. You need to claim your website first, by showing you control it.
+1. **Gifts on articles.** Readers give gifts on your articles wherever they are shared and discussed on Tuvima, even in other communities and when someone else posted the link. The person who shared it doesn't receive gifts meant for your article. You need to claim your website first, by showing you control it. Gifts given before your claim stay where they went.
 2. **The community share** of gifts and tips in your own communities.
-3. **Paid tiers** that readers subscribe to.
+3. **Paid tiers** that readers subscribe to. On Enterprise you can link your own subscription tiers, so people who already subscribe on your website get the matching perks on Tuvima.
 4. **Ember** from Trove members who support your publication.
 5. **Staff earnings** routed to the organisation, as above.
 

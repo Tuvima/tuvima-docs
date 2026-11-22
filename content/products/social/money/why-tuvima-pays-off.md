@@ -34,6 +34,22 @@ Tuvima doesn't ask anyone to give up what already works. It adds a place where y
 
 **What changed.** Subscriptions still come in. On top of them, the readers who would never subscribe now have a small, easy way to pay. Reporters see their work rewarded directly, and the newsroom gets a community it controls. See [Organisations and publishers](organisations-and-publishers.md).
 
+### When readers share your articles
+
+Today, when someone shares a news article on a big discussion site, the person who shared it collects the upvotes and the attention. The newsroom that paid for the reporting gets nothing, except perhaps the hope that one reader in thousands subscribes.
+
+On Tuvima it works differently. Say a member shares Ana's investigation in a car enthusiasts' community. People there discuss it and give gifts to the article.
+
+- **Gifts on the article go to Harbor Daily,** wherever it's shared and however many times it's reshared. The person who shared it doesn't become the owner of it just by posting the link.
+- **Gifts on someone's comment go to that commenter,** as you'd expect. Good discussion is rewarded too.
+- **Ana gets her share** under the newsroom's staff rule, so the reporter benefits even when her work travels far from home.
+
+To start receiving these gifts, Harbor Daily claims its website by showing it controls it. Gifts given before the claim don't move to the publisher afterwards, so it pays to claim early.
+
+### Bringing your subscribers with you
+
+On Enterprise, Harbor Daily can link its own subscription tiers to Tuvima. A reader who already subscribes on harbordaily.com gets the matching perks in Harbor Daily's Tuvima community, such as the Insider chat, without paying twice. It works the other way too: a reader who subscribes through Tuvima can, with their permission, get the matching access on harbordaily.com. Tuvima keeps track of who qualifies, so perks keep working even if the newsroom's own site is briefly down.
+
 ## Story 2: a video creator
 
 *Leo makes videos about restoring old bikes. His income is a share of the advertising on the big video site he posts to, plus the odd sponsor. He has a large audience but hardly knows any of them.*
@@ -61,6 +77,7 @@ Tuvima doesn't ask anyone to give up what already works. It adds a place where y
 | | Earning only from advertising | Only your own website | Adding Tuvima |
 | --- | --- | --- | --- |
 | Who pays you | Advertisers, based on reach | Subscribers only | Subscribers, plus anyone who gives a gift, tip or Ember |
+| When others share your work | They get the credit | Nothing comes back | Gifts on your work still come to you |
 | How easy it is for a fan to give something small | Hard | Hard | Easy: small gifts and tips, no subscription needed |
 | Who your audience is | Mostly passers-by | Your subscribers | The people who chose to join your community |
 | Who sets the rules | The platform | You | You, in your own community |
