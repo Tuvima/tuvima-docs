@@ -42,7 +42,7 @@ Ember is how Trove members support a community or a person every month, at no ex
 
 - Silver gives 1 Ember a month, Gold 2 and Platinum 3. You can't buy Ember.
 - Give at most one Ember to each community or person a month.
-- Ember carries on to the same place each month until you change it. Ember you don't place fades at your renewal.
+- Ember doesn't renew on its own. Each Ember supports that place until your next renewal, and then you choose again, which can be the same place. Ember you don't place fades at your renewal.
 - Supporters get an Ember supporter mark there, and sometimes a thank-you from the owner, such as a supporters' chat room.
 - You can't give Ember to yourself, to your own communities, or to 18+ communities.
 

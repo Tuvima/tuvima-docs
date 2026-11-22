@@ -63,7 +63,7 @@ People who subscribe on harbordaily.com itself don't get Tuvima perks automatica
 1. **Closer to fans.** His community has chat channels, a "Show your build" forum and a members' tier with workshop live chats. The people there chose to be there.
 2. **Earning from the people who care.** Fans give gifts on his posts and send tips. Leo keeps 65% of every gift and 85% of every tip, and the community's own 5% share goes to his community too.
 3. **Growing his share.** As more people support him, he moves up the creator levels. At 1,000 supporters he's a Torchbearer: he keeps 70% of gifts and gets his own signature gift. At 10,000 he keeps 72%.
-4. **Steady monthly support.** Trove members give him Ember each month. It carries on until they change it, so it works like a small regular subscription that costs the fan nothing extra.
+4. **Monthly support from members.** Each month, Trove members choose who to support with their Ember, and many choose him. It costs the fan nothing extra.
 5. **Better tools.** New members get a welcome path (the Trailhead), achievements to collect and levels to climb, so newcomers find their feet without Leo answering the same questions again and again.
 
 **What changed.** The advertising money still arrives. On top of it, Leo now has a fan community he runs himself, income that doesn't depend on reach, and supporters he actually knows. See [Earning on Tuvima](earning.md).
