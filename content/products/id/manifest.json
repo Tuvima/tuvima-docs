@@ -9,6 +9,7 @@
     { "source": "guides/who-can-message-you.md", "slug": "guides/who-can-message-you", "group": "Guides", "section": "Your account" },
     { "source": "guides/two-step-sign-in.md", "slug": "guides/two-step-sign-in", "group": "Guides", "section": "Your account" },
     { "source": "guides/email.md", "slug": "guides/email", "group": "Guides", "section": "Your account" },
+    { "source": "guides/payments-and-purchases.md", "slug": "guides/payments-and-purchases", "group": "Guides", "section": "Your account" },
     { "source": "reference/whats-coming.md", "slug": "reference/whats-coming", "group": "Reference", "section": "Look something up" }
   ]
 }
