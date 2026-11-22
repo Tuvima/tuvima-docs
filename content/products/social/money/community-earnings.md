@@ -40,7 +40,7 @@ If the number drops, the community keeps its share for 90 more days.
 
 ## Ember support
 
-Turn on **Accept Ember** in your community settings to let Trove members support you each month. You see how many supporters you have and what you can expect to earn; members never see a money amount. You can thank supporters with a supporter mark, a supporters-only chat room or a thank-you message.
+Turn on **Accept Ember** in your community settings to let Trove members support you each month. You see how many supporters you have and what you can expect to earn; members never see a money amount. Members choose where their Ember goes each month, so your supporter count can change from month to month. You can thank supporters with a supporter mark, a supporters-only chat room or a thank-you message.
 
 18+ communities can't receive Ember. If a community becomes 18+, its Ember ends that day and goes back to the givers, and the community is paid for the days before.
 
