@@ -347,6 +347,36 @@
       "section": "Private communities and joining"
     },
     {
+      "source": "money/tuvima-trove.md",
+      "slug": "money/tuvima-trove",
+      "group": "Guides",
+      "section": "Membership and earning"
+    },
+    {
+      "source": "money/castar.md",
+      "slug": "money/castar",
+      "group": "Guides",
+      "section": "Membership and earning"
+    },
+    {
+      "source": "money/earning.md",
+      "slug": "money/earning",
+      "group": "Guides",
+      "section": "Membership and earning"
+    },
+    {
+      "source": "money/community-earnings.md",
+      "slug": "money/community-earnings",
+      "group": "Guides",
+      "section": "Membership and earning"
+    },
+    {
+      "source": "money/organisations-and-publishers.md",
+      "slug": "money/organisations-and-publishers",
+      "group": "Guides",
+      "section": "Membership and earning"
+    },
+    {
       "source": "reference/status.md",
       "slug": "reference/status",
       "group": "Reference",
