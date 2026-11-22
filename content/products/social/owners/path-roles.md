@@ -51,6 +51,25 @@ It works however someone got the role: picked it, was given it by a moderator or
 
 For example, give your **Veterans** level the Trading forum, and everyone who reaches it finds Trading in their menu the moment they do.
 
+## Pin a conversation to the home for holders
+
+On a role's **What holders get** tab, and the same section of a level or member tier, **On the community home** lets you pin one conversation to the top of your community's home for that role's holders. For example, pin "This month's jam" for **Jam crew**.
+
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/role-home-pin-desktop-light.jpg" alt="What holders get for the Jam crew role, with the On the community home row: a select to pin a conversation to the top of the home for holders." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/role-home-pin-desktop-dark.jpg" alt="What holders get for the Jam crew role, with the On the community home row: a select to pin a conversation to the top of the home for holders." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/role-home-pin-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/role-home-pin-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
+1. Under **Pin a conversation to the top for holders**, choose a conversation. The list shows the conversations your moderators have pinned in this community, the same list the Trailhead uses for its reading step.
+2. Choose **None** to take the pin away.
+
+Holders see a card marked **Pinned for** and the role's name at the top of the home, whether they're on For you or Everything. Each holder sees up to 3 pins, from the roles, levels and tiers they hold, with the most active conversation first. People who don't hold the role never see the pin and aren't told it exists. If the conversation is deleted or removed, or a holder can't open it, the pin quietly stops showing.
+
+A pin adds nothing to menus or alerts; it's only the card on the home.
+
 ## Private or shown on member cards
 
 Path roles are **private to their holders** to begin with:
@@ -72,6 +91,8 @@ On [Manage › Onboarding › Start-here places](start-here-places.md), or in th
 Once your community has any start-here place, path question or menu place in **What holders get**, members' menus show only their places, with everything else one tap away under **See all places**. Until then, every member sees every place they can open, as before. If someone's tidy menu would be empty, they see everything.
 
 Visitors who haven't joined always see every place they can open.
+
+Members who have picked at least one path also get a **For you | Everything** switch on your community's home. For you fills Popular, New photos, Latest and Chat now from their own places; Everything shows the whole community. Your featured conversations and announcements show in both. See [For you or Everything](../guides/paths-and-places.md#for-you-or-everything-on-the-communitys-home).
 
 ## What you can see, and what you can't
 
