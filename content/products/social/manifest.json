@@ -65,6 +65,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/lamplighters.md",
+      "slug": "guides/lamplighters",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/switch-persona.md",
       "slug": "guides/switch-persona",
       "group": "Guides",
@@ -283,6 +289,12 @@
     {
       "source": "owners/path-roles.md",
       "slug": "owners/path-roles",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/lamplighters.md",
+      "slug": "owners/lamplighters",
       "group": "Guides",
       "section": "Run a community"
     },
