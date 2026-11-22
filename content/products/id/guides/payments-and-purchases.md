@@ -19,6 +19,8 @@ When you choose to buy something, a Tuvima ID page opens. It shows:
 - who it's sold for: every receipt reads **Sold by Tuvima on behalf of** the community, creator or developer
 - the card you'll pay with
 
+Nothing costs less than $2, so card fees never outweigh what the seller and Tuvima receive.
+
 Nothing is charged until you choose **Pay**. Approving one purchase never allows another, and no community or app gets a spending allowance.
 
 ## Subscriptions and renewals
