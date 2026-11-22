@@ -34,7 +34,21 @@ Each question can have up to 12 answers. For each one:
 - **Adds to their menu**: the forums, chat channels or whole categories this answer puts in the member's menu. Choosing a category adds everything in it.
 - **Gives role**: every answer gives a [path role](path-roles.md). Choose **Create a role named after this answer** (the usual choice), or pick an existing role that members can pick. Path roles can open places but can never hold staff permissions.
 
+- **Matches a front-page topic** (optional): a topic from the Tuvima front page, such as Synths. People who follow that topic on the front page find this answer already ticked when they join. Leave it at **None** if no topic fits.
+
 The menu places belong to the answer's role, so you'll also see them on that role's **What holders get** tab. Anyone with **Manage onboarding** can change them here.
+
+## Answers ticked from front-page topics
+
+When someone joins with their global persona, answers that match a topic they follow on the front page start ticked, with the line **Ticked from the topics you follow on Tuvima**. They can untick anything, and nothing is saved until they choose **Join**. People joining with a [private persona](../guides/switch-persona.md) never get this: Tuvima doesn't look at their global persona's topics, so nothing links the two.
+
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/answer-topic-desktop-light.jpg" alt="The question editor with the Matches a front-page topic select under an answer." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/answer-topic-desktop-dark.jpg" alt="The question editor with the Matches a front-page topic select under an answer." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/answer-topic-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/answer-topic-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
+</figure>
 
 ## Saving
 

@@ -94,6 +94,20 @@ If you haven't joined, the Trailhead shows the welcome and the Lore, with a link
 
 While a community runs an Adventure, such as "Frost Week", it shows on the Trailhead above the Waymarks. Its steps tick themselves like Waymarks, but only for what you do while it runs. See [Adventures](adventures.md).
 
+## Fellowships on your paths
+
+If the community uses **Looking for group**, the Trailhead shows **Fellowships on your paths**: up to three groups looking for people this week, from Looking for group posts in the places your paths gave you. Each card says how many places are left and who posted it.
+
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/trailhead-fellowships-desktop-light.jpg" alt="The Trailhead with a Fellowships on your paths card: groups looking for people, each with places left and a Join button." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/trailhead-fellowships-desktop-dark.jpg" alt="The Trailhead with a Fellowships on your paths card: groups looking for people, each with places left and a Join button." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/trailhead-fellowships-phone-light.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/trailhead-fellowships-phone-dark.jpg" alt="The same screen on a phone." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
+Choose **Join** to say you're in, exactly as if you'd answered on the post itself; the organiser is told as usual. A group with no places left shows **Full**. Groups you started or already joined aren't shown. Only you see why these groups were picked.
+
 ## Welcoming others
 
 Once you've found your feet, you can help the next newcomers. If the community has Lamplighters switched on, pick the Lamplighters role on **Your paths** to see posts still waiting for a welcome. See [Lamplighters](lamplighters.md).
