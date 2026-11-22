@@ -55,6 +55,7 @@
       "docsDir": "content/products/id",
       "groups": [
         "Guides",
+        "Develop",
         "Reference"
       ],
       "wordmark": "tuvima-logo.svg"
