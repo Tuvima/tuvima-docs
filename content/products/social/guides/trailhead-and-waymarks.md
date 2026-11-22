@@ -89,3 +89,7 @@ If you haven't joined, the Trailhead shows the welcome and the Lore, with a link
 - [Being new to a community](newcomers.md)
 - [Achievements](achievements.md)
 - [Front page guidelines](front-page-guidelines.md)
+
+## Welcoming others
+
+Once you've found your feet, you can help the next newcomers. If the community has Lamplighters switched on, pick the Lamplighters role on **Your paths** to see posts still waiting for a welcome. See [Lamplighters](lamplighters.md).

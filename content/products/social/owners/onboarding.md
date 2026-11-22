@@ -48,6 +48,10 @@ When you have questions, the page lists the places that no answer and no start-h
 
 **Preview · what a new member sees** shows your questions the way a newcomer sees them, one at a time, then your rules. Use the arrows to step through. To go through the whole thing yourself, use [Try it as a new member](try-onboarding.md).
 
+## Lamplighters
+
+Below the four parts, **Lamplighters** lets members who like welcoming people pick a role and see newcomers' posts that nobody has answered yet. See [Lamplighters for owners](lamplighters.md).
+
 ## Members who joined before you set this up
 
 **Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote your questions see a one-time **Choose your paths** banner, so they can pick paths without leaving and rejoining. Switch it off if you'd rather not ask them. New members always see your questions when they join.
