@@ -83,7 +83,7 @@ People who subscribe on harbordaily.com itself don't get Tuvima perks automatica
 | How easy it is for a fan to give something small | Hard | Hard | Easy: small gifts and tips, no subscription needed |
 | Who your audience is | Mostly passers-by | Your subscribers | The people who chose to join your community |
 | Who sets the rules | The platform | You | You, in your own community |
-| Can paying get you more reach? | Often | Not applicable | Never. Money never buys a higher place in feeds or search |
+| Can paying get you more reach? | Often | Not applicable | Only in clearly labelled Promoted spaces. Organic feeds give a small, capped lift for many supporters, never for more money |
 
 ## Tools that come with it
 
@@ -96,6 +96,6 @@ People who subscribe on harbordaily.com itself don't get Tuvima perks automatica
 
 ## What Tuvima never does
 
-- It never sells reach. Gifts, tips and plans give you money and tools, never a higher place.
+- It never sells a higher place in normal feeds. Gifts, tips and plans give you money and tools. Paid promotion stays in labelled Promoted spaces, and a community with many supporters gets only a small, capped lift ([Watchfire and Kindling](watchfire-and-kindling.md#how-support-affects-what-people-see)).
 - It never takes over your existing channels. You keep posting wherever you already do.
 - It never shows your supporters' private details. Gifts are anonymous unless the giver chooses otherwise.
