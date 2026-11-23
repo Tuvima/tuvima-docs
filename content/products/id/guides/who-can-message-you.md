@@ -1,6 +1,6 @@
 ---
 title: Who can message you
-description: Choose who may start a private conversation with you, for all your personas at once or for one persona differently.
+description: Choose who may start a private conversation with you, for all your personas at once or for one persona, and whether your messages say why you are writing.
 audience: user
 category: guide
 product_area: tuvima-id
@@ -34,6 +34,12 @@ Conversations you already have carry on whichever rule you pick.
 ## Set one persona differently
 
 Under **Set one persona differently** you can give a single persona its own rule. For example, keep your main persona open to anyone and close a private persona to everyone. A persona without its own rule follows the rule above.
+
+## Share why I'm writing
+
+When you message someone from their post, a short line tells them why: "Zoe saw your post …". **Share why I'm writing** is on to begin with. Switch it off under **Who can message you** and none of your personas add the line, anywhere. Tuvima ID only keeps this yes or no; it never sees which post you were reading.
+
+You can also switch it off for one person, in that conversation's info panel. See [why a message shows where it came from](../../social/guides/messages.md#why-a-message-shows-where-it-came-from).
 
 ## Things this setting does not change
 
