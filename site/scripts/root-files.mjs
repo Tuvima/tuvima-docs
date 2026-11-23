@@ -2,11 +2,15 @@
 // (CONTRIBUTING.md, SECURITY.md, ...). The site rebuilds weekly, so these are fetched
 // when the site is built; the committed copy is the fallback when GitHub cannot be reached.
 const blob = 'https://github.com/Tuvima/tuvima-library/blob/main';
+// Outside links in root files that the docs link check cannot reach, pointed at the same
+// project's own site. Library's file is read-only from here, so the swap happens on the way in.
+const outsideLinkSwaps = { 'https://github.com/microsoft/onnxruntime': 'https://onnxruntime.ai/' };
 const legacyMoves = { 'reference/attributions/': 'products/library/policies/attributions/', 'product/license/': 'products/library/policies/license/', 'product/security/': 'products/library/policies/security/' };
 
 /** Point links in a root file at their pages on the hub. Safe to run on already-converted text. */
 export function transformRootFile(text) {
   return text.replace(/\r\n/g, '\n')
+    .replace(/<(https:\/\/[^>\s]+)>|\((https:\/\/[^)\s]+)\)/g, (match, angle, paren) => { const swap = outsideLinkSwaps[angle ?? paren]; return swap ? (angle ? `<${swap}>` : `(${swap})`) : match; })
     .replace(/\]\((?:\.\.\/)*CODE_OF_CONDUCT\.md\)/g, '](/products/library/policies/code-of-conduct.md)')
     .replace(/\]\((?:\.\.\/)*SECURITY\.md\)/g, '](/products/library/policies/security.md)')
     .replace(/\]\((?:\.\.\/)*(LICENSE|AGENTS\.md|CLAUDE\.md)\)/g, `](${blob}/$1)`)
