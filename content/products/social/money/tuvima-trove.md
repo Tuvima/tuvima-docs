@@ -24,7 +24,7 @@ Tuvima Trove is not available yet. It arrives with payments. Prices shown here a
 
 Bronze comes first. The other levels follow soon after.
 
-If you own a community, Trove also lets you claim short community names (Bronze 1, Silver 2, Gold 3, Platinum 5), and Bronze members get a monthly Watchfire spark. See [Community addresses, Watchfire and Kindling](watchfire-and-kindling.md).
+If you own a community, Trove also lets you claim short community names (Bronze 1, Silver 2, Gold 3, Platinum 5), and Bronze members get a monthly Watchfire spark. See [Short names, Watchfire and Kindling](watchfire-and-kindling.md).
 
 ## Longer plans include Gold Castar
 
