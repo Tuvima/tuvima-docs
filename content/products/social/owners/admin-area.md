@@ -23,7 +23,7 @@ The menu down the side has four groups, with 14 pages in all. Each page has tabs
 
 | Group | Page | Tabs |
 | --- | --- | --- |
-| **Overview** | **Overview** | **Needs you** (what is waiting for you) and **Numbers** ([how your community is doing](run-your-community.md#numbers)) |
+| **Overview** | **Overview** | **Needs you** (what is waiting for you, things that need attention, and your launch checklist) and **Numbers** ([how your community is doing](run-your-community.md#numbers)) |
 | **Community** | **Profile and look** | **Profile**, [**Address**](community-address.md), **Colours and banner**, **Home page**, **Menu** |
 | | **Forums and channels** (**Chat channels**, for someone who only manages chat) | **All places**, **Label history** |
 | | **Rules** | **Community rules**, **Forum guidelines** |
