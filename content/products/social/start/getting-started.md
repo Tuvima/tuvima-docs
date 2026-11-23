@@ -52,7 +52,7 @@ When you see **You're all set**, Tuvima welcomes you with three short steps. Eac
 
 ## Check the result
 
-The community now shows in your side menu and in **Communities and follows**, and you can start a conversation or reply.
+The community now shows in your sidebar (unless you unticked **Add to your sidebar**) and in **Communities and follows**, and you can start a conversation or reply.
 
 ## Next steps
 

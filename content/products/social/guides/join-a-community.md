@@ -37,7 +37,8 @@ Some communities are **unlisted**: their owner has chosen to leave them out of t
 4. **One last step: house rules.** Read the rules and choose how to appear:
    - **Join as** your global persona, `handle @ tuvimaid.com`.
    - **Create a private persona for this community**, with its own handle, name and picture. Members and moderators cannot see that it is connected to your global persona.
-5. Choose **Join**. Joining means you agree to the rules. Nothing is saved before this, so closing the steps halfway doesn't join you.
+5. Leave **Add to your sidebar** ticked to keep the community in your sidebar, or untick it. Either way its conversations come to your Home. See [your sidebar](getting-around.md#your-sidebar).
+6. Choose **Join**. Joining means you agree to the rules. Nothing is saved before this, so closing the steps halfway doesn't join you.
 
 Think about the choice. Your global persona lets people recognise you across Tuvima. A private persona suits a community where you would rather keep that part of your life separate, such as a health support group. Remember that it hides who you are, not what you post: in a public community anyone can still read it.
 
