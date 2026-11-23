@@ -75,9 +75,13 @@ A copy of **Member** has no staff permissions. Use one to open private areas to 
 
 A community can have up to 30 roles. Custom roles can be deleted; the ready-made ones cannot.
 
+## Change the order of roles
+
+The role list is in the order you set. Drag a role by its grip to move it: with a mouse, drag and drop; on a phone, hold the grip, then move; with a keyboard, Tab to the grip, press Space to lift, use the arrow keys to move, press Space to drop, or Esc to cancel. **Move up** and **Move down** buttons do the same without dragging.
+
 ## Moderate one forum only
 
-To let someone look after one forum, make a copy of Moderator with nothing switched on, then choose **Allow** on that forum's Permissions tab. They moderate there and nowhere else. See [a moderator for one forum only](place-permissions.md#a-moderator-for-one-forum-only).
+To let someone look after one forum, make a copy of Moderator with nothing switched on, then choose **Allow** on that forum's **Access** tab. They moderate there and nowhere else. See [a moderator for one forum only](place-permissions.md#a-moderator-for-one-forum-only).
 
 ## Give someone a role
 

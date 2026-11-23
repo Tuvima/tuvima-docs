@@ -50,7 +50,7 @@ A number next to **Approval queue** shows how many posts, requests and reports a
 
 ## Find a setting
 
-Type into **Find a setting** at the top of the menu. It finds single settings as well as pages, so typing "unlisted" finds the **Unlisted** setting on **Joining and leaving**, and typing "banned words" finds the word list on **Moderation rules**. Choose a result and Tuvima opens that page and takes you to the setting, which flashes so you can see it.
+Type into **Find a setting** at the top of the menu. It finds single settings as well as pages, so typing "unlisted" finds the **Unlisted** setting on **Joining and leaving**, and typing "banned words" finds the word list on **Moderation rules**. Choose a result and Tuvima opens that page and takes you to the setting, which flashes so you can see it. Settings that belong to one forum or channel, such as slow mode or holding newcomers' first posts, are found too: the result tells you to open that forum or channel and names the tab.
 
 ## Save your changes
 

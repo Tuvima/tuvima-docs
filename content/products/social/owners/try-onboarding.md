@@ -23,7 +23,7 @@ On **Manage › People › Onboarding**, choose **Try it as a new member** to go
 
 In a community where people ask to join, newcomers answer the questions once they are let in. The tryout shows them anyway, with a note saying so.
 
-The owner can also choose **See the Trailhead as a new member**, which shows your Trailhead as a plain member sees it (this uses [View as a role](place-permissions.md#view-as-a-role-and-why)).
+The owner can also choose **See the Trailhead as a new member**, which shows your Trailhead as a plain member sees it (this uses [View as a role](place-permissions.md#view-as-a-role-and-the-post-check)).
 
 ## Next steps
 

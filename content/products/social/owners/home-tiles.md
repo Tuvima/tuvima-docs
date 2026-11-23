@@ -31,7 +31,7 @@ Each category is one tile. Choose a tile to change it, then pick its **width**:
 - **Half**: two side by side. This is how every category starts.
 - **Third**: three side by side. Small and tidy, so a third tile shows its colour mark but no picture.
 
-Drag a tile by its handle to move it, or use **Move earlier** and **Move later** (these also work with a keyboard). The order you choose is your categories' order everywhere in the community.
+Drag a tile by its grip to move it: with a mouse, drag and drop; on a phone, hold the grip, then move; with a keyboard, Tab to the grip, press Space to lift, use the arrow keys, then Space to drop (Esc cancels). **Move earlier** and **Move later** buttons do the same. The order you choose is your categories' order everywhere in the community.
 
 On phones, every tile takes the full width, one under another, in the same order.
 

@@ -68,19 +68,19 @@ Visitors, and people who have not joined, always see the home page. They never s
 
 A new channel can be read by every member who can open its category. A community can have up to 50 channels.
 
-Each channel is listed under its category's forums with a **Chat channel** badge. Use **Up** and **Down** to change the order, **Edit** to open its settings, and **Delete** to remove it. These buttons only show while the Chat channels add-on is on.
+Each channel is listed under its category's forums with a **Chat channel** badge. Drag its grip, or use **···** then **Move up**, **Move down** or **Move to…**, to change the order; **Open settings** opens its settings and **Delete** removes it. See [change the order](categories-and-forums.md#change-the-order). These only show while the Chat channels add-on is on.
 
-Someone who holds only **Manage chat channels** sees a **Chat channels** page in **Manage**. It shows each category's channels, with **Add a chat channel**, ordering and **Edit**, and no category or forum controls.
+Someone who holds only **Manage chat channels** sees a **Chat channels** page in **Manage**. It shows each category's channels, with **Add a chat channel**, ordering and **Open settings**, and no category or forum controls.
 
 People who can manage channels also see **Manage channels** at the top of the channel list in **Chat**.
 
 ## Channel settings
 
-Choose **Edit** next to a channel. Each part of the page saves by itself.
+Choose the channel in the tree, or **Open settings** in its **···** menu. A channel has two tabs, **Basics** and **Access**, and they share the page's one save bar.
 
-### Name and purpose
+### Basics
 
-Change the **Name**, **What it is for** and the **Category**. Moving a channel puts it last in its new category. Choose **Save**.
+Change the **Name**, **What it is for** and the **Category**. Moving a channel puts it last in its new category. Then choose **Save changes**.
 
 ### Who can read and post
 
@@ -91,15 +91,15 @@ Choose **Who can see and post** to open the same choices a forum has; see [choos
 
 **Only some members** lets you pick who can read, or who can post, by level, role or member tier.
 
-### Permissions
+### Role exceptions
 
-The **Permissions** tab sets what each role can do in this channel: write messages, react, add links and more, and staff actions such as removing messages. See [set permissions for a place](place-permissions.md). **Who can see and post** still decides who is in the channel at all.
+Under **Role exceptions here** on the **Access** tab, you set what a role can or can't do in this channel: write messages, react, add links and more, and staff actions such as removing messages. See [set permissions for a place](place-permissions.md). **Who can see and post** still decides who is in the channel at all.
 
 ### Read-only channels
 
 A read-only channel is one where only some members can post, for example **announcements**. Everyone else who can read it sees "Only some members can post here" in place of the message box. They can still read and react.
 
-For finer control, use **Permissions**: set **Post messages in chat** to **Deny** for Everyone and **Allow** for a role such as Announcer. See [a read-only announcements channel](place-permissions.md#a-read-only-announcements-channel).
+For finer control, use **Role exceptions here**: set **Post messages in chat** to **Deny** for Everyone and **Allow** for a role such as Announcer. See [a read-only announcements channel](place-permissions.md#a-read-only-announcements-channel).
 
 ### Slow mode
 
