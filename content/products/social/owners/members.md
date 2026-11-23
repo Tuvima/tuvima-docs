@@ -23,6 +23,13 @@ Each row shows a member's name, their roles and any newcomer, suspended or banne
 
 "Last posted" and post counts only count posts in forums you can open yourself. Someone who only posts in a private forum you can't see shows as never having posted.
 
+Each name also has a small chip saying what kind of persona it is:
+
+- **Global**: the member's own persona used across Tuvima, with its full address, such as **amara_speaks @ tuvimaid.com**.
+- **Private here**: a persona the member made only for this community. Nobody, including you, can see which Tuvima persona it belongs to.
+
+Above the table, **All**, **Global** and **Private** show each kind on its own, with how many there are.
+
 ### Search, filter and sort
 
 - **Search** by name or handle.

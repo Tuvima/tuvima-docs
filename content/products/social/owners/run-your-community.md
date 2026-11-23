@@ -117,6 +117,7 @@ The [admin area](admin-area.md) lists every settings page. You see the ones your
 
 - **General**: name, description, newcomer limits, **Category on Tuvima** (which front-page category your community belongs to), edit history, whether readers see "Hidden by moderators" notes, and the launch checklist.
 - **Look and home page**: see [change your community's look](look-and-feel.md).
+- **Menu**: which extra pages members see under **Pages** in the community's menu (**Photos**, **Achievements** and **Rules**), and whether **Pages** starts folded. Hiding a page only takes it out of the menu: **Rules** can always be reached from **About and rules** in the community's own menu. Trailhead and Lamplighters show by themselves when you have them.
 - **Forums and categories**: how conversations are grouped, forum types, who can see and post in each, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md) and [choose who can see and post in each area](area-access.md).
 - **Rules**, **Photos** and **Add-ons**: see [add-ons](add-ons.md).
 - **Joining and privacy**: **Public** or **Private**, **Listed** or **Unlisted**, how people join and join questions. See [make your community private](make-it-private.md), [how people join](how-people-join.md) and [join questions](join-questions.md).
