@@ -62,6 +62,22 @@ If you helped fold a post that reviewers or staff then find is fine, you cannot 
 
 You are told straight away. You can give your side once, in up to 280 characters, and reviewers see it beside your post. If members hide your post, you can ask for another look once, within 7 days, and a larger group of fresh reviewers makes the final decision. Every post's public **Moderation history** shows what was raised and decided, without names. See [if a concern is raised about your post](member-moderation.md#if-a-concern-is-raised-about-your-post).
 
+## Report a name used across Tuvima
+
+A global persona's name is the same in every community, so only Tuvima's staff can ask for it to change. If a name is offensive, pretends to be someone else, or is spam:
+
+1. Open the persona's card (select their name), or, for a community's moderators, their row in **Members**.
+2. Choose **Report this name to Tuvima…**.
+3. Pick what's wrong with it, add a note for staff if you like, and choose **Send report**.
+
+The report goes to Tuvima's staff, never to the member. You'll get one short notice when staff have decided. You can't report your own name, or the same name twice while your first report is open.
+
+A persona made only for one community (a **Private here** persona) is renamed by that community's moderators instead.
+
+## If Tuvima asks you to choose a new name
+
+If staff decide your global persona's name has to change, you see **Choose a new name** the next time you open Tuvima. Until you choose one, your name is hidden from other people. Pick a new handle (and a new display name, or none). You don't have to wait for the usual 30 days between name changes, and your old handle is kept aside for a while so nobody else can take it.
+
 ## What community moderators can do
 
 | Action | What it means |

@@ -23,7 +23,14 @@ The top of the page is a band in the community's own colour. It shows the commun
 
 Beside the name is **Join**, or, once you're a member, a **Joined** button. Choose **Joined** to see **Your membership**: the persona you use there, a link to this community's **Alerts**, **Your tiers**, and **Leave community**. On a phone it opens as a sheet from the bottom. The bell button next to it sets how much of this community reaches your alerts.
 
-On a computer, a menu on the left takes the place of the sections in the band. It holds the community's sections, then its forums and chat channels. If the community has several categories, each one is a heading you can fold. The one you are in opens by itself, and Tuvima remembers which ones you folded.
+On a computer, a menu on the left takes the place of the sections in the band. It stays in the same place on every page of the community, including chat and the community's settings.
+
+- **The community's name and picture** at the top take you back to the community's home. The arrow beside them opens the community's own menu: **Invite people**, **Manage community** and **Create forum or channel** (for those allowed), then **Alert settings**, **Your persona here**, **Mark all as read**, **Hide muted**, **About and rules** and **Leave community**.
+- **Pages** lists the community's extra pages, such as **Trailhead**, **Lamplighters**, **Photos**, **Achievements** and **Rules**. You can fold it away, and Tuvima remembers your choice. When it is folded, it shows how many pages it holds.
+- Then come the forums and chat channels. If the community has several categories, each one is a heading you can fold. The one you are in opens by itself, and Tuvima remembers which ones you folded.
+- When a community has both forums and chat, **All**, **Forums** and **Chat** above the list show just one kind. Tuvima remembers your choice for each community.
+
+On a phone, the community's sections stay in the band, and tapping the community's name in the top bar lets you switch to another community (see [Find your way around](getting-around.md)).
 
 Most communities open on **what's happening** across the whole community:
 

@@ -98,7 +98,7 @@ A persona with a hidden name can't [switch](../guides/switch-persona.md) between
 
 ## Global personas
 
-For a global persona, **Unsuitable name** only explains that the name is used across Tuvima and can't be changed here. There is no **Change the name now** or **Mark as offensive**. Use **Warn**, **Suspend** or **Ban** from the same panel. Global renames work as before, in the member's Tuvima profile.
+For a global persona, **Unsuitable name** explains that the name is used across Tuvima and can't be changed here. There is no **Change the name now** or **Mark as offensive**. Instead, choose **Report this name to Tuvima…** to send it to Tuvima's staff, who decide for the whole of Tuvima. You can still use **Warn**, **Suspend** or **Ban** from the same panel for what happens in your community.
 
 ## Next steps
 
