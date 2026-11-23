@@ -34,7 +34,7 @@ An established community can also claim a short address, such as `tuvima.com/c/D
 
 The community needs at least 10 members and must be 14 days old.
 
-**If the plan or level ends,** the short name keeps working for 30 days, then it is held for the community for 90 more days. After that another community can claim it. The permanent address never changes. Anyone who opens the old short link later sees a page that points to both communities.
+**If the plan or level ends,** the short name keeps working for 30 days, then it is held for the community for 90 more days. After that another community can claim it. The permanent address never changes. Once a short name goes to another community, the short link opens that community instead, so share the permanent address when a link needs to last.
 
 **Organisations.** Trove Business keeps an organisation's short names for a full first year, even if it pays for only one month. This introductory year happens once per organisation and once per name. Trove Team keeps short names while subscribed.
 
