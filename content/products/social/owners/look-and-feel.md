@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Every community can have its own colours, header and icons, while fonts and layout stay the same across Tuvima so members always know where things are. Text is always set in Inter, the same typeface as the rest of Tuvima, so a community looks the same on every phone and computer. Open **Manage**, then **Look and home page**. Every part of the Look editor is free. To move things around on the home page, see [Choose a home layout and arrange your home](home-tiles.md).
+Every community can have its own colours, header and icons, while fonts and layout stay the same across Tuvima so members always know where things are. Text is always set in Inter, the same typeface as the rest of Tuvima, so a community looks the same on every phone and computer. Open **Manage**, then **Profile and look**, then **Look**. Every part of the Look editor is free. To move things around on the home page, see [Choose a home layout and arrange your home](home-tiles.md).
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/look-and-feel-desktop-light.jpg" alt="The settings for a community&#x27;s look: theme, colours and banner." width="1600" height="1000" loading="lazy" decoding="async">

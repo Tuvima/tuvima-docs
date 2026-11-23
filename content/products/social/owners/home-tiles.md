@@ -19,7 +19,7 @@ Your community's home is the first thing members see. You choose one of four lay
 
 ## Choose a layout
 
-Open **Manage**, then **Look and home page**, or use **Arrange home** on the home page itself. Choose one of four:
+Open **Manage**, then **Profile and look**, then **Home page**, or use **Arrange home** on the home page itself. Choose one of four:
 
 - **Forums and latest** (the starting choice): your forums grouped by category, with the latest conversations beside or below them.
 - **Forums only**: just the forum list, for a quiet, classic forum.
