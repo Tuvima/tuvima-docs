@@ -83,4 +83,4 @@ Enterprise is for large organisations that need more seats, company sign-in, agr
 
 ## What money never does
 
-No plan buys a higher place in the Tuvima front page, search or feeds. Paying for a plan gives you tools, not reach.
+No plan buys a higher place in the Tuvima front page, search or feeds. Paying for a plan gives you tools, not reach. Paid promotion, when it arrives, appears only in labelled Promoted spaces. Trove Business also keeps your short community names for a first year ([details](watchfire-and-kindling.md#short-names)).
