@@ -96,6 +96,6 @@ People who subscribe on harbordaily.com itself don't get Tuvima perks automatica
 
 ## What Tuvima never does
 
-- It never sells a higher place in normal feeds. Gifts, tips and plans give you money and tools. Paid promotion stays in labelled Promoted spaces, and a community with many supporters gets only a small, capped lift ([Watchfire and Kindling](watchfire-and-kindling.md#how-support-affects-what-people-see)).
+- It never sells a higher place in normal feeds. Gifts, tips and plans give you money and tools. Paid promotion stays in labelled Promoted spaces, and a community with many supporters gets only a small, capped lift ([Short names and Watchfire](short-names-and-watchfire.md#how-support-affects-what-people-see)).
 - It never takes over your existing channels. You keep posting wherever you already do.
 - It never shows your supporters' private details. Gifts are anonymous unless the giver chooses otherwise.
