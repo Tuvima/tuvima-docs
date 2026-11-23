@@ -1,6 +1,6 @@
 ---
-title: Community addresses, Watchfire and Kindling
-description: "How community addresses and short names work, how members light a community's Watchfire to unlock extras, and how free Kindling rewards taking part."
+title: Short names, Watchfire and Kindling
+description: "How short community names work, how members light a community's Watchfire to unlock extras, and how free Kindling rewards taking part."
 audience: user
 category: guide
 product_area: tuvima
@@ -13,14 +13,9 @@ These features are planned and not available yet. Numbers shown are starting val
 
 Every community has a link that never breaks. Members can help a community unlock extras together, with **Watchfire** if they have Tuvima Trove and with free **Kindling** if they don't.
 
-## Community addresses
+## Short names
 
-Every community gets a permanent address made of a short code and its name, for example `tuvima.com/c/k7f3q2/dragon-masters`.
-
-- **Names can repeat.** Several communities can be called "Dragon Masters". You tell them apart by their picture, size and topic, and verified organisations carry a verified mark.
-- **Renaming never breaks links.** The code never changes, so old links still open the right community.
-
-### Short names
+Every community already has a [permanent address](../owners/community-address.md) that never breaks, such as `tuvima.com/c/k7f3q2/dragon-masters`.
 
 An established community can also claim a short address, such as `tuvima.com/c/DragonMasters`.
 
@@ -32,7 +27,7 @@ An established community can also claim a short address, such as `tuvima.com/c/D
 | Trove Platinum | 5 |
 | A community at Watchfire 3 | 1, while it stays at that level |
 
-The community needs at least 10 members and must be 14 days old.
+The Trove numbers count every short name you hold, across all your personas together. The community needs at least 10 members and must be 14 days old.
 
 **If the plan or level ends,** the short name keeps working for 30 days, then it is held for the community for 90 more days. After that another community can claim it. The permanent address never changes. Once a short name goes to another community, the short link opens that community instead, so share the permanent address when a link needs to last.
 

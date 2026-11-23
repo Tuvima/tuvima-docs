@@ -1,6 +1,6 @@
 ---
 title: Start a community
-description: Create a community in seven short steps, choose its address and rules, and decide whether to limit newcomers. It is free and takes about ten minutes.
+description: Create a community in seven short steps, choose its name and rules, and decide whether to limit newcomers. It is free and takes about ten minutes.
 audience: user
 category: tutorial
 product_area: tuvima
@@ -27,7 +27,7 @@ Starting a community is free, and Tuvima looks after the hosting. It takes about
 
 Choose **Start a community** on the front page. The **Create a community** steps are:
 
-1. **Name and address.** The name is 3 to 80 characters. The address is the part after `/c/` in the web address, for example `/c/dallas-board-games`. It is suggested from the name and uses lowercase letters, numbers and single hyphens. **The address can never change**, so choose carefully.
+1. **Name.** 3 to 80 characters. Other communities can have the same name. As you type, you see the community's [permanent address](community-address.md), for example `tuvima.com/c/k7f3q2/dragon-masters`: a code that never changes, then words from the name.
 2. **Public or private.** **Public** means anyone can read and signed-in people can join. **Private** means only members can read; people join by asking or with an invite. See [make your community private](make-it-private.md).
 3. **Description.** Up to 1,000 characters on what the community is about, and **where it shows on Tuvima**: a front-page category and subtopic. Tuvima suggests one from the name and description, for example Gaming › Tabletop for "D&D Gamers in Dallas". Your community's conversations carry this place as their labels.
 4. **Rules.** Write your community's rules. They sit on top of [the rules everyone follows](../guides/community-rules.md).
@@ -35,8 +35,6 @@ Choose **Start a community** on the front page. The **Create a community** steps
 6. **Newcomer limits.** Off unless you switch on **Limit newcomers**. See below.
 7. **Welcome new members.** Optional: pick a [template](onboarding-templates.md) (gaming group, product support, creator fan club or local club) to fill in your join questions, a welcome and first Waymarks, or leave it on **Not now**.
 8. **Review.** Check everything, then choose **Create community**.
-
-Some addresses are reserved, for example ones that look like Tuvima staff or support.
 
 ## Should you limit newcomers?
 
