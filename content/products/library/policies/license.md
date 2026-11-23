@@ -19,6 +19,10 @@ You can run Tuvima Library on your own machine. There is no Tuvima subscription 
 
 The AGPL protects access to the covered source code when the software is distributed. It also addresses users interacting over a network with a modified version. Consult the license before distributing changes or providing a modified service.
 
+## Use the phone, TV and car apps
+
+The apps in the project's `clients` folder (Android, Roku, TV web for Samsung and LG, and Apple) are open source under the Mozilla Public License 2.0 (MPL 2.0), so they can be shipped through app stores. If you change one of their files and share it, you share that change under the same licence; your own new files stay yours. The server stays under the AGPL. See [Apps on your phone and TV](../guides/apps-on-your-phone-and-tv.md#licence).
+
 ## Build a plugin
 
 Plugins load into the Engine process. The way a plugin combines with the application can matter to its licensing. Consult the license; this page is not legal advice. Check dependency and provider terms as well.

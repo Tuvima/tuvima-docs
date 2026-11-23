@@ -163,6 +163,42 @@
       "section": "Use Tuvima"
     },
     {
+      "source": "guides/apps-on-your-phone-and-tv.md",
+      "slug": "guides/apps-on-your-phone-and-tv",
+      "group": "Guides",
+      "section": "Apps on your devices"
+    },
+    {
+      "source": "guides/pair-android-tv-fire-tv.md",
+      "slug": "guides/pair-android-tv-fire-tv",
+      "group": "Guides",
+      "section": "Apps on your devices"
+    },
+    {
+      "source": "guides/pair-roku.md",
+      "slug": "guides/pair-roku",
+      "group": "Guides",
+      "section": "Apps on your devices"
+    },
+    {
+      "source": "guides/pair-samsung-lg-tv.md",
+      "slug": "guides/pair-samsung-lg-tv",
+      "group": "Guides",
+      "section": "Apps on your devices"
+    },
+    {
+      "source": "guides/android-phone-app.md",
+      "slug": "guides/android-phone-app",
+      "group": "Guides",
+      "section": "Apps on your devices"
+    },
+    {
+      "source": "guides/apple-apps-and-cars.md",
+      "slug": "guides/apple-apps-and-cars",
+      "group": "Guides",
+      "section": "Apps on your devices"
+    },
+    {
       "source": "guides/library-settings.md",
       "slug": "guides/library-settings",
       "group": "Guides",
