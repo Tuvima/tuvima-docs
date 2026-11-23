@@ -125,6 +125,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/status.md",
+      "slug": "guides/status",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/messages.md",
       "slug": "guides/messages",
       "group": "Guides",

@@ -19,7 +19,14 @@ Tuvima keeps its frame quiet so the conversations have the room. Here is where e
 
 ## The top bar
 
-The top bar has the Tuvima name (it takes you home), the community you are in, search, the bell and your account. There is no "New post" button up here: you start a conversation from inside a community or forum, where it belongs.
+The top bar runs across the top on a computer. From the left it has the Tuvima name (it takes you home) and the community you are in. On the right are:
+
+- **Create**: start a conversation, a chat or a community from where you are.
+- **Messages**: your [private conversations](messages.md).
+- **Alerts**: the bell, with what is new for you.
+- **Help**: answers and ways to reach the Tuvima team.
+- **Tuvima products**: a button that opens the other Tuvima products, such as Tuvima ID.
+- **Search**: select it, or press **Ctrl K** (**Command K** on a Mac), from anywhere.
 
 ## Search here or everywhere
 
@@ -58,6 +65,20 @@ Your sidebar's communities are listed in your own order. A community you have ju
 
 Your order, your folders and which communities are in your sidebar are kept with your Tuvima ID account, so they are the same on every computer and phone you sign in on. They are private to you: no community, and no one else, sees how you arranged them.
 
+## Your own panel
+
+On a computer, your own panel sits at the bottom left of the screen. It shows your picture, a **status dot** and the name you use in this place. Select it to open a menu with:
+
+- **Status**: [Here, Away, Do not disturb or Hidden](status.md).
+- **Persona page**: how others see you here.
+- **Edit persona**.
+- **Settings**.
+- **Tuvima ID account**: your account on Tuvima ID.
+- **Your reports and posts**: what you reported, and what you posted here.
+- **Sign out**.
+
+On phones there is no panel: the **You** tab at the bottom holds the same things.
+
 ## On a phone
 
 - The bar at the bottom holds Home, Explore, the **+** button, Alerts and You. Inside a community none of them is lit up: the community's name in the top bar tells you where you are. In a conversation the bar makes way for the reply box.
@@ -71,7 +92,7 @@ Your order, your folders and which communities are in your sidebar are kept with
 
 ## Light or dark
 
-Tuvima starts in dark mode. Choose **Dark**, **Light** or **Follow my device** in your account menu, or at the bottom of any page. Signed in, your choice is saved with your Tuvima persona and follows you to your other devices. Signed out, it is kept on this device only.
+Tuvima starts in dark mode. Choose **Dark**, **Light** or **Follow my device** in your panel's settings menu, or at the bottom of any page. Signed in, your choice is saved with your Tuvima persona and follows you to your other devices. Signed out, it is kept on this device only.
 
 Each community's own colours still apply inside that community, in light and dark.
 
