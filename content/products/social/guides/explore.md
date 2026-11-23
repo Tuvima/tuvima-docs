@@ -67,7 +67,7 @@ Tick the rows you want, or **Select all** to choose everything that matches your
 
 - **Change alerts**: Normal, New conversations or Muted. See [keep up with conversations](keep-up.md) for what each means.
 - **Mute** the communities.
-- **Pin** up to 12 communities to the top of your side menu. Pinning works for communities you are in with your global persona.
+- **Add to sidebar** or **Remove from sidebar**, to choose which communities your sidebar shows (see [your sidebar](getting-around.md#your-sidebar)). This works for every persona.
 - **Leave** the communities, after you confirm. You cannot leave a community you own.
 - **Unfollow** people or topics.
 - **Back to usual** for conversations, so they no longer alert you about every reply.
