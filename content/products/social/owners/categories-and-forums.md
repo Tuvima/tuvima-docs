@@ -71,14 +71,14 @@ The tabs depend on the place:
 | Chat channel | **Basics**, **Access** |
 | Category | **Basics**, **Access**, **On Tuvima** |
 
-Changes on a place's tabs share the page's one save bar: **Save changes** keeps them and **Cancel** puts everything back. **View forum** opens the forum as members see it, and **Close** shuts the settings.
+Changes on a place's tabs (other than labels) share the page's one save bar: **Save changes** keeps them and **Cancel** puts everything back. **View forum** opens the forum as members see it, and **Close** shuts the settings.
 
-- **Basics** renames the place, adds a description, and for a forum sets an automatic content warning, such as "Spoilers".
-- **Forum type**, on **Basics**: **Discussion** (replies in time order, for chat, news and show-and-tell), **Questions and answers** (best answers rise, and the asker or a moderator accepts one, which shows first) or **Link to another page** (shows in the list like a forum but opens a web page you choose, such as your shop or wiki; it holds no conversations). A forum that already has conversations can't become a link.
-- **Access** is covered in [choose who can see and post in each area](area-access.md) and [set permissions for a place](place-permissions.md).
-- **Rules and templates**, for a forum, holds its own rules. You can also:
+- **Basics** renames the place and adds a description. For a forum it also holds:
+  - **Forum type**: **Discussion** (replies in time order, for chat, news and show-and-tell), **Questions and answers** (best answers rise, and the asker or a moderator accepts one, which shows first) or **Link to another page** (shows in the list like a forum but opens a web page you choose, such as your shop or wiki; it holds no conversations). A forum that already has conversations can't become a link.
+  - In a **Questions and answers** forum, whether **new unanswered questions show first** for a day, and whether **the asker can accept an answer** or only moderators can.
   - **Hold newcomers' first posts here** for a moderator to approve, even when the community doesn't hold first posts everywhere.
-  - In a **Questions and answers** forum, show **new unanswered questions first** for a day, and choose whether **the asker can accept an answer** or only moderators can.
+- **Access** is covered in [choose who can see and post in each area](area-access.md) and [set permissions for a place](place-permissions.md).
+- **Rules and templates**, for a forum, holds its own rules, its post templates, and an automatic content warning, such as "Spoilers".
 - **On Tuvima** holds the labels, below.
 
 :::tip
@@ -115,7 +115,7 @@ Before anything is saved, Tuvima checks what the change would do and tells you, 
 
 > 4 conversations not yet on the Tuvima portal will move to the new labels. 1 conversation already on the portal will keep its labels.
 
-Confirm to go ahead, or go back to change your mind. The change is saved with the page's **Save changes**.
+Choose **Save labels** to go ahead, or **Back** to change your mind. Labels have their own Save button, separate from the page's save bar.
 
 - Conversations that are **not yet on the front page** move to the new labels.
 - Conversations **already shared to the front page keep their labels**, so their place there and their links never change.
@@ -123,7 +123,7 @@ Confirm to go ahead, or go back to change your mind. The change is saved with th
 
 Moving a forum to another category, by dragging or **Move to…**, gives its conversations that category's labels, and moving conversations out of a deleted forum gives them their new forum's labels. Conversations already on the front page keep theirs in both cases.
 
-**Label changes**, at the bottom of the **Forums and channels** page, lists every saved change: who made it, what it changed from and to, and how many conversations moved or kept their labels. Only owners and admins see it.
+The **Label history** tab of **Forums and channels** lists every saved change: who made it, what it changed from and to, and how many conversations moved or kept their labels. Only owners and admins see it.
 
 ## Finding conversations by label
 
