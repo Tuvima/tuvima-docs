@@ -37,6 +37,11 @@ test('root files point at the hub and survive being converted twice', () => {
   assert.match(once, /\/products\/library\/policies\/attributions\/#x/);
   assert.equal(transformRootFile(once), once);
 });
+test('outside links the link check cannot reach point at the project site', () => {
+  const once = transformRootFile('Run with ONNX Runtime (<https://github.com/microsoft/onnxruntime>) or [it](https://github.com/microsoft/onnxruntime); keep <https://github.com/microsoft/onnxruntime-genai>.');
+  assert.equal(once, 'Run with ONNX Runtime (<https://onnxruntime.ai/>) or [it](https://onnxruntime.ai/); keep <https://github.com/microsoft/onnxruntime-genai>.');
+  assert.equal(transformRootFile(once), once);
+});
 test('front matter splits from the body, and retired addresses are found', () => {
   assert.deepEqual(splitFrontMatter('---\na: 1\n---\nbody'), { front: 'a: 1', body: 'body' });
   assert.equal(splitFrontMatter('no front matter'), null);
