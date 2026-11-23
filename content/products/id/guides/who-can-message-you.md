@@ -41,6 +41,10 @@ When you message someone from their post, a short line tells them why: "Zoe saw 
 
 You can also switch it off for one person, in that conversation's info panel. See [why a message shows where it came from](../../social/guides/messages.md#why-a-message-shows-where-it-came-from).
 
+## Alerts for new messages
+
+When someone you have not talked with writes to you, or invites you to a group, the message waits under **New** and you get one alert. **Alert me about new messages** is on to begin with. Switch it off under **Who can message you** and none of your personas get these alerts; the messages still wait under New. Alerts for conversations you already have are not affected, and the sender is never told either way.
+
 ## Things this setting does not change
 
 - **Moderators can still reach you.** A moderator of a community you belong to can always message you there. Their messages carry a Moderator tag.

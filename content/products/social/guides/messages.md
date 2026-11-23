@@ -78,7 +78,7 @@ A first message from someone you have not talked with, and an invite to a group,
 - **Ignore** tidies it away quietly. The sender is not told, and nothing they write afterwards reaches you. A group you ignored cannot invite you again.
 - **Spam** does the same, and also tells Tuvima. When several people mark the same sender as spam in a week, that sender cannot start new conversations for a while.
 
-While a message waits in New you cannot react to it, and you are not sent phone alerts about it.
+While a message waits in New you cannot react to it. You get one phone alert when it arrives, and none for more messages from the same person until you reply. To switch these alerts off, untick **Alert me about new messages** in your [Tuvima ID message settings](../../id/guides/who-can-message-you.md#alerts-for-new-messages). The sender is never told.
 
 ## In a conversation
 
@@ -134,4 +134,4 @@ Read more in [your privacy on Tuvima](privacy.md).
 
 ## Alerts
 
-A new message adds to the number on the **Messages** button. If you have switched on phone alerts, you get one saying who wrote, never what they wrote. Messages waiting under **New** do not send phone alerts. Messages do not appear in the bell. See [keep up with conversations](keep-up.md).
+A new message adds to the number on the **Messages** button. If you have switched on phone alerts, you get one saying who wrote, never what they wrote. A first message or invite waiting under **New** sends one alert when it arrives, unless you switched those off. Messages do not appear in the bell. See [keep up with conversations](keep-up.md).
