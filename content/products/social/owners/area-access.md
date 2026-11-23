@@ -17,7 +17,7 @@ Each category and forum, together called **areas**, has its own rule for who can
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-Anyone with the **Manage categories and forums** permission sets this: open **Manage**, then **Forums and categories**, and choose **Who can see and post** next to a category or forum.
+Anyone with the **Manage categories and forums** permission sets this: open **Manage**, then **Forums and channels** under **Community**, open the category, forum or channel, and use **Who can see and post here** on its **Access** tab.
 
 ## Who can see it
 
@@ -31,7 +31,7 @@ In a private community everything is already members-only, so you choose between
 
 The owner and admins always see and post everywhere.
 
-**Who can see and post** comes first. It decides who may be in an area at all. Each area's **Permissions** then fine-tune what each role can do there, such as starting threads or reacting. See [set permissions for a place](place-permissions.md).
+**Who can see and post** comes first. It decides who may be in an area at all. **Role exceptions here**, on the same tab, then fine-tune what each role can do there, such as starting threads or reacting. See [set permissions for a place](place-permissions.md).
 
 ## Forums follow their category
 

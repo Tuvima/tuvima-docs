@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-**Onboarding** is what a new member goes through when they join your community: they answer a few questions, agree to your rules and land on your Trailhead with a tidy menu of places picked for them. You build all of it on one page: **Manage › Onboarding**. You need the **Manage onboarding** permission, which the Owner and Admin roles have.
+**Onboarding** is what a new member goes through when they join your community: they answer a few questions, agree to your rules and land on your Trailhead with a tidy menu of places picked for them. You build all of it on one page: **Manage › People › Onboarding**. You need the **Manage onboarding** permission, which the Owner and Admin roles have.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/onboarding-hub-desktop-light.jpg" alt="The owner&#x27;s Onboarding page: four numbered parts (rules, questions, start-here places, Trailhead and Waymarks) each with a short summary and a Ready or warning label, the places no answer leads to, a switch for existing members, a Try it as a new member button and a live preview of what a new member sees." width="1600" height="1000" loading="lazy" decoding="async">
@@ -70,7 +70,7 @@ Not sure where to begin? **Start from a template** next to the page title fills 
 
 ## How it's going
 
-**Manage › Insights** shows an Onboarding card: how many people started joining, joined, chose paths and finished their Waymarks, always rounded. See [See how onboarding is going](onboarding-numbers.md).
+**Manage › Overview › Numbers** shows an Onboarding card: how many people started joining, joined, chose paths and finished their Waymarks, always rounded. See [See how onboarding is going](onboarding-numbers.md).
 
 ## Before you start
 

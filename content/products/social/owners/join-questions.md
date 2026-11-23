@@ -19,7 +19,7 @@ These questions are for the people who review requests. To shape new members' me
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-Owners and admins set them in **Manage**, then **Joining and privacy**. With no questions, people can ask to join without answering anything.
+Owners and admins set them in **Manage**, then **Joining and leaving**, on the **How people join** tab. With no questions, people can ask to join without answering anything.
 
 ## Add a question
 
