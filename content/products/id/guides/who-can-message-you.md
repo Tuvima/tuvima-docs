@@ -1,6 +1,6 @@
 ---
 title: Who can message you
-description: Choose who may start a private conversation with you, for all your personas at once or for one persona, and whether your messages say why you are writing.
+description: Choose who may start a private conversation with you, for all your personas at once or for one persona, whether your messages say why you are writing, and whether people see when you've read their messages.
 audience: user
 category: guide
 product_area: tuvima-id
@@ -40,6 +40,12 @@ Under **Set one persona differently** you can give a single persona its own rule
 When you message someone from their post, a short line tells them why: "Zoe saw your post …". **Share why I'm writing** is on to begin with. Switch it off under **Who can message you** and none of your personas add the line, anywhere. Tuvima ID only keeps this yes or no; it never sees which post you were reading.
 
 You can also switch it off for one person, in that conversation's info panel. See [why a message shows where it came from](../../social/guides/messages.md#why-a-message-shows-where-it-came-from).
+
+## Show when I've read messages
+
+When someone has read your message, you see a small **Seen** under it, and they see the same for you. **Show when I've read messages** is on to begin with. Switch it off under **Who can message you** and nobody sees when any of your personas has read their messages. It works both ways: with it off, you won't see when others have read yours either.
+
+Messages waiting under New never show Seen until you reply, whatever this is set to. You can also change it for one conversation, in that conversation's info panel. See [Seen: knowing your message was read](../../social/guides/messages.md#seen-knowing-your-message-was-read). Tuvima ID only keeps this yes or no; it never sees what you read, or when.
 
 ## Things this setting does not change
 
