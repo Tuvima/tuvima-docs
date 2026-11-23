@@ -17,7 +17,7 @@ Conversations in your community live in **forums**. **Categories** are headings 
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-Owners and admins manage all of this in **Manage**, then **Forums and categories**.
+Owners and admins manage all of this in **Manage**, then **Forums and channels** under **Community**.
 
 ## Categories and forums
 

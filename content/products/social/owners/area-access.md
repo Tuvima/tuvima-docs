@@ -17,7 +17,7 @@ Each category and forum, together called **areas**, has its own rule for who can
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-Anyone with the **Manage categories and forums** permission sets this: open **Manage**, then **Forums and categories**, and choose **Who can see and post** next to a category or forum.
+Anyone with the **Manage categories and forums** permission sets this: open **Manage**, then **Forums and channels** under **Community**, and choose **Who can see and post** next to a category or forum.
 
 ## Who can see it
 

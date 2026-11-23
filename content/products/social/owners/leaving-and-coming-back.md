@@ -17,7 +17,7 @@ Leaving a community is a soft step. A member who leaves keeps their persona, pos
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-You decide how people come back. Open **Manage**, then **Leaving and coming back** under **Members and access**. Only the owner can change these settings.
+You decide how people come back. Open **Manage**, then **Joining and leaving** under **People**, and choose the **Leaving and coming back** tab. Only the owner can change these settings.
 
 ## Coming back after leaving
 

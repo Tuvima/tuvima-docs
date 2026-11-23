@@ -28,7 +28,7 @@ Every community starts with four. Each can do everything the one below can.
 | Role | Allows, to begin with |
 | --- | --- |
 | **Owner** | Everything, always. |
-| **Admin** | Everything a moderator can, plus changing rules and settings, managing categories and forums, giving roles, making invites, managing newcomers and seeing [Insights](run-your-community.md#insights) (the **See the numbers** permission). |
+| **Admin** | Everything a moderator can, plus changing rules and settings, managing categories and forums, giving roles, making invites, managing newcomers and seeing [Numbers](run-your-community.md#numbers) (the **See the numbers** permission). |
 | **Moderator** | Hiding and removing posts, pinning and looking after threads, marking accepted answers, suspending and banning, reviewing reports and requests to join, and seeing the members list and the moderation record. |
 | **Member** | Everyday actions: starting threads, replying, chatting, reacting and voting, photos, links, polls and looking for group, plus reporting. Everyone who joins holds it. |
 

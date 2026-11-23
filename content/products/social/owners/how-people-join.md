@@ -17,7 +17,7 @@ How people join is its own setting, for public and private communities alike. A 
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-Owners and admins choose it in **Manage**, then **Joining and privacy**.
+Owners and admins choose it in **Manage**, then **Joining and leaving**, on the **How people join** tab.
 
 ## The three ways in
 

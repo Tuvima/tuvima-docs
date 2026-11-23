@@ -36,7 +36,7 @@ It is still one list, and every role works the same way. The groups are there so
 
 A role members can pick can never hold staff or moderation permissions. Tuvima refuses the switch while a role has any, so nobody can hand themselves moderator powers by accident. To let members pick a role that opens a members-only place, give the role access to that place in its [area settings](area-access.md); picking the role then opens it.
 
-Members find roles they can pick on **Your paths**, under **Roles you can pick**. When your community has path questions, each answer gives its own path role. You write the questions on [Manage › Onboarding](onboarding-questions.md).
+Members find roles they can pick on **Your paths**, under **Roles you can pick**. When your community has path questions, each answer gives its own path role. You write the questions on [Manage › People › Onboarding](onboarding-questions.md).
 
 ## Choose what holders get
 
@@ -81,7 +81,7 @@ When showing a role is the point, as with "Raid team", switch on **Shown on memb
 
 ## Start here and always shown
 
-On [Manage › Onboarding › Start-here places](start-here-places.md), or in the settings of any category, forum or chat channel, people with the **Manage onboarding** permission (Admins and the owner, to begin with) see two choices:
+On [Manage › People › Onboarding › Start here](start-here-places.md), or in the settings of any category, forum or chat channel, people with the **Manage onboarding** permission (Admins and the owner, to begin with) see two choices:
 
 - **Start here**: put this place in every new member's menu, whatever they pick. Choose a few welcoming places, such as an introductions forum and a general chat channel. Up to 10.
 - **Always shown**: members can't hide it or take it off their menu. Use it sparingly, for places such as Announcements. Up to 10.

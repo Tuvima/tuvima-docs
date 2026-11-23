@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-On **Manage › Onboarding**, choose **Try it as a new member** to go through your joining steps yourself: your questions, then your rules. A bar at the top says **Trying it out · nothing is saved**.
+On **Manage › People › Onboarding**, choose **Try it as a new member** to go through your joining steps yourself: your questions, then your rules. A bar at the top says **Trying it out · nothing is saved**.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/onboarding-tryout-desktop-light.jpg" alt="Trying the join steps as a new member: a bar saying nothing is saved, the first question with its answer tiles, and Back and Next buttons." width="1600" height="1000" loading="lazy" decoding="async">

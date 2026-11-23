@@ -1,6 +1,6 @@
 ---
 title: Your community's admin area
-description: Open Manage to find every setting and moderation tool in one place, grouped into Insights, Community, Members and access, and Safety.
+description: Open Manage to find every setting and moderation tool in one place, grouped into Overview, Community, People and Safety, with tabs on each page, a Find a setting box and one save bar.
 audience: user
 category: guide
 product_area: tuvima
@@ -19,20 +19,44 @@ Everything you use to run your community lives in one place. Choose **Manage** a
 
 ## The menu
 
-The menu down the side has four groups. You only see the pages your roles allow, so a moderator sees a shorter menu than the owner.
+The menu down the side has four groups, with 14 pages in all. Each page has tabs across the top. You only see the pages and tabs your roles allow, so a moderator sees a shorter menu than the owner.
 
-| Group | Pages |
-| --- | --- |
-| **Insights** | **Insights**: how your community is doing, counted each night. See [Insights](run-your-community.md#insights). |
-| **Community** | **General** (name, description, newcomer limits, category on Tuvima, edit history, removal notices, launch checklist), **Look and home page**, [**Address**](community-address.md), **Forums and categories** (or **Chat channels**, for someone who only manages chat), **Rules**, **Photos** and **Add-ons**. |
-| **Members and access** | **Members**, **Join requests**, **Joining and privacy**, **Roles and permissions**, **Levels**, **Achievements**, **Member tiers** and **Invites**. |
-| **Safety** | **Approval queue** (held posts, join requests and reports), **Photo reports**, **Removed posts**, **Warnings and word filters** and **Moderation log**. |
+| Group | Page | Tabs |
+| --- | --- | --- |
+| **Overview** | **Overview** | **Needs you** (what is waiting for you) and **Numbers** ([how your community is doing](run-your-community.md#numbers)) |
+| **Community** | **Profile and look** | **Profile**, [**Address**](community-address.md), **Colours and banner**, **Home page**, **Menu** |
+| | **Forums and channels** (**Chat channels**, for someone who only manages chat) | **All places**, **Label history** |
+| | **Rules** | **Community rules**, **Forum guidelines** |
+| | **Features** | **Photos and albums**, **Polls**, **Looking for group**, **Add-ons** |
+| **People** | **Members** | **All**, **Removed**, **Invites** |
+| | **Joining and leaving** | **Privacy**, **How people join**, **Leaving and coming back** |
+| | **Onboarding** | **Overview**, **Questions**, **Start here**, **Trailhead**, **Adventures**, **Lamplighters** |
+| | **Newcomers** | **Limits**, **What they can use**, **Waiting for a welcome** |
+| | **Roles and permissions** | **Roles**, **Access by forum**, **Check a person** |
+| | **Levels and recognition** | **Levels**, **Achievements**, **Member tiers** |
+| **Safety** | **Approval queue** | **All**, **Name changes**, **Photos** |
+| | **Moderation rules** | **Warnings**, **Word filters**, **Photo checks**, **Member moderation**, **Notices** |
+| | **Moderation history** | **Log**, **Removed posts**, **Past reports**, **Member cases** |
 
-A number next to **Approval queue** shows how many posts, requests and reports are waiting.
+A number next to **Approval queue** shows how many posts, requests and reports are waiting. The same number shows on **Overview**.
+
+### Where things moved
+
+- **Newcomer settings** are now under **People**, on **Newcomers**.
+- **Edit history and moderation notices** are on **Moderation rules**, on the **Notices** tab.
+- **Adult and violent photo handling** is on **Moderation rules**, on the **Photo checks** tab.
+- **Join requests** have no page of their own. They wait in the **Approval queue**, with held posts and reports.
+- **Insights** is now **Numbers**, on **Overview**.
 
 ## Find a setting
 
-Type into **Find a setting** at the top of the menu. It looks at page names and at the settings on each page, so typing "unlisted" finds **Joining and privacy**, and typing "banned words" finds **Warnings and word filters**. When a setting matches, its name shows under the page.
+Type into **Find a setting** at the top of the menu. It finds single settings as well as pages, so typing "unlisted" finds the **Unlisted** setting on **Joining and leaving**, and typing "banned words" finds the word list on **Moderation rules**. Choose a result and Tuvima opens that page and takes you to the setting, which flashes so you can see it.
+
+## Save your changes
+
+Every settings page has one save bar. As soon as you change something, the bar lists what you changed, with two buttons: **Cancel** puts everything back as it was, and **Save changes** saves it all at once. Nothing is saved until you choose **Save changes**.
+
+If you try to leave with changes you have not saved, Tuvima asks first, so you can stay and save, or leave and drop them.
 
 ## On a phone
 

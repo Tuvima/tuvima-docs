@@ -46,7 +46,7 @@ These switches are the community-wide answer. A place can change the answer for 
 
 ## Open a place's Permissions
 
-- **A forum:** open **Manage**, then **Forums and categories**, choose the forum's name, then open the **Permissions** tab.
+- **A forum:** open **Manage**, then **Forums and channels**, choose the forum's name, then open the **Permissions** tab.
 - **A chat channel:** choose **Edit** next to the channel, then open the **Permissions** tab.
 - **A category:** choose **Permissions** next to the category.
 

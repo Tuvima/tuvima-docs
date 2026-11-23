@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Open **Manage › Onboarding** and choose **Edit** on **Start-here places**. The page lists every category, forum and chat channel, grouped by category, with two switches each.
+Open **Manage › People › Onboarding** and choose **Edit** on **Start-here places**. The page lists every category, forum and chat channel, grouped by category, with two switches each.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/onboarding-places-desktop-light.jpg" alt="Every category, forum and chat channel of the community with two switches each, Start here and Always shown." width="1600" height="1000" loading="lazy" decoding="async">

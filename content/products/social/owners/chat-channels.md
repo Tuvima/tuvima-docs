@@ -25,7 +25,7 @@ Owners and admins set up channels.
 
 Chat channels are one of Tuvima's built-in [add-ons](add-ons.md), and the add-on is **on** by default.
 
-To switch it off, open **Manage**, then **Add-ons**, and untick **Chat channels**.
+To switch it off, open **Manage**, then **Features**, choose the **Add-ons** tab, and untick **Chat channels**.
 
 - Switching it off hides the **Chat** tab and every channel from everyone.
 - **Nothing is deleted.** Switch it on again and the channels and their messages are back.
@@ -56,7 +56,7 @@ Visitors, and people who have not joined, always see the home page. They never s
 
 ## Add a channel
 
-1. Open **Manage**, then **Forums and categories**. The page is titled **Categories and forums**.
+1. Open **Manage**, then **Forums and channels** under **Community**. The **All places** tab lists every forum and chat channel.
 2. In the category you want, choose **Add a chat channel**, next to **Add a forum**.
 3. Fill in:
    - **Name**, up to 50 characters. Each channel in a community needs its own name.
