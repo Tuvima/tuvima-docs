@@ -211,6 +211,10 @@ Classification order:
 3. AI `MediaTypeAdvisor` with filename and duration as inputs
 4. Promotion held at `NeedsReview` if classification confidence < threshold
 
+### Several cuts or qualities of one film
+
+Two or more files of the same film form one Work with one Edition per file. The Edition is labeled with the cut and the quality read from the file name, for example `Final Cut` or `Final Cut · 4K`, so the details page offers a choice of version. Files count as the same film when they are in the same library, share the same title (ignoring case, accents and punctuation) and the same year. When either file has no year, they count as the same film only if they sit in the same folder and exactly one film there fits. A remake with the same title and a different year stays a separate film, and a film never joins another across libraries, so a Vault film never joins a public one.
+
 ### Providers
 
 1. TMDB - title+year search; cover art (poster), description, ratings, cast, TMDB ID bridge
@@ -245,6 +249,8 @@ Same as Movies. Classified as TV via filename pattern matching.
 | `episode_title` | 0.70 | Parsed from filename after episode marker (when present) |
 | `container` | 1.0 | |
 | `video_width`, `video_height` | 1.0 | |
+| `edition_cut` | 0.60 | The cut named after the year or in brackets (Final Cut, Theatrical Cut, Director's Cut, Special Edition, Extended Edition), or a Plex-style `{edition-...}` tag in the path |
+| `edition_quality` | 0.60 | The picture quality from the file name (4K, 4K HDR, 1080p, 720p, SD), or from the picture's real size when the name says nothing |
 | `duration_sec` | 1.0 | |
 | `video_codec` | 1.0 | |
 | `frame_rate` | 1.0 | |
