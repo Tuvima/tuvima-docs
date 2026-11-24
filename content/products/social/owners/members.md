@@ -98,7 +98,7 @@ Choose **Details** on a row. A panel opens beside the list, so you keep your pla
 - their roles and level, with **Open member page** and **Change roles**,
 - their posts, when they joined and when they last posted,
 - their **warnings**, with the points still counting (if you can read the moderation record),
-- their answers to your [join questions](join-questions.md) (if you can review requests to join),
+- their answers to your [join questions](onboarding-questions.md#who-sees-the-answers), if they asked to join and you can review requests,
 - private **moderator notes** (see below),
 - **Warn**, **Suspend** and **Ban**, if your role allows them.
 - **Message**, if you hold **Handle moderator messages**. It writes to the member as the community: they see your community's name, never yours, it reaches them whatever their message settings, and it is noted in the moderation record (never what was said). See [moderator messages](moderator-messages.md).

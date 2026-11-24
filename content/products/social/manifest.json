@@ -41,6 +41,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/community-threads-on-home.md",
+      "slug": "guides/community-threads-on-home",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/home-feed.md",
       "slug": "guides/home-feed",
       "group": "Guides",
@@ -103,6 +109,12 @@
     {
       "source": "guides/posting.md",
       "slug": "guides/posting",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
+      "source": "guides/visitor-replies.md",
+      "slug": "guides/visitor-replies",
       "group": "Guides",
       "section": "Take part"
     },
@@ -373,12 +385,6 @@
     {
       "source": "owners/how-people-join.md",
       "slug": "owners/how-people-join",
-      "group": "Guides",
-      "section": "Private communities and joining"
-    },
-    {
-      "source": "owners/join-questions.md",
-      "slug": "owners/join-questions",
       "group": "Guides",
       "section": "Private communities and joining"
     },

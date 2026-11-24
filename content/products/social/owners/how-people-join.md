@@ -19,12 +19,14 @@ How people join is its own setting, for public and private communities alike. A 
 
 Owners and admins choose it in **Manage**, then **Joining and leaving**, on the **How people join** tab.
 
+The questions people answer when they join aren't on this tab. They are on **Onboarding**, on the **Member choices** tab, under **Questions when people join**. A line at the bottom of **How people join** links there. See [questions when people join](onboarding-questions.md).
+
 ## The three ways in
 
 | Choice | What happens |
 | --- | --- |
-| **Anyone can join** | Signed-in people agree to the rules and join straight away. |
-| **Ask to join** | People answer your [join questions](join-questions.md), if you have any, and send a request. A moderator, admin or the owner [approves or declines](join-requests.md) it (or anyone whose role lets them review requests). |
+| **Anyone can join** | Signed-in people answer your choice questions, if you have any, agree to the rules and join straight away. |
+| **Ask to join** | People answer your [questions](onboarding-questions.md), if you have any, and send a request. A moderator, admin or the owner [approves or declines](join-requests.md) it (or anyone whose role lets them review requests). |
 | **Invite only** | Only people with an [invite link or code](invites.md) can join. |
 
 [Invites](invites.md) always work, whatever you choose here.
@@ -36,6 +38,20 @@ Each kind of community starts with a usual choice:
 - Private and unlisted: **Invite only**.
 
 Changing who can read or who can find the community sets this back to the usual choice for the new setting. You can then change it again.
+
+## Visitors
+
+In a public community, signed-in people who haven't joined can [reply as visitors](../guides/visitor-replies.md) with their global persona. They agree to your rules first, can reply up to 5 times a day, and can't start conversations, react, vote, or add photos or links. Their replies carry a **Visitor** label. Visitors aren't members: they don't appear in your members list, counts or numbers.
+
+- **Let visitors reply** is on by default. To change it, go to **Manage › People › Joining and leaving**, open the **Privacy** tab and find the **Visitors** card. Private communities never take visitors.
+- **Hold a visitor's first reply for approval** is off by default. It's in **Manage › People › Newcomers**, under **Limits**. A held reply waits in the approval queue, labelled "A visitor's first reply".
+
+## Popular threads on the Tuvima portal
+
+When conversations in your community get people talking, they can appear on other people's Home and in Trending and New, marked with your community's name. See [how community conversations reach Home and Trending](../guides/community-threads-on-home.md).
+
+- **Show popular threads on the Tuvima portal** is on by default. It's in **Manage › People › Joining and leaving**, on the **Privacy** tab, beside who can find your community. It only works for public, listed communities.
+- Each forum can opt out on its own with **Show on the Tuvima portal**, on the forum's **On Tuvima** tab in Forums and channels. Members-only forums and forums with a content warning never appear.
 
 ## Sudden rush of new members
 
@@ -62,6 +78,6 @@ To slow down spam accounts, each Tuvima ID account can join only a few communiti
 ## Next steps
 
 - [Set up onboarding](onboarding.md)
-- [Join questions](join-questions.md)
+- [Questions when people join](onboarding-questions.md)
 - [Review join requests](join-requests.md)
 - [Invite people with a link, code or QR code](invites.md)

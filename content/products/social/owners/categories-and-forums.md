@@ -75,11 +75,14 @@ Changes on a place's tabs (other than labels) share the page's one save bar: **S
 
 - **Basics** renames the place and adds a description. For a forum it also holds:
   - **Forum type**: **Discussion** (replies in time order, for chat, news and show-and-tell), **Questions and answers** (best answers rise, and the asker or a moderator accepts one, which shows first) or **Link to another page** (shows in the list like a forum but opens a web page you choose, such as your shop or wiki; it holds no conversations). A forum that already has conversations can't become a link.
+  - **Opening view**: **Classic** (replies in time order) or **Compact** (replies in branches). The forum opens this way for everyone until a reader picks their own view. See [post and reply](../guides/posting.md#reply).
   - In a **Questions and answers** forum, whether **new unanswered questions show first** for a day, and whether **the asker can accept an answer** or only moderators can.
   - **Hold newcomers' first posts here** for a moderator to approve, even when the community doesn't hold first posts everywhere.
 - **Access** is covered in [choose who can see and post in each area](area-access.md) and [set permissions for a place](place-permissions.md).
 - **Rules and templates**, for a forum, holds its own rules, its post templates, and an automatic content warning, such as "Spoilers".
-- **On Tuvima** holds the labels, below.
+- **On Tuvima** holds the labels, below, and two switches for a forum:
+  - **Show on the Tuvima portal**: popular conversations here can appear on Home, Trending and New. On by default; greyed out when the community isn't public and listed.
+  - **Authors can change the topic**: people starting a conversation can pick a different topic from the forum's. On by default. Turn it off to keep every conversation in the forum's topic.
 
 :::tip
 **Find a setting** in the Manage menu finds these per-place settings too, for example slow mode or holding newcomers' first posts. It tells you to open a forum or channel and names the tab to look on.

@@ -30,23 +30,24 @@ The menu down the side has four groups, with 14 pages in all. Each page has tabs
 | | **Features** | **Photos and albums**, **Polls**, **Looking for group**, **Add-ons** |
 | **People** | **Members** | **All**, **Removed**, **Invites** |
 | | **Joining and leaving** | **Privacy**, **How people join**, **Leaving and coming back** |
-| | **Onboarding** | **Overview**, **Questions**, **Start here**, **Trailhead**, **Adventures**, **Lamplighters** |
+| | **Onboarding** | **Overview**, **Member choices**, **Start here**, **Trailhead**, **Adventures**, **Lamplighters** |
 | | **Newcomers** | **Limits**, **What they can use**, **Waiting for a welcome** |
 | | **Roles and permissions** | **Roles**, **Access by forum**, **Check a person** |
 | | **Levels and recognition** | **Levels**, **Achievements**, **Member tiers** |
-| **Safety** | **Approval queue** | **All**, **Name changes**, **Photos** |
+| **Safety** | **Approval queue** | One page, with its own tabs for each kind of item |
 | | **Moderation rules** | **Warnings**, **Word filters**, **Photo checks**, **Member moderation**, **Notices** |
 | | **Moderation history** | **Log**, **Removed posts**, **Past reports**, **Member cases** |
 
-A number next to **Approval queue** shows how many posts, requests and reports are waiting. The same number shows on **Overview**.
+A number next to **Approval queue** shows how many posts, requests, reports, name changes and photos are waiting for you. The same number shows on **Overview**.
 
 ### Where things moved
 
 - **Newcomer settings** are now under **People**, on **Newcomers**.
 - **Edit history and moderation notices** are on **Moderation rules**, on the **Notices** tab.
 - **Adult and violent photo handling** is on **Moderation rules**, on the **Photo checks** tab.
-- **Join requests** have no page of their own. They wait in the **Approval queue**, with held posts and reports.
+- **Join requests**, **name changes** and **photos waiting for a moderator** have no pages of their own. They wait in the **Approval queue**, each on its own tab.
 - **Insights** is now **Numbers**, on **Overview**.
+- **Join questions** are no longer on **Joining and leaving**. They are on **Onboarding**, on the **Member choices** tab, under **Questions when people join**. The **Questions** tab is now **Member choices**.
 
 ## Find a setting
 

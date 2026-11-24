@@ -309,7 +309,7 @@ These pages do not show secret values. [Set up providers](configuring-providers.
 
 ## Find other admin tools
 
-Settings has three groups. **Personal** holds Profile, Manage Profiles and Security & Devices. **Library** holds Libraries and Playback. **Server** holds General, Users & Households, Network & Remote Access, Tools, Local AI, [Plugins](using-plugins.md), Integrations, Backups and System. Every page with advanced settings keeps them on one last tab named **Advanced** (gear icon, amber, with the line "These settings are for experienced administrators. Everyday use never needs them."); nothing advanced appears anywhere else. Your role and the Engine's supported actions control which tools you can use.
+Settings has three groups. **Personal** holds My profile (tabs Profile, Preferences, Activity, Taste, Linked accounts and, for administrators, Access & safety), Household (administrators only) and Security & Devices. **Library** holds Libraries and Playback. **Server** holds General, Users & Households, Network & Remote Access, Tools, Local AI, [Plugins](using-plugins.md), Integrations, Backups and System. Every page with advanced settings keeps them on one last tab named **Advanced** (gear icon, amber, with the line "These settings are for experienced administrators. Everyday use never needs them."); nothing advanced appears anywhere else. Your role and the Engine's supported actions control which tools you can use.
 
 Developer Tools is for admin use on a development library, when enabled. Reset & Seed clears the catalog and derived intake state, then queues known test files. It keeps users, sources, and access rules. Advanced resets need a separate confirm step.
 

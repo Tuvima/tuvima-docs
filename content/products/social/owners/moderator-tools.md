@@ -34,6 +34,18 @@ The **Featured** row sits on the community home. It shows up to 4 conversations 
 
 A locked conversation cannot get new replies. Add a reason, which members see. Moderators, admins and the owner can still reply.
 
+## Members only replies
+
+If a conversation draws a crowd of visitors, choose **Members only replies** in its thread menu. Visitors then see "Only members can reply here" with a Join button. Members carry on as before. Choose **Allow visitor replies** to undo it.
+
+On a visitor's reply, **Stop @name replying here** works like a ban. Tuvima ID also stops that person joining under another persona. Warnings given to a visitor stay with that persona. See [reply as a visitor](../guides/visitor-replies.md).
+
+## Change a conversation's topic
+
+Every conversation has a topic, which decides where it can appear on Tuvima. Moderators who can manage threads can choose **Change topic** in the thread menu. The change goes in the moderation record.
+
+Anyone signed in can choose **Wrong topic** on a conversation's first post. It reaches your review queue as "Wrong topic". It isn't a report about a person, so it never counts against anyone.
+
 ## Slow mode
 
 Slow mode limits how often each person can post in a conversation.

@@ -22,8 +22,8 @@ status: early-access
 The page shows four numbered parts. Each one has a short summary, a label and an **Edit** button.
 
 1. **Rules.** Your community rules. They are always on: everyone agrees to them when they join. You change them on the [Rules](run-your-community.md#rules) page.
-2. **Questions.** Up to five questions with answers to pick, such as "What brings you here?". Each answer can add places to the new member's menu and give them a role. See [Write your path questions](onboarding-questions.md).
-3. **Start-here places.** Places every new member gets in their menu, whatever they pick. See [Start-here and always-shown places](start-here-places.md).
+2. **Questions.** One short list of up to five questions, such as "What brings you here?", asked once when someone joins. An answer to a choice question can add places to the new member's menu, or nothing. **Edit** opens the **Member choices** tab. See [questions when people join](onboarding-questions.md).
+3. **Start-here places.** Places every new member gets in their menu, whatever they pick. See [how each place starts](start-here-places.md).
 4. **Trailhead and Waymarks.** Your welcome page and the first steps that tick themselves. See [Set up the Trailhead and Waymarks](trailhead.md).
 
 Next to the page title, **On** means you have set up questions or a Trailhead. **Off** means new members only see your rules when they join.
@@ -33,7 +33,7 @@ Next to the page title, **On** means you have set up questions or a Trailhead. *
 - **Ready**: this part is set up and nothing looks wrong.
 - **Not set up**: you haven't used this part. That's fine; it's optional.
 - **A warning in amber**: something will not work the way you probably expect. Common ones:
-  - **An answer leads nowhere**: picking it adds nothing to the menu and gives no role that does anything.
+  - **An answer leads nowhere**: it gives a role, but that role adds nothing to the menu yet. If the answer is only there for information, you can leave it.
   - **A place new members can't open**: an answer, a start-here place, a Waymark or a Lore link points at a place that a new member isn't allowed into, such as a members-only forum. They won't see it.
   - **A required question needs two answers**: a question people must answer has only one answer to pick.
   - **Needs rules**: your community has no rules yet.
@@ -42,11 +42,11 @@ Next to the page title, **On** means you have set up questions or a Trailhead. *
 
 ## Places no answer leads to
 
-When you have questions, the page lists the places that no answer and no start-here choice puts in anyone's menu. These are not hidden: members still find them under **See all places** in their menu. Use the list to spot a forum you forgot to point an answer at.
+When you have choice questions, the page lists the places that no answer and no start-here choice puts in anyone's menu. These are not hidden: members still find them on **Pick what you see**, at the foot of their menu. Use the list to spot a forum you forgot to point an answer at.
 
 ## The preview
 
-**Preview · what a new member sees** shows your questions the way a newcomer sees them, one at a time, then your rules. Use the arrows to step through. To go through the whole thing yourself, use [Try it as a new member](try-onboarding.md).
+**Preview · what a new member sees** shows your choice questions the way a newcomer sees them, one at a time, then your rules. Use the arrows to step through. To go through the whole thing yourself, use [Try it as a new member](try-onboarding.md).
 
 ## Lamplighters
 
@@ -62,7 +62,7 @@ When moderators have cited one of your numbered rules at least 5 times in the la
 
 ## Members who joined before you set this up
 
-**Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote your questions see a one-time **Choose your paths** banner, so they can pick paths without leaving and rejoining. Switch it off if you'd rather not ask them. New members always see your questions when they join.
+**Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote questions whose answers add places see a one-time **A few questions** banner, so they can pick without leaving and rejoining. **Choose** opens **Pick what you see**. Switch it off if you'd rather not ask them. New members always see your questions when they join.
 
 ## Start from a template
 
@@ -70,11 +70,11 @@ Not sure where to begin? **Start from a template** next to the page title fills 
 
 ## How it's going
 
-**Manage › Overview › Numbers** shows an Onboarding card: how many people started joining, joined, chose paths and finished their Waymarks, always rounded. See [See how onboarding is going](onboarding-numbers.md).
+**Manage › Overview › Numbers** shows an Onboarding card: how many people started joining, joined, picked answers and finished their Waymarks, always rounded. See [See how onboarding is going](onboarding-numbers.md).
 
 ## Before you start
 
-- Keep it short. Every extra step loses a few people. Two or three questions is usually plenty.
+- Keep it short. Every extra step loses a few people. One or two questions is often enough, and none is fine too: then joining takes one tap.
 - Point every answer somewhere useful.
 - Try it yourself before you tell your members about it.
 - Optionally, turn away brand-new accounts during a raid: see [Account age](how-people-join.md#account-age).
@@ -84,8 +84,8 @@ Not sure where to begin? **Start from a template** next to the page title fills 
 A good order to set things up in:
 
 1. [Start from a template](onboarding-templates.md), or skip it and write your own.
-2. [Write your path questions](onboarding-questions.md) and point each answer at places.
-3. [Start-here and always-shown places](start-here-places.md)
+2. [Write your questions](onboarding-questions.md) and point answers at places.
+3. [Choose how each place starts](start-here-places.md)
 4. [Set up the Trailhead and Waymarks](trailhead.md)
 5. [Try it as a new member](try-onboarding.md)
 6. [See how onboarding is going](onboarding-numbers.md)

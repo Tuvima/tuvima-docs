@@ -102,11 +102,11 @@ Choose **Join** to say you're in, exactly as if you'd answered on the post itsel
 
 ## Welcoming others
 
-Once you've found your feet, you can help the next newcomers. If the community has Lamplighters switched on, pick the Lamplighters role on **Your paths** to see posts still waiting for a welcome. See [Lamplighters](lamplighters.md).
+Once you've found your feet, you can help the next newcomers. If the community has Lamplighters switched on, pick the Lamplighters role on **Pick what you see** to see posts still waiting for a welcome. See [Lamplighters](lamplighters.md).
 
 ## Related
 
-- [Your paths and places](paths-and-places.md)
+- [Paths and Pick what you see](paths-and-places.md)
 - [Joining a community](join-a-community.md)
 - [Being new to a community](newcomers.md)
 - [Achievements](achievements.md)

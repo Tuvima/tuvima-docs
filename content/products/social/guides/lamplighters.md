@@ -19,7 +19,7 @@ A newcomer's first post that nobody answers is the most common reason people nev
 
 ## Become a Lamplighter
 
-Open the community menu, choose **Your paths**, and switch on **Lamplighters** under **Roles you can pick**. To stop, switch it off again.
+Open the community menu, choose **Pick what you see**, and switch on **Lamplighters** under **Roles you can pick**. To stop, switch it off again.
 
 The Lamplighters role shows on your member card and posts, so newcomers know who's there to welcome them. The community's owner can change that.
 

@@ -29,7 +29,7 @@ If you haven't joined a community yet, or you aren't signed in, Home shows a sma
 
 Sign in with your global persona and the front page has four tabs:
 
-- **Home** is the feed made for you. It mixes posts from the front page and from your communities, ranked by the recipe below.
+- **Home** is the feed made for you. It mixes posts from the front page, from your communities and popular conversations from other public communities ([how community conversations reach Home](community-threads-on-home.md)), ranked by the recipe below.
 - **Following** shows the newest posts first from the categories and personas you follow, plus posts from your communities. Nothing is ranked.
 - **Trending** shows what people are taking part in right now.
 - **New** shows the newest posts first.
@@ -70,7 +70,10 @@ A few more rules shape each page of 20 posts:
 - **Variety.** You never see more than 2 posts in a row from the same category or community, and no more than 3 posts from the same persona on one page.
 - **Caught up.** Posts that are new since your last visit come first. When they run out, Home says "You're caught up". Opening Home again within 30 minutes counts as the same visit.
 
-Home picks from the best front page posts of the last 14 days, plus the most valued posts from your communities.
+Home picks from the best front page posts of the last 14 days, the most valued posts from your communities, and popular conversations from public communities you haven't joined.
+
+- **Found useful.** Part of Discover goes to conversations that trusted members of a community marked Insightful or Thanks, measured against the community's size, with the reason **Found useful in** the community's name.
+- **Popular with people like you.** Home can lift a topic or community that is popular with people whose interests are like yours, only when at least 10 different people are behind it. It never names them.
 
 ## What Home learns from
 
@@ -118,6 +121,7 @@ It also has these switches:
 - **Use my reactions and votes** lets your reactions and up and down votes teach Home. Turn it off and Home stops learning from them straight away, and removes what they taught.
 - **Show my private communities on my Tuvima Home** is on by default. Home can then include communities you joined with any persona, including a private one. Tuvima ID gives Home the list each time it loads and Tuvima never stores it next to your global persona. Other members never see these posts on your Home, and Tuvima never shows which persona you used.
 - **Discover** sets how much room new voices get, from 0% to 40%.
+- **Learn from people with tastes like mine** is on by default. Turn it off and Home stops lifting topics popular with people like you, and your interests stop counting for anyone else within an hour.
 
 Changes show on Home within a minute.
 
