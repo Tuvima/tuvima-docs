@@ -22,8 +22,8 @@ status: early-access
 The page shows four numbered parts. Each one has a short summary, a label and an **Edit** button.
 
 1. **Rules.** Your community rules. They are always on: everyone agrees to them when they join. You change them on the [Rules](run-your-community.md#rules) page.
-2. **Questions.** Up to five questions with answers to pick, such as "What brings you here?". Each answer can add places to the new member's menu and give them a role. See [Write your path questions](onboarding-questions.md).
-3. **Start-here places.** Places every new member gets in their menu, whatever they pick. See [Start-here and always-shown places](start-here-places.md).
+2. **Questions.** One list of questions for new members, such as "What brings you here?": up to three for approving people who ask to join, and up to five for choosing paths. Each path answer can add places to the new member's menu and give them a role. **Edit** opens the **Member choices** tab. See [questions for new members](onboarding-questions.md).
+3. **Start-here places.** Places every new member gets in their menu, whatever they pick. See [how each place starts](start-here-places.md).
 4. **Trailhead and Waymarks.** Your welcome page and the first steps that tick themselves. See [Set up the Trailhead and Waymarks](trailhead.md).
 
 Next to the page title, **On** means you have set up questions or a Trailhead. **Off** means new members only see your rules when they join.
@@ -62,7 +62,7 @@ When moderators have cited one of your numbered rules at least 5 times in the la
 
 ## Members who joined before you set this up
 
-**Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote your questions see a one-time **Choose your paths** banner, so they can pick paths without leaving and rejoining. Switch it off if you'd rather not ask them. New members always see your questions when they join.
+**Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote your questions for choosing paths see a one-time **Choose your paths** banner, so they can pick paths without leaving and rejoining. Switch it off if you'd rather not ask them. New members always see your questions when they join.
 
 ## Start from a template
 
@@ -84,8 +84,8 @@ Not sure where to begin? **Start from a template** next to the page title fills 
 A good order to set things up in:
 
 1. [Start from a template](onboarding-templates.md), or skip it and write your own.
-2. [Write your path questions](onboarding-questions.md) and point each answer at places.
-3. [Start-here and always-shown places](start-here-places.md)
+2. [Write your questions for new members](onboarding-questions.md) and point each answer at places.
+3. [Choose how each place starts](start-here-places.md)
 4. [Set up the Trailhead and Waymarks](trailhead.md)
 5. [Try it as a new member](try-onboarding.md)
 6. [See how onboarding is going](onboarding-numbers.md)

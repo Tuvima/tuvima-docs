@@ -30,7 +30,7 @@ Use **Back** at any time to change an earlier answer. Nothing is saved until you
 
 If you joined before the community set up paths, a **Choose your paths** banner on the community offers **Choose** or **Not now**.
 
-If the community asks people to be approved first, you see the rules and the community's questions for reviewers instead, and you can choose your paths once you're in. A banner on the community offers **Choose your paths**.
+If the community asks people to be approved first, you see the rules and the community's questions with your request instead. Some of those questions can also be paths: once you're approved, your answer becomes your pick, and you can change it later on **Your paths**. You choose any other paths once you're in. A banner on the community offers **Choose your paths**.
 
 ## What a path gives you
 
@@ -47,6 +47,8 @@ A path role can never give anyone moderator or staff powers.
 ## Change your paths
 
 Open the community menu and choose **Your paths**. Tap an answer to add or remove it; it saves straight away and tells you what changed, for example "Added Lore and theories to your menu". Under **Roles you can pick**, switch a role on or off.
+
+Some forums and chat channels are **Opt-in**: they stay out of everyone's menu, and only members who pick them can open them. Each one has a role named after it under **Roles you can pick**. Switch it on to see the place.
 
 Dropping a path role takes its places off your menu. Your posts there stay where they are.
 
