@@ -101,6 +101,21 @@ There is no "last seen". Their page never shows other communities they belong to
 
 On your own page in a community, choose **Change cover**. Pick one of 12 colours, or upload a picture. A picture goes through the same photo checks as any other photo. You can go back to the community colour at any time. Your cover belongs to that community only, so each community can have a different one.
 
+### Change your picture here
+
+On your own page in a community, choose **Change picture**. Choose **Upload a picture for this community** to use a different picture there, or **Use my main picture** to go back to the picture on your Tuvima-wide persona. Until you choose, every community shows your main picture. The picture shows on everything from that community: posts, chat, the people list, your persona card and your page. Direct messages and your Tuvima-wide profile always use your main picture. A private persona already has its own picture.
+
+Pictures go through the same photo checks as any other photo. Each one is kept in a few sizes, so pages with lots of faces stay quick.
+
+### When moderators take down a cover or picture
+
+Moderators who can remove other people's posts can also, in their own community:
+
+- **Remove cover photo.** Your cover goes back to the community colour and the picture is deleted.
+- **Hide picture here.** You show the plain initials picture in that community. Your picture everywhere else stays the same. On your page you'll see **The moderators hid your picture here. You can choose a new one.** A new picture goes through the photo checks again.
+
+Both are on the **···** menu of someone's page, with an optional note. They go in the community's moderation record, and moderators can't use them on someone who outranks them. It can take up to a day for a removed picture to disappear from browsers that already showed it.
+
 ### Your showcase
 
 On your own page in a community, choose **Edit showcase**. Tick up to six of your posts there (conversations you started or replies you wrote), put them in order with **Up** and **Down**, and choose **Save showcase**. To take one off, choose **Unpin**.
