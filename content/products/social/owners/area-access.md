@@ -17,7 +17,7 @@ Each category and forum, together called **areas**, has its own rule for who can
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-Anyone with the **Manage categories and forums** permission sets this: open **Manage**, then **Forums and categories**, and choose **Who can see and post** next to a category or forum.
+Anyone with the **Manage categories and forums** permission sets this: open **Manage**, then **Forums and channels** under **Community**, open the category, forum or channel, and use **Who can see and post here** on its **Access** tab.
 
 ## Who can see it
 
@@ -26,12 +26,13 @@ Anyone with the **Manage categories and forums** permission sets this: open **Ma
 | **Everyone** | Anyone, without signing in. Only in a public community. |
 | **Members only** | Anyone who has joined. |
 | **Only some members** | People who match at least one **way in** you add: a level and up (such as **Level 3 (Pathfinder) and up**), a [role](roles.md), a ready-made role and everyone above it (such as **Moderators and up**), or a [member tier](member-tiers.md) (such as **Member tier: Supporter**). |
+| **Only members who pick it** | Members who pick it for themselves. Forums and chat channels only. This makes the place **Opt-in**: it stays out of everyone's menu, and a role members can pick, named after the place, is made for you. See [Opt-in places](start-here-places.md#opt-in-places). |
 
-In a private community everything is already members-only, so you choose between **Members only** and **Only some members**.
+In a private community everything is already members-only, so you choose between **Members only** and **Only some members**, or **Only members who pick it** for a forum or channel.
 
 The owner and admins always see and post everywhere.
 
-**Who can see and post** comes first. It decides who may be in an area at all. Each area's **Permissions** then fine-tune what each role can do there, such as starting threads or reacting. See [set permissions for a place](place-permissions.md).
+**Who can see and post** comes first. It decides who may be in an area at all. **Role exceptions here**, on the same tab, then fine-tune what each role can do there, such as starting threads or reacting. See [set permissions for a place](place-permissions.md).
 
 ## Forums follow their category
 

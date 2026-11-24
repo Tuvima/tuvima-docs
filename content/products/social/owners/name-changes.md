@@ -27,7 +27,7 @@ You can't act on yourself, or on anyone whose role is as high as yours or higher
 
 ## Name requests
 
-Open **Manage**, then **Name changes**. The page lists requests that are waiting, oldest first, with:
+Open **Manage**, then **Approval queue** under **Safety**, and choose the **Name changes** tab. Requests also appear in the **All** tab with everything else waiting. They are listed oldest first and opened one at a time, with:
 
 - **Now**: the member's name today,
 - **Wants**: the handle they asked for, and a display name if they added one,
@@ -40,7 +40,7 @@ Choose **Approve** to rename them. It is the same persona: their posts, level, a
 
 Choose **Decline** to turn it down. You can add a note, and the member is told with the note. They can ask again.
 
-You can't decide your own request. The row says so, and another admin decides it. A member is told when their request is approved or declined.
+You can't decide your own request. Its card says so, and another admin decides it. A member is told when their request is approved or declined.
 
 After a rename, members see what the [name history setting](leaving-and-coming-back.md#name-history) says. By default the old name shows as "formerly @old" next to the new name for 90 days, and a **Name changed recently** label may sit on their posts.
 

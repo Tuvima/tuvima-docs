@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Open **Manage**, then **Members**. Moderators, admins and the owner can see this page.
+Open **Manage**, then **Members** under **People**. Moderators, admins and the owner can see this page.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/members-desktop-light.jpg" alt="The members list of a community, with each member&#x27;s role and when they joined." width="1600" height="1000" loading="lazy" decoding="async">
@@ -98,7 +98,7 @@ Choose **Details** on a row. A panel opens beside the list, so you keep your pla
 - their roles and level, with **Open member page** and **Change roles**,
 - their posts, when they joined and when they last posted,
 - their **warnings**, with the points still counting (if you can read the moderation record),
-- their answers to your [join questions](join-questions.md) (if you can review requests to join),
+- their answers to your [questions for approving people](onboarding-questions.md) (if you can review requests to join),
 - private **moderator notes** (see below),
 - **Warn**, **Suspend** and **Ban**, if your role allows them.
 - **Message**, if you hold a moderation permission. It starts a [private message](../guides/messages.md) to the member as a moderator: it carries a **Moderator** tag, reaches them whatever their message settings, and is noted in the moderation record (never what was said).

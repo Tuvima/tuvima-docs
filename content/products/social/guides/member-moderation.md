@@ -162,7 +162,7 @@ These checks never show anyone your answers, your record or who raised a concern
 
 ## In communities
 
-A community's owner can switch member moderation on under **Manage › Safety › Member moderation**. Only the owner can change these settings. There are three choices:
+A community's owner can switch member moderation on under **Manage › Safety › Moderation rules › Member moderation**. Only the owner can change these settings. There are three choices:
 
 - **Off** (the starting setting): nothing changes. Members see **Report**, and moderators handle every report.
 - **Labels and moves**: members can add the community's own labels to a post (for example "Out of date" or "Wrong place") and move a thread to a better forum. Harmful concerns still go to the moderators.

@@ -25,14 +25,14 @@ Every community comes with four ready-made roles: **Owner**, **Admin**, **Modera
 | --- | --- |
 | **Member** | Post, reply, react, report, and edit or delete their own posts. |
 | **Moderator** | Hide, remove and restore posts, pin conversations, use thread tools, suspend and ban members, review reports and requests to join, read the moderation record and see the members page. |
-| **Admin** | Change settings, categories, forums and labels, give roles, make invites, manage newcomers and see [Insights](#insights). |
+| **Admin** | Change settings, categories, forums and labels, give roles, make invites, manage newcomers and see [Numbers](#numbers). |
 | **Owner** | Everything, including making the community public or private, choosing whether it is listed, showing or hiding edit history and using the launch checklist. |
 
 You can rename the ready-made roles, change what Admin and Moderator allow, and make your own roles as copies, such as a helper for one forum. See [roles: ready-made and your own](roles.md). Give moderation only to people you trust. Every role change is recorded and can be undone. Handing over ownership is planned.
 
 ## Everything in one place
 
-Choose **Manage** on your community's page to open its [admin area](admin-area.md): every setting and moderation tool, grouped into Insights, Community, Members and access, and Safety, with a **Find a setting** box.
+Choose **Manage** on your community's page to open its [admin area](admin-area.md): every setting and moderation tool, grouped into Overview, Community, People and Safety, with a **Find a setting** box.
 
 ## Members
 
@@ -40,17 +40,17 @@ The **Members** page is a table of everyone who has joined. Search it, filter by
 
 ## Levels
 
-Members climb a ladder of levels as others value what they write: Newcomer, Member, Regular and Trusted to begin with. On **Manage > Levels** you can rename the levels, set what each one needs, choose whether the top level needs keeping up, turn the **Sparked a conversation** and **Top contributor** achievements on or off, and hide Reputation numbers so only levels show. Raising a number never moves anyone down.
+Members climb a ladder of levels as others value what they write: Newcomer, Member, Regular and Trusted to begin with. On **Manage > Levels and recognition > Levels** you can rename the levels, set what each one needs, choose whether the top level needs keeping up, turn the **Sparked a conversation** and **Top contributor** achievements on or off, and hide Reputation numbers so only levels show. Raising a number never moves anyone down.
 
 As the owner you can also set a member's level by hand from their page in **Members**. It stays until you choose **Return to automatic**. The member is told their new level but not who changed it, and the change is kept in the moderation record. [Reputation and levels](../guides/reputation.md) explains the whole system.
 
 ## Achievements
 
-Every community starts with a ready-made set of [achievements](achievements.md). On **Manage > Achievements** you can switch them off, change them, build your own with a rule builder and an emblem builder, give some by hand, import packs, and retire what you no longer want.
+Every community starts with a ready-made set of [achievements](achievements.md). On **Manage > Levels and recognition > Achievements** you can switch them off, change them, build your own with a rule builder and an emblem builder, give some by hand, import packs, and retire what you no longer want.
 
 ## Reports and the moderation record
 
-Reported posts and messages, held posts and requests to join all wait in one **Approval queue** (**Manage > Approval queue**), where moderators decide on them one at a time. Every action is added to the **moderation record** (**Manage > Moderation log**), which cannot be edited, and the queue's **Reports already dealt with** link shows past reports. Removed posts can be restored for 30 days. See [the approval queue](warnings-and-filters.md#the-approval-queue).
+Reported posts and messages, held posts and requests to join all wait in one **Approval queue** (**Manage > Safety > Approval queue**), where moderators decide on them one at a time. Every action is added to the **moderation record** (**Manage > Safety > Moderation history > Log**), which cannot be edited, and the queue's **Reports already dealt with** link shows past reports. Removed posts can be restored for 30 days. See [the approval queue](warnings-and-filters.md#the-approval-queue).
 
 ## Pins and thread tools
 
@@ -62,7 +62,7 @@ Polls, Looking for group and post templates are add-ons. See [add-ons](add-ons.m
 
 ## Rules
 
-Under **Manage > Rules** you edit your community's rules in a working copy. Members do not see changes until you publish.
+Under **Manage > Community > Rules** you edit your community's rules in a working copy. Members do not see changes until you publish.
 
 1. Edit the working copy. Add, change or remove rules. Each rule keeps its number.
    Each rule can have an optional **one-line explanation** under it, such as "Trading for fun is fine in Trading". New members read the rules, with these lines, as the last step of joining.
@@ -71,15 +71,15 @@ Under **Manage > Rules** you edit your community's rules in a working copy. Memb
 
 Every member gets a notice when you publish. They can see what changed and earlier versions. You can also write **Forum guidelines** for a forum; they show above the editor. Moderators can name the broken rule when they act on a post. See [the rules everyone follows](../guides/community-rules.md#your-communitys-own-rules).
 
-## Insights
+## Numbers
 
-**Manage**, then **Insights**, shows how your community is doing. It used to be called **Numbers**. You see it if your role has the **See the numbers** permission, which the owner and admins have to begin with. Insights counts what people do, never what they read, from Tuvima's own records and with no tracking scripts. It never shows page views, reading time or who looked at what.
+**Manage**, then **Overview**, then the **Numbers** tab, shows how your community is doing. It used to be called **Insights**. You see it if your role has the **See the numbers** permission, which the owner and admins have to begin with. Numbers counts what people do, never what they read, from Tuvima's own records and with no tracking scripts. It never shows page views, reading time or who looked at what.
 
 ### Choose a period
 
 Use the switch at the top to choose **7 days**, **30 days**, **90 days** or **1 year**. Each number is compared with the period before, for example "+312 vs previous 30 days".
 
-Insights is counted once a night, just after midnight UTC, so today's activity shows up tomorrow. The bottom of the page says when it was last counted. A new community sees "Your first Insights arrive after tonight's count" until then.
+Numbers is counted once a night, just after midnight UTC, so today's activity shows up tomorrow. The bottom of the page says when it was last counted. A new community sees "Your first Numbers arrive after tonight's count" until then.
 
 ### The five tiles
 
@@ -115,12 +115,11 @@ A moderator who can't open some areas sees the totals for the whole community, w
 
 The [admin area](admin-area.md) lists every settings page. You see the ones your roles allow.
 
-- **General**: name, description, newcomer limits, **Category on Tuvima** (which front-page category your community belongs to), edit history, whether readers see "Hidden by moderators" notes, and the launch checklist.
-- **Look and home page**: see [change your community's look](look-and-feel.md).
-- **Address**: the community's permanent address, with a Copy button. See [your community's address](community-address.md).
-- **Menu**: which extra pages members see under **Pages** in the community's menu (**Photos**, **Achievements** and **Rules**), and whether **Pages** starts folded. Hiding a page only takes it out of the menu: **Rules** can always be reached from **About and rules** in the community's own menu. Trailhead and Lamplighters show by themselves when you have them.
-- **Forums and categories**: how conversations are grouped, forum types, who can see and post in each, and their labels on Tuvima. See [categories, forums and the front page](categories-and-forums.md) and [choose who can see and post in each area](area-access.md).
-- **Rules**, **Photos** and **Add-ons**: see [add-ons](add-ons.md).
-- **Joining and privacy**: **Public** or **Private**, **Listed** or **Unlisted**, how people join and join questions. See [make your community private](make-it-private.md), [how people join](how-people-join.md) and [join questions](join-questions.md).
-- **Roles and permissions**: see [roles: ready-made and your own](roles.md) and [set permissions for a place](place-permissions.md).
-- **Warnings and word filters**: see [warnings, word filters and the approval queue](warnings-and-filters.md).
+- **Profile and look** (**Community**): the **Profile** tab holds the name, description and **Category on Tuvima** (which front-page category your community belongs to). The other tabs are **Address**, **Look**, **Home page** and **Menu**. See [change your community's look](look-and-feel.md) and [your community's address](community-address.md). **Menu** sets which extra pages members see under **Pages** in the community's menu (**Photos**, **Achievements** and **Rules**), and whether **Pages** starts folded. Hiding a page only takes it out of the menu: **Rules** can always be reached from **About and rules** in the community's own menu. Trailhead and Lamplighters show by themselves when you have them.
+- **Forums and channels** (**Community**): how conversations are grouped, forum types, who can see and post in each, and their labels on Tuvima, on the **All places** and **Label history** tabs. See [categories, forums and the front page](categories-and-forums.md) and [choose who can see and post in each area](area-access.md).
+- **Rules** (**Community**): **Community rules** and **Forum guidelines**.
+- **Features** (**Community**): **Photos and albums**, **Polls**, **Looking for group** and **Add-ons**. See [add-ons](add-ons.md).
+- **Joining and leaving** (**People**): **Privacy** (**Public** or **Private**, **Listed** or **Unlisted**), **How people join** and **Leaving and coming back**. The questions people answer when they ask to join are on **Onboarding**, on the **Member choices** tab. See [make your community private](make-it-private.md), [how people join](how-people-join.md) and [questions for new members](onboarding-questions.md).
+- **Newcomers** (**People**): the limits for people who joined recently, what they can use, and **Waiting for a welcome**. See [warnings, word filters and the approval queue](warnings-and-filters.md#newcomers).
+- **Roles and permissions** (**People**): see [roles: ready-made and your own](roles.md) and [set permissions for a place](place-permissions.md).
+- **Moderation rules** (**Safety**): **Warnings**, **Word filters**, **Photo checks**, **Member moderation** and **Notices**. **Notices** holds the edit history and the "Hidden by moderators" notes that readers see. **Photo checks** is where adult and violent photos are handled. See [warnings, word filters and the approval queue](warnings-and-filters.md).

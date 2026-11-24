@@ -1,13 +1,13 @@
 ---
 title: Change your community's look
-description: Choose a colour theme and accent, add a banner and arrange the blocks on your community's home page.
+description: Choose colours, a header picture or pattern, a community icon and forum symbols in the Look editor. All free; fonts and layout stay the same.
 audience: user
 category: guide
 product_area: tuvima
 status: early-access
 ---
 
-Every community can have its own colours and banner, while fonts and layout stay the same across Tuvima so members always know where things are. Text is always set in Inter, the same typeface as the rest of Tuvima, so a community looks the same on every phone and computer. Open **Manage**, then **Look and home page**.
+Every community can have its own colours, header and icons, while fonts and layout stay the same across Tuvima so members always know where things are. Text is always set in Inter, the same typeface as the rest of Tuvima, so a community looks the same on every phone and computer. Open **Manage**, then **Profile and look**, then **Look**. Every part of the Look editor is free. To move things around on the home page, see [Choose a home layout and arrange your home](home-tiles.md).
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/look-and-feel-desktop-light.jpg" alt="The settings for a community&#x27;s look: theme, colours and banner." width="1600" height="1000" loading="lazy" decoding="async">
@@ -19,24 +19,32 @@ Every community can have its own colours and banner, while fonts and layout stay
 
 ## Colours
 
-- Choose a **theme**: Tuvima, Library purple, Slate, Forest or Sunset. Each has a light and a dark version, and members see the one that matches their choice of light or dark. A new community starts with the Tuvima theme: Harbor blue, with a near-black dark mode.
-- Optionally set an **accent colour**, the colour of buttons and links, with the picker or a colour code. If a colour would be hard to read in light or dark mode, Tuvima uses the nearest readable shade of it automatically.
+- Pick one of **12 colours**, or choose **Custom** and enter your own with the picker or a colour code.
+- Tuvima checks every colour for both light and dark mode. If a colour would be hard to read in either one, it uses the nearest readable shade automatically, so buttons and links stay clear for everyone.
+- A new community starts with the Tuvima colour: Harbor blue, with a near-black dark mode.
 
-## Banner
+## Header
 
-Upload a photo or picture file (JPEG, PNG or WebP) up to 2 MB. It is cropped from the middle to a wide strip. Without a banner, a band in your theme's colours is shown.
+The header is the band across the top of your community. Choose one of:
 
-## Page blocks
+- **A picture.** Upload a JPEG, PNG or WebP file up to 2 MB, then drag the **focus point** to the part that matters, such as a face. Tuvima keeps that part in view on wide screens and on phones.
+- **A colour wash.** A soft blend of your colour.
+- **A pattern.** One of 8 patterns, drawn in your colour.
 
-Blocks are small panels on your community's home page, either at the **Top of the home page** or in the **Sidebar**. Choose from:
+Then choose its height: **Slim** or **Tall**.
 
-- **About**: a short description.
-- **Rules**: your community's rules.
-- **Links**: up to 10 links, for example to your website.
-- **Welcome**: a greeting for visitors.
+## Community icon
 
-Each area holds up to 10 blocks. New communities start with About and Rules in the sidebar.
+Upload a small picture as your community's icon. If you don't, Tuvima shows your community's **initials** on a block of your colour.
 
-## Category tiles
+## Forum symbols
 
-You can also arrange your categories as tiles of different sizes with pictures, and hide the sidebar so the tiles use the full width. See [Build your home page with tiles](home-tiles.md).
+Each forum can have its own symbol, so members spot it at a glance. Choose one of **32 symbols** in one of **12 colours**, or upload a small picture instead. Forums without one keep a neutral symbol.
+
+## What stays the same
+
+Fonts, the layout and the top bar are the same in every community. Only colours, the header, icons and symbols are yours to change.
+
+## Home page blocks
+
+The side column of the home page can hold blocks: **About**, **Rules**, **Links** (up to 10) and **Welcome**. Add, remove and move them with **Arrange home** on the home page. See [Choose a home layout and arrange your home](home-tiles.md).

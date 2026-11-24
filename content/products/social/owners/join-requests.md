@@ -19,8 +19,8 @@ When your community uses **Ask to join**, or during a [slow-down](how-people-joi
 
 ## Approve or decline
 
-1. Open your community's moderation page and choose the **Requests** tab, next to **Reports**. The oldest requests come first.
-2. Each request shows the persona that asked, when, and their answers to your [join questions](join-questions.md).
+1. Open **Manage**, then **Approval queue** under **Safety**. Join requests wait there with held posts and reports. The oldest come first.
+2. Each request shows the persona that asked, when, and their answers to your [questions for approving people](onboarding-questions.md).
 3. Choose **Approve** or **Decline**.
 
 When you approve, the person becomes a member straight away and is told in their notifications. Your newcomer limits apply to them as to anyone who joins.

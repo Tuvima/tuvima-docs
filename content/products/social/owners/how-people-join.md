@@ -17,14 +17,16 @@ How people join is its own setting, for public and private communities alike. A 
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-Owners and admins choose it in **Manage**, then **Joining and privacy**.
+Owners and admins choose it in **Manage**, then **Joining and leaving**, on the **How people join** tab.
+
+The questions people answer when they ask to join aren't on this tab. They are on **Onboarding**, on the **Member choices** tab, in one list with the questions for choosing paths. A line at the bottom of **How people join** links there. See [questions for new members](onboarding-questions.md).
 
 ## The three ways in
 
 | Choice | What happens |
 | --- | --- |
 | **Anyone can join** | Signed-in people agree to the rules and join straight away. |
-| **Ask to join** | People answer your [join questions](join-questions.md), if you have any, and send a request. A moderator, admin or the owner [approves or declines](join-requests.md) it (or anyone whose role lets them review requests). |
+| **Ask to join** | People answer your [questions for approving people](onboarding-questions.md), if you have any, and send a request. A moderator, admin or the owner [approves or declines](join-requests.md) it (or anyone whose role lets them review requests). |
 | **Invite only** | Only people with an [invite link or code](invites.md) can join. |
 
 [Invites](invites.md) always work, whatever you choose here.
@@ -62,6 +64,6 @@ To slow down spam accounts, each Tuvima ID account can join only a few communiti
 ## Next steps
 
 - [Set up onboarding](onboarding.md)
-- [Join questions](join-questions.md)
+- [Questions for new members](onboarding-questions.md)
 - [Review join requests](join-requests.md)
 - [Invite people with a link, code or QR code](invites.md)

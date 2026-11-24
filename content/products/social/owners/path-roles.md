@@ -36,7 +36,18 @@ It is still one list, and every role works the same way. The groups are there so
 
 A role members can pick can never hold staff or moderation permissions. Tuvima refuses the switch while a role has any, so nobody can hand themselves moderator powers by accident. To let members pick a role that opens a members-only place, give the role access to that place in its [area settings](area-access.md); picking the role then opens it.
 
-Members find roles they can pick on **Your paths**, under **Roles you can pick**. When your community has path questions, each answer gives its own path role. You write the questions on [Manage › Onboarding](onboarding-questions.md).
+Members find roles they can pick on **Your paths**, under **Roles you can pick**. When your community has questions for choosing paths, each answer gives its own path role. You write the questions on **Onboarding**, on the **Member choices** tab (see [questions for new members](onboarding-questions.md)).
+
+## Roles members can pick
+
+**Roles members can pick**, the second part of **Member choices**, lists every role members can pick, in a table:
+
+- **Role**: its name. A role made for an [Opt-in place](start-here-places.md#opt-in-places) is marked **Made by an Opt-in place**.
+- **Unlocks**: the places it adds to holders' menus, or the Opt-in place it opens.
+- **Picked by**: how many members picked it, as a rounded total, or **Fewer than 5**. Nobody sees who picked what.
+- **Pickable**: switch it off and members can no longer pick the role. Those who have it keep it. It saves at once.
+
+A role made by an Opt-in place keeps **Pickable** on while the place is Opt-in, because picking it is how members get in. Turn Opt-in off for the place first.
 
 ## Choose what holders get
 
@@ -81,14 +92,14 @@ When showing a role is the point, as with "Raid team", switch on **Shown on memb
 
 ## Start here and always shown
 
-On [Manage › Onboarding › Start-here places](start-here-places.md), or in the settings of any category, forum or chat channel, people with the **Manage onboarding** permission (Admins and the owner, to begin with) see two choices:
+Under **How each place starts** on **Member choices**, on the **Start here** tab under **Onboarding**, or in the settings of any category, forum or chat channel, people with the **Manage onboarding** permission (Admins and the owner, to begin with) see these choices (see [how each place starts](start-here-places.md)):
 
 - **Start here**: put this place in every new member's menu, whatever they pick. Choose a few welcoming places, such as an introductions forum and a general chat channel. Up to 10.
 - **Always shown**: members can't hide it or take it off their menu. Use it sparingly, for places such as Announcements. Up to 10.
 
 ## When the menu is tidy
 
-Once your community has any start-here place, path question or menu place in **What holders get**, members' menus show only their places, with everything else one tap away under **See all places**. Until then, every member sees every place they can open, as before. If someone's tidy menu would be empty, they see everything.
+Once your community has any start-here place, question for choosing paths or menu place in **What holders get**, members' menus show only their places, with everything else one tap away under **See all places**. Until then, every member sees every place they can open, as before. If someone's tidy menu would be empty, they see everything.
 
 Visitors who haven't joined always see every place they can open.
 
@@ -98,9 +109,9 @@ Members who have picked at least one path also get a **For you | Everything** sw
 
 - You see how many people hold each role (rounded for private path roles).
 - You never see which answers a particular member picked, which places they added to or took off their menu, or what they hid.
-- Picking paths never changes who can read what. Only a role you have given access to a members-only place opens it.
+- Picking paths never changes who can read what. Only a role you have given access to a members-only place, or the role of an Opt-in place, opens it.
 
 ## Next steps
 
-- [Write your path questions](onboarding-questions.md)
-- [Start-here and always-shown places](start-here-places.md)
+- [Questions for new members](onboarding-questions.md)
+- [How each place starts](start-here-places.md)

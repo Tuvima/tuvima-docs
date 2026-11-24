@@ -49,6 +49,16 @@ Every community you have joined is listed with:
 
 Each community's details are kept and shown separately, even if you used the same persona in several.
 
+## Your status
+
+Tuvima ID keeps your **main status**: Here, Away, Do not disturb or Hidden. Change it once and it follows you to every place where you use your Tuvima persona. A private persona keeps its own status unless you tick **Use my main status here too**, so nobody can link your personas by when your status changes.
+
+An app or community is only ever told the status of the persona you use in that place. It never learns your main status or the status of your other personas. There is no "last seen". See [Set your status](/products/social/guides/status.md) for what each status does.
+
+## The panel on Tuvima ID
+
+On a computer, the panel at the bottom left of the Tuvima ID site is called **Your account**. It does not show a name, because Tuvima ID is where your private details live. It holds your picture and status dot, with links to your account, your personas and **Sign out**.
+
 ## Sign out
 
 **Sign out** ends your session on Tuvima ID and on Tuvima together, so nobody using the same device afterwards is still signed in.
