@@ -31,6 +31,8 @@ To keep communities calm, a visitor can reply up to **5 times a day** in each co
 
 Visitors don't earn a community level, community reputation or achievements there. Those start from the day you join, and earlier visitor replies aren't counted towards them.
 
+Useful visitor replies do build your reputation in the conversation's topic on the Tuvima portal, for example in Gardening. That topic reputation is never shown as reputation inside the community you visited.
+
 ## When you can't reply as a visitor
 
 The reply area tells you why, in plain words:

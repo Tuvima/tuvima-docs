@@ -74,6 +74,7 @@ Home picks from the best front page posts of the last 14 days, the most valued p
 
 - **Found useful.** Part of Discover goes to conversations that trusted members of a community marked Insightful or Thanks, measured against the community's size, with the reason **Found useful in** the community's name.
 - **Popular with people like you.** Home can lift a topic or community that is popular with people whose interests are like yours, only when at least 10 different people are behind it. It never names them.
+- **Popular with people you follow.** Home can lift a conversation when at least 10 people you follow replied, reacted, up-voted or tapped More like this on it in the last 30 days. Down votes and Dislikes never count, and it never names them.
 
 ## What Home learns from
 
@@ -121,7 +122,7 @@ It also has these switches:
 - **Use my reactions and votes** lets your reactions and up and down votes teach Home. Turn it off and Home stops learning from them straight away, and removes what they taught.
 - **Show my private communities on my Tuvima Home** is on by default. Home can then include communities you joined with any persona, including a private one. Tuvima ID gives Home the list each time it loads and Tuvima never stores it next to your global persona. Other members never see these posts on your Home, and Tuvima never shows which persona you used.
 - **Discover** sets how much room new voices get, from 0% to 40%.
-- **Learn from people with tastes like mine** is on by default. Turn it off and Home stops lifting topics popular with people like you, and your interests stop counting for anyone else within an hour.
+- **Learn from people with tastes like mine** is on by default. Turn it off and Home stops lifting topics popular with people like you, and your interests stop counting for anyone else within an hour. It also turns off Popular with people you follow.
 
 Changes show on Home within a minute.
 
