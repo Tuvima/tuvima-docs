@@ -43,4 +43,5 @@ The check happens after you pick the folder, instead of while you browse, so bro
 
 - **Order follows dependencies.** Each step needs only what came before it, so you never meet a choice you cannot yet make.
 - **Pending instead of scanning.** Scanning in the middle of setup slows the computer while you are still deciding, and the metadata sources that name your media are not connected yet.
+- **Said out loud.** While setup is unfinished, Home, Watch, Read and Listen say *Finish setup to start scanning* with a **Continue setup** button, and Library activity shows the same line at the top. The notice goes by itself when setup is finished and scanning starts.
 - **Test before save.** A key that does not work would quietly leave media unidentified, so Library checks it first and tells you the reason if it fails.
