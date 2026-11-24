@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Once you've set up [onboarding](onboarding.md), **Manage › Overview › Numbers** shows an **Onboarding** card. It tells you whether people get through your join steps, without ever showing who picked what. You see it if your role has the **See the numbers** permission, and only when your community has questions for choosing paths, or Waymarks.
+Once you've set up [onboarding](onboarding.md), **Manage › Overview › Numbers** shows an **Onboarding** card. It tells you whether people get through your join steps, without ever showing who picked what. You see it if your role has the **See the numbers** permission, and only when your community has choice questions (Pick one, Pick any or Yes or no), or Waymarks.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/onboarding-numbers-desktop-light.jpg" alt="The Onboarding card on Numbers: how many people started joining, joined, chose paths, skipped them and finished their Waymarks over the last 30 days, with bars, the most chosen answers, and a note that numbers are rounded to the nearest 5." width="1600" height="1000" loading="lazy" decoding="async">
@@ -23,12 +23,12 @@ The card follows the period you pick at the top of Numbers (7, 30, 90 or 365 day
 
 - **Started joining**: people who opened your join steps while signed in, and not yet members. Each device counts once in the period, however often it opens them and whichever persona is signed in.
 - **Joined (agreed to the rules)**: people who became members in the period, including any who have left since. Someone who [switches persona](../guides/switch-persona.md) here also counts as joining again.
-- **Chose paths**: of those who joined, how many picked at least one answer.
-- **Skipped paths**: of those who joined, how many saw your questions and picked nothing.
+- **Answered the questions**: of those who joined, how many picked at least one answer.
+- **Skipped the questions**: of those who joined, how many saw your questions and picked nothing.
 - **Finished their Waymarks**: members who ticked every Waymark they could see. Adding Waymarks later doesn't undo this: it counts the set they had.
 - **Most chosen answers**: up to five answers with the most current members holding them, shown only from 5 people.
 
-A big gap between **Started joining** and **Joined** usually means the steps are too long or the rules put people off. Many **Skipped paths** can mean the questions aren't clear. Use [Try it as a new member](try-onboarding.md) to walk through it yourself.
+A big gap between **Started joining** and **Joined** usually means the steps are too long or the rules put people off. Many **Skipped the questions** can mean the questions aren't clear. Use [Try it as a new member](try-onboarding.md) to walk through it yourself.
 
 ## Rounding and privacy
 
@@ -38,5 +38,5 @@ Every number is rounded to the nearest 5. From 1 to 4 it shows **fewer than 5**,
 
 ## Next steps
 
-- [Questions for new members](onboarding-questions.md)
+- [Questions when people join](onboarding-questions.md)
 - [Try it as a new member](try-onboarding.md)

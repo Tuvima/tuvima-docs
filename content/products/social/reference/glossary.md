@@ -53,7 +53,7 @@ status: early-access
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
 | **Onyx Castar** | The only Castar used in 18+ communities, bought separately by verified adults. Planned. |
 | **Opt-in place** | A forum or chat channel that stays out of everyone's menu. Only members who add it on Pick what you see can open it. See [how each place starts](../owners/start-here-places.md#opt-in-places). |
-| **Path** | An answer to one of a community's questions for choosing paths, about what you're into. Each path is a role you pick yourself, which can put places in your menu. Only you see your paths. Change them on [Pick what you see](../guides/paths-and-places.md). |
+| **Path** | An answer to one of a community's join questions that adds places to your menu. It works by giving you a role you pick yourself. Only you see your paths. Change them on [Pick what you see](../guides/paths-and-places.md). |
 | **Path role** | A role members can pick for themselves. It can put places in their menu, follow places and open members-only places, but never carries staff powers. |
 | **Permission** | One thing a role may do, such as start threads, reply or post in chat. Owners can allow or deny each one for a role in a single category, forum or chat channel. See [permissions for a place](../owners/place-permissions.md). |
 | **Persona** | Who you are to others on Tuvima: a handle, display name and picture. Your account stays hidden behind it. |

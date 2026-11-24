@@ -21,7 +21,7 @@ On **Manage › People › Onboarding**, choose **Try it as a new member** to go
 - The last step is your rules, with **Finish tryout** where a newcomer would see **Join**. Nothing is sent: you don't join again and your picks aren't kept.
 - Choose **Leave tryout** at any time to go back.
 
-In a community where people ask to join, newcomers answer the questions once they are let in. The tryout shows them anyway, with a note saying so.
+The tryout shows your choice questions one at a time. In a community where people ask to join, newcomers answer the whole list on their request instead, under **A few questions**. See [when each question is asked](onboarding-questions.md#when-each-question-is-asked).
 
 The owner can also choose **See the Trailhead as a new member**, which shows your Trailhead as a plain member sees it (this uses [View as a role](place-permissions.md#view-as-a-role-and-the-post-check)).
 
