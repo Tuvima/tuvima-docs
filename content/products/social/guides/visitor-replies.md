@@ -55,6 +55,6 @@ Once you have a persona in a community, you always reply as that persona there. 
 
 ## Privacy
 
-Before you reply, the community asks Tuvima ID one question: may this person reply here as a visitor? Tuvima ID answers only **yes** or **no**. It never says why, and it never tells the community which of your other personas, if any, belongs there. Reading a community never shows who you are. Your persona is only shown when you choose to reply.
+Before you reply, the community asks Tuvima ID one question: may this person reply here as a visitor? Tuvima ID answers only **yes** or **no**. It never says why, and it never tells the community which of your other personas, if any, belongs there. The community can only ask while you are replying, and only about that one community: when you press Reply, Tuvima ID gives your browser a short pass that works there and nowhere else, for a few minutes. Reading a community never shows who you are. Your persona is only shown when you choose to reply.
 
 Moderators can remove a visitor's reply, warn them, or stop them replying in the community. Stopping a visitor works like a ban, and Tuvima ID applies it to every persona of that account in that community, so it can't be dodged by joining under another name.
