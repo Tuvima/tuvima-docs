@@ -23,6 +23,6 @@ Owners and admins open **Manage**, then **Address**. The page shows the permanen
 
 ## Short names
 
-A short name, such as `tuvima.com/c/DragonMasters`, will come with [Tuvima Trove](../money/tuvima-trove.md). **Manage**, **Address** already shows what a community needs for one: at least 10 members, 14 days since it started, and an owner with Trove. Trove is not on sale yet, so no community can claim a short name for now. [Short names](../money/watchfire-and-kindling.md#short-names) explains how they will work, including what happens when Trove ends.
+A short name, such as `tuvima.com/c/DragonMasters`, will come with [Tuvima Trove](../money/tuvima-trove.md). **Manage**, **Address** already shows what a community needs for one: at least 10 members, 14 days since it started, and an owner with Trove. Trove is not on sale yet, so no community can claim a short name for now. [Short names](../money/short-names-and-watchfire.md#short-names) explains how they will work, including what happens when Trove ends.
 
 Share the permanent address when a link needs to last: a short name can, in time, go to another community.
