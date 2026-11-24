@@ -32,7 +32,7 @@ If the community has no questions, you go straight to the rules and join in one 
 
 If the community asks people to be approved first, you see the rules and the community's questions together with your request, under **A few questions**. The community's team reads your answers with your request. Once you're approved, your answers to choice questions become your picks, so you get the places they add, and you can change them later on **Pick what you see**. You aren't asked again.
 
-If you joined before the community wrote its questions, a **Choose your paths** banner on the community offers **Choose** or **Not now**. **Choose** opens Pick what you see.
+If you joined before the community wrote its questions, an **A few questions** banner on the community offers **Choose** or **Not now**. **Choose** opens Pick what you see.
 
 ## What a path gives you
 

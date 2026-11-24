@@ -62,7 +62,7 @@ When moderators have cited one of your numbered rules at least 5 times in the la
 
 ## Members who joined before you set this up
 
-**Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote questions whose answers add places see a one-time **Choose your paths** banner, so they can pick without leaving and rejoining. **Choose** opens **Pick what you see**. Switch it off if you'd rather not ask them. New members always see your questions when they join.
+**Show onboarding to existing members once** is on unless you switch it off. Members who joined before you wrote questions whose answers add places see a one-time **A few questions** banner, so they can pick without leaving and rejoining. **Choose** opens **Pick what you see**. Switch it off if you'd rather not ask them. New members always see your questions when they join.
 
 ## Start from a template
 

@@ -46,7 +46,7 @@ Each answer gets its own role named after it, but it doesn't add anything to the
 ## What a template doesn't change
 
 - Your rules, Lore links, start-here places and highlighted achievements stay as they are.
-- Members who already picked answers keep the places and roles they have. Their old picks are removed with the old questions, so they don't count under **Chose paths** in [the numbers](onboarding-numbers.md).
+- Members who already picked answers keep the places and roles they have. Their old picks are removed with the old questions, so they don't count under **Answered the questions** in [the numbers](onboarding-numbers.md).
 - Trying a different template later reuses the roles an earlier one made with the same names, so your roles list doesn't fill up with copies. Roles no answer uses any more stay until you delete them on the Roles page.
 
 ## Next steps
