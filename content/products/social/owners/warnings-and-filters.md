@@ -105,6 +105,8 @@ Open **Manage**, then **Approval queue** under **Safety**. Everything that needs
 - **Coming back**: former members asking to come back, when [returns need a moderator](leaving-and-coming-back.md).
 - **Switching**: private personas asking to become their global persona, when [switching needs a moderator](leaving-and-coming-back.md#switching-personas). The card reads "@old wants to become @new", with the level and posts the member keeps and their message. Approving or declining is kept in the moderation record.
 - **Reported posts** and **Reported messages**: what members have reported.
+- **Name changes**: members with a private persona asking for a new name, for those who may [approve names](name-changes.md#name-requests).
+- **Photos**: photos held for a moderator, and reported albums.
 
 Each kind has its own tab with a count. You only see the tabs for the kinds your role lets you review. You can show one forum at a time, and choose **Oldest first** or **Newest first**. To look back at reports that have already been handled, choose **Reports already dealt with**, which opens the moderation record of past reports.
 
