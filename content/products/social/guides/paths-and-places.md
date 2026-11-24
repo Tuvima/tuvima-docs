@@ -59,6 +59,14 @@ Older links to **Your paths** or **See all places** open Pick what you see.
 
 The page has three steps. Every change saves straight away, and a short line says what changed, for example "Added Lore and theories". Choose **Done** to go back to the community.
 
+<figure class="tv-screens">
+<img class="tv-desktop tv-light" src="../assets/screens/pick-what-you-see-desktop-light.jpg" alt="Pick what you see: the community&#x27;s questions with the member&#x27;s answers ticked, the roles they can pick with a switch and what each adds, and every place with In menu or Hidden, or Add for an Opt-in place, beside a preview of their menu." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-desktop tv-dark" src="../assets/screens/pick-what-you-see-desktop-dark.jpg" alt="Pick what you see: the community&#x27;s questions with the member&#x27;s answers ticked, the roles they can pick with a switch and what each adds, and every place with In menu or Hidden, or Add for an Opt-in place, beside a preview of their menu." width="1600" height="1000" loading="lazy" decoding="async">
+<img class="tv-phone tv-light" src="../assets/screens/pick-what-you-see-phone-light.jpg" alt="The same screen on a phone, with Back to defaults and Done fixed at the bottom." width="585" height="1266" loading="lazy" decoding="async">
+<img class="tv-phone tv-dark" src="../assets/screens/pick-what-you-see-phone-dark.jpg" alt="The same screen on a phone, with Back to defaults and Done fixed at the bottom." width="585" height="1266" loading="lazy" decoding="async">
+<figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
+</figure>
+
 1. **Your answers.** The community's questions, with your answers ticked. Tap an answer to add or remove it. A question marked **Pick one** takes one answer; **Pick any** takes as many as you like. A required question always keeps one answer, so to change it, tap a different one.
 2. **Roles.** Under **Roles you can pick**, switch a role on or off. Each one says what it adds, for example "Opens Raid team · alerts for Raid nights".
 3. **Places.** Every place you can open, grouped by category, with how many are in your menu, such as "6 of 9 in your menu". Set each place to **In menu** or **Hidden** (on a phone, a switch). A quiet line under each name says why it is where it is, such as "From the Raid team role", "You hid this" or "Not in your menu". On a computer, **All**, **In menu**, **Hidden** and **Opt-in** above the list show just those places.
