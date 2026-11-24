@@ -1,6 +1,6 @@
 ---
 title: The Tuvima front page
-description: How the front page feed works, what Trending and New mean, how categories, tags and reactions help you find things, how to post to it, and how to raise a concern about a post.
+description: How the front page feed works, what Trending and New mean, what the right column shows, how categories, tags and reactions help you find things, how to post to it, and how to raise a concern about a post.
 audience: user
 category: guide
 product_area: tuvima
@@ -29,6 +29,19 @@ At the top of the feed, choose how to sort it:
 Next to the sort are **categories**. Pick one to see only that subject. Each category has subtopics, for example Gaming has PC, Console, Mobile, Tabletop and Esports. A category page also shows its popular tags and some communities about that subject.
 
 A **tag** is a short label, like `board-games`, that a poster adds. Choose a tag to see everything with it.
+
+## Beside the feed
+
+On a computer, the front page has three columns: your menu on the left, the feed in the middle, and one column on the right that stays in view while you scroll. On a phone or tablet the right column is left out, and the feed takes the whole screen.
+
+The right column shows, from the top:
+
+- **Live in your communities**: up to three chat channels in your communities where people are talking right now, busiest first. It shows a number only, such as "5 talking now": how many people sent a message there in the last 10 minutes. It never shows who they are, and people reading quietly are not counted. Choose **Open** to go straight into that chat.
+- **New in your forums**: the newest conversation from each of your communities, up to five, from the last week. At most one comes from each community, so a quiet forum is not buried under busier ones.
+- **Trending today**: the top five posts from the Trending list.
+- **Discover communities**: a few communities you might like, each with the reason and a **Join** button.
+
+Each part only appears when it has something to show. The first two are only for you: they list only channels and conversations you are allowed to see, they do not show your own conversations, and they never appear when you are signed out. Apps and bots cannot read them.
 
 ## React
 
