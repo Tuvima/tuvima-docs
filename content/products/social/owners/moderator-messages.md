@@ -11,6 +11,8 @@ Members write to your moderator team, and your team writes to members, **as the 
 
 Only people with the **Handle moderator messages** permission are on the team for this. The ready-made Owner, Admin and Moderator roles have it to begin with; you can change that on the [Roles](roles.md) screen.
 
+When someone on the team writes to the moderators themselves, the rest of the team answers. Their own conversation, and any notes about it, never show on their team side.
+
 ## Where conversations wait
 
 Open **Manage > Safety > Approval queue** and choose the **Messages** tab. Its number counts open conversations, and it is part of the queue's total and the **Needs you** card on your community's overview. Filter by:
