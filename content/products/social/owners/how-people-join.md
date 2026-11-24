@@ -39,6 +39,13 @@ Each kind of community starts with a usual choice:
 
 Changing who can read or who can find the community sets this back to the usual choice for the new setting. You can then change it again.
 
+## Visitors
+
+In a public community, signed-in people who haven't joined can [reply as visitors](../guides/visitor-replies.md) with their global persona. They agree to your rules first, can reply up to 5 times a day, and can't start conversations, react, vote, or add photos or links. Their replies carry a **Visitor** label. Visitors aren't members: they don't appear in your members list, counts or numbers.
+
+- **Let visitors reply** is on by default. To change it, go to **Manage › People › Joining and leaving**, open the **Privacy** tab and find the **Visitors** card. Private communities never take visitors.
+- **Hold a visitor's first reply for approval** is off by default. It's in **Manage › People › Newcomers**, under **Limits**. A held reply waits in the approval queue, labelled "A visitor's first reply".
+
 ## Sudden rush of new members
 
 **Slow down joining during a rush** is on unless you switch it off. If far more people than usual join within an hour, Tuvima switches new people to asking to join for 24 hours and tells you in your notifications. Their requests wait on the **Requests** tab. Invites keep working.

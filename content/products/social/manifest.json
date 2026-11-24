@@ -107,6 +107,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/visitor-replies.md",
+      "slug": "guides/visitor-replies",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/photos.md",
       "slug": "guides/photos",
       "group": "Guides",

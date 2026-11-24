@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Most communities can be read without joining, by anyone. Join to post, reply and get notices. A **private** community can be read only by its members; see [joining a private community](join-private-community.md).
+Most communities can be read without joining, by anyone. Join to post, reply and get notices. In most public communities you can also [reply as a visitor](visitor-replies.md) before you join. A **private** community can be read only by its members; see [joining a private community](join-private-community.md).
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/join-a-community-desktop-light.jpg" alt="A community that asks people to request to join, showing its join button, rules and description." width="1600" height="1000" loading="lazy" decoding="async">

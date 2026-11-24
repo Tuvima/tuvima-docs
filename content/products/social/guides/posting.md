@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Inside a community you can start a conversation or reply to one. You need to be a member.
+Inside a community you can start a conversation or reply to one. You need to be a member, though in most public communities you can also [reply as a visitor](visitor-replies.md) without joining.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/posting-desktop-light.jpg" alt="A conversation with its opening post, a photo, reactions and replies." width="1600" height="1000" loading="lazy" decoding="async">
