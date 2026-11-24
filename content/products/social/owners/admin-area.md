@@ -47,7 +47,7 @@ A number next to **Approval queue** shows how many posts, requests, reports, nam
 - **Adult and violent photo handling** is on **Moderation rules**, on the **Photo checks** tab.
 - **Join requests**, **name changes** and **photos waiting for a moderator** have no pages of their own. They wait in the **Approval queue**, each on its own tab.
 - **Insights** is now **Numbers**, on **Overview**.
-- **Join questions** are no longer on **Joining and leaving**. They are on **Onboarding**, on the **Member choices** tab, in one list with the questions for choosing paths, under **Questions for new members**. The **Questions** tab is now **Member choices**.
+- **Join questions** are no longer on **Joining and leaving**. They are on **Onboarding**, on the **Member choices** tab, under **Questions when people join**. The **Questions** tab is now **Member choices**.
 
 ## Find a setting
 

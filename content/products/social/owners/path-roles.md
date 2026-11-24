@@ -25,7 +25,7 @@ Roles already decide what people can do and which members-only places they can o
 
 - **Staff**: Owner, Admin, Moderator and your copies of them. They are ranked and can act on other members.
 - **Members**: roles you or your staff give, an invite gives, or a level gives, such as "Veterans".
-- **Paths**: roles members pick for themselves, when they join or later on [Pick what you see](../guides/paths-and-places.md).
+- **Paths**: roles members pick for themselves, by answering a question when they join or later on [Pick what you see](../guides/paths-and-places.md). We call them path roles.
 
 It is still one list, and every role works the same way. The groups are there so you can see at a glance which roles carry powers and which only shape what people see.
 
@@ -36,7 +36,7 @@ It is still one list, and every role works the same way. The groups are there so
 
 A role members can pick can never hold staff or moderation permissions. Tuvima refuses the switch while a role has any, so nobody can hand themselves moderator powers by accident. To let members pick a role that opens a members-only place, give the role access to that place in its [area settings](area-access.md); picking the role then opens it.
 
-Members find roles they can pick on **Pick what you see**, under **Roles you can pick**. When your community has questions for choosing paths, each answer gives its own path role. You write the questions on **Onboarding**, on the **Member choices** tab (see [questions for new members](onboarding-questions.md)).
+Members find roles they can pick on **Pick what you see**, under **Roles you can pick**. An answer to one of your [join questions](onboarding-questions.md) that adds places does it by giving its own path role. You write the questions on **Onboarding**, on the **Member choices** tab.
 
 ## Roles members can pick
 
@@ -99,19 +99,19 @@ Under **How each place starts** on **Member choices**, on the **Start here** tab
 
 ## When the menu is tidy
 
-Once your community has any start-here place, question for choosing paths or menu place in **What holders get**, members' menus show only their places, with everything else one tap away on **Pick what you see**. Until then, every member sees every place they can open, as before. If someone's tidy menu would be empty, they see everything.
+Once your community has any start-here place, answer that adds places or menu place in **What holders get**, members' menus show only their places, with everything else one tap away on **Pick what you see**. Until then, every member sees every place they can open, as before. If someone's tidy menu would be empty, they see everything.
 
 Visitors who haven't joined always see every place they can open.
 
-Members who have picked at least one path also get a **For you | Everything** switch on your community's home. For you fills Popular, New photos, Latest and Chat now from their own places; Everything shows the whole community. Your featured conversations and announcements show in both. See [For you or Everything](../guides/paths-and-places.md#for-you-or-everything-on-the-communitys-home).
+Members who have picked at least one answer or role that adds places also get a **For you | Everything** switch on your community's home. For you fills Popular, New photos, Latest and Chat now from their own places; Everything shows the whole community. Your featured conversations and announcements show in both. See [For you or Everything](../guides/paths-and-places.md#for-you-or-everything-on-the-communitys-home).
 
 ## What you can see, and what you can't
 
 - You see how many people hold each role (rounded for private path roles).
-- You never see which answers a particular member picked, which places they added to or took off their menu, or what they hid.
-- Picking paths never changes who can read what. Only a role you have given access to a members-only place, or the role of an Opt-in place, opens it.
+- Once someone is a member, you never see which answers they picked, which places they added to or took off their menu, or what they hid.
+- Picking answers and roles never changes who can read what. Only a role you have given access to a members-only place, or the role of an Opt-in place, opens it.
 
 ## Next steps
 
-- [Questions for new members](onboarding-questions.md)
+- [Questions when people join](onboarding-questions.md)
 - [How each place starts](start-here-places.md)

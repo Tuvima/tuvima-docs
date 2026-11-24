@@ -59,6 +59,6 @@ While a place is Opt-in, the role made for it can't be deleted or made unpickabl
 
 ## Next steps
 
-- [Questions for new members](onboarding-questions.md)
+- [Questions when people join](onboarding-questions.md)
 - [Path roles and what holders get](path-roles.md)
 - [Set up onboarding](onboarding.md)

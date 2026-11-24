@@ -19,14 +19,14 @@ How people join is its own setting, for public and private communities alike. A 
 
 Owners and admins choose it in **Manage**, then **Joining and leaving**, on the **How people join** tab.
 
-The questions people answer when they ask to join aren't on this tab. They are on **Onboarding**, on the **Member choices** tab, in one list with the questions for choosing paths. A line at the bottom of **How people join** links there. See [questions for new members](onboarding-questions.md).
+The questions people answer when they join aren't on this tab. They are on **Onboarding**, on the **Member choices** tab, under **Questions when people join**. A line at the bottom of **How people join** links there. See [questions when people join](onboarding-questions.md).
 
 ## The three ways in
 
 | Choice | What happens |
 | --- | --- |
-| **Anyone can join** | Signed-in people agree to the rules and join straight away. |
-| **Ask to join** | People answer your [questions for approving people](onboarding-questions.md), if you have any, and send a request. A moderator, admin or the owner [approves or declines](join-requests.md) it (or anyone whose role lets them review requests). |
+| **Anyone can join** | Signed-in people answer your choice questions, if you have any, agree to the rules and join straight away. |
+| **Ask to join** | People answer your [questions](onboarding-questions.md), if you have any, and send a request. A moderator, admin or the owner [approves or declines](join-requests.md) it (or anyone whose role lets them review requests). |
 | **Invite only** | Only people with an [invite link or code](invites.md) can join. |
 
 [Invites](invites.md) always work, whatever you choose here.
@@ -64,6 +64,6 @@ To slow down spam accounts, each Tuvima ID account can join only a few communiti
 ## Next steps
 
 - [Set up onboarding](onboarding.md)
-- [Questions for new members](onboarding-questions.md)
+- [Questions when people join](onboarding-questions.md)
 - [Review join requests](join-requests.md)
 - [Invite people with a link, code or QR code](invites.md)
