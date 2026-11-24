@@ -39,7 +39,7 @@ You can also pick a template while you [create a community](start-a-community.md
 
 ## After you apply it
 
-Each answer gets its own role named after it, but it doesn't add anything to the menu yet. So the Onboarding page shows warnings that answers **lead nowhere**. That's expected: open [the questions](onboarding-questions.md) and point each answer at the forums and channels it should add to a new member's menu. When every answer leads somewhere, the warnings go away. If you already had a pick-yourself role with the same name as an answer, the answer uses it, so it may already lead somewhere.
+Each answer gets its own role named after it, but it doesn't add anything to the menu yet. So the Onboarding page shows warnings that answers **lead nowhere**. That's expected: open [the questions](onboarding-questions.md) on **Member choices** and point each answer at the forums and channels it should add to a new member's menu. When every answer leads somewhere, the warnings go away. If you already had a pick-yourself role with the same name as an answer, the answer uses it, so it may already lead somewhere.
 
 ## What a template doesn't change
 
@@ -49,5 +49,5 @@ Each answer gets its own role named after it, but it doesn't add anything to the
 
 ## Next steps
 
-- [Write your path questions](onboarding-questions.md) and point each answer at places
+- [Write your questions for new members](onboarding-questions.md) and point each answer at places
 - [Try it as a new member](try-onboarding.md)

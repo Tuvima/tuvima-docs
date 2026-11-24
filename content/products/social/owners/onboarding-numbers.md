@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Once you've set up [onboarding](onboarding.md), **Manage › Overview › Numbers** shows an **Onboarding** card. It tells you whether people get through your join steps, without ever showing who picked what. You see it if your role has the **See the numbers** permission, and only when your community has path questions or Waymarks.
+Once you've set up [onboarding](onboarding.md), **Manage › Overview › Numbers** shows an **Onboarding** card. It tells you whether people get through your join steps, without ever showing who picked what. You see it if your role has the **See the numbers** permission, and only when your community has questions for choosing paths, or Waymarks.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/onboarding-numbers-desktop-light.jpg" alt="The Onboarding card on Numbers: how many people started joining, joined, chose paths, skipped them and finished their Waymarks over the last 30 days, with bars, the most chosen answers, and a note that numbers are rounded to the nearest 5." width="1600" height="1000" loading="lazy" decoding="async">
@@ -38,5 +38,5 @@ Every number is rounded to the nearest 5. From 1 to 4 it shows **fewer than 5**,
 
 ## Next steps
 
-- [Write your path questions](onboarding-questions.md)
+- [Questions for new members](onboarding-questions.md)
 - [Try it as a new member](try-onboarding.md)

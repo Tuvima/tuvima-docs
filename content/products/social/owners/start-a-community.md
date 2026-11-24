@@ -33,7 +33,7 @@ Choose **Start a community** on the front page. The **Create a community** steps
 4. **Rules.** Write your community's rules. They sit on top of [the rules everyone follows](../guides/community-rules.md).
 5. **Forums.** The places conversations live, such as "Events" or "Help". You can give a forum an automatic content warning, such as "Spoilers". Later you can group forums under categories; see [categories, forums and the front page](categories-and-forums.md).
 6. **Newcomer limits.** Off unless you switch on **Limit newcomers**. See below.
-7. **Welcome new members.** Optional: pick a [template](onboarding-templates.md) (gaming group, product support, creator fan club or local club) to fill in your join questions, a welcome and first Waymarks, or leave it on **Not now**.
+7. **Welcome new members.** Optional: pick a [template](onboarding-templates.md) (gaming group, product support, creator fan club or local club) to fill in your questions for new members, a welcome and first Waymarks, or leave it on **Not now**.
 8. **Review.** Check everything, then choose **Create community**.
 
 ## Should you limit newcomers?
