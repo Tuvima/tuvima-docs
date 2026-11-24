@@ -46,6 +46,13 @@ In a public community, signed-in people who haven't joined can [reply as visitor
 - **Let visitors reply** is on by default. To change it, go to **Manage › People › Joining and leaving**, open the **Privacy** tab and find the **Visitors** card. Private communities never take visitors.
 - **Hold a visitor's first reply for approval** is off by default. It's in **Manage › People › Newcomers**, under **Limits**. A held reply waits in the approval queue, labelled "A visitor's first reply".
 
+## Popular threads on the Tuvima portal
+
+When conversations in your community get people talking, they can appear on other people's Home and in Trending and New, marked with your community's name. See [how community conversations reach Home and Trending](../guides/community-threads-on-home.md).
+
+- **Show popular threads on the Tuvima portal** is on by default. It's in **Manage › People › Joining and leaving**, on the **Privacy** tab, beside who can find your community. It only works for public, listed communities.
+- Each forum can opt out on its own with **Show on the Tuvima portal**, on the forum's **On Tuvima** tab in Forums and channels. Members-only forums and forums with a content warning never appear.
+
 ## Sudden rush of new members
 
 **Slow down joining during a rush** is on unless you switch it off. If far more people than usual join within an hour, Tuvima switches new people to asking to join for 24 hours and tells you in your notifications. Their requests wait on the **Requests** tab. Invites keep working.
