@@ -52,11 +52,12 @@ status: early-access
 | **Name hidden** | What members see in place of a name an admin has hidden as offensive: a blurred bar with no text. The member and staff still see the real name. |
 | **Newcomer** | A new member whose posting is limited for a while, if the community uses newcomer limits. |
 | **Onyx Castar** | The only Castar used in 18+ communities, bought separately by verified adults. Planned. |
-| **Opt-in place** | A forum or chat channel that stays out of everyone's menu. Only members who pick its role, named after the place, can open it. See [how each place starts](../owners/start-here-places.md#opt-in-places). |
-| **Path** | An answer to one of a community's questions for choosing paths, about what you're into. Each path is a role you pick yourself, which can put places in your menu. Only you see your paths. See [your paths and places](../guides/paths-and-places.md). |
+| **Opt-in place** | A forum or chat channel that stays out of everyone's menu. Only members who add it on Pick what you see can open it. See [how each place starts](../owners/start-here-places.md#opt-in-places). |
+| **Path** | An answer to one of a community's questions for choosing paths, about what you're into. Each path is a role you pick yourself, which can put places in your menu. Only you see your paths. Change them on [Pick what you see](../guides/paths-and-places.md). |
 | **Path role** | A role members can pick for themselves. It can put places in their menu, follow places and open members-only places, but never carries staff powers. |
 | **Permission** | One thing a role may do, such as start threads, reply or post in chat. Owners can allow or deny each one for a role in a single category, forum or chat channel. See [permissions for a place](../owners/place-permissions.md). |
 | **Persona** | Who you are to others on Tuvima: a handle, display name and picture. Your account stays hidden behind it. |
+| **Pick what you see** | The page in each community where you change your answers, the roles you picked and which places are in your menu. Only you see it. See [paths and Pick what you see](../guides/paths-and-places.md). |
 | **Pin** | Keeping a conversation at the top of the whole community or one forum, with an optional end date. |
 | **Private community** | A community only its members can read. Others see its name and the details its owner chooses. |
 | **Private persona** | A persona used in one community only, which no other member, moderator or owner can connect to your other personas. It hides who you are, not what you post. |
@@ -66,7 +67,6 @@ status: early-access
 | **Role** | What someone can do in a community, and which members-only areas they can open. Every community has Owner, Admin, Moderator and Member, and owners can make their own. |
 | **Safety step** | One of four steps (New, Member, Regular, Trusted) that every level sits on, chosen by the owner and never shown to members. The step decides how much a vote counts. |
 | **Second look** | A front-page case you have been picked to review. Open cases are listed under **Second look** in the You menu. |
-| **See all places** | The page listing every place you can open in a community, with tabs for My places, All places and Hidden. |
 | **Silver Castar** | Castar that comes with Trove each month, for awards and persona items. It has no cash value. Planned. |
 | **Slow mode** | A limit on how often each person can post in a conversation, from 30 seconds to 1 hour. |
 | **Showcase** | Up to six achievements shown at the top of a member's page in a community, above their pinned posts. |

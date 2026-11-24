@@ -68,7 +68,7 @@ Picking an existing role loads the places it already adds; **Create a role named
 
 ## A question used for both
 
-In a community where people ask to join, a question used for both is asked once, with the request to join. The reviewers see the answer with the request. When the request is approved, the answer becomes the new member's pick, so it gives them its role and places. They aren't asked it again, and they can change it later on **Your paths**.
+In a community where people ask to join, a question used for both is asked once, with the request to join. The reviewers see the answer with the request. When the request is approved, the answer becomes the new member's pick, so it gives them its role and places. They aren't asked it again, and they can change it later on **Pick what you see**.
 
 The other questions for choosing paths come after the request is approved, once the person is in.
 

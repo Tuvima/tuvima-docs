@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="t d" font-family="Inter, system-ui, sans-serif">
   <title id="t">How answers, roles and places connect</title>
-  <desc id="d">On the left, the ways someone gets a role: picking an answer when joining or on Your paths, being given a role by staff or an invite, reaching a level, or holding a member tier. In the middle, each role, level and tier has a What holders get list: places for the menu and places to follow. On the right, the member's menu: start-here places, always-shown places, places from what they hold and places they added, minus places they removed or hid. Everything else stays under See all places.</desc>
+  <desc id="d">On the left, the ways someone gets a role: picking an answer when joining or on Pick what you see, being given a role by staff or an invite, reaching a level, or holding a member tier. In the middle, each role, level and tier has a What holders get list: places for the menu and places to follow. On the right, the member's menu: start-here places, always-shown places, places from what they hold and places they added, minus places they removed or hid. Everything else stays one tap away on Pick what you see.</desc>
   <rect width="760" height="420" rx="16" fill="#F5F7FB"/>
   <text x="32" y="40" fill="#14213D" font-size="18" font-weight="700">How answers, roles and places connect</text>
 
@@ -49,7 +49,7 @@
     <text x="542" y="214">− Places they removed or hid</text>
   </g>
   <line x1="542" y1="232" x2="720" y2="232" stroke="#C9D3EA"/>
-  <text x="542" y="258" fill="#14213D" font-size="13" font-weight="600">See all places</text>
+  <text x="542" y="258" fill="#14213D" font-size="13" font-weight="600">Pick what you see</text>
   <text x="542" y="278" fill="#47536B" font-size="12">Everything else they can open,</text>
   <text x="542" y="296" fill="#47536B" font-size="12">one tap away</text>
 
