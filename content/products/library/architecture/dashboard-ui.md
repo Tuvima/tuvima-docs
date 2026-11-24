@@ -300,7 +300,7 @@ columns (chevron slot, icon, label, badge), children indent by one fixed step, a
 page draws a sideways tab strip, and tabs are for sections inside a single page. Personal lists Profiles,
 Preferences (with Playback, Listening and Reading beneath it) and Security; the older `/settings/profile`,
 `/settings/household` and `/settings/account` links redirect to Profiles and Security. Canonical page routes use
-`/settings/profiles`, `/settings/system`, `/settings/libraries`, `/settings/ingestion`, and the
+`/settings/household`, `/settings/system`, `/settings/libraries`, `/settings/ingestion`, and the
 corresponding page slug. Libraries owns the configured Read, Watch, Listen, and
 View storage surfaces. On narrow screens, a page selector replaces the rail and lists the same tree, grouped and
 indented. Developer Tools requires both the Administrator role and the internal-tools feature flag.
