@@ -75,6 +75,7 @@ Home picks from the best front page posts of the last 14 days, the most valued p
 - **Found useful.** Part of Discover goes to conversations that trusted members of a community marked Insightful or Thanks, measured against the community's size, with the reason **Found useful in** the community's name.
 - **Popular with people like you.** Home can lift a topic or community that is popular with people whose interests are like yours, only when at least 10 different people are behind it. It never names them.
 - **Popular with people you follow.** Home can lift a conversation when at least 10 people you follow replied, reacted, up-voted or tapped More like this on it in the last 30 days. Down votes and Dislikes never count, and it never names them.
+- **Custom feeds.** You can also build your own feeds that mix topics, tags and communities. More and Less like this inside a Custom feed change only that feed. See [Custom feeds](custom-feeds.md).
 
 ## What Home learns from
 
