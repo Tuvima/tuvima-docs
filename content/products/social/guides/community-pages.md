@@ -32,24 +32,21 @@ On a computer, a menu on the left takes the place of the sections in the band. I
 
 On a phone, the community's sections stay in the band, and tapping the community's name in the top bar lets you switch to another community (see [Find your way around](getting-around.md)).
 
-Most communities open on **what's happening** across the whole community:
+A community's home is its front door. From top to bottom you will see:
 
-- **Popular this week.** The three conversations started this week with the most replies.
-- **New photos.** The six newest photos. Choose **All photos** to see the rest.
+- **Forums, grouped by category.** Each category is a heading, and under it each forum shows its symbol, its name and short description, how many conversations it holds and how many replies. A forum with something you haven't read yet shows **New**. A category's heading also says how many conversations started there this week, for example **38 this week**.
+- **Faces of people who posted this week.** A row of small pictures shows people who posted in the community in the last 7 days. This is public: it shows who posted, not who is online or reading.
+- **Latest.** One line per conversation: its title, its forum and tags, small pictures of the people who posted most recently, the number of replies and when it last moved. Pinned conversations come first. Members also get **New** (start of a conversation you haven't read).
 - **Chat now** (members only). The chat channels with messages today, with **Open chat**. The messages themselves stay in chat.
-- **Recently earned.** Achievements people earned here lately.
-- **New here.** How many people joined this week. It never says who.
+- **About**, **Rules** and any other blocks the owners added, on the side. On a phone they come after the conversations.
 
-An owner can switch this off so the home shows only the forums and the list. See [Build your home page with tiles](../owners/home-tiles.md).
+The community also shows **how many people are online**: a number only, never names. It counts people who did something in the community in the last 15 minutes. Your own [status](status.md) controls whether you appear in who's-here lists.
 
-Then:
+Owners choose the home's layout, so yours may look a little different: some communities show forums only, a "what's happening" page with the week's popular conversations and new photos, or large category tiles. See [Choose a home layout and arrange your home](../owners/home-tiles.md).
 
-- **Forums.** Each category is a card with its forums. The card says how many conversations started there in the last 7 days, for example **38 this week**, and each forum says how many started there, such as **11 new this week**. On a phone each forum takes one short line, so the conversations start sooner. Choose a category's name to open its own page, or a forum to go straight to its conversations.
-- **Latest conversations.** One line per conversation: its title, its forum and tags, small pictures of the people who posted most recently, the number of replies and when it last moved. Pinned conversations come first. Members also get **New** (started since you joined) and **Unread** (new replies since you last read). A conversation nobody has answered yet says **No replies yet**.
-- **Filter.** Choose **Filter** to narrow the list by forum, tag or label, then **Show conversations**. Each filter you use shows as a chip above the list; choose its cross to remove it. **Start a conversation** is above the list (on a phone it says **New**).
-- **About** and **Rules**, and any other blocks the owners added, sit on the side. On a phone they come after the conversations.
+**Filter** narrows the list by forum, tag or label; each filter you use shows as a chip above the list, and its cross removes it. **Start a conversation** is above the list (on a phone it is the **+** button).
 
-A community with only one category skips the cards and shows its forums straight away.
+A community with only one category skips the category heading and shows its forums straight away.
 
 There are no view counts anywhere. Tuvima doesn't track who reads what.
 

@@ -1,6 +1,6 @@
 ---
-title: Short names, Watchfire and Kindling
-description: "How short community names work, how members light a community's Watchfire to unlock extras, and how free Kindling rewards taking part."
+title: Short names and Watchfire
+description: "How short community names work, and how members support a community by lighting its Watchfire to unlock extras."
 audience: user
 category: guide
 product_area: tuvima
@@ -11,7 +11,7 @@ status: target-state
 These features are planned and not available yet. Numbers shown are starting values and may change before launch.
 :::
 
-Every community has a link that never breaks. Members can help a community unlock extras together, with **Watchfire** if they have Tuvima Trove and with free **Kindling** if they don't.
+Every community has a link that never breaks. Members can help a community unlock extras together by lighting its **Watchfire**.
 
 ## Short names
 
@@ -51,17 +51,12 @@ Watchfire lets members help a community unlock extras together.
 
 If fewer people light it, the community keeps its level for 14 days. Extras made meanwhile are paused, not deleted. You can't light your own community or an 18+ community.
 
-## Kindling
+## Other ways to support
 
-Kindling is free. You earn it inside each community just by taking part.
-
-- **Earning.** Visit on a day, write replies people react to or mark helpful, give accepted answers, welcome newcomers. There is a daily limit. Trove members earn 1.5 times as fast.
-- **Spending.** Owners set up rewards, such as a name colour for a week, a flair or a vote on the next banner. Rewards are just for fun: they never pin or move a post up.
-- **Campfire goal.** Everyone's Kindling adds up toward a monthly goal. When the community reaches it, everyone gets Campfire extras, such as a seasonal banner frame, for the rest of that month.
-- **Stays put.** Kindling earned in a community is spent only there. It can't be bought, sold, sent to someone else or turned into money.
+You can also support a community by [subscribing](castar.md#ember) to it. Anything else a community offers its members, free or paid, is up to that community.
 
 ## How support affects what people see
 
 Popular, useful discussions rise on Tuvima. A community gets a small, capped lift when many of its members support it with Ember or Watchfire, compared with its size. A small community with keen supporters can rise above a large community with passive members. Spending more money adds nothing by itself, and "Why you see this" shows when the lift applies.
 
-Paid promotion, when it arrives, appears only in clearly labelled Promoted spaces. Watchfire and Kindling never buy promotion.
+Paid promotion, when it arrives, appears only in clearly labelled Promoted spaces. Watchfire never buys promotion.

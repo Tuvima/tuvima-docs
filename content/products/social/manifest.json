@@ -125,6 +125,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/status.md",
+      "slug": "guides/status",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/messages.md",
       "slug": "guides/messages",
       "group": "Guides",
@@ -413,8 +419,8 @@
       "section": "Membership and earning"
     },
     {
-      "source": "money/watchfire-and-kindling.md",
-      "slug": "money/watchfire-and-kindling",
+      "source": "money/short-names-and-watchfire.md",
+      "slug": "money/short-names-and-watchfire",
       "group": "Guides",
       "section": "Membership and earning"
     },
