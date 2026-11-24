@@ -17,7 +17,7 @@ Samsung and LG TVs run the **Library TV web app**: one plain web app with its ow
 
 - A Library server on your network and its address from **Settings → Overview → Apps**. See [Apps on your phone and TV](apps-on-your-phone-and-tv.md).
 - A computer with the Library source code and the TV maker's tools: Tizen Studio for Samsung, or the webOS command line tools for LG.
-- **Allow packaged TV apps on the server.** A packaged TV app runs from a non-web address, so the Dashboard refuses it until you turn on `native_app_access.allow_browser_apps` in `config/network.json`, then restart. It is off by default. While it is on, a website could start a pairing request, although nothing is paired until you approve its code, so turn it on only if you use a Samsung or LG TV app. See [Configuration](../reference/configuration.md).
+- **Allow packaged TV apps on the server.** A packaged TV app runs from a non-web address, so the Dashboard refuses it until an administrator turns on **Allow Samsung and LG TV apps** in Settings > Network & Remote Access > Home network > Reach from other devices > TV apps. It is off by default, and it applies right away with no restart. While it is on, any website can start a pairing request, although nothing is paired until you approve its code, so leave it off unless you use a Samsung or LG TV app. Resetting network settings turns it off again. See [Configuration](../reference/configuration.md).
 
 ## Try it on a Samsung TV
 
@@ -59,4 +59,4 @@ Sign out from the TV under **Settings** in the app, or from **Settings → Secur
 - No full-screen Now playing for music, and no audiobook player.
 - Playback settings you change on the TV stay on the TV and do not change your profile.
 - Lessons and Homework for folders of videos are not listed, and the rating card is not drawn.
-- **A setting you change by hand:** turning on `native_app_access.allow_browser_apps` means editing a file, because there is no switch for it in the Dashboard yet.
+- **An administrator turns on the server setting:** **Allow Samsung and LG TV apps** is off by default and only an administrator can switch it on, so ask whoever runs your Library if the TV app cannot reach it.
