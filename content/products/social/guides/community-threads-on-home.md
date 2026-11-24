@@ -45,6 +45,10 @@ Home keeps a little room for things outside your usual interests. Part of that r
 
 Home can also lift a topic or community that's popular with people whose interests are like yours. This only happens when at least 10 different people are behind it, and Home never says who they are. The reason reads **Popular with people who like** and the topic. You can turn this off on your Your feed page in Tuvima ID, with **Learn from people with tastes like mine**. Turning it off also stops your interests counting for anyone else, within an hour.
 
+## Popular with people you follow
+
+When at least 10 different people you follow have replied in the same public conversation in the last 30 days, Home can lift it with the reason **Popular with people you follow**. Only public replies count. Reactions, votes and **More like this** stay private and never count, and Home never says which of the people you follow replied. Replies made with a private community persona never count. The same **Learn from people with tastes like mine** switch turns this off.
+
 ## For apps
 
 Apps can read Trending and New, including community conversations, through the public feed: titles, links and counts only. Topics, Wrong topic and the owner switches are not available to apps.
