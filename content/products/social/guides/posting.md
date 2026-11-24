@@ -22,7 +22,8 @@ Inside a community you can start a conversation or reply to one. You need to be 
 1. Open the community and choose to start a new conversation.
 2. Write a title and your post. You can also [add photos](photos.md).
 3. Pick the community's category for it, if it has categories.
-4. Choose **Post**.
+4. Check the **Topic**. It starts as the forum's topic, and Tuvima may suggest a better one from your words. Pick another if it fits better, unless the forum keeps one topic. The topic decides where your conversation can appear on Tuvima.
+5. Choose **Post**.
 
 ## Save a draft
 
