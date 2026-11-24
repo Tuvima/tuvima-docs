@@ -50,8 +50,12 @@ user's file are ignored.
 Phone and TV apps are always allowed; there is no app on/off switch. The paired-app
 door (`/.well-known/tuvima`, `/pair`, `/api/v1/**` and `/application-events/**`) and
 the cast relay always answer. `native_app_access.allow_browser_apps` (default
-`false`, config file only) is a separate switch for packaged TV web apps, whose
-page origin is `null` or an app scheme. Only with it on does the Dashboard give
+`false`) is a separate switch for packaged TV web apps, shown in Settings >
+Network & Remote Access > Home network > Reach from other devices > TV apps as
+**Allow Samsung and LG TV apps**. Only an administrator can change it, a change
+applies right away with no restart, resetting network settings turns it off, and
+a save from Settings sets the stored value from the switch. It covers packaged TV
+web apps, whose page origin is `null` or an app scheme. Only with it on does the Dashboard give
 those origins cross-origin permission for `/api/v1/**` and `/.well-known/tuvima`.
 Because any web page can claim the `null` origin, it also lets a website reach the
 anonymous pairing surface; pairing still needs a person to approve the code on
