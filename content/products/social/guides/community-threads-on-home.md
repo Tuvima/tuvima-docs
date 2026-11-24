@@ -47,7 +47,7 @@ Home can also lift a topic or community that's popular with people whose interes
 
 ## Popular with people you follow
 
-When at least 10 different people you follow have replied in the same public conversation in the last 30 days, Home can lift it with the reason **Popular with people you follow**. Only public replies count. Reactions, votes and **More like this** stay private and never count, and Home never says which of the people you follow replied. Replies made with a private community persona never count. The same **Learn from people with tastes like mine** switch turns this off.
+When at least 10 different people you follow have replied to, reacted to, up-voted or tapped **More like this** on the same conversation in the last 30 days, Home can lift it with the reason **Popular with people you follow**. Home never says which of them it was. Down votes and Dislikes never count, and nothing done with a private community persona, in a private community or on a sensitive topic counts. If someone takes back a reaction or deletes a reply, it stops counting. The same **Learn from people with tastes like mine** switch turns this off.
 
 ## For apps
 
