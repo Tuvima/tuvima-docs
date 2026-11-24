@@ -1,6 +1,6 @@
 ---
 title: Private messages
-description: Send private messages and start groups, see why a message reached you, choose what to do with first messages in New, and report a threat to Tuvima.
+description: Send private messages and start groups, see when your message was read, see why a message reached you, choose what to do with first messages in New, and report a threat to Tuvima.
 audience: user
 category: guide
 product_area: tuvima
@@ -87,6 +87,18 @@ While a message waits in New you cannot react to it, and you are not sent phone 
 - **Edit** your own message. It is marked as edited, and people in the conversation can see what it said before.
 - You cannot unsend a message. Think of it like a letter: once it is delivered, the other person has it.
 - Photos cannot be sent in messages yet.
+
+## Seen: knowing your message was read
+
+A small grey **Seen** appears under your newest message once the other person has had it on their screen in the open conversation. Tap it to see when ("Seen today at 9:02"). Until then your newest message says **Sent**. Only one Seen line shows, so the conversation stays tidy.
+
+- **In groups** the line says **Seen by 3**, with small pictures of who. Tap it for the names and times. People who don't share when they've read messages are simply not in the list.
+- **Only real reading counts.** A phone alert, the preview in your inbox, or **Mark as read** clear your unread count but never send Seen.
+- **New stays silent.** While a first message or invite waits under New, nothing is sent, however often you open it. When you reply or join, the sender sees Seen with the time you replied, not when you first opened it. **Ignore** and **Spam** never send it.
+- **It works both ways.** If you turn receipts off, nobody sees when you've read their messages, and you don't see theirs either.
+- **Turn it off everywhere** in Tuvima ID: see [show when I've read messages](../../id/guides/who-can-message-you.md#show-when-ive-read-messages). That one switch covers all your personas.
+- **Change it for one conversation** under **Read receipts here** in its info panel: **Use my setting**, **On** or **Off**. The other person is never told; your Seen simply stops appearing.
+- **Nobody else sees it.** Blocking someone hides Seen both ways. Moderators, community owners, Tuvima staff, reports and apps never see who read what.
 
 ## Groups
 

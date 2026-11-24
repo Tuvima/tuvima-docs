@@ -104,6 +104,6 @@ If you are banned in the community, you can't ask. A global persona is renamed i
 
 If an admin hides your name as offensive, you can still see it, with a **Name hidden** label. Everyone else sees **Name hidden** instead of your name, on your posts too. You can still ask for a new name, and approving it shows your name again. Until then you can't switch between private and global.
 
-## For owners and admins: Insights
+## For owners and admins: Numbers
 
-**Manage**, then **Insights**, shows how your community is doing over 7 days, 30 days, 90 days or a year: members, active members, new contributors, the typical time to a first reply and questions with no reply, each compared with the period before. Insights counts what people do, never what they read. It never shows page views, reading time or who looked at what, and any count of 1 to 4 people shows as "fewer than 5". See [Insights](../owners/run-your-community.md#insights).
+**Manage**, then **Overview**, then the **Numbers** tab, shows how your community is doing over 7 days, 30 days, 90 days or a year: members, active members, new contributors, the typical time to a first reply and questions with no reply, each compared with the period before. Numbers counts what people do, never what they read. It never shows page views, reading time or who looked at what, and any count of 1 to 4 people shows as "fewer than 5". See [Numbers](../owners/run-your-community.md#numbers).

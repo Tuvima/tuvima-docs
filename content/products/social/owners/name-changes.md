@@ -27,7 +27,7 @@ You can't act on yourself, or on anyone whose role is as high as yours or higher
 
 ## Name requests
 
-Open **Manage**, then **Name changes**. The page lists requests that are waiting, oldest first, with:
+Open **Manage**, then **Approval queue** under **Safety**, and choose the **Name changes** tab. The page lists requests that are waiting, oldest first, with:
 
 - **Now**: the member's name today,
 - **Wants**: the handle they asked for, and a display name if they added one,

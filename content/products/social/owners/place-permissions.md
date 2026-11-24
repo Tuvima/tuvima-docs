@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Forums and chat channels share one list of **permissions**. A permission is one thing a person may do, such as start a thread, reply or post a message in chat. Every role has its own community-wide switches, and every **place** can change them for that place. A place is a category, a forum or a chat channel.
+Forums and chat channels share one list of **permissions**. A permission is one thing a person may do, such as start a thread, reply or post a message in chat. Every role has its own community-wide switches, and every **place** can change them for that place with a **role exception**. A place is a category, a forum or a chat channel.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/place-permissions-desktop-light.jpg" alt="The permissions for each place in a community, by role." width="1600" height="1000" loading="lazy" decoding="async">
@@ -44,25 +44,28 @@ For a staff role, the Everyday group is folded into one line, "Same as Member, p
 
 These switches are the community-wide answer. A place can change the answer for itself.
 
-## Open a place's Permissions
+## Open a place's role exceptions
 
-- **A forum:** open **Manage**, then **Forums and categories**, choose the forum's name, then open the **Permissions** tab.
-- **A chat channel:** choose **Edit** next to the channel, then open the **Permissions** tab.
-- **A category:** choose **Permissions** next to the category.
+Open **Manage**, then **Forums and channels**, choose the category, forum or chat channel, and open its **Access** tab. See [the tree and the place tabs](categories-and-forums.md#open-a-places-settings). The **Access** tab has three parts: **Who can see and post here**, **Role exceptions here** and **Why can or can't someone post here?**.
 
-At the top, a line says what the place follows. For a forum it names its category. For a category it says how many forums and channels follow it, and which have their own settings.
+### Role exceptions here
 
-Under **Roles** you see **Everyone** first, then each role. Next to each role is a short summary, such as **Same as above** or **2 allowed, 1 denied here**. The Owner is not listed, because the Owner is never affected. There is no row for the ready-made Member role either: **Everyone** stands for all members in a place.
+This list shows only the roles that work differently in this place. A role that simply follows the usual settings isn't listed. A line at the top says what the place follows: a forum names its category, and a category says how many forums and channels follow it.
 
-Pick a row. Each permission that makes sense in this place gets three choices:
+Each listed role shows its **Allow** and **Deny** exceptions, with **Edit** and **Remove**. The owner also sees **View as <role>** on each row. The Owner is never listed, because the Owner is never affected. There is no row for the ready-made Member role either: **Everyone** stands for all members in a place.
 
-- **Allow**: this role can do it here.
-- **Deny**: this role can't do it here.
-- **Same as above**: no setting of its own here. The line under it says what that works out to now and why, for example "On, from the Member role" or "Off, denied for Everyone in Hardware".
+To add one:
 
-Make your changes for one row, then choose **Save changes**. Each row is saved on its own. If a change can't be made, the page says why in plain words.
+1. Choose **Add an exception**.
+2. Pick the role, such as **Everyone** or **Announcer**.
+3. Pick what it can or can't do here.
+4. Choose **Allow** or **Deny**.
 
-Only the permissions that apply to the place are listed. A forum lists conversation permissions, a chat channel lists chat ones, and a category lists both kinds.
+A permission with no exception for a role stays **Same as above**: no setting of its own here, and it works out to the category's setting or the role's community-wide switch. **Remove** takes an exception away and returns the role to that.
+
+Only the permissions that apply to the place are offered. A forum offers conversation permissions, a chat channel offers chat ones, and a category offers both kinds. Like other changes on the tab, exceptions use the page's one save bar: **Save changes** or **Cancel**. If a change can't be made, the page says why in plain words.
+
+**See every role in a grid** opens **Roles and permissions**, then **Access by forum**, which shows every place and role at once. See [choose who can see and post in each area](area-access.md#see-every-forum-at-once).
 
 ## How the choices add up
 
@@ -73,11 +76,11 @@ Only the permissions that apply to the place are listed. A forum lists conversat
 5. **Staff permissions stay with staff.** A role based on Member can never be given a staff permission, in any place. Those rows are locked, and so are all staff rows for Everyone.
 6. **You can change only roles below your own**, and hand out only permissions you hold there yourself. An admin who lacks a permission can't allow it for anyone else.
 
-These rules are also shown on every Permissions tab, under **How these settings work**.
+These rules are also shown on the **Access** tab, under **How these settings work**.
 
 ## Who can see and post comes first
 
-[**Who can see and post**](area-access.md) is a separate setting. It decides who may be in a place at all. Permissions then fine-tune it, role by role.
+[**Who can see and post here**](area-access.md) is the first part of the same **Access** tab. It decides who may be in a place at all. Role exceptions then fine-tune it, role by role.
 
 If someone can't open a place, no Allow here will let them in. If a place is only for Supporters, a Deny can take things away from Supporters, but Everyone can't get in by being allowed something.
 
@@ -89,17 +92,17 @@ Members can read and react. Only Announcers can write.
 
 1. Make a role called **Announcer**. See [make your own role](roles.md#make-your-own-role). A copy of Member is enough.
 2. Give the role to the people who will post. See [give someone a role](roles.md#give-someone-a-role).
-3. Open the channel's **Permissions** tab and pick **Everyone**.
-4. Set **Post messages in chat** to **Deny**. Leave **Add reactions and votes** on **Same as above**.
-5. Pick **Announcer** and set **Post messages in chat** to **Allow**.
-6. Choose **Save changes** for each row.
+3. Open the channel's **Access** tab. Under **Role exceptions here**, choose **Add an exception** and pick **Everyone**.
+4. Set **Post messages in chat** to **Deny**. Leave **Add reactions and votes** alone.
+5. Add another exception: pick **Announcer** and set **Post messages in chat** to **Allow**.
+6. Choose **Save changes**.
 
-A named role beats Everyone, so Announcers can write and nobody else can. Check **Who can see and post** for the channel too: if it says only moderators and up can post, change it to let members post, or the Allow for Announcer has nothing to work with. Other members see "Only some members can post here" in place of the message box. If you also want an admin to write there, pick **Admin** and choose **Allow** too. You can also make a read-only channel with **Who can see and post**; the permissions way lets you name exactly which roles may write.
+A named role beats Everyone, so Announcers can write and nobody else can. Check **Who can see and post here** for the channel too: if it says only moderators and up can post, change it to let members post, or the Allow for Announcer has nothing to work with. Other members see "Only some members can post here" in place of the message box. If you also want an admin to write there, pick **Admin** and choose **Allow** too. You can also make a read-only channel with **Who can see and post**; the permissions way lets you name exactly which roles may write.
 
 ### A Muted role
 
 1. Make a role called **Muted**, as a copy of Member.
-2. Open the **Permissions** page of the category, for example Hardware, and pick **Muted**.
+2. Open the category's **Access** tab, for example Hardware, and choose **Add an exception** for **Muted**.
 3. Set **Start threads**, **Reply** and **Add reactions and votes** to **Deny**, and save.
 
 Every forum in the category follows it, so one change covers them all. Deny beats the Member role's community-wide On, because the nearest place wins. Give the role to someone to mute them there. Take it away to unmute.
@@ -111,7 +114,7 @@ A Deny meant to bind admins belongs on the forum itself. A forum that is moved o
 ### A moderator for one forum only
 
 1. Make a role called, for example, **Swap Meet moderator**. Start it from Moderator, with nothing switched on community-wide.
-2. Open the forum's **Permissions** tab and pick the role.
+2. Open the forum's **Access** tab and add an exception for the role.
 3. Under **Conversations**, set **Hide and remove posts**, **Pin and look after threads** and **Review reports** to **Allow**, and save.
 4. Give the role to the member.
 
@@ -121,9 +124,9 @@ They can moderate that forum and no other. This replaces the old way of limiting
 
 Members can ask but not reply, for example a forum where staff answer.
 
-1. Open the forum's **Permissions** tab and pick **Everyone**.
+1. Open the forum's **Access** tab and add an exception for **Everyone**.
 2. Set **Start threads** to **Allow** and **Reply** to **Deny**, and save.
-3. If staff should answer, pick their role, such as **Moderator**, and set **Reply** to **Allow**.
+3. If staff should answer, add an exception for their role, such as **Moderator**, and set **Reply** to **Allow**.
 
 Starting a thread asks only for **Start threads**, so a place can refuse replies and still let people ask.
 
@@ -131,21 +134,21 @@ Starting a thread asks only for **Start threads**, so a place can refuse replies
 
 On the roles list, choose **Compare roles**. The **In:** picker chooses a place, grouped by category, with each category's forums and channels. Choose **Show**. Each tick now means "yes in that place", after the place's own settings, and only the permissions that apply there are listed. See [compare roles](roles.md#compare-roles).
 
-## View as a role and Why?
+## View as a role and the post check
 
 Two tools let you check your settings before members notice a mistake.
 
-**View as a role** is for the owner. On a role's page, or on a place's Permissions tab, choose **View as this role**. You then browse the community the way someone with that role sees it. A bar at the top says "Viewing as…" with an **Exit** button. Places the role can't see are missing from the lists, and so are actions it can't take, such as the message box in a channel where it can't post.
+**View as a role** is for the owner. On a role's page, or beside a role under **Role exceptions here**, choose **View as <role>**. You then browse the community the way someone with that role sees it. A bar at the top says "Viewing as…" with an **Exit** button. Places the role can't see are missing from the lists, and so are actions it can't take, such as the message box in a channel where it can't post.
 
 Nothing can be changed while you view, and you never act as that role. Your own messages, alerts and settings are hidden until you choose **Exit**. The view ends by itself after an hour, or when you sign out.
 
-**Why?** answers "why can't this person do that here?". Open **Manage**, then **Roles and permissions**, then **Check a person**. Pick a member or a role, then a place, and choose **Show**. Each permission shows **Yes** or **No** with the one line that decided it, for example "Denied for Everyone on #announcements, and none of their roles allow it." It only explains; it changes nothing.
+**Why can or can't someone post here?** answers "why can't this person do that here?". It is on the place's **Access** tab, and isn't shown to staff who can only manage chat channels. Pick a member and choose **Check**. The person isn't told. To check a person across other places, open **Manage**, then **Roles and permissions**, then **Check a person**. Pick a member or a role, then a place, and choose **Show**. Each permission shows **Yes** or **No** with the one line that decided it, for example "Denied for Everyone on #announcements, and none of their roles allow it." It only explains; it changes nothing.
 
 ## If you used the older settings
 
-- **Limit this role to chosen forums** is gone. Use **Allow** on the forum's Permissions tab instead. See [a moderator for one forum only](#a-moderator-for-one-forum-only).
+- **Limit this role to chosen forums** is gone. Use an **Allow** exception on the forum's **Access** tab instead. See [a moderator for one forum only](#a-moderator-for-one-forum-only).
 - The role's separate feature switches, such as **Post photos**, **Start polls**, **Looking for group posts** and **Add links to posts**, now sit under **Everyday** with the other everyday permissions. Any place can change them.
-- **Who can see and post** is unchanged.
+- **Who can see and post** now sits on the same **Access** tab.
 
 Tuvima does not turn old forum limits into place settings for you. Check each role's page, and set any place you want to differ.
 

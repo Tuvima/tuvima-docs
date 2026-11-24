@@ -19,7 +19,7 @@ status: early-access
 
 ## Open the achievements page
 
-Choose **Manage**, then **Achievements** under **Members and access**. You see it if you are the owner or an admin, or if one of your roles has the **Give achievements** permission. Someone with only that permission sees only the hand-given log.
+Choose **Manage**, then **Levels and recognition** under **People**, and choose the **Achievements** tab. You see it if you are the owner or an admin, or if one of your roles has the **Give achievements** permission. Someone with only that permission sees only the hand-given log.
 
 The page has three tabs:
 

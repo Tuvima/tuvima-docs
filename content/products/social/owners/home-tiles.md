@@ -39,7 +39,7 @@ Choose **Arrange home** on your home page. The page itself becomes the editor, s
 - **Undo** takes back your last change, one step at a time.
 - **Save** makes your arrangement live. Nothing changes for members until you save. If you leave without saving, Tuvima asks first so you don't lose your changes.
 
-You can move blocks such as **About**, **Rules**, **Links** and **Welcome**, and the order of your categories. The order you choose is your categories' order everywhere in the community. To add, rename or remove a category, use [Forums and categories](categories-and-forums.md).
+You can move blocks such as **About**, **Rules**, **Links** and **Welcome**, and the order of your categories. The order you choose is your categories' order everywhere in the community. To add, rename or remove a category, use [Forums and channels](categories-and-forums.md).
 
 ## Tiles
 
@@ -48,6 +48,8 @@ With the **Tiles** layout, each category is one tile. Choose a tile to change it
 - **Full**: the whole width of the page. Good for your main category.
 - **Half**: two side by side. This is how every category starts.
 - **Third**: three side by side. Small and tidy, so a third tile shows its colour mark but no picture.
+
+Drag a tile by its grip to move it: with a mouse, drag and drop; on a phone, hold the grip, then move; with a keyboard, Tab to the grip, press Space to lift, use the arrow keys, then Space to drop (Esc cancels). **Move earlier** and **Move later** buttons do the same. The order you choose is your categories' order everywhere in the community.
 
 On phones, every tile takes the full width, one under another, in the same order.
 
@@ -64,4 +66,12 @@ For each tile, tick what it shows: **Description**, **Forum list** (each forum w
 
 ## Hide the side column
 
-The side column holds your About, Rules and other blocks. Choose **Side column: Hide (full width)** so the page uses the whole width. Choose **Show** to bring it back. Your blocks are kept either way.
+The side column holds your About, Rules and other blocks. Choose **Side column: Hide (full width)** so the tiles use the whole width of the page. Choose **Show** to bring it back. Your blocks are kept either way. See [Change your community's look](look-and-feel.md) to choose which blocks it holds.
+
+## Preview on a phone
+
+Choose **Preview on phone** to see your layout at a phone's width before you publish. Choose **Back to full size** to return.
+
+## Adding or removing categories
+
+The tile builder arranges the categories you have. To add, rename or remove a category, use [Forums and channels](categories-and-forums.md). A new category appears at the end of your tiles as a half-width tile until you move it.

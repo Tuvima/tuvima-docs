@@ -35,7 +35,7 @@ Switching Lamplighters off stops the list and the alerts. The role and the achie
 
 Holders of the role get a **Waiting for a welcome** page, with a count in the community menu and on the home. It lists conversations started in the last 7 days by newcomers that nobody but the author has replied to. It only shows posts they can already read, never posts waiting for approval. After 2 hours, each Lamplighter gets one bell alert per waiting post, at most 3 a day. Members can switch the alerts off. See [Lamplighters](../guides/lamplighters.md) for the member's view.
 
-Moderators see the same list under **Manage › Safety › Waiting for a welcome**, if they can hide or remove posts, so the team can step in too.
+Moderators see the same list under **Manage › People › Newcomers › Waiting for a welcome**, if they can hide or remove posts, so the team can step in too.
 
 Who counts as a newcomer follows your [newcomer settings](run-your-community.md): someone is new until they've passed your newcomer steps.
 

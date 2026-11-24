@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Path questions let new members tell you what they're here for, so their menu starts with the places they care about. Open **Manage › Onboarding** and choose **Edit** on **Questions**.
+Path questions let new members tell you what they're here for, so their menu starts with the places they care about. Open **Manage › People › Onboarding** and choose **Edit** on **Questions**.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/onboarding-questions-desktop-light.jpg" alt="The question editor: each question with Pick one or Pick any, a Required switch and its answers, and for each answer the places it adds to the menu and the role it gives, with a live preview beside it." width="1600" height="1000" loading="lazy" decoding="async">
