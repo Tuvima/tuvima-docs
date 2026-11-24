@@ -47,6 +47,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/custom-feeds.md",
+      "slug": "guides/custom-feeds",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/home-feed.md",
       "slug": "guides/home-feed",
       "group": "Guides",
