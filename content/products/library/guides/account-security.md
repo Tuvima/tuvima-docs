@@ -19,7 +19,7 @@ An account signs in. A profile holds personal history, preferences, and View Per
 2. Choose **Add a sign-in**. Pick **A profile without a sign-in** to give an existing profile its own sign-in, or **A new person** to make their profile as well (a name, their household or **A new household**, and **Kid's profile** if it should be one).
 3. Enter the person's email, then pick how they will sign in for the first time: **Send an invitation** (the default) or **Set a temporary password**.
 4. Hand over what Tuvima shows you, through a trusted private channel. It is shown once.
-5. Set what that person may see and do on their profile, under **Settings → Manage Profiles**: the administrator roles, Read, Watch, Listen and View, and the libraries. A sign-in only opens a profile; the profile holds the access.
+5. Set what that person may see and do on their profile, under **Settings → Household**: the administrator roles, Read, Watch, Listen and View, and the libraries. A sign-in only opens a profile; the profile holds the access.
 
 Only server administrators create sign-ins. There is no public sign-up, and Tuvima never sends email for this. If Tuvima refuses (for example a second household while the server administrator has no password yet), it says why and nothing is created.
 
@@ -43,10 +43,10 @@ Every sign-in that works away from home needs an email address. The administrato
 
 ## Add a person, and give them their own sign-in
 
-A person is looked after from their own page under **Settings → Manage Profiles**, which is for administrators only; each person's row has an **Edit** button. What you see depends on who you are:
+A person is looked after from their own page under **Settings → Household**, which is for administrators only; press a person's row to open their page. What you see depends on who you are:
 
 - A **household administrator** sees the people in their own household (up to 8), and, on **Security & Devices → Devices**, the paired devices and signed-in browsers of their household (every signed-in person sees that page, but a member sees only their own). Nothing from Users & Households is shown, and they cannot reach another household.
-- A **server administrator** sees every household on the **Households** page under Users & Households (**Settings → Users & Households → Households**), which lists each household (name, how many people, how many sign-ins) and is the one place to create, rename or remove it. Manage Profiles lists people and links there. A household can only be removed once it has no people, sign-ins or shared photos.
+- A **server administrator** sees every household on the **Households** page under Users & Households (**Settings → Users & Households → Households**), which lists each household (name, how many people, how many sign-ins) and is the one place to create, rename or remove it. Household lists people and links there. A household can only be removed once it has no people, sign-ins or shared photos.
 - Anyone else does not see Profiles. They change their own name, picture and details from **Edit profile** on their Overview, and look after their sign-in under **Settings → Security & Devices**.
 
 On a person's page:
@@ -65,8 +65,8 @@ If a household administrator turned on an administrator PIN, Tuvima asks for it 
 
 Administrator rights belong to the profile: a profile is a server administrator or a household administrator, and the settings only open while that profile is the one in use. The optional PIN lock is a setting on the profile too.
 
-1. Make sure the profile holds an administrator role (**Settings → Manage Profiles**, the person's **Roles** group) and has a PIN (**Profile details**). There is one PIN per profile; admin pages and Vault mode ask for that same PIN.
-2. Open the person's page under **Settings → Manage Profiles**. An **Administrator PIN** group appears there, on your own profile or, for a server administrator, on anyone's.
+1. Make sure the profile holds an administrator role (**Settings → Household**, the person's **Access & safety** tab) and has a PIN (**Profile details**). There is one PIN per profile; admin pages and Vault mode ask for that same PIN.
+2. Open the person's page under **Settings → Household**. An **Administrator PIN** group appears there, on your own profile or, for a server administrator, on anyone's.
 3. Turn on **Ask for a PIN to open administrator settings** (it is off until you do) and choose how long an unlock lasts.
 
 For example, Mom is a household administrator and signs in as mom@home.com into her own profile. If she also needs server settings, she switches to Shy's profile, which asks for Shy's PIN when he has turned this on.
@@ -100,7 +100,7 @@ Two-step codes add a second check to password sign-in. You turn them on yourself
 - Passkey and **Sign in with…** sign-ins never ask for a code. They are already a second kind of proof.
 - **Confirm it's you** also asks for the code while two-step is on.
 - To turn it off, confirm it's you, then enter a fresh code (wait for the next one if you just used one) or a recovery code.
-- If someone loses both their phone and their recovery codes, an administrator can turn their codes off from that person's page under **Settings → Manage Profiles**, in **Household access** → **Two-step codes** (for a person with their own sign-in): a server administrator for anyone, a household administrator for their own household. This is recorded in the audit log. You can also run `tuvima-admin auth reset-two-step --email someone@example.com` on the computer that hosts Tuvima.
+- If someone loses both their phone and their recovery codes, an administrator can turn their codes off from that person's page under **Settings → Household**, in **Household access** → **Two-step codes** (for a person with their own sign-in): a server administrator for anyone, a household administrator for their own household. This is recorded in the audit log. You can also run `tuvima-admin auth reset-two-step --email someone@example.com` on the computer that hosts Tuvima.
 - Codes are checked offline against a secret stored encrypted on your server. Nothing is sent to any service, and there are no text or email codes.
 
 ## Password rules

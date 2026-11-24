@@ -37,7 +37,7 @@ The guided flow offers a **Share with friends** card in the **Choose** step, and
    - **Household.** Which household they belong to, for example Friends.
    - **Libraries.** Which libraries they can open, for example Movies and TV.
 
-   A friend never sees more than you choose here. You can change it later in **Settings → Manage Profiles**. See [Households](../households.md).
+   A friend never sees more than you choose here. You can change it later in **Settings → Household**. See [Households](../households.md).
 4. Create the invitation. Library shows:
    - the **link** and a **QR code**,
    - a short code you can read out (for example `KQ7M4-XH2TA`),
@@ -80,7 +80,7 @@ A mobile web browser still works. The link opens a page in the browser, they cho
 | "This invitation is not valid" | It was already used or has passed 7 days. Make a new one. |
 | The page does not load | Your outside address is not reachable from their network. Run the Test step. With Tailscale, they must be connected to Tailscale. |
 | The app store opens, but the app is not there for their device | Use the browser fallback. |
-| They can sign in but see nothing | Check the household and libraries in **Settings → Manage Profiles**. |
+| They can sign in but see nothing | Check the household and libraries in **Settings → Household**. |
 
 ## Taking it back
 

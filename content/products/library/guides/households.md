@@ -13,12 +13,12 @@ A household is the group of people who live together and the sign-ins that open 
 
 ## Before you start
 
-- You need to be a server administrator or a household administrator. Both look after profiles from **Settings → Manage Profiles**, which only administrators see: choose **Edit** on a person's row to open their page. Households are created, renamed and removed in one place only: **Settings → Users & Households → Households** (server administrators). Manage Profiles lists people and links to that page.
+- You need to be a server administrator or a household administrator. Both look after profiles from **Settings → Household**, which only administrators see: the page is titled with the household's name and each person is one row; press a row to open their page (your own row opens **My profile**). Households are created, renamed and removed in one place only: **Settings → Users & Households → Households** (server administrators). Household lists people and links to that page.
 - Users (sign-ins) are looked after only by the server administrator, in **Settings → Users & Households**.
 
 ## Add a person to the household
 
-1. Open **Settings → Manage Profiles** and choose **Add profile** in the household's list (a server administrator picks the household by using the row in its group).
+1. Open **Settings → Household** and choose **Add profile** in the household's list (a server administrator picks the household by using the row in its group).
 2. Enter a name. Switch on **Kid's profile** if this person is a child. A Kid's profile never has administrator access or Vault access, and a new profile starts with nothing hidden.
 3. Optionally set a **PIN**. Anyone who switches into that profile is asked for it. Use 4 to 12 digits. You can change it later from the person's **Profile details**.
 4. Save. The person appears in the list. They can use the profile straight away by switching to it, and they do not need a sign-in of their own. A household holds up to eight people; at eight, Tuvima shows the Engine's sentence instead of adding a ninth.
@@ -45,7 +45,7 @@ Only the server administrator sees this. On **Settings → Users & Households �
 
 ## Set what Kids can see
 
-A Kid's profile is simply a switch on the person's page. What every Kid's profile can see is one setting on the household, under **What Kids can see** in the household's group on **Settings → Manage Profiles** (administrators only). Choose a maximum level for each of **Watch**, **Read** and **Listen**: G, PG, PG-13 or R, each described by what it shows (the default is PG for all three). One **Show unrated items** switch, on by default, decides whether items with no rating (home videos, most books and music) are shown to Kids. Changing these updates every Kid's profile in the household at once. Explicit and adult content counts as adult-rated. The levels guide what Kids see on the home page and in lists; parents still supervise, and a profile PIN stops a child switching into an adult profile.
+A Kid's profile is simply a switch on the person's page. What every Kid's profile can see is one setting on the household, under **What Kids can see** in **For everyone in this household** on **Settings → Household** (administrators only). Choose a maximum level for each of **Watch**, **Read** and **Listen**: G, PG, PG-13 or R, each described by what it shows (the default is PG for all three). One **Show unrated items** switch, on by default, decides whether items with no rating (home videos, most books and music) are shown to Kids. Changing these updates every Kid's profile in the household at once. Explicit and adult content counts as adult-rated. The levels guide what Kids see on the home page and in lists; parents still supervise, and a profile PIN stops a child switching into an adult profile.
 
 ## Roles on a profile
 
@@ -57,7 +57,7 @@ If a profile that holds an administrator role has a PIN, turn on **Ask for a PIN
 
 ## Someone from outside your household
 
-A server administrator can add someone who is not part of an existing household. Choose **Add a sign-in** under **Users & Households → Users**, then **A new person**, set their household to **A new household** and give it a name. They start a household of their own and look after it. Once they are in, give them only what they need on their profile under **Settings → Manage Profiles**.
+A server administrator can add someone who is not part of an existing household. Choose **Add a sign-in** under **Users & Households → Users**, then **A new person**, set their household to **A new household** and give it a name. They start a household of their own and look after it. Once they are in, give them only what they need on their profile under **Settings → Household**.
 
 ## The profile picker
 
@@ -85,7 +85,7 @@ On a person's page choose **Delete profile**. Tuvima lists what goes with it (pr
 
 ## What a household administrator can and cannot do
 
-A household administrator can add and remove people in their own household, set their PINs, choose what they can open and make another person with a sign-in a household administrator, all from each person's page under **Settings → Manage Profiles**. They cannot add, change or delete users (sign-ins); the server administrator does that in **Users and Sign-in**. The Households list and the rest of **Settings → Users & Households** stay with a server administrator.
+A household administrator can add and remove people in their own household, set their PINs, choose what they can open and make another person with a sign-in a household administrator, all from each person's page under **Settings → Household**. They cannot add, change or delete users (sign-ins); the server administrator does that in **Users and Sign-in**. The Households list and the rest of **Settings → Users & Households** stay with a server administrator.
 
 They cannot change another household or a server administrator's profile, and only a server administrator makes someone a server administrator.
 

@@ -201,7 +201,7 @@ The one place for items the Engine is not sure about: blocked, uncertain, low-co
 
 ### Own sign-in
 
-An email sign-in that belongs to one person in a household and opens straight to them, without the profile picker. The person stays in the household. An own sign-in is never an administrator, and it follows the library and lane access of the household's main sign-in, so later changes to the household reach the person. An administrator gives it from the person's page under **Settings → Manage Profiles** (the **Sign-in** row) and can remove it at any time; removing it keeps the person and everything they have saved.
+An email sign-in that belongs to one person in a household and opens straight to them, without the profile picker. The person stays in the household. An own sign-in is never an administrator, and it follows the library and lane access of the household's main sign-in, so later changes to the household reach the person. An administrator gives it from the person's page under **Settings → Household** (the **Sign-in** row) and can remove it at any time; removing it keeps the person and everything they have saved.
 
 ### Outside address
 
@@ -363,7 +363,7 @@ Separate household-owned View storage containing accepted contributions. Each ho
 
 ### Household administrator
 
-The person who looks after one household: adds and removes people, gives people their own sign-ins, sets PINs, and hands out libraries and features the household already has. They work from **Settings → Manage Profiles**, and from **Settings → Security & Devices → Devices** for their own household's devices and signed-in browsers. They never reach another household or the server's settings, which stay with the **server administrator**.
+The person who looks after one household: adds and removes people, gives people their own sign-ins, sets PINs, and hands out libraries and features the household already has. They work from **Settings → Household**, and from **Settings → Security & Devices → Devices** for their own household's devices and signed-in browsers. They never reach another household or the server's settings, which stay with the **server administrator**.
 
 ### Account
 
