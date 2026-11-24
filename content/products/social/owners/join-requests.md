@@ -20,10 +20,10 @@ When your community uses **Ask to join**, or during a [slow-down](how-people-joi
 ## Approve or decline
 
 1. Open **Manage**, then **Approval queue** under **Safety**. Join requests wait there with held posts and reports. The oldest come first.
-2. Each request shows the persona that asked, when, and their answers to your [questions for approving people](onboarding-questions.md).
+2. Each request shows the persona that asked, when, and their answers to your [questions](onboarding-questions.md). The owner and admins see every answer. Other reviewers see written and number answers, and choice answers whose question has **Moderators see the answers** on.
 3. Choose **Approve** or **Decline**.
 
-When you approve, the person becomes a member straight away and is told in their notifications. Your newcomer limits apply to them as to anyone who joins.
+When you approve, the person becomes a member straight away and is told in their notifications. Their answers to choice questions become their picks, so they get the places those answers add without being asked again. Your newcomer limits apply to them as to anyone who joins.
 
 When you decline, the person is not told why. Their community page shows **Not approved**, with the date they can ask again: **30 days** after the decline.
 
@@ -37,7 +37,7 @@ Some requests carry a small **Take a closer look** label. Tuvima ID adds it when
 
 - A request nobody decides closes by itself after **30 days**.
 - The person can **Withdraw** their request while it waits.
-- Answers are deleted 90 days after the decision.
+- Answers are deleted 90 days after the decision. The places a member picked stay with them as their own choices.
 
 ## Next steps
 

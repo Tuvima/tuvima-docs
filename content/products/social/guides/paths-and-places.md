@@ -1,13 +1,13 @@
 ---
 title: Paths and Pick what you see
-description: Choose your paths when you join a community, then use Pick what you see to change your answers, roles and which places show in your menu.
+description: Answer a community's questions when you join so your menu shows what you're into, then use Pick what you see to change your answers, roles and places.
 audience: user
 category: guide
 product_area: tuvima
 status: early-access
 ---
 
-A busy community can have dozens of forums and chat channels. **Paths** let you say what you're into, so your menu shows the places you care about. **Pick what you see** is one page where you change your answers, the roles you picked and which places are in your menu. Only you see these choices; nobody is told what you hid.
+A busy community can have dozens of forums and chat channels. When you join, a community can ask a few questions about what you're into. Some answers add places to your menu, so it shows the places you care about. We call an answer like that a **path**. **Pick what you see** is one page where you change your answers, the roles you picked and which places are in your menu. Only you see these choices; nobody is told what you hid.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/join-paths-desktop-light.jpg" alt="Joining a community: a question with answer tiles, a line saying what you'll get, and Back and Next buttons." width="1600" height="1000" loading="lazy" decoding="async">
@@ -17,24 +17,26 @@ A busy community can have dozens of forums and chat channels. **Paths** let you 
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-## Choose your paths when you join
+## Answer the questions when you join
 
-When a community has set up paths, choosing **Join** takes you through a few short steps:
+Each community asks its questions once, when you join. When a community lets anyone join and has questions, choosing **Join** takes you through a few short steps:
 
-1. **Choose your paths.** Each step asks one question written by the community, such as "Where do you play?". Pick one answer, or several when the question says **Pick any**. Each answer shows what it's about, and popular answers show roughly how many people chose them.
+1. **Answer the questions.** Each step asks one question written by the community, such as "Where do you play?". Pick one answer, or several when the question says **Pick any**. Each answer shows what it's about, and popular answers show roughly how many people chose them.
 2. The line at the bottom says exactly what your picks give you, for example "You'll get Switch players and # switch-players". Nothing happens that you weren't told.
 3. Choose **Skip for now** to move on without answering. Some communities make a question required; then you need to pick an answer.
 4. **One last step: house rules.** Read the community's rules, choose the persona you join as, and choose **Join**. Joining means you agree to the rules.
 
 Use **Back** at any time to change an earlier answer. Nothing is saved until you choose **Join**, so closing the steps halfway doesn't join you.
 
-If you joined before the community set up paths, a **Choose your paths** banner on the community offers **Choose** or **Not now**. **Choose** opens Pick what you see.
+If the community has no questions, you go straight to the rules and join in one step.
 
-If the community asks people to be approved first, you see the rules and the community's questions with your request instead. Some of those questions can also be paths: once you're approved, your answer becomes your pick, and you can change it later on **Pick what you see**. You choose any other paths once you're in. A banner on the community offers **Choose your paths**.
+If the community asks people to be approved first, you see the rules and the community's questions together with your request, under **A few questions**. The community's team reads your answers with your request. Once you're approved, your answers to choice questions become your picks, so you get the places they add, and you can change them later on **Pick what you see**. You aren't asked again.
+
+If you joined before the community wrote its questions, an **A few questions** banner on the community offers **Choose** or **Not now**. **Choose** opens Pick what you see.
 
 ## What a path gives you
 
-Each answer is a **path role**: a role you pick yourself. Depending on how the community set it up, a path role can:
+An answer that adds places does it by giving you a **path role**: a role you pick yourself. Depending on how the community set it up, a path role can:
 
 - put places (forums, chat channels or whole categories) in your menu,
 - follow some places for you, so new conversations there reach your bell (never email),
@@ -42,7 +44,7 @@ Each answer is a **path role**: a role you pick yourself. Depending on how the c
 
 A path role can never give anyone moderator or staff powers.
 
-**Your picks are private.** Other members don't see your paths, and the community's staff only see rounded totals, never names. The exception is a role the owner has chosen to show on member cards, such as "Raid team", where showing it is the point. The role's description says so before you pick it.
+**Your picks are private.** Other members don't see your paths, and once you're a member the community's staff only see rounded totals, never names. Where you asked to join, the people who reviewed your request may have seen your answers with it; those answers are deleted 90 days after the decision. The exception is a role the owner has chosen to show on member cards, such as "Raid team", where showing it is the point. The role's description says so before you pick it.
 
 ## Open Pick what you see
 

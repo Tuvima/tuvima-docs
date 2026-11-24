@@ -23,7 +23,7 @@ You need to be signed in to join any community.
 
 1. Open the community and choose **Ask to join**.
 2. Choose the persona to join with, as for [any community](join-a-community.md#join).
-3. Answer its questions, if it has any.
+3. Answer its questions, if it has any, under **A few questions**. The community's team reads your answers with your request. If it has none, there is nothing to fill in.
 4. Choose **Agree to the rules and ask to join**. You see **Request sent**.
 
 While you wait, the community's page says **Your request is waiting**. Choose **Withdraw** if you change your mind.
