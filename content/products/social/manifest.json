@@ -149,6 +149,12 @@
       "section": "Take part"
     },
     {
+      "source": "guides/messages-from-moderators.md",
+      "slug": "guides/messages-from-moderators",
+      "group": "Guides",
+      "section": "Take part"
+    },
+    {
       "source": "guides/chat-channels.md",
       "slug": "guides/chat-channels",
       "group": "Guides",
@@ -253,6 +259,12 @@
     {
       "source": "owners/moderator-tools.md",
       "slug": "owners/moderator-tools",
+      "group": "Guides",
+      "section": "Run a community"
+    },
+    {
+      "source": "owners/moderator-messages.md",
+      "slug": "owners/moderator-messages",
       "group": "Guides",
       "section": "Run a community"
     },

@@ -101,7 +101,7 @@ Choose **Details** on a row. A panel opens beside the list, so you keep your pla
 - their answers to your [join questions](onboarding-questions.md#who-sees-the-answers), if they asked to join and you can review requests,
 - private **moderator notes** (see below),
 - **Warn**, **Suspend** and **Ban**, if your role allows them.
-- **Message**, if you hold a moderation permission. It starts a [private message](../guides/messages.md) to the member as a moderator: it carries a **Moderator** tag, reaches them whatever their message settings, and is noted in the moderation record (never what was said).
+- **Message**, if you hold **Handle moderator messages**. It writes to the member as the community: they see your community's name, never yours, it reaches them whatever their message settings, and it is noted in the moderation record (never what was said). See [moderator messages](moderator-messages.md).
 
 Email addresses and sign-in details are never shown here. They stay in Tuvima ID.
 

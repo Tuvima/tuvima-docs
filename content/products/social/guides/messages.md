@@ -121,7 +121,7 @@ To choose who may start a conversation with you in the first place, see [who can
 
 ## Messages from moderators
 
-Moderators of a community can always reach a member there about a problem, whatever that member's settings. When they do, they write from the community's moderation screens: the message carries a **Moderator** tag and a line saying which post it is about, and the community's moderation record notes that a moderator contacted you. It never records what was said. When a moderator messages you the ordinary way, they are a member like anyone else: your settings and blocks apply, and there is no tag.
+A community's moderators write to you **as the community**: you see the community's name and a **Community** label, never which moderator wrote, and your reply goes to their whole moderator team. You can also start one yourself with **Message the moderators**. See [messages with a community's moderators](messages-from-moderators.md). When a moderator messages you the ordinary way, they are a member like anyone else: your settings and blocks apply.
 
 ## Report a threat to Tuvima
 
