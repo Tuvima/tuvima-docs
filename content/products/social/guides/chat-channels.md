@@ -39,6 +39,20 @@ Some communities open on chat: when you open the community as a member, you land
 
 The top of a channel shows its name, what it is for, and **Writing as** with the persona you use in that community.
 
+## Read the room and see who is here
+
+Messages are grouped by person, so a run of messages from one person shows their name once. A **New** line marks where the messages you have not read begin.
+
+On the right, members see a list of people:
+
+- **Moderators**.
+- **Here now**: people who have this room open right now, with a green dot.
+- **Earlier today**: people who posted here in the last 24 hours.
+
+Only members of the community see this list. Pick a name to open their [persona card](community-pages.md#look-at-someones-persona-card). If your [status](status.md) is **Hidden**, you stay out of **Here now**. Your messages and **Earlier today** still show you, with no dot. If you and another person have blocked each other, neither of you sees the other in the list.
+
+On a smaller screen, an **N here** button opens the list. On a phone it opens as a sheet.
+
 ## The dot for new messages
 
 A channel with messages you have not read is shown in bold with a **dot**. Opening the channel clears it.

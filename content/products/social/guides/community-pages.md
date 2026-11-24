@@ -1,6 +1,6 @@
 ---
 title: Find your way around a community
-description: "What you see on a community's home, its forum group pages, a conversation and a member's page in that community, with their showcase and what they're known for."
+description: "What you see on a community's home, its forum group pages, a forum, a persona card, a conversation and a member's page in that community, with their showcase and what they're known for."
 audience: user
 category: guide
 product_area: tuvima
@@ -36,8 +36,8 @@ A community's home is its front door. From top to bottom you will see:
 
 - **Forums, grouped by category.** Each category is a heading, and under it each forum shows its symbol, its name and short description, how many conversations it holds and how many replies. A forum with something you haven't read yet shows **New**. A category's heading also says how many conversations started there this week, for example **38 this week**.
 - **Faces of people who posted this week.** A row of small pictures shows people who posted in the community in the last 7 days. This is public: it shows who posted, not who is online or reading.
-- **Latest.** One line per conversation: its title, its forum and tags, small pictures of the people who posted most recently, the number of replies and when it last moved. Pinned conversations come first. Members also get **New** (start of a conversation you haven't read).
-- **Chat now** (members only). The chat channels with messages today, with **Open chat**. The messages themselves stay in chat.
+- **Latest.** One line per conversation (when Latest sits in the side column, the full list under the forums is titled **All conversations**): its title, its forum and tags, small pictures of the people who posted most recently, the number of replies and when it last moved. Pinned conversations come first. Members also get **New** (start of a conversation you haven't read).
+- **Chat now** (members only). The chat channels with messages today, with **Open chat**. Each channel shows **N here**: the people active in chat in the last 15 minutes. People whose [status](status.md) is Hidden are left out. The messages themselves stay in chat.
 - **About**, **Rules** and any other blocks the owners added, on the side. On a phone they come after the conversations.
 
 The community also shows **how many people are online**: a number only, never names. It counts people who did something in the community in the last 15 minutes. Your own [status](status.md) controls whether you appear in who's-here lists.
@@ -54,7 +54,18 @@ There are no view counts anywhere. Tuvima doesn't track who reads what.
 
 A category's own page shows its forums across the top, then its conversations. Choose a forum to see only that forum, or **All forums** to see the whole group again. **Start a conversation** picks that forum for you.
 
-Inside a forum, the forum's own name is the heading, with its description and how many conversations started there this week. On a wide screen, the forum's guidelines sit beside the list.
+## A forum's page
+
+Opening a forum shows a header and a table of its conversations.
+
+- **The header** has the forum's symbol, name and description, **Moderated by** with the moderators' names, how many conversations it holds, **Alerts** and **Start a conversation**. On a wide screen, the forum's guidelines sit beside the list.
+- **The table** has the columns **Conversation**, **People**, **Replies**, **Votes** and **Last activity**.
+
+A view switch lets you choose **List**, **Compact** or **Gallery**. List is the table. Compact is one line for each conversation. Gallery shows a card for each conversation with the first photo from its opening post. Tuvima remembers your choice on that device.
+
+## Look at someone's persona card
+
+Point at a name, or move to it with the keyboard and press Enter, to open a small **persona card**. It shows the person's level and roles, how many posts they have here, their reputation here, a few of their [achievements](achievements.md) and the day they joined. Choose **Message** (shown when that person allows it) or **View persona**. On a phone, tap a name and the card opens as a sheet. The card shows only what is public in that community.
 
 ## A conversation
 
