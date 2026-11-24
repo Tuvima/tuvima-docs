@@ -1,6 +1,6 @@
 ---
 title: Post and reply
-description: Start a conversation, save drafts, use templates and polls, read big conversations and answers, format your post, share links safely, add content warnings, quote others, and edit or delete afterwards.
+description: Start a conversation, save drafts, use templates and polls, read in Classic or Compact, read big conversations and answers, format your post, share links safely, add content warnings, quote others, and edit or delete afterwards.
 audience: user
 category: guide
 product_area: tuvima
@@ -53,9 +53,12 @@ A community can also block some words. Then your post isn't posted, and you see 
 
 ## Reply
 
-Open a conversation and write in the reply box at the bottom. On a computer the reply box is a single line until you select it, then it opens with the formatting bar. On a phone the reply box stays at the bottom of the screen, in place of the usual bottom bar, and opens the full editor when you tap it. Replies show oldest first.
+Open a conversation and write in the reply box at the bottom, which says **Write a reply…**. On a computer the reply box is a single line until you select it, then it opens with the formatting bar. On a phone the reply box stays at the bottom of the screen, in place of the usual bottom bar, and opens the full editor when you tap it. Choose how you read replies:
 
-Choose **In order** to read replies one after another, or **Nested** to see who replied to whom. Tuvima remembers your choice on that device.
+- **Classic** shows replies one after another, oldest first. On a wide screen each reply has an author column beside it. **N replies** under a post opens the replies to it in a panel, and a **Replying to** chip on a reply opens the post it answers.
+- **Compact** shows who replied to whom, in branches. Sort them by **Best**, **New** or **Old**. In a very big conversation the sort applies to the replies loaded so far. A long branch folds into one line you can open, and **Continue this thread** takes you further into a deep branch.
+
+A community's owner sets which one a forum opens on. Once you pick your own, Tuvima uses yours and remembers it on that device.
 
 On long conversations, the **Reading position** bar shows where you are and lets you jump. Members also see **Jump to where you left off** and a **New since your last visit** line.
 
@@ -67,7 +70,7 @@ A conversation with more than 200 replies opens on **Catch up**, so you can see 
 - **Folded branches**: a long run of replies to one post folds into one line, such as **+399 replies in this branch · 6 people · Sam, Jo, Mira and 3 others**. Choose it to open the branch in place.
 - **New replies since your last visit**: members see a bar at the top that jumps to the first reply they haven't seen.
 
-Choose **In order** or **Nested** at any time to read every reply. Replies load about 50 at a time, and every reply keeps its own link, so a shared link still opens on the right reply.
+Choose **Classic** or **Compact** at any time to read every reply. Replies load about 50 at a time, and every reply keeps its own link, so a shared link still opens on the right reply.
 
 The **Timeline** beside the conversation shows how busy each day was. Choose a day to jump to its first reply, or use **Back to top**, **Where you stopped**, **Busiest day** and **Jump to newest**. On a phone, conversations with more than 20 replies show a small button above the reply box, such as **Reply 31 of 40 · Jump**. Choose it to go to the start, the busiest moment, the newest reply, a date or a reply number.
 
@@ -79,7 +82,7 @@ If you'd rather every conversation open in the usual way, open **You** from your
 
 ## Questions and answers forums
 
-In a **Questions and answers** forum, a question opens on **Top answers**: the accepted answer first, then the answers people voted up most. When two answers have the same votes, the newer one comes first. Each answer shows its first few replies, and **Show all replies** opens the rest. Choose **In order** to read everything by time instead.
+In a **Questions and answers** forum, a question opens on **Top answers**: the accepted answer first, then the answers people voted up most. When two answers have the same votes, the newer one comes first. Each answer shows its first few replies, and **Show all replies** opens the rest. Choose **Classic** to read everything by time instead.
 
 ## Format your post
 
