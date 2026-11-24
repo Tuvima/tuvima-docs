@@ -42,7 +42,7 @@ Next to the page title, **On** means you have set up questions or a Trailhead. *
 
 ## Places no answer leads to
 
-When you have questions, the page lists the places that no answer and no start-here choice puts in anyone's menu. These are not hidden: members still find them under **See all places** in their menu. Use the list to spot a forum you forgot to point an answer at.
+When you have questions, the page lists the places that no answer and no start-here choice puts in anyone's menu. These are not hidden: members still find them on **Pick what you see**, at the foot of their menu. Use the list to spot a forum you forgot to point an answer at.
 
 ## The preview
 

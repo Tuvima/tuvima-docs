@@ -13,7 +13,7 @@ You decide how every place starts in members' menus. Open **Manage**, then **Onb
 
 | Choice | What it means |
 | --- | --- |
-| **Normal** | The place isn't in new members' menus to begin with. They find it under **See all places**, unless a role or level adds it to their menu. |
+| **Normal** | The place isn't in new members' menus to begin with. They find it on **Pick what you see**, unless a role or level adds it to their menu. |
 | **Start here** | The place is in every new member's menu, whatever they picked. They can take it off. Choose a few welcoming places, such as an introductions forum and a general chat channel. |
 | **Always shown** | The place is in every menu, and members can't hide it. Use it sparingly, for places such as Announcements. |
 | **Opt-in** | Only members who pick it see it. Forums and chat channels only. See [Opt-in places](#opt-in-places). |
@@ -38,7 +38,7 @@ A start-here place that new members can't open (for example a members-only forum
 
 ## Opt-in places
 
-An **Opt-in** forum or chat channel stays out of everyone's menu. Members who want it switch on its role under **Roles you can pick** on **Your paths**, and only they can open it. For example, a cycling club can make a "Meetups" forum Opt-in, so only members who plan to ride together see it.
+An **Opt-in** forum or chat channel stays out of everyone's menu. Members who want it choose **Add** beside it on [Pick what you see](../guides/paths-and-places.md), and only they can open it. A member's home says how many Opt-in places they haven't added, with a link to Pick what you see. For example, a cycling club can make a "Meetups" forum Opt-in, so only members who plan to ride together see it.
 
 You can make a place Opt-in in two ways:
 

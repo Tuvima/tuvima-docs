@@ -26,7 +26,7 @@ You need the **Manage onboarding** permission (Admins and the owner, to begin wi
 
 Switching it on:
 
-- creates a **Lamplighters** role that members can pick on **Your paths**. It shows on member cards and posts, so newcomers can see who's welcoming them. If you already have a pick-yourself role called Lamplighters, Tuvima uses it.
+- creates a **Lamplighters** role that members can pick on **Pick what you see**. It shows on member cards and posts, so newcomers can see who's welcoming them. If you already have a pick-yourself role called Lamplighters, Tuvima uses it.
 - creates the **Lamplighter** achievement: "Welcome 10 newcomers who stay on to post again." You can edit or switch it off in **Achievements** like any other.
 
 Switching Lamplighters off stops the list and the alerts. The role and the achievement stay; delete or change them under [Roles](roles.md) and Achievements if you like. Deleting the role switches Lamplighters off.
