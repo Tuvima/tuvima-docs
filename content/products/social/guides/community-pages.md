@@ -1,6 +1,6 @@
 ---
 title: Find your way around a community
-description: "What you see on a community's home, its forum group pages, a forum, a persona card, a conversation and a member's page in that community, with their showcase and what they're known for."
+description: "What you see on a community's home, its forum group pages, a forum, a persona card, a conversation and a member's persona page in that community, with their cover, showcase and what they're known for."
 audience: user
 category: guide
 product_area: tuvima
@@ -73,15 +73,33 @@ The line above the title shows where you are, for example **Retro Console Club â
 
 ## A member's page in a community
 
-Choose someone's name in a community to see their page there. It shows only what they did in that community:
+Choose someone's name in a community to see their persona page there. It shows only what they did in that community.
 
+**The top of the page**
+
+- A **cover** across the top. It uses the community's colour until the person chooses their own.
+- A large picture, their name, level, roles and the [Achievement](achievements.md) they show by their name, with **Joined here** and the month.
+- **Message** (shown when that person allows it). **Follow** and the **Followers** count appear only for global personas.
+- Numbers: **Conversations**, **Replies**, **Reputation here**, **Achievements** and **Followers**. A community can turn numbers off, and then Reputation here is hidden.
+
+**Tabs**
+
+- **Activity:** what they started, replied to, earned and added as photos, newest first. Choose **Load more** for older items.
+- **Conversations**, **Replies**, **Photos** and **Achievements**.
+
+**Side panels**
+
+- **About**,
+- **Level here.** The progress toward the next level shows only on your own page.
+- **Showcase:** up to six of their [achievements](achievements.md) there,
 - **Known for here:** up to three tags they post under most in that community,
-- their **Showcase:** up to six of their posts they picked,
-- their level and a showcase of up to six [achievements](achievements.md) there,
-- their photos there,
-- the conversations they started there.
+- **Pinned:** up to six of their posts they picked.
 
-Their page never shows other communities they belong to, and a private persona is never linked to anyone's global persona.
+There is no "last seen". Their page never shows other communities they belong to, and the footer says so. A private persona is never linked to anyone's global persona. The [persona card](#look-at-someones-persona-card) uses the same cover colour.
+
+### Change your cover
+
+On your own page in a community, choose **Change cover**. Pick one of 12 colours, or upload a picture. A picture goes through the same photo checks as any other photo. You can go back to the community colour at any time. Your cover belongs to that community only, so each community can have a different one.
 
 ### Your showcase
 

@@ -28,7 +28,7 @@ Every community has its own achievements, set up by its owner, and the Tuvima fr
 | **Everyone** | The achievements you have earned, and how rare each one is. |
 | **Only you** | Your progress toward achievements you have not earned yet, such as "74 of 100". |
 
-On someone else's page you only ever see the achievements they have earned.
+On someone else's page you only ever see the achievements they have earned. Secret achievements stay hidden from people who do not hold them.
 
 ## Earning one
 
@@ -55,17 +55,27 @@ Each achievement shows how many members hold it, for example **Held by 6% of mem
 
 ## The Achievements tab
 
-In each community, **Achievements** is one of the tabs in the community's top band. It shows your own collection in three lists, each with a count:
+In each community, **Achievements** is one of the tabs in the community's top band. At the top, a summary shows:
+
+- a **ring** with how many you have earned out of the total (on your own page only),
+- **Rarest:** the one you hold that fewest members have,
+- **By your name**, with **Change**.
+
+Below it, your collection sits in three tabs, each with a count:
 
 - **Earned**: what you hold, with the date. An achievement a moderator gave you by hand says **Given by hand**, and any public note from the giver appears under it.
-- **Working on**: achievements you have started, with a progress bar and a figure such as "74 of 100". Only you see these.
+- **Working on**: achievements you have started, with a progress bar and a figure such as "74 of 100", marked **only you see this**.
 - **Still to earn**: the rest that are open to you, so you can see what is possible.
+
+Other people see **Earned** only.
+
+Emblems are grouped by series: the steps of one achievement together, then single achievements grouped by place, then **Secret**. A series shows how many of its steps you have, for example "2 of 5 steps". Rarity shows one decimal place under 10%, for example **Held by 4.2% of members**.
 
 Above each list you can search, and choose **Where** (the whole community, or one forum, category or tag), **Kind** and **Order**. Earned lists newest first by default, Working on lists the closest to finished first, and Still to earn lists the rarest first. You can also order by name.
 
-On a computer, a side column adds **Recently earned in the community**: the five newest achievements earned there. It only shows what you are allowed to see, and leaves out secret ones you have not earned.
+On a computer, a side column shows your **Showcase** and **Recently earned here**, the five newest achievements earned in the community. It only shows what you are allowed to see, and leaves out secret ones you have not earned.
 
-To see another member's collection, open their name and choose **All achievements** on their page. You will see their **Earned** list only.
+To see another member's collection, open their name and choose their **Achievements** tab or **All achievements**. You will see their **Earned** list only.
 
 ## The close-up card
 
@@ -89,9 +99,9 @@ On your Achievements tab, find **Showing by your name**, choose **Change**, and 
 
 ## Your showcase of six
 
-Your page in a community opens with an **Achievements** section, above your pinned posts. It shows up to six achievements, how many you have earned there, and an **All achievements** button.
+Your persona page in a community has a **Showcase** panel with six slots. It also appears beside your Achievements tab.
 
-Until you arrange it, your page shows the six rarest ones you hold. To choose your own, open **Your showcase** on your Achievements tab, choose **Arrange your six**, and use **Up**, **Down** and **Remove**. You can also choose **Add to showcase** on any card. When you have six, remove one first.
+Until you pick, your page shows the six rarest ones you hold. To choose your own, drag an earned emblem into a slot. You can also choose **Add to showcase** on an emblem, then use **Move earlier**, **Move later** and **Remove**. On a phone the buttons are **Up** and **Down**. When all six slots are full, remove one first.
 
 ## Community goals and limited-time achievements
 
