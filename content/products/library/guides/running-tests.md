@@ -257,6 +257,18 @@ pwsh -File tools/Run-IngestionBaseline.ps1 -Generate -Label before-1
 pwsh -File tools/Run-IngestionBaseline.ps1 -SampleRoot D:\samples -Label real-1
 ```
 
+Saved provider keys on a real install are sealed with that install's own root key, so
+the run points itself at this computer's key file (read only), unless
+`TUVIMA_SECRETS_KEY` or `TUVIMA_SECRETS_KEY_FILE` already names one. If a key still
+cannot be opened, the run says so by name, says which kinds of media it cannot
+identify (films and TV need TMDB or TheTVDB, comics need Comic Vine), lists the files
+it therefore never registered under `held_kinds` in the record, and exits with code
+7. A fresh checkout works as it is: a missing library for a media type is made empty
+from `library_kinds.json`. A finished run's data store is not meant for the
+Dashboard (setup is marked finished but no administrator exists); to look at it, run
+`pwsh -File tools/Run-IngestionBaseline.ps1 -OpenStoreOf <run folder, id or label>`,
+which makes a keyless copy whose first-time setup starts again.
+
 The script builds the Engine (skip with `-NoBuild`) and calls the Debug-only
 offline command `--run-baseline`; the other steps are commands of their own:
 `--generate-baseline-samples <sample-root>`, `--prepare-baseline <config-dir>
