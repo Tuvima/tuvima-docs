@@ -47,6 +47,10 @@ When someone has read your message, you see a small **Seen** under it, and they 
 
 Messages waiting under New never show Seen until you reply, whatever this is set to. You can also change it for one conversation, in that conversation's info panel. See [Seen: knowing your message was read](../../social/guides/messages.md#seen-knowing-your-message-was-read). Tuvima ID only keeps this yes or no; it never sees what you read, or when.
 
+## Alerts for new messages
+
+When someone you have not talked with writes to you, or invites you to a group, the message waits under **New** and you get one alert. **Alert me about new messages** is on to begin with. Switch it off under **Who can message you** and none of your personas get these alerts; the messages still wait under New. Alerts for conversations you already have are not affected, and the sender is never told either way.
+
 ## Things this setting does not change
 
 - **Moderators can still reach you.** A moderator of a community you belong to can always message you there. Their messages carry a Moderator tag.
