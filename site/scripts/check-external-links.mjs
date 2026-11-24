@@ -12,6 +12,7 @@ const urls = new Set();
 const authenticatedDestinations = new Map([
   ['https://www.themoviedb.org/settings/api', { status: 401, outcome: 'authentication-required', reason: 'TMDB API settings requires a signed-in account.' }],
   ['https://github.com/Tuvima/tuvima-library/security/advisories/new', { status: 429, outcome: 'bot-blocked', reason: 'GitHub answers anonymous automated requests to its sign-in-only advisory form with 429.' }],
+  ['https://www.qnap.com/en-us/how-to/tutorial/article/how-to-use-container-station-3', { status: 405, outcome: 'bot-blocked', reason: 'QNAP refuses automated link checkers with 405; the Container Station 3 guide opens normally in a browser.' }],
   ['https://subdl.com/developers', { status: 403, outcome: 'bot-blocked', reason: 'SubDL refuses automated link checkers; the page opens normally in a browser.' }],
 ]);
 async function collect(dir) {

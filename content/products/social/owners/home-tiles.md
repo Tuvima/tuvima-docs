@@ -19,7 +19,7 @@ Your community's home page lists its categories so members can find their way in
 
 ## Open the tile builder
 
-On your community's home page, choose **Edit home page** next to **Forums**. You can also find it in **Manage**, under **Look and home page**. You need to be the owner or an admin, because the tiles change both the look of the page and the order of your categories.
+On your community's home page, choose **Edit home page** next to **Forums**. You can also find it in **Manage**, under **Profile and look**, on the **Home page** tab. You need to be the owner or an admin, because the tiles change both the look of the page and the order of your categories.
 
 Nothing changes for members while you edit. They see your new layout only when you choose **Publish**. If you leave without publishing, Tuvima asks first so you don't lose your changes.
 
@@ -31,7 +31,7 @@ Each category is one tile. Choose a tile to change it, then pick its **width**:
 - **Half**: two side by side. This is how every category starts.
 - **Third**: three side by side. Small and tidy, so a third tile shows its colour mark but no picture.
 
-Drag a tile by its handle to move it, or use **Move earlier** and **Move later** (these also work with a keyboard). The order you choose is your categories' order everywhere in the community.
+Drag a tile by its grip to move it: with a mouse, drag and drop; on a phone, hold the grip, then move; with a keyboard, Tab to the grip, press Space to lift, use the arrow keys, then Space to drop (Esc cancels). **Move earlier** and **Move later** buttons do the same. The order you choose is your categories' order everywhere in the community.
 
 On phones, every tile takes the full width, one under another, in the same order.
 
@@ -75,4 +75,4 @@ Choose **Preview on phone** to see your layout at a phone's width before you pub
 
 ## Adding or removing categories
 
-The tile builder arranges the categories you have. To add, rename or remove a category, use [Forums and categories](categories-and-forums.md). A new category appears at the end of your tiles as a half-width tile until you move it.
+The tile builder arranges the categories you have. To add, rename or remove a category, use [Forums and channels](categories-and-forums.md). A new category appears at the end of your tiles as a half-width tile until you move it.

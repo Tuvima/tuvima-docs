@@ -25,7 +25,7 @@ Owners and admins set up channels.
 
 Chat channels are one of Tuvima's built-in [add-ons](add-ons.md), and the add-on is **on** by default.
 
-To switch it off, open **Manage**, then **Add-ons**, and untick **Chat channels**.
+To switch it off, open **Manage**, then **Features**, choose the **Add-ons** tab, and untick **Chat channels**.
 
 - Switching it off hides the **Chat** tab and every channel from everyone.
 - **Nothing is deleted.** Switch it on again and the channels and their messages are back.
@@ -56,7 +56,7 @@ Visitors, and people who have not joined, always see the home page. They never s
 
 ## Add a channel
 
-1. Open **Manage**, then **Forums and categories**. The page is titled **Categories and forums**.
+1. Open **Manage**, then **Forums and channels** under **Community**. The **All places** tab lists every forum and chat channel.
 2. In the category you want, choose **Add a chat channel**, next to **Add a forum**.
 3. Fill in:
    - **Name**, up to 50 characters. Each channel in a community needs its own name.
@@ -68,19 +68,19 @@ Visitors, and people who have not joined, always see the home page. They never s
 
 A new channel can be read by every member who can open its category. A community can have up to 50 channels.
 
-Each channel is listed under its category's forums with a **Chat channel** badge. Use **Up** and **Down** to change the order, **Edit** to open its settings, and **Delete** to remove it. These buttons only show while the Chat channels add-on is on.
+Each channel is listed under its category's forums with a **Chat channel** badge. Drag its grip, or use **···** then **Move up**, **Move down** or **Move to…**, to change the order; **Open settings** opens its settings and **Delete** removes it. See [change the order](categories-and-forums.md#change-the-order). These only show while the Chat channels add-on is on.
 
-Someone who holds only **Manage chat channels** sees a **Chat channels** page in **Manage**. It shows each category's channels, with **Add a chat channel**, ordering and **Edit**, and no category or forum controls.
+Someone who holds only **Manage chat channels** sees a **Chat channels** page in **Manage**. It shows each category's channels, with **Add a chat channel**, ordering and **Open settings**, and no category or forum controls.
 
 People who can manage channels also see **Manage channels** at the top of the channel list in **Chat**.
 
 ## Channel settings
 
-Choose **Edit** next to a channel. Each part of the page saves by itself.
+Choose the channel in the tree, or **Open settings** in its **···** menu. A channel has two tabs, **Basics** and **Access**, and they share the page's one save bar.
 
-### Name and purpose
+### Basics
 
-Change the **Name**, **What it is for** and the **Category**. Moving a channel puts it last in its new category. Choose **Save**.
+Change the **Name**, **What it is for** and the **Category**. Moving a channel puts it last in its new category. Then choose **Save changes**.
 
 ### Who can read and post
 
@@ -91,15 +91,15 @@ Choose **Who can see and post** to open the same choices a forum has; see [choos
 
 **Only some members** lets you pick who can read, or who can post, by level, role or member tier.
 
-### Permissions
+### Role exceptions
 
-The **Permissions** tab sets what each role can do in this channel: write messages, react, add links and more, and staff actions such as removing messages. See [set permissions for a place](place-permissions.md). **Who can see and post** still decides who is in the channel at all.
+Under **Role exceptions here** on the **Access** tab, you set what a role can or can't do in this channel: write messages, react, add links and more, and staff actions such as removing messages. See [set permissions for a place](place-permissions.md). **Who can see and post** still decides who is in the channel at all.
 
 ### Read-only channels
 
 A read-only channel is one where only some members can post, for example **announcements**. Everyone else who can read it sees "Only some members can post here" in place of the message box. They can still read and react.
 
-For finer control, use **Permissions**: set **Post messages in chat** to **Deny** for Everyone and **Allow** for a role such as Announcer. See [a read-only announcements channel](place-permissions.md#a-read-only-announcements-channel).
+For finer control, use **Role exceptions here**: set **Post messages in chat** to **Deny** for Everyone and **Allow** for a role such as Announcer. See [a read-only announcements channel](place-permissions.md#a-read-only-announcements-channel).
 
 ### Slow mode
 
@@ -134,7 +134,7 @@ The rules you already have apply in chat: suspensions, bans and [newcomer limits
 - **Removing messages.** Moderators can open **Message options** on any message and choose **Remove message**. A line saying "This message was removed" stays in its place. The removal is written in your community's moderation log as "Removed a message in a chat channel", **without the message's text**.
 - **Reports.** When a member reports a channel message, it goes to your community's moderators, with the message and up to 5 messages before and after it. A moderator only receives reports about channels they can read.
 - **Keeping good chat.** Anyone can turn their own messages into a forum conversation with **Turn into a conversation**. Turning other people's messages needs the **Turn anyone's chat messages into a conversation** permission, which the ready-made Owner, Admin and Moderator roles have. You can switch it on or off for a role on the [Roles](roles.md) screen. Every writer is credited, and a link is left in the channel.
-- **Moderator tag.** In a channel, messages from people who hold a moderation permission carry a **Moderator** tag. In private messages the tag appears only when a moderator writes from the moderation screens.
+- **Moderator tag.** In a channel, messages from people who hold a moderation permission carry a **Moderator** tag. In private messages the tag appears only when a moderator writes from the moderation screens. Private messages are never reported to moderators: members report threats in them to Tuvima staff instead.
 
 ## What to tell your members about privacy
 

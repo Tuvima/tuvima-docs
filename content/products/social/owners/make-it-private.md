@@ -28,7 +28,7 @@ Want most of your community open, with one or two members-only forums? Keep it p
 
 ## Make it private
 
-1. Open **Manage**, then **Joining and privacy**, and find **Who can read this community**.
+1. Open **Manage**, then **Joining and leaving**, and on the **Privacy** tab find **Who can read this community**.
 2. Choose **Private**, then **Save**.
 3. Read the summary of what changes and choose **Make private**.
 

@@ -31,7 +31,7 @@ Tiers are separate from [roles](roles.md). A role is a job in the community, suc
 
 The owner and admins can make, change and give tiers. The owner can also give the **Manage member tiers** permission to any other role.
 
-Open **Manage**, then **Member tiers**. A community can have up to 50 current tiers; retired tiers don't count.
+Open **Manage**, then **Levels and recognition**, and choose the **Member tiers** tab. A community can have up to 50 current tiers; retired tiers don't count.
 
 ## Make a tier
 
@@ -64,7 +64,7 @@ Time held counts across all the periods someone had the tier, including past one
 
 ## Open a forum to a tier
 
-In **Forums and categories**, choose **Who can see and post** next to a category or forum, choose **Only some members**, and add **Member tier** as a way in. See [choose who can see and post in each area](area-access.md).
+In **Manage**, then **Forums and channels**, choose **Who can see and post** next to a category or forum, choose **Only some members**, and add **Member tier** as a way in. See [choose who can see and post in each area](area-access.md).
 
 The moment someone's tier ends, the forum closes for them. Its conversations disappear from their notices, saved and watched lists, search and their own posts, and they are no longer told about new replies there.
 

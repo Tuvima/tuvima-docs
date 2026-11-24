@@ -17,14 +17,16 @@ These tools help your moderators act early and fairly. Nothing here bans anyone 
 <figcaption>On a computer and on a phone; select a picture to see it full size. Everyone shown is a made-up sample person.</figcaption>
 </figure>
 
-Owners and admins set them up in **Manage**, then **Warnings and word filters**.
+Owners and admins set them up in **Manage**, then **Moderation rules** under **Safety**. Its tabs are **Warnings**, **Word filters**, **Photo checks**, **Member moderation** and **Notices**.
 
 ## Newcomers
 
 Newcomers are members who haven't yet met your [newcomer limits](../guides/newcomers.md).
 
-- **Hold first posts from newcomers for review**: their first posts wait in the approval queue until a moderator approves them.
-- **What newcomers can use**: switch photos, polls, looking-for-group posts and links on or off for newcomers. Off means it opens up once they are no longer a newcomer.
+These settings are in **Manage**, then **Newcomers** under **People**.
+
+- **Limits**, including **Hold first posts from newcomers for review**: their first posts wait in the approval queue until a moderator approves them.
+- **What they can use**: switch photos, polls, looking-for-group posts and links on or off for newcomers. Off means it opens up once they are no longer a newcomer.
 
 ## Warnings
 
@@ -96,10 +98,10 @@ In [chat channels](chat-channels.md), only filters set for **Every forum** apply
 
 ## The approval queue
 
-Open **Manage**, then **Approval queue**. Everything that needs a moderator's decision waits here together:
+Open **Manage**, then **Approval queue** under **Safety**. Everything that needs a moderator's decision waits here together:
 
 - **Held posts**: posts held by a word filter, by warning points, or because they are a newcomer's first posts.
-- **Join requests**: people asking to join.
+- **Join requests**: people asking to join. They no longer have a page of their own.
 - **Coming back**: former members asking to come back, when [returns need a moderator](leaving-and-coming-back.md).
 - **Switching**: private personas asking to become their global persona, when [switching needs a moderator](leaving-and-coming-back.md#switching-personas). The card reads "@old wants to become @new", with the level and posts the member keeps and their message. Approving or declining is kept in the moderation record.
 - **Reported posts** and **Reported messages**: what members have reported.
@@ -140,7 +142,7 @@ The queue shows one card at a time, with a progress bar at the top. **Reject**, 
 
 ## Removed posts
 
-Open **Manage**, then **Removed posts**. It lists posts moderators removed in the last 30 days, with who removed each one, the rule it broke and how many days are left to restore it. You can show one forum, or the posts one moderator removed.
+Open **Manage**, then **Moderation history** under **Safety**, and choose the **Removed posts** tab. It lists posts moderators removed in the last 30 days, with who removed each one, the rule it broke and how many days are left to restore it. You can show one forum, or the posts one moderator removed.
 
 To bring a post back, choose **Restore**:
 

@@ -7,7 +7,7 @@ product_area: tuvima
 status: early-access
 ---
 
-Open **Manage**, then **Members**. Moderators, admins and the owner can see this page.
+Open **Manage**, then **Members** under **People**. Moderators, admins and the owner can see this page.
 
 <figure class="tv-screens">
 <img class="tv-desktop tv-light" src="../assets/screens/members-desktop-light.jpg" alt="The members list of a community, with each member&#x27;s role and when they joined." width="1600" height="1000" loading="lazy" decoding="async">
