@@ -7,6 +7,12 @@ product_area: wikidata
 status: current
 ---
 
+## v3.12.0
+
+Minor release. Person searches that do not match cost one request less.
+
+- `Persons.SearchAsync` and `SearchBatchAsync` no longer fetch the best hit's details when its score is below `AcceptThreshold`. The result is still `Found = false` and still carries `Qid`, `CanonicalName` and `Score`, but `Occupations`, `NotableWorks`, `IsGroup` and `GroupMembers` stay empty.
+
 ## v3.11.0
 
 Minor release. Callers that run at the same time and want the same kind of entity data now share requests. New option `EntityBatchWindow`.
