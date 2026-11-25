@@ -7,6 +7,12 @@ product_area: wikidata
 status: current
 ---
 
+## v3.10.3
+
+Patch release. Repeated searches no longer cost a request each. No public API changes.
+
+- The response cache now also keeps name searches (`wbsearchentities`), full-text searches (`list=search`, including the `haswbstatement:` type and external-ID searches) and Wikipedia table-of-contents answers. Only entity data and article summaries were kept before, so a person credited on many titles was searched for again every time. Error answers and malformed bodies are still never cached, and answers expire with `ResponseCacheTtl`.
+
 ## v3.10.2
 
 Patch release. Fixes bridge text fallback for very common titles. No public API changes.
