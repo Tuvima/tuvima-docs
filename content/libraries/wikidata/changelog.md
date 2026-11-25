@@ -7,6 +7,14 @@ product_area: wikidata
 status: current
 ---
 
+## v3.11.0
+
+Minor release. Callers that run at the same time and want the same kind of entity data now share requests. New option `EntityBatchWindow`.
+
+- Concurrent callers that ask for entities with the same language and properties are collected for `EntityBatchWindow` (100 ms by default) and sent as `wbgetentities` calls of up to 50 entities, instead of one small call each. A full batch is sent at once. Entities already held in memory are never queued.
+- Each caller waits on its own entities and its own cancellation token. The shared request is cancelled only when every caller waiting on it has cancelled, and a failed shared request fails every caller waiting on it.
+- Set `EntityBatchWindow = TimeSpan.Zero` to turn combining off.
+
 ## v3.10.3
 
 Patch release. Repeated searches and repeated entity fetches no longer cost a request each. No public API changes.
