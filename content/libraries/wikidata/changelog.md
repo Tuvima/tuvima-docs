@@ -7,6 +7,13 @@ product_area: wikidata
 status: current
 ---
 
+## v3.10.3
+
+Patch release. Repeated searches and repeated entity fetches no longer cost a request each. No public API changes.
+
+- The response cache now also keeps name searches (`wbsearchentities`), full-text searches (`list=search`, including the `haswbstatement:` type and external-ID searches) and Wikipedia table-of-contents answers. Only entity data and article summaries were kept before, so a person credited on many titles was searched for again every time. Error answers and malformed bodies are still never cached, and answers expire with `ResponseCacheTtl`.
+- Entities already fetched are remembered in memory (up to 2,500 with claims and 60,000 labels or sitelinks only). Asking again for the same entity with the same or fewer properties, in the same language list or in all languages, is answered from memory, so the same entity asked for as "claims" and then as "labels" costs one request. Only the entities not yet held are fetched.
+
 ## v3.10.2
 
 Patch release. Fixes bridge text fallback for very common titles. No public API changes.

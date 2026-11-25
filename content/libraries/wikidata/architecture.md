@@ -133,7 +133,7 @@ Host limiters acquire concurrency capacity before spacing admissions under an as
 
 - **Zero external dependencies** — only `System.Text.Json` (built into .NET). No FuzzySharp, no Polly, no caching libraries.
 - **AOT compatible** — `IsAotCompatible` and `IsTrimmable` set in .csproj. All JSON serialization uses source-generated `JsonSerializerContext` (no reflection).
-- **Response cache hook** — the shared pipeline has a small `IWikidataResponseCache` abstraction with a process-local in-memory default. Consumers that need durable provider caching can replace it without changing service code.
+- **Response cache hook** — the shared pipeline caches entity data, name and full-text searches, article summaries and table-of-contents answers (never error answers) and has a small `IWikidataResponseCache` abstraction with a process-local in-memory default. Consumers that need durable provider caching can replace it without changing service code.
 - **Dual search** — both `wbsearchentities` and full-text search contribute to recall, but multi-language queries run the full-text pass only once and fan out only the autocomplete pass per language.
 - **Claim rank hierarchy** — preferred rank values used if available, then normal, deprecated always excluded.
 - **Language fallback chain** — exact -> subtag parent -> "mul" -> "en". API requests include all fallback languages.
