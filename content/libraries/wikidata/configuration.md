@@ -62,6 +62,7 @@ var reconciler = new WikidataReconciler(new WikidataReconcilerOptions
     EnableResponseCaching = true,
     ResponseCache = new InMemoryWikidataResponseCache(),
     ResponseCacheTtl = TimeSpan.FromHours(12),
+    EntityBatchWindow = TimeSpan.FromMilliseconds(100),
 
     // Type hierarchy (P279 subclass walking)
     TypeHierarchyDepth = 0,      // 0 = direct P31 match only (fast)
@@ -143,6 +144,8 @@ Provider error envelopes, malformed JSON, and invalid field types in recognized 
 `CachingDelegatingHandler` (an `HttpClient` handler-level cache) is obsolete since v3.10. It sits below the retry pipeline; it now skips MediaWiki error envelopes and non-JSON bodies, but `ResponseCache` is the supported cache.
 
 ## Batch Execution and Request Pacing
+
+`EntityBatchWindow` (default 100 ms) is how long entity requests wait to be combined with other callers' requests for the same language and properties. Combined requests carry up to 50 entities per `wbgetentities` call, which cuts the number of requests when many lookups run at once. Zero turns combining off.
 
 `MaxConcurrency` (default 5, clamped internally to 1..1024) limits active work items per batch or variable-size fan-out. This applies to reconciliation batches/streams, multi-author resolution, person batches, Wikipedia language/article/section fan-out, and multilingual search. Person batches also retain their existing cap of three or the configured Wikidata concurrency, whichever is smaller. Nested operations have independent windows; shared host policies still cap actual HTTP concurrency across the reconciler.
 
