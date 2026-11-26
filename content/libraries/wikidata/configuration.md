@@ -63,6 +63,7 @@ var reconciler = new WikidataReconciler(new WikidataReconcilerOptions
     ResponseCache = new InMemoryWikidataResponseCache(),
     ResponseCacheTtl = TimeSpan.FromHours(12),
     EntityBatchWindow = TimeSpan.FromMilliseconds(100),
+    WidenEntityFetches = true,
 
     // Type hierarchy (P279 subclass walking)
     TypeHierarchyDepth = 0,      // 0 = direct P31 match only (fast)
@@ -146,6 +147,8 @@ Provider error envelopes, malformed JSON, and invalid field types in recognized 
 ## Batch Execution and Request Pacing
 
 `EntityBatchWindow` (default 100 ms) is how long entity requests wait to be combined with other callers' requests for the same language and properties. Combined requests carry up to 50 entities per `wbgetentities` call, which cuts the number of requests when many lookups run at once. Zero turns combining off.
+
+`WidenEntityFetches` (default `true`) makes any request for an entity's claims or sitelinks fetch the entity once in full (labels, descriptions, aliases, claims and sitelinks, in all languages). That one fetch answers every later request for any part of it from memory, and callers who used to ask for different parts share the same combined requests. Set it to `false` to fetch exactly the parts each caller asks for.
 
 `MaxConcurrency` (default 5, clamped internally to 1..1024) limits active work items per batch or variable-size fan-out. This applies to reconciliation batches/streams, multi-author resolution, person batches, Wikipedia language/article/section fan-out, and multilingual search. Person batches also retain their existing cap of three or the configured Wikidata concurrency, whichever is smaller. Nested operations have independent windows; shared host policies still cap actual HTTP concurrency across the reconciler.
 
