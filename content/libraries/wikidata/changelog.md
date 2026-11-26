@@ -7,6 +7,14 @@ product_area: wikidata
 status: current
 ---
 
+## v3.13.0
+
+Minor release. Fewer requests per lookup. New request option `TypeFilteredSearchOnly` and new option `WidenEntityFetches`.
+
+- A person search no longer runs the plain full-text search. The autocomplete search and the type-filtered full-text search (which only returns people) already cover the candidates, so the plain one mostly returned things of other types. One request fewer per person. `Persons` sets `ReconciliationRequest.TypeFilteredSearchOnly` for you; set it yourself only for types every entity carries directly (such as `Q5`), not for types with many subclasses.
+- A person search for a role that includes musical groups asks all its allowed types in one `haswbstatement:P31=A OR haswbstatement:P31=B` request instead of one request per type. Other searches still ask each type in turn, so earlier types rank first.
+- A request for an entity's claims or sitelinks now fetches the entity once in full: labels, descriptions, aliases, claims and sitelinks, in all languages. That one fetch answers every later request for any part of the entity from memory, and callers who used to ask for different parts now share the same combined requests. Wikidata limits requests per second, not size, so fewer, fuller requests are cheaper. Set `WidenEntityFetches = false` to fetch exactly the parts each caller asks for. Labels-only requests stay light.
+
 ## v3.12.0
 
 Minor release. Person searches that do not match cost one request less.
