@@ -403,6 +403,14 @@ A strategy's `claim_rules` drop claims, drop text that reads as another language
 other claims, the request or hints. A strategy `role` (`container` or `item`) says what it returns and
 `extra_field_aliases` keeps a mapped id under a second name in search results.
 
+### One answer per album for songs (`shared_album_claim_keys`)
+
+A music provider can list the claim keys that describe a whole album (cover, album name, album id, genre and similar). When a song has both an artist and an album, the provider is asked once per album and every song of that album takes those keys from the shared answer, so a 12-song album costs one request instead of twelve. Facts about one song (track number, length, the song's own id) are never shared, and each song keeps its own title so the retail match still sees it. The answer is used only when the artist it names is the artist the song is tagged with (a near-exact name; "Various Artists" and "Unknown Artist" always pass), and an answer with no claims is not remembered, so the next song tries again. See `apple_api.json`.
+
+### Artist ids on music claims (`artist_mbids`)
+
+`musicbrainz.json` reads the credited artists' MusicBrainz ids into an `artist_mbids` claim (joined with `; ` in the same order as the `artist` claim). People enrichment uses them to find an artist's Wikidata item by exact id instead of searching by name; with no id, or when the id finds no single item, it falls back to the name search. Film and TV cast work the same way with the TMDB person id.
+
 ### Multi-step lookups (`flows`)
 
 `flows.fetch` and `flows.search` are short programs of steps (`set`, `slice`, `call`, `pages`, `find`,
