@@ -121,6 +121,12 @@
       "section": "Use Tuvima"
     },
     {
+      "source": "guides/coming-from-other-apps.md",
+      "slug": "guides/coming-from-other-apps",
+      "group": "Guides",
+      "section": "Use Tuvima"
+    },
+    {
       "source": "guides/naming-supporting-files.md",
       "slug": "guides/naming-supporting-files",
       "group": "Guides",
